@@ -257,8 +257,9 @@ def build_output(base_chs: List[Chapter],
     for bc in base_chs:
         hashes = '#' * bc.level
         lines.append(f'\n{hashes} {bc.raw_title}\n')
-        lines.extend(bc.paragraphs)
-        lines.append('')
+        for p in bc.paragraphs:
+            lines.append(p)
+            lines.append('')
 
         base_plain = plain_text(bc.paragraphs)
         rc = rev_map.get(bc.key)
