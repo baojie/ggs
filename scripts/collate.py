@@ -99,8 +99,12 @@ def chapter_key(title: str) -> str:
 
 HEADING_RE = re.compile(r'^(#{1,6})\s+(.*\S)')
 
+NOTES_START = re.compile(r'^注\s*[　 ]*释[：:]')  # "注　释：" 章末译者注起始
+FOOTNOTE_LINE = re.compile(r'^\[\d+[.．]')         # "[1. 译者注...]" 形式的脚注行
+
 def split_chapters(text: str) -> List[Chapter]:
     chapters, cur = [], None
+    in_notes = False  # 是否进入了章末注释区
     for line in text.split('\n'):
         m = HEADING_RE.match(line.rstrip())
         if m:
@@ -110,11 +114,19 @@ def split_chapters(text: str) -> List[Chapter]:
             if lvl <= 2:
                 if cur: chapters.append(cur)
                 cur = Chapter(key=key, raw_title=title, level=lvl)
+                in_notes = False
                 continue
         if cur is not None:
             s = line.strip()
-            if s and not s.startswith('#'):
-                cur.paragraphs.append(s)
+            if not s or s.startswith('#'):
+                continue
+            # 遇到章末注释区，停止收集正文段落
+            if NOTES_START.match(s):
+                in_notes = True
+                continue
+            if in_notes or FOOTNOTE_LINE.match(s):
+                continue
+            cur.paragraphs.append(s)
     if cur: chapters.append(cur)
     return chapters
 
