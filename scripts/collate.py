@@ -99,8 +99,16 @@ def chapter_key(title: str) -> str:
 
 HEADING_RE = re.compile(r'^(#{1,6})\s+(.*\S)')
 
-NOTES_START = re.compile(r'^注\s*[　 ]*释[：:]')  # "注　释：" 章末译者注起始
-FOOTNOTE_LINE = re.compile(r'^\[\d+[.．]')         # "[1. 译者注...]" 形式的脚注行
+NOTES_START  = re.compile(r'^注\s*[　 ]*释[：:]')   # "注　释：" 章末译者注起始
+FOOTNOTE_LINE = re.compile(r'^\[(\d+[.．]\s*.+)\]\([^)]*\)$')  # "[1. 内容](#url)"
+
+def clean_footnote(s: str) -> str:
+    """把 "[1. 新月沃地：……——译者](#url)" 提取为纯文字段落。"""
+    m = FOOTNOTE_LINE.match(s)
+    if m:
+        return m.group(1).strip()
+    # 兜底：直接去掉 markdown 链接括号部分
+    return re.sub(r'\(#[^)]*\)', '', s).strip().lstrip('[').rstrip(']')
 
 def split_chapters(text: str) -> List[Chapter]:
     chapters, cur = [], None
@@ -120,11 +128,15 @@ def split_chapters(text: str) -> List[Chapter]:
             s = line.strip()
             if not s or s.startswith('#'):
                 continue
-            # 遇到章末注释区，停止收集正文段落
+            # 遇到章末注释区标记，切换到注释模式（标记行本身不输出）
             if NOTES_START.match(s):
                 in_notes = True
                 continue
-            if in_notes or FOOTNOTE_LINE.match(s):
+            if in_notes:
+                # 译者注：清理链接格式后作为独立段落保留
+                note = clean_footnote(s)
+                if note:
+                    cur.paragraphs.append(note)
                 continue
             cur.paragraphs.append(s)
     if cur: chapters.append(cur)
