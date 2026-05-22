@@ -1,0 +1,91 @@
+# 枪炮、病菌与钢铁 Wiki — Claude 入口
+
+> **首先阅读宪法：** `$MEMEX_ROOT/CONSTITUTION.md`（全局不可违背规则）
+> **其次阅读本地法律：** `LAW.md`（本 wiki 补充规则）
+> **然后启动 BIRTH：** `BIRTH.md`（引导建设流程）
+> 如有冲突，宪法优先。
+
+---
+
+## MEMEX_ROOT
+
+共享代码源位于 `~/memex`（本机 symlink）。
+
+```bash
+MEMEX_ROOT="$HOME/memex"
+export MEMEX_ROOT
+```
+
+## 项目配置
+
+| 参数 | 值 |
+|------|---|
+| Wiki 名称 | 枪炮、病菌与钢铁 |
+| WIKI_LANG | zh |
+| 本地端口 | 1997 |
+| GitHub remote | https://github.com/baojie/ggs.git |
+
+---
+
+## ⚠️ 创建或修改 Wiki 页面后必须做的两件事
+
+**每次**新建或修改 wiki 页面，无一例外，必须立即执行：
+
+1. **注册页面**：更新 `docs/wiki/pages.json` 和 `docs/wiki/pages.lite.json`
+2. **记录 revision**：运行以下命令：
+   ```bash
+   python3 "$MEMEX_ROOT/wiki/scripts/record_revision.py" \
+     "页面名称" \
+     --summary "新增/修改描述" \
+     --author "baojie" \
+     --public docs/wiki
+   ```
+
+---
+
+## 重要安全规则
+
+### memex 文件不可直接操作
+
+任何涉及 `~/memex/` 或 `$MEMEX_ROOT` 路径的文件操作，**必须先提 RFC，走 `/rfc` 流程**。
+
+### Frontmatter Fields
+
+```yaml
+---
+id: entry-name
+type: concept
+label: 显示名称
+aliases: []
+tags: []
+description: 一句话描述
+---
+```
+
+### Page Types
+
+| type | 说明 |
+|------|------|
+| concept | 核心概念/理论 |
+| person | 人物 |
+| chapter | 章节摘要 |
+| place | 地理区域 |
+| event | 历史事件 |
+| species | 物种 |
+| overview | 综述/目录页 |
+
+### Workflow
+
+```bash
+# 创建新词条（必须用脚本，禁止直接 Edit/Write）
+python3 "$MEMEX_ROOT/wiki/scripts/add_page.py" SLUG - --summary "add: SLUG" << 'EOF'
+[frontmatter + content]
+EOF
+
+# 本地预览
+bash wiki-daemon.sh start   # http://localhost:1997
+
+# 发布
+bash wiki/scripts/wiki_commit.sh
+git push
+```

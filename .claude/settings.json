@@ -1,0 +1,61 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(git commit*)",
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "Bash(git reset --hard*)",
+      "Bash(git checkout --*)",
+      "Bash(git checkout * -- *)",
+      "Bash(git restore*)",
+      "Bash(git add -A*)",
+      "Bash(git add .)",
+      "Bash(git add --all*)",
+      "Bash(*$MEMEX_ROOT* > *)",
+      "Bash(*$MEMEX_ROOT* >> *)",
+      "Bash(*~/memex* > *)",
+      "Bash(*~/memex* >> *)",
+      "Bash(cp * *memex*)",
+      "Bash(mv * *memex*)",
+      "Bash(rm *memex*)",
+      "Bash(mkdir *memex*)",
+      "Bash(touch *memex*)",
+      "Bash(chmod *memex*)",
+      "Bash(git -C *memex* commit*)",
+      "Bash(git -C *memex* push*)",
+      "Bash(git -C *memex* reset*)",
+      "Bash(python* *open* *memex* *'w'*)",
+      "Bash(python* *open* *memex* *'a'*)"
+    ],
+    "allow": [
+      "Bash(git status)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(git show*)",
+      "Bash(git add wiki/public*)",
+      "Bash(python3 wiki/scripts/build_registry.py*)",
+      "Bash(bash wiki/scripts/wiki_commit.sh*)",
+      "Bash(bash wiki/scripts/publish.sh)",
+      "Bash(python3 wiki/scripts/butler/discover_wanted.py*)",
+      "Bash(python3 wiki/scripts/butler/corpus_search.py*)",
+      "Bash(python3 wiki/scripts/butler/record_action.py*)",
+      "Bash(cat wiki/logs/butler/*)",
+      "Bash(python3 \"/home/baojie/work/knowledge/memex/wiki/scripts/add_page.py\"*)",
+      "Bash(python3 \"/home/baojie/work/knowledge/memex/wiki/scripts/edit_page.py\"*)",
+      "Bash(bash \"/home/baojie/work/knowledge/memex/wiki/wiki.sh\"*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write|NotebookEdit|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 .claude/hooks/restrict_to_project.py"
+          }
+        ]
+      }
+    ]
+  }
+}

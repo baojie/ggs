@@ -1,1 +1,45 @@
+# ============================================================
+# ggs Wiki .gitignore
+# ============================================================
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+package.json
+package-lock.json
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# 临时文件
+tmp/
+*.tmp
+
+# 运行时锁文件
+*.lock
+logs/butler/*.lock
+.claude/scheduled_tasks.lock
+
+# 运行时日志
+*.log
+logs/butler/*.log
+logs/wiki-server.log
+
+# 私有内容（版权原文、草稿）
 private/
+
+# Claude Code 本地覆盖
+.claude/worktrees/
+.claude/settings.local.json
