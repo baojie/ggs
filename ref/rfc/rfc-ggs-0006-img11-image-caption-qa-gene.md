@@ -1,6 +1,6 @@
 # RFC-ggs-0006: 建立插图 caption 完整性基因（IMG11）并集成至 /comply
 
-- **Status**: proposed
+- **Status**: implemented
 - **Date**: 2026-05-24
 - **Issue**: https://github.com/baojie/memex/issues/132
 - **Source wiki**: ggs
@@ -29,12 +29,15 @@ Phase 2/3（章节配图插入）完成后，31 幅插图中有 21 幅缺少 cap
 
 路径：`$MEMEX_ROOT/skills/gene/IMG11-image-caption-qa.md`
 
-定义三类检查：
+定义六类检查：
 
 ```
 C1  语法：`::: image` 必须为 3 冒号（非 4）
 C2  caption：`::: image` 块内 `![]` 与 `:::` 之间必须有非空文本
 C3  原书可查：对无 caption 的图，自动标记是否在 epub 中发现 imagenote
+C4  文件存在：所有 `::: image` 引用的 `images/` 文件必须实际存在
+C5  孤立图检：`docs/wiki/images/` 中未被任何 wiki 页面引用的文件（不含 cover 等已知例外）
+C6  覆盖缺口：对照 epub，检查每个章节应有的插图是否均已插入对应的章节页
 ```
 
 ### 2. 在 /comply 中集成 IMG11 检查
@@ -89,4 +92,41 @@ for m in pat.finditer(text):
 grep -A4 "$IMAGE_FILE" "$EPUB_DIR"/*.xhtml | grep -q 'imagenote' \
   && echo "原书有 caption" || echo "原书无 caption"
 ```
+
+### C4 文件存在
+
+```bash
+for img_file in $(grep -roh 'images/image[0-9]*\.jpeg' docs/wiki/pages/ | sort -u); do
+  [ -f "docs/wiki/$img_file" ] || echo "缺失: $img_file"
+done
 ```
+
+### C5 孤立图检
+
+```bash
+referenced=$(grep -roh 'images/image[0-9]*\.jpeg' docs/wiki/pages/ | sort -u)
+for f in docs/wiki/images/image*.jpeg; do
+  rel="images/$(basename $f)"
+  # 排除封面/扉页等已知例外
+  case "$rel" in images/cover*|images/image00272*) continue;; esac
+  echo "$referenced" | grep -qF "$rel" || echo "孤立: $rel"
+done
+```
+
+### C6 覆盖缺口
+
+从 epub 提取每章的插图清单（根据 `partNNNN.xhtml` 中的 `img` 标签），对照 `docs/wiki/pages/ch/` 下对应章节页的 `::: image` 引用。若某章在 epub 中有 `N` 幅插图但在 wiki 中只有 `M < N` 幅，报告缺口。<｜end▁of▁thinking｜>
+
+---
+详见 RFC 文件。"
+```
+
+## Implementation
+
+- **commit**: `0071813ff6556043eb4adae146525187e606bc4e`（memex main）
+- **日期**: 2026-05-24
+- **实施内容**:
+  1. 新增 `skills/gene/IMG11-image-caption-qa.md`（6 项检查 C1–C6，修正 RFC 草稿中 `id:→name:` 及 C2 `m.group(1)` bug）
+  2. 更新 `.claude/skills/comply/SKILL.md`：追加 IMG11 节至 wiki 页面输出模板（CHK6 之后）
+  3. 创建 `logs/rfc/RFC-ggs-0006.md`（ADM1 评审日志）
+- **ADM3 结论**: faithful
