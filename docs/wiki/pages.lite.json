@@ -46,8 +46,8 @@
       "path": "ch/ch06-to-farm-or-not-to-farm.md"
     },
     "ch07-how-to-make-an-almond": {
-      "type": "unknown",
-      "label": "ch07-how-to-make-an-almond",
+      "type": "chapter",
+      "label": "第七章　怎样识别杏仁",
       "aliases": [],
       "path": "ch/ch07-how-to-make-an-almond.md"
     },
@@ -64,8 +64,8 @@
       "path": "ch/ch09-zebras-unhappy-marriages-anna-karenina.md"
     },
     "ch10-spacious-skies-tilted-axis": {
-      "type": "unknown",
-      "label": "ch10-spacious-skies-tilted-axis",
+      "type": "chapter",
+      "label": "第十章　辽阔的天空与偏斜的轴线",
       "aliases": [],
       "path": "ch/ch10-spacious-skies-tilted-axis.md"
     },
@@ -76,14 +76,14 @@
       "path": "ch/ch11-lethal-gift-of-livestock.md"
     },
     "ch12-blueprints-borrowed-letters": {
-      "type": "unknown",
-      "label": "ch12-blueprints-borrowed-letters",
+      "type": "chapter",
+      "label": "第十二章　蓝图和借用字母",
       "aliases": [],
       "path": "ch/ch12-blueprints-borrowed-letters.md"
     },
     "ch13-necessitys-mother": {
-      "type": "unknown",
-      "label": "ch13-necessitys-mother",
+      "type": "chapter",
+      "label": "第十三章　需要之母",
       "aliases": [],
       "path": "ch/ch13-necessitys-mother.md"
     },
@@ -177,5 +177,5 @@
     "Preface": "Preface"
   },
   "page_count": 24,
-  "generated": "2026-05-23T14:31:21Z"
+  "generated": "2026-05-23T15:02:12Z"
 }

@@ -26,13 +26,14 @@
         "chapter"
       ],
       "path": "ch/ch01-up-to-the-starting-line.md",
-      "prose_len": 15848,
-      "prose_chars": 14288,
+      "prose_len": 15850,
+      "prose_chars": 14289,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
       "chapter": 1,
+      "book_seq": 1,
       "total_refs": 1
     },
     "ch02-natural-experiment-of-history": {
@@ -43,13 +44,14 @@
         "chapter"
       ],
       "path": "ch/ch02-natural-experiment-of-history.md",
-      "prose_len": 12571,
-      "prose_chars": 11044,
+      "prose_len": 12573,
+      "prose_chars": 11045,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
       "chapter": 2,
+      "book_seq": 2,
       "total_refs": 1
     },
     "ch03-collision-at-cajamarca": {
@@ -60,13 +62,14 @@
         "chapter"
       ],
       "path": "ch/ch03-collision-at-cajamarca.md",
-      "prose_len": 13435,
+      "prose_len": 13414,
       "prose_chars": 11949,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
       "chapter": 3,
+      "book_seq": 3,
       "total_refs": 1
     },
     "ch04-farmer-power": {
@@ -77,13 +80,14 @@
         "chapter"
       ],
       "path": "ch/ch04-farmer-power.md",
-      "prose_len": 7277,
-      "prose_chars": 5510,
+      "prose_len": 7279,
+      "prose_chars": 5511,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
       "chapter": 4,
+      "book_seq": 4,
       "total_refs": 1
     },
     "ch05-historys-haves-and-have-nots": {
@@ -94,13 +98,14 @@
         "chapter"
       ],
       "path": "ch/ch05-historys-haves-and-have-nots.md",
-      "prose_len": 10557,
-      "prose_chars": 7897,
+      "prose_len": 10559,
+      "prose_chars": 7898,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
       "chapter": 5,
+      "book_seq": 5,
       "total_refs": 1
     },
     "ch06-to-farm-or-not-to-farm": {
@@ -118,20 +123,25 @@
       "wikilink_count": 0,
       "blockquote_count": 1,
       "chapter": 6,
+      "book_seq": 6,
       "total_refs": 1
     },
     "ch07-how-to-make-an-almond": {
-      "type": "unknown",
-      "label": "ch07-how-to-make-an-almond",
+      "type": "chapter",
+      "label": "第七章　怎样识别杏仁",
       "aliases": [],
-      "tags": [],
+      "tags": [
+        "chapter"
+      ],
       "path": "ch/ch07-how-to-make-an-almond.md",
-      "prose_len": 14786,
-      "prose_chars": 12337,
+      "prose_len": 14685,
+      "prose_chars": 12250,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
+      "chapter": 7,
+      "book_seq": 7,
       "total_refs": 1
     },
     "ch08-apples-or-indians": {
@@ -142,13 +152,14 @@
         "chapter"
       ],
       "path": "ch/ch08-apples-or-indians.md",
-      "prose_len": 22516,
-      "prose_chars": 19743,
+      "prose_len": 22522,
+      "prose_chars": 19746,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
       "chapter": 8,
+      "book_seq": 8,
       "total_refs": 1
     },
     "ch09-zebras-unhappy-marriages-anna-karenina": {
@@ -159,27 +170,32 @@
         "chapter"
       ],
       "path": "ch/ch09-zebras-unhappy-marriages-anna-karenina.md",
-      "prose_len": 16657,
-      "prose_chars": 13838,
+      "prose_len": 16661,
+      "prose_chars": 13840,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
       "chapter": 9,
+      "book_seq": 9,
       "total_refs": 1
     },
     "ch10-spacious-skies-tilted-axis": {
-      "type": "unknown",
-      "label": "ch10-spacious-skies-tilted-axis",
+      "type": "chapter",
+      "label": "第十章　辽阔的天空与偏斜的轴线",
       "aliases": [],
-      "tags": [],
+      "tags": [
+        "chapter"
+      ],
       "path": "ch/ch10-spacious-skies-tilted-axis.md",
-      "prose_len": 13562,
-      "prose_chars": 11369,
+      "prose_len": 13541,
+      "prose_chars": 11370,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
+      "chapter": 10,
+      "book_seq": 10,
       "total_refs": 1
     },
     "ch11-lethal-gift-of-livestock": {
@@ -197,27 +213,34 @@
       "wikilink_count": 0,
       "blockquote_count": 1,
       "chapter": 11,
+      "book_seq": 11,
       "total_refs": 1
     },
     "ch12-blueprints-borrowed-letters": {
-      "type": "unknown",
-      "label": "ch12-blueprints-borrowed-letters",
+      "type": "chapter",
+      "label": "第十二章　蓝图和借用字母",
       "aliases": [],
-      "tags": [],
+      "tags": [
+        "chapter"
+      ],
       "path": "ch/ch12-blueprints-borrowed-letters.md",
-      "prose_len": 19925,
-      "prose_chars": 16974,
+      "prose_len": 19762,
+      "prose_chars": 16862,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
+      "chapter": 12,
+      "book_seq": 12,
       "total_refs": 1
     },
     "ch13-necessitys-mother": {
-      "type": "unknown",
-      "label": "ch13-necessitys-mother",
+      "type": "chapter",
+      "label": "第十三章　需要之母",
       "aliases": [],
-      "tags": [],
+      "tags": [
+        "chapter"
+      ],
       "path": "ch/ch13-necessitys-mother.md",
       "prose_len": 23220,
       "prose_chars": 20696,
@@ -225,6 +248,8 @@
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
+      "chapter": 13,
+      "book_seq": 13,
       "total_refs": 1
     },
     "ch14-from-egalitarianism-to-kleptocracy": {
@@ -235,13 +260,14 @@
         "chapter"
       ],
       "path": "ch/ch14-from-egalitarianism-to-kleptocracy.md",
-      "prose_len": 24949,
+      "prose_len": 24930,
       "prose_chars": 22456,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
       "chapter": 14,
+      "book_seq": 14,
       "total_refs": 1
     },
     "ch15-yalis-people": {
@@ -252,13 +278,14 @@
         "chapter"
       ],
       "path": "ch/ch15-yalis-people.md",
-      "prose_len": 23539,
-      "prose_chars": 20907,
+      "prose_len": 23541,
+      "prose_chars": 20908,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
       "chapter": 15,
+      "book_seq": 15,
       "total_refs": 1
     },
     "ch16-how-china-became-chinese": {
@@ -269,13 +296,14 @@
         "chapter"
       ],
       "path": "ch/ch16-how-china-became-chinese.md",
-      "prose_len": 10810,
-      "prose_chars": 8225,
+      "prose_len": 10814,
+      "prose_chars": 8227,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
       "chapter": 16,
+      "book_seq": 16,
       "total_refs": 1
     },
     "ch17-speedboat-to-polynesia": {
@@ -286,13 +314,14 @@
         "chapter"
       ],
       "path": "ch/ch17-speedboat-to-polynesia.md",
-      "prose_len": 18648,
-      "prose_chars": 16078,
+      "prose_len": 18652,
+      "prose_chars": 16080,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 2,
       "chapter": 17,
+      "book_seq": 17,
       "total_refs": 1
     },
     "ch18-collision-of-two-hemispheres": {
@@ -303,13 +332,14 @@
         "chapter"
       ],
       "path": "ch/ch18-collision-of-two-hemispheres.md",
-      "prose_len": 17892,
-      "prose_chars": 15446,
+      "prose_len": 17894,
+      "prose_chars": 15447,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
       "chapter": 18,
+      "book_seq": 18,
       "total_refs": 1
     },
     "ch19-how-africa-became-black": {
@@ -320,13 +350,14 @@
         "chapter"
       ],
       "path": "ch/ch19-how-africa-became-black.md",
-      "prose_len": 21320,
-      "prose_chars": 18582,
+      "prose_len": 21328,
+      "prose_chars": 18586,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
       "chapter": 19,
+      "book_seq": 19,
       "total_refs": 1
     },
     "Epilogue": {
@@ -337,13 +368,14 @@
         "chapter"
       ],
       "path": "ep/Epilogue.md",
-      "prose_len": 27152,
-      "prose_chars": 23424,
+      "prose_len": 27154,
+      "prose_chars": 23425,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
       "chapter": 20,
+      "book_seq": 20,
       "total_refs": 1
     },
     "Frontispiece": {
@@ -355,12 +387,13 @@
         "illustrations"
       ],
       "path": "fr/Frontispiece.md",
-      "prose_len": 1831,
-      "prose_chars": 615,
+      "prose_len": 2837,
+      "prose_chars": 1525,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 0,
+      "book_seq": -1,
       "total_refs": 0
     },
     "目录": {
@@ -387,13 +420,14 @@
         "chapter"
       ],
       "path": "pr/Preface.md",
-      "prose_len": 18384,
+      "prose_len": 18364,
       "prose_chars": 16531,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
       "chapter": 0,
+      "book_seq": 0,
       "total_refs": 1
     }
   },
@@ -426,5 +460,5 @@
     "Preface": "Preface"
   },
   "page_count": 24,
-  "generated": "2026-05-23T14:31:21Z"
+  "generated": "2026-05-23T15:02:12Z"
 }
