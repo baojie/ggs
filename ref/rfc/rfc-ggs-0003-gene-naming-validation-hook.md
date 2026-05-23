@@ -1,6 +1,6 @@
 # RFC-ggs-0003: restrict_to_project.py 增加基因命名校验
 
-- **Status**: proposed
+- **Status**: implemented
 - **Date**: 2026-05-23
 - **Issue**: https://github.com/baojie/memex/issues/129
 - **Source wiki**: ggs
@@ -80,3 +80,10 @@ def validate_gene_name(file_path: str) -> list[str]:
 ## 备注
 
 本 RFC 源于 ggs wiki 实践：在 Phase 3（语料准备）中将质检流程包装为 gene 时，Claude 创建了 `ref/gene/PRE21-corpus-final-format-qa.md`，违反了 CONSTITUTION §3.1 的规定（local gene 应命名为 `LOCAL-ggs<NN>-slug.md`，放在 `local/gene/` 下）。
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-23
+**Commits**:
+- baojie/memex@eddb102a8709a0040eca51d91c341eaa3a262759: implement RFC-ggs-0003: hook 增加基因命名校验（warn-level）
