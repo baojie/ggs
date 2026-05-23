@@ -26,8 +26,8 @@
         "chapter"
       ],
       "path": "ch/ch01-up-to-the-starting-line.md",
-      "prose_len": 15788,
-      "prose_chars": 14268,
+      "prose_len": 15848,
+      "prose_chars": 14288,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -43,8 +43,8 @@
         "chapter"
       ],
       "path": "ch/ch02-natural-experiment-of-history.md",
-      "prose_len": 12511,
-      "prose_chars": 11024,
+      "prose_len": 12571,
+      "prose_chars": 11044,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -77,8 +77,8 @@
         "chapter"
       ],
       "path": "ch/ch04-farmer-power.md",
-      "prose_len": 7217,
-      "prose_chars": 5490,
+      "prose_len": 7277,
+      "prose_chars": 5510,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -94,8 +94,8 @@
         "chapter"
       ],
       "path": "ch/ch05-historys-haves-and-have-nots.md",
-      "prose_len": 10498,
-      "prose_chars": 7877,
+      "prose_len": 10557,
+      "prose_chars": 7897,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -121,20 +121,17 @@
       "total_refs": 1
     },
     "ch07-how-to-make-an-almond": {
-      "type": "chapter",
-      "label": "第七章　怎样识别杏仁",
+      "type": "unknown",
+      "label": "ch07-how-to-make-an-almond",
       "aliases": [],
-      "tags": [
-        "chapter"
-      ],
+      "tags": [],
       "path": "ch/ch07-how-to-make-an-almond.md",
-      "prose_len": 14686,
-      "prose_chars": 12250,
+      "prose_len": 14786,
+      "prose_chars": 12337,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
-      "chapter": 7,
       "total_refs": 1
     },
     "ch08-apples-or-indians": {
@@ -145,8 +142,8 @@
         "chapter"
       ],
       "path": "ch/ch08-apples-or-indians.md",
-      "prose_len": 22339,
-      "prose_chars": 19684,
+      "prose_len": 22516,
+      "prose_chars": 19743,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -162,8 +159,8 @@
         "chapter"
       ],
       "path": "ch/ch09-zebras-unhappy-marriages-anna-karenina.md",
-      "prose_len": 16543,
-      "prose_chars": 13800,
+      "prose_len": 16657,
+      "prose_chars": 13838,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -172,20 +169,17 @@
       "total_refs": 1
     },
     "ch10-spacious-skies-tilted-axis": {
-      "type": "chapter",
-      "label": "第十章　辽阔的天空与偏斜的轴线",
+      "type": "unknown",
+      "label": "ch10-spacious-skies-tilted-axis",
       "aliases": [],
-      "tags": [
-        "chapter"
-      ],
+      "tags": [],
       "path": "ch/ch10-spacious-skies-tilted-axis.md",
-      "prose_len": 13500,
-      "prose_chars": 11348,
+      "prose_len": 13562,
+      "prose_chars": 11369,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
-      "chapter": 10,
       "total_refs": 1
     },
     "ch11-lethal-gift-of-livestock": {
@@ -196,7 +190,7 @@
         "chapter"
       ],
       "path": "ch/ch11-lethal-gift-of-livestock.md",
-      "prose_len": 18609,
+      "prose_len": 18608,
       "prose_chars": 16162,
       "h2_count": 1,
       "pn_count": 0,
@@ -206,37 +200,31 @@
       "total_refs": 1
     },
     "ch12-blueprints-borrowed-letters": {
-      "type": "chapter",
-      "label": "第十二章　蓝图和借用字母",
+      "type": "unknown",
+      "label": "ch12-blueprints-borrowed-letters",
       "aliases": [],
-      "tags": [
-        "chapter"
-      ],
+      "tags": [],
       "path": "ch/ch12-blueprints-borrowed-letters.md",
-      "prose_len": 19442,
-      "prose_chars": 16752,
+      "prose_len": 19925,
+      "prose_chars": 16974,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
-      "chapter": 12,
       "total_refs": 1
     },
     "ch13-necessitys-mother": {
-      "type": "chapter",
-      "label": "第十三章　需要之母",
+      "type": "unknown",
+      "label": "ch13-necessitys-mother",
       "aliases": [],
-      "tags": [
-        "chapter"
-      ],
+      "tags": [],
       "path": "ch/ch13-necessitys-mother.md",
-      "prose_len": 23221,
+      "prose_len": 23220,
       "prose_chars": 20696,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
-      "chapter": 13,
       "total_refs": 1
     },
     "ch14-from-egalitarianism-to-kleptocracy": {
@@ -247,7 +235,7 @@
         "chapter"
       ],
       "path": "ch/ch14-from-egalitarianism-to-kleptocracy.md",
-      "prose_len": 24950,
+      "prose_len": 24949,
       "prose_chars": 22456,
       "h2_count": 1,
       "pn_count": 0,
@@ -264,8 +252,8 @@
         "chapter"
       ],
       "path": "ch/ch15-yalis-people.md",
-      "prose_len": 23477,
-      "prose_chars": 20886,
+      "prose_len": 23539,
+      "prose_chars": 20907,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -281,8 +269,8 @@
         "chapter"
       ],
       "path": "ch/ch16-how-china-became-chinese.md",
-      "prose_len": 10684,
-      "prose_chars": 8183,
+      "prose_len": 10810,
+      "prose_chars": 8225,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -298,12 +286,12 @@
         "chapter"
       ],
       "path": "ch/ch17-speedboat-to-polynesia.md",
-      "prose_len": 18516,
-      "prose_chars": 16036,
+      "prose_len": 18648,
+      "prose_chars": 16078,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
-      "blockquote_count": 1,
+      "blockquote_count": 2,
       "chapter": 17,
       "total_refs": 1
     },
@@ -315,8 +303,8 @@
         "chapter"
       ],
       "path": "ch/ch18-collision-of-two-hemispheres.md",
-      "prose_len": 17832,
-      "prose_chars": 15425,
+      "prose_len": 17892,
+      "prose_chars": 15446,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -332,8 +320,8 @@
         "chapter"
       ],
       "path": "ch/ch19-how-africa-became-black.md",
-      "prose_len": 21072,
-      "prose_chars": 18498,
+      "prose_len": 21320,
+      "prose_chars": 18582,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -349,14 +337,31 @@
         "chapter"
       ],
       "path": "ep/Epilogue.md",
-      "prose_len": 27090,
-      "prose_chars": 23403,
+      "prose_len": 27152,
+      "prose_chars": 23424,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 1,
       "chapter": 20,
       "total_refs": 1
+    },
+    "Frontispiece": {
+      "type": "chapter",
+      "label": "书前彩插",
+      "aliases": [],
+      "tags": [
+        "chapter",
+        "illustrations"
+      ],
+      "path": "fr/Frontispiece.md",
+      "prose_len": 1831,
+      "prose_chars": 615,
+      "h2_count": 1,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "目录": {
       "type": "overview",
@@ -416,9 +421,10 @@
     "ch18-collision-of-two-hemispheres": "ch18-collision-of-two-hemispheres",
     "ch19-how-africa-became-black": "ch19-how-africa-became-black",
     "Epilogue": "Epilogue",
+    "Frontispiece": "Frontispiece",
     "目录": "目录",
     "Preface": "Preface"
   },
-  "page_count": 23,
-  "generated": "2026-05-23T14:24:31Z"
+  "page_count": 24,
+  "generated": "2026-05-23T14:31:21Z"
 }
