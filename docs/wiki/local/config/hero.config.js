@@ -11,7 +11,7 @@ export function buildHeroBackground() {
       <img id="hero-worldmap"
            src="local/world-map.svg"
            alt=""
-           style="position:absolute;width:118%;max-width:none;height:118%;top:-9%;left:-18%;object-fit:cover;object-position:left center;opacity:0.48;">
+           style="position:absolute;width:118%;max-width:none;height:118%;top:-9%;left:-2%;object-fit:cover;object-position:center;opacity:0.48;">
     </div>`;
 }
 
