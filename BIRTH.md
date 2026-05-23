@@ -148,23 +148,19 @@
 
 - [x] 构思首页背景视觉隐喻 — 已完成：大地色系漂流粒子动画，模拟作物/牲畜/病菌在大陆间扩散，沿东西轴线漂移，随机分裂繁殖
 - [x] 实现 `docs/wiki/local/config/hero.config.js` — 已实现，含 `buildHeroBackground()` 和 `startHeroAnimation(setStop)`
-- [ ] 本地验证：`./wiki-daemon.sh start`，首页背景正常渲染，控制台无报错
+- [x] 本地验证：`./wiki-daemon.sh start`，首页背景正常渲染，控制台无报错
 
 ### 2-D 验证
 
 - [x] 执行 `./wiki-daemon.sh start`，`http://localhost:1997` 返回 200
 - [x] 页面正常渲染，注册表已重建（`pages.json` / `pages.lite.json` / `fts-index.json`）
-- [ ] topnav「关于/About」可访问（需浏览器测试）
-- [ ] 开发者工具 → Network，确认无非预期 404（需浏览器测试）
+- [x] topnav「关于/About」可访问 — 浏览器测试通过，页面内容完整渲染，aliases/类型/基本信息均正确显示
+- [x] 开发者工具 → Network，确认无非预期 404（唯一 404 为 favicon.ico，属正常现象）
 
 ### 2-E Wiki 配置提交
 
-- [ ] 提交 Phase 2 所有配置文件：
-  ```bash
-  git add docs/wiki/local/ docs/wiki/pages/ docs/wiki/pages.json docs/wiki/pages.lite.json
-  bash wiki/scripts/skill_commit.sh "chore: Phase 2 Wiki 配置与 About 页"
-  ```
-  > 提交范围：`local/` 下所有 JS 配置文件、`pages/About.md`、注册表 `pages.json` / `pages.lite.json`。
+- [x] 提交 Phase 2 所有配置文件（commit `cdc4976`）
+  - 提交范围：`local/` 下所有 JS 配置文件、`pages/About.md`、注册表 `pages.json` / `pages.lite.json`、BIRTH.md
 
 ---
 
