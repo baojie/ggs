@@ -164,11 +164,74 @@
 
 ---
 
-## Phase 3：语料准备
+## Phase 3：语料准备（选择与校对）
 
-> 语料已校勘完成（`corpus/raw/枪炮病菌与钢铁_校勘底稿.md`）
-> 跳过 3-B（已转换 MD）
-> 状态：未开始
+> **目标**：Phase 3 结束后，`corpus/raw/枪炮病菌与钢铁_校勘底稿.md` 作为语料终稿，可作为 Phase 4 章节导入的唯一输入。
+>
+> **⚠️ corpus/ 写入授权**：Phase 3 是唯一允许向 `corpus/` 写入内容的阶段。LAW.md §五 corpus 只读声明在 Phase 3 完成后生效，3-E 提交后 corpus/ 进入只读。
+>
+> **提交规则**：3-C / 3-C2 / 3-E 各自结束时提交一次。
+
+---
+
+### 3-A 确认语料结构
+
+- [x] 确认语料存在：`corpus/raw/枪炮病菌与钢铁_校勘底稿.md`（1005K）
+- [x] 列出 `corpus/raw/` 和 `corpus/archive/` 下所有文件供用户确认
+- [x] **用户确认**：导入版本为 `corpus/raw/枪炮病菌与钢铁_校勘底稿.md`
+- [x] 确认导入范围：前言 + 20 章正文 + 后记，全部 type=chapter
+- [x] 确认页面 ID 命名规则：`chNN-章节名slug`（如 `ch01-introduction`、`Epilogue`）
+
+
+### 3-B epub 转换与校验
+
+> **已跳过**：语料来源为已转换 MD（`corpus/raw/枪炮病菌与钢铁_校勘底稿.md`），非 epub 来源。
+
+
+### 3-C 文本质检
+
+> **语料来源**：已转换 MD（epub→MD 校勘底稿），非扫描 PDF。
+>
+> **执行前先判断语料来源类型**：已转换 MD。按 PRE9 语料来源适配表：
+> - 扫描版 PDF 相关步骤：跳过
+> - 数字版 PDF / epub 相关步骤：公式配对 + 标题层级 + 格式问题
+>
+> 校勘底稿已在 human-in-the-loop 流程中完成文字校对，3-C 仅做脚本层面的格式验证。
+
+**文字质检：**
+
+- [x] **PRE9**（corpus-ocr-qa）：标题层级完整（L1 书名+4 部分标题，L2 前言+19 章+后记，无跳跃）；公式检查通过（无 LaTeX）；工具残留物扫描通过（无孤立数字行、无目录混入）
+- [x] **PRE6**（corpus-linebreak-repair）：epub 来源跳过详细检查；快速扫描通过——无逗号假分段、无括号跨段、无跨页假分段
+- [x] **提交文本质检结果**
+
+
+### 3-C2 重建章节结构（文字校勘完成后必做）
+
+- [x] **PRE18**（heading-structure-rebuild）：跳过——epub→MD 来源，标题层级原生保留（L1 书名+4 部分标题，L2 前言+19 章+后记），无 PDF 扁平化问题
+- [x] 验证重建结果：章节数量与 `ref/chapter-order.md` 一致（前言+19 章+后记 = 21 个 L2 标题）
+- [x] 提交：
+  ```bash
+  git add corpus/
+  bash wiki/scripts/skill_commit.sh "corpus: 3-C2 PRE18 章节结构重建完成"
+  ```
+
+
+### 3-D Pre-PN Lint 检查
+
+- [x] 执行 `$MEMEX_ROOT/ref/spec/workflow-pre-pn-lint.md` 完整流程：epub 来源跳过 PRE13/PRE14；LNT7/LNT2/LNT10 涉及 `docs/wiki/pages/` 的脚本留待 Phase 4 页面生成后执行
+- [x] **LNT11**（footnote-completeness）：跳过——语料无脚注（0 定义，0 引用）
+- [x] **LNT12**（non-latin-ocr）：通过——扫描到 4 处希腊字母（αηι，希腊字母表讨论）和 7 处西里尔文（четыре/Ружьё，语言学示例），均属原文故意内容，非 OCR 错误
+- [x] **`:::` 块语法扫描**（CONSTITUTION §13.2）：通过——corpus/raw/ 下无 `:::` 块语法问题
+
+
+### 3-E 生成语料终稿
+
+> 校勘底稿 `枪炮病菌与钢铁_校勘底稿.md` 即为最终校勘版本，3-E 将其复制为 `doc_final.md` 作为下游入口。
+
+- [x] 流水线全部步骤完成后，执行终稿复制：`cp corpus/raw/枪炮病菌与钢铁_校勘底稿.md corpus/raw/doc_final.md`
+- [x] 确认 `doc_final.md` 存在且内容完整（3575 行，1005K，首末 5 行与校勘底稿一致）
+- [ ] **PRE21**（corpus-final-format-qa）：对 `doc_final.md` 执行 9 维终稿格式扫描（标题内嵌空格、编码完整性、括号配对、中英边界、断行异常、数字异常、工具残留、序号跳跃、标题层级），逐项确认无残留问题后方可提交
+- [x] **提交语料终稿**
 
 ---
 
