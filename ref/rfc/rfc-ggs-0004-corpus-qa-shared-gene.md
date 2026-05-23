@@ -1,6 +1,6 @@
 # RFC-ggs-0004: 语料终稿格式质检流程作为 memex 共享基因
 
-- **Status**: proposed
+- **Status**: accepted
 - **Date**: 2026-05-23
 - **Issue**: https://github.com/baojie/memex/issues/130
 - **Source wiki**: ggs
