@@ -26,7 +26,7 @@
         "chapter"
       ],
       "path": "ch/ch01-up-to-the-starting-line.md",
-      "prose_len": 15850,
+      "prose_len": 15847,
       "prose_chars": 14289,
       "h2_count": 1,
       "pn_count": 0,
@@ -44,7 +44,7 @@
         "chapter"
       ],
       "path": "ch/ch02-natural-experiment-of-history.md",
-      "prose_len": 12573,
+      "prose_len": 12570,
       "prose_chars": 11045,
       "h2_count": 1,
       "pn_count": 0,
@@ -80,7 +80,7 @@
         "chapter"
       ],
       "path": "ch/ch04-farmer-power.md",
-      "prose_len": 7279,
+      "prose_len": 7276,
       "prose_chars": 5511,
       "h2_count": 1,
       "pn_count": 0,
@@ -98,7 +98,7 @@
         "chapter"
       ],
       "path": "ch/ch05-historys-haves-and-have-nots.md",
-      "prose_len": 10559,
+      "prose_len": 10556,
       "prose_chars": 7898,
       "h2_count": 1,
       "pn_count": 0,
@@ -116,7 +116,7 @@
         "chapter"
       ],
       "path": "ch/ch06-to-farm-or-not-to-farm.md",
-      "prose_len": 8860,
+      "prose_len": 8929,
       "prose_chars": 7192,
       "h2_count": 1,
       "pn_count": 0,
@@ -134,7 +134,7 @@
         "chapter"
       ],
       "path": "ch/ch07-how-to-make-an-almond.md",
-      "prose_len": 14685,
+      "prose_len": 14823,
       "prose_chars": 12250,
       "h2_count": 1,
       "pn_count": 0,
@@ -152,7 +152,7 @@
         "chapter"
       ],
       "path": "ch/ch08-apples-or-indians.md",
-      "prose_len": 22522,
+      "prose_len": 22797,
       "prose_chars": 19746,
       "h2_count": 1,
       "pn_count": 0,
@@ -170,8 +170,8 @@
         "chapter"
       ],
       "path": "ch/ch09-zebras-unhappy-marriages-anna-karenina.md",
-      "prose_len": 16661,
-      "prose_chars": 13840,
+      "prose_len": 16817,
+      "prose_chars": 13917,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -188,8 +188,8 @@
         "chapter"
       ],
       "path": "ch/ch10-spacious-skies-tilted-axis.md",
-      "prose_len": 13541,
-      "prose_chars": 11370,
+      "prose_len": 13856,
+      "prose_chars": 11481,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -224,8 +224,8 @@
         "chapter"
       ],
       "path": "ch/ch12-blueprints-borrowed-letters.md",
-      "prose_len": 19762,
-      "prose_chars": 16862,
+      "prose_len": 19826,
+      "prose_chars": 16884,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -242,8 +242,8 @@
         "chapter"
       ],
       "path": "ch/ch13-necessitys-mother.md",
-      "prose_len": 23220,
-      "prose_chars": 20696,
+      "prose_len": 23422,
+      "prose_chars": 20773,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -278,7 +278,7 @@
         "chapter"
       ],
       "path": "ch/ch15-yalis-people.md",
-      "prose_len": 23541,
+      "prose_len": 23539,
       "prose_chars": 20908,
       "h2_count": 1,
       "pn_count": 0,
@@ -296,7 +296,7 @@
         "chapter"
       ],
       "path": "ch/ch16-how-china-became-chinese.md",
-      "prose_len": 10814,
+      "prose_len": 10809,
       "prose_chars": 8227,
       "h2_count": 1,
       "pn_count": 0,
@@ -314,7 +314,7 @@
         "chapter"
       ],
       "path": "ch/ch17-speedboat-to-polynesia.md",
-      "prose_len": 18652,
+      "prose_len": 18647,
       "prose_chars": 16080,
       "h2_count": 1,
       "pn_count": 0,
@@ -332,8 +332,8 @@
         "chapter"
       ],
       "path": "ch/ch18-collision-of-two-hemispheres.md",
-      "prose_len": 17894,
-      "prose_chars": 15447,
+      "prose_len": 18018,
+      "prose_chars": 15491,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -350,7 +350,7 @@
         "chapter"
       ],
       "path": "ch/ch19-how-africa-became-black.md",
-      "prose_len": 21328,
+      "prose_len": 21317,
       "prose_chars": 18586,
       "h2_count": 1,
       "pn_count": 0,
@@ -368,8 +368,8 @@
         "chapter"
       ],
       "path": "ep/Epilogue.md",
-      "prose_len": 27154,
-      "prose_chars": 23425,
+      "prose_len": 27272,
+      "prose_chars": 23465,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -460,5 +460,5 @@
     "Preface": "Preface"
   },
   "page_count": 24,
-  "generated": "2026-05-23T15:02:12Z"
+  "generated": "2026-05-23T18:04:37Z"
 }
