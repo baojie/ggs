@@ -52,7 +52,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 .claude/hooks/restrict_to_project.py"
+            "command": "python3   /home/baojie/work/knowledge/ggs/.claude/hooks/restrict_to_project.py"
           }
         ]
       }
