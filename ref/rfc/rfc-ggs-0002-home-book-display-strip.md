@@ -1,6 +1,6 @@
 # RFC-ggs-0002: 首页 BOOK_DISPLAY 默认应使用 'strip' 模式
 
-- **Status**: proposed
+- **Status**: implemented
 - **Date**: 2026-05-23
 - **Issue**: https://github.com/baojie/memex/issues/128
 - **Source wiki**: ggs
@@ -51,3 +51,12 @@ bookCardsHtml: BOOK_DISPLAY === 'strip'
 ```
 
 但最简单的方案是直接在 `hero.js` 中改值，无需修改引擎代码。
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-23
+**Commits**:
+- baojie/ggs@2767bb190ba1cc251adba601cbe85dac2cbfb263: fix: BOOK_DISPLAY 改为 strip，首页 book card 合并为单行
+
+> 注：该变更在 RFC 提交前已实施。
