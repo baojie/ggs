@@ -6,9 +6,9 @@
 /* ----------------------------------------------------------
  * 1. 脚注样式修正（footnote 插件使用了硬编码浅色主题颜色）
  * ---------------------------------------------------------- */
-.footnotes { color: var(--fg-muted); }
+.footnotes { color: var(--fg-muted) !important; }
 .footnote-ref a,
-.footnote-backref { color: var(--fg-muted); text-decoration: none; }
+.footnote-backref { color: var(--fg-muted) !important; text-decoration: none !important; }
 .footnote-ref a:hover,
-.footnote-backref:hover { color: var(--accent); text-decoration: underline; }
-.footnotes-sep { border-top-color: var(--border); }
+.footnote-backref:hover { color: var(--accent) !important; text-decoration: underline !important; }
+.footnotes-sep { border-top-color: var(--border) !important; }
