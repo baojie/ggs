@@ -1,6 +1,6 @@
 # RFC-ggs-0001: comply skill 对非 wiki 页面误输出 CHK6 检查
 
-- **Status**: proposed
+- **Status**: implemented
 - **Date**: 2026-05-23
 - **Issue**: https://github.com/baojie/memex/issues/127
 - **Source wiki**: ggs
@@ -52,5 +52,12 @@ comply: <文件路径>
 
 ### 验收标准
 
-- [ ] 对 `BIRTH.md` 执行 `/comply`，输出中无 `CHK6`、`C1`、`C2` 等字眼
-- [ ] 对 `docs/wiki/pages/About.md` 执行 `/comply`，输出包含完整 CHK6 章节
+- [x] 对 `BIRTH.md` 执行 `/comply`，输出中无 `CHK6`、`C1`、`C2` 等字眼
+- [x] 对 `docs/wiki/pages/About.md` 执行 `/comply`，输出包含完整 CHK6 章节
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-23
+**Commits**:
+- baojie/memex@f070665d855a0c0e7576d2f1ec8bb2fc5d6732a3: implement RFC-ggs-0001: comply skill 非 wiki 页面完全省略 CHK6 章节
