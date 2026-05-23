@@ -1,6 +1,6 @@
 # RFC-ggs-0004: 语料终稿格式质检流程作为 memex 共享基因
 
-- **Status**: accepted
+- **Status**: implemented
 - **Date**: 2026-05-23
 - **Issue**: https://github.com/baojie/memex/issues/130
 - **Source wiki**: ggs
@@ -51,3 +51,11 @@ ggs wiki 在 Phase 3 执行到实际质检时，需要将流程形式化为 gene
 ## 备注
 
 本基因源于 ggs Phase 3 实践。9 项检查的脚本可直接运行（Python/bash 单文件），已在 `corpus/raw/doc_final.md` 上验证通过。
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-23
+**Commits**:
+- baojie/memex@9c2f616（共享基因 PRE21 创建）
+- baojie/ggs@1820b8e（LOCAL-ggs01 精简为 stub）
