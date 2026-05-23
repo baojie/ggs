@@ -1,0 +1,29 @@
+{
+  "pages": {
+    "About": {
+      "type": "overview",
+      "label": "关于本 Wiki",
+      "aliases": [
+        "关于",
+        "About"
+      ],
+      "tags": [],
+      "path": "ab/About.md",
+      "description": "枪炮、病菌与钢铁 Wiki——围绕贾雷德·戴蒙德著作构建的知识库",
+      "prose_len": 482,
+      "prose_chars": 430,
+      "h2_count": 3,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "total_refs": 0
+    }
+  },
+  "alias_index": {
+    "About": "About",
+    "关于本 Wiki": "About",
+    "关于": "About"
+  },
+  "page_count": 1,
+  "generated": "2026-05-23T05:04:55Z"
+}
