@@ -11,6 +11,13 @@
 
 ## Phase 0：前置决策与基础文件
 
+### 0-0 Bootstrap（第一步，无依赖）
+
+> spec 定义见 `$MEMEX_ROOT/BIRTH.spec.md §0-0`，本 wiki 将其内容合入 0-B 执行。
+
+- [x] **链接共享 skills**（在 0-B 中通过 `init_skills.sh` 完成）
+  - 已链接 16 个：`butler` `chapter-scan` `commit` `comply` `daily` `editor` `enrich` `evolve` `grow` `msg` `open` `rfc` `serendipity` `why` `wiki` 及本站独有的 `grow`
+
 ### 0-A 两个前置决策
 
 - [x] **WIKI_LANG = `zh`**（谢延光译本，中文）
@@ -26,8 +33,8 @@
 - [x] 创建完整目录结构（docs/、ref/、logs/、data/、local/、wiki/scripts/）
 - [x] 创建 `local/config.md`
 - [x] 共享 skills 链接（`init_skills.sh`）
-- [ ] 创建 `README.md`
-- [ ] 创建 `CHANGELOG.md`
+- [x] 创建 `README.md`
+- [x] 创建 `CHANGELOG.md`
 
 ### 0-C 安全初始化
 
@@ -37,17 +44,57 @@
 
 ### 0-D 发布配置
 
-- [ ] 确认 GitHub Pages / Droplet 发布方案
+- [x] 确认发布方案：**方案 B — Droplet**
+  - `DEPLOY_TARGET=droplet` 已写入 `local/config.md`
+  - `wiki/scripts/publish.sh` 已包含 `--push` 段（git subtree → gh-pages）
+  - `docs/` 为普通目录（非 submodule）
+  - 服务器端 `git clone --branch gh-pages` 待 Phase 1 首次推送后执行
 
 ### 0-E 初始提交
 
-- [ ] `git add` 所有基础文件并提交
+- [x] `git add` 所有基础文件并提交（commit `8af6ecd`）
+  - 提交范围：BIRTH.md / CLAUDE.md / LAW.md / README.md / CHANGELOG.md / .gitignore
+  - 目录：`local/` `ref/` `logs/` `data/` `docs/` `wiki/scripts/`
+  - 安全配置：`.claude/settings.json` `.claude/skills/` `.claude/hooks/`
+  - 注：`.claude/commands/` 本 wiki 暂不使用，不在此次提交范围内
 
 ---
 
 ## Phase 1：引擎接通
 
-> 状态：未开始
+### 1-A 确认本地调试端口
+
+- [x] 端口 **1997**（《枪炮、病菌与钢铁》出版年）
+  - 已写入 `local/config.md`：`PORT=1997`
+  - 已追加到 `$MEMEX_ROOT/ref/spec/sys-ports.md` 已分配表
+
+### 1-A2 确认引擎 CDN 来源
+
+- [x] 选择方案 A（默认）：`CDN_BASE=https://baojie.github.io/memex/dist`
+  - 已写入 `local/config.md`
+
+### 1-B 建立 docs/ 结构
+
+- [x] 创建 `docs/index.html`（重定向到 `wiki/`）
+- [x] 创建 `docs/wiki/index.html`（从模板生成，替换 Wiki Name 和 Footer）
+  - `cdn-base` = `https://baojie.github.io/memex/dist`
+  - Footer: 基于 Jared Diamond《Guns, Germs, and Steel》（1997）谢延光中译本
+  - CSS/JS 路径验证通过（`css/main.css` / `js/core.js`）
+- [x] `docs/wiki/pages/`、`docs/wiki/data/`、`docs/wiki/images/`、`docs/wiki/local/` 已存在
+
+### 1-C 适配 wiki-daemon.sh
+
+- [x] 从 `wiki-daemon.sh.example` 创建 `wiki-daemon.sh`
+  - `WIKI_NAME=ggs`、`PORT=1997`、`PUBLIC_DIR=docs/wiki`
+  - `ENGINE_DIR=$MEMEX_ROOT/wiki/public`（serve.js fallback）
+
+### 1-D 确认共享脚本可用
+
+- [x] `$MEMEX_ROOT/wiki/scripts/page_utils.py` 存在
+
+### 1-E 引擎接通提交
+
+- [ ] 提交 Phase 1 建立的所有文件
 
 ---
 
