@@ -4,6 +4,7 @@ type: chapter
 label: 第十四章　从平等主义到盗贼统治
 tags: ["chapter"]
 chapter: 14
+book_seq: 14
 ---
 
 ## 第十四章　从平等主义到盗贼统治
@@ -214,4 +215,3 @@ chapter: 14
 >   …（另 17 处略）
 
 
-# 第四部分  在5章中环游世界

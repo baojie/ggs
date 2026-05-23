@@ -1,143 +1,235 @@
 ---
-{
-  "id": "Frontispiece",
-  "type": "chapter",
-  "label": "书前彩插",
-  "tags": [
-    "chapter",
-    "illustrations"
-  ]
-}
+id: Frontispiece
+type: chapter
+label: 书前彩插
+tags: ["chapter", "illustrations"]
+book_seq: -1
 ---
 
 ## 书前彩插
 
 原书卷首插图（IQ1–IQ32）
 
-:::image fig="IQ1"
+::: image fig="IQ1"
 ![IQ1](images/image00273.jpeg)
+
+图1. 新几内亚北部沿海低地（锡亚尔岛）的妇女和儿童
+
 :::
 
-:::image fig="IQ2"
+::: image fig="IQ2"
 ![IQ2](images/image00274.jpeg)
+
+图2. 帕伦——新几内亚福雷族高地人。第二—五幅是我的4个新几内亚朋友，我谨以此书献给他们。
+
 :::
 
-:::image fig="IQ3"
+::: image fig="IQ3"
 ![IQ3](images/image00275.jpeg)
+
+图3. 伊萨——新几内亚福雷族高地人
+
 :::
 
-:::image fig="IQ4"
+::: image fig="IQ4"
 ![IQ4](images/image00276.jpeg)
+
+图4. 卡里尼加——新几内亚南部图达辉族低地人
+
 :::
 
-:::image fig="IQ5"
+::: image fig="IQ5"
 ![IQ5](images/image00277.jpeg)
+
+图5. 索阿卡里——新几内亚北部沿海低地人
+
 :::
 
-:::image fig="IQ6"
+::: image fig="IQ6"
 ![IQ6](images/image00278.jpeg)
+
+图6. 一个新几内亚高地人
+
 :::
 
-:::image fig="IQ7"
+::: image fig="IQ7"
 ![IQ7](images/image00279.jpeg)
+
+图7. 澳大利亚土著平图派族（澳大利亚中部）的一个男人
+
 :::
 
-:::image fig="IQ8"
+::: image fig="IQ8"
 ![IQ8](images/image00280.jpeg)
+
+图8. 澳大利亚阿纳姆兰（澳大利亚北部）土著
+
 :::
 
-:::image fig="IQ9"
+::: image fig="IQ9"
 ![IQ9](images/image00281.jpeg)
+
+图9. 塔斯马尼亚土著妇女，欧洲人到达前出生的最后一批幸存者之一。
+
 :::
 
-:::image fig="IQ10"
+::: image fig="IQ10"
 ![IQ10](images/image00282.jpeg)
+
+图10. 西伯利亚通古斯妇女
+
 :::
 
-:::image fig="IQ11"
+::: image fig="IQ11"
 ![IQ11](images/image00283.jpeg)
+
+图11. 日本人：庆祝59岁生日的明仁天皇
+
 :::
 
-:::image fig="IQ12"
+::: image fig="IQ12"
 ![IQ12](images/image00284.jpeg)
+
+图12. 收割稻子的日本妇女。第12幅和第13幅均为说南岛语的人。
+
 :::
 
-:::image fig="IQ13"
+::: image fig="IQ13"
 ![IQ13](images/image00285.jpeg)
+
+图13. 瓜哇岛以东7000英里处热带太平洋中拉帕岛上的波利尼西亚妇女
+
 :::
 
-:::image fig="IQ14"
+::: image fig="IQ14"
 ![IQ14](images/image00286.jpeg)
+
+图14. 挖竹笋的中国女孩
+
 :::
 
-:::image fig="IQ15"
+::: image fig="IQ15"
 ![IQ15](images/image00287.jpeg)
+
+图15. 北美印第安人：大平原波尼部落斑点马酋长
+
 :::
 
-:::image fig="IQ16"
+::: image fig="IQ16"
 ![IQ16](images/image00288.jpeg)
+
+图16. 又一北美印第安人：美国西南部纳瓦霍族妇女
+
 :::
 
-:::image fig="IQ17"
+::: image fig="IQ17"
 ![IQ17](images/image00289.jpeg)
+
+图17. 南美洲北部热带地区的奥亚纳族印第安男人。第17—20幅均为南美洲印第安人。
+
 :::
 
-:::image fig="IQ18"
+::: image fig="IQ18"
 ![IQ18](images/image00290.jpeg)
+
+图18. 南美洲北部热带地区的雅诺马马族印第安女孩
+
 :::
 
-:::image fig="IQ19"
+::: image fig="IQ19"
 ![IQ19](images/image00291.jpeg)
+
+图19. 南美洲南端弗伊治亚族印第安男人
+
 :::
 
-:::image fig="IQ20"
+::: image fig="IQ20"
 ![IQ20](images/image00292.jpeg)
+
+图20. 南美洲安第斯高原的盖丘亚族印第安男人
+
 :::
 
-:::image fig="IQ21"
+::: image fig="IQ21"
 ![IQ21](images/image00293.jpeg)
+
+图21. 西欧（西班牙）男人。第21—24幅为欧亚大陆西半部说印欧语的人。
+
 :::
 
-:::image fig="IQ22"
+::: image fig="IQ22"
 ![IQ22](images/image00294.jpeg)
+
+图22. 又一西欧人：法国前总统夏尔·戴高乐
+
 :::
 
-:::image fig="IQ23"
+::: image fig="IQ23"
 ![IQ23](images/image00295.jpeg)
+
+图23. 上：两个斯堪的纳维亚妇女（瑞典女演员英格丽·褒曼和她的女儿） 下：西亚亚美尼亚男人
+
 :::
 
-:::image fig="IQ24"
+::: image fig="IQ24"
 ![IQ24](images/image00296.jpeg)
+
+图24. 中亚阿富汗士兵
+
 :::
 
-:::image fig="IQ25"
+::: image fig="IQ25"
 ![IQ25](images/image00297.jpeg)
+
+图25. 非洲南部博茨瓦纳卡拉哈里沙漠科伊桑妇女
+
 :::
 
-:::image fig="IQ26"
+::: image fig="IQ26"
 ![IQ26](images/image00298.jpeg)
+
+图26. 非洲南部博茨瓦纳卡拉哈里沙漠科伊桑男人
+
 :::
 
-:::image fig="IQ27"
+::: image fig="IQ27"
 ![IQ27](images/image00299.jpeg)
+
+图27. 赤道非洲伊图里森林俾格米女孩
+
 :::
 
-:::image fig="IQ28"
+::: image fig="IQ28"
 ![IQ28](images/image00300.jpeg)
+
+图28. 赤道非洲伊图里森林的一群俾格米人
+
 :::
 
-:::image fig="IQ29"
+::: image fig="IQ29"
 ![IQ29](images/image00301.jpeg)
+
+图29. 说一种尼罗-撒哈拉语的东非人：苏丹的努埃尔人
+
 :::
 
-:::image fig="IQ30"
+::: image fig="IQ30"
 ![IQ30](images/image00302.jpeg)
+
+图30. 说一种阿非罗-亚细亚语的东非人：埃塞俄比亚的海尔·格布雷斯拉西，在1996年奥林匹克运动会男子1万米赛跑中稍稍领先于肯尼亚的保罗·特格特而获得冠军。
+
 :::
 
-:::image fig="IQ31"
+::: image fig="IQ31"
 ![IQ31](images/image00303.jpeg)
+
+图31. 说一种非班图语言的尼日尔的东非人：苏丹的赞德族妇女
+
 :::
 
-:::image fig="IQ32"
+::: image fig="IQ32"
 ![IQ32](images/image00304.jpeg)
+
+图32. 一个说班图语言的尼日尔-刚果人：南非前总统纳尔逊·曼德拉
+
 :::
