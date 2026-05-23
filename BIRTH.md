@@ -16,7 +16,7 @@
 > spec 定义见 `$MEMEX_ROOT/BIRTH.spec.md §0-0`，本 wiki 将其内容合入 0-B 执行。
 
 - [x] **链接共享 skills**（在 0-B 中通过 `init_skills.sh` 完成）
-  - 已链接 16 个：`butler` `chapter-scan` `commit` `comply` `daily` `editor` `enrich` `evolve` `grow` `msg` `open` `rfc` `serendipity` `why` `wiki` 及本站独有的 `grow`
+  - 已链接 15 个：`butler` `chapter-scan` `commit` `comply` `daily` `editor` `enrich` `evolve` `grow` `msg` `open` `rfc` `serendipity` `why` `wiki`
 
 ### 0-A 两个前置决策
 
@@ -94,7 +94,7 @@
 
 ### 1-E 引擎接通提交
 
-- [ ] 提交 Phase 1 建立的所有文件
+- [x] 提交 Phase 1 建立的所有文件（commit `6eb2ca6`）
 
 ---
 
