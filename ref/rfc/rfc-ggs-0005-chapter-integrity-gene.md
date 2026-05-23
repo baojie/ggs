@@ -1,6 +1,6 @@
 # RFC-ggs-0005: 建立章节完整性基因（CHK7）集成至 BIRTH.spec.md Phase 4-D
 
-- **Status**: proposed
+- **Status**: accepted
 - **Date**: 2026-05-23
 - **Issue**: https://github.com/baojie/memex/issues/131
 - **Source wiki**: ggs
