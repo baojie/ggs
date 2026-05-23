@@ -4,6 +4,7 @@ type: chapter
 label: 第十一章　牲畜的致命礼物
 tags: ["chapter"]
 chapter: 11
+book_seq: 11
 ---
 
 ## 第十一章　牲畜的致命礼物
