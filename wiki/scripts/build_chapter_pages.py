@@ -140,6 +140,7 @@ def make_frontmatter(num, pid, label):
     }
     if num is not None:
         fm['chapter'] = num
+        fm['book_seq'] = num  # 供 daemon 章节导航排序
     return fm
 
 
