@@ -4,6 +4,7 @@ type: chapter
 label: 书前彩插
 tags: ["chapter", "illustrations"]
 book_seq: -1
+pn_prefix: "P02"
 ---
 
 ## 书前彩插
