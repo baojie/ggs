@@ -16,7 +16,7 @@
 > spec 定义见 `$MEMEX_ROOT/BIRTH.spec.md §0-0`，本 wiki 将其内容合入 0-B 执行。
 
 - [x] **链接共享 skills**（在 0-B 中通过 `init_skills.sh` 完成）
-  - 已链接 15 个：`butler` `chapter-scan` `commit` `comply` `daily` `editor` `enrich` `evolve` `grow` `msg` `open` `rfc` `serendipity` `why` `wiki`
+  - 已链接 16 个：`boot` `butler` `chapter-scan` `commit` `comply` `daily` `editor` `enrich` `evolve` `grow` `msg` `open` `rfc` `serendipity` `why` `wiki`
 
 ### 0-A 两个前置决策
 
@@ -100,7 +100,71 @@
 
 ## Phase 2：Wiki 配置
 
-> 状态：未开始
+> **目标**：Phase 2 结束后，空 Wiki 完整可用：页面正常渲染，About 页可访问，控制台无报错。
+> 本 Phase 所有含用户可见字符串的文件，必须按 Phase 0-A 确认的 `WIKI_LANG=zh` 书写。
+
+### 2-A 本地 JS 配置文件初始化
+
+引擎插件通过 **静态 import** 或 **动态 import** 读取 `docs/wiki/local/` 下的配置，
+缺失静态 import 文件会导致插件模块加载失败，页面卡在「载入中」。
+
+**必须创建（被插件静态 import，缺失直接崩溃）：**
+
+- [x] `docs/wiki/local/LocalSettings.js` — 已创建，`wgSiteName='枪炮、病菌与钢铁'`，已启用插件：
+  - `i18n`（多语言）、`category`（分类）、`chapter`（章节导航）、`hero`（首页 Hero）、所有 `localConfig:no` 的 core 插件
+  - **未启用**：`event-linkify`（需创建配置文件）、地图系列插件（需地理数据）
+- [x] `docs/wiki/local/config/i18n.config.js` — 已创建，`defaultLang = 'zh'`
+- [x] `docs/wiki/local/config/chapter.config.js` — 已创建，`TOC_PAGE_ID = '目录'`
+- [x] `docs/wiki/local/config/types.js` — 已创建，类型体系：
+  - concept → 概念、person → 人物、event → 事件、organization → 机构
+  - place → 地点、species → 物种、overview → 综述、chapter → 章节、list → 列表
+- [x] `docs/wiki/local/config/infobox.js` — 已创建，含中文标签，两组分组（基本信息 / 学术信息）
+- [x] `docs/wiki/local/config/hero.js` — 已创建，书籍结构：
+  - 前言（耶利的问题）· 第一部分（第1–3章，从伊甸园到卡哈马卡）
+  - 第二部分（第4–10章，粮食生产的出现和传播）
+  - 第三部分（第11–14章，从粮食到枪炮、病菌与钢铁）
+  - 第四部分（第15–19章，在5章中环游世界）
+  - 后记（人类史作为一门科学的未来）
+- [x] `docs/wiki/local/config/home.js` — 已创建，首页分区：核心概念 / 重要人物 / 地理区域 / 物种
+- [x] `docs/wiki/local/config/variables.js` — 已创建，`AUTHOR=贾雷德·戴蒙德`、`TRANSLATOR=谢延光`、`YEAR=1997`
+
+**插件动态配置（`{id}.config.js`）：**
+
+`localConfig: required` 插件（必须创建对应 `.config.js` 才能启用）：
+| 插件 | 配置键 | 配置文件 | 状态 |
+|------|--------|---------|------|
+| `i18n` | `defaultLang` | `i18n.config.js` | ✅ 已创建，`'zh'` |
+| `event-linkify` | `LINKIFY_FIELDS` | `event-linkify.config.js` | ⬜ 未创建（按需启用） |
+
+- [x] 已决定：暂不启用 `event-linkify`（当前无事件页，后续需要时再启用）
+
+### 2-B 创建 About 页面
+
+- [x] 创建 `docs/wiki/pages/About.md` — 已创建并通过 `add_page.py` 注册
+  - 路径：`docs/wiki/pages/ab/About.md`（已分桶）
+  - 注册表 `pages.json` 中已包含 About 条目
+
+### 2-C Hero 视觉设计
+
+- [x] 构思首页背景视觉隐喻 — 已完成：大地色系漂流粒子动画，模拟作物/牲畜/病菌在大陆间扩散，沿东西轴线漂移，随机分裂繁殖
+- [x] 实现 `docs/wiki/local/config/hero.config.js` — 已实现，含 `buildHeroBackground()` 和 `startHeroAnimation(setStop)`
+- [ ] 本地验证：`./wiki-daemon.sh start`，首页背景正常渲染，控制台无报错
+
+### 2-D 验证
+
+- [x] 执行 `./wiki-daemon.sh start`，`http://localhost:1997` 返回 200
+- [x] 页面正常渲染，注册表已重建（`pages.json` / `pages.lite.json` / `fts-index.json`）
+- [ ] topnav「关于/About」可访问（需浏览器测试）
+- [ ] 开发者工具 → Network，确认无非预期 404（需浏览器测试）
+
+### 2-E Wiki 配置提交
+
+- [ ] 提交 Phase 2 所有配置文件：
+  ```bash
+  git add docs/wiki/local/ docs/wiki/pages/ docs/wiki/pages.json docs/wiki/pages.lite.json
+  bash wiki/scripts/skill_commit.sh "chore: Phase 2 Wiki 配置与 About 页"
+  ```
+  > 提交范围：`local/` 下所有 JS 配置文件、`pages/About.md`、注册表 `pages.json` / `pages.lite.json`。
 
 ---
 
