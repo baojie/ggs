@@ -88,16 +88,18 @@
   </small>
 </footer>
 
-<!-- 引擎 JS：本地开发由 serve.js 从 $MEMEX_ROOT/wiki/public/ 回退提供；静态部署时降级至 CDN -->
-<!-- ⚠️ src 必须是 js/core.js，不得改为 memex.min.js，原因同上（memex.min.js 仅在 CDN）。-->
-<script type="module" id="main-js" src="js/core.js"
-        onerror="
-          var cdn = document.querySelector('meta[name=cdn-base]').content;
-          var s = document.createElement('script');
-          s.type = 'module';
-          s.src = cdn + '/js/core.js';
-          document.head.appendChild(s);
-        "></script>
+<!-- 引擎 JS：本地走未打包源文件，生产走 CDN 固定版本 -->
+<!-- 升级引擎时手动更新下方哈希（运行 dist_build.sh 后查看 dist-version.json） -->
+<script>
+(function () {
+  var local = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+  var cdn = document.querySelector('meta[name=cdn-base]').content;
+  var s = document.createElement('script');
+  s.type = 'module';
+  s.src = local ? '/js/core.js' : (cdn + '/js/memex.min.a71f7cc6d5.js');
+  document.head.appendChild(s);
+}());
+</script>
 
 <!-- Settings panel toggle -->
 <script>
