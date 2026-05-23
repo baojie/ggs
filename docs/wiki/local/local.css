@@ -1,0 +1,14 @@
+/* ==========================================================
+ * local/local.css — 枪炮、病菌与钢铁 Wiki 本地样式覆盖
+ * 在 main.css 之后加载，用于修正深色主题下的样式问题。
+ * ========================================================== */
+
+/* ----------------------------------------------------------
+ * 1. 脚注样式修正（footnote 插件使用了硬编码浅色主题颜色）
+ * ---------------------------------------------------------- */
+.footnotes { color: var(--fg-muted); }
+.footnote-ref a,
+.footnote-backref { color: var(--fg-muted); text-decoration: none; }
+.footnote-ref a:hover,
+.footnote-backref:hover { color: var(--accent); text-decoration: underline; }
+.footnotes-sep { border-top-color: var(--border); }
