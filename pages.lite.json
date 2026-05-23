@@ -46,8 +46,8 @@
       "path": "ch/ch06-to-farm-or-not-to-farm.md"
     },
     "ch07-how-to-make-an-almond": {
-      "type": "chapter",
-      "label": "第七章　怎样识别杏仁",
+      "type": "unknown",
+      "label": "ch07-how-to-make-an-almond",
       "aliases": [],
       "path": "ch/ch07-how-to-make-an-almond.md"
     },
@@ -64,8 +64,8 @@
       "path": "ch/ch09-zebras-unhappy-marriages-anna-karenina.md"
     },
     "ch10-spacious-skies-tilted-axis": {
-      "type": "chapter",
-      "label": "第十章　辽阔的天空与偏斜的轴线",
+      "type": "unknown",
+      "label": "ch10-spacious-skies-tilted-axis",
       "aliases": [],
       "path": "ch/ch10-spacious-skies-tilted-axis.md"
     },
@@ -76,14 +76,14 @@
       "path": "ch/ch11-lethal-gift-of-livestock.md"
     },
     "ch12-blueprints-borrowed-letters": {
-      "type": "chapter",
-      "label": "第十二章　蓝图和借用字母",
+      "type": "unknown",
+      "label": "ch12-blueprints-borrowed-letters",
       "aliases": [],
       "path": "ch/ch12-blueprints-borrowed-letters.md"
     },
     "ch13-necessitys-mother": {
-      "type": "chapter",
-      "label": "第十三章　需要之母",
+      "type": "unknown",
+      "label": "ch13-necessitys-mother",
       "aliases": [],
       "path": "ch/ch13-necessitys-mother.md"
     },
@@ -129,6 +129,12 @@
       "aliases": [],
       "path": "ep/Epilogue.md"
     },
+    "Frontispiece": {
+      "type": "chapter",
+      "label": "书前彩插",
+      "aliases": [],
+      "path": "fr/Frontispiece.md"
+    },
     "目录": {
       "type": "overview",
       "label": "目录",
@@ -166,9 +172,10 @@
     "ch18-collision-of-two-hemispheres": "ch18-collision-of-two-hemispheres",
     "ch19-how-africa-became-black": "ch19-how-africa-became-black",
     "Epilogue": "Epilogue",
+    "Frontispiece": "Frontispiece",
     "目录": "目录",
     "Preface": "Preface"
   },
-  "page_count": 23,
-  "generated": "2026-05-23T14:24:31Z"
+  "page_count": 24,
+  "generated": "2026-05-23T14:31:21Z"
 }

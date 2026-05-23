@@ -1,6 +1,6 @@
 // WIKI_LANG = zh
 export const CORE_FEATURED = [];
-export const PREFACE_IDS   = ['目录', 'Preface'];
+export const PREFACE_IDS   = ['目录', 'Frontispiece', 'Preface'];
 export const APPENDIX_IDS  = ['Epilogue'];
 export const HOME_SECTIONS = [
   { label: '核心概念', tag: null, type: 'concept', featuredOnly: false, limit: 8 },
