@@ -1,4 +1,5 @@
 // WIKI_LANG = zh
+export const BOOK_DISPLAY = 'strip';
 export const EYEBROW   = '贾雷德·戴蒙德 · 谢延光译本';
 export const TITLE     = '枪炮、病菌与钢铁';
 export const TAGLINE   = '人类社会的命运';
