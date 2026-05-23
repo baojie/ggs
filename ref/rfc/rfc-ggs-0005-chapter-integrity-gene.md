@@ -1,6 +1,6 @@
 # RFC-ggs-0005: 建立章节完整性基因（CHK7）集成至 BIRTH.spec.md Phase 4-D
 
-- **Status**: accepted
+- **Status**: implemented
 - **Date**: 2026-05-23
 - **Issue**: https://github.com/baojie/memex/issues/131
 - **Source wiki**: ggs
@@ -58,3 +58,12 @@ python3 wiki/scripts/chapter_integrity.py --fix   # 自动修复后重新检查
 ### 3. ggs 侧的实践验证
 
 ggs 已实现 `wiki/scripts/chapter_integrity.py`（见 ggs repo），通过 8 项检查全部通过。待 RFC 批准后可将通用框架迁入 memex。
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-23
+**Note**: RFC 命名 CHK7 与现有基因冲突，ADM2 修正为 CHK12
+**Commits**:
+- baojie/memex@7af72d27a92651dc35faf896652e112eae16393b: implement RFC-ggs-0005
+- baojie/ggs@c34aeb6: rfc(ggs-0005): 创建 local/chapter_list.py
