@@ -8,13 +8,167 @@
         "About"
       ],
       "path": "ab/About.md"
+    },
+    "ch01-up-to-the-starting-line": {
+      "type": "chapter",
+      "label": "第一章　走上起跑线",
+      "aliases": [],
+      "path": "ch/ch01-up-to-the-starting-line.md"
+    },
+    "ch02-natural-experiment-of-history": {
+      "type": "chapter",
+      "label": "第二章　历史的自然实验",
+      "aliases": [],
+      "path": "ch/ch02-natural-experiment-of-history.md"
+    },
+    "ch03-collision-at-cajamarca": {
+      "type": "chapter",
+      "label": "第三章　卡哈马卡的冲突",
+      "aliases": [],
+      "path": "ch/ch03-collision-at-cajamarca.md"
+    },
+    "ch04-farmer-power": {
+      "type": "chapter",
+      "label": "第四章　农民的力量",
+      "aliases": [],
+      "path": "ch/ch04-farmer-power.md"
+    },
+    "ch05-historys-haves-and-have-nots": {
+      "type": "chapter",
+      "label": "第五章　历史上的穷与富",
+      "aliases": [],
+      "path": "ch/ch05-historys-haves-and-have-nots.md"
+    },
+    "ch06-to-farm-or-not-to-farm": {
+      "type": "chapter",
+      "label": "第六章　种田还是不种田",
+      "aliases": [],
+      "path": "ch/ch06-to-farm-or-not-to-farm.md"
+    },
+    "ch07-how-to-make-an-almond": {
+      "type": "chapter",
+      "label": "第七章　怎样识别杏仁",
+      "aliases": [],
+      "path": "ch/ch07-how-to-make-an-almond.md"
+    },
+    "ch08-apples-or-indians": {
+      "type": "chapter",
+      "label": "第八章　问题在苹果还是在印第安人",
+      "aliases": [],
+      "path": "ch/ch08-apples-or-indians.md"
+    },
+    "ch09-zebras-unhappy-marriages-anna-karenina": {
+      "type": "chapter",
+      "label": "第九章　斑马、不幸的婚姻和安娜·卡列尼娜原则",
+      "aliases": [],
+      "path": "ch/ch09-zebras-unhappy-marriages-anna-karenina.md"
+    },
+    "ch10-spacious-skies-tilted-axis": {
+      "type": "chapter",
+      "label": "第十章　辽阔的天空与偏斜的轴线",
+      "aliases": [],
+      "path": "ch/ch10-spacious-skies-tilted-axis.md"
+    },
+    "ch11-lethal-gift-of-livestock": {
+      "type": "chapter",
+      "label": "第十一章　牲畜的致命礼物",
+      "aliases": [],
+      "path": "ch/ch11-lethal-gift-of-livestock.md"
+    },
+    "ch12-blueprints-borrowed-letters": {
+      "type": "chapter",
+      "label": "第十二章　蓝图和借用字母",
+      "aliases": [],
+      "path": "ch/ch12-blueprints-borrowed-letters.md"
+    },
+    "ch13-necessitys-mother": {
+      "type": "chapter",
+      "label": "第十三章　需要之母",
+      "aliases": [],
+      "path": "ch/ch13-necessitys-mother.md"
+    },
+    "ch14-from-egalitarianism-to-kleptocracy": {
+      "type": "chapter",
+      "label": "第十四章　从平等主义到盗贼统治",
+      "aliases": [],
+      "path": "ch/ch14-from-egalitarianism-to-kleptocracy.md"
+    },
+    "ch15-yalis-people": {
+      "type": "chapter",
+      "label": "第十五章　耶利的族人",
+      "aliases": [],
+      "path": "ch/ch15-yalis-people.md"
+    },
+    "ch16-how-china-became-chinese": {
+      "type": "chapter",
+      "label": "第十六章　中国是怎样成为中国人的中国的",
+      "aliases": [],
+      "path": "ch/ch16-how-china-became-chinese.md"
+    },
+    "ch17-speedboat-to-polynesia": {
+      "type": "chapter",
+      "label": "第十七章　驶向波利尼西亚的快艇",
+      "aliases": [],
+      "path": "ch/ch17-speedboat-to-polynesia.md"
+    },
+    "ch18-collision-of-two-hemispheres": {
+      "type": "chapter",
+      "label": "第十八章　两个半球的碰撞",
+      "aliases": [],
+      "path": "ch/ch18-collision-of-two-hemispheres.md"
+    },
+    "ch19-how-africa-became-black": {
+      "type": "chapter",
+      "label": "第十九章　非洲是怎样成为黑人的非洲的",
+      "aliases": [],
+      "path": "ch/ch19-how-africa-became-black.md"
+    },
+    "Epilogue": {
+      "type": "chapter",
+      "label": "后记　人类史作为一门科学的未来",
+      "aliases": [],
+      "path": "ep/Epilogue.md"
+    },
+    "目录": {
+      "type": "overview",
+      "label": "目录",
+      "aliases": [],
+      "path": "mu/目录.md"
+    },
+    "Preface": {
+      "type": "chapter",
+      "label": "前言　耶利的问题",
+      "aliases": [],
+      "path": "pr/Preface.md"
     }
   },
   "alias_index": {
     "About": "About",
     "关于本 Wiki": "About",
-    "关于": "About"
+    "关于": "About",
+    "ch01-up-to-the-starting-line": "ch01-up-to-the-starting-line",
+    "ch02-natural-experiment-of-history": "ch02-natural-experiment-of-history",
+    "ch03-collision-at-cajamarca": "ch03-collision-at-cajamarca",
+    "ch04-farmer-power": "ch04-farmer-power",
+    "ch05-historys-haves-and-have-nots": "ch05-historys-haves-and-have-nots",
+    "ch06-to-farm-or-not-to-farm": "ch06-to-farm-or-not-to-farm",
+    "ch07-how-to-make-an-almond": "ch07-how-to-make-an-almond",
+    "ch08-apples-or-indians": "ch08-apples-or-indians",
+    "ch09-zebras-unhappy-marriages-anna-karenina": "ch09-zebras-unhappy-marriages-anna-karenina",
+    "ch10-spacious-skies-tilted-axis": "ch10-spacious-skies-tilted-axis",
+    "ch11-lethal-gift-of-livestock": "ch11-lethal-gift-of-livestock",
+    "ch12-blueprints-borrowed-letters": "ch12-blueprints-borrowed-letters",
+    "ch13-necessitys-mother": "ch13-necessitys-mother",
+    "ch14-from-egalitarianism-to-kleptocracy": "ch14-from-egalitarianism-to-kleptocracy",
+    "ch15-yalis-people": "ch15-yalis-people",
+    "ch16-how-china-became-chinese": "ch16-how-china-became-chinese",
+    "ch17-speedboat-to-polynesia": "ch17-speedboat-to-polynesia",
+    "ch18-collision-of-two-hemispheres": "ch18-collision-of-two-hemispheres",
+    "ch19-how-africa-became-black": "ch19-how-africa-became-black",
+    "Epilogue": "Epilogue",
+    "目录": "目录",
+    "Preface": "Preface"
   },
-  "page_count": 1,
-  "generated": "2026-05-23T06:08:30Z"
+  "page_count": 23,
+  "generated": "2026-05-23T14:24:31Z"
 }

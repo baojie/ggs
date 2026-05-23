@@ -1,1 +1,3 @@
 {"page": "About", "label": "关于本 Wiki", "rev_id": "nuNLWJ", "timestamp": "2026-05-23T05:04:05+00:00", "author": "butler", "summary": "add: About 页面", "size_before": 0, "size": 1193, "diff_add": 30, "diff_del": 0}
+{"id": "目录", "timestamp": "2026-05-23T22:21:57", "summary": "add: 创建目录页", "author": "baojie"}
+{"page": "About", "rev_id": "20260523-051727-631687", "timestamp": "2026-05-23T13:17:27+08:00", "author": "baojie", "summary": "feat(wiki): 新增 About 词条（关于本 Wiki）", "parent_rev": null, "content_hash": "sha256:631687e42e7ddcd3fd8e5964314719e91f91db12e2b95c8ecd9676a3ce1d5256", "size_before": 0, "size": 1193, "diff_add": 30, "diff_del": 0}

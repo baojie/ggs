@@ -237,7 +237,115 @@
 
 ## Phase 4：章节导入与目录
 
-> 状态：未开始
+> **前置条件**：`corpus/raw/doc_final.md` 存在（Phase 3 完成的标志）。
+> **目标**：所有章节（前言+19章+后记）以 `type: chapter` 页面形式进入 Wiki，首页出现书籍结构导航，读者可按部分/章节入口阅读。
+> **本 Phase 不做 PN**——内容原文导入即可，PN 留 Phase 5。
+
+---
+
+### 4-A 编写章节导入脚本
+
+- [x] 创建 `wiki/scripts/build_chapter_pages.py`，参考 `$MEMEX_ROOT/wiki/scripts/build_chapter_pages.py` 的模式：
+  - 读取 `corpus/raw/doc_final.md`，按章切分内容
+  - 写入 `docs/wiki/pages/` 下对应 `.md` 文件，frontmatter 格式：
+    ```yaml
+    ---
+    id: ch01-up-to-the-starting-line
+    type: chapter
+    label: "第一章 走上起跑线"
+    description: "人类历史开端的差异"
+    chapter: 1
+    tags: [chapter]
+    ---
+    ```
+  - **不插入 PN**，保留原文结构
+  - 运行后更新 `docs/wiki/pages.json` + `pages.lite.json`
+- [x] 执行脚本，确认 21 个章节页面全部生成（前言 + 第一章~第十九章 + 后记）
+
+**epub 来源 wiki 的 post-import 规范化流水线：**
+
+> ggs 语料来源为「已转换 MD」（epub→MD 校勘底稿），非 Pandoc 直接转换。以下脚本运行后检查 diff 是否有实际修改，无修改则跳过。
+
+所有规范化脚本均在 `$MEMEX_ROOT/wiki/scripts/`，通过 `WIKI_ROOT` 发现目标：
+```bash
+export WIKI_ROOT="$PWD"
+SCRIPTS="$MEMEX_ROOT/wiki/scripts"
+```
+
+- [x] **`extract_epub_images.py`** — 需要 epub 源文件；ggs 语料为已转换 MD 且无 epub，**跳过此步**
+  > 若日后补充插图，用 `pdfimages` 或 `pdftoppm` 手动提取到 `docs/wiki/images/`
+- [x] **`normalize_pandoc_spans.py`** — 检查是否有 Pandoc 扩展 span 残留（`.italic}` → `*text*` 等）；epub→MD 校勘底稿大概率无此类标记，运行后若无实际修改则跳过。结果：0 文件修改
+  ```bash
+  python3 "$SCRIPTS/normalize_pandoc_spans.py"
+  ```
+- [x] **`normalize_fig_blocks.py`** — 检查是否有 `{.fig-num}` 图注需转换为 `:::image` 语义块。结果：0 转换
+  ```bash
+  python3 "$SCRIPTS/normalize_fig_blocks.py"
+  ```
+- [x] **`normalize_table_blocks.py`** — grid table → pipe table + `:::table` 包装。结果：0 处理
+  ```bash
+  python3 "$SCRIPTS/normalize_table_blocks.py"
+  ```
+- [x] **`lint_list_spacing.py`** — 补全列表标记后缺失的空格。结果：Epilogue.md 修复 1 处
+  ```bash
+  python3 "$SCRIPTS/lint_list_spacing.py"
+  ```
+- [x] **`normalize_xhtml_links.py`** — epub 跨章节 xhtml 链接 → wiki 内链。结果：0 文件被主转换修改；87 处 `partNNNN.xhtml_annoN` 残留为 epub 注释引用，非章节目录链接，保留
+  ```bash
+  python3 "$SCRIPTS/normalize_xhtml_links.py"
+  ```
+- [x] **`build_page_map.py`** — 需要英文 epub 文件；ggs 无英文 epub，**跳过此步**
+- [x] **`normalize_page_links.py`** — wiki 页码链接 → pn-NNN-PPP 锚点；依赖 page_map.json，已跳过上游则同步跳过
+  ```bash
+  python3 "$SCRIPTS/normalize_page_links.py"
+  ```
+- [x] **`build_section_anchor_map.py`** — 需要英文 epub section 映射；ggs 无英文 epub，**跳过此步**
+- [x] **`inject_section_anchors.py`** — 注入 `[a:id]` 锚点到 heading 前；依赖上一步映射数据，已跳过则同步跳过
+
+
+### 4-B 创建目录页
+
+TOC 页面：`WIKI_LANG=zh` → 文件名 `目录.md`，type=overview，tab 层级缩进，PN 前缀编号，锚点链接。
+
+- [x] 创建静态 `docs/wiki/pages/mu/目录.md`（`generate_toc.py` 需要 PN prefix 待 Phase 5，先手动创建含 wikilink 的版本）
+- [x] 将目录页 id 加入 `local/config/home.js` PREFACE_IDS：
+  ```js
+  export const PREFACE_IDS = ['目录', 'Preface'];
+  ```
+- [ ] 访问 `#目录` 确认目录页可渲染，所有链接可跳转（在 4-D 中统一验证）
+
+
+### 4-C 更新 home.js 接入章节导航
+
+- [x] 补充 `docs/wiki/local/config/home.js` 中的空数组：
+  ```js
+  export const PREFACE_IDS  = ['目录', 'Preface'];  // 前置：目录 + 前言
+  export const APPENDIX_IDS = ['Epilogue'];           // 后置：后记
+  ```
+
+- [x] 确认 hero.js 的 `BOOK_META` 部分覆盖正确（min/max：前言 0-0、第一部分 1-3、第二部分 4-10、第三部分 11-14、第四部分 15-19、后记 20-20）——已配置，无需修改
+
+
+### 4-D 验证与提交
+
+- [x] 验证 `pages.json` 中章节条目含 `chapter` 字段：
+  ```bash
+  python3 -c "
+  import json; d=json.load(open('docs/wiki/pages.json'))
+  ch = next((v for v in d['pages'].values() if v.get('type')=='chapter' and v.get('chapter')), None)
+  print('chapter field OK:', ch['chapter'] if ch else 'MISSING')
+  "
+  ```
+- [ ] `./wiki-daemon.sh start`，访问首页，确认 book card 中章节 chip（Ch.0–Ch.20）正常显示
+  > 结构验证通过：pages.json 含 21 章节页，均含 chapter 字段。首页渲染需浏览器确认。
+- [ ] `./wiki-daemon.sh restart` 后章节 chip 仍然显示
+- [ ] 访问 `#目录`，确认目录页所有 wikilink 可点击跳转
+- [ ] 确认章节页面正文渲染无乱码
+- [ ] 回填修订历史：
+  ```bash
+  python3 "$MEMEX_ROOT/wiki/scripts/backfill_recent.py" --public docs/wiki
+  ```
+- [ ] commit `docs/wiki/pages/`、`pages.json`、`pages.lite.json`、`local/config/home.js` 及修订历史文件
 
 ---
 
