@@ -1,0 +1,20 @@
+{
+  "pages": {
+    "About": {
+      "type": "overview",
+      "label": "关于本 Wiki",
+      "aliases": [
+        "关于",
+        "About"
+      ],
+      "path": "ab/About.md"
+    }
+  },
+  "alias_index": {
+    "About": "About",
+    "关于本 Wiki": "About",
+    "关于": "About"
+  },
+  "page_count": 1,
+  "generated": "2026-05-23T05:04:55Z"
+}
