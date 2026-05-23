@@ -1,6 +1,6 @@
 # RFC-ggs-0007: 建立部署验证基因 CHK13 并更新 BIRTH.spec.md Phase 4-D
 
-- **Status**: proposed
+- **Status**: implemented
 - **Date**: 2026-05-24
 - **Issue**: https://github.com/baojie/memex/issues/133
 - **Source wiki**: ggs
@@ -81,3 +81,13 @@ wiki 通用脚本，从以下本地配置读取参数：
 ## Gene 草稿
 
 详见 RFC 文件附件。
+
+## Implementation
+
+- **commit**: `764e36c`（memex main）
+- **日期**: 2026-05-24
+- **实施内容**:
+  1. 新增 `skills/gene/CHK13-deploy-verify.md`（D01–D07 七项检查定义，D06 标注为可选）
+  2. 新增 `wiki/scripts/verify_deploy.py`（共享验证脚本，配置路径修正为 `docs/wiki/local/config/`）
+  3. 更新 `BIRTH.spec.md §4-D`：4 项人工检查 → CHK13 一条命令
+- **ADM3 结论**: faithful
