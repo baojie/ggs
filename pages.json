@@ -176,9 +176,9 @@
         "农业传播"
       ],
       "path": "ba/班图扩张.md",
-      "description": "公元前3000年至公元1000年，以尼日利亚和喀麦隆为起点的班图语族人口向南、向东大规模扩张，携带粮食生产和牲畜，在整个撒哈拉以南非洲取代或同化了原有的狩猎采集族群；这是本书论证南北轴线阻碍农业传播这一论点的反例——班图扩张沿东西气候带进行，因此得以成功。",
-      "prose_len": 657,
-      "prose_chars": 619,
+      "description": "公元前3000年至公元1000年，以尼日利亚和喀麦隆为起点的班图语族人口向南、向东大规模扩张，携带粮食生产和牲畜，在整个撒哈拉以南非洲取代或同化了原有的狩猎采集族群；这是本书论证南北轴线阻碍农业传播这一论点的反例，班图扩张沿东西气候带进行，因此得以成功。",
+      "prose_len": 656,
+      "prose_chars": 618,
       "h2_count": 3,
       "pn_count": 5,
       "wikilink_count": 4,
@@ -210,7 +210,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 22
+      "total_refs": 23
     },
     "伯克和威尔斯": {
       "type": "person",
@@ -863,6 +863,33 @@
       "affiliation": "西班牙王国",
       "total_refs": 0
     },
+    "哥伦布航行与两个半球的碰撞": {
+      "type": "event",
+      "label": "哥伦布航行与两个半球的碰撞",
+      "aliases": [
+        "Columbus Voyage",
+        "1492年哥伦布航行",
+        "两个半球的碰撞"
+      ],
+      "tags": [
+        "航海",
+        "征服",
+        "碰撞",
+        "旧大陆",
+        "新大陆"
+      ],
+      "path": "ge/哥伦布航行与两个半球的碰撞.md",
+      "description": "1492年哥伦布\"发现\"美洲，开启了旧大陆与新大陆社会之间的直接接触；戴蒙德将这一事件视为本书分析的关键节点，正是在这一时刻，数千年地理隔绝积累的欧亚大陆优势通过枪炮、病菌与钢铁集中体现。",
+      "prose_len": 686,
+      "prose_chars": 650,
+      "h2_count": 3,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
+      "total_refs": 0
+    },
     "更新世大型动物灭绝": {
       "type": "event",
       "label": "更新世大型动物灭绝",
@@ -888,7 +915,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 26,
-      "total_refs": 0
+      "total_refs": 1
     },
     "格林伯格": {
       "type": "person",
@@ -952,8 +979,8 @@
       ],
       "path": "he/黑死病.md",
       "description": "1346年至1352年间席卷欧洲的腺鼠疫，杀死了欧洲四分之一的人口；戴蒙德以此为典型案例说明传染病的驯养动物来源及其沿东西轴线传播的机制，也与欧亚病菌单向摧毁美洲土著人口的论点形成参照。",
-      "prose_len": 597,
-      "prose_chars": 563,
+      "prose_len": 595,
+      "prose_chars": 561,
       "h2_count": 3,
       "pn_count": 3,
       "wikilink_count": 4,
@@ -1010,7 +1037,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 7
+      "total_refs": 8
     },
     "近端原因与终极原因": {
       "type": "concept",
@@ -1035,7 +1062,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 27
+      "total_refs": 28
     },
     "卡哈马卡": {
       "type": "place",
@@ -1076,15 +1103,15 @@
       ],
       "path": "ka/卡哈马卡之战.md",
       "description": "1532年11月16日，弗兰西斯科·皮萨罗率168名西班牙人在秘鲁卡哈马卡俘获印加皇帝阿塔瓦尔帕，击溃数万印加军队；戴蒙德以此战为分析起点，解析欧亚大陆人征服美洲的近端原因与终极原因。",
-      "prose_len": 699,
-      "prose_chars": 663,
+      "prose_len": 697,
+      "prose_chars": 661,
       "h2_count": 3,
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "standard",
-      "quality_score": 27,
-      "total_refs": 0
+      "quality_score": 26,
+      "total_refs": 3
     },
     "科尔特斯": {
       "type": "person",
@@ -1158,7 +1185,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 36
+      "total_refs": 38
     },
     "骆驼": {
       "type": "species",
@@ -1212,6 +1239,31 @@
       "quality": "standard",
       "quality_score": 28,
       "total_refs": 3
+    },
+    "马的驯化": {
+      "type": "event",
+      "label": "马的驯化",
+      "aliases": [
+        "Horse Domestication",
+        "驯化马"
+      ],
+      "tags": [
+        "驯化",
+        "动物",
+        "战争",
+        "欧亚大陆"
+      ],
+      "path": "ma/马的驯化.md",
+      "description": "约公元前4000年，马在黑海北面的大草原上被驯化；马匹的驯化改变了欧亚大陆的战争形态，成为欧亚大陆人征服其他大陆的重要军事优势，在本书中是动物驯化决定历史走向的核心案例。",
+      "prose_len": 587,
+      "prose_chars": 551,
+      "h2_count": 3,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 25,
+      "total_refs": 0
     },
     "马铃薯": {
       "type": "species",
@@ -1310,7 +1362,32 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 5
+      "total_refs": 6
+    },
+    "美洲独立农业起源": {
+      "type": "event",
+      "label": "美洲独立农业起源",
+      "aliases": [
+        "Independent Agricultural Origins in the Americas",
+        "中美洲农业起源"
+      ],
+      "tags": [
+        "农业",
+        "驯化",
+        "美洲",
+        "起源"
+      ],
+      "path": "me/美洲独立农业起源.md",
+      "description": "美洲在与旧大陆隔绝的情况下独立发展出农业，核心区域包括中美洲（玉米、南瓜）、美国东部（向日葵等）和安第斯山脉（土豆、美洲驼）；戴蒙德以美洲农业起源为对照案例，说明地理条件而非人类智力差异，导致美洲农业发展较欧亚大陆迟缓且动物驯化资源匮乏。",
+      "prose_len": 641,
+      "prose_chars": 605,
+      "h2_count": 3,
+      "pn_count": 4,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
+      "total_refs": 0
     },
     "蒙特朱马": {
       "type": "person",
@@ -1479,7 +1556,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 1
+      "total_refs": 2
     },
     "皮萨罗": {
       "type": "person",
@@ -1695,7 +1772,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 9
+      "total_refs": 10
     },
     "天花病毒": {
       "type": "species",
@@ -1768,6 +1845,31 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
+      "total_refs": 0
+    },
+    "文字的独立发明": {
+      "type": "event",
+      "label": "文字的独立发明",
+      "aliases": [
+        "Independent Invention of Writing",
+        "苏美尔文字",
+        "楔形文字发明"
+      ],
+      "tags": [
+        "文字",
+        "技术",
+        "信息传播"
+      ],
+      "path": "we/文字的独立发明.md",
+      "description": "文字在人类历史上被独立发明了数次，最早的无可争辩的案例是约公元前3000年美索不达米亚的苏美尔楔形文字；戴蒙德分析文字的发明史，以说明文字是通过蓝图借鉴或刺激传播，而非多数地区独立创造。",
+      "prose_len": 673,
+      "prose_chars": 637,
+      "h2_count": 3,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 0
     },
     "小麦": {
@@ -1869,7 +1971,32 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 17
+      "total_refs": 19
+    },
+    "新月沃地农业起源": {
+      "type": "event",
+      "label": "新月沃地农业起源",
+      "aliases": [
+        "Fertile Crescent Agricultural Origins",
+        "西南亚农业起源"
+      ],
+      "tags": [
+        "农业",
+        "驯化",
+        "西南亚",
+        "起源"
+      ],
+      "path": "xi/新月沃地农业起源.md",
+      "description": "约公元前8500年，西南亚新月沃地出现了世界上有明确年代记录最早的植物驯化，随后约公元前8000年出现动物驯化；这一农业起源事件在全书中作为全球农业扩散的起点，其地理禀赋——适于驯化的野生植物和动物种类丰富——是粮食生产最早在此出现的关键原因。",
+      "prose_len": 630,
+      "prose_chars": 594,
+      "h2_count": 3,
+      "pn_count": 4,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
+      "total_refs": 0
     },
     "驯化": {
       "type": "concept",
@@ -1894,7 +2021,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 22
+      "total_refs": 25
     },
     "亚历山大大帝": {
       "type": "person",
@@ -1968,7 +2095,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 2
+      "total_refs": 3
     },
     "语言传播": {
       "type": "concept",
@@ -2167,6 +2294,10 @@
     "哥伦布": "哥伦布",
     "克里斯托弗·哥伦布": "哥伦布",
     "Christopher Columbus": "哥伦布",
+    "哥伦布航行与两个半球的碰撞": "哥伦布航行与两个半球的碰撞",
+    "Columbus Voyage": "哥伦布航行与两个半球的碰撞",
+    "1492年哥伦布航行": "哥伦布航行与两个半球的碰撞",
+    "两个半球的碰撞": "哥伦布航行与两个半球的碰撞",
     "更新世大型动物灭绝": "更新世大型动物灭绝",
     "Pleistocene megafauna extinction": "更新世大型动物灭绝",
     "晚更新世灭绝": "更新世大型动物灭绝",
@@ -2220,6 +2351,9 @@
     "骏马": "马",
     "horse": "马",
     "Equus ferus caballus": "马",
+    "马的驯化": "马的驯化",
+    "Horse Domestication": "马的驯化",
+    "驯化马": "马的驯化",
     "马铃薯": "马铃薯",
     "土豆": "马铃薯",
     "洋芋": "马铃薯",
@@ -2236,6 +2370,9 @@
     "Americas": "美洲",
     "新大陆": "美洲",
     "the Americas": "美洲",
+    "美洲独立农业起源": "美洲独立农业起源",
+    "Independent Agricultural Origins in the Americas": "美洲独立农业起源",
+    "中美洲农业起源": "美洲独立农业起源",
     "蒙特朱马": "蒙特朱马",
     "Moctezuma": "蒙特朱马",
     "蒙特苏马": "蒙特朱马",
@@ -2305,6 +2442,10 @@
     "豌豆": "豌豆",
     "pea": "豌豆",
     "Pisum sativum": "豌豆",
+    "文字的独立发明": "文字的独立发明",
+    "Independent Invention of Writing": "文字的独立发明",
+    "苏美尔文字": "文字的独立发明",
+    "楔形文字发明": "文字的独立发明",
     "小麦": "小麦",
     "二粒小麦": "小麦",
     "单粒小麦": "小麦",
@@ -2322,6 +2463,9 @@
     "西南亚": "新月沃地",
     "近东": "新月沃地",
     "Fertile Crescent": "新月沃地",
+    "新月沃地农业起源": "新月沃地农业起源",
+    "Fertile Crescent Agricultural Origins": "新月沃地农业起源",
+    "西南亚农业起源": "新月沃地农业起源",
     "驯化": "驯化",
     "植物驯化": "驯化",
     "动物驯化": "驯化",
@@ -2355,6 +2499,6 @@
     "pig": "猪",
     "Sus scrofa domesticus": "猪"
   },
-  "page_count": 90,
-  "generated": "2026-05-24T21:48:20Z"
+  "page_count": 95,
+  "generated": "2026-05-24T21:54:25Z"
 }

@@ -318,6 +318,16 @@
       ],
       "path": "ge/哥伦布.md"
     },
+    "哥伦布航行与两个半球的碰撞": {
+      "type": "event",
+      "label": "哥伦布航行与两个半球的碰撞",
+      "aliases": [
+        "Columbus Voyage",
+        "1492年哥伦布航行",
+        "两个半球的碰撞"
+      ],
+      "path": "ge/哥伦布航行与两个半球的碰撞.md"
+    },
     "更新世大型动物灭绝": {
       "type": "event",
       "label": "更新世大型动物灭绝",
@@ -456,6 +466,15 @@
       ],
       "path": "ma/马.md"
     },
+    "马的驯化": {
+      "type": "event",
+      "label": "马的驯化",
+      "aliases": [
+        "Horse Domestication",
+        "驯化马"
+      ],
+      "path": "ma/马的驯化.md"
+    },
     "马铃薯": {
       "type": "species",
       "label": "马铃薯",
@@ -495,6 +514,15 @@
         "the Americas"
       ],
       "path": "me/美洲.md"
+    },
+    "美洲独立农业起源": {
+      "type": "event",
+      "label": "美洲独立农业起源",
+      "aliases": [
+        "Independent Agricultural Origins in the Americas",
+        "中美洲农业起源"
+      ],
+      "path": "me/美洲独立农业起源.md"
     },
     "蒙特朱马": {
       "type": "person",
@@ -678,6 +706,16 @@
       ],
       "path": "wa/豌豆.md"
     },
+    "文字的独立发明": {
+      "type": "event",
+      "label": "文字的独立发明",
+      "aliases": [
+        "Independent Invention of Writing",
+        "苏美尔文字",
+        "楔形文字发明"
+      ],
+      "path": "we/文字的独立发明.md"
+    },
     "小麦": {
       "type": "species",
       "label": "小麦",
@@ -718,6 +756,15 @@
         "Fertile Crescent"
       ],
       "path": "xi/新月沃地.md"
+    },
+    "新月沃地农业起源": {
+      "type": "event",
+      "label": "新月沃地农业起源",
+      "aliases": [
+        "Fertile Crescent Agricultural Origins",
+        "西南亚农业起源"
+      ],
+      "path": "xi/新月沃地农业起源.md"
     },
     "驯化": {
       "type": "concept",
@@ -894,6 +941,10 @@
     "哥伦布": "哥伦布",
     "克里斯托弗·哥伦布": "哥伦布",
     "Christopher Columbus": "哥伦布",
+    "哥伦布航行与两个半球的碰撞": "哥伦布航行与两个半球的碰撞",
+    "Columbus Voyage": "哥伦布航行与两个半球的碰撞",
+    "1492年哥伦布航行": "哥伦布航行与两个半球的碰撞",
+    "两个半球的碰撞": "哥伦布航行与两个半球的碰撞",
     "更新世大型动物灭绝": "更新世大型动物灭绝",
     "Pleistocene megafauna extinction": "更新世大型动物灭绝",
     "晚更新世灭绝": "更新世大型动物灭绝",
@@ -947,6 +998,9 @@
     "骏马": "马",
     "horse": "马",
     "Equus ferus caballus": "马",
+    "马的驯化": "马的驯化",
+    "Horse Domestication": "马的驯化",
+    "驯化马": "马的驯化",
     "马铃薯": "马铃薯",
     "土豆": "马铃薯",
     "洋芋": "马铃薯",
@@ -963,6 +1017,9 @@
     "Americas": "美洲",
     "新大陆": "美洲",
     "the Americas": "美洲",
+    "美洲独立农业起源": "美洲独立农业起源",
+    "Independent Agricultural Origins in the Americas": "美洲独立农业起源",
+    "中美洲农业起源": "美洲独立农业起源",
     "蒙特朱马": "蒙特朱马",
     "Moctezuma": "蒙特朱马",
     "蒙特苏马": "蒙特朱马",
@@ -1032,6 +1089,10 @@
     "豌豆": "豌豆",
     "pea": "豌豆",
     "Pisum sativum": "豌豆",
+    "文字的独立发明": "文字的独立发明",
+    "Independent Invention of Writing": "文字的独立发明",
+    "苏美尔文字": "文字的独立发明",
+    "楔形文字发明": "文字的独立发明",
     "小麦": "小麦",
     "二粒小麦": "小麦",
     "单粒小麦": "小麦",
@@ -1049,6 +1110,9 @@
     "西南亚": "新月沃地",
     "近东": "新月沃地",
     "Fertile Crescent": "新月沃地",
+    "新月沃地农业起源": "新月沃地农业起源",
+    "Fertile Crescent Agricultural Origins": "新月沃地农业起源",
+    "西南亚农业起源": "新月沃地农业起源",
     "驯化": "驯化",
     "植物驯化": "驯化",
     "动物驯化": "驯化",
@@ -1082,6 +1146,6 @@
     "pig": "猪",
     "Sus scrofa domesticus": "猪"
   },
-  "page_count": 90,
-  "generated": "2026-05-24T21:48:20Z"
+  "page_count": 95,
+  "generated": "2026-05-24T21:54:25Z"
 }
