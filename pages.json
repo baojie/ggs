@@ -10,9 +10,9 @@
       "tags": [],
       "path": "ab/About.md",
       "description": "枪炮、病菌与钢铁 Wiki——围绕贾雷德·戴蒙德著作构建的知识库",
-      "prose_len": 482,
-      "prose_chars": 430,
-      "h2_count": 3,
+      "prose_len": 803,
+      "prose_chars": 532,
+      "h2_count": 5,
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 0,
@@ -26,7 +26,7 @@
         "chapter"
       ],
       "path": "ch/ch01-up-to-the-starting-line.md",
-      "prose_len": 14901,
+      "prose_len": 14998,
       "prose_chars": 14743,
       "h2_count": 1,
       "pn_count": 0,
@@ -44,7 +44,7 @@
         "chapter"
       ],
       "path": "ch/ch02-natural-experiment-of-history.md",
-      "prose_len": 11582,
+      "prose_len": 11637,
       "prose_chars": 11436,
       "h2_count": 1,
       "pn_count": 0,
@@ -62,7 +62,7 @@
         "chapter"
       ],
       "path": "ch/ch03-collision-at-cajamarca.md",
-      "prose_len": 12423,
+      "prose_len": 12461,
       "prose_chars": 12313,
       "h2_count": 1,
       "pn_count": 0,
@@ -80,7 +80,7 @@
         "chapter"
       ],
       "path": "ch/ch04-farmer-power.md",
-      "prose_len": 5748,
+      "prose_len": 5789,
       "prose_chars": 5652,
       "h2_count": 1,
       "pn_count": 0,
@@ -98,8 +98,8 @@
         "chapter"
       ],
       "path": "ch/ch05-historys-haves-and-have-nots.md",
-      "prose_len": 8259,
-      "prose_chars": 8145,
+      "prose_len": 8832,
+      "prose_chars": 8084,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -116,7 +116,7 @@
         "chapter"
       ],
       "path": "ch/ch06-to-farm-or-not-to-farm.md",
-      "prose_len": 7551,
+      "prose_len": 7586,
       "prose_chars": 7442,
       "h2_count": 1,
       "pn_count": 0,
@@ -134,8 +134,8 @@
         "chapter"
       ],
       "path": "ch/ch07-how-to-make-an-almond.md",
-      "prose_len": 12964,
-      "prose_chars": 12759,
+      "prose_len": 13692,
+      "prose_chars": 12809,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -152,8 +152,8 @@
         "chapter"
       ],
       "path": "ch/ch08-apples-or-indians.md",
-      "prose_len": 21066,
-      "prose_chars": 20722,
+      "prose_len": 21247,
+      "prose_chars": 20711,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -170,8 +170,8 @@
         "chapter"
       ],
       "path": "ch/ch09-zebras-unhappy-marriages-anna-karenina.md",
-      "prose_len": 14711,
-      "prose_chars": 14394,
+      "prose_len": 15251,
+      "prose_chars": 14434,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -188,7 +188,7 @@
         "chapter"
       ],
       "path": "ch/ch10-spacious-skies-tilted-axis.md",
-      "prose_len": 12231,
+      "prose_len": 12272,
       "prose_chars": 11882,
       "h2_count": 1,
       "pn_count": 0,
@@ -206,8 +206,8 @@
         "chapter"
       ],
       "path": "ch/ch11-lethal-gift-of-livestock.md",
-      "prose_len": 16788,
-      "prose_chars": 16631,
+      "prose_len": 17007,
+      "prose_chars": 16651,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -224,7 +224,7 @@
         "chapter"
       ],
       "path": "ch/ch12-blueprints-borrowed-letters.md",
-      "prose_len": 17850,
+      "prose_len": 17907,
       "prose_chars": 17413,
       "h2_count": 1,
       "pn_count": 0,
@@ -242,8 +242,8 @@
         "chapter"
       ],
       "path": "ch/ch13-necessitys-mother.md",
-      "prose_len": 21608,
-      "prose_chars": 21299,
+      "prose_len": 21898,
+      "prose_chars": 21295,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -260,8 +260,8 @@
         "chapter"
       ],
       "path": "ch/ch14-from-egalitarianism-to-kleptocracy.md",
-      "prose_len": 23317,
-      "prose_chars": 23121,
+      "prose_len": 24123,
+      "prose_chars": 23141,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -278,7 +278,7 @@
         "chapter"
       ],
       "path": "ch/ch15-yalis-people.md",
-      "prose_len": 21773,
+      "prose_len": 21828,
       "prose_chars": 21555,
       "h2_count": 1,
       "pn_count": 0,
@@ -296,7 +296,7 @@
         "chapter"
       ],
       "path": "ch/ch16-how-china-became-chinese.md",
-      "prose_len": 8615,
+      "prose_len": 8653,
       "prose_chars": 8437,
       "h2_count": 1,
       "pn_count": 0,
@@ -314,7 +314,7 @@
         "chapter"
       ],
       "path": "ch/ch17-speedboat-to-polynesia.md",
-      "prose_len": 16714,
+      "prose_len": 16766,
       "prose_chars": 16502,
       "h2_count": 1,
       "pn_count": 0,
@@ -332,8 +332,8 @@
         "chapter"
       ],
       "path": "ch/ch18-collision-of-two-hemispheres.md",
-      "prose_len": 16217,
-      "prose_chars": 15967,
+      "prose_len": 17765,
+      "prose_chars": 15985,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -350,7 +350,7 @@
         "chapter"
       ],
       "path": "ch/ch19-how-africa-became-black.md",
-      "prose_len": 19604,
+      "prose_len": 19657,
       "prose_chars": 19257,
       "h2_count": 1,
       "pn_count": 0,
@@ -368,7 +368,7 @@
         "chapter"
       ],
       "path": "ep/Epilogue.md",
-      "prose_len": 26606,
+      "prose_len": 26662,
       "prose_chars": 25895,
       "h2_count": 1,
       "pn_count": 0,
@@ -421,8 +421,8 @@
         "chapter"
       ],
       "path": "pr/Preface.md",
-      "prose_len": 17266,
-      "prose_chars": 17077,
+      "prose_len": 17361,
+      "prose_chars": 17125,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -461,5 +461,5 @@
     "Preface": "Preface"
   },
   "page_count": 24,
-  "generated": "2026-05-24T09:51:38Z"
+  "generated": "2026-05-24T15:41:39Z"
 }
