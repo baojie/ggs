@@ -92,6 +92,30 @@
       "quality_score": 30,
       "total_refs": 0
     },
+    "阿塔瓦尔帕": {
+      "type": "person",
+      "label": "阿塔瓦尔帕",
+      "aliases": [
+        "Atahualpa",
+        "阿塔华帕"
+      ],
+      "tags": [
+        "统治者",
+        "原住民"
+      ],
+      "path": "at/阿塔瓦尔帕.md",
+      "description": "印加帝国末代皇帝，1532年11月16日在卡哈马卡被西班牙征服者皮萨罗俘获，此事件成为全书\"为什么欧亚人征服了美洲土著\"这一核心问题的具体起点。",
+      "prose_len": 700,
+      "prose_chars": 664,
+      "h2_count": 3,
+      "pn_count": 7,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 27,
+      "affiliation": "印加帝国",
+      "total_refs": 1
+    },
     "斑马": {
       "type": "species",
       "label": "斑马",
@@ -139,7 +163,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 14
+      "total_refs": 18
     },
     "波利尼西亚": {
       "type": "place",
@@ -606,7 +630,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 2
+      "total_refs": 3
     },
     "东南亚": {
       "type": "place",
@@ -719,6 +743,30 @@
       "quality_score": 30,
       "total_refs": 1
     },
+    "哥伦布": {
+      "type": "person",
+      "label": "哥伦布",
+      "aliases": [
+        "克里斯托弗·哥伦布",
+        "Christopher Columbus"
+      ],
+      "tags": [
+        "探险家",
+        "征服者"
+      ],
+      "path": "ge/哥伦布.md",
+      "description": "意大利航海家，1492年\"发现\"美洲，开启了旧大陆与新大陆之间的直接接触，是两个半球历史上最重大的碰撞的触发者；欧洲人随其航行带来的传染病最终杀死了哥伦布到来前约95%的美洲土著人口。",
+      "prose_len": 609,
+      "prose_chars": 573,
+      "h2_count": 3,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
+      "affiliation": "西班牙王国",
+      "total_refs": 0
+    },
     "家畜": {
       "type": "concept",
       "label": "家畜",
@@ -792,7 +840,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 17
+      "total_refs": 21
     },
     "卡哈马卡": {
       "type": "place",
@@ -817,7 +865,31 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 1
+      "total_refs": 3
+    },
+    "科尔特斯": {
+      "type": "person",
+      "label": "科尔特斯",
+      "aliases": [
+        "埃尔南·科尔特斯",
+        "Hernán Cortés"
+      ],
+      "tags": [
+        "征服者",
+        "探险家"
+      ],
+      "path": "ke/科尔特斯.md",
+      "description": "西班牙征服者，1519年率600名士兵在墨西哥登陆，征服拥有数百万人口的阿兹特克帝国；其成功与皮萨罗征服印加帝国平行，共同例示了欧亚大陆的钢铁、马匹和病菌优势对美洲原住民社会的决定性作用。",
+      "prose_len": 579,
+      "prose_chars": 545,
+      "h2_count": 3,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 25,
+      "affiliation": "西班牙王国",
+      "total_refs": 0
     },
     "粮食生产": {
       "type": "concept",
@@ -843,7 +915,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 31
+      "total_refs": 32
     },
     "骆驼": {
       "type": "species",
@@ -896,7 +968,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 2
+      "total_refs": 3
     },
     "马铃薯": {
       "type": "species",
@@ -995,7 +1067,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 1
+      "total_refs": 2
     },
     "免疫力": {
       "type": "concept",
@@ -1021,7 +1093,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 5
+      "total_refs": 6
     },
     "绵羊": {
       "type": "species",
@@ -1116,6 +1188,30 @@
       "quality": "standard",
       "quality_score": 29,
       "total_refs": 0
+    },
+    "皮萨罗": {
+      "type": "person",
+      "label": "皮萨罗",
+      "aliases": [
+        "弗朗西斯科·皮萨罗",
+        "Francisco Pizarro"
+      ],
+      "tags": [
+        "征服者",
+        "探险家"
+      ],
+      "path": "pi/皮萨罗.md",
+      "description": "西班牙征服者，率168名士兵于1532年在卡哈马卡俘获印加皇帝阿塔瓦尔帕，征服印加帝国；其军事成功被戴蒙德用来剖析欧亚大陆地理优势如何通过钢铁、病菌和书写系统转化为征服力量。",
+      "prose_len": 658,
+      "prose_chars": 622,
+      "h2_count": 3,
+      "pn_count": 7,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
+      "affiliation": "西班牙王国",
+      "total_refs": 3
     },
     "Preface": {
       "type": "chapter",
@@ -1409,7 +1505,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 1
+      "total_refs": 2
     },
     "新月沃地": {
       "type": "concept",
@@ -1461,6 +1557,29 @@
       "quality": "standard",
       "quality_score": 31,
       "total_refs": 19
+    },
+    "耶利": {
+      "type": "person",
+      "label": "耶利",
+      "aliases": [
+        "Yali"
+      ],
+      "tags": [
+        "原住民",
+        "学者"
+      ],
+      "path": "ye/耶利.md",
+      "description": "新几内亚人，本书题记中提出核心问题\"为什么白人制造了那么多货物并把它们带到新几内亚来，而我们黑人却几乎没有属于我们自己的货物？\"的人，其问题是全书的论证起点。",
+      "prose_len": 621,
+      "prose_chars": 587,
+      "h2_count": 3,
+      "pn_count": 7,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
+      "affiliation": "新几内亚",
+      "total_refs": 0
     },
     "玉米": {
       "type": "species",
@@ -1607,6 +1726,9 @@
     "澳大利亚": "澳大利亚",
     "Australia": "澳大利亚",
     "澳洲": "澳大利亚",
+    "阿塔瓦尔帕": "阿塔瓦尔帕",
+    "Atahualpa": "阿塔瓦尔帕",
+    "阿塔华帕": "阿塔瓦尔帕",
     "斑马": "斑马",
     "非洲斑马": "斑马",
     "zebra": "斑马",
@@ -1666,6 +1788,9 @@
     "高粱": "高粱",
     "sorghum": "高粱",
     "Sorghum bicolor": "高粱",
+    "哥伦布": "哥伦布",
+    "克里斯托弗·哥伦布": "哥伦布",
+    "Christopher Columbus": "哥伦布",
     "家畜": "家畜",
     "驯化动物": "家畜",
     "牲畜": "家畜",
@@ -1681,6 +1806,9 @@
     "卡哈马卡": "卡哈马卡",
     "Cajamarca": "卡哈马卡",
     "卡哈马卡战役": "卡哈马卡",
+    "科尔特斯": "科尔特斯",
+    "埃尔南·科尔特斯": "科尔特斯",
+    "Hernán Cortés": "科尔特斯",
     "粮食生产": "粮食生产",
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
@@ -1731,6 +1859,9 @@
     "欧亚大陆": "欧亚大陆",
     "Eurasia": "欧亚大陆",
     "亚欧大陆": "欧亚大陆",
+    "皮萨罗": "皮萨罗",
+    "弗朗西斯科·皮萨罗": "皮萨罗",
+    "Francisco Pizarro": "皮萨罗",
     "Preface": "Preface",
     "人口密度": "人口密度",
     "人口压力": "人口密度",
@@ -1785,6 +1916,8 @@
     "植物驯化": "驯化",
     "动物驯化": "驯化",
     "domestication": "驯化",
+    "耶利": "耶利",
+    "Yali": "耶利",
     "玉米": "玉米",
     "玉蜀黍": "玉米",
     "墨西哥类蜀黍": "玉米",
@@ -1809,6 +1942,6 @@
     "pig": "猪",
     "Sus scrofa domesticus": "猪"
   },
-  "page_count": 70,
-  "generated": "2026-05-24T21:23:48Z"
+  "page_count": 75,
+  "generated": "2026-05-24T21:28:46Z"
 }
