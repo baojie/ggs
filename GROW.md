@@ -372,11 +372,135 @@ Phase 0 完成的标志：
 
 ## Phase 1：种子层（Seed，R1–R50）
 
-> 状态：未开始
-
 > **对应关系**：BIRTH Phase 9（类型 Pilot）即为 Phase 1 的执行体。
-> 已完成 BIRTH Phase 9 的 wiki **不重新执行**，只做核验（见 Phase 0 → 1-X 退出条件）。
-> 本 wiki BIRTH Phase 9 已完成（R1–R40），Phase 1 核验在 Phase 0 中已整合执行。
+> 已完成 BIRTH Phase 9 的 wiki **不重新执行**，只做核验（1-A / 1-B / 1-C）和补建（1-D）。
+> 未做过类型 Pilot 的 wiki（如直接从 BIRTH Phase 8 跳入 GROW）需完整执行 1-E。
+>
+> **目标**：每个主要类型有 2–5 个 standard 质量词条作为质量基线，图式模板稳定，
+> 首批纠错 gene 归档，可支撑 Phase 2 批量建设。
+>
+> **广度:深度 = 0:10**（先立质量标尺，不铺面）。
+> 参考 `$MEMEX_ROOT/ref/spec/butler-phased-strategy-seed.md §Phase 1`。
+
+---
+
+### 1-A 读取 Pilot 产出
+
+从 BIRTH Phase 9 / `local/memory/boot_summary.md` 提取种子层完成状态：
+
+- [ ] 确认 `boot_summary.md` 包含 Pilot EVV 汇总：
+  ```bash
+  grep -A 20 "Pilot EVV" local/memory/boot_summary.md
+  ```
+  提取并记录（填入 `grow_baseline.md` 如未填写）：
+
+  | 类型 | Pilot 页数 | EVV 均分（最终轮）| 模板稳定 | 遗留问题 |
+  |------|----------|----------------|---------|---------|
+  | concept | 16 | 99.6/100 | ✓ | EVV6 修复4处破折号（已闭环）|
+  | species | 15 | 100/100 | ✓ | 无 |
+  | place | 15 | 100/100 | ✓ | 无 |
+  | person | 15 | 100/100 | ✓ | 无 |
+  | event | 15 | 100/100 | ✓ | 无 |
+
+- [ ] 确认每种已 Pilot 类型满足种子层最低标准：
+  - Pilot 页数 ≥ 2（至少有对比参照）
+  - EVV 最终轮均分 ≥ 75（低于此值说明语料不足或模板有问题，不可进入 Phase 2）
+  - 模板经 ≥ 2 轮 EVV 后无结构性变动（template frozen）
+
+  > 若某类型 EVV 均分 < 75 → 该类型不进入 Phase 2 批量建设，先定位根因：
+  > 语料不足（接受现状，Phase 2 筛候选）/ 模板问题（修模板后再跑 1 轮 EVV）。
+
+---
+
+### 1-B 确认图式模板
+
+每种已 Pilot 类型必须有对应图式模板文件，且内容已根据 EVV 反馈稳定：
+
+- [ ] 列出 `local/template/` 下已有模板：
+  ```bash
+  ls local/template/
+  ```
+  确认每个主要类型均有 `{type}-schema.md`，且文件内容反映了 EVV 最终轮的模板约定。
+
+  已有模板：concept-schema.md / event-schema.md / person-schema.md / place-schema.md / species-schema.md（共 5 种，全部 P1 类型覆盖）
+
+- [ ] 对每个模板文件确认以下内容存在：
+  - `## frontmatter 字段`（含必填/可选标注）
+  - `## 标准节结构`（列出各 `## 节名`，注明必选/可选）
+  - `## 写作约束`（篇幅上限、引文密度、wikilink 要求等）
+  - `## 质量评分标准`（本类型的 EVV 评分维度，从 EVV6 日志提取）
+
+  > 若模板缺失上述任一部分 → 补全后再进入 Phase 2，Phase 2 批量建设的质量一致性依赖于此。
+
+- [ ] 识别 **type-survey 中有但尚无模板的类型**（新类型）：
+  ```bash
+  grep -E "^###|估算数量" logs/butler/type-survey.md 2>/dev/null
+  ```
+  对照 `local/template/`，列出：新类型 = organization、list（均为 P3，暂不建立 Mini-Pilot；type-survey 已记录，Phase 2.1-A 不纳入扩张队列）
+
+---
+
+### 1-C 确认首批纠错 Gene 归档
+
+种子层的核心产出之一是从 Pilot 错误中提炼的纠错 gene。按纠错 gene 演化机制：
+
+> 发现批量错误 → 写 gene → 批量修复存量 → gene 归档 → 下轮 W4 加入检查
+> （详见 `$MEMEX_ROOT/ref/spec/butler-phased-strategy-seed.md §纠错 gene 演化机制`）
+
+- [ ] 检查是否有 EVV 日志记录的错误模式已转化为 gene 文件：
+  ```bash
+  ls local/gene/ 2>/dev/null || echo "local/gene/ 不存在"
+  ls ref/spec/ | grep -i "rule\|lint\|fix\|error" 2>/dev/null || true
+  ```
+  local/gene/ 现有：LOCAL-ggs01-corpus-final-format-qa.md（语料格式 QA 基因，非纠错 gene）
+
+- [ ] 对照 EVV6 各类型日志，列出已知批量错误模式：
+
+  | 错误模式 | 来源类型 | 已有 gene/规则 | 待归档 |
+  |---------|---------|-------------|--------|
+  | 连接型破折号（HKP31 违规）| concept/species/place | ✓（HKP31 warning 已注入 schema 模板，下轮建页违规率→0%）| 无需单独 gene |
+  | QUO23 引文核验覆盖率约 10%（抽查不足）| 全类型 | ✗（无专门 gene）| 记为 housekeeping，butler 阶段提高抽查比例 |
+
+- [ ] 每个已识别的批量错误模式，确认处理路径之一：
+  - 破折号 → 路径 b：已在 schema 模板中注入 ⚠️ 警告（等价于 gene 前置注入）
+  - QUO23 覆盖率 → 路径 c：记录为 housekeeping，Phase 2 中逐步提升
+
+---
+
+### 1-D 处理新类型（如有）
+
+若 1-B 发现 type-survey 中存在未 Pilot 的类型（event / index / place 等）：
+
+- [ ] 对每个新类型，在 Phase 2.1-A 开始时执行 **Mini-Pilot**（不阻塞 Phase 1 验收）：
+  1. 参考现有最相似类型的模板，起草新类型 `{type}-schema.md`
+  2. 使用 NEW1 建 2–3 个代表性词条（手选语料最丰富的候选）
+  3. 执行 1 轮 EVV5（schema 反思）
+  4. 根据 EVV5 结论更新模板，记录本类型质量上限
+  5. 若均分 ≥ 75 → 模板可用，可进入 Phase 2 批量建设
+  6. 若均分 < 75 → 分析根因（通常是语料稀薄），决定是否纳入 Phase 2
+
+- [ ] 记录新类型 Mini-Pilot 计划（写入 wiki 的 GROW.md Phase 2.1-A 节）：
+  - organization（P3，15–25 条）：Phase 2 不纳入扩张队列，Phase 3 重新评估
+  - list（P3，~5 条）：候选稀少，暂不建模板
+
+---
+
+### 1-E 完整执行种子层（BIRTH Phase 9 未做时）
+
+> 已完成 BIRTH Phase 9（R1–R40），本节跳过。
+
+---
+
+### 1-X 退出条件
+
+Phase 1 完成的标志（全部满足方可进入 Phase 2）：
+
+- [ ] 所有主要类型各有 ≥ 2 个 standard 页面作为质量基准
+- [ ] 每种类型有稳定的 `local/template/{type}-schema.md`（EVV 后无结构变动）
+- [ ] `local/memory/boot_summary.md` 或 GROW.md 中记录了各类型 EVV 均分基线
+- [ ] 所有 Pilot 遗留的批量错误模式已分类（已归档 gene / 已记录待处理 / 已确认可接受）
+- [ ] `grow_baseline.md` 已填写 Phase 1 完成状态（通常在 Phase 0 已完成）
+- [ ] 新类型（如有）的 Mini-Pilot 计划已写入 GROW.md Phase 2.1-A
 
 ---
 
