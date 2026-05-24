@@ -174,6 +174,26 @@
       "aliases": [],
       "path": "fr/Frontispiece.md"
     },
+    "家畜": {
+      "type": "concept",
+      "label": "家畜",
+      "aliases": [
+        "驯化动物",
+        "牲畜",
+        "domestic animals"
+      ],
+      "path": "ji/家畜.md"
+    },
+    "技术传播": {
+      "type": "concept",
+      "label": "技术传播",
+      "aliases": [
+        "技术扩散",
+        "技术交流",
+        "technology diffusion"
+      ],
+      "path": "ji/技术传播.md"
+    },
     "近端原因与终极原因": {
       "type": "concept",
       "label": "近端原因与终极原因",
@@ -193,6 +213,17 @@
         "农耕"
       ],
       "path": "li/粮食生产.md"
+    },
+    "免疫力": {
+      "type": "concept",
+      "label": "免疫力",
+      "aliases": [
+        "免疫",
+        "抵抗力",
+        "病菌免疫",
+        "immunity"
+      ],
+      "path": "mi/免疫力.md"
     },
     "目录": {
       "type": "overview",
@@ -235,6 +266,16 @@
       ],
       "path": "sh/狩猎采集.md"
     },
+    "社会复杂性": {
+      "type": "concept",
+      "label": "社会复杂性",
+      "aliases": [
+        "政治复杂性",
+        "社会层级",
+        "social complexity"
+      ],
+      "path": "sh/社会复杂性.md"
+    },
     "新月沃地": {
       "type": "concept",
       "label": "新月沃地",
@@ -255,6 +296,16 @@
         "domestication"
       ],
       "path": "xu/驯化.md"
+    },
+    "语言传播": {
+      "type": "concept",
+      "label": "语言传播",
+      "aliases": [
+        "语系扩散",
+        "语言扩张",
+        "language spread"
+      ],
+      "path": "yu/语言传播.md"
     }
   },
   "alias_index": {
@@ -298,6 +349,14 @@
     "geographic determinism": "地理决定论",
     "Epilogue": "Epilogue",
     "Frontispiece": "Frontispiece",
+    "家畜": "家畜",
+    "驯化动物": "家畜",
+    "牲畜": "家畜",
+    "domestic animals": "家畜",
+    "技术传播": "技术传播",
+    "技术扩散": "技术传播",
+    "技术交流": "技术传播",
+    "technology diffusion": "技术传播",
     "近端原因与终极原因": "近端原因与终极原因",
     "直接原因与终极原因": "近端原因与终极原因",
     "proximate cause": "近端原因与终极原因",
@@ -306,6 +365,11 @@
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
     "农耕": "粮食生产",
+    "免疫力": "免疫力",
+    "免疫": "免疫力",
+    "抵抗力": "免疫力",
+    "病菌免疫": "免疫力",
+    "immunity": "免疫力",
     "目录": "目录",
     "Preface": "Preface",
     "人口密度": "人口密度",
@@ -319,6 +383,10 @@
     "狩猎采集者": "狩猎采集",
     "采集狩猎": "狩猎采集",
     "hunter-gatherer": "狩猎采集",
+    "社会复杂性": "社会复杂性",
+    "政治复杂性": "社会复杂性",
+    "社会层级": "社会复杂性",
+    "social complexity": "社会复杂性",
     "新月沃地": "新月沃地",
     "肥沃新月": "新月沃地",
     "西南亚": "新月沃地",
@@ -327,8 +395,12 @@
     "驯化": "驯化",
     "植物驯化": "驯化",
     "动物驯化": "驯化",
-    "domestication": "驯化"
+    "domestication": "驯化",
+    "语言传播": "语言传播",
+    "语系扩散": "语言传播",
+    "语言扩张": "语言传播",
+    "language spread": "语言传播"
   },
-  "page_count": 35,
-  "generated": "2026-05-24T20:13:34Z"
+  "page_count": 40,
+  "generated": "2026-05-24T20:32:31Z"
 }

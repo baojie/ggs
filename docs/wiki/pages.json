@@ -40,7 +40,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 1
+      "total_refs": 2
     },
     "病菌": {
       "type": "concept",
@@ -65,7 +65,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 3
+      "total_refs": 4
     },
     "ch01-up-to-the-starting-line": {
       "type": "chapter",
@@ -432,7 +432,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 4
+      "total_refs": 5
     },
     "地理决定论": {
       "type": "concept",
@@ -456,7 +456,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 1
+      "total_refs": 2
     },
     "Epilogue": {
       "type": "chapter",
@@ -494,6 +494,56 @@
       "book_seq": -1,
       "total_refs": 0
     },
+    "家畜": {
+      "type": "concept",
+      "label": "家畜",
+      "aliases": [
+        "驯化动物",
+        "牲畜",
+        "domestic animals"
+      ],
+      "tags": [
+        "动物",
+        "农业",
+        "生物"
+      ],
+      "path": "ji/家畜.md",
+      "description": "经人类驯化、能够在人工环境中繁殖并为人类提供劳力、食物、皮毛或运输的动物；欧亚大陆驯化家畜的种类和规模远超其他大陆，是其文明领先的重要结构性原因。",
+      "prose_len": 1154,
+      "prose_chars": 1029,
+      "h2_count": 5,
+      "pn_count": 7,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 31,
+      "total_refs": 0
+    },
+    "技术传播": {
+      "type": "concept",
+      "label": "技术传播",
+      "aliases": [
+        "技术扩散",
+        "技术交流",
+        "technology diffusion"
+      ],
+      "tags": [
+        "技术",
+        "历史",
+        "贸易"
+      ],
+      "path": "ji/技术传播.md",
+      "description": "技术在不同社会之间流动与采纳的过程；戴蒙德认为，技术传播比独立发明更为常见，其速度受大陆轴线走向和社会开放程度的深刻影响。",
+      "prose_len": 1074,
+      "prose_chars": 950,
+      "h2_count": 5,
+      "pn_count": 10,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 30,
+      "total_refs": 0
+    },
     "近端原因与终极原因": {
       "type": "concept",
       "label": "近端原因与终极原因",
@@ -517,7 +567,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 7
+      "total_refs": 9
     },
     "粮食生产": {
       "type": "concept",
@@ -543,7 +593,33 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 9
+      "total_refs": 12
+    },
+    "免疫力": {
+      "type": "concept",
+      "label": "免疫力",
+      "aliases": [
+        "免疫",
+        "抵抗力",
+        "病菌免疫",
+        "immunity"
+      ],
+      "tags": [
+        "疾病",
+        "生物",
+        "历史"
+      ],
+      "path": "mi/免疫力.md",
+      "description": "人体抵抗特定病菌再次感染的能力；在欧洲人征服美洲的历史中，欧亚人通过与家畜长期共存而获得的传染病免疫力，是美洲原住民遭遇毁灭性死亡的核心原因。",
+      "prose_len": 1044,
+      "prose_chars": 932,
+      "h2_count": 5,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 30,
+      "total_refs": 1
     },
     "目录": {
       "type": "overview",
@@ -602,7 +678,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 1
+      "total_refs": 6
     },
     "书写系统": {
       "type": "concept",
@@ -627,7 +703,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 2
+      "total_refs": 4
     },
     "狩猎采集": {
       "type": "concept",
@@ -644,14 +720,39 @@
       ],
       "path": "sh/狩猎采集.md",
       "description": "人类数百万年来赖以为生的基础生存方式，依靠猎捕野生动物和采集野生植物维持生计；与粮食生产的对比是戴蒙德解释文明不平等的核心叙事框架。",
-      "prose_len": 1096,
-      "prose_chars": 992,
+      "prose_len": 1104,
+      "prose_chars": 1000,
       "h2_count": 5,
       "pn_count": 7,
+      "wikilink_count": 6,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 31,
+      "total_refs": 1
+    },
+    "社会复杂性": {
+      "type": "concept",
+      "label": "社会复杂性",
+      "aliases": [
+        "政治复杂性",
+        "社会层级",
+        "social complexity"
+      ],
+      "tags": [
+        "社会组织",
+        "历史",
+        "政治"
+      ],
+      "path": "sh/社会复杂性.md",
+      "description": "从小型平等主义族群到大型层级化国家的社会演化谱系；戴蒙德论证，社会复杂性由人口密度驱动，而人口密度最终根植于粮食生产的出现。",
+      "prose_len": 1155,
+      "prose_chars": 1026,
+      "h2_count": 5,
+      "pn_count": 9,
       "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "standard",
-      "quality_score": 30,
+      "quality_score": 31,
       "total_refs": 1
     },
     "新月沃地": {
@@ -670,15 +771,15 @@
       ],
       "path": "xi/新月沃地.md",
       "description": "西亚一片弧形地带（涵盖今以色列、约旦、叙利亚、土耳其东南、伊拉克和伊朗西部），是人类粮食生产最早的独立起源地之一，也是小麦、大麦及多种家畜驯化的发源地。",
-      "prose_len": 1100,
-      "prose_chars": 980,
+      "prose_len": 1103,
+      "prose_chars": 983,
       "h2_count": 5,
       "pn_count": 10,
-      "wikilink_count": 4,
+      "wikilink_count": 5,
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 4
+      "total_refs": 6
     },
     "驯化": {
       "type": "concept",
@@ -695,15 +796,40 @@
       ],
       "path": "xu/驯化.md",
       "description": "人类通过栽种或饲养使野生动植物发生有利遗传变化的过程，是粮食生产的起点，也是欧亚大陆文明相对美洲和非洲获得结构性优势的根本原因之一。",
-      "prose_len": 1132,
-      "prose_chars": 1007,
+      "prose_len": 1143,
+      "prose_chars": 1018,
       "h2_count": 5,
       "pn_count": 12,
+      "wikilink_count": 7,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 31,
+      "total_refs": 7
+    },
+    "语言传播": {
+      "type": "concept",
+      "label": "语言传播",
+      "aliases": [
+        "语系扩散",
+        "语言扩张",
+        "language spread"
+      ],
+      "tags": [
+        "语言",
+        "历史",
+        "社会组织"
+      ],
+      "path": "yu/语言传播.md",
+      "description": "语言随人口迁移或文化影响向新地域扩散的过程；戴蒙德将语言分布视为史前人口移动的化石记录，用以追溯农业族群在全球各大陆的扩张路径。",
+      "prose_len": 1161,
+      "prose_chars": 1033,
+      "h2_count": 5,
+      "pn_count": 9,
       "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 5
+      "total_refs": 0
     }
   },
   "alias_index": {
@@ -747,6 +873,14 @@
     "geographic determinism": "地理决定论",
     "Epilogue": "Epilogue",
     "Frontispiece": "Frontispiece",
+    "家畜": "家畜",
+    "驯化动物": "家畜",
+    "牲畜": "家畜",
+    "domestic animals": "家畜",
+    "技术传播": "技术传播",
+    "技术扩散": "技术传播",
+    "技术交流": "技术传播",
+    "technology diffusion": "技术传播",
     "近端原因与终极原因": "近端原因与终极原因",
     "直接原因与终极原因": "近端原因与终极原因",
     "proximate cause": "近端原因与终极原因",
@@ -755,6 +889,11 @@
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
     "农耕": "粮食生产",
+    "免疫力": "免疫力",
+    "免疫": "免疫力",
+    "抵抗力": "免疫力",
+    "病菌免疫": "免疫力",
+    "immunity": "免疫力",
     "目录": "目录",
     "Preface": "Preface",
     "人口密度": "人口密度",
@@ -768,6 +907,10 @@
     "狩猎采集者": "狩猎采集",
     "采集狩猎": "狩猎采集",
     "hunter-gatherer": "狩猎采集",
+    "社会复杂性": "社会复杂性",
+    "政治复杂性": "社会复杂性",
+    "社会层级": "社会复杂性",
+    "social complexity": "社会复杂性",
     "新月沃地": "新月沃地",
     "肥沃新月": "新月沃地",
     "西南亚": "新月沃地",
@@ -776,8 +919,12 @@
     "驯化": "驯化",
     "植物驯化": "驯化",
     "动物驯化": "驯化",
-    "domestication": "驯化"
+    "domestication": "驯化",
+    "语言传播": "语言传播",
+    "语系扩散": "语言传播",
+    "语言扩张": "语言传播",
+    "language spread": "语言传播"
   },
-  "page_count": 35,
-  "generated": "2026-05-24T20:13:34Z"
+  "page_count": 40,
+  "generated": "2026-05-24T20:32:31Z"
 }
