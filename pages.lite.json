@@ -136,7 +136,7 @@
       "path": "fr/Frontispiece.md"
     },
     "目录": {
-      "type": "unknown",
+      "type": "overview",
       "label": "目录",
       "aliases": [],
       "path": "mu/目录.md"
@@ -177,5 +177,5 @@
     "Preface": "Preface"
   },
   "page_count": 24,
-  "generated": "2026-05-24T01:07:17Z"
+  "generated": "2026-05-24T09:23:14Z"
 }
