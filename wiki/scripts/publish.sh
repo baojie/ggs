@@ -47,6 +47,11 @@ python3 "$SCRIPTS/build_registry.py" "$WIKI_DIR/pages" \
   --out      "$WIKI_DIR/pages.json" \
   --out-lite "$WIKI_DIR/pages.lite.json"
 
+# ── 2-B. 构建全文索引 ────────────────────────────────────────────────────────
+
+echo "[publish] 构建全文索引 (FTS)..."
+python3 "$MEMEX_ROOT/wiki/scripts/build_fts_index.py" "$ROOT"
+
 # ── 3. 记录修订（仅处理本次变更的页面）──────────────────────────────────────
 
 echo "[publish] 记录修订到 history/ ..."
