@@ -253,7 +253,7 @@
   python3 -c "
   import json
   try:
-      d = json.load(open('wiki/public/backlinks.json'))
+      d = json.load(open('docs/wiki/backlinks.json'))
       covered = len([k for k, v in d.items() if v])
       print(f'被引用页: {covered}/{len(d)}, 总反链: {sum(len(v) for v in d.values())}')
   except FileNotFoundError:
