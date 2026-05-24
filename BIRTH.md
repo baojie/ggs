@@ -1152,31 +1152,31 @@ python3 "$MEMEX_ROOT/wiki/scripts/build_registry.py"
 # bash wiki-daemon.sh start → 打开首页确认展示正常
 ```
 
-- [ ] 用户已确认展示策略和图片选项（或接受默认）
-- [ ] `docs/wiki/local/config/home.js` 按选择配置完毕
-- [ ] 执行 **CHK11**（homepage-deploy-check）L1–L5 自动化检查，全部 PASS
+- [x] 用户已确认展示策略和图片选项（或接受默认）
+- [x] `docs/wiki/local/config/home.js` 按选择配置完毕
+- [x] 执行 **CHK11**（homepage-deploy-check）L1–L5 自动化检查，全部 PASS
 - [ ] 人工执行 CHK11 L6 浏览器检查，无异常
-- [ ] commit：`feat: Phase 9-E homepage setup via APP5`
+- [x] commit：`feat: Phase 9-E homepage setup via APP5`
 
 ---
 
 ### 完成条件
 
-- [ ] **9-A**：CHK7 全部通过（7 项），试建页无遗留阻塞问题
-- [ ] 所有主要类型完成三轮 SCN27+EVV5 迭代及 EVV6 元反思
-- [ ] 所有主要类型在 EVV6 之后完成 EXIT-GATE 完整序列（E1–E5，见 `ref/spec/workflow-exit-gate.md`），无未修正 FAIL 项
-- [ ] 每种类型有 15 个 quality ≥ standard 的 pilot 页
-- [ ] 所有类型模板已定稿（EVV6 状态为 converged 或 partial）
-- [ ] **9-C**：全章节 Wikify 完成，处理日志已写入，defer 条目已入队
-- [ ] **9-D**：backlinks 索引已重建，词条页面"引用此页"区块正常显示
-- [ ] **9-E**：首页已通过 APP5 配置，本地渲染正常
-- [ ] 首页各分区能展示对应类型词条，渲染无报错
-- [ ] 发现的工作流问题已记录为 RFC（堵塞性）或加入 housekeeping 队列
-- [ ] 回填修订历史：
+- [x] **9-A**：CHK7 全部通过（7 项），试建页无遗留阻塞问题
+- [x] 所有主要类型完成三轮 SCN27+EVV5 迭代及 EVV6 元反思
+- [x] 所有主要类型在 EVV6 之后完成 EXIT-GATE 完整序列（E1–E5，见 `ref/spec/workflow-exit-gate.md`），无未修正 FAIL 项
+- [x] 每种类型有 15 个 quality ≥ standard 的 pilot 页
+- [x] 所有类型模板已定稿（EVV6 状态为 converged 或 partial）
+- [x] **9-C**：全章节 Wikify 完成，处理日志已写入，defer 条目已入队
+- [x] **9-D**：backlinks 索引已重建，词条页面"引用此页"区块正常显示
+- [x] **9-E**：首页已通过 APP5 配置，本地渲染正常
+- [x] 首页各分区能展示对应类型词条，渲染无报错
+- [x] 发现的工作流问题已记录为 RFC（堵塞性）或加入 housekeeping 队列
+- [x] 回填修订历史：
   ```bash
   python3 "$MEMEX_ROOT/wiki/scripts/backfill_recent.py" --public docs/wiki
   ```
-- [ ] commit: `pilot: Phase 9 complete — {N} types × 15 pages, templates finalized`
+- [x] commit: `pilot: Phase 9 complete — 5 types × 15 pages, templates finalized`
 
 ---
 
