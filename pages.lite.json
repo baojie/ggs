@@ -18,6 +18,16 @@
       ],
       "path": "an/安娜-卡列尼娜原则.md"
     },
+    "斑马": {
+      "type": "species",
+      "label": "斑马",
+      "aliases": [
+        "非洲斑马",
+        "zebra",
+        "Equus quagga"
+      ],
+      "path": "ba/斑马.md"
+    },
     "病菌": {
       "type": "concept",
       "label": "病菌",
@@ -153,6 +163,16 @@
       ],
       "path": "da/大陆轴线.md"
     },
+    "大麦": {
+      "type": "species",
+      "label": "大麦",
+      "aliases": [
+        "大麦草",
+        "barley",
+        "Hordeum vulgare"
+      ],
+      "path": "da/大麦.md"
+    },
     "地理决定论": {
       "type": "concept",
       "label": "地理决定论",
@@ -225,6 +245,16 @@
       ],
       "path": "ma/马.md"
     },
+    "麻疹": {
+      "type": "species",
+      "label": "麻疹",
+      "aliases": [
+        "麻疹病毒",
+        "measles",
+        "Measles morbillivirus"
+      ],
+      "path": "ma/麻疹.md"
+    },
     "免疫力": {
       "type": "concept",
       "label": "免疫力",
@@ -235,6 +265,17 @@
         "immunity"
       ],
       "path": "mi/免疫力.md"
+    },
+    "绵羊": {
+      "type": "species",
+      "label": "绵羊",
+      "aliases": [
+        "羊",
+        "家羊",
+        "sheep",
+        "Ovis aries"
+      ],
+      "path": "mi/绵羊.md"
     },
     "目录": {
       "type": "overview",
@@ -266,6 +307,17 @@
         "writing system"
       ],
       "path": "sh/书写系统.md"
+    },
+    "水稻": {
+      "type": "species",
+      "label": "水稻",
+      "aliases": [
+        "稻米",
+        "大米",
+        "rice",
+        "Oryza sativa"
+      ],
+      "path": "sh/水稻.md"
     },
     "狩猎采集": {
       "type": "concept",
@@ -372,6 +424,10 @@
     "安娜·卡列尼娜原则": "安娜-卡列尼娜原则",
     "安娜卡列尼娜原则": "安娜-卡列尼娜原则",
     "驯化失败原则": "安娜-卡列尼娜原则",
+    "斑马": "斑马",
+    "非洲斑马": "斑马",
+    "zebra": "斑马",
+    "Equus quagga": "斑马",
     "病菌": "病菌",
     "传染病": "病菌",
     "流行病": "病菌",
@@ -400,6 +456,10 @@
     "东西轴线": "大陆轴线",
     "南北轴线": "大陆轴线",
     "continental axis": "大陆轴线",
+    "大麦": "大麦",
+    "大麦草": "大麦",
+    "barley": "大麦",
+    "Hordeum vulgare": "大麦",
     "地理决定论": "地理决定论",
     "环境决定论": "地理决定论",
     "geographic determinism": "地理决定论",
@@ -426,11 +486,20 @@
     "骏马": "马",
     "horse": "马",
     "Equus ferus caballus": "马",
+    "麻疹": "麻疹",
+    "麻疹病毒": "麻疹",
+    "measles": "麻疹",
+    "Measles morbillivirus": "麻疹",
     "免疫力": "免疫力",
     "免疫": "免疫力",
     "抵抗力": "免疫力",
     "病菌免疫": "免疫力",
     "immunity": "免疫力",
+    "绵羊": "绵羊",
+    "羊": "绵羊",
+    "家羊": "绵羊",
+    "sheep": "绵羊",
+    "Ovis aries": "绵羊",
     "目录": "目录",
     "Preface": "Preface",
     "人口密度": "人口密度",
@@ -440,6 +509,11 @@
     "文字": "书写系统",
     "文字系统": "书写系统",
     "writing system": "书写系统",
+    "水稻": "水稻",
+    "稻米": "水稻",
+    "大米": "水稻",
+    "rice": "水稻",
+    "Oryza sativa": "水稻",
     "狩猎采集": "狩猎采集",
     "狩猎采集者": "狩猎采集",
     "采集狩猎": "狩猎采集",
@@ -483,6 +557,6 @@
     "pig": "猪",
     "Sus scrofa domesticus": "猪"
   },
-  "page_count": 45,
-  "generated": "2026-05-24T20:40:49Z"
+  "page_count": 50,
+  "generated": "2026-05-24T20:48:21Z"
 }
