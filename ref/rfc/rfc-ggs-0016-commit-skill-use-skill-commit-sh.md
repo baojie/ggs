@@ -1,6 +1,6 @@
 # RFC-ggs-0016: /commit skill 应通过 skill_commit.sh 执行 git commit
 
-- **Status**: proposed
+- **Status**: implemented
 - **Date**: 2026-05-25
 - **Issue**: https://github.com/baojie/memex/issues/150
 - **Source wiki**: ggs
@@ -29,3 +29,12 @@
 3. **输出示例**：交互模式展示的命令行示例同步更新
 
 仅修改 SKILL.md，不改变 `/commit` skill 的分组逻辑或行为。
+
+---
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-25
+**Commits**:
+- baojie/memex@d311d851b26fde6b70e0c84b96224b3b853ce2ea: implement RFC-ggs-0016
