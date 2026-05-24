@@ -65,6 +65,15 @@
       ],
       "path": "ba/斑马.md"
     },
+    "班图扩张": {
+      "type": "event",
+      "label": "班图扩张",
+      "aliases": [
+        "Bantu Expansion",
+        "班图族扩张"
+      ],
+      "path": "ba/班图扩张.md"
+    },
     "病菌": {
       "type": "concept",
       "label": "病菌",
@@ -309,6 +318,16 @@
       ],
       "path": "ge/哥伦布.md"
     },
+    "更新世大型动物灭绝": {
+      "type": "event",
+      "label": "更新世大型动物灭绝",
+      "aliases": [
+        "Pleistocene megafauna extinction",
+        "晚更新世灭绝",
+        "巨型动物灭绝"
+      ],
+      "path": "ge/更新世大型动物灭绝.md"
+    },
     "格林伯格": {
       "type": "person",
       "label": "约瑟夫·格林伯格",
@@ -326,6 +345,16 @@
         "Johannes Gutenberg"
       ],
       "path": "gu/谷登堡.md"
+    },
+    "黑死病": {
+      "type": "event",
+      "label": "黑死病",
+      "aliases": [
+        "Black Death",
+        "腺鼠疫",
+        "1346年鼠疫"
+      ],
+      "path": "he/黑死病.md"
     },
     "家畜": {
       "type": "concept",
@@ -365,6 +394,15 @@
         "卡哈马卡战役"
       ],
       "path": "ka/卡哈马卡.md"
+    },
+    "卡哈马卡之战": {
+      "type": "event",
+      "label": "卡哈马卡之战",
+      "aliases": [
+        "Battle of Cajamarca",
+        "1532年卡哈马卡战役"
+      ],
+      "path": "ka/卡哈马卡之战.md"
     },
     "科尔特斯": {
       "type": "person",
@@ -494,6 +532,16 @@
       "label": "目录",
       "aliases": [],
       "path": "mu/目录.md"
+    },
+    "南岛语族扩张": {
+      "type": "event",
+      "label": "南岛语族扩张",
+      "aliases": [
+        "Austronesian Expansion",
+        "波利尼西亚扩张",
+        "南岛人扩张"
+      ],
+      "path": "na/南岛语族扩张.md"
     },
     "牛": {
       "type": "species",
@@ -777,6 +825,9 @@
     "非洲斑马": "斑马",
     "zebra": "斑马",
     "Equus quagga": "斑马",
+    "班图扩张": "班图扩张",
+    "Bantu Expansion": "班图扩张",
+    "班图族扩张": "班图扩张",
     "病菌": "病菌",
     "传染病": "病菌",
     "流行病": "病菌",
@@ -843,12 +894,20 @@
     "哥伦布": "哥伦布",
     "克里斯托弗·哥伦布": "哥伦布",
     "Christopher Columbus": "哥伦布",
+    "更新世大型动物灭绝": "更新世大型动物灭绝",
+    "Pleistocene megafauna extinction": "更新世大型动物灭绝",
+    "晚更新世灭绝": "更新世大型动物灭绝",
+    "巨型动物灭绝": "更新世大型动物灭绝",
     "格林伯格": "格林伯格",
     "约瑟夫·格林伯格": "格林伯格",
     "Joseph Greenberg": "格林伯格",
     "谷登堡": "谷登堡",
     "约翰内斯·谷登堡": "谷登堡",
     "Johannes Gutenberg": "谷登堡",
+    "黑死病": "黑死病",
+    "Black Death": "黑死病",
+    "腺鼠疫": "黑死病",
+    "1346年鼠疫": "黑死病",
     "家畜": "家畜",
     "驯化动物": "家畜",
     "牲畜": "家畜",
@@ -864,6 +923,9 @@
     "卡哈马卡": "卡哈马卡",
     "Cajamarca": "卡哈马卡",
     "卡哈马卡战役": "卡哈马卡",
+    "卡哈马卡之战": "卡哈马卡之战",
+    "Battle of Cajamarca": "卡哈马卡之战",
+    "1532年卡哈马卡战役": "卡哈马卡之战",
     "科尔特斯": "科尔特斯",
     "埃尔南·科尔特斯": "科尔特斯",
     "Hernán Cortés": "科尔特斯",
@@ -915,6 +977,10 @@
     "sheep": "绵羊",
     "Ovis aries": "绵羊",
     "目录": "目录",
+    "南岛语族扩张": "南岛语族扩张",
+    "Austronesian Expansion": "南岛语族扩张",
+    "波利尼西亚扩张": "南岛语族扩张",
+    "南岛人扩张": "南岛语族扩张",
     "牛": "牛",
     "家牛": "牛",
     "黄牛": "牛",
@@ -1016,6 +1082,6 @@
     "pig": "猪",
     "Sus scrofa domesticus": "猪"
   },
-  "page_count": 85,
-  "generated": "2026-05-24T21:40:47Z"
+  "page_count": 90,
+  "generated": "2026-05-24T21:48:20Z"
 }
