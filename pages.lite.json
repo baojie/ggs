@@ -18,6 +18,15 @@
       ],
       "path": "an/安娜-卡列尼娜原则.md"
     },
+    "澳大利亚": {
+      "type": "place",
+      "label": "澳大利亚",
+      "aliases": [
+        "Australia",
+        "澳洲"
+      ],
+      "path": "ao/澳大利亚.md"
+    },
     "斑马": {
       "type": "species",
       "label": "斑马",
@@ -37,6 +46,16 @@
         "germs"
       ],
       "path": "bi/病菌.md"
+    },
+    "波利尼西亚": {
+      "type": "place",
+      "label": "波利尼西亚",
+      "aliases": [
+        "Polynesia",
+        "太平洋诸岛",
+        "南岛人"
+      ],
+      "path": "bo/波利尼西亚.md"
     },
     "ch01-up-to-the-starting-line": {
       "type": "chapter",
@@ -234,6 +253,15 @@
       ],
       "path": "ji/近端原因与终极原因.md"
     },
+    "卡哈马卡": {
+      "type": "place",
+      "label": "卡哈马卡",
+      "aliases": [
+        "Cajamarca",
+        "卡哈马卡战役"
+      ],
+      "path": "ka/卡哈马卡.md"
+    },
     "粮食生产": {
       "type": "concept",
       "label": "粮食生产",
@@ -328,6 +356,15 @@
       ],
       "path": "ni/牛.md"
     },
+    "欧亚大陆": {
+      "type": "place",
+      "label": "欧亚大陆",
+      "aliases": [
+        "Eurasia",
+        "亚欧大陆"
+      ],
+      "path": "ou/欧亚大陆.md"
+    },
     "Preface": {
       "type": "chapter",
       "label": "前言　耶利的问题",
@@ -416,6 +453,16 @@
       ],
       "path": "xi/小麦.md"
     },
+    "新几内亚": {
+      "type": "place",
+      "label": "新几内亚",
+      "aliases": [
+        "巴布亚新几内亚",
+        "Papua New Guinea",
+        "Papua"
+      ],
+      "path": "xi/新几内亚.md"
+    },
     "新月沃地": {
       "type": "concept",
       "label": "新月沃地",
@@ -479,6 +526,9 @@
     "安娜·卡列尼娜原则": "安娜-卡列尼娜原则",
     "安娜卡列尼娜原则": "安娜-卡列尼娜原则",
     "驯化失败原则": "安娜-卡列尼娜原则",
+    "澳大利亚": "澳大利亚",
+    "Australia": "澳大利亚",
+    "澳洲": "澳大利亚",
     "斑马": "斑马",
     "非洲斑马": "斑马",
     "zebra": "斑马",
@@ -487,6 +537,10 @@
     "传染病": "病菌",
     "流行病": "病菌",
     "germs": "病菌",
+    "波利尼西亚": "波利尼西亚",
+    "Polynesia": "波利尼西亚",
+    "太平洋诸岛": "波利尼西亚",
+    "南岛人": "波利尼西亚",
     "ch01-up-to-the-starting-line": "ch01-up-to-the-starting-line",
     "ch02-natural-experiment-of-history": "ch02-natural-experiment-of-history",
     "ch03-collision-at-cajamarca": "ch03-collision-at-cajamarca",
@@ -535,6 +589,9 @@
     "直接原因与终极原因": "近端原因与终极原因",
     "proximate cause": "近端原因与终极原因",
     "ultimate cause": "近端原因与终极原因",
+    "卡哈马卡": "卡哈马卡",
+    "Cajamarca": "卡哈马卡",
+    "卡哈马卡战役": "卡哈马卡",
     "粮食生产": "粮食生产",
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
@@ -575,6 +632,9 @@
     "cattle": "牛",
     "ox": "牛",
     "Bos taurus": "牛",
+    "欧亚大陆": "欧亚大陆",
+    "Eurasia": "欧亚大陆",
+    "亚欧大陆": "欧亚大陆",
     "Preface": "Preface",
     "人口密度": "人口密度",
     "人口压力": "人口密度",
@@ -609,6 +669,10 @@
     "单粒小麦": "小麦",
     "wheat": "小麦",
     "Triticum": "小麦",
+    "新几内亚": "新几内亚",
+    "巴布亚新几内亚": "新几内亚",
+    "Papua New Guinea": "新几内亚",
+    "Papua": "新几内亚",
     "新月沃地": "新月沃地",
     "肥沃新月": "新月沃地",
     "西南亚": "新月沃地",
@@ -634,6 +698,6 @@
     "pig": "猪",
     "Sus scrofa domesticus": "猪"
   },
-  "page_count": 55,
-  "generated": "2026-05-24T20:53:27Z"
+  "page_count": 60,
+  "generated": "2026-05-24T21:01:52Z"
 }
