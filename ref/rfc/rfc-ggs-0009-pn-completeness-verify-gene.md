@@ -1,6 +1,6 @@
 # RFC-ggs-0009: 新增通用 gene CHKP1 — PN 完整性结构验收
 
-- **Status**: proposed
+- **Status**: accepted
 - **Date**: 2026-05-24
 - **Issue**: https://github.com/baojie/memex/issues/137
 - **Source wiki**: ggs
@@ -67,3 +67,18 @@ python3 wiki/scripts/verify_pn_completeness.py  # CHKP1
 - ggs 本地实现已通过 Phase 5 全量（23 章、1489 PN）验收，结果 ERROR:0 WARN:0
 - gene 编号建议使用 `CHKP1`，与现有 CHK 系列（CHK4/CHK5/CHK6/CHK9/CHK13）同组
 - E1（诗/引文块完整性）的检测逻辑视各 wiki 的 blockquote 赋号规则而定；ggs 规则为整块跳过，其他 wiki 如有不同规则可在本地 BIRTH.md 覆盖
+
+## Evaluation Note
+
+**决策**: accept-modified
+
+CHKP1 的 16 项检查已被拆分为两个 memex 通用基因：
+- **FIX24-pn-structure-verify**（定义格式 + 不当赋号检查）：覆盖 A1-A6、B1-B2、C1、D1-D5、E1
+- **FIX26-pn-index-repair**（索引与父子关系完整性）：覆盖 F1/F2，并扩展了父子 PN 关系检查
+
+**变更说明**：
+1. 编号从 `CHKP1` → `FIX24`/`FIX26`，因 FIX 前缀更符合"结构层验收"的语义（CHK 用于页面质量检查）
+2. 范围从 16 项扩展至 25+ 项（增加了父子关系 A1-A3、映射完整性 B1-B3、pn_prefix 一致性 C1-C3）
+3. 执行时机调整为 Step 2（FIX24）和 Step 3（FIX26），而不是原先的 Step 1
+
+**ADM2 实施**：已创建 `FIX24-pn-structure-verify.md`、`FIX26-pn-index-repair.md`，重写 `workflow-post-pn-lint.md`，更新 `BIRTH.spec.md §5-C-2, §5-E`。
