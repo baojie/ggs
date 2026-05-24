@@ -1,0 +1,1 @@
+{"round": 1, "action": "SCN1-discover", "page": "", "result": "accept", "desc": "首轮 discover 扫描：发现 21 条 wikilink，全部为已有章节页，净新词条 0；queue.md 无新增", "ts": "2026-05-24T15:32:28Z", "reflect": "wiki 仅有章节页，尚无实体词条，下轮应执行 SCN1 从语料挖掘高频实体"}

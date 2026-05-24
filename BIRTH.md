@@ -800,11 +800,12 @@ LAW.md §四 定义的类型：
 
 ### 8-G 首次试跑
 
-- [ ] 启动 butler，确认 Step 1 读状态无报错：
+- [x] 启动 butler，确认 Step 1 读状态无报错：
   ```
   /butler --instance explorer --focus discover
   ```
-  预期：输出 `[R1] ...`，无 FileNotFoundError，`logs/butler/actions.jsonl` 自动生成
+  结果：`[R1] SCN1-discover | accept | 首轮 discover 扫描，净新词条 0`
+  `logs/butler/actions.jsonl` 已生成，`round_counter.txt` = 1
 
 **完成条件**：
 - [x] `logs/butler/queue.md` 和 `logs/butler/housekeeping_queue.md` 存在
@@ -813,7 +814,7 @@ LAW.md §四 定义的类型：
 - [x] `local/config/butler.json` 合法且字段正确
 - [x] `local/config.md` 包含 `WIKI_LANG` 和 `CORPUS_PATH`（已有）
 - [x] `docs/wiki/pages.json` 合法
-- [ ] 首轮 butler 输出 `[R1]` 行且 `actions.jsonl` 有记录
+- [x] 首轮 butler 输出 `[R1]` 行且 `actions.jsonl` 有记录
 
 ---
 
