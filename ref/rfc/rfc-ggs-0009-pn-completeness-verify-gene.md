@@ -1,6 +1,6 @@
 # RFC-ggs-0009: 新增通用 gene CHKP1 — PN 完整性结构验收
 
-- **Status**: accepted
+- **Status**: implemented
 - **Date**: 2026-05-24
 - **Issue**: https://github.com/baojie/memex/issues/137
 - **Source wiki**: ggs
@@ -82,3 +82,14 @@ CHKP1 的 16 项检查已被拆分为两个 memex 通用基因：
 3. 执行时机调整为 Step 2（FIX24）和 Step 3（FIX26），而不是原先的 Step 1
 
 **ADM2 实施**：已创建 `FIX24-pn-structure-verify.md`、`FIX26-pn-index-repair.md`，重写 `workflow-post-pn-lint.md`，更新 `BIRTH.spec.md §5-C-2, §5-E`。
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-24
+**Commits**:
+- baojie/memex@8ec96585fa50edff2ed52eb1cfd3f161d97981ab: implement RFC-ggs-0009 — 拆分 CHKP1 为 FIX24 + FIX26
+- baojie/memex@fdff86bb9c55ddd7a21c9e1728ae5194ac5d36e0: feat — Phase 5-E 全量 PN 验收工作流
+- baojie/memex@93aa3ef4068a1293a46a6cbe3525fae10432cd2f: docs — PN 赋予阶段错误回顾报告
+- baojie/memex@2315fa80a0a1d2f5e3cb5664b95406ac2aa553a6: docs(rfc) — RFC-ggs-0009 处理日志
+- baojie/ggs@b337984: docs(rfc) — RFC-ggs-0009 ADM1 评审
