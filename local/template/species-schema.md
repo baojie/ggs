@@ -14,7 +14,7 @@ id: slug-kebab-case
 type: species
 label: 物种中文名
 aliases: [学名, 英文名]
-tags: [plant, animal, pathogen, crop, livestock]   # 从下方标签集选取
+tags: [植物, 动物, 病原体, 农作物, 家畜]   # 从下方标签集选取
 description: 一句话介绍（物种类型 + 与粮食生产/疾病的关联）
 ---
 ```
@@ -26,7 +26,7 @@ description: 一句话介绍（物种类型 + 与粮食生产/疾病的关联）
 - `domestication_date`: 驯化年代（如 `~8500 BCE`）
 
 **标签集**：
-`plant`, `animal`, `pathogen`, `crop`, `livestock`, `wild`, `invasive`, `domesticated`
+`植物`, `动物`, `病原体`, `农作物`, `家畜`, `野生`, `入侵种`, `驯化种`
 
 ---
 

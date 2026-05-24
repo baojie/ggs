@@ -14,7 +14,7 @@ id: slug-kebab-case
 type: place
 label: 地名中文名
 aliases: [英文名, 其他译名]
-tags: [continent, region, river, civilization]   # 从下方标签集选取
+tags: [大陆, 地区, 河流, 文明]   # 从下方标签集选取
 description: 一句话定位（地理位置 + 在本书中的角色）
 ---
 ```
@@ -25,7 +25,7 @@ description: 一句话定位（地理位置 + 在本书中的角色）
 - `latitude_band`: 纬度带（如 `temperate / tropical / mediterranean`）
 
 **标签集**：
-`continent`, `region`, `river`, `valley`, `civilization`, `island`, `empire`, `route`
+`大陆`, `地区`, `河流`, `河谷`, `文明`, `岛屿`, `帝国`, `路线`
 
 ---
 

@@ -14,7 +14,7 @@ id: slug-kebab-case
 type: event
 label: 事件中文名
 aliases: [英文名]
-tags: [conquest, domestication, migration, discovery]   # 从下方标签集选取
+tags: [征服, 驯化, 迁徙, 发现]   # 从下方标签集选取
 description: 一句话描述（时间 + 地点 + 性质）
 ---
 ```
@@ -25,7 +25,7 @@ description: 一句话描述（时间 + 地点 + 性质）
 - `participants`: 主要参与者（Wikilink 列表）
 
 **标签集**：
-`conquest`, `domestication`, `migration`, `discovery`, `battle`, `epidemic`, `founding`
+`征服`, `驯化`, `迁徙`, `发现`, `战役`, `流行病`, `建国`
 
 ---
 

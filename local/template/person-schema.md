@@ -14,7 +14,7 @@ id: slug-kebab-case
 type: person
 label: 人物中文名
 aliases: [英文名, 另一译名]
-tags: [explorer, scholar, indigenous]   # 从下方标签集选取
+tags: [探险家, 学者, 原住民]   # 从下方标签集选取
 description: 一句话介绍（身份 + 与本书的关联）
 ---
 ```
@@ -26,7 +26,7 @@ description: 一句话介绍（身份 + 与本书的关联）
 - `role`: 在本书中的角色（`author / scholar / explorer / ruler / native`）
 
 **标签集**：
-`explorer`, `scholar`, `indigenous`, `ruler`, `conquistador`, `scientist`, `author`
+`探险家`, `学者`, `原住民`, `统治者`, `征服者`, `科学家`, `作者`
 
 ---
 

@@ -14,7 +14,7 @@ id: slug-kebab-case
 type: concept
 label: 概念中文名
 aliases: [别名1, 别名2]
-tags: [geography, agriculture, technology]   # 从下方标签集选取
+tags: [地理, 农业, 技术]   # 从下方标签集选取
 description: 一句话定义（20–60字）
 ---
 ```
@@ -24,7 +24,7 @@ description: 一句话定义（20–60字）
 - `domain`: 学科领域（`geography / biology / sociology / history / technology`）
 
 **标签集**（从中选取，可多选）：
-`geography`, `agriculture`, `biology`, `technology`, `social-organization`, `language`, `disease`, `trade`, `warfare`, `evolution`
+`地理`, `农业`, `生物`, `技术`, `社会组织`, `语言`, `疾病`, `贸易`, `战争`, `演化`, `历史`
 
 ---
 
