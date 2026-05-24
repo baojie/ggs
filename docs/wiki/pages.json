@@ -42,6 +42,31 @@
       "quality_score": 29,
       "total_refs": 6
     },
+    "澳大利亚": {
+      "type": "place",
+      "label": "澳大利亚",
+      "aliases": [
+        "Australia",
+        "澳洲"
+      ],
+      "tags": [
+        "地理",
+        "历史",
+        "狩猎采集",
+        "大洋洲"
+      ],
+      "path": "ao/澳大利亚.md",
+      "description": "第十五章的核心地理案例，世界上最孤立的大陆，其土著社会在欧洲人到来前始终保持狩猎采集状态，根因是极度贫乏的可驯化野生动植物资源，而非人种劣势。",
+      "prose_len": 1072,
+      "prose_chars": 1005,
+      "h2_count": 5,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 30,
+      "total_refs": 0
+    },
     "斑马": {
       "type": "species",
       "label": "斑马",
@@ -89,7 +114,33 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 8
+      "total_refs": 11
+    },
+    "波利尼西亚": {
+      "type": "place",
+      "label": "波利尼西亚",
+      "aliases": [
+        "Polynesia",
+        "太平洋诸岛",
+        "南岛人"
+      ],
+      "tags": [
+        "地理",
+        "太平洋",
+        "历史",
+        "农业"
+      ],
+      "path": "bo/波利尼西亚.md",
+      "description": "太平洋中部和东部的岛群总称，是南岛语族从台湾出发历时约3500年完成的最远扩张终点；不同波利尼西亚岛屿因地理和资源差异而发展出从狩猎采集到国家的各种社会复杂程度，是\"地理决定社会形态\"的自然实验。",
+      "prose_len": 965,
+      "prose_chars": 898,
+      "h2_count": 5,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 29,
+      "total_refs": 0
     },
     "ch01-up-to-the-starting-line": {
       "type": "chapter",
@@ -456,7 +507,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 12
+      "total_refs": 14
     },
     "大麦": {
       "type": "species",
@@ -473,10 +524,10 @@
       ],
       "path": "da/大麦.md",
       "description": "新月沃地\"八大始祖作物\"之一，约公元前8500年在新月沃地驯化，是世界最早驯化的谷物之一，其野生祖先在野生状态下产量最高，是粮食生产体系的重要基础。",
-      "prose_len": 1123,
-      "prose_chars": 1060,
+      "prose_len": 1114,
+      "prose_chars": 1051,
       "h2_count": 5,
-      "pn_count": 11,
+      "pn_count": 10,
       "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "standard",
@@ -558,10 +609,10 @@
       ],
       "path": "ga/高粱.md",
       "description": "起源于非洲萨赫勒地带的耐旱谷物，是非洲本土农业体系的核心作物，与新月沃地的大麦、美洲的玉米并列为全球五大主要谷物之一；其传播受限于纬度气候带，是非洲农业发展路径与欧亚大陆差异的物质基础。",
-      "prose_len": 1113,
-      "prose_chars": 1048,
+      "prose_len": 1104,
+      "prose_chars": 1039,
       "h2_count": 5,
-      "pn_count": 8,
+      "pn_count": 7,
       "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "standard",
@@ -591,7 +642,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 8
+      "total_refs": 9
     },
     "技术传播": {
       "type": "concept",
@@ -616,7 +667,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 0
+      "total_refs": 2
     },
     "近端原因与终极原因": {
       "type": "concept",
@@ -641,7 +692,32 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 13
+      "total_refs": 16
+    },
+    "卡哈马卡": {
+      "type": "place",
+      "label": "卡哈马卡",
+      "aliases": [
+        "Cajamarca",
+        "卡哈马卡战役"
+      ],
+      "tags": [
+        "地理",
+        "历史",
+        "南美洲",
+        "征服"
+      ],
+      "path": "ka/卡哈马卡.md",
+      "description": "1532年11月16日西班牙征服者弗兰西斯科·皮萨罗俘获印加皇帝阿塔瓦尔帕的地点，是全书分析近端原因（钢铁、枪炮、马匹、疾病、文字）如何决定欧亚大陆人征服美洲这一历史结局的核心案例。",
+      "prose_len": 952,
+      "prose_chars": 898,
+      "h2_count": 4,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 29,
+      "total_refs": 0
     },
     "粮食生产": {
       "type": "concept",
@@ -667,7 +743,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 20
+      "total_refs": 22
     },
     "骆驼": {
       "type": "species",
@@ -686,8 +762,8 @@
       ],
       "path": "lu/骆驼.md",
       "description": "史前14种驯化大型哺乳动物中驯化时间最晚者，分为阿拉伯半岛的单峰驼和中亚的双峰驼，提供乳汁、役力、运输和军事作战能力，是沙漠贸易与游牧军事力量的核心动物。",
-      "prose_len": 1137,
-      "prose_chars": 1074,
+      "prose_len": 1136,
+      "prose_chars": 1073,
       "h2_count": 5,
       "pn_count": 6,
       "wikilink_count": 4,
@@ -720,7 +796,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 1
+      "total_refs": 2
     },
     "马铃薯": {
       "type": "species",
@@ -738,10 +814,10 @@
       ],
       "path": "ma/马铃薯.md",
       "description": "起源于南美安第斯山脉的高产块茎作物，约公元前3500年驯化，是12种世界最重要作物之一；作为美洲南北轴线限制的典型案例，马铃薯因适应安第斯高海拔凉爽气候而无法在墨西哥高原传播，揭示了美洲农业体系的地理传播局限。",
-      "prose_len": 1134,
-      "prose_chars": 1071,
+      "prose_len": 1125,
+      "prose_chars": 1062,
       "h2_count": 5,
-      "pn_count": 4,
+      "pn_count": 3,
       "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "standard",
@@ -867,6 +943,30 @@
       "quality_score": 30,
       "total_refs": 0
     },
+    "欧亚大陆": {
+      "type": "place",
+      "label": "欧亚大陆",
+      "aliases": [
+        "Eurasia",
+        "亚欧大陆"
+      ],
+      "tags": [
+        "地理",
+        "历史",
+        "农业"
+      ],
+      "path": "ou/欧亚大陆.md",
+      "description": "全书论证的核心地理单元，以东西走向的大陆轴线为最重要的地理特征，使新月沃地的作物和家畜能够快速传播至整个温带欧亚大陆，从而使欧亚人积累了作物、家畜、病菌和技术方面的决定性优势。",
+      "prose_len": 991,
+      "prose_chars": 924,
+      "h2_count": 5,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 29,
+      "total_refs": 0
+    },
     "Preface": {
       "type": "chapter",
       "label": "前言　耶利的问题",
@@ -950,10 +1050,10 @@
       ],
       "path": "sh/水稻.md",
       "description": "东亚最重要的驯化谷物，起源于中国长江流域，约公元前7000年驯化，是全球十二种主要作物之一；与小麦在欧亚东西轴线上的快速传播形成对比，水稻代表了中国农业体系的另一条起源路径，也是中国文明南北分异的物质基础。",
-      "prose_len": 1084,
-      "prose_chars": 1021,
+      "prose_len": 1075,
+      "prose_chars": 1012,
       "h2_count": 5,
-      "pn_count": 10,
+      "pn_count": 9,
       "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "standard",
@@ -983,7 +1083,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 1
+      "total_refs": 3
     },
     "社会复杂性": {
       "type": "concept",
@@ -1008,7 +1108,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 1
+      "total_refs": 3
     },
     "天花病毒": {
       "type": "species",
@@ -1050,8 +1150,8 @@
       ],
       "path": "wa/豌豆.md",
       "description": "新月沃地\"八大始祖作物\"中的豆科代表，约公元前8000年驯化，与小麦、大麦形成高效的氮素互补农业组合，驯化变化（大种子、不爆裂豆荚）直接说明无意识选择如何塑造作物性状。",
-      "prose_len": 1103,
-      "prose_chars": 1038,
+      "prose_len": 1102,
+      "prose_chars": 1037,
       "h2_count": 5,
       "pn_count": 9,
       "wikilink_count": 4,
@@ -1086,6 +1186,32 @@
       "quality_score": 29,
       "total_refs": 0
     },
+    "新几内亚": {
+      "type": "place",
+      "label": "新几内亚",
+      "aliases": [
+        "巴布亚新几内亚",
+        "Papua New Guinea",
+        "Papua"
+      ],
+      "tags": [
+        "地理",
+        "太平洋",
+        "农业",
+        "历史"
+      ],
+      "path": "xi/新几内亚.md",
+      "description": "全书叙述的起点，耶利问题的提出地，也是世界上独立发明农业却未能发展出文字和国家的少数地区之一；新几内亚在生物地理上的隔离与农业体系的局限，是戴蒙德论证地理环境决定发展差异的核心案例。",
+      "prose_len": 1091,
+      "prose_chars": 1026,
+      "h2_count": 5,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 30,
+      "total_refs": 1
+    },
     "新月沃地": {
       "type": "concept",
       "label": "新月沃地",
@@ -1110,7 +1236,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 14
+      "total_refs": 15
     },
     "驯化": {
       "type": "concept",
@@ -1154,10 +1280,10 @@
       ],
       "path": "yu/玉米.md",
       "description": "美洲最重要的驯化谷物，起源于中美洲野生的墨西哥类蜀黍，其驯化难度远高于小麦大麦，传播速度因美洲南北轴线而受到严重限制，是大陆轴线论点的关键对照案例。",
-      "prose_len": 985,
-      "prose_chars": 922,
+      "prose_len": 976,
+      "prose_chars": 913,
       "h2_count": 5,
-      "pn_count": 7,
+      "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "standard",
@@ -1224,6 +1350,9 @@
     "安娜·卡列尼娜原则": "安娜-卡列尼娜原则",
     "安娜卡列尼娜原则": "安娜-卡列尼娜原则",
     "驯化失败原则": "安娜-卡列尼娜原则",
+    "澳大利亚": "澳大利亚",
+    "Australia": "澳大利亚",
+    "澳洲": "澳大利亚",
     "斑马": "斑马",
     "非洲斑马": "斑马",
     "zebra": "斑马",
@@ -1232,6 +1361,10 @@
     "传染病": "病菌",
     "流行病": "病菌",
     "germs": "病菌",
+    "波利尼西亚": "波利尼西亚",
+    "Polynesia": "波利尼西亚",
+    "太平洋诸岛": "波利尼西亚",
+    "南岛人": "波利尼西亚",
     "ch01-up-to-the-starting-line": "ch01-up-to-the-starting-line",
     "ch02-natural-experiment-of-history": "ch02-natural-experiment-of-history",
     "ch03-collision-at-cajamarca": "ch03-collision-at-cajamarca",
@@ -1280,6 +1413,9 @@
     "直接原因与终极原因": "近端原因与终极原因",
     "proximate cause": "近端原因与终极原因",
     "ultimate cause": "近端原因与终极原因",
+    "卡哈马卡": "卡哈马卡",
+    "Cajamarca": "卡哈马卡",
+    "卡哈马卡战役": "卡哈马卡",
     "粮食生产": "粮食生产",
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
@@ -1320,6 +1456,9 @@
     "cattle": "牛",
     "ox": "牛",
     "Bos taurus": "牛",
+    "欧亚大陆": "欧亚大陆",
+    "Eurasia": "欧亚大陆",
+    "亚欧大陆": "欧亚大陆",
     "Preface": "Preface",
     "人口密度": "人口密度",
     "人口压力": "人口密度",
@@ -1354,6 +1493,10 @@
     "单粒小麦": "小麦",
     "wheat": "小麦",
     "Triticum": "小麦",
+    "新几内亚": "新几内亚",
+    "巴布亚新几内亚": "新几内亚",
+    "Papua New Guinea": "新几内亚",
+    "Papua": "新几内亚",
     "新月沃地": "新月沃地",
     "肥沃新月": "新月沃地",
     "西南亚": "新月沃地",
@@ -1379,6 +1522,6 @@
     "pig": "猪",
     "Sus scrofa domesticus": "猪"
   },
-  "page_count": 55,
-  "generated": "2026-05-24T20:53:27Z"
+  "page_count": 60,
+  "generated": "2026-05-24T21:01:52Z"
 }
