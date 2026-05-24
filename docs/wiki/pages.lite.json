@@ -153,6 +153,15 @@
       ],
       "path": "da/大陆轴线.md"
     },
+    "地理决定论": {
+      "type": "concept",
+      "label": "地理决定论",
+      "aliases": [
+        "环境决定论",
+        "geographic determinism"
+      ],
+      "path": "di/地理决定论.md"
+    },
     "Epilogue": {
       "type": "chapter",
       "label": "后记　人类史作为一门科学的未来",
@@ -196,6 +205,15 @@
       "label": "前言　耶利的问题",
       "aliases": [],
       "path": "pr/Preface.md"
+    },
+    "人口密度": {
+      "type": "concept",
+      "label": "人口密度",
+      "aliases": [
+        "人口压力",
+        "population density"
+      ],
+      "path": "re/人口密度.md"
     },
     "书写系统": {
       "type": "concept",
@@ -275,6 +293,9 @@
     "东西轴线": "大陆轴线",
     "南北轴线": "大陆轴线",
     "continental axis": "大陆轴线",
+    "地理决定论": "地理决定论",
+    "环境决定论": "地理决定论",
+    "geographic determinism": "地理决定论",
     "Epilogue": "Epilogue",
     "Frontispiece": "Frontispiece",
     "近端原因与终极原因": "近端原因与终极原因",
@@ -287,6 +308,9 @@
     "农耕": "粮食生产",
     "目录": "目录",
     "Preface": "Preface",
+    "人口密度": "人口密度",
+    "人口压力": "人口密度",
+    "population density": "人口密度",
     "书写系统": "书写系统",
     "文字": "书写系统",
     "文字系统": "书写系统",
@@ -305,6 +329,6 @@
     "动物驯化": "驯化",
     "domestication": "驯化"
   },
-  "page_count": 33,
-  "generated": "2026-05-24T20:11:52Z"
+  "page_count": 35,
+  "generated": "2026-05-24T20:13:34Z"
 }
