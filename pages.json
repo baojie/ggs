@@ -185,7 +185,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 26,
-      "total_refs": 1
+      "total_refs": 2
     },
     "病菌": {
       "type": "concept",
@@ -210,7 +210,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 23
+      "total_refs": 24
     },
     "伯克和威尔斯": {
       "type": "person",
@@ -794,7 +794,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 3
+      "total_refs": 4
     },
     "Frontispiece": {
       "type": "chapter",
@@ -940,6 +940,31 @@
       "affiliation": "斯坦福大学",
       "total_refs": 0
     },
+    "国家的形成": {
+      "type": "event",
+      "label": "国家的形成",
+      "aliases": [
+        "State Formation",
+        "最早国家",
+        "国家起源"
+      ],
+      "tags": [
+        "国家",
+        "政治",
+        "社会复杂性"
+      ],
+      "path": "gu/国家的形成.md",
+      "description": "最早的国家约于公元前3500年在美索不达米亚和中美洲各自独立形成；戴蒙德分析国家形成的过程与机制，将其置于从部落到酋长管辖地再到国家的社会复杂性演化序列中，并指出文字几乎与最早的国家同步出现。",
+      "prose_len": 657,
+      "prose_chars": 621,
+      "h2_count": 3,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
+      "total_refs": 0
+    },
     "谷登堡": {
       "type": "person",
       "label": "谷登堡",
@@ -1037,7 +1062,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 8
+      "total_refs": 9
     },
     "近端原因与终极原因": {
       "type": "concept",
@@ -1062,7 +1087,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 28
+      "total_refs": 29
     },
     "卡哈马卡": {
       "type": "place",
@@ -1111,7 +1136,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 26,
-      "total_refs": 3
+      "total_refs": 4
     },
     "科尔特斯": {
       "type": "person",
@@ -1185,7 +1210,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 38
+      "total_refs": 40
     },
     "骆驼": {
       "type": "species",
@@ -1558,6 +1583,31 @@
       "quality_score": 29,
       "total_refs": 2
     },
+    "欧洲殖民非洲": {
+      "type": "event",
+      "label": "欧洲殖民非洲",
+      "aliases": [
+        "European Colonization of Africa",
+        "非洲殖民",
+        "欧洲征服非洲"
+      ],
+      "tags": [
+        "殖民",
+        "非洲",
+        "征服"
+      ],
+      "path": "ou/欧洲殖民非洲.md",
+      "description": "19世纪欧洲人在撒哈拉以南非洲建立殖民地；戴蒙德指出，欧洲人征服非洲的直接原因与征服美洲相同——枪炮、普及文化和政治组织，但终极原因仍在于地理与生态条件决定的欧亚大陆农业、技术积累优势。",
+      "prose_len": 661,
+      "prose_chars": 625,
+      "h2_count": 3,
+      "pn_count": 4,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
+      "total_refs": 0
+    },
     "皮萨罗": {
       "type": "person",
       "label": "皮萨罗",
@@ -1646,7 +1696,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 25,
-      "total_refs": 0
+      "total_refs": 1
     },
     "萨赫勒地带": {
       "type": "place",
@@ -1772,7 +1822,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 10
+      "total_refs": 11
     },
     "天花病毒": {
       "type": "species",
@@ -1862,15 +1912,15 @@
       ],
       "path": "we/文字的独立发明.md",
       "description": "文字在人类历史上被独立发明了数次，最早的无可争辩的案例是约公元前3000年美索不达米亚的苏美尔楔形文字；戴蒙德分析文字的发明史，以说明文字是通过蓝图借鉴或刺激传播，而非多数地区独立创造。",
-      "prose_len": 673,
-      "prose_chars": 637,
+      "prose_len": 672,
+      "prose_chars": 636,
       "h2_count": 3,
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 26,
-      "total_refs": 0
+      "total_refs": 2
     },
     "小麦": {
       "type": "species",
@@ -1971,7 +2021,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 19
+      "total_refs": 20
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -1987,7 +2037,7 @@
         "起源"
       ],
       "path": "xi/新月沃地农业起源.md",
-      "description": "约公元前8500年，西南亚新月沃地出现了世界上有明确年代记录最早的植物驯化，随后约公元前8000年出现动物驯化；这一农业起源事件在全书中作为全球农业扩散的起点，其地理禀赋——适于驯化的野生植物和动物种类丰富——是粮食生产最早在此出现的关键原因。",
+      "description": "约公元前8500年，西南亚新月沃地出现了世界上有明确年代记录最早的植物驯化，随后约公元前8000年出现动物驯化；这一农业起源事件在全书中作为全球农业扩散的起点，其地理禀赋（适于驯化的野生植物和动物种类丰富）是粮食生产最早在此出现的关键原因。",
       "prose_len": 630,
       "prose_chars": 594,
       "h2_count": 3,
@@ -1996,7 +2046,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 26,
-      "total_refs": 0
+      "total_refs": 1
     },
     "驯化": {
       "type": "concept",
@@ -2147,6 +2197,31 @@
       "quality_score": 29,
       "total_refs": 0
     },
+    "中国农业起源": {
+      "type": "event",
+      "label": "中国农业起源",
+      "aliases": [
+        "Chinese Agricultural Origins",
+        "中国粮食生产起源"
+      ],
+      "tags": [
+        "农业",
+        "驯化",
+        "中国",
+        "东亚"
+      ],
+      "path": "zh/中国农业起源.md",
+      "description": "中国是世界上最早的动植物驯化中心之一，可能有南北两个独立的粮食生产起源中心——华北的耐旱黍子和华南的水稻；中国粮食生产独立于新月沃地，产生了完全不同的作物体系，并通过东西轴线向东亚各地传播。",
+      "prose_len": 684,
+      "prose_chars": 648,
+      "h2_count": 3,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
+      "total_refs": 0
+    },
     "中美洲": {
       "type": "place",
       "label": "中美洲",
@@ -2197,6 +2272,32 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
+      "total_refs": 0
+    },
+    "字母文字的传播": {
+      "type": "event",
+      "label": "字母文字的传播",
+      "aliases": [
+        "Spread of Alphabetic Writing",
+        "字母传播",
+        "腓尼基字母传播"
+      ],
+      "tags": [
+        "文字",
+        "字母",
+        "传播",
+        "技术"
+      ],
+      "path": "zi/字母文字的传播.md",
+      "description": "字母在人类历史上只产生过一次，约公元前第二个一千年在现代叙利亚到西奈半岛的说闪语地区；此后经由腓尼基人传希腊人，再传伊特鲁斯坎人，最终传至罗马，形成现代英文字母；戴蒙德以字母传播为案例说明技术通过\"蓝图借鉴\"传播的一般规律。",
+      "prose_len": 644,
+      "prose_chars": 608,
+      "h2_count": 3,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 0
     }
   },
@@ -2305,6 +2406,10 @@
     "格林伯格": "格林伯格",
     "约瑟夫·格林伯格": "格林伯格",
     "Joseph Greenberg": "格林伯格",
+    "国家的形成": "国家的形成",
+    "State Formation": "国家的形成",
+    "最早国家": "国家的形成",
+    "国家起源": "国家的形成",
     "谷登堡": "谷登堡",
     "约翰内斯·谷登堡": "谷登堡",
     "Johannes Gutenberg": "谷登堡",
@@ -2400,6 +2505,10 @@
     "欧亚大陆": "欧亚大陆",
     "Eurasia": "欧亚大陆",
     "亚欧大陆": "欧亚大陆",
+    "欧洲殖民非洲": "欧洲殖民非洲",
+    "European Colonization of Africa": "欧洲殖民非洲",
+    "非洲殖民": "欧洲殖民非洲",
+    "欧洲征服非洲": "欧洲殖民非洲",
     "皮萨罗": "皮萨罗",
     "弗朗西斯科·皮萨罗": "皮萨罗",
     "Francisco Pizarro": "皮萨罗",
@@ -2489,6 +2598,9 @@
     "China": "中国",
     "华夏": "中国",
     "中原": "中国",
+    "中国农业起源": "中国农业起源",
+    "Chinese Agricultural Origins": "中国农业起源",
+    "中国粮食生产起源": "中国农业起源",
     "中美洲": "中美洲",
     "Mesoamerica": "中美洲",
     "墨西哥": "中美洲",
@@ -2497,8 +2609,12 @@
     "家猪": "猪",
     "野猪": "猪",
     "pig": "猪",
-    "Sus scrofa domesticus": "猪"
+    "Sus scrofa domesticus": "猪",
+    "字母文字的传播": "字母文字的传播",
+    "Spread of Alphabetic Writing": "字母文字的传播",
+    "字母传播": "字母文字的传播",
+    "腓尼基字母传播": "字母文字的传播"
   },
-  "page_count": 95,
-  "generated": "2026-05-24T21:54:25Z"
+  "page_count": 99,
+  "generated": "2026-05-24T21:59:51Z"
 }

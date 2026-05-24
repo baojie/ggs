@@ -347,6 +347,16 @@
       ],
       "path": "ge/格林伯格.md"
     },
+    "国家的形成": {
+      "type": "event",
+      "label": "国家的形成",
+      "aliases": [
+        "State Formation",
+        "最早国家",
+        "国家起源"
+      ],
+      "path": "gu/国家的形成.md"
+    },
     "谷登堡": {
       "type": "person",
       "label": "谷登堡",
@@ -592,6 +602,16 @@
       ],
       "path": "ou/欧亚大陆.md"
     },
+    "欧洲殖民非洲": {
+      "type": "event",
+      "label": "欧洲殖民非洲",
+      "aliases": [
+        "European Colonization of Africa",
+        "非洲殖民",
+        "欧洲征服非洲"
+      ],
+      "path": "ou/欧洲殖民非洲.md"
+    },
     "皮萨罗": {
       "type": "person",
       "label": "皮萨罗",
@@ -825,6 +845,15 @@
       ],
       "path": "zh/中国.md"
     },
+    "中国农业起源": {
+      "type": "event",
+      "label": "中国农业起源",
+      "aliases": [
+        "Chinese Agricultural Origins",
+        "中国粮食生产起源"
+      ],
+      "path": "zh/中国农业起源.md"
+    },
     "中美洲": {
       "type": "place",
       "label": "中美洲",
@@ -845,6 +874,16 @@
         "Sus scrofa domesticus"
       ],
       "path": "zh/猪.md"
+    },
+    "字母文字的传播": {
+      "type": "event",
+      "label": "字母文字的传播",
+      "aliases": [
+        "Spread of Alphabetic Writing",
+        "字母传播",
+        "腓尼基字母传播"
+      ],
+      "path": "zi/字母文字的传播.md"
     }
   },
   "alias_index": {
@@ -952,6 +991,10 @@
     "格林伯格": "格林伯格",
     "约瑟夫·格林伯格": "格林伯格",
     "Joseph Greenberg": "格林伯格",
+    "国家的形成": "国家的形成",
+    "State Formation": "国家的形成",
+    "最早国家": "国家的形成",
+    "国家起源": "国家的形成",
     "谷登堡": "谷登堡",
     "约翰内斯·谷登堡": "谷登堡",
     "Johannes Gutenberg": "谷登堡",
@@ -1047,6 +1090,10 @@
     "欧亚大陆": "欧亚大陆",
     "Eurasia": "欧亚大陆",
     "亚欧大陆": "欧亚大陆",
+    "欧洲殖民非洲": "欧洲殖民非洲",
+    "European Colonization of Africa": "欧洲殖民非洲",
+    "非洲殖民": "欧洲殖民非洲",
+    "欧洲征服非洲": "欧洲殖民非洲",
     "皮萨罗": "皮萨罗",
     "弗朗西斯科·皮萨罗": "皮萨罗",
     "Francisco Pizarro": "皮萨罗",
@@ -1136,6 +1183,9 @@
     "China": "中国",
     "华夏": "中国",
     "中原": "中国",
+    "中国农业起源": "中国农业起源",
+    "Chinese Agricultural Origins": "中国农业起源",
+    "中国粮食生产起源": "中国农业起源",
     "中美洲": "中美洲",
     "Mesoamerica": "中美洲",
     "墨西哥": "中美洲",
@@ -1144,8 +1194,12 @@
     "家猪": "猪",
     "野猪": "猪",
     "pig": "猪",
-    "Sus scrofa domesticus": "猪"
+    "Sus scrofa domesticus": "猪",
+    "字母文字的传播": "字母文字的传播",
+    "Spread of Alphabetic Writing": "字母文字的传播",
+    "字母传播": "字母文字的传播",
+    "腓尼基字母传播": "字母文字的传播"
   },
-  "page_count": 95,
-  "generated": "2026-05-24T21:54:25Z"
+  "page_count": 99,
+  "generated": "2026-05-24T21:59:51Z"
 }
