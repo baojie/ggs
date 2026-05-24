@@ -139,7 +139,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 13
+      "total_refs": 14
     },
     "波利尼西亚": {
       "type": "place",
@@ -532,7 +532,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 19
+      "total_refs": 23
     },
     "大麦": {
       "type": "species",
@@ -583,6 +583,30 @@
       "quality_score": 29,
       "total_refs": 2
     },
+    "东南亚": {
+      "type": "place",
+      "label": "东南亚",
+      "aliases": [
+        "Southeast Asia",
+        "热带东南亚"
+      ],
+      "tags": [
+        "地理",
+        "农业传播",
+        "语言扩张"
+      ],
+      "path": "do/东南亚.md",
+      "description": "欧亚大陆东西轴线农业传播的东端接收区，同时是华南亚热带作物套件向南扩张的目标地带；字母文字通过波斯帝国的阿拉姆语路线传入，农业物种通过中国向南扩散，使东南亚成为欧亚大陆农业扩散的典型受益地区。",
+      "prose_len": 611,
+      "prose_chars": 563,
+      "h2_count": 4,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
+      "total_refs": 0
+    },
     "Epilogue": {
       "type": "chapter",
       "label": "后记　人类史作为一门科学的未来",
@@ -617,15 +641,15 @@
       ],
       "path": "fe/非洲.md",
       "description": "人类进化的发源地，也是全书论证\"南北轴线对农业传播形成阻力\"的核心案例；非洲撒哈拉以南地区缺乏可驯化的大型哺乳动物、农业传播受地理阻断、疾病（采采蝇等）构成独特屏障，共同解释了为什么非洲历史走向与欧亚大陆截然不同。",
-      "prose_len": 910,
-      "prose_chars": 856,
+      "prose_len": 913,
+      "prose_chars": 859,
       "h2_count": 4,
-      "pn_count": 5,
+      "pn_count": 10,
       "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 0
+      "total_refs": 1
     },
     "Frontispiece": {
       "type": "chapter",
@@ -668,7 +692,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 0
+      "total_refs": 1
     },
     "家畜": {
       "type": "concept",
@@ -794,7 +818,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 26
+      "total_refs": 30
     },
     "骆驼": {
       "type": "species",
@@ -896,6 +920,30 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
+      "total_refs": 0
+    },
+    "美国东部": {
+      "type": "place",
+      "label": "美国东部",
+      "aliases": [
+        "北美东部",
+        "Eastern North America"
+      ],
+      "tags": [
+        "地理",
+        "农业起源",
+        "粮食生产"
+      ],
+      "path": "me/美国东部.md",
+      "description": "全球5个独立农业起源中心之一，约公元前2500年开始驯化向日葵和藜属植物；因南北轴线受阻，玉米迟至公元900年才从墨西哥传入并成为主产作物，其农业体系的滞后发展是南北轴线限制效应的关键北美案例。",
+      "prose_len": 771,
+      "prose_chars": 721,
+      "h2_count": 4,
+      "pn_count": 7,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 27,
       "total_refs": 0
     },
     "美洲": {
@@ -1086,6 +1134,55 @@
       "quality_score": 31,
       "total_refs": 6
     },
+    "日本": {
+      "type": "place",
+      "label": "日本",
+      "aliases": [
+        "Japan",
+        "日本列岛"
+      ],
+      "tags": [
+        "地理",
+        "农业传播",
+        "语言起源"
+      ],
+      "path": "ri/日本.md",
+      "description": "从亚洲大陆缓慢采纳集约型粮食生产的海岛地区，因本土狩猎采集资源丰富而长期维持采集生活；新月沃地的大多数作物在日本生长良好，体现了东西轴线气候相似性；文字识字率今日极高，但文字的出现比伊拉克晚了近4000年。",
+      "prose_len": 573,
+      "prose_chars": 534,
+      "h2_count": 3,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 25,
+      "total_refs": 0
+    },
+    "萨赫勒地带": {
+      "type": "place",
+      "label": "萨赫勒地带",
+      "aliases": [
+        "萨赫勒",
+        "Sahel",
+        "非洲萨赫勒"
+      ],
+      "tags": [
+        "地理",
+        "农业起源",
+        "非洲"
+      ],
+      "path": "sa/萨赫勒地带.md",
+      "description": "撒哈拉沙漠南缘的半干旱过渡带，是非洲本土农业的独立起源候选地，驯化了高粱、珍珠稗、非洲稻米等谷物（不迟于公元前5000年），同时是新月沃地作物向南传播的终点屏障，体现了非洲纬度农业传播受阻的机制。",
+      "prose_len": 854,
+      "prose_chars": 802,
+      "h2_count": 4,
+      "pn_count": 10,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 28,
+      "total_refs": 0
+    },
     "书写系统": {
       "type": "concept",
       "label": "书写系统",
@@ -1109,7 +1206,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 4
+      "total_refs": 5
     },
     "水稻": {
       "type": "species",
@@ -1160,7 +1257,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 3
+      "total_refs": 4
     },
     "社会复杂性": {
       "type": "concept",
@@ -1365,7 +1462,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 1
+      "total_refs": 2
     },
     "语言传播": {
       "type": "concept",
@@ -1390,7 +1487,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 1
+      "total_refs": 2
     },
     "中国": {
       "type": "place",
@@ -1433,15 +1530,15 @@
       ],
       "path": "zh/中美洲.md",
       "description": "美洲最重要的农业起源中心，玉米驯化地，也是书中论证新月沃地与美洲农业体系差距的核心对照案例；中美洲与安第斯山脉之间的地形障碍使两大美洲农业中心无法互通，进一步削弱了美洲整体的农业积累。",
-      "prose_len": 866,
-      "prose_chars": 811,
+      "prose_len": 864,
+      "prose_chars": 809,
       "h2_count": 4,
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 0
+      "total_refs": 1
     },
     "猪": {
       "type": "species",
@@ -1528,6 +1625,9 @@
     "地理决定论": "地理决定论",
     "环境决定论": "地理决定论",
     "geographic determinism": "地理决定论",
+    "东南亚": "东南亚",
+    "Southeast Asia": "东南亚",
+    "热带东南亚": "东南亚",
     "Epilogue": "Epilogue",
     "非洲": "非洲",
     "Africa": "非洲",
@@ -1575,6 +1675,9 @@
     "麻疹病毒": "麻疹",
     "measles": "麻疹",
     "Measles morbillivirus": "麻疹",
+    "美国东部": "美国东部",
+    "北美东部": "美国东部",
+    "Eastern North America": "美国东部",
     "美洲": "美洲",
     "Americas": "美洲",
     "新大陆": "美洲",
@@ -1603,6 +1706,13 @@
     "人口密度": "人口密度",
     "人口压力": "人口密度",
     "population density": "人口密度",
+    "日本": "日本",
+    "Japan": "日本",
+    "日本列岛": "日本",
+    "萨赫勒地带": "萨赫勒地带",
+    "萨赫勒": "萨赫勒地带",
+    "Sahel": "萨赫勒地带",
+    "非洲萨赫勒": "萨赫勒地带",
     "书写系统": "书写系统",
     "文字": "书写系统",
     "文字系统": "书写系统",
@@ -1670,6 +1780,6 @@
     "pig": "猪",
     "Sus scrofa domesticus": "猪"
   },
-  "page_count": 65,
-  "generated": "2026-05-24T21:16:32Z"
+  "page_count": 69,
+  "generated": "2026-05-24T21:23:03Z"
 }
