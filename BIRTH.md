@@ -629,7 +629,28 @@ RFC 合并或明确标注"不阻塞"后，方可进入全量赋号。
 
 ## Phase 6：基础数据建设
 
-> 状态：未开始
+> **目标**：建立句子库（Sentence Index）和全文索引（FTS Index），作为内容分析和前端搜索的基础数据。
+
+### 6-A 句子库（Sentence Index）
+
+- [x] 执行 PRE1 全量构建：
+  ```bash
+  python3 "$MEMEX_ROOT/wiki/scripts/build_sentence_index.py" \
+    --pages-dir docs/wiki/pages --out-dir data/sentence_index --wiki-root . --lang zh
+  ```
+  - 结果：**22 章，5624 个句子单元**，输出 `data/sentence_index/`（001–020 + P02 + P03）
+- [x] 验证：`find data/sentence_index/ -name '*.jsonl' | wc -l` = **22**（与已赋 PN 章节数一致）
+- [x] 提交：`feat: Phase 6-A/6-B` commit `ee8b285`
+
+### 6-B 全文索引（FTS Index）
+
+- [x] 执行 SRH1 构建（使用默认配置，无需 srh1.config.json）：
+  ```bash
+  python3 "$MEMEX_ROOT/wiki/scripts/build_fts_index.py" .
+  ```
+  - 结果：**章节 22，段落 1396**，输出 `docs/wiki/data/fts-index.json`（937 KB）
+- [x] 接入发布流水线：在 `publish.sh` 的 build_registry 之后插入 FTS 构建步骤
+- [x] 产出验证：`python3 -c "import json; d=json.load(open('docs/wiki/data/fts-index.json')); print(f'章节 {len(d[\"chapters\"])}, 段落 {len(d[\"entries\"])}')"` → 章节 22, 段落 1396
 
 ---
 
