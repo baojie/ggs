@@ -104,7 +104,7 @@ nnn = f"{chapter_num:03d}"
 **Date**: 2026-05-24
 **Commits**:
 - baojie/memex@04d08e7284b27bfac37059d1a99c9bf307de6416: implement RFC-ggs-0013
-- baojie/ggs@<ggs-sha>: config: 更新 butler.json 分离前言/后记/章节配置
+- baojie/ggs@70f50f6f536b054647b861ade33f7b62fd46896b: config: 更新 butler.json 分离前言/后记/章节配置
 
 **实施内容**（Plan B 优先）：
 
