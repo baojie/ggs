@@ -96,6 +96,7 @@ def assign_pn_to_chapter(text: str, nnn: str, start_pn: int = 1) -> tuple[str, i
 
     # 用累积器处理段落
     i = 0
+    in_sem_block = False  # 是否在 :::TYPE ... ::: 语义块内部
     while i < len(blocks):
         block = blocks[i]
         # 保留空行分隔符
@@ -128,18 +129,23 @@ def assign_pn_to_chapter(text: str, nnn: str, start_pn: int = 1) -> tuple[str, i
             i += 1
             continue
 
-        # ::: 闭合标签 → 跳过，不赋 PN
+        # ::: 闭合标签 → 跳过，不赋 PN，退出语义块状态
         if block == ':::':
+            in_sem_block = False
             result_parts.append(blocks[i])
             i += 1
             continue
 
-        # ::: 语义块开启行（::: image / ::: table / ::: note 等）→ pn= 属性
+        # ::: 语义块开启行（::: image / ::: table / ::: note 等）→ pn= 属性，进入块内状态
         if block.startswith(':::'):
+            lines = block.split('\n')
+            # 若块末行为 ::: 则自包含，无需进入跨段状态
+            is_self_contained = lines[-1].strip() == ':::'
+            in_sem_block = not is_self_contained
             pn_str = f'{nnn_str}-{pn_counter:03d}'
             pn_counter += 1
-            first_line = block.split('\n')[0]
-            rest = '\n'.join(block.split('\n')[1:])
+            first_line = lines[0]
+            rest = '\n'.join(lines[1:])
             # 规范化：:::TYPE（无空格）→ ::: TYPE（有空格）
             first_line = re.sub(r'^:::([a-zA-Z])', r'::: \1', first_line)
             if 'pn=' not in first_line:
@@ -147,6 +153,14 @@ def assign_pn_to_chapter(text: str, nnn: str, start_pn: int = 1) -> tuple[str, i
                 result_parts.append((new_first + '\n' + rest) if rest else new_first)
             else:
                 result_parts.append(block)
+            i += 1
+            continue
+
+        # 语义块内部内容（说明文字、图片 markdown 等）→ 跳过，不赋内联 PN
+        if in_sem_block:
+            # 移除误赋的内联 PN（幂等安全）
+            cleaned = re.sub(r'^\[(?:\d{3}|P\d{2})-\d{3}\]', '', blocks[i], flags=re.MULTILINE)
+            result_parts.append(cleaned)
             i += 1
             continue
 
