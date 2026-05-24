@@ -1,6 +1,6 @@
 # RFC-ggs-0017: NEW1 建页后强制执行 QUO7 PN 格式质检
 
-- **Status**: accepted
+- **Status**: implemented
 - **Date**: 2026-05-25
 - **Issue**: https://github.com/baojie/memex/issues/151
 - **Source wiki**: ggs
@@ -67,3 +67,12 @@ python3 "$MEMEX_ROOT/wiki/scripts/quo7.py" \
 ### 与 /comply CHK6 的关系
 
 /comply CHK6 的 C10（已由 memex 实现）是事后诊断工具；本 RFC 要求的是**建页时的主动拦截**，两者互补，不冲突。
+
+---
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-25
+**Commits**:
+- baojie/memex@6c9232921fa90511e5e5d861f7a3ba1c6ec6e852: feat(NEW1): RFC-ggs-0017 NEW1 建页后强制执行 QUO7 PN 格式质检
