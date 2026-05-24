@@ -40,7 +40,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 5
+      "total_refs": 6
     },
     "斑马": {
       "type": "species",
@@ -89,7 +89,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 7
+      "total_refs": 8
     },
     "ch01-up-to-the-starting-line": {
       "type": "chapter",
@@ -456,7 +456,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 9
+      "total_refs": 12
     },
     "大麦": {
       "type": "species",
@@ -543,6 +543,31 @@
       "book_seq": -1,
       "total_refs": 0
     },
+    "高粱": {
+      "type": "species",
+      "label": "高粱",
+      "aliases": [
+        "高粱",
+        "sorghum",
+        "Sorghum bicolor"
+      ],
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ],
+      "path": "ga/高粱.md",
+      "description": "起源于非洲萨赫勒地带的耐旱谷物，是非洲本土农业体系的核心作物，与新月沃地的大麦、美洲的玉米并列为全球五大主要谷物之一；其传播受限于纬度气候带，是非洲农业发展路径与欧亚大陆差异的物质基础。",
+      "prose_len": 1113,
+      "prose_chars": 1048,
+      "h2_count": 5,
+      "pn_count": 8,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 31,
+      "total_refs": 0
+    },
     "家畜": {
       "type": "concept",
       "label": "家畜",
@@ -566,7 +591,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 6
+      "total_refs": 8
     },
     "技术传播": {
       "type": "concept",
@@ -616,7 +641,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 12
+      "total_refs": 13
     },
     "粮食生产": {
       "type": "concept",
@@ -642,7 +667,34 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 16
+      "total_refs": 20
+    },
+    "骆驼": {
+      "type": "species",
+      "label": "骆驼",
+      "aliases": [
+        "单峰驼",
+        "双峰驼",
+        "骆驼",
+        "camel",
+        "Camelus dromedarius"
+      ],
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ],
+      "path": "lu/骆驼.md",
+      "description": "史前14种驯化大型哺乳动物中驯化时间最晚者，分为阿拉伯半岛的单峰驼和中亚的双峰驼，提供乳汁、役力、运输和军事作战能力，是沙漠贸易与游牧军事力量的核心动物。",
+      "prose_len": 1137,
+      "prose_chars": 1074,
+      "h2_count": 5,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 31,
+      "total_refs": 0
     },
     "马": {
       "type": "species",
@@ -669,6 +721,32 @@
       "quality": "standard",
       "quality_score": 28,
       "total_refs": 1
+    },
+    "马铃薯": {
+      "type": "species",
+      "label": "马铃薯",
+      "aliases": [
+        "土豆",
+        "洋芋",
+        "potato",
+        "Solanum tuberosum"
+      ],
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ],
+      "path": "ma/马铃薯.md",
+      "description": "起源于南美安第斯山脉的高产块茎作物，约公元前3500年驯化，是12种世界最重要作物之一；作为美洲南北轴线限制的典型案例，马铃薯因适应安第斯高海拔凉爽气候而无法在墨西哥高原传播，揭示了美洲农业体系的地理传播局限。",
+      "prose_len": 1134,
+      "prose_chars": 1071,
+      "h2_count": 5,
+      "pn_count": 4,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 31,
+      "total_refs": 0
     },
     "麻疹": {
       "type": "species",
@@ -717,7 +795,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 4
+      "total_refs": 5
     },
     "绵羊": {
       "type": "species",
@@ -760,6 +838,33 @@
       "pn_count": 0,
       "wikilink_count": 21,
       "blockquote_count": 0,
+      "total_refs": 0
+    },
+    "牛": {
+      "type": "species",
+      "label": "牛",
+      "aliases": [
+        "家牛",
+        "黄牛",
+        "cattle",
+        "ox",
+        "Bos taurus"
+      ],
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ],
+      "path": "ni/牛.md",
+      "description": "欧亚大陆14种史前驯化大型哺乳动物之一，在西南亚、南亚和北非各自独立驯化，提供肉食、乳汁、役力和皮革，同时是结核病菌和牛瘟（麻疹祖先）的宿主，是欧亚大陆征服优势中动物力量与疾病储库的双重来源。",
+      "prose_len": 1075,
+      "prose_chars": 1012,
+      "h2_count": 5,
+      "pn_count": 9,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 30,
       "total_refs": 0
     },
     "Preface": {
@@ -930,6 +1035,31 @@
       "quality_score": 28,
       "total_refs": 1
     },
+    "豌豆": {
+      "type": "species",
+      "label": "豌豆",
+      "aliases": [
+        "豌豆",
+        "pea",
+        "Pisum sativum"
+      ],
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ],
+      "path": "wa/豌豆.md",
+      "description": "新月沃地\"八大始祖作物\"中的豆科代表，约公元前8000年驯化，与小麦、大麦形成高效的氮素互补农业组合，驯化变化（大种子、不爆裂豆荚）直接说明无意识选择如何塑造作物性状。",
+      "prose_len": 1103,
+      "prose_chars": 1038,
+      "h2_count": 5,
+      "pn_count": 9,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 31,
+      "total_refs": 0
+    },
     "小麦": {
       "type": "species",
       "label": "小麦",
@@ -980,7 +1110,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 11
+      "total_refs": 14
     },
     "驯化": {
       "type": "concept",
@@ -1005,7 +1135,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 14
+      "total_refs": 18
     },
     "玉米": {
       "type": "species",
@@ -1135,6 +1265,9 @@
     "geographic determinism": "地理决定论",
     "Epilogue": "Epilogue",
     "Frontispiece": "Frontispiece",
+    "高粱": "高粱",
+    "sorghum": "高粱",
+    "Sorghum bicolor": "高粱",
     "家畜": "家畜",
     "驯化动物": "家畜",
     "牲畜": "家畜",
@@ -1151,11 +1284,21 @@
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
     "农耕": "粮食生产",
+    "骆驼": "骆驼",
+    "单峰驼": "骆驼",
+    "双峰驼": "骆驼",
+    "camel": "骆驼",
+    "Camelus dromedarius": "骆驼",
     "马": "马",
     "马匹": "马",
     "骏马": "马",
     "horse": "马",
     "Equus ferus caballus": "马",
+    "马铃薯": "马铃薯",
+    "土豆": "马铃薯",
+    "洋芋": "马铃薯",
+    "potato": "马铃薯",
+    "Solanum tuberosum": "马铃薯",
     "麻疹": "麻疹",
     "麻疹病毒": "麻疹",
     "measles": "麻疹",
@@ -1171,6 +1314,12 @@
     "sheep": "绵羊",
     "Ovis aries": "绵羊",
     "目录": "目录",
+    "牛": "牛",
+    "家牛": "牛",
+    "黄牛": "牛",
+    "cattle": "牛",
+    "ox": "牛",
+    "Bos taurus": "牛",
     "Preface": "Preface",
     "人口密度": "人口密度",
     "人口压力": "人口密度",
@@ -1197,6 +1346,9 @@
     "痘病毒": "天花病毒",
     "smallpox": "天花病毒",
     "Variola virus": "天花病毒",
+    "豌豆": "豌豆",
+    "pea": "豌豆",
+    "Pisum sativum": "豌豆",
     "小麦": "小麦",
     "二粒小麦": "小麦",
     "单粒小麦": "小麦",
@@ -1227,6 +1379,6 @@
     "pig": "猪",
     "Sus scrofa domesticus": "猪"
   },
-  "page_count": 50,
-  "generated": "2026-05-24T20:48:21Z"
+  "page_count": 55,
+  "generated": "2026-05-24T20:53:27Z"
 }

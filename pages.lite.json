@@ -194,6 +194,16 @@
       "aliases": [],
       "path": "fr/Frontispiece.md"
     },
+    "高粱": {
+      "type": "species",
+      "label": "高粱",
+      "aliases": [
+        "高粱",
+        "sorghum",
+        "Sorghum bicolor"
+      ],
+      "path": "ga/高粱.md"
+    },
     "家畜": {
       "type": "concept",
       "label": "家畜",
@@ -234,6 +244,18 @@
       ],
       "path": "li/粮食生产.md"
     },
+    "骆驼": {
+      "type": "species",
+      "label": "骆驼",
+      "aliases": [
+        "单峰驼",
+        "双峰驼",
+        "骆驼",
+        "camel",
+        "Camelus dromedarius"
+      ],
+      "path": "lu/骆驼.md"
+    },
     "马": {
       "type": "species",
       "label": "马",
@@ -244,6 +266,17 @@
         "Equus ferus caballus"
       ],
       "path": "ma/马.md"
+    },
+    "马铃薯": {
+      "type": "species",
+      "label": "马铃薯",
+      "aliases": [
+        "土豆",
+        "洋芋",
+        "potato",
+        "Solanum tuberosum"
+      ],
+      "path": "ma/马铃薯.md"
     },
     "麻疹": {
       "type": "species",
@@ -282,6 +315,18 @@
       "label": "目录",
       "aliases": [],
       "path": "mu/目录.md"
+    },
+    "牛": {
+      "type": "species",
+      "label": "牛",
+      "aliases": [
+        "家牛",
+        "黄牛",
+        "cattle",
+        "ox",
+        "Bos taurus"
+      ],
+      "path": "ni/牛.md"
     },
     "Preface": {
       "type": "chapter",
@@ -349,6 +394,16 @@
         "Variola virus"
       ],
       "path": "ti/天花病毒.md"
+    },
+    "豌豆": {
+      "type": "species",
+      "label": "豌豆",
+      "aliases": [
+        "豌豆",
+        "pea",
+        "Pisum sativum"
+      ],
+      "path": "wa/豌豆.md"
     },
     "小麦": {
       "type": "species",
@@ -465,6 +520,9 @@
     "geographic determinism": "地理决定论",
     "Epilogue": "Epilogue",
     "Frontispiece": "Frontispiece",
+    "高粱": "高粱",
+    "sorghum": "高粱",
+    "Sorghum bicolor": "高粱",
     "家畜": "家畜",
     "驯化动物": "家畜",
     "牲畜": "家畜",
@@ -481,11 +539,21 @@
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
     "农耕": "粮食生产",
+    "骆驼": "骆驼",
+    "单峰驼": "骆驼",
+    "双峰驼": "骆驼",
+    "camel": "骆驼",
+    "Camelus dromedarius": "骆驼",
     "马": "马",
     "马匹": "马",
     "骏马": "马",
     "horse": "马",
     "Equus ferus caballus": "马",
+    "马铃薯": "马铃薯",
+    "土豆": "马铃薯",
+    "洋芋": "马铃薯",
+    "potato": "马铃薯",
+    "Solanum tuberosum": "马铃薯",
     "麻疹": "麻疹",
     "麻疹病毒": "麻疹",
     "measles": "麻疹",
@@ -501,6 +569,12 @@
     "sheep": "绵羊",
     "Ovis aries": "绵羊",
     "目录": "目录",
+    "牛": "牛",
+    "家牛": "牛",
+    "黄牛": "牛",
+    "cattle": "牛",
+    "ox": "牛",
+    "Bos taurus": "牛",
     "Preface": "Preface",
     "人口密度": "人口密度",
     "人口压力": "人口密度",
@@ -527,6 +601,9 @@
     "痘病毒": "天花病毒",
     "smallpox": "天花病毒",
     "Variola virus": "天花病毒",
+    "豌豆": "豌豆",
+    "pea": "豌豆",
+    "Pisum sativum": "豌豆",
     "小麦": "小麦",
     "二粒小麦": "小麦",
     "单粒小麦": "小麦",
@@ -557,6 +634,6 @@
     "pig": "猪",
     "Sus scrofa domesticus": "猪"
   },
-  "page_count": 50,
-  "generated": "2026-05-24T20:48:21Z"
+  "page_count": 55,
+  "generated": "2026-05-24T20:53:27Z"
 }
