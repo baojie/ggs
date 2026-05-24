@@ -92,19 +92,19 @@
 
 确认 BIRTH 已真正完成，butler 基础设施就绪：
 
-- [ ] `local/memory/boot_summary.md` 存在（BIRTH Phase 10 的标志）：
+- [x] `local/memory/boot_summary.md` 存在（BIRTH Phase 10 的标志）：
   ```bash
   cat local/memory/boot_summary.md
   ```
   确认字段：`boot_completed`（日期）、`phases: 0–10`、`Pilot 页面`（类型数量）
 
-- [ ] butler 轮次计数文件存在：
+- [x] butler 轮次计数文件存在：
   ```bash
   cat logs/butler/round_counter.txt
   ```
   记录当前轮次 R_current = 40
 
-- [ ] 基础数据文件完整：
+- [x] 基础数据文件完整：
   ```bash
   ls docs/wiki/pages.json         # 页面注册表
   ls data/sentence_index/         # 句子库（Phase 6-A 产物）
@@ -113,7 +113,7 @@
   ```
   以上任一缺失说明 BIRTH 未完成，不可进入 GROW。
 
-- [ ] （Phase 2 及以后）state 文件存在且 schema 合法：
+- [x] （Phase 2 及以后）state 文件存在且 schema 合法：
   ```python
   import json
   try:
@@ -131,7 +131,7 @@
 
 量化当前页面库的规模与质量分布：
 
-- [ ] **统计页面总数和类型分布**：
+- [x] **统计页面总数和类型分布**：
   ```python
   python3 -c "
   import json
@@ -151,11 +151,11 @@
   - 词条类页面（非 chapter/overview/list）= 76
   - 质量分布（stub/basic/standard/featured/premium）= standard×76
 
-- [ ] **计算关键比率**：
+- [x] **计算关键比率**：
   - stub 比率 = 0/76 × 100% = **0.0%**（目标 Phase 2 结束时 < 20%）
   - featured 及以上比率 = 0/76 × 100% = **0.0%**（目标 Phase 3 结束时 > 50%）
 
-- [ ] **类型覆盖完整性**：
+- [x] **类型覆盖完整性**：
   对照 `local/template/` 下的模板文件，确认每种主要类型当前有多少词条：
   ```bash
   ls local/template/
@@ -170,7 +170,7 @@
   | person | ✓ | 15 | 40–60 | 25–38% |
   | event | ✓ | 15 | 20–35 | 43–75% |
 
-- [ ] **确认 type 标签映射完整**：
+- [x] **确认 type 标签映射完整**：
   对照 `docs/wiki/local/config/types.js` 中的 `TYPE_LABELS`，确认 `docs/wiki/pages.json` 中出现的每个 type 均有对应中文标签。缺失的立即补录，否则页面底部类型标签将显示为空白。
   ```bash
   # 列出 pages.json 中所有出现的 type
@@ -191,7 +191,7 @@
 
 从 BIRTH 产出中提取已建立的质量基线和模板约定：
 
-- [ ] 读取 `local/memory/boot_summary.md` 的 Pilot EVV 汇总表：
+- [x] 读取 `local/memory/boot_summary.md` 的 Pilot EVV 汇总表：
   ```bash
   grep -A 20 "Pilot EVV" local/memory/boot_summary.md
   ```
@@ -200,7 +200,7 @@
   - 主要模板改动（写入 grow_baseline.md 的「类型模板约定」）
   - 遗留问题（写入 grow_baseline.md 的「已知债务」）
 
-- [ ] 确认 Pilot 遗留问题的处理状态：
+- [x] 确认 Pilot 遗留问题的处理状态：
   对 boot_summary.md 中每个「遗留问题」判断：
   - 已修复 → 记录修复方式
   - 未修复但不阻塞扩张 → 记入「已知债务」，GROW Phase 2 扩张前处理
@@ -212,14 +212,14 @@
 
 评估还有多少可通过 NEW1 建词条，判断候选池是否充足：
 
-- [ ] **查看当前队列**：
+- [x] **查看当前队列**：
   ```bash
   wc -l logs/butler/queue.md
   grep -c "^\-" logs/butler/queue.md  # 候选条目数
   ```
   记录：当前队列条目数 = 0（队列文件存在但尚无候选条目，需 discover 轮次填充）
 
-- [ ] **估算各类型剩余候选量**：
+- [x] **估算各类型剩余候选量**：
   查看 `logs/butler/type-survey.md`（BIRTH Phase 7-A 产物）：
   ```bash
   cat logs/butler/type-survey.md
@@ -231,7 +231,7 @@
   - person 估算总量 40–60 - 已建 15 = 剩余 25–45
   - event 估算总量 20–35 - 已建 15 = 剩余 5–20
 
-- [ ] **判断候选充足性**：
+- [x] **判断候选充足性**：
   - 各类型剩余 > 10 条 → 候选充足，Phase 2 可正常推进
   - 某类型剩余 < 5 条 → 该类型接近枯竭，需提前准备 gap scan（SCN9/SCN18）
   - 多数类型剩余 < 5 条 → 跳过 Phase 2，直接进入 Phase 3（深度提升）
@@ -242,13 +242,13 @@
 
 评估词条之间的链接密度，为 wikify 时机决策提供依据：
 
-- [ ] **检查现有 wikilink 数量**：
+- [x] **检查现有 wikilink 数量**：
   ```bash
   grep -roh '\[\[[^\]]*\]\]' docs/wiki/pages/ --include="*.md" | wc -l
   ```
   记录：当前 wikilink 总数 = 422
 
-- [ ] **检查 backlinks 索引**（如已构建）：
+- [x] **检查 backlinks 索引**（如已构建）：
   ```bash
   python3 -c "
   import json
@@ -262,7 +262,7 @@
   ```
   记录：被引用页 80/80，总反链 409 条
 
-- [ ] **判断 wikify 优先级**：
+- [x] **判断 wikify 优先级**：
   - wikilink 总数 / N_entries = 422 / 76 ≈ **5.6 条/词条** → 链接密度适中
   - 有类型已完成但未 wikify → Phase 2 开始前先补做一次该类型的 wikify
 
@@ -284,8 +284,8 @@
 | Pilot 已完成，stub% < 5%，featured% < 50% | 📈 **GROW Phase 3**（深度提升）— 广度基本到位 |
 | Pilot 已完成，stub% < 5%，featured% > 50% | 💡 **GROW Phase 4**（洞察层）— 质量基线已高 |
 
-- [ ] 根据规则确认阶段：当前应从 **GROW Phase 2**（广度扩张）开始
-- [ ] 记录定位理由：Pilot 已完成（BIRTH Phase 9，R1–R40），stub%=0%，N_entries=76 < 80，候选充足（各类型剩余 5–74 条）
+- [x] 根据规则确认阶段：当前应从 **GROW Phase 2**（广度扩张）开始
+- [x] 记录定位理由：Pilot 已完成（BIRTH Phase 9，R1–R40），stub%=0%，N_entries=76 < 80，候选充足（各类型剩余 5–74 条）
 
 ---
 
@@ -293,7 +293,7 @@
 
 将以上所有信息写入 `local/memory/grow_baseline.md`：
 
-- [ ] 创建或更新文件（每次重新摸底覆盖上次）：
+- [x] 创建或更新文件（每次重新摸底覆盖上次）：
 
 ```markdown
 # GROW 基线摸底 — 枪炮、病菌与钢铁
@@ -346,7 +346,7 @@ backlinks 覆盖: 80/80 页，409 条反链
 3. Phase 2.1-0 与用户确认 WU quota，写入 butler.json
 ```
 
-- [ ] 提交基线文档：
+- [x] 提交基线文档：
   ```bash
   git add local/memory/grow_baseline.md
   bash wiki/scripts/skill_commit.sh "docs: GROW Phase 0 基线摸底完成"
@@ -358,11 +358,11 @@ backlinks 覆盖: 80/80 页，409 条反链
 
 Phase 0 完成的标志：
 
-- [ ] `local/memory/grow_baseline.md` 存在且填写完整（无 `{{占位符}}`）
-- [ ] 阶段定位明确（Phase 2 / 3 / 4）
-- [ ] 遗留债务已分类（阻塞 / 非阻塞）
-- [ ] 非阻塞债务已记录到 butler 队列或 housekeeping 任务
-- [ ] 阻塞债务已处理（或确认可接受跳过）
+- [x] `local/memory/grow_baseline.md` 存在且填写完整（无 `{{占位符}}`）
+- [x] 阶段定位明确（Phase 2 / 3 / 4）
+- [x] 遗留债务已分类（阻塞 / 非阻塞）
+- [x] 非阻塞债务已记录到 butler 队列或 housekeeping 任务
+- [x] 阻塞债务已处理（或确认可接受跳过）
 
 ---
 
