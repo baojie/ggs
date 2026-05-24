@@ -532,7 +532,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 23
+      "total_refs": 24
     },
     "大麦": {
       "type": "species",
@@ -557,6 +557,31 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
+      "total_refs": 0
+    },
+    "地中海地区": {
+      "type": "place",
+      "label": "地中海地区",
+      "aliases": [
+        "地中海气候带",
+        "Mediterranean",
+        "欧亚大陆西部地中海气候带"
+      ],
+      "tags": [
+        "地理",
+        "农业起源",
+        "气候带"
+      ],
+      "path": "di/地中海地区.md",
+      "description": "欧亚大陆西部最大的地中海气候带，以冬湿夏干的季节性气候孕育了世界上最丰富的一年生禾本科植物，是新月沃地农业起源的关键自然背景；全球共有5个地中海气候区，但其余4个（加利福尼亚、智利、澳大利亚西南部、南非）均未独立发展出农业。",
+      "prose_len": 870,
+      "prose_chars": 811,
+      "h2_count": 4,
+      "pn_count": 8,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 28,
       "total_refs": 0
     },
     "地理决定论": {
@@ -818,7 +843,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 30
+      "total_refs": 31
     },
     "骆驼": {
       "type": "species",
@@ -1410,7 +1435,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 16
+      "total_refs": 17
     },
     "驯化": {
       "type": "concept",
@@ -1435,7 +1460,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 18
+      "total_refs": 19
     },
     "玉米": {
       "type": "species",
@@ -1622,6 +1647,10 @@
     "大麦草": "大麦",
     "barley": "大麦",
     "Hordeum vulgare": "大麦",
+    "地中海地区": "地中海地区",
+    "地中海气候带": "地中海地区",
+    "Mediterranean": "地中海地区",
+    "欧亚大陆西部地中海气候带": "地中海地区",
     "地理决定论": "地理决定论",
     "环境决定论": "地理决定论",
     "geographic determinism": "地理决定论",
@@ -1780,6 +1809,6 @@
     "pig": "猪",
     "Sus scrofa domesticus": "猪"
   },
-  "page_count": 69,
-  "generated": "2026-05-24T21:23:03Z"
+  "page_count": 70,
+  "generated": "2026-05-24T21:23:48Z"
 }

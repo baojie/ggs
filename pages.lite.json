@@ -202,6 +202,16 @@
       ],
       "path": "da/大麦.md"
     },
+    "地中海地区": {
+      "type": "place",
+      "label": "地中海地区",
+      "aliases": [
+        "地中海气候带",
+        "Mediterranean",
+        "欧亚大陆西部地中海气候带"
+      ],
+      "path": "di/地中海地区.md"
+    },
     "地理决定论": {
       "type": "concept",
       "label": "地理决定论",
@@ -660,6 +670,10 @@
     "大麦草": "大麦",
     "barley": "大麦",
     "Hordeum vulgare": "大麦",
+    "地中海地区": "地中海地区",
+    "地中海气候带": "地中海地区",
+    "Mediterranean": "地中海地区",
+    "欧亚大陆西部地中海气候带": "地中海地区",
     "地理决定论": "地理决定论",
     "环境决定论": "地理决定论",
     "geographic determinism": "地理决定论",
@@ -818,6 +832,6 @@
     "pig": "猪",
     "Sus scrofa domesticus": "猪"
   },
-  "page_count": 69,
-  "generated": "2026-05-24T21:23:03Z"
+  "page_count": 70,
+  "generated": "2026-05-24T21:23:48Z"
 }
