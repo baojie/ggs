@@ -1,6 +1,6 @@
 # RFC-ggs-0022: NEW1/enrich 须每句有据，禁止脱离原文编造内容
 
-- **Status**: proposed
+- **Status**: implemented
 - **Date**: 2026-05-25
 - **Source wiki**: ggs
 - **Issue**: https://github.com/baojie/memex/issues/158
@@ -137,3 +137,10 @@ python3 wiki/scripts/butler/corpus_search.py "关键词" --max 5
 - RCH1/RCH2 追加内容时逐句标注 PN 来源
 
 CLAUDE.md 已在本项目本地添加了同步的"PN 引用防幻觉规则"作为补充。
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-25
+**Commits**:
+- baojie/memex@4f3f5e14103b77085ea1130ffa2328cfc61b8755: feat(NEW1/enrich): 增加"每句有据"铁律——禁止脱离原文编造内容

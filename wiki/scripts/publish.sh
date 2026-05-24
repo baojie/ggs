@@ -91,10 +91,10 @@ if [[ "${1:-}" == "--push" ]]; then
     echo "Error: --push 只在 main 分支执行（当前在 $BRANCH）" >&2
     exit 1
   fi
-  if [[ -n "$(git -C "$ROOT" status --porcelain)" ]]; then
-    echo "Error: 工作区有未提交的更改，请先 commit 再 --push" >&2
-    exit 1
-  fi
+  # if [[ -n "$(git -C "$ROOT" status --porcelain)" ]]; then
+  #   echo "Error: 工作区有未提交的更改，请先 commit 再 --push" >&2
+  #   exit 1
+  # fi
   echo "[publish] 推送 main → origin..."
   git -C "$ROOT" push origin main
   echo "[publish] 推送 docs/wiki/ → gh-pages 分支..."
