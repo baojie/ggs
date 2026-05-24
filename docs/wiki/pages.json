@@ -170,8 +170,8 @@
         "chapter"
       ],
       "path": "ch/ch09-zebras-unhappy-marriages-anna-karenina.md",
-      "prose_len": 14720,
-      "prose_chars": 14403,
+      "prose_len": 14711,
+      "prose_chars": 14394,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -188,8 +188,8 @@
         "chapter"
       ],
       "path": "ch/ch10-spacious-skies-tilted-axis.md",
-      "prose_len": 12240,
-      "prose_chars": 11891,
+      "prose_len": 12231,
+      "prose_chars": 11882,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -224,8 +224,8 @@
         "chapter"
       ],
       "path": "ch/ch12-blueprints-borrowed-letters.md",
-      "prose_len": 17859,
-      "prose_chars": 17422,
+      "prose_len": 17850,
+      "prose_chars": 17413,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -242,8 +242,8 @@
         "chapter"
       ],
       "path": "ch/ch13-necessitys-mother.md",
-      "prose_len": 21626,
-      "prose_chars": 21317,
+      "prose_len": 21608,
+      "prose_chars": 21299,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -332,8 +332,8 @@
         "chapter"
       ],
       "path": "ch/ch18-collision-of-two-hemispheres.md",
-      "prose_len": 16235,
-      "prose_chars": 15985,
+      "prose_len": 16217,
+      "prose_chars": 15967,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -368,8 +368,8 @@
         "chapter"
       ],
       "path": "ep/Epilogue.md",
-      "prose_len": 26615,
-      "prose_chars": 25904,
+      "prose_len": 26606,
+      "prose_chars": 25895,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -387,8 +387,8 @@
         "illustrations"
       ],
       "path": "fr/Frontispiece.md",
-      "prose_len": 3486,
-      "prose_chars": 2174,
+      "prose_len": 3198,
+      "prose_chars": 1886,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -421,8 +421,8 @@
         "chapter"
       ],
       "path": "pr/Preface.md",
-      "prose_len": 17311,
-      "prose_chars": 17125,
+      "prose_len": 17266,
+      "prose_chars": 17077,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -461,5 +461,5 @@
     "Preface": "Preface"
   },
   "page_count": 24,
-  "generated": "2026-05-24T09:23:14Z"
+  "generated": "2026-05-24T09:51:38Z"
 }
