@@ -14,6 +14,7 @@ id: slug-kebab-case
 type: concept
 label: 概念中文名
 aliases: [别名1, 别名2]
+	# tags 必须使用 Wiki 默认语言（本 Wiki 为中文），type 字段保持英文
 tags: [地理, 农业, 技术]   # 从下方标签集选取
 description: 一句话定义（20–60字）
 ---

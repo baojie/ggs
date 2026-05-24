@@ -14,6 +14,7 @@ id: slug-kebab-case
 type: place
 label: 地名中文名
 aliases: [英文名, 其他译名]
+	# tags 必须使用 Wiki 默认语言（本 Wiki 为中文），type 字段保持英文
 tags: [大陆, 地区, 河流, 文明]   # 从下方标签集选取
 description: 一句话定位（地理位置 + 在本书中的角色）
 ---

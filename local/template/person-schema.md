@@ -14,6 +14,7 @@ id: slug-kebab-case
 type: person
 label: 人物中文名
 aliases: [英文名, 另一译名]
+	# tags 必须使用 Wiki 默认语言（本 Wiki 为中文），type 字段保持英文
 tags: [探险家, 学者, 原住民]   # 从下方标签集选取
 description: 一句话介绍（身份 + 与本书的关联）
 ---

@@ -14,6 +14,7 @@ id: slug-kebab-case
 type: event
 label: 事件中文名
 aliases: [英文名]
+	# tags 必须使用 Wiki 默认语言（本 Wiki 为中文），type 字段保持英文
 tags: [征服, 驯化, 迁徙, 发现]   # 从下方标签集选取
 description: 一句话描述（时间 + 地点 + 性质）
 ---

@@ -14,6 +14,7 @@ id: slug-kebab-case
 type: species
 label: 物种中文名
 aliases: [学名, 英文名]
+	# tags 必须使用 Wiki 默认语言（本 Wiki 为中文），type 字段保持英文
 tags: [植物, 动物, 病原体, 农作物, 家畜]   # 从下方标签集选取
 description: 一句话介绍（物种类型 + 与粮食生产/疾病的关联）
 ---
