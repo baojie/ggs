@@ -29,6 +29,7 @@
     ],
     "allow": [
       "Bash(git status)",
+      "Bash(bash wiki/scripts/skill_commit.sh*)",
       "Bash(git log*)",
       "Bash(git diff*)",
       "Bash(git show*)",
