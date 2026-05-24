@@ -1,0 +1,74 @@
+# event 页面图式（枪炮、病菌与钢铁 Wiki）
+
+**type**: `event`  
+**预估数量**: 20–35 条  
+**优先级**: P2
+
+---
+
+## Frontmatter 字段
+
+```yaml
+---
+id: slug-kebab-case
+type: event
+label: 事件中文名
+aliases: [英文名]
+tags: [conquest, domestication, migration, discovery]   # 从下方标签集选取
+description: 一句话描述（时间 + 地点 + 性质）
+---
+```
+
+**专属字段**（非必填）：
+- `date`: 年代（如 `1532` 或 `~8500 BCE`）
+- `location`: 发生地（Wikilink 形式，如 `[[卡哈马卡]]`）
+- `participants`: 主要参与者（Wikilink 列表）
+
+**标签集**：
+`conquest`, `domestication`, `migration`, `discovery`, `battle`, `epidemic`, `founding`
+
+---
+
+## 页面结构（H2 节顺序）
+
+```markdown
+## 事件概述
+
+[时间、地点、参与者、经过，1–3段，附 PN 引注]
+
+## 历史背景
+
+[事件发生的前因，与粮食生产/技术差距等因素的关联]
+
+## 历史意义
+
+[在本书全局论证中的作用，附 PN 引注]
+
+## 相关词条
+
+[Wikilink 到相关人物、地点、概念]
+```
+
+---
+
+## 引文规范
+
+- 历史事件词条须严格附 PN，每段至少 1 个引注
+- 卡哈马卡之战等核心事件应从 ch03 大量引用
+
+---
+
+## 质量阈值
+
+| 档次 | 最低要求 |
+|------|---------|
+| basic | frontmatter 完整 + 事件概述 + ≥2 PN |
+| standard | + 历史意义 + date/location 字段 + ≥4 PN |
+| featured | + 历史背景 + participants + ≥6 PN |
+
+---
+
+## 插图引用规范
+
+历史事件词条一般无对应图表，此项**不适用**。  
+如事件与书中地图相关（如征服路线），可引入。
