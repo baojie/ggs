@@ -42,6 +42,31 @@
       "quality_score": 29,
       "total_refs": 6
     },
+    "安第斯山脉": {
+      "type": "place",
+      "label": "安第斯山脉",
+      "aliases": [
+        "安第斯",
+        "Andes",
+        "南美安第斯"
+      ],
+      "tags": [
+        "地区",
+        "农业起源",
+        "南美洲"
+      ],
+      "path": "an/安第斯山脉.md",
+      "description": "南美洲独立农业起源中心，约公元前3500年驯化马铃薯和木薯，并拥有美洲仅有的大型驮畜美洲驼；其农业体系因被热带低地阻断而无法向北传播至中美洲，是大陆南北轴线限制农业传播的关键案例。",
+      "prose_len": 1114,
+      "prose_chars": 1046,
+      "h2_count": 5,
+      "pn_count": 14,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 31,
+      "total_refs": 0
+    },
     "澳大利亚": {
       "type": "place",
       "label": "澳大利亚",
@@ -89,7 +114,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 0
+      "total_refs": 1
     },
     "病菌": {
       "type": "concept",
@@ -114,7 +139,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 11
+      "total_refs": 13
     },
     "波利尼西亚": {
       "type": "place",
@@ -132,8 +157,8 @@
       ],
       "path": "bo/波利尼西亚.md",
       "description": "太平洋中部和东部的岛群总称，是南岛语族从台湾出发历时约3500年完成的最远扩张终点；不同波利尼西亚岛屿因地理和资源差异而发展出从狩猎采集到国家的各种社会复杂程度，是\"地理决定社会形态\"的自然实验。",
-      "prose_len": 965,
-      "prose_chars": 898,
+      "prose_len": 964,
+      "prose_chars": 897,
       "h2_count": 5,
       "pn_count": 5,
       "wikilink_count": 4,
@@ -507,7 +532,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 14
+      "total_refs": 19
     },
     "大麦": {
       "type": "species",
@@ -576,6 +601,32 @@
       "book_seq": 20,
       "total_refs": 1
     },
+    "非洲": {
+      "type": "place",
+      "label": "非洲",
+      "aliases": [
+        "Africa",
+        "撒哈拉以南非洲",
+        "非洲大陆"
+      ],
+      "tags": [
+        "地理",
+        "历史",
+        "农业",
+        "疾病"
+      ],
+      "path": "fe/非洲.md",
+      "description": "人类进化的发源地，也是全书论证\"南北轴线对农业传播形成阻力\"的核心案例；非洲撒哈拉以南地区缺乏可驯化的大型哺乳动物、农业传播受地理阻断、疾病（采采蝇等）构成独特屏障，共同解释了为什么非洲历史走向与欧亚大陆截然不同。",
+      "prose_len": 910,
+      "prose_chars": 856,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 29,
+      "total_refs": 0
+    },
     "Frontispiece": {
       "type": "chapter",
       "label": "书前彩插",
@@ -609,14 +660,14 @@
       ],
       "path": "ga/高粱.md",
       "description": "起源于非洲萨赫勒地带的耐旱谷物，是非洲本土农业体系的核心作物，与新月沃地的大麦、美洲的玉米并列为全球五大主要谷物之一；其传播受限于纬度气候带，是非洲农业发展路径与欧亚大陆差异的物质基础。",
-      "prose_len": 1104,
-      "prose_chars": 1039,
+      "prose_len": 1020,
+      "prose_chars": 955,
       "h2_count": 5,
-      "pn_count": 7,
+      "pn_count": 8,
       "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "standard",
-      "quality_score": 31,
+      "quality_score": 30,
       "total_refs": 0
     },
     "家畜": {
@@ -692,7 +743,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 16
+      "total_refs": 17
     },
     "卡哈马卡": {
       "type": "place",
@@ -709,15 +760,15 @@
       ],
       "path": "ka/卡哈马卡.md",
       "description": "1532年11月16日西班牙征服者弗兰西斯科·皮萨罗俘获印加皇帝阿塔瓦尔帕的地点，是全书分析近端原因（钢铁、枪炮、马匹、疾病、文字）如何决定欧亚大陆人征服美洲这一历史结局的核心案例。",
-      "prose_len": 952,
-      "prose_chars": 898,
+      "prose_len": 951,
+      "prose_chars": 897,
       "h2_count": 4,
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 0
+      "total_refs": 1
     },
     "粮食生产": {
       "type": "concept",
@@ -743,7 +794,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 22
+      "total_refs": 26
     },
     "骆驼": {
       "type": "species",
@@ -814,15 +865,15 @@
       ],
       "path": "ma/马铃薯.md",
       "description": "起源于南美安第斯山脉的高产块茎作物，约公元前3500年驯化，是12种世界最重要作物之一；作为美洲南北轴线限制的典型案例，马铃薯因适应安第斯高海拔凉爽气候而无法在墨西哥高原传播，揭示了美洲农业体系的地理传播局限。",
-      "prose_len": 1125,
-      "prose_chars": 1062,
+      "prose_len": 742,
+      "prose_chars": 683,
       "h2_count": 5,
-      "pn_count": 3,
+      "pn_count": 8,
       "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "standard",
-      "quality_score": 31,
-      "total_refs": 0
+      "quality_score": 27,
+      "total_refs": 1
     },
     "麻疹": {
       "type": "species",
@@ -846,6 +897,32 @@
       "quality": "standard",
       "quality_score": 30,
       "total_refs": 0
+    },
+    "美洲": {
+      "type": "place",
+      "label": "美洲",
+      "aliases": [
+        "Americas",
+        "新大陆",
+        "the Americas"
+      ],
+      "tags": [
+        "地理",
+        "历史",
+        "农业",
+        "征服"
+      ],
+      "path": "me/美洲.md",
+      "description": "南北走向轴线的大陆，农业传播因跨越多个气候带而极为缓慢；驯化动物仅有南美洲的美洲驼一种大型哺乳动物，且未能传至中美洲；这两项地理劣势共同解释了欧亚大陆人征服美洲时的压倒性优势。",
+      "prose_len": 822,
+      "prose_chars": 768,
+      "h2_count": 4,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 28,
+      "total_refs": 1
     },
     "免疫力": {
       "type": "concept",
@@ -1108,7 +1185,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 3
+      "total_refs": 4
     },
     "天花病毒": {
       "type": "species",
@@ -1236,7 +1313,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 15
+      "total_refs": 16
     },
     "驯化": {
       "type": "concept",
@@ -1280,15 +1357,15 @@
       ],
       "path": "yu/玉米.md",
       "description": "美洲最重要的驯化谷物，起源于中美洲野生的墨西哥类蜀黍，其驯化难度远高于小麦大麦，传播速度因美洲南北轴线而受到严重限制，是大陆轴线论点的关键对照案例。",
-      "prose_len": 976,
-      "prose_chars": 913,
+      "prose_len": 1000,
+      "prose_chars": 937,
       "h2_count": 5,
-      "pn_count": 6,
+      "pn_count": 9,
       "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "standard",
-      "quality_score": 29,
-      "total_refs": 0
+      "quality_score": 30,
+      "total_refs": 1
     },
     "语言传播": {
       "type": "concept",
@@ -1313,6 +1390,57 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
+      "total_refs": 1
+    },
+    "中国": {
+      "type": "place",
+      "label": "中国",
+      "aliases": [
+        "China",
+        "华夏",
+        "中原"
+      ],
+      "tags": [
+        "地理",
+        "历史",
+        "农业"
+      ],
+      "path": "zh/中国.md",
+      "description": "世界上独立发明粮食生产的少数地区之一，华北（粟、黍）和华南（水稻）两个独立农业中心约于公元前7500年前后开始，中国地理特征促成了早期政治统一，使其成为对东亚和东南亚历史走向产生决定性影响的大陆文明起点。",
+      "prose_len": 973,
+      "prose_chars": 916,
+      "h2_count": 4,
+      "pn_count": 9,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 29,
+      "total_refs": 0
+    },
+    "中美洲": {
+      "type": "place",
+      "label": "中美洲",
+      "aliases": [
+        "Mesoamerica",
+        "墨西哥",
+        "美索美洲"
+      ],
+      "tags": [
+        "地理",
+        "历史",
+        "农业",
+        "美洲"
+      ],
+      "path": "zh/中美洲.md",
+      "description": "美洲最重要的农业起源中心，玉米驯化地，也是书中论证新月沃地与美洲农业体系差距的核心对照案例；中美洲与安第斯山脉之间的地形障碍使两大美洲农业中心无法互通，进一步削弱了美洲整体的农业积累。",
+      "prose_len": 866,
+      "prose_chars": 811,
+      "h2_count": 4,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 28,
       "total_refs": 0
     },
     "猪": {
@@ -1331,14 +1459,14 @@
       ],
       "path": "zh/猪.md",
       "description": "世界上最早被驯化的大型家畜之一，约公元前8000年在中国和西南亚独立驯化，同时是多种人类传染病（旋毛虫病、流感等）的动物宿主。",
-      "prose_len": 916,
-      "prose_chars": 853,
+      "prose_len": 881,
+      "prose_chars": 818,
       "h2_count": 5,
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "standard",
-      "quality_score": 29,
+      "quality_score": 28,
       "total_refs": 0
     }
   },
@@ -1350,6 +1478,10 @@
     "安娜·卡列尼娜原则": "安娜-卡列尼娜原则",
     "安娜卡列尼娜原则": "安娜-卡列尼娜原则",
     "驯化失败原则": "安娜-卡列尼娜原则",
+    "安第斯山脉": "安第斯山脉",
+    "安第斯": "安第斯山脉",
+    "Andes": "安第斯山脉",
+    "南美安第斯": "安第斯山脉",
     "澳大利亚": "澳大利亚",
     "Australia": "澳大利亚",
     "澳洲": "澳大利亚",
@@ -1397,6 +1529,10 @@
     "环境决定论": "地理决定论",
     "geographic determinism": "地理决定论",
     "Epilogue": "Epilogue",
+    "非洲": "非洲",
+    "Africa": "非洲",
+    "撒哈拉以南非洲": "非洲",
+    "非洲大陆": "非洲",
     "Frontispiece": "Frontispiece",
     "高粱": "高粱",
     "sorghum": "高粱",
@@ -1439,6 +1575,10 @@
     "麻疹病毒": "麻疹",
     "measles": "麻疹",
     "Measles morbillivirus": "麻疹",
+    "美洲": "美洲",
+    "Americas": "美洲",
+    "新大陆": "美洲",
+    "the Americas": "美洲",
     "免疫力": "免疫力",
     "免疫": "免疫力",
     "抵抗力": "免疫力",
@@ -1516,12 +1656,20 @@
     "语系扩散": "语言传播",
     "语言扩张": "语言传播",
     "language spread": "语言传播",
+    "中国": "中国",
+    "China": "中国",
+    "华夏": "中国",
+    "中原": "中国",
+    "中美洲": "中美洲",
+    "Mesoamerica": "中美洲",
+    "墨西哥": "中美洲",
+    "美索美洲": "中美洲",
     "猪": "猪",
     "家猪": "猪",
     "野猪": "猪",
     "pig": "猪",
     "Sus scrofa domesticus": "猪"
   },
-  "page_count": 60,
-  "generated": "2026-05-24T21:01:52Z"
+  "page_count": 65,
+  "generated": "2026-05-24T21:16:32Z"
 }
