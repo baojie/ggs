@@ -1,6 +1,6 @@
 # RFC-ggs-0018: BIRTH.spec.md Phase 5-B 须显式约束 chapter_map.json 输出格式
 
-- **Status**: accepted
+- **Status**: implemented
 - **Date**: 2026-05-25
 - **Issue**: https://github.com/baojie/memex/issues/154
 - **Source wiki**: ggs
@@ -137,3 +137,14 @@ def build_chapter_map() -> dict:
 2. **assign_nnn_prefix.py 修改**（ggs 本地，可直接执行）：`build_chapter_map()` 输出格式修正
 
 第 2 项可立即在本地执行，无需等待 memex RFC 审批。
+
+---
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-25
+**Commits**:
+- baojie/memex@60d1404ac395455d0b5dfaa1490d0fafebb7212c: feat(BIRTH): RFC-ggs-0018 Phase 5-B 增加 chapter_map.json 格式约束
+
+**说明**: Item 3（ggs 本地 assign_nnn_prefix.py）审阅时已验证 build_chapter_map() 已输出正确 nnn→page_id 格式，无需额外修改。
