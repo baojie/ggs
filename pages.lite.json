@@ -9,6 +9,25 @@
       ],
       "path": "ab/About.md"
     },
+    "安娜-卡列尼娜原则": {
+      "type": "concept",
+      "label": "安娜·卡列尼娜原则",
+      "aliases": [
+        "安娜卡列尼娜原则",
+        "驯化失败原则"
+      ],
+      "path": "an/安娜-卡列尼娜原则.md"
+    },
+    "病菌": {
+      "type": "concept",
+      "label": "病菌",
+      "aliases": [
+        "传染病",
+        "流行病",
+        "germs"
+      ],
+      "path": "bi/病菌.md"
+    },
     "ch01-up-to-the-starting-line": {
       "type": "chapter",
       "label": "第一章　走上起跑线",
@@ -123,6 +142,17 @@
       "aliases": [],
       "path": "ch/ch19-how-africa-became-black.md"
     },
+    "大陆轴线": {
+      "type": "concept",
+      "label": "大陆轴线",
+      "aliases": [
+        "大陆主轴线",
+        "东西轴线",
+        "南北轴线",
+        "continental axis"
+      ],
+      "path": "da/大陆轴线.md"
+    },
     "Epilogue": {
       "type": "chapter",
       "label": "后记　人类史作为一门科学的未来",
@@ -134,6 +164,16 @@
       "label": "书前彩插",
       "aliases": [],
       "path": "fr/Frontispiece.md"
+    },
+    "近端原因与终极原因": {
+      "type": "concept",
+      "label": "近端原因与终极原因",
+      "aliases": [
+        "直接原因与终极原因",
+        "proximate cause",
+        "ultimate cause"
+      ],
+      "path": "ji/近端原因与终极原因.md"
     },
     "粮食生产": {
       "type": "concept",
@@ -156,12 +196,30 @@
       "label": "前言　耶利的问题",
       "aliases": [],
       "path": "pr/Preface.md"
+    },
+    "书写系统": {
+      "type": "concept",
+      "label": "书写系统",
+      "aliases": [
+        "文字",
+        "文字系统",
+        "writing system"
+      ],
+      "path": "sh/书写系统.md"
     }
   },
   "alias_index": {
     "About": "About",
     "关于本 Wiki": "About",
     "关于": "About",
+    "安娜-卡列尼娜原则": "安娜-卡列尼娜原则",
+    "安娜·卡列尼娜原则": "安娜-卡列尼娜原则",
+    "安娜卡列尼娜原则": "安娜-卡列尼娜原则",
+    "驯化失败原则": "安娜-卡列尼娜原则",
+    "病菌": "病菌",
+    "传染病": "病菌",
+    "流行病": "病菌",
+    "germs": "病菌",
     "ch01-up-to-the-starting-line": "ch01-up-to-the-starting-line",
     "ch02-natural-experiment-of-history": "ch02-natural-experiment-of-history",
     "ch03-collision-at-cajamarca": "ch03-collision-at-cajamarca",
@@ -181,15 +239,28 @@
     "ch17-speedboat-to-polynesia": "ch17-speedboat-to-polynesia",
     "ch18-collision-of-two-hemispheres": "ch18-collision-of-two-hemispheres",
     "ch19-how-africa-became-black": "ch19-how-africa-became-black",
+    "大陆轴线": "大陆轴线",
+    "大陆主轴线": "大陆轴线",
+    "东西轴线": "大陆轴线",
+    "南北轴线": "大陆轴线",
+    "continental axis": "大陆轴线",
     "Epilogue": "Epilogue",
     "Frontispiece": "Frontispiece",
+    "近端原因与终极原因": "近端原因与终极原因",
+    "直接原因与终极原因": "近端原因与终极原因",
+    "proximate cause": "近端原因与终极原因",
+    "ultimate cause": "近端原因与终极原因",
     "粮食生产": "粮食生产",
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
     "农耕": "粮食生产",
     "目录": "目录",
-    "Preface": "Preface"
+    "Preface": "Preface",
+    "书写系统": "书写系统",
+    "文字": "书写系统",
+    "文字系统": "书写系统",
+    "writing system": "书写系统"
   },
-  "page_count": 25,
-  "generated": "2026-05-24T16:40:56Z"
+  "page_count": 30,
+  "generated": "2026-05-24T19:51:20Z"
 }
