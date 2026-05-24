@@ -36,7 +36,7 @@
       "Bash(git add wiki/public*)",
       "Bash(python3 wiki/scripts/build_registry.py*)",
       "Bash(bash wiki/scripts/wiki_commit.sh*)",
-      "Bash(bash wiki/scripts/publish.sh)",
+      "Bash(bash wiki/scripts/publish.sh*)",
       "Bash(python3 wiki/scripts/butler/discover_wanted.py*)",
       "Bash(python3 wiki/scripts/butler/corpus_search.py*)",
       "Bash(python3 wiki/scripts/butler/record_action.py*)",

@@ -206,6 +206,37 @@
         "writing system"
       ],
       "path": "sh/书写系统.md"
+    },
+    "狩猎采集": {
+      "type": "concept",
+      "label": "狩猎采集",
+      "aliases": [
+        "狩猎采集者",
+        "采集狩猎",
+        "hunter-gatherer"
+      ],
+      "path": "sh/狩猎采集.md"
+    },
+    "新月沃地": {
+      "type": "concept",
+      "label": "新月沃地",
+      "aliases": [
+        "肥沃新月",
+        "西南亚",
+        "近东",
+        "Fertile Crescent"
+      ],
+      "path": "xi/新月沃地.md"
+    },
+    "驯化": {
+      "type": "concept",
+      "label": "驯化",
+      "aliases": [
+        "植物驯化",
+        "动物驯化",
+        "domestication"
+      ],
+      "path": "xu/驯化.md"
     }
   },
   "alias_index": {
@@ -259,8 +290,21 @@
     "书写系统": "书写系统",
     "文字": "书写系统",
     "文字系统": "书写系统",
-    "writing system": "书写系统"
+    "writing system": "书写系统",
+    "狩猎采集": "狩猎采集",
+    "狩猎采集者": "狩猎采集",
+    "采集狩猎": "狩猎采集",
+    "hunter-gatherer": "狩猎采集",
+    "新月沃地": "新月沃地",
+    "肥沃新月": "新月沃地",
+    "西南亚": "新月沃地",
+    "近东": "新月沃地",
+    "Fertile Crescent": "新月沃地",
+    "驯化": "驯化",
+    "植物驯化": "驯化",
+    "动物驯化": "驯化",
+    "domestication": "驯化"
   },
-  "page_count": 30,
-  "generated": "2026-05-24T20:04:27Z"
+  "page_count": 33,
+  "generated": "2026-05-24T20:11:52Z"
 }
