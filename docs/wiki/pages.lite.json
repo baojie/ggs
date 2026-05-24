@@ -211,6 +211,15 @@
       ],
       "path": "di/地理决定论.md"
     },
+    "东南亚": {
+      "type": "place",
+      "label": "东南亚",
+      "aliases": [
+        "Southeast Asia",
+        "热带东南亚"
+      ],
+      "path": "do/东南亚.md"
+    },
     "Epilogue": {
       "type": "chapter",
       "label": "后记　人类史作为一门科学的未来",
@@ -336,6 +345,15 @@
       ],
       "path": "ma/麻疹.md"
     },
+    "美国东部": {
+      "type": "place",
+      "label": "美国东部",
+      "aliases": [
+        "北美东部",
+        "Eastern North America"
+      ],
+      "path": "me/美国东部.md"
+    },
     "美洲": {
       "type": "place",
       "label": "美洲",
@@ -409,6 +427,25 @@
         "population density"
       ],
       "path": "re/人口密度.md"
+    },
+    "日本": {
+      "type": "place",
+      "label": "日本",
+      "aliases": [
+        "Japan",
+        "日本列岛"
+      ],
+      "path": "ri/日本.md"
+    },
+    "萨赫勒地带": {
+      "type": "place",
+      "label": "萨赫勒地带",
+      "aliases": [
+        "萨赫勒",
+        "Sahel",
+        "非洲萨赫勒"
+      ],
+      "path": "sa/萨赫勒地带.md"
     },
     "书写系统": {
       "type": "concept",
@@ -626,6 +663,9 @@
     "地理决定论": "地理决定论",
     "环境决定论": "地理决定论",
     "geographic determinism": "地理决定论",
+    "东南亚": "东南亚",
+    "Southeast Asia": "东南亚",
+    "热带东南亚": "东南亚",
     "Epilogue": "Epilogue",
     "非洲": "非洲",
     "Africa": "非洲",
@@ -673,6 +713,9 @@
     "麻疹病毒": "麻疹",
     "measles": "麻疹",
     "Measles morbillivirus": "麻疹",
+    "美国东部": "美国东部",
+    "北美东部": "美国东部",
+    "Eastern North America": "美国东部",
     "美洲": "美洲",
     "Americas": "美洲",
     "新大陆": "美洲",
@@ -701,6 +744,13 @@
     "人口密度": "人口密度",
     "人口压力": "人口密度",
     "population density": "人口密度",
+    "日本": "日本",
+    "Japan": "日本",
+    "日本列岛": "日本",
+    "萨赫勒地带": "萨赫勒地带",
+    "萨赫勒": "萨赫勒地带",
+    "Sahel": "萨赫勒地带",
+    "非洲萨赫勒": "萨赫勒地带",
     "书写系统": "书写系统",
     "文字": "书写系统",
     "文字系统": "书写系统",
@@ -768,6 +818,6 @@
     "pig": "猪",
     "Sus scrofa domesticus": "猪"
   },
-  "page_count": 65,
-  "generated": "2026-05-24T21:16:32Z"
+  "page_count": 69,
+  "generated": "2026-05-24T21:23:03Z"
 }
