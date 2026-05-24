@@ -2,7 +2,7 @@
 
 - **Status**: proposed
 - **Date**: 2026-05-25
-- **Issue**:
+- **Issue**: https://github.com/baojie/memex/issues/162
 - **Source wiki**: ggs
 - **Target**: `$MEMEX_ROOT/wiki/scripts/backfill_recent.py`
 
