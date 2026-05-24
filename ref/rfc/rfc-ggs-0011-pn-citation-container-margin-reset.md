@@ -1,6 +1,6 @@
 # RFC-ggs-0011: pn-citation 插件表格/blockquote 容器边距重置
 
-- **Status**: proposed
+- **Status**: implemented
 - **Date**: 2026-05-24
 - **Issue**: https://github.com/baojie/memex/issues/143
 - **Source wiki**: ggs
@@ -56,3 +56,10 @@ article[data-type="chapter"] blockquote {
 |------|---------|---------|------|
 | `.wiki-table` PN | 316.86px | 316.86px | 0 ✅ |
 | `blockquote` PN | 316.86px | （无测试页） | 公式可推导对齐 |
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-24
+**Commits**:
+- baojie/memex@c3f3caa4cb6e10f768cde82a4703e1da9dbfdd8f: fix: pn-citation 插件表格/blockquote 容器边距重置（RFC-ggs-0011）

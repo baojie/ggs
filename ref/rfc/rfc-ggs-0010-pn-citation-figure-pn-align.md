@@ -1,6 +1,6 @@
 # RFC-ggs-0010: pn-citation 插件图片 PN 标签左侧边距对齐
 
-- **Status**: proposed
+- **Status**: implemented
 - **Date**: 2026-05-24
 - **Issue**: https://github.com/baojie/memex/issues/142
 - **Source wiki**: ggs
@@ -76,3 +76,10 @@ article[data-type="chapter"] .wiki-table  .pn-label {
 | `text-align` | right | right | ✅ |
 | 标签 left 位置 | 316.86px | 316.86px | ✅ diff=0 |
 | `display` | block | block | ✅ |
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-24
+**Commits**:
+- baojie/memex@ccb47d055916c5d153432bbca981014c77ecda58: fix: pn-citation 插件图片 PN 标签左对齐（RFC-ggs-0010）
