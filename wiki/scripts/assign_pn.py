@@ -21,16 +21,19 @@ PN 规则（参考 data-pn.md + PRE7）:
   - blockquote (>): 跳过
 """
 
-import json, re, sys
+import json, os, re, subprocess, sys
 from pathlib import Path
 
 WIKI_ROOT = Path(__file__).resolve().parent.parent.parent
+MEMEX_ROOT = Path(os.environ.get('MEMEX_ROOT', os.path.expanduser('~/memex')))
 PAGES_DIR = WIKI_ROOT / 'docs/wiki/pages'
 CHAPTER_ORDER = WIKI_ROOT / 'ref/chapter-order.md'
+PAGES_JSON = WIKI_ROOT / 'docs/wiki/pages.json'
 
 # ── 加载 NNN 映射 ──────────────────────────────────────────────────────────
 CHAPTER_MAP: dict[str, str] = {}  # page_id → nnn
 NNN_MAP: dict[str, str] = {}      # nnn → page_id
+PAGE_PATHS: dict[str, Path] = {}  # page_id → 实际文件路径（从 pages.json 加载）
 
 def load_nnn_map():
     text = CHAPTER_ORDER.read_text(encoding='utf-8')
@@ -47,6 +50,27 @@ def load_nnn_map():
                 NNN_MAP[nnn] = pid
 
 load_nnn_map()
+
+
+def load_page_paths():
+    if not PAGES_JSON.exists():
+        return
+    data = json.load(PAGES_JSON.open(encoding='utf-8'))
+    for pid, info in data.get('pages', {}).items():
+        rel = info.get('path', '')
+        if rel:
+            PAGE_PATHS[pid] = PAGES_DIR / rel
+
+load_page_paths()
+
+
+def find_page_file(page_id: str) -> Path | None:
+    """按 pages.json 路径查找页面文件（CONSTITUTION §十九）。"""
+    if page_id in PAGE_PATHS:
+        p = PAGE_PATHS[page_id]
+        return p if p.exists() else None
+    return None
+
 
 # ── 赋号核心 ────────────────────────────────────────────────────────────────
 
@@ -104,27 +128,35 @@ def assign_pn_to_chapter(text: str, nnn: str, start_pn: int = 1) -> tuple[str, i
             i += 1
             continue
 
-        # ::: image 块
-        if block.startswith('::: image') or block.startswith(':::'):
+        # ::: 闭合标签 → 跳过，不赋 PN
+        if block == ':::':
+            result_parts.append(blocks[i])
+            i += 1
+            continue
+
+        # ::: 语义块开启行（::: image / ::: table / ::: note 等）→ pn= 属性
+        if block.startswith(':::'):
             pn_str = f'{nnn_str}-{pn_counter:03d}'
             pn_counter += 1
-            # 已含 ::: image 的加 pn 属性
-            if block.startswith('::: image'):
-                # 检查是否已有 pn=
-                if 'pn=' not in block.split('\n')[0]:
-                    first_line = block.split('\n')[0]
-                    rest = '\n'.join(block.split('\n')[1:])
-                    new_block = first_line + f' pn={pn_str}\n' + rest
-                    result_parts.append(new_block)
-                else:
-                    result_parts.append(block)
-                continue
+            first_line = block.split('\n')[0]
+            rest = '\n'.join(block.split('\n')[1:])
+            # 规范化：:::TYPE（无空格）→ ::: TYPE（有空格）
+            first_line = re.sub(r'^:::([a-zA-Z])', r'::: \1', first_line)
+            if 'pn=' not in first_line:
+                new_first = first_line + f' pn={pn_str}'
+                result_parts.append((new_first + '\n' + rest) if rest else new_first)
+            else:
+                result_parts.append(block)
+            i += 1
+            continue
+
         # 普通段落
         pn_str = f'{nnn_str}-{pn_counter:03d}'
         pn_counter += 1
-        # 检查是否已有 PN（幂等）
-        if re.match(r'^\[\d{3}-\d{3}\]', block):
+        # 检查是否已有 PN（幂等，兼容数字 NNN 和 P 前缀 NNN）
+        if re.match(r'^\[(?:\d{3}|P\d{2})-\d{3}\]', block):
             result_parts.append(blocks[i])
+            i += 1
             continue
         result_parts.append(f'[{pn_str}]{block}')
         i += 1
@@ -156,9 +188,8 @@ def process_chapter(page_id: str, dry_run: bool = False) -> bool:
         print(f"  ✗ {page_id}: 未找到 NNN 映射")
         return False
 
-    prefix = page_id[:2].lower()
-    fpath = PAGES_DIR / prefix / f'{page_id}.md'
-    if not fpath.exists():
+    fpath = find_page_file(page_id)
+    if not fpath:
         print(f"  ✗ {page_id}: 文件不存在")
         return False
 
@@ -180,6 +211,18 @@ def process_chapter(page_id: str, dry_run: bool = False) -> bool:
         return True
 
     fpath.write_text(new_text, encoding='utf-8')
+    # 记录修订（CONSTITUTION §4.6）
+    record_script = MEMEX_ROOT / 'wiki/scripts/record_revision.py'
+    if record_script.exists():
+        subprocess.run([
+            sys.executable, str(record_script),
+            page_id,
+            '--summary', f'assign_pn: {nnn} 标注 {total_pns} 段',
+            '--author', 'baojie',
+            '--public', str(WIKI_ROOT / 'docs/wiki'),
+        ], check=False)
+    else:
+        print(f"  ! record_revision.py 不存在，跳过修订记录")
     print(f"  ✓ {page_id} ({nnn}): {total_pns} PN, 末号 {last_pn:03d}")
     return True
 
@@ -195,11 +238,11 @@ def main():
     if do_pilot:
         pages = ['ch08-apples-or-indians']
     elif do_all:
-        # 所有章节页（按 chapter-order.md 中 NNN 为数字的）
-        for nnn in sorted(NNN_MAP.keys()):
-            pid = NNN_MAP[nnn]
-            if re.match(r'^\d{3}$', nnn):  # 仅正文章节 001-020
-                pages.append(pid)
+        # 所有赋 PN 的章节页，按 chapter-order.md 顺序（P 前缀在前，数字章节在后）
+        p_pages = [(nnn, NNN_MAP[nnn]) for nnn in sorted(NNN_MAP.keys()) if re.match(r'^P\d{2}$', nnn)]
+        n_pages = [(nnn, NNN_MAP[nnn]) for nnn in sorted(NNN_MAP.keys()) if re.match(r'^\d{3}$', nnn)]
+        for _, pid in p_pages + n_pages:
+            pages.append(pid)
     elif specific:
         for s in specific:
             # 支持简写 ch08 → ch08-apples-or-indians
