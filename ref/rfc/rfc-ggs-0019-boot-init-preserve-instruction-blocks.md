@@ -2,7 +2,7 @@
 
 - **Status**: proposed
 - **Date**: 2026-05-25
-- **Issue**:
+- **Issue**: https://github.com/baojie/memex/issues/155
 - **Source wiki**: ggs
 - **Target**: `$MEMEX_ROOT/skills/SKILL_boot.md`（/boot init Step 2 实例化规则）
 
