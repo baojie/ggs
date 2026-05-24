@@ -1,6 +1,6 @@
 # RFC-ggs-0024: backfill_recent.py 应与 v2 历史格式保持一致
 
-- **Status**: proposed
+- **Status**: implemented
 - **Date**: 2026-05-25
 - **Issue**: https://github.com/baojie/memex/issues/162
 - **Source wiki**: ggs
@@ -138,3 +138,10 @@ JS 端通过 `resolveLineHash(hash)` 解析回原文。
 
 - backfill 从 git 获取完整快照，snap 的 `ln` 通过 `_line_hash` 逐行计算，delta 通过 `_compute_delta` 计算
 - 已有 v1 条目不需迁移——随滚动窗口自然淘汰，且 diff/index.js 兼容双格式
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-25
+**Commits**:
+- baojie/memex@43f74705418f721e3d8f499139fa18042dee1229: feat(ggs): implement RFC-ggs-0024 — backfill_recent.py v2 格式对齐
