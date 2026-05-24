@@ -1,6 +1,6 @@
 # RFC-ggs-0018: BIRTH.spec.md Phase 5-B 须显式约束 chapter_map.json 输出格式
 
-- **Status**: proposed
+- **Status**: accepted
 - **Date**: 2026-05-25
 - **Issue**: https://github.com/baojie/memex/issues/154
 - **Source wiki**: ggs
