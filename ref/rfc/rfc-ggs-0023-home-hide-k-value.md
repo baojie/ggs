@@ -1,6 +1,6 @@
 # RFC-ggs-0023: 首页知识量面板隐藏 K 值
 
-- **Status**: proposed
+- **Status**: implemented
 - **Date**: 2026-05-25
 - **Issue**: https://github.com/baojie/memex/issues/159
 - **Source wiki**: ggs
@@ -49,3 +49,10 @@ K 值是内部质量评分，对外展示没有实际意义。用户在首页不
 ## Implementation notes
 
 仅修改首页 k-panel 的 K 值渲染，不涉及数据采集或统计页。
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-25
+**Commits**:
+- baojie/memex@2a20616684b5e7cb822e82acf83b32417607aeaa: fix(home): 首页 k-panel 隐藏 K 值数字——内部评分对外无意义
