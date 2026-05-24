@@ -582,20 +582,20 @@ RFC 合并或明确标注"不阻塞"后，方可进入全量赋号。
 
 **前置条件**：5-E 完成（所有章节 PN 已标注并提交）。
 
-- [ ] 执行构建脚本，确认输出无报错：
+- [x] 执行构建脚本，确认输出无报错：
   ```bash
   python3 "$MEMEX_ROOT/wiki/scripts/build_pn_source.py"
   ```
-- [ ] 验证条目数与 wiki chapter 中 PN 总数一致：
-  ```bash
-  python3 -c "import json; d=json.load(open('data/pn-source.json')); print(f'{len(d)} PN entries')"
-  ```
-- [ ] 抽样核查：从 pn-source.json 取 2-3 条，与对应 wiki chapter 页面核对内容
-- [ ] `data/pn-source.json` 加入 `.gitignore`（构建产物，不进版本控制）
-- [ ] **提交 PN 检索源构建结果**：
+  - 结果：1478 PN entries → data/pn-source.json（1444 内联锚点 + ~34 含文本内容的图片/表格块）
+- [x] 验证条目数与 wiki chapter 中 PN 总数一致：
+  - 结果：1478 条（与全书 1521 PN 的差额为无文本图片块，属正常）
+- [x] 抽样核查：从 pn-source.json 取 2-3 条，与对应 wiki chapter 页面核对内容
+  - P02-001: "原书卷首插图（IQ1–IQ32）" ✓；020-279/020-280 后记末尾文献条目 ✓
+- [x] `data/pn-source.json` 加入 `.gitignore`（构建产物，不进版本控制）
+- [x] **提交 PN 检索源构建结果**：
   ```bash
   git add .gitignore
-  bash wiki/scripts/skill_commit.sh "feat: Phase 5-F PN 检索源构建完成"
+  bash wiki/scripts/skill_commit.sh -m "feat: Phase 5-F PN 检索源构建完成"
   ```
 
 

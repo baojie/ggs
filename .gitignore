@@ -40,6 +40,9 @@ logs/wiki-server.log
 # 私有内容（版权原文、草稿）
 private/
 
+# 构建产物（不进版本控制）
+data/pn-source.json
+
 # Claude Code 本地覆盖
 .claude/worktrees/
 .claude/settings.local.json
