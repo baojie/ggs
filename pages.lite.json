@@ -9,6 +9,15 @@
       ],
       "path": "ab/About.md"
     },
+    "爱迪生": {
+      "type": "person",
+      "label": "托马斯·爱迪生",
+      "aliases": [
+        "Thomas Edison",
+        "爱迪生"
+      ],
+      "path": "ai/爱迪生.md"
+    },
     "安娜-卡列尼娜原则": {
       "type": "concept",
       "label": "安娜·卡列尼娜原则",
@@ -211,6 +220,15 @@
       ],
       "path": "da/大麦.md"
     },
+    "达尔文": {
+      "type": "person",
+      "label": "达尔文",
+      "aliases": [
+        "查尔斯·达尔文",
+        "Charles Darwin"
+      ],
+      "path": "da/达尔文.md"
+    },
     "地中海地区": {
       "type": "place",
       "label": "地中海地区",
@@ -279,6 +297,15 @@
         "Christopher Columbus"
       ],
       "path": "ge/哥伦布.md"
+    },
+    "谷登堡": {
+      "type": "person",
+      "label": "谷登堡",
+      "aliases": [
+        "约翰内斯·谷登堡",
+        "Johannes Gutenberg"
+      ],
+      "path": "gu/谷登堡.md"
     },
     "家畜": {
       "type": "concept",
@@ -400,6 +427,15 @@
         "the Americas"
       ],
       "path": "me/美洲.md"
+    },
+    "蒙特朱马": {
+      "type": "person",
+      "label": "蒙特朱马",
+      "aliases": [
+        "Moctezuma",
+        "蒙特苏马"
+      ],
+      "path": "me/蒙特朱马.md"
     },
     "免疫力": {
       "type": "concept",
@@ -545,6 +581,15 @@
       ],
       "path": "ti/天花病毒.md"
     },
+    "瓦特": {
+      "type": "person",
+      "label": "詹姆士·瓦特",
+      "aliases": [
+        "James Watt",
+        "瓦特"
+      ],
+      "path": "wa/瓦特.md"
+    },
     "豌豆": {
       "type": "species",
       "label": "豌豆",
@@ -663,6 +708,9 @@
     "About": "About",
     "关于本 Wiki": "About",
     "关于": "About",
+    "爱迪生": "爱迪生",
+    "托马斯·爱迪生": "爱迪生",
+    "Thomas Edison": "爱迪生",
     "安娜-卡列尼娜原则": "安娜-卡列尼娜原则",
     "安娜·卡列尼娜原则": "安娜-卡列尼娜原则",
     "安娜卡列尼娜原则": "安娜-卡列尼娜原则",
@@ -717,6 +765,9 @@
     "大麦草": "大麦",
     "barley": "大麦",
     "Hordeum vulgare": "大麦",
+    "达尔文": "达尔文",
+    "查尔斯·达尔文": "达尔文",
+    "Charles Darwin": "达尔文",
     "地中海地区": "地中海地区",
     "地中海气候带": "地中海地区",
     "Mediterranean": "地中海地区",
@@ -739,6 +790,9 @@
     "哥伦布": "哥伦布",
     "克里斯托弗·哥伦布": "哥伦布",
     "Christopher Columbus": "哥伦布",
+    "谷登堡": "谷登堡",
+    "约翰内斯·谷登堡": "谷登堡",
+    "Johannes Gutenberg": "谷登堡",
     "家畜": "家畜",
     "驯化动物": "家畜",
     "牲畜": "家畜",
@@ -787,6 +841,9 @@
     "Americas": "美洲",
     "新大陆": "美洲",
     "the Americas": "美洲",
+    "蒙特朱马": "蒙特朱马",
+    "Moctezuma": "蒙特朱马",
+    "蒙特苏马": "蒙特朱马",
     "免疫力": "免疫力",
     "免疫": "免疫力",
     "抵抗力": "免疫力",
@@ -843,6 +900,9 @@
     "痘病毒": "天花病毒",
     "smallpox": "天花病毒",
     "Variola virus": "天花病毒",
+    "瓦特": "瓦特",
+    "詹姆士·瓦特": "瓦特",
+    "James Watt": "瓦特",
     "豌豆": "豌豆",
     "pea": "豌豆",
     "Pisum sativum": "豌豆",
@@ -890,6 +950,6 @@
     "pig": "猪",
     "Sus scrofa domesticus": "猪"
   },
-  "page_count": 75,
-  "generated": "2026-05-24T21:28:46Z"
+  "page_count": 80,
+  "generated": "2026-05-24T21:32:28Z"
 }
