@@ -30,7 +30,7 @@
      memex.min.css 仅在 CDN 存在，fallback 目录中没有此文件。
      写成 memex.min.css 将导致本地 dev 永远触发 onerror 加载 CDN，所有本地配置静默失效。-->
 <link id="main-css" rel="stylesheet" href="css/main.css"
-      onerror="this.onerror=null;this.href=document.querySelector('meta[name=cdn-base]').content+'/css/main.css'">
+      onerror="this.onerror=null;this.href=document.querySelector('meta[name=cdn-base]').content+'/css/memex.min.css'">
 <script>
 (function () {
   /* 本 wiki 本地样式覆盖：必须在引擎 CSS 之后注入才能生效 */
