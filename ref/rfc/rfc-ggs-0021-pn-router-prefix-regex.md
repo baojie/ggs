@@ -1,6 +1,6 @@
 # RFC-ggs-0021: router.js `?pn=` 正则未匹配 `P\d{2}` 前缀导致 404
 
-- **Status**: proposed
+- **Status**: implemented
 - **Date**: 2026-05-25
 - **Source wiki**: ggs
 - **Target**: `$MEMEX_ROOT/wiki/public/js/router.js`
@@ -69,3 +69,10 @@ if (/^(?:\d{3,4}|P\d{2})-\d{3,4}(?:-\d{3})?$/.test(pnVal)) {
 仅修改 `router.js` 一行正则表达式，不涉及其他文件。`pn-citation` 插件本身无需改动。
 
 发布后需清除浏览器缓存（Service Worker 可能缓存旧版 router.js）。
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-25
+**Commits**:
+- baojie/memex@8bff35ee7e7459b59ab59c942e081d1fb1ca3a3d: fix(router): ?pn= 正则扩围——支持 P 前缀、4 位章号/段号和子段格式
