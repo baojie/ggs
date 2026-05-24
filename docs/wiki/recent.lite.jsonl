@@ -169,3 +169,4 @@
 {"page": "About", "label": "关于本 Wiki", "rev_id": "IsfSYN", "timestamp": "2026-05-24T14:59:31+00:00", "author": "baojie", "summary": "按 memex 共享模板重构 About 页，突出结构化知识（PN 体系）", "size_before": 1522, "size": 1749, "diff_add": 15, "diff_del": 7}
 {"page": "About", "label": "关于本 Wiki", "rev_id": "w53e73", "timestamp": "2026-05-24T15:08:31+00:00", "author": "baojie", "summary": "按模板调整：精简结构化知识节、新增页面类型表、移除技术栈节", "size_before": 1749, "size": 1704, "diff_add": 17, "diff_del": 9}
 {"page": "粮食生产", "label": "粮食生产", "rev_id": "xmKepX", "timestamp": "2026-05-24T16:40:56+00:00", "author": "butler", "summary": "pilot: 9-A trial page — 粮食生产", "size_before": 0, "size": 3306, "diff_add": 49, "diff_del": 0}
+{"page": "粮食生产", "label": "粮食生产", "rev_id": "aaRdec", "timestamp": "2026-05-24T16:51:32+00:00", "author": "baojie", "summary": "fix: 修复合并 PN 格式（P03-066，P03-067）→ 独立括号，共 3 处", "size_before": 3306, "size": 3315, "diff_add": 3, "diff_del": 3}
