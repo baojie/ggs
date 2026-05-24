@@ -1,6 +1,6 @@
 # RFC-ggs-0020: 中文 Wiki 标签应与默认语言一致，模板和 BIRTH spec 应声明 tag 语言选择
 
-- **Status**: accepted
+- **Status**: implemented
 - **Date**: 2026-05-25
 - **Issue**: https://github.com/baojie/memex/issues/156
 - **Source wiki**: ggs
@@ -45,3 +45,15 @@ tags: []
 - `ref/spec/birth-spec.md` → `$MEMEX_ROOT/BIRTH.spec.md`（BIRTH spec 位于根目录）
 - `ref/template/` 下的共用模板 About.md 无 tags 字段，跳过
 - BIRTH.spec.md 质量目标表新增一行"tags 语言与 WIKI_LANG 一致"即可
+
+---
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-25
+**Commits**:
+- baojie/memex@aba55a4: fix(BIRTH): RFC-ggs-0020 质量目标表增加 tags 语言一致性要求
+- baojie/ggs@62ddc35: fix(template): RFC-ggs-0020 模板 tags 字段增加语言一致性注释
+
+**说明**: 路径按 accept-modified 调整——模板注释写入 `local/template/`（per-wiki），BIRTH spec 规则写入 `BIRTH.spec.md`。
