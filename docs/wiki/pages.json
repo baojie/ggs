@@ -18,6 +18,55 @@
       "blockquote_count": 0,
       "total_refs": 0
     },
+    "安娜-卡列尼娜原则": {
+      "type": "concept",
+      "label": "安娜·卡列尼娜原则",
+      "aliases": [
+        "安娜卡列尼娜原则",
+        "驯化失败原则"
+      ],
+      "tags": [
+        "biology",
+        "agriculture",
+        "evolution"
+      ],
+      "path": "an/安娜-卡列尼娜原则.md",
+      "description": "戴蒙德借用托尔斯泰小说首句提出的方法论原则：动物驯化须同时满足多项条件，任一条件的失败即导致驯化失败。",
+      "prose_len": 965,
+      "prose_chars": 858,
+      "h2_count": 5,
+      "pn_count": 7,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 29,
+      "total_refs": 0
+    },
+    "病菌": {
+      "type": "concept",
+      "label": "病菌",
+      "aliases": [
+        "传染病",
+        "流行病",
+        "germs"
+      ],
+      "tags": [
+        "disease",
+        "biology",
+        "agriculture"
+      ],
+      "path": "bi/病菌.md",
+      "description": "戴蒙德在《枪炮、病菌与钢铁》中用\"病菌\"指代人类传染性疾病，其历史性力量来源于驯化家畜时获得的病原体，是欧洲人征服美洲最重要的武器之一。",
+      "prose_len": 826,
+      "prose_chars": 719,
+      "h2_count": 5,
+      "pn_count": 8,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 28,
+      "total_refs": 1
+    },
     "ch01-up-to-the-starting-line": {
       "type": "chapter",
       "label": "第一章　走上起跑线",
@@ -360,6 +409,31 @@
       "book_seq": 19,
       "total_refs": 1
     },
+    "大陆轴线": {
+      "type": "concept",
+      "label": "大陆轴线",
+      "aliases": [
+        "大陆主轴线",
+        "东西轴线",
+        "南北轴线",
+        "continental axis"
+      ],
+      "tags": [
+        "geography",
+        "agriculture"
+      ],
+      "path": "da/大陆轴线.md",
+      "description": "各大陆在地球上的主要延伸方向，欧亚大陆以东西向为主，美洲与非洲以南北向为主，这一差异深刻影响了粮食生产与技术的传播速度。",
+      "prose_len": 906,
+      "prose_chars": 799,
+      "h2_count": 5,
+      "pn_count": 9,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 29,
+      "total_refs": 2
+    },
     "Epilogue": {
       "type": "chapter",
       "label": "后记　人类史作为一门科学的未来",
@@ -396,6 +470,31 @@
       "book_seq": -1,
       "total_refs": 0
     },
+    "近端原因与终极原因": {
+      "type": "concept",
+      "label": "近端原因与终极原因",
+      "aliases": [
+        "直接原因与终极原因",
+        "proximate cause",
+        "ultimate cause"
+      ],
+      "tags": [
+        "social-organization",
+        "geography",
+        "technology"
+      ],
+      "path": "ji/近端原因与终极原因.md",
+      "description": "戴蒙德用于分析历史不平等的两层因果框架：近端原因是可直接观察的表层机制，终极原因是产生这些机制的深层地理与生态因素。",
+      "prose_len": 970,
+      "prose_chars": 861,
+      "h2_count": 5,
+      "pn_count": 8,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 29,
+      "total_refs": 4
+    },
     "粮食生产": {
       "type": "concept",
       "label": "粮食生产",
@@ -412,15 +511,15 @@
       ],
       "path": "li/粮食生产.md",
       "description": "人类通过驯化野生动植物、以家畜和农作物为主要食物来源的生产方式，是戴蒙德解释人类文明兴衰差异的核心终极原因。",
-      "prose_len": 1097,
-      "prose_chars": 984,
+      "prose_len": 1100,
+      "prose_chars": 987,
       "h2_count": 5,
-      "pn_count": 11,
+      "pn_count": 17,
       "wikilink_count": 3,
       "blockquote_count": 0,
       "quality": "standard",
-      "quality_score": 30,
-      "total_refs": 0
+      "quality_score": 31,
+      "total_refs": 4
     },
     "目录": {
       "type": "overview",
@@ -456,12 +555,45 @@
       "chapter": 0,
       "book_seq": 0,
       "total_refs": 1
+    },
+    "书写系统": {
+      "type": "concept",
+      "label": "书写系统",
+      "aliases": [
+        "文字",
+        "文字系统",
+        "writing system"
+      ],
+      "tags": [
+        "language",
+        "technology",
+        "social-organization"
+      ],
+      "path": "sh/书写系统.md",
+      "description": "人类将语言符号化记录的技术体系，戴蒙德分析其独立起源的稀少性、三种基本策略及沿大陆轴线的传播方式，以揭示技术扩散的普遍规律。",
+      "prose_len": 1008,
+      "prose_chars": 889,
+      "h2_count": 5,
+      "pn_count": 12,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 30,
+      "total_refs": 0
     }
   },
   "alias_index": {
     "About": "About",
     "关于本 Wiki": "About",
     "关于": "About",
+    "安娜-卡列尼娜原则": "安娜-卡列尼娜原则",
+    "安娜·卡列尼娜原则": "安娜-卡列尼娜原则",
+    "安娜卡列尼娜原则": "安娜-卡列尼娜原则",
+    "驯化失败原则": "安娜-卡列尼娜原则",
+    "病菌": "病菌",
+    "传染病": "病菌",
+    "流行病": "病菌",
+    "germs": "病菌",
     "ch01-up-to-the-starting-line": "ch01-up-to-the-starting-line",
     "ch02-natural-experiment-of-history": "ch02-natural-experiment-of-history",
     "ch03-collision-at-cajamarca": "ch03-collision-at-cajamarca",
@@ -481,15 +613,28 @@
     "ch17-speedboat-to-polynesia": "ch17-speedboat-to-polynesia",
     "ch18-collision-of-two-hemispheres": "ch18-collision-of-two-hemispheres",
     "ch19-how-africa-became-black": "ch19-how-africa-became-black",
+    "大陆轴线": "大陆轴线",
+    "大陆主轴线": "大陆轴线",
+    "东西轴线": "大陆轴线",
+    "南北轴线": "大陆轴线",
+    "continental axis": "大陆轴线",
     "Epilogue": "Epilogue",
     "Frontispiece": "Frontispiece",
+    "近端原因与终极原因": "近端原因与终极原因",
+    "直接原因与终极原因": "近端原因与终极原因",
+    "proximate cause": "近端原因与终极原因",
+    "ultimate cause": "近端原因与终极原因",
     "粮食生产": "粮食生产",
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
     "农耕": "粮食生产",
     "目录": "目录",
-    "Preface": "Preface"
+    "Preface": "Preface",
+    "书写系统": "书写系统",
+    "文字": "书写系统",
+    "文字系统": "书写系统",
+    "writing system": "书写系统"
   },
-  "page_count": 25,
-  "generated": "2026-05-24T16:40:56Z"
+  "page_count": 30,
+  "generated": "2026-05-24T19:51:20Z"
 }
