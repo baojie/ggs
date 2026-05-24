@@ -26,14 +26,14 @@
         "驯化失败原则"
       ],
       "tags": [
-        "biology",
-        "agriculture",
-        "evolution"
+        "生物",
+        "农业",
+        "演化"
       ],
       "path": "an/安娜-卡列尼娜原则.md",
       "description": "戴蒙德借用托尔斯泰小说首句提出的方法论原则：动物驯化须同时满足多项条件，任一条件的失败即导致驯化失败。",
-      "prose_len": 965,
-      "prose_chars": 858,
+      "prose_len": 964,
+      "prose_chars": 857,
       "h2_count": 5,
       "pn_count": 7,
       "wikilink_count": 3,
@@ -51,9 +51,9 @@
         "germs"
       ],
       "tags": [
-        "disease",
-        "biology",
-        "agriculture"
+        "疾病",
+        "生物",
+        "农业"
       ],
       "path": "bi/病菌.md",
       "description": "戴蒙德在《枪炮、病菌与钢铁》中用\"病菌\"指代人类传染性疾病，其历史性力量来源于驯化家畜时获得的病原体，是欧洲人征服美洲最重要的武器之一。",
@@ -419,16 +419,16 @@
         "continental axis"
       ],
       "tags": [
-        "geography",
-        "agriculture"
+        "地理",
+        "农业"
       ],
       "path": "da/大陆轴线.md",
       "description": "各大陆在地球上的主要延伸方向，欧亚大陆以东西向为主，美洲与非洲以南北向为主，这一差异深刻影响了粮食生产与技术的传播速度。",
-      "prose_len": 906,
-      "prose_chars": 799,
+      "prose_len": 910,
+      "prose_chars": 803,
       "h2_count": 5,
       "pn_count": 9,
-      "wikilink_count": 3,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
@@ -479,14 +479,14 @@
         "ultimate cause"
       ],
       "tags": [
-        "social-organization",
-        "geography",
-        "technology"
+        "社会组织",
+        "地理",
+        "技术"
       ],
       "path": "ji/近端原因与终极原因.md",
       "description": "戴蒙德用于分析历史不平等的两层因果框架：近端原因是可直接观察的表层机制，终极原因是产生这些机制的深层地理与生态因素。",
-      "prose_len": 970,
-      "prose_chars": 861,
+      "prose_len": 971,
+      "prose_chars": 862,
       "h2_count": 5,
       "pn_count": 8,
       "wikilink_count": 3,
@@ -504,10 +504,10 @@
         "农耕"
       ],
       "tags": [
-        "agriculture",
-        "geography",
-        "biology",
-        "social-organization"
+        "农业",
+        "地理",
+        "生物",
+        "社会组织"
       ],
       "path": "li/粮食生产.md",
       "description": "人类通过驯化野生动植物、以家畜和农作物为主要食物来源的生产方式，是戴蒙德解释人类文明兴衰差异的核心终极原因。",
@@ -565,21 +565,21 @@
         "writing system"
       ],
       "tags": [
-        "language",
-        "technology",
-        "social-organization"
+        "语言",
+        "技术",
+        "社会组织"
       ],
       "path": "sh/书写系统.md",
       "description": "人类将语言符号化记录的技术体系，戴蒙德分析其独立起源的稀少性、三种基本策略及沿大陆轴线的传播方式，以揭示技术扩散的普遍规律。",
-      "prose_len": 1008,
-      "prose_chars": 889,
+      "prose_len": 1007,
+      "prose_chars": 888,
       "h2_count": 5,
       "pn_count": 12,
       "wikilink_count": 3,
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 0
+      "total_refs": 1
     }
   },
   "alias_index": {
@@ -636,5 +636,5 @@
     "writing system": "书写系统"
   },
   "page_count": 30,
-  "generated": "2026-05-24T19:51:20Z"
+  "generated": "2026-05-24T20:04:27Z"
 }
