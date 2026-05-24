@@ -40,7 +40,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 2
+      "total_refs": 3
     },
     "病菌": {
       "type": "concept",
@@ -65,7 +65,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 4
+      "total_refs": 6
     },
     "ch01-up-to-the-starting-line": {
       "type": "chapter",
@@ -432,7 +432,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 5
+      "total_refs": 7
     },
     "地理决定论": {
       "type": "concept",
@@ -517,7 +517,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 0
+      "total_refs": 3
     },
     "技术传播": {
       "type": "concept",
@@ -559,15 +559,15 @@
       ],
       "path": "ji/近端原因与终极原因.md",
       "description": "戴蒙德用于分析历史不平等的两层因果框架：近端原因是可直接观察的表层机制，终极原因是产生这些机制的深层地理与生态因素。",
-      "prose_len": 971,
-      "prose_chars": 862,
+      "prose_len": 969,
+      "prose_chars": 860,
       "h2_count": 5,
       "pn_count": 8,
       "wikilink_count": 3,
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 9
+      "total_refs": 11
     },
     "粮食生产": {
       "type": "concept",
@@ -585,15 +585,41 @@
       ],
       "path": "li/粮食生产.md",
       "description": "人类通过驯化野生动植物、以家畜和农作物为主要食物来源的生产方式，是戴蒙德解释人类文明兴衰差异的核心终极原因。",
-      "prose_len": 1100,
-      "prose_chars": 987,
+      "prose_len": 1098,
+      "prose_chars": 985,
       "h2_count": 5,
       "pn_count": 17,
       "wikilink_count": 3,
       "blockquote_count": 0,
       "quality": "standard",
-      "quality_score": 31,
-      "total_refs": 12
+      "quality_score": 30,
+      "total_refs": 14
+    },
+    "马": {
+      "type": "species",
+      "label": "马",
+      "aliases": [
+        "马匹",
+        "骏马",
+        "horse",
+        "Equus ferus caballus"
+      ],
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ],
+      "path": "ma/马.md",
+      "description": "最重要的军事和运输驯化动物，约公元前4000年在黑海北部大草原驯化，在欧洲人征服美洲的过程中发挥了决定性的军事作用，也是欧亚大陆征服优势的核心近端原因之一。",
+      "prose_len": 821,
+      "prose_chars": 762,
+      "h2_count": 5,
+      "pn_count": 7,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 28,
+      "total_refs": 0
     },
     "免疫力": {
       "type": "concept",
@@ -619,7 +645,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 1
+      "total_refs": 3
     },
     "目录": {
       "type": "overview",
@@ -755,6 +781,57 @@
       "quality_score": 31,
       "total_refs": 1
     },
+    "天花病毒": {
+      "type": "species",
+      "label": "天花病毒",
+      "aliases": [
+        "天花",
+        "痘病毒",
+        "smallpox",
+        "Variola virus"
+      ],
+      "tags": [
+        "病原体",
+        "疾病"
+      ],
+      "path": "ti/天花病毒.md",
+      "description": "引发天花的病毒，由牛痘病毒演化而来，是欧洲人征服美洲过程中杀死美洲原住民最多的单一病原体，也是戴蒙德分析欧亚传染病优势的核心案例。",
+      "prose_len": 858,
+      "prose_chars": 797,
+      "h2_count": 5,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 28,
+      "total_refs": 0
+    },
+    "小麦": {
+      "type": "species",
+      "label": "小麦",
+      "aliases": [
+        "二粒小麦",
+        "单粒小麦",
+        "wheat",
+        "Triticum"
+      ],
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ],
+      "path": "xi/小麦.md",
+      "description": "世界上最重要的驯化谷物之一，最早于约公元前10000年在新月沃地驯化，是欧亚大陆农业革命的核心作物，其沿东西轴线的快速传播直接支持了戴蒙德的大陆轴线论点。",
+      "prose_len": 923,
+      "prose_chars": 862,
+      "h2_count": 5,
+      "pn_count": 7,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 29,
+      "total_refs": 0
+    },
     "新月沃地": {
       "type": "concept",
       "label": "新月沃地",
@@ -779,7 +856,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 6
+      "total_refs": 8
     },
     "驯化": {
       "type": "concept",
@@ -804,7 +881,34 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 7
+      "total_refs": 11
+    },
+    "玉米": {
+      "type": "species",
+      "label": "玉米",
+      "aliases": [
+        "玉蜀黍",
+        "墨西哥类蜀黍",
+        "maize",
+        "corn",
+        "Zea mays"
+      ],
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ],
+      "path": "yu/玉米.md",
+      "description": "美洲最重要的驯化谷物，起源于中美洲野生的墨西哥类蜀黍，其驯化难度远高于小麦大麦，传播速度因美洲南北轴线而受到严重限制，是大陆轴线论点的关键对照案例。",
+      "prose_len": 985,
+      "prose_chars": 922,
+      "h2_count": 5,
+      "pn_count": 7,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 29,
+      "total_refs": 0
     },
     "语言传播": {
       "type": "concept",
@@ -821,14 +925,40 @@
       ],
       "path": "yu/语言传播.md",
       "description": "语言随人口迁移或文化影响向新地域扩散的过程；戴蒙德将语言分布视为史前人口移动的化石记录，用以追溯农业族群在全球各大陆的扩张路径。",
-      "prose_len": 1161,
-      "prose_chars": 1033,
+      "prose_len": 1160,
+      "prose_chars": 1032,
       "h2_count": 5,
       "pn_count": 9,
       "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
+      "total_refs": 0
+    },
+    "猪": {
+      "type": "species",
+      "label": "猪",
+      "aliases": [
+        "家猪",
+        "野猪",
+        "pig",
+        "Sus scrofa domesticus"
+      ],
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ],
+      "path": "zh/猪.md",
+      "description": "世界上最早被驯化的大型家畜之一，约公元前8000年在中国和西南亚独立驯化，同时是多种人类传染病（旋毛虫病、流感等）的动物宿主。",
+      "prose_len": 918,
+      "prose_chars": 855,
+      "h2_count": 5,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 29,
       "total_refs": 0
     }
   },
@@ -889,6 +1019,11 @@
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
     "农耕": "粮食生产",
+    "马": "马",
+    "马匹": "马",
+    "骏马": "马",
+    "horse": "马",
+    "Equus ferus caballus": "马",
     "免疫力": "免疫力",
     "免疫": "免疫力",
     "抵抗力": "免疫力",
@@ -911,6 +1046,16 @@
     "政治复杂性": "社会复杂性",
     "社会层级": "社会复杂性",
     "social complexity": "社会复杂性",
+    "天花病毒": "天花病毒",
+    "天花": "天花病毒",
+    "痘病毒": "天花病毒",
+    "smallpox": "天花病毒",
+    "Variola virus": "天花病毒",
+    "小麦": "小麦",
+    "二粒小麦": "小麦",
+    "单粒小麦": "小麦",
+    "wheat": "小麦",
+    "Triticum": "小麦",
     "新月沃地": "新月沃地",
     "肥沃新月": "新月沃地",
     "西南亚": "新月沃地",
@@ -920,11 +1065,22 @@
     "植物驯化": "驯化",
     "动物驯化": "驯化",
     "domestication": "驯化",
+    "玉米": "玉米",
+    "玉蜀黍": "玉米",
+    "墨西哥类蜀黍": "玉米",
+    "maize": "玉米",
+    "corn": "玉米",
+    "Zea mays": "玉米",
     "语言传播": "语言传播",
     "语系扩散": "语言传播",
     "语言扩张": "语言传播",
-    "language spread": "语言传播"
+    "language spread": "语言传播",
+    "猪": "猪",
+    "家猪": "猪",
+    "野猪": "猪",
+    "pig": "猪",
+    "Sus scrofa domesticus": "猪"
   },
-  "page_count": 40,
-  "generated": "2026-05-24T20:32:31Z"
+  "page_count": 45,
+  "generated": "2026-05-24T20:40:49Z"
 }
