@@ -652,6 +652,12 @@ RFC 合并或明确标注"不阻塞"后，方可进入全量赋号。
 - [x] 接入发布流水线：在 `publish.sh` 的 build_registry 之后插入 FTS 构建步骤
 - [x] 产出验证：`python3 -c "import json; d=json.load(open('docs/wiki/data/fts-index.json')); print(f'章节 {len(d[\"chapters\"])}, 段落 {len(d[\"entries\"])}')"` → 章节 22, 段落 1396
 
+### 6-C 新 Wiki 注意事项
+
+- **句子库依赖 PN**：Phase 4 完成前不可构建句子库（SID 格式为 `NNN-PPP-sN`，需要 PN）
+- **FTS 不依赖 PN**：即使 PN 未完成亦可构建 FTS（仅依赖 `type: chapter` 页面和段落文本）
+- **管家集成**：句子库建成后，butler 的 W13 步骤自动包含 PRE1，W17/SCN5 依赖句子索引
+
 ---
 
 ## Phase 7：知识结构摸底与类型体系调整
@@ -829,7 +835,25 @@ LAW.md §四 定义的类型：
 
 **WIKI_LANG**：`zh`（行内引注用全角括号 `（NNN-PPP）`，段落标注用 `[NNN-PPP]`）
 
+---
+
+### 轮次计数
+
+Phase 9 启动时轮次计数器初始化为：
+
+```
 Phase 9 轮次：R=0
+```
+
+规则：
+- 每次执行 **SCN27**（处理 1 个类型）：`R += 1`
+- 每次执行 **QUO23**（仅 r3 轮 SCN27 之后执行一次）：`R += 1`
+- 每次执行 **EVV5**：`R += 1`
+- 每次执行 **EVV6**：`R += 1`
+- 每轮执行结束后写日志到 `logs/gene-express/`
+- 人工审核通过后才进入下一轮
+
+> 9-A 的试建页本身不计入 R，但若 CHK7 发现问题并触发 RFC，RFC 有自己的编号体系。
 
 ---
 
