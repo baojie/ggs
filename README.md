@@ -28,6 +28,16 @@ bash wiki/scripts/wiki_commit.sh && git push
 └── ref/             RFC、规范文档
 ```
 
+## 格式规范
+
+`:::` fenced div（table / image 块）须遵守：
+
+- 开启行前、闭合行后须有空行（连续 `:::` 块除外）
+- `:::` 与类型名间恰有一个空格
+- 行末无尾随空格
+
+检查：`LNT15-block-format-lint`（`wiki/scripts/lint_block_format.py`）
+
 ## 语料说明
 
 - 底本：谢延光译本（epub）

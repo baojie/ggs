@@ -28,3 +28,7 @@ description: 枪炮、病菌与钢铁 Wiki——围绕贾雷德·戴蒙德著作
 ## 版权声明
 
 本 Wiki 仅供个人学习研究，不用于商业目的。原著版权属于作者及出版社；Wiki 内容（词条释义、摘要）为编者独立撰写，遵循合理使用原则。
+
+## 技术栈
+
+本 Wiki 采用 [Memex Wiki 引擎](https://github.com/baojie/memex) 构建，所有页面以 Markdown 格式存储，使用 `:::` fenced div 语义块区分表格、图片等结构化内容，并通过 PN（段落编号）体系实现精确引用。区块格式统一由 `LNT15-block-format-lint` 基因保证。
