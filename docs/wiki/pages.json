@@ -40,7 +40,31 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 3
+      "total_refs": 5
+    },
+    "斑马": {
+      "type": "species",
+      "label": "斑马",
+      "aliases": [
+        "非洲斑马",
+        "zebra",
+        "Equus quagga"
+      ],
+      "tags": [
+        "动物",
+        "野生"
+      ],
+      "path": "ba/斑马.md",
+      "description": "分布于撒哈拉以南非洲的马科动物，尽管与马同属马科，却因攻击性强、难以套索等行为特征而无法被驯化，是安娜·卡列尼娜原则最典型的反例，也是解释非洲文明发展劣势的重要物种证据。",
+      "prose_len": 1042,
+      "prose_chars": 979,
+      "h2_count": 5,
+      "pn_count": 8,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 30,
+      "total_refs": 0
     },
     "病菌": {
       "type": "concept",
@@ -65,7 +89,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 6
+      "total_refs": 7
     },
     "ch01-up-to-the-starting-line": {
       "type": "chapter",
@@ -432,7 +456,32 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 7
+      "total_refs": 9
+    },
+    "大麦": {
+      "type": "species",
+      "label": "大麦",
+      "aliases": [
+        "大麦草",
+        "barley",
+        "Hordeum vulgare"
+      ],
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ],
+      "path": "da/大麦.md",
+      "description": "新月沃地\"八大始祖作物\"之一，约公元前8500年在新月沃地驯化，是世界最早驯化的谷物之一，其野生祖先在野生状态下产量最高，是粮食生产体系的重要基础。",
+      "prose_len": 1123,
+      "prose_chars": 1060,
+      "h2_count": 5,
+      "pn_count": 11,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 31,
+      "total_refs": 0
     },
     "地理决定论": {
       "type": "concept",
@@ -517,7 +566,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 3
+      "total_refs": 6
     },
     "技术传播": {
       "type": "concept",
@@ -567,7 +616,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 11
+      "total_refs": 12
     },
     "粮食生产": {
       "type": "concept",
@@ -593,7 +642,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 14
+      "total_refs": 16
     },
     "马": {
       "type": "species",
@@ -619,6 +668,29 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
+      "total_refs": 1
+    },
+    "麻疹": {
+      "type": "species",
+      "label": "麻疹",
+      "aliases": [
+        "麻疹病毒",
+        "measles",
+        "Measles morbillivirus"
+      ],
+      "tags": [
+        "病原体"
+      ],
+      "path": "ma/麻疹.md",
+      "description": "从牛瘟病毒演化而来的急性传染病病毒，是欧亚大陆人畜共患病的典型代表，也是法罗群岛事件的主角；其\"群众疾病\"属性（需50万以上人口维持流行）使它成为征服史中杀死免疫力薄弱人群的主要武器之一。",
+      "prose_len": 1024,
+      "prose_chars": 968,
+      "h2_count": 4,
+      "pn_count": 8,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 30,
       "total_refs": 0
     },
     "免疫力": {
@@ -645,7 +717,33 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 3
+      "total_refs": 4
+    },
+    "绵羊": {
+      "type": "species",
+      "label": "绵羊",
+      "aliases": [
+        "羊",
+        "家羊",
+        "sheep",
+        "Ovis aries"
+      ],
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ],
+      "path": "mi/绵羊.md",
+      "description": "新月沃地最早驯化的大型哺乳动物之一，约公元前8000年驯化于西南亚，是欧亚大陆14种史前驯化大型哺乳动物中的代表，提供肉食、毛绒和奶产品，是欧亚农业体系综合生产力的重要组成部分。",
+      "prose_len": 1208,
+      "prose_chars": 1145,
+      "h2_count": 5,
+      "pn_count": 11,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 32,
+      "total_refs": 0
     },
     "目录": {
       "type": "overview",
@@ -731,6 +829,32 @@
       "quality_score": 30,
       "total_refs": 4
     },
+    "水稻": {
+      "type": "species",
+      "label": "水稻",
+      "aliases": [
+        "稻米",
+        "大米",
+        "rice",
+        "Oryza sativa"
+      ],
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ],
+      "path": "sh/水稻.md",
+      "description": "东亚最重要的驯化谷物，起源于中国长江流域，约公元前7000年驯化，是全球十二种主要作物之一；与小麦在欧亚东西轴线上的快速传播形成对比，水稻代表了中国农业体系的另一条起源路径，也是中国文明南北分异的物质基础。",
+      "prose_len": 1084,
+      "prose_chars": 1021,
+      "h2_count": 5,
+      "pn_count": 10,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 30,
+      "total_refs": 0
+    },
     "狩猎采集": {
       "type": "concept",
       "label": "狩猎采集",
@@ -804,7 +928,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 0
+      "total_refs": 1
     },
     "小麦": {
       "type": "species",
@@ -856,7 +980,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 8
+      "total_refs": 11
     },
     "驯化": {
       "type": "concept",
@@ -881,7 +1005,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 11
+      "total_refs": 14
     },
     "玉米": {
       "type": "species",
@@ -951,8 +1075,8 @@
       ],
       "path": "zh/猪.md",
       "description": "世界上最早被驯化的大型家畜之一，约公元前8000年在中国和西南亚独立驯化，同时是多种人类传染病（旋毛虫病、流感等）的动物宿主。",
-      "prose_len": 918,
-      "prose_chars": 855,
+      "prose_len": 916,
+      "prose_chars": 853,
       "h2_count": 5,
       "pn_count": 5,
       "wikilink_count": 4,
@@ -970,6 +1094,10 @@
     "安娜·卡列尼娜原则": "安娜-卡列尼娜原则",
     "安娜卡列尼娜原则": "安娜-卡列尼娜原则",
     "驯化失败原则": "安娜-卡列尼娜原则",
+    "斑马": "斑马",
+    "非洲斑马": "斑马",
+    "zebra": "斑马",
+    "Equus quagga": "斑马",
     "病菌": "病菌",
     "传染病": "病菌",
     "流行病": "病菌",
@@ -998,6 +1126,10 @@
     "东西轴线": "大陆轴线",
     "南北轴线": "大陆轴线",
     "continental axis": "大陆轴线",
+    "大麦": "大麦",
+    "大麦草": "大麦",
+    "barley": "大麦",
+    "Hordeum vulgare": "大麦",
     "地理决定论": "地理决定论",
     "环境决定论": "地理决定论",
     "geographic determinism": "地理决定论",
@@ -1024,11 +1156,20 @@
     "骏马": "马",
     "horse": "马",
     "Equus ferus caballus": "马",
+    "麻疹": "麻疹",
+    "麻疹病毒": "麻疹",
+    "measles": "麻疹",
+    "Measles morbillivirus": "麻疹",
     "免疫力": "免疫力",
     "免疫": "免疫力",
     "抵抗力": "免疫力",
     "病菌免疫": "免疫力",
     "immunity": "免疫力",
+    "绵羊": "绵羊",
+    "羊": "绵羊",
+    "家羊": "绵羊",
+    "sheep": "绵羊",
+    "Ovis aries": "绵羊",
     "目录": "目录",
     "Preface": "Preface",
     "人口密度": "人口密度",
@@ -1038,6 +1179,11 @@
     "文字": "书写系统",
     "文字系统": "书写系统",
     "writing system": "书写系统",
+    "水稻": "水稻",
+    "稻米": "水稻",
+    "大米": "水稻",
+    "rice": "水稻",
+    "Oryza sativa": "水稻",
     "狩猎采集": "狩猎采集",
     "狩猎采集者": "狩猎采集",
     "采集狩猎": "狩猎采集",
@@ -1081,6 +1227,6 @@
     "pig": "猪",
     "Sus scrofa domesticus": "猪"
   },
-  "page_count": 45,
-  "generated": "2026-05-24T20:40:49Z"
+  "page_count": 50,
+  "generated": "2026-05-24T20:48:21Z"
 }
