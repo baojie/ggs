@@ -18,6 +18,16 @@
       ],
       "path": "an/安娜-卡列尼娜原则.md"
     },
+    "安第斯山脉": {
+      "type": "place",
+      "label": "安第斯山脉",
+      "aliases": [
+        "安第斯",
+        "Andes",
+        "南美安第斯"
+      ],
+      "path": "an/安第斯山脉.md"
+    },
     "澳大利亚": {
       "type": "place",
       "label": "澳大利亚",
@@ -207,6 +217,16 @@
       "aliases": [],
       "path": "ep/Epilogue.md"
     },
+    "非洲": {
+      "type": "place",
+      "label": "非洲",
+      "aliases": [
+        "Africa",
+        "撒哈拉以南非洲",
+        "非洲大陆"
+      ],
+      "path": "fe/非洲.md"
+    },
     "Frontispiece": {
       "type": "chapter",
       "label": "书前彩插",
@@ -315,6 +335,16 @@
         "Measles morbillivirus"
       ],
       "path": "ma/麻疹.md"
+    },
+    "美洲": {
+      "type": "place",
+      "label": "美洲",
+      "aliases": [
+        "Americas",
+        "新大陆",
+        "the Americas"
+      ],
+      "path": "me/美洲.md"
     },
     "免疫力": {
       "type": "concept",
@@ -506,6 +536,26 @@
       ],
       "path": "yu/语言传播.md"
     },
+    "中国": {
+      "type": "place",
+      "label": "中国",
+      "aliases": [
+        "China",
+        "华夏",
+        "中原"
+      ],
+      "path": "zh/中国.md"
+    },
+    "中美洲": {
+      "type": "place",
+      "label": "中美洲",
+      "aliases": [
+        "Mesoamerica",
+        "墨西哥",
+        "美索美洲"
+      ],
+      "path": "zh/中美洲.md"
+    },
     "猪": {
       "type": "species",
       "label": "猪",
@@ -526,6 +576,10 @@
     "安娜·卡列尼娜原则": "安娜-卡列尼娜原则",
     "安娜卡列尼娜原则": "安娜-卡列尼娜原则",
     "驯化失败原则": "安娜-卡列尼娜原则",
+    "安第斯山脉": "安第斯山脉",
+    "安第斯": "安第斯山脉",
+    "Andes": "安第斯山脉",
+    "南美安第斯": "安第斯山脉",
     "澳大利亚": "澳大利亚",
     "Australia": "澳大利亚",
     "澳洲": "澳大利亚",
@@ -573,6 +627,10 @@
     "环境决定论": "地理决定论",
     "geographic determinism": "地理决定论",
     "Epilogue": "Epilogue",
+    "非洲": "非洲",
+    "Africa": "非洲",
+    "撒哈拉以南非洲": "非洲",
+    "非洲大陆": "非洲",
     "Frontispiece": "Frontispiece",
     "高粱": "高粱",
     "sorghum": "高粱",
@@ -615,6 +673,10 @@
     "麻疹病毒": "麻疹",
     "measles": "麻疹",
     "Measles morbillivirus": "麻疹",
+    "美洲": "美洲",
+    "Americas": "美洲",
+    "新大陆": "美洲",
+    "the Americas": "美洲",
     "免疫力": "免疫力",
     "免疫": "免疫力",
     "抵抗力": "免疫力",
@@ -692,12 +754,20 @@
     "语系扩散": "语言传播",
     "语言扩张": "语言传播",
     "language spread": "语言传播",
+    "中国": "中国",
+    "China": "中国",
+    "华夏": "中国",
+    "中原": "中国",
+    "中美洲": "中美洲",
+    "Mesoamerica": "中美洲",
+    "墨西哥": "中美洲",
+    "美索美洲": "中美洲",
     "猪": "猪",
     "家猪": "猪",
     "野猪": "猪",
     "pig": "猪",
     "Sus scrofa domesticus": "猪"
   },
-  "page_count": 60,
-  "generated": "2026-05-24T21:01:52Z"
+  "page_count": 65,
+  "generated": "2026-05-24T21:16:32Z"
 }
