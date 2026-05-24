@@ -582,7 +582,7 @@ RFC 合并或明确标注"不阻塞"后，方可进入全量赋号。
 
 > **RFC**: [RFC-ggs-0012](ref/rfc/rfc-ggs-0012-lnt15-block-format-lint.md) / [issue #144](https://github.com/baojie/memex/issues/144)
 >
-> **基因定义**：`LNT15-block-format-lint`（待 memex 接受 RFC 后方可写入 `$MEMEX_ROOT/skills/gene/`）
+> **基因定义**：[`LNT15-block-format-lint`]($MEMEX_ROOT/skills/gene/LNT15-block-format-lint.md)（RFC-ggs-0012 已实施）
 
 **执行 LNT15 全库扫描**，检查 `:::` fenced div 块前后空行和空格规范：
 

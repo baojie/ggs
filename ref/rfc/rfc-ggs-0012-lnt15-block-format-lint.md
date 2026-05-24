@@ -1,6 +1,6 @@
 # RFC-ggs-0012: LNT15-block-format-lint 基因创建
 
-- **Status**: accepted
+- **Status**: implemented
 - **Date**: 2026-05-24
 - **Issue**: https://github.com/baojie/memex/issues/144
 - **Source wiki**: ggs
@@ -41,3 +41,15 @@
 ### 3. 创建配套检测脚本（可选）
 
 可创建 `wiki/scripts/lint_block_format.py` 作为脚本实现。也可先用 grep/sed 实现轻量版本。
+
+## Implementation
+
+- **Commit**: a45ae22 (memex)
+- **Date**: 2026-05-24
+
+落地清单：
+1. `skills/gene/LNT15-block-format-lint.md` — 基因定义
+2. `wiki/scripts/lint_block_format.py` — 扫描/修复脚本
+3. ggs BIRTH.md 5-E2 — Phase 5 流程中增加 LNT15 区块格式检查步骤
+
+**ADM3 Review**: faithful — 全部 proposed change 已按预期落地。
