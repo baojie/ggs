@@ -388,7 +388,7 @@ Phase 0 完成的标志：
 
 从 BIRTH Phase 9 / `local/memory/boot_summary.md` 提取种子层完成状态：
 
-- [ ] 确认 `boot_summary.md` 包含 Pilot EVV 汇总：
+- [x] 确认 `boot_summary.md` 包含 Pilot EVV 汇总：
   ```bash
   grep -A 20 "Pilot EVV" local/memory/boot_summary.md
   ```
@@ -402,7 +402,7 @@ Phase 0 完成的标志：
   | person | 15 | 100/100 | ✓ | 无 |
   | event | 15 | 100/100 | ✓ | 无 |
 
-- [ ] 确认每种已 Pilot 类型满足种子层最低标准：
+- [x] 确认每种已 Pilot 类型满足种子层最低标准：
   - Pilot 页数 ≥ 2（至少有对比参照）
   - EVV 最终轮均分 ≥ 75（低于此值说明语料不足或模板有问题，不可进入 Phase 2）
   - 模板经 ≥ 2 轮 EVV 后无结构性变动（template frozen）
@@ -416,7 +416,7 @@ Phase 0 完成的标志：
 
 每种已 Pilot 类型必须有对应图式模板文件，且内容已根据 EVV 反馈稳定：
 
-- [ ] 列出 `local/template/` 下已有模板：
+- [x] 列出 `local/template/` 下已有模板：
   ```bash
   ls local/template/
   ```
@@ -424,7 +424,7 @@ Phase 0 完成的标志：
 
   已有模板：concept-schema.md / event-schema.md / person-schema.md / place-schema.md / species-schema.md（共 5 种，全部 P1 类型覆盖）
 
-- [ ] 对每个模板文件确认以下内容存在：
+- [x] 对每个模板文件确认以下内容存在：
   - `## frontmatter 字段`（含必填/可选标注）
   - `## 标准节结构`（列出各 `## 节名`，注明必选/可选）
   - `## 写作约束`（篇幅上限、引文密度、wikilink 要求等）
@@ -432,7 +432,7 @@ Phase 0 完成的标志：
 
   > 若模板缺失上述任一部分 → 补全后再进入 Phase 2，Phase 2 批量建设的质量一致性依赖于此。
 
-- [ ] 识别 **type-survey 中有但尚无模板的类型**（新类型）：
+- [x] 识别 **type-survey 中有但尚无模板的类型**（新类型）：
   ```bash
   grep -E "^###|估算数量" logs/butler/type-survey.md 2>/dev/null
   ```
@@ -447,21 +447,21 @@ Phase 0 完成的标志：
 > 发现批量错误 → 写 gene → 批量修复存量 → gene 归档 → 下轮 W4 加入检查
 > （详见 `$MEMEX_ROOT/ref/spec/butler-phased-strategy-seed.md §纠错 gene 演化机制`）
 
-- [ ] 检查是否有 EVV 日志记录的错误模式已转化为 gene 文件：
+- [x] 检查是否有 EVV 日志记录的错误模式已转化为 gene 文件：
   ```bash
   ls local/gene/ 2>/dev/null || echo "local/gene/ 不存在"
   ls ref/spec/ | grep -i "rule\|lint\|fix\|error" 2>/dev/null || true
   ```
   local/gene/ 现有：LOCAL-ggs01-corpus-final-format-qa.md（语料格式 QA 基因，非纠错 gene）
 
-- [ ] 对照 EVV6 各类型日志，列出已知批量错误模式：
+- [x] 对照 EVV6 各类型日志，列出已知批量错误模式：
 
   | 错误模式 | 来源类型 | 已有 gene/规则 | 待归档 |
   |---------|---------|-------------|--------|
   | 连接型破折号（HKP31 违规）| concept/species/place | ✓（HKP31 warning 已注入 schema 模板，下轮建页违规率→0%）| 无需单独 gene |
   | QUO23 引文核验覆盖率约 10%（抽查不足）| 全类型 | ✗（无专门 gene）| 记为 housekeeping，butler 阶段提高抽查比例 |
 
-- [ ] 每个已识别的批量错误模式，确认处理路径之一：
+- [x] 每个已识别的批量错误模式，确认处理路径之一：
   - 破折号 → 路径 b：已在 schema 模板中注入 ⚠️ 警告（等价于 gene 前置注入）
   - QUO23 覆盖率 → 路径 c：记录为 housekeeping，Phase 2 中逐步提升
 
@@ -471,7 +471,7 @@ Phase 0 完成的标志：
 
 若 1-B 发现 type-survey 中存在未 Pilot 的类型（event / index / place 等）：
 
-- [ ] 对每个新类型，在 Phase 2.1-A 开始时执行 **Mini-Pilot**（不阻塞 Phase 1 验收）：
+- [x] 对每个新类型，在 Phase 2.1-A 开始时执行 **Mini-Pilot**（不阻塞 Phase 1 验收）：
   1. 参考现有最相似类型的模板，起草新类型 `{type}-schema.md`
   2. 使用 NEW1 建 2–3 个代表性词条（手选语料最丰富的候选）
   3. 执行 1 轮 EVV5（schema 反思）
@@ -479,7 +479,7 @@ Phase 0 完成的标志：
   5. 若均分 ≥ 75 → 模板可用，可进入 Phase 2 批量建设
   6. 若均分 < 75 → 分析根因（通常是语料稀薄），决定是否纳入 Phase 2
 
-- [ ] 记录新类型 Mini-Pilot 计划（写入 wiki 的 GROW.md Phase 2.1-A 节）：
+- [x] 记录新类型 Mini-Pilot 计划（写入 wiki 的 GROW.md Phase 2.1-A 节）：
   - organization（P3，15–25 条）：Phase 2 不纳入扩张队列，Phase 3 重新评估
   - list（P3，~5 条）：候选稀少，暂不建模板
 
@@ -495,12 +495,12 @@ Phase 0 完成的标志：
 
 Phase 1 完成的标志（全部满足方可进入 Phase 2）：
 
-- [ ] 所有主要类型各有 ≥ 2 个 standard 页面作为质量基准
-- [ ] 每种类型有稳定的 `local/template/{type}-schema.md`（EVV 后无结构变动）
-- [ ] `local/memory/boot_summary.md` 或 GROW.md 中记录了各类型 EVV 均分基线
-- [ ] 所有 Pilot 遗留的批量错误模式已分类（已归档 gene / 已记录待处理 / 已确认可接受）
-- [ ] `grow_baseline.md` 已填写 Phase 1 完成状态（通常在 Phase 0 已完成）
-- [ ] 新类型（如有）的 Mini-Pilot 计划已写入 GROW.md Phase 2.1-A
+- [x] 所有主要类型各有 ≥ 2 个 standard 页面作为质量基准
+- [x] 每种类型有稳定的 `local/template/{type}-schema.md`（EVV 后无结构变动）
+- [x] `local/memory/boot_summary.md` 或 GROW.md 中记录了各类型 EVV 均分基线
+- [x] 所有 Pilot 遗留的批量错误模式已分类（已归档 gene / 已记录待处理 / 已确认可接受）
+- [x] `grow_baseline.md` 已填写 Phase 1 完成状态（通常在 Phase 0 已完成）
+- [x] 新类型（如有）的 Mini-Pilot 计划已写入 GROW.md Phase 2.1-A
 
 ---
 
