@@ -2,7 +2,7 @@
 
 - **Status**: proposed
 - **Date**: 2026-05-25
-- **Issue**:
+- **Issue**: https://github.com/baojie/memex/issues/154
 - **Source wiki**: ggs
 - **Target**: `$MEMEX_ROOT/BIRTH.spec.md`（Phase 5-B 章节 frontmatter 写入节）
 
