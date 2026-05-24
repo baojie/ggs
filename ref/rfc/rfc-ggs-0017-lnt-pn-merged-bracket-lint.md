@@ -1,6 +1,6 @@
 # RFC-ggs-0017: 增加 LNT 规则检测括号内逗号分隔的合并 PN 格式
 
-- **Status**: proposed
+- **Status**: accepted
 - **Date**: 2026-05-25
 - **Issue**: https://github.com/baojie/memex/issues/151
 - **Source wiki**: ggs
@@ -88,3 +88,17 @@ new_txt = re.sub(
     txt
 )
 ```
+
+---
+
+## Evaluation Note (ADM1)
+
+**决策**: accept-modified
+
+**调整方向**:
+1. P1（逗号分隔）已在 memex QUO7-pn-format-lint.md Pattern A 中实现，不复用 LNT 前缀
+2. P3（半角括号）已在 QUO7 Pattern E 中实现
+3. P2（顿号分隔）作为补充并入 QUO7 Pattern G（该模式在脚本中存在但基因文档遗漏）
+4. 核心增量：新增 C10 整合到 /comply CHK6，引用 QUO7 检测模式
+
+**理由**: RFC 问题真实但方案与现有 QUO7 基因重叠，调整为整合方向而非新建独立规则体系。
