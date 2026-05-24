@@ -123,26 +123,8 @@ def update_frontmatter(filepath: Path, pid: str, nnn: str) -> bool:
 
 
 def build_chapter_map() -> dict:
-    """构建 data/chapter_map.json."""
-    pages = json.loads(PAGES_JSON.read_text(encoding='utf-8'))['pages']
-    cmap = {}
-    for pid, nnn in PAGE_NNN.items():
-        entry = pages.get(pid, {})
-        pn = None
-        pt = None
-        if pid in PART_MAP:
-            pn = PART_MAP[pid][0]
-            pt = PART_MAP[pid][1]
-        cmap[pid] = {
-            'nnn': nnn,
-            'label': entry.get('label', ''),
-            'chapter': entry.get('chapter'),
-            'book_seq': entry.get('book_seq'),
-        }
-        if pn is not None:
-            cmap[pid]['part_num'] = pn
-            cmap[pid]['part_title'] = pt
-    return cmap
+    """构建 data/chapter_map.json（格式：nnn → page_id，供 pn-citation 插件查询）."""
+    return dict(NNN_MAP)  # nnn → page_id
 
 
 def main():
