@@ -113,7 +113,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 1
+      "total_refs": 2
     },
     "阿塔瓦尔帕": {
       "type": "person",
@@ -137,7 +137,7 @@
       "quality": "standard",
       "quality_score": 27,
       "affiliation": "印加帝国",
-      "total_refs": 2
+      "total_refs": 3
     },
     "斑马": {
       "type": "species",
@@ -163,6 +163,30 @@
       "quality_score": 30,
       "total_refs": 1
     },
+    "班图扩张": {
+      "type": "event",
+      "label": "班图扩张",
+      "aliases": [
+        "Bantu Expansion",
+        "班图族扩张"
+      ],
+      "tags": [
+        "人口迁移",
+        "非洲",
+        "农业传播"
+      ],
+      "path": "ba/班图扩张.md",
+      "description": "公元前3000年至公元1000年，以尼日利亚和喀麦隆为起点的班图语族人口向南、向东大规模扩张，携带粮食生产和牲畜，在整个撒哈拉以南非洲取代或同化了原有的狩猎采集族群；这是本书论证南北轴线阻碍农业传播这一论点的反例——班图扩张沿东西气候带进行，因此得以成功。",
+      "prose_len": 657,
+      "prose_chars": 619,
+      "h2_count": 3,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
+      "total_refs": 1
+    },
     "病菌": {
       "type": "concept",
       "label": "病菌",
@@ -186,7 +210,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 20
+      "total_refs": 22
     },
     "伯克和威尔斯": {
       "type": "person",
@@ -201,7 +225,7 @@
         "探险家"
       ],
       "path": "bo/伯克和威尔斯.md",
-      "description": "第一支从南到北纵贯澳大利亚的探险队的领导者，最终在沙漠中饿死；戴蒙德以此为例论证，欧洲人的技术优势（枪支）在面对澳大利亚本土环境时无济于事——土著人的本地知识才是真正的生存技能，这是对\"文明优势\"神话的有力反驳。",
+      "description": "第一支从南到北纵贯澳大利亚的探险队的领导者，最终在沙漠中饿死；戴蒙德以此为例论证，欧洲人的技术优势（枪支）在面对澳大利亚本土环境时无济于事，土著人的本地知识才是真正的生存技能，这是对\"文明优势\"神话的有力反驳。",
       "prose_len": 596,
       "prose_chars": 562,
       "h2_count": 3,
@@ -237,7 +261,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 0
+      "total_refs": 1
     },
     "ch01-up-to-the-starting-line": {
       "type": "chapter",
@@ -770,7 +794,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 2
+      "total_refs": 3
     },
     "Frontispiece": {
       "type": "chapter",
@@ -839,6 +863,33 @@
       "affiliation": "西班牙王国",
       "total_refs": 0
     },
+    "更新世大型动物灭绝": {
+      "type": "event",
+      "label": "更新世大型动物灭绝",
+      "aliases": [
+        "Pleistocene megafauna extinction",
+        "晚更新世灭绝",
+        "巨型动物灭绝"
+      ],
+      "tags": [
+        "灭绝",
+        "史前",
+        "动物",
+        "美洲",
+        "澳大利亚"
+      ],
+      "path": "ge/更新世大型动物灭绝.md",
+      "description": "约一万三千年前，北美洲和南美洲的大型哺乳动物几乎全部灭绝，澳大利亚的巨型动物也在人类到达后消失；戴蒙德将此事件与欧亚非大陆大型动物存活相对比，用以解释为何美洲和澳大利亚缺乏可驯化的大型动物。",
+      "prose_len": 668,
+      "prose_chars": 632,
+      "h2_count": 3,
+      "pn_count": 4,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
+      "total_refs": 0
+    },
     "格林伯格": {
       "type": "person",
       "label": "约瑟夫·格林伯格",
@@ -885,6 +936,31 @@
       "quality_score": 25,
       "affiliation": "神圣罗马帝国",
       "total_refs": 3
+    },
+    "黑死病": {
+      "type": "event",
+      "label": "黑死病",
+      "aliases": [
+        "Black Death",
+        "腺鼠疫",
+        "1346年鼠疫"
+      ],
+      "tags": [
+        "流行病",
+        "欧洲",
+        "疾病"
+      ],
+      "path": "he/黑死病.md",
+      "description": "1346年至1352年间席卷欧洲的腺鼠疫，杀死了欧洲四分之一的人口；戴蒙德以此为典型案例说明传染病的驯养动物来源及其沿东西轴线传播的机制，也与欧亚病菌单向摧毁美洲土著人口的论点形成参照。",
+      "prose_len": 597,
+      "prose_chars": 563,
+      "h2_count": 3,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 25,
+      "total_refs": 0
     },
     "家畜": {
       "type": "concept",
@@ -959,7 +1035,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 26
+      "total_refs": 27
     },
     "卡哈马卡": {
       "type": "place",
@@ -985,6 +1061,30 @@
       "quality": "standard",
       "quality_score": 29,
       "total_refs": 3
+    },
+    "卡哈马卡之战": {
+      "type": "event",
+      "label": "卡哈马卡之战",
+      "aliases": [
+        "Battle of Cajamarca",
+        "1532年卡哈马卡战役"
+      ],
+      "tags": [
+        "军事",
+        "征服",
+        "南美洲"
+      ],
+      "path": "ka/卡哈马卡之战.md",
+      "description": "1532年11月16日，弗兰西斯科·皮萨罗率168名西班牙人在秘鲁卡哈马卡俘获印加皇帝阿塔瓦尔帕，击溃数万印加军队；戴蒙德以此战为分析起点，解析欧亚大陆人征服美洲的近端原因与终极原因。",
+      "prose_len": 699,
+      "prose_chars": 663,
+      "h2_count": 3,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 27,
+      "total_refs": 0
     },
     "科尔特斯": {
       "type": "person",
@@ -1058,7 +1158,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 33
+      "total_refs": 36
     },
     "骆驼": {
       "type": "species",
@@ -1210,7 +1310,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 3
+      "total_refs": 5
     },
     "蒙特朱马": {
       "type": "person",
@@ -1305,6 +1405,31 @@
       "blockquote_count": 0,
       "total_refs": 0
     },
+    "南岛语族扩张": {
+      "type": "event",
+      "label": "南岛语族扩张",
+      "aliases": [
+        "Austronesian Expansion",
+        "波利尼西亚扩张",
+        "南岛人扩张"
+      ],
+      "tags": [
+        "人口迁移",
+        "太平洋",
+        "语言"
+      ],
+      "path": "na/南岛语族扩张.md",
+      "description": "约公元前3000年起，南岛语族人口从台湾出发，历经数千年向东南亚、太平洋诸岛直至马达加斯加和复活节岛扩张；戴蒙德以南岛人扩张为案例，论证语言考古互证的人口迁移分析方法，以及农业技术在海岛扩张中的决定性作用。",
+      "prose_len": 633,
+      "prose_chars": 597,
+      "h2_count": 3,
+      "pn_count": 4,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
+      "total_refs": 0
+    },
     "牛": {
       "type": "species",
       "label": "牛",
@@ -1378,7 +1503,7 @@
       "quality": "standard",
       "quality_score": 26,
       "affiliation": "西班牙王国",
-      "total_refs": 3
+      "total_refs": 4
     },
     "Preface": {
       "type": "chapter",
@@ -1545,7 +1670,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 5
+      "total_refs": 6
     },
     "社会复杂性": {
       "type": "concept",
@@ -1683,8 +1808,8 @@
       ],
       "path": "xi/希特勒.md",
       "description": "德国纳粹领袖；戴蒙德在第二十章以希特勒为案例分析个人在历史中的作用，援引1930年交通事故和1944年暗杀图谋两个险些终结其生命的事件，以此讨论偶然事件能否改变历史走向。",
-      "prose_len": 739,
-      "prose_chars": 703,
+      "prose_len": 738,
+      "prose_chars": 702,
       "h2_count": 3,
       "pn_count": 6,
       "wikilink_count": 4,
@@ -1769,7 +1894,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 20
+      "total_refs": 22
     },
     "亚历山大大帝": {
       "type": "person",
@@ -1784,8 +1909,8 @@
       ],
       "path": "ya/亚历山大大帝.md",
       "description": "马其顿国王，公元前4世纪末率希腊人征服了从希腊向东直到印度的所有先进社会；戴蒙德以亚历山大为例，论证即使是伟大的征服者也无法改变历史的深层结构性驱动力，历史个人的特质只能\"推动\"已具备结构性条件的变化。",
-      "prose_len": 604,
-      "prose_chars": 570,
+      "prose_len": 603,
+      "prose_chars": 569,
       "h2_count": 3,
       "pn_count": 3,
       "wikilink_count": 4,
@@ -1973,6 +2098,9 @@
     "非洲斑马": "斑马",
     "zebra": "斑马",
     "Equus quagga": "斑马",
+    "班图扩张": "班图扩张",
+    "Bantu Expansion": "班图扩张",
+    "班图族扩张": "班图扩张",
     "病菌": "病菌",
     "传染病": "病菌",
     "流行病": "病菌",
@@ -2039,12 +2167,20 @@
     "哥伦布": "哥伦布",
     "克里斯托弗·哥伦布": "哥伦布",
     "Christopher Columbus": "哥伦布",
+    "更新世大型动物灭绝": "更新世大型动物灭绝",
+    "Pleistocene megafauna extinction": "更新世大型动物灭绝",
+    "晚更新世灭绝": "更新世大型动物灭绝",
+    "巨型动物灭绝": "更新世大型动物灭绝",
     "格林伯格": "格林伯格",
     "约瑟夫·格林伯格": "格林伯格",
     "Joseph Greenberg": "格林伯格",
     "谷登堡": "谷登堡",
     "约翰内斯·谷登堡": "谷登堡",
     "Johannes Gutenberg": "谷登堡",
+    "黑死病": "黑死病",
+    "Black Death": "黑死病",
+    "腺鼠疫": "黑死病",
+    "1346年鼠疫": "黑死病",
     "家畜": "家畜",
     "驯化动物": "家畜",
     "牲畜": "家畜",
@@ -2060,6 +2196,9 @@
     "卡哈马卡": "卡哈马卡",
     "Cajamarca": "卡哈马卡",
     "卡哈马卡战役": "卡哈马卡",
+    "卡哈马卡之战": "卡哈马卡之战",
+    "Battle of Cajamarca": "卡哈马卡之战",
+    "1532年卡哈马卡战役": "卡哈马卡之战",
     "科尔特斯": "科尔特斯",
     "埃尔南·科尔特斯": "科尔特斯",
     "Hernán Cortés": "科尔特斯",
@@ -2111,6 +2250,10 @@
     "sheep": "绵羊",
     "Ovis aries": "绵羊",
     "目录": "目录",
+    "南岛语族扩张": "南岛语族扩张",
+    "Austronesian Expansion": "南岛语族扩张",
+    "波利尼西亚扩张": "南岛语族扩张",
+    "南岛人扩张": "南岛语族扩张",
     "牛": "牛",
     "家牛": "牛",
     "黄牛": "牛",
@@ -2212,6 +2355,6 @@
     "pig": "猪",
     "Sus scrofa domesticus": "猪"
   },
-  "page_count": 85,
-  "generated": "2026-05-24T21:40:47Z"
+  "page_count": 90,
+  "generated": "2026-05-24T21:48:20Z"
 }
