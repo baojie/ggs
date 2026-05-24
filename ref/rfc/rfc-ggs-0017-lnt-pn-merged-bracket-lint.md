@@ -1,6 +1,6 @@
 # RFC-ggs-0017: 增加 LNT 规则检测括号内逗号分隔的合并 PN 格式
 
-- **Status**: accepted
+- **Status**: implemented
 - **Date**: 2026-05-25
 - **Issue**: https://github.com/baojie/memex/issues/151
 - **Source wiki**: ggs
@@ -102,3 +102,17 @@ new_txt = re.sub(
 4. 核心增量：新增 C10 整合到 /comply CHK6，引用 QUO7 检测模式
 
 **理由**: RFC 问题真实但方案与现有 QUO7 基因重叠，调整为整合方向而非新建独立规则体系。
+
+---
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-25
+**Commits**:
+- 用户设置文件 ~/.claude/skills/comply/SKILL.md（非 git 仓库）
+
+**实施说明**:
+- P1/P3: 已在 QUO7-pn-format-lint.md 中存在，跳过
+- P2: 已由 RFC-memex-0028 覆盖（补充 QUO7 Pattern G 文档），跳过
+- C10: 新增到 /comply CHK6，含检测（逗号/顿号合并 PN + 半角括号）和 --fix 自动修复
