@@ -1180,6 +1180,305 @@ python3 "$MEMEX_ROOT/wiki/scripts/build_registry.py"
 
 ---
 
-## Phase 10：总结复盘与启动 Butler
+## Phase 10 — 总结复盘与启动 Butler
 
-> 状态：未开始
+**前置条件**：Phase 9 全部类型的 EVV6 完成且人工审核通过。
+
+**目标**：系统性回顾整个 boot 过程，沉淀发现，提交必要的 RFC，正式宣告 boot 结束，并引导用户进入 butler 日常循环。
+
+---
+
+### 10-A 全过程问题汇总
+
+读取以下来源，汇总整个 boot 过程（Phase 0–9）中发现的所有问题：
+
+- `ref/rfc/` 下所有已提交的 RFC 文件（按 status 分类：proposed / implemented / rejected）
+- `logs/gene-express/` 下所有 EVV5/EVV6 日志中标注的"遗留问题"和"待 EVV6 关注"条目
+- Phase 9 各轮 CHK7 日志中记录的失败项和修复记录
+
+此外，**必须读取每个类型最终的 EVV6 日志**，提取各类型的核心 pilot 结论，并在所有类型读完后做一次跨类型横向归纳：
+
+```
+每个 EVV6 日志需提取：
+  · 类型名
+  · 全局均分（三轮平均）
+  · 模板最重要改动 1–2 条（结构性的，不是措辞调整）
+  · 最典型遗留问题（若有；无则写"无"）
+
+读完全部类型后，横向归纳（写入 local/memory/boot_summary.md §Pilot 信息组织核心洞察）：
+  · 跨类型共同收敛的结构规律
+  · 最频繁被调整的内容维度
+  · 类型间共性与最大差异点
+  · 对 butler 日常使用 NEW1 建页最重要的 1–3 条启示
+```
+
+输出汇总表（打印到屏幕）：
+
+```
+Phase 9 — Boot 过程问题全景
+════════════════════════════════════════
+RFC 汇总（共 N 个）：
+  · [proposed]     rfc-XXXX-slug — 一句话描述
+  · [implemented]  rfc-XXXX-slug — 一句话描述
+  · [rejected]     rfc-XXXX-slug — 一句话描述
+
+EVV Pilot 类型汇总：
+  · {type}  均分 {N}/100  主要变更：{1句}  遗留：{若有}
+  · {type}  均分 {N}/100  主要变更：{1句}  遗留：无
+  （每种类型一行，顺序按 Phase 9 执行顺序）
+
+EVV5/EVV6 遗留问题（共 N 条）：
+  · {类型} {轮次}：{问题描述}
+
+════════════════════════════════════════
+```
+
+- [ ] 全过程问题汇总表已打印到屏幕
+
+### 10-B Boot 过程复盘
+
+回顾 Phase 0–9 执行过程，针对以下三个层面分别判断是否需要修改：
+
+**层面 1：Pilot 流程相关基因**
+
+| 基因 | 问题描述 | 是否需要 RFC |
+|------|---------|------------|
+| SCN27 | {若有} | 是/否 |
+| EVV5 | {若有} | 是/否 |
+| EVV6 | {若有} | 是/否 |
+| CHK7 | {若有} | 是/否 |
+
+**层面 2：Boot 流程本身**（BIRTH.spec.md 各 Phase 规范描述，法源体系 L4）
+
+| Phase | 问题描述 | 是否需要 RFC |
+|-------|---------|------------|
+| Phase N | {若有} | 是/否 |
+
+**层面 3：支撑脚本或规范文件**（`$MEMEX_ROOT/wiki/scripts/` L6、`ref/spec/` L4 等）
+
+| 文件 | 问题描述 | 是否需要 RFC |
+|------|---------|------------|
+| {文件} | {若有} | 是/否 |
+
+**原则**：
+- 同一文件的多处修改合并为 1 个 RFC；不同文件的修改各自独立提交
+- 非阻塞性改进意见可放入 housekeeping 队列，不必开 RFC
+- 若无发现，明确写出"本次 boot 未发现需要修改的规范"
+
+- [ ] Boot 过程复盘分析已完成
+
+### 10-C 提交复盘 RFC（按需）
+
+对 10-B 中判定需要 RFC 的每个目标文件，执行：
+
+1. 在 `ref/rfc/` 下创建 `rfc-ggs-NNNN-slug.md`（status: proposed）
+2. 执行 `/rfc ref/rfc/rfc-ggs-NNNN-slug.md` 提交为 memex GitHub issue
+3. 将 issue URL 写回 RFC 文件的 Issue 字段
+
+不同文件的修改意见对应不同 RFC，一次可连续提交多个。
+
+- [ ] 复盘 RFC 已按需提交（或确认无需提交）
+
+### 10-D 保存 Boot 复盘文档
+
+将整个 boot 过程的复盘结论写入 `local/memory/boot_summary.md`（文件不存在则新建，已存在则覆盖）。
+
+文件模板：
+
+```markdown
+---
+wiki: 枪炮、病菌与钢铁
+boot_completed: YYYY-MM-DD
+phases: 0–9
+---
+
+# Boot 复盘总结
+
+## 基本统计
+
+| 指标 | 数量 |
+|------|------|
+| 导入章节 | N 个 |
+| PN 赋号段落 | N 段 |
+| Pilot 页面 | N 个（M 种类型） |
+| 提交 RFC（boot 期间） | N 个 |
+
+## RFC 清单
+
+> 所有在 boot 期间提交的 RFC 均须逐条列入（含 proposed / implemented / rejected），不可遗漏。
+
+| 编号 | slug | status | 目标文件 | 一句话描述 |
+|------|------|--------|---------|-----------|
+| NNNN | slug | proposed/implemented/rejected | {文件} | {描述} |
+
+## Pilot 流程发现
+
+### 基因层问题
+
+| 基因 | 问题描述 | 处置 |
+|------|---------|------|
+| {基因} | {描述} | RFC NNNN / housekeeping / 无需处理 |
+
+### Boot 流程层问题
+
+| Phase | 问题描述 | 处置 |
+|-------|---------|------|
+| Phase N | {描述} | RFC NNNN / housekeeping / 无需处理 |
+
+### 脚本/规范层问题
+
+| 文件 | 问题描述 | 处置 |
+|------|---------|------|
+| {文件} | {描述} | RFC NNNN / housekeeping / 无需处理 |
+
+## EVV Pilot 类型汇总
+
+按 Phase 9 执行顺序，每种类型一行：
+
+| 类型 | 全局均分 | 模板主要改动（1–2条结构性变更） | 遗留问题 |
+|------|---------|-------------------------------|---------|
+| {type} | {N}/100 | {改动1}；{改动2} | {若有} / 无 |
+
+> 数据来源：各类型 EVV6 日志（`logs/gene-express/YYYY-MM-DD-R{N}-EVV6-{type}-final.md`）
+
+## Pilot 信息组织核心洞察
+
+> 本节不是类型逐一罗列，而是跨类型横向归纳：整个 Pilot 过程对"如何组织一个 wiki 词条"形成了哪些带有普遍性的发现？用 2–4 段文字 + bullet 列表表达。
+
+## EVV5/EVV6 遗留问题
+
+- {类型} {轮次}：{问题描述}（无则写"本次 Pilot 无遗留问题"）
+
+## Butler 实例命名
+
+| 角色 | focus | 实例名 |
+|------|-------|-------|
+| 探索者 | discover | {name} |
+| 创建者 | create | {name} |
+| 丰富者 | enrich | {name} |
+| 发布者 | publish | {name} |
+| 管理者 | housekeeping | {name} |
+
+## 经验总结
+
+> 用 2–5 句话概括本次 boot 最值得记录的教训或经验，供下一个 wiki 启动时参考。
+```
+
+文件写完后提交到 git：
+
+```bash
+git add local/memory/boot_summary.md
+bash wiki/scripts/skill_commit.sh "docs: boot summary for Phase 9 — 枪炮、病菌与钢铁"
+```
+
+- [ ] `local/memory/boot_summary.md` 已写入并 commit
+
+### 10-E Boot 结束宣告
+
+所有 RFC 提交完毕、`boot_summary.md` 保存后，将以下内容打印到屏幕：
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║            Boot 完成 — Wiki 建设正式启动！                    ║
+╠══════════════════════════════════════════════════════════════╣
+║  构建统计                                                     ║
+║  · 导入章节：{N} 个  PN 赋号：{N} 段                         ║
+║  · Pilot 页面：{N} 个（{M} 种类型）  Wikify 链接：{N} 个     ║
+╠══════════════════════════════════════════════════════════════╣
+║  EVV Pilot 类型汇总                                           ║
+║  {type}  {N}/100  {模板主要改动1句}                           ║
+║  {type}  {N}/100  {模板主要改动1句}                           ║
+║  （每种类型一行，按执行顺序列全）                              ║
+╠══════════════════════════════════════════════════════════════╣
+║  复盘摘要                                                     ║
+║  · 发现问题：{N} 个  已提交 RFC：{N} 个  遗留：{N} 个        ║
+║  · 最高分类型：{type} {N}/100  最需改进：{type} {N}/100      ║
+║  · 本次 boot 最重要经验：{1 句话}                             ║
+╠══════════════════════════════════════════════════════════════╣
+║  RFC 清单（本次提交，逐条列全）                                ║
+║  · [{status}] RFC-{wiki}-{NNNN} — {slug} — {一句话描述}      ║
+║  （若无 RFC 写：无）                                           ║
+╠══════════════════════════════════════════════════════════════╣
+║  下一步：进入 butler 日常建设循环                              ║
+║  /butler --instance <name> --focus <focus>                   ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+> `{}` 内的占位符均取自 10-A 汇总表与 `boot_summary.md` 中的数据，逐项填入真实值再打印。
+
+- [ ] Boot 结束宣告已打印
+
+### 10-F Butler 实例命名（可选）
+
+Butler 支持多实例并行，每个实例对应一个专注方向。进入 butler 之前，可以为各实例起有主题感的名字，让建设过程更有代入感。
+
+**步骤**：
+
+1. 根据本 wiki 的主题（书名、内容特质、语言风格），为以下 5 个标准实例角色**各建议 1 个主题化名字**，打印到屏幕供用户选择：
+
+   | 角色 | focus | 建议名字 | 名字由来 |
+   |------|-------|---------|---------|
+   | 探索者 | discover | {建议} | {理由} |
+   | 创建者 | create | {建议} | {理由} |
+   | 丰富者 | enrich | {建议} | {理由} |
+   | 发布者 | publish | {建议} | {理由} |
+   | 管理者 | housekeeping | {建议} | {理由} |
+
+   命名原则：取自书中人物、地名、概念，或体现该角色的职能特质；避免通用词（如"管家"、"助手"）。
+
+2. 询问用户："以上名字是否满意？可以直接确认，或按角色修改。"
+
+3. 用户确认后，将命名写入 `local/config.md`：
+
+   ```
+   BUTLER_INSTANCE_DISCOVER={name}
+   BUTLER_INSTANCE_CREATE={name}
+   BUTLER_INSTANCE_ENRICH={name}
+   BUTLER_INSTANCE_PUBLISH={name}
+   BUTLER_INSTANCE_HOUSEKEEPING={name}
+   ```
+
+4. 打印最终启动命令供用户复制执行：
+
+   ```
+   /butler --instance {discover-name}     --focus discover
+   /butler --instance {create-name}       --focus create
+   /butler --instance {enrich-name}       --focus enrich
+   /butler --instance {publish-name}      --focus publish
+   /butler --instance {housekeeping-name} --focus housekeeping
+   ```
+
+> 若用户跳过命名步骤，默认使用角色英文名（explorer / creator / enricher / publisher / housekeeper）。
+
+- [ ] Butler 实例命名已确认（或用户选择跳过），`local/config.md` 已更新
+
+---
+
+**Phase 10 完成条件**：
+
+- [ ] 问题汇总表已打印到屏幕
+- [ ] 复盘分析已完成，需要修改的规范已提交 RFC
+- [ ] `local/memory/boot_summary.md` 已写入并 commit
+- [ ] Boot 结束宣告已打印
+- [ ] Butler 实例命名已确认（或用户选择跳过），`local/config.md` 已更新
+
+---
+
+## 启动后维护
+```
+
+---
+
+## RFC：向 memex 反馈问题
+
+在任何 Phase 中，如果发现 memex 模板、脚本或规范有缺陷，按以下流程提交 RFC：
+
+1. 在本 wiki 的 `ref/rfc/` 下创建 `rfc-ggs-NNNN-slug.md`（status: proposed）
+2. 用 `/rfc <文件路径>` skill 自动提交为 memex GitHub issue
+3. memex 维护者审阅后决定是否合并；合并后更新 RFC status 为 implemented
+
+完整规范见 `$MEMEX_ROOT/ref/spec/meta-rfc.md`。
+
+---
+
+*完成后勾选上面的 checkbox，逐 phase 推进。*
