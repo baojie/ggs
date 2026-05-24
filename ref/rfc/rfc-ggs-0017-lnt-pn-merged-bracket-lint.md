@@ -75,4 +75,4 @@ python3 "$MEMEX_ROOT/wiki/scripts/quo7.py" \
 **Review**: faithful
 **Date**: 2026-05-25
 **Commits**:
-- baojie/memex@6c9232921fa90511e5e5d861f7a3ba1c6ec6e852: feat(NEW1): RFC-ggs-0017 NEW1 建页后强制执行 QUO7 PN 格式质检
+- baojie/memex@6915ab46c1e3920e37f7759a07a20e58df3bd411: feat(BIRTH): RFC-ggs-0017 9-A 试建核验增加 QUO7 PN 格式质检步骤
