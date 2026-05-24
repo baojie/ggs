@@ -113,7 +113,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 2
+      "total_refs": 3
     },
     "阿塔瓦尔帕": {
       "type": "person",
@@ -235,7 +235,7 @@
       "quality": "standard",
       "quality_score": 25,
       "affiliation": "英国",
-      "total_refs": 0
+      "total_refs": 1
     },
     "波利尼西亚": {
       "type": "place",
@@ -915,7 +915,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 26,
-      "total_refs": 1
+      "total_refs": 2
     },
     "格林伯格": {
       "type": "person",
@@ -1597,9 +1597,9 @@
         "征服"
       ],
       "path": "ou/欧洲殖民非洲.md",
-      "description": "19世纪欧洲人在撒哈拉以南非洲建立殖民地；戴蒙德指出，欧洲人征服非洲的直接原因与征服美洲相同——枪炮、普及文化和政治组织，但终极原因仍在于地理与生态条件决定的欧亚大陆农业、技术积累优势。",
-      "prose_len": 661,
-      "prose_chars": 625,
+      "description": "19世纪欧洲人在撒哈拉以南非洲建立殖民地；戴蒙德指出，欧洲人征服非洲的直接原因与征服美洲相同：枪炮、普及文化和政治组织，但终极原因仍在于地理与生态条件决定的欧亚大陆农业、技术积累优势。",
+      "prose_len": 658,
+      "prose_chars": 622,
       "h2_count": 3,
       "pn_count": 4,
       "wikilink_count": 4,
@@ -1673,6 +1673,30 @@
       "quality": "standard",
       "quality_score": 31,
       "total_refs": 6
+    },
+    "人类首次定居澳大利亚": {
+      "type": "event",
+      "label": "人类首次定居澳大利亚",
+      "aliases": [
+        "First Human Settlement of Australia",
+        "澳大利亚最早定居"
+      ],
+      "tags": [
+        "迁移",
+        "澳大利亚",
+        "史前"
+      ],
+      "path": "re/人类首次定居澳大利亚.md",
+      "description": "约4万年前，人类首次到达澳大利亚，这是人类历史上首次使用水运工具跨越大规模海洋的壮举；这一事件的独特意义在于，人类到达后不久，澳大利亚的巨型动物几乎全部灭绝，使此后的土著社会缺乏可驯化的大型哺乳动物。",
+      "prose_len": 674,
+      "prose_chars": 638,
+      "h2_count": 3,
+      "pn_count": 4,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
+      "total_refs": 0
     },
     "日本": {
       "type": "place",
@@ -1797,7 +1821,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 6
+      "total_refs": 7
     },
     "社会复杂性": {
       "type": "concept",
@@ -2211,7 +2235,7 @@
         "东亚"
       ],
       "path": "zh/中国农业起源.md",
-      "description": "中国是世界上最早的动植物驯化中心之一，可能有南北两个独立的粮食生产起源中心——华北的耐旱黍子和华南的水稻；中国粮食生产独立于新月沃地，产生了完全不同的作物体系，并通过东西轴线向东亚各地传播。",
+      "description": "中国是世界上最早的动植物驯化中心之一，可能有南北两个独立的粮食生产起源中心，包括华北的耐旱黍子和华南的水稻；中国粮食生产独立于新月沃地，产生了完全不同的作物体系，并通过东西轴线向东亚各地传播。",
       "prose_len": 684,
       "prose_chars": 648,
       "h2_count": 3,
@@ -2516,6 +2540,9 @@
     "人口密度": "人口密度",
     "人口压力": "人口密度",
     "population density": "人口密度",
+    "人类首次定居澳大利亚": "人类首次定居澳大利亚",
+    "First Human Settlement of Australia": "人类首次定居澳大利亚",
+    "澳大利亚最早定居": "人类首次定居澳大利亚",
     "日本": "日本",
     "Japan": "日本",
     "日本列岛": "日本",
@@ -2615,6 +2642,6 @@
     "字母传播": "字母文字的传播",
     "腓尼基字母传播": "字母文字的传播"
   },
-  "page_count": 99,
-  "generated": "2026-05-24T21:59:51Z"
+  "page_count": 100,
+  "generated": "2026-05-24T22:01:24Z"
 }
