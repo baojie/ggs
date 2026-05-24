@@ -1,182 +1,25 @@
 {
-  "目录": {
-    "nnn": "P01",
-    "label": "目录",
-    "chapter": null,
-    "book_seq": null
-  },
-  "Frontispiece": {
-    "nnn": "P02",
-    "label": "书前彩插",
-    "chapter": null,
-    "book_seq": -1
-  },
-  "Preface": {
-    "nnn": "P03",
-    "label": "前言　耶利的问题",
-    "chapter": 0,
-    "book_seq": 0,
-    "part_num": 0,
-    "part_title": "前言"
-  },
-  "ch01-up-to-the-starting-line": {
-    "nnn": "001",
-    "label": "第一章　走上起跑线",
-    "chapter": 1,
-    "book_seq": 1,
-    "part_num": 1,
-    "part_title": "第一部分：从伊甸园到卡哈马卡"
-  },
-  "ch02-natural-experiment-of-history": {
-    "nnn": "002",
-    "label": "第二章　历史的自然实验",
-    "chapter": 2,
-    "book_seq": 2,
-    "part_num": 1,
-    "part_title": "第一部分：从伊甸园到卡哈马卡"
-  },
-  "ch03-collision-at-cajamarca": {
-    "nnn": "003",
-    "label": "第三章　卡哈马卡的冲突",
-    "chapter": 3,
-    "book_seq": 3,
-    "part_num": 1,
-    "part_title": "第一部分：从伊甸园到卡哈马卡"
-  },
-  "ch04-farmer-power": {
-    "nnn": "004",
-    "label": "第四章　农民的力量",
-    "chapter": 4,
-    "book_seq": 4,
-    "part_num": 2,
-    "part_title": "第二部分：粮食生产的出现和传播"
-  },
-  "ch05-historys-haves-and-have-nots": {
-    "nnn": "005",
-    "label": "第五章　历史上的穷与富",
-    "chapter": 5,
-    "book_seq": 5,
-    "part_num": 2,
-    "part_title": "第二部分：粮食生产的出现和传播"
-  },
-  "ch06-to-farm-or-not-to-farm": {
-    "nnn": "006",
-    "label": "第六章　种田还是不种田",
-    "chapter": 6,
-    "book_seq": 6,
-    "part_num": 2,
-    "part_title": "第二部分：粮食生产的出现和传播"
-  },
-  "ch07-how-to-make-an-almond": {
-    "nnn": "007",
-    "label": "第七章　怎样识别杏仁",
-    "chapter": 7,
-    "book_seq": 7,
-    "part_num": 2,
-    "part_title": "第二部分：粮食生产的出现和传播"
-  },
-  "ch08-apples-or-indians": {
-    "nnn": "008",
-    "label": "第八章　问题在苹果还是在印第安人",
-    "chapter": 8,
-    "book_seq": 8,
-    "part_num": 2,
-    "part_title": "第二部分：粮食生产的出现和传播"
-  },
-  "ch09-zebras-unhappy-marriages-anna-karenina": {
-    "nnn": "009",
-    "label": "第九章　斑马、不幸的婚姻和安娜·卡列尼娜原则",
-    "chapter": 9,
-    "book_seq": 9,
-    "part_num": 2,
-    "part_title": "第二部分：粮食生产的出现和传播"
-  },
-  "ch10-spacious-skies-tilted-axis": {
-    "nnn": "010",
-    "label": "第十章　辽阔的天空与偏斜的轴线",
-    "chapter": 10,
-    "book_seq": 10,
-    "part_num": 2,
-    "part_title": "第二部分：粮食生产的出现和传播"
-  },
-  "ch11-lethal-gift-of-livestock": {
-    "nnn": "011",
-    "label": "第十一章　牲畜的致命礼物",
-    "chapter": 11,
-    "book_seq": 11,
-    "part_num": 3,
-    "part_title": "第三部分：从粮食到枪炮、病菌与钢铁"
-  },
-  "ch12-blueprints-borrowed-letters": {
-    "nnn": "012",
-    "label": "第十二章　蓝图和借用字母",
-    "chapter": 12,
-    "book_seq": 12,
-    "part_num": 3,
-    "part_title": "第三部分：从粮食到枪炮、病菌与钢铁"
-  },
-  "ch13-necessitys-mother": {
-    "nnn": "013",
-    "label": "第十三章　需要之母",
-    "chapter": 13,
-    "book_seq": 13,
-    "part_num": 3,
-    "part_title": "第三部分：从粮食到枪炮、病菌与钢铁"
-  },
-  "ch14-from-egalitarianism-to-kleptocracy": {
-    "nnn": "014",
-    "label": "第十四章　从平等主义到盗贼统治",
-    "chapter": 14,
-    "book_seq": 14,
-    "part_num": 3,
-    "part_title": "第三部分：从粮食到枪炮、病菌与钢铁"
-  },
-  "ch15-yalis-people": {
-    "nnn": "015",
-    "label": "第十五章　耶利的族人",
-    "chapter": 15,
-    "book_seq": 15,
-    "part_num": 4,
-    "part_title": "第四部分：在5章中环游世界"
-  },
-  "ch16-how-china-became-chinese": {
-    "nnn": "016",
-    "label": "第十六章　中国是怎样成为中国人的中国的",
-    "chapter": 16,
-    "book_seq": 16,
-    "part_num": 4,
-    "part_title": "第四部分：在5章中环游世界"
-  },
-  "ch17-speedboat-to-polynesia": {
-    "nnn": "017",
-    "label": "第十七章　驶向波利尼西亚的快艇",
-    "chapter": 17,
-    "book_seq": 17,
-    "part_num": 4,
-    "part_title": "第四部分：在5章中环游世界"
-  },
-  "ch18-collision-of-two-hemispheres": {
-    "nnn": "018",
-    "label": "第十八章　两个半球的碰撞",
-    "chapter": 18,
-    "book_seq": 18,
-    "part_num": 4,
-    "part_title": "第四部分：在5章中环游世界"
-  },
-  "ch19-how-africa-became-black": {
-    "nnn": "019",
-    "label": "第十九章　非洲是怎样成为黑人的非洲的",
-    "chapter": 19,
-    "book_seq": 19,
-    "part_num": 4,
-    "part_title": "第四部分：在5章中环游世界"
-  },
-  "Epilogue": {
-    "nnn": "020",
-    "label": "后记　人类史作为一门科学的未来",
-    "chapter": 20,
-    "book_seq": 20,
-    "part_num": 5,
-    "part_title": "后记"
-  }
+  "P01": "目录",
+  "P02": "Frontispiece",
+  "P03": "Preface",
+  "001": "ch01-up-to-the-starting-line",
+  "002": "ch02-natural-experiment-of-history",
+  "003": "ch03-collision-at-cajamarca",
+  "004": "ch04-farmer-power",
+  "005": "ch05-historys-haves-and-have-nots",
+  "006": "ch06-to-farm-or-not-to-farm",
+  "007": "ch07-how-to-make-an-almond",
+  "008": "ch08-apples-or-indians",
+  "009": "ch09-zebras-unhappy-marriages-anna-karenina",
+  "010": "ch10-spacious-skies-tilted-axis",
+  "011": "ch11-lethal-gift-of-livestock",
+  "012": "ch12-blueprints-borrowed-letters",
+  "013": "ch13-necessitys-mother",
+  "014": "ch14-from-egalitarianism-to-kleptocracy",
+  "015": "ch15-yalis-people",
+  "016": "ch16-how-china-became-chinese",
+  "017": "ch17-speedboat-to-polynesia",
+  "018": "ch18-collision-of-two-hemispheres",
+  "019": "ch19-how-africa-became-black",
+  "020": "Epilogue"
 }
