@@ -839,7 +839,7 @@ Phase 9 轮次：R=0
 
 **选页原则**：concept 类语料信息最丰富的实体，无外部依赖（无需依赖尚未建立的 person/place 页面）。
 
-**候选**：`地理决定论`（贯穿全书核心命题，语料命中极高，ch01/ch15/ch19 均大量涉及）
+**候选**：`粮食生产`（全书核心驱动力，语料命中 10+ 条，P03/002/004–010 等多章密集论述，无外部页面依赖）
 
 1. - [ ] 手动执行建页（选 concept 类实体）：
    ```bash
@@ -902,14 +902,169 @@ Phase 9 轮次：R=0
 
 ### 9-C 全章节 Wikify（Pilot 词条链接回填）
 
-**前置条件**：所有类型的 EVV6 均已完成（9-B 全部通过）。
+**前置条件**：所有类型的 EVV6 均已完成（9-B 全部通过）。  
+**目标**：将 Pilot 阶段建立的所有词条页面，在全部章节中建立 wikilink，使章节正文与词条互相导航。
 
-- [ ] dry-run 确认候选：
+> **为何不纯用脚本**：字面匹配会产生大量错误链接——单词内部匹配、前缀/后缀误伤、同名不同义。本步骤脚本只负责发现候选，语义判断和决策由 LLM 逐条执行。
+
+#### 9-C-1 先跑 dry-run 确认候选
+
+```bash
+# 预览：不写文件，打印各章将新增的链接
+WIKI_ROOT=$PWD python3 "$MEMEX_ROOT/wiki/scripts/wikify_chapters.py" --dry-run
+
+# 只处理某一章（调试用）
+WIKI_ROOT=$PWD python3 "$MEMEX_ROOT/wiki/scripts/wikify_chapters.py" \
+  --chapter ch01-up-to-the-starting-line --dry-run
+```
+
+脚本（`$MEMEX_ROOT/wiki/scripts/wikify_chapters.py`）：
+- 读 `docs/wiki/pages.json` 构建别名表，最长匹配优先
+- 英文词：检查单词边界（防 `net` 匹配 `network`）
+- 中文词：检查叠词、跳过纯 ASCII alias
+- 跳过标题行、代码块、引文行（`>`）、脚注行（`<sup>`）
+- 幂等：已有 `[[...]]` 的实体不重复链接
+
+#### 9-C-2 逐章语义审查（核心步骤）
+
+对 dry-run 输出逐章审查，**不可批量跳过**：
+
+**判断清单**：
+
+| 问题 | 说明 | 典型误判 |
+|------|------|---------|
+| 是否完整词项？ | 匹配未截断词素 | `"粮食"` 在 `"粮食生产"` 中 |
+| 前缀/后缀是否误伤？ | 前后字符是否使其成为另一词的一部分 | `"马"` 在 `"马铃薯"` 中 |
+| 语境义是否一致？ | 此处是否确实指向目标词条的概念 | `"斑马"` 在非动物驯化语境下 |
+| 是否已有上下文链？ | 同章同词条是否已在前文链过（每章只链第一次） | 重复链接降低可读性 |
+| 是否宜链？ | 是否在标题、代码块、引文块、脚注内 | 标题内实体通常不链 |
+
+每章审查结束后打印摘要到屏幕：
+
+```
+── ch01-up-to-the-starting-line ──
+候选 12 条 → accept 7 / reject 4 / defer 1
+  reject: "马"×2（属于"马铃薯"整体词组，不单独链）
+  defer:  "扩张"×1（上下文含混，入队待 butler 复查）
+```
+
+#### 9-C-3 应用链接
+
+审查通过后正式写入：
+
+```bash
+WIKI_ROOT=$PWD python3 "$MEMEX_ROOT/wiki/scripts/wikify_chapters.py"
+```
+
+如有 reject/defer 的候选，在审查时已确认脚本不会误写（脚本是全量跑、按规则自动过滤）。若 dry-run 发现脚本仍会写入某个应 reject 的词条，需先把该词条加入 `local/wikify_deny.txt`（每行一个 alias/label），脚本读取后跳过：
+
+```bash
+# local/wikify_deny.txt 示例（每行一个不应自动链接的词）
+马
+扩张
+```
+
+`defer` 的候选（语境含混、暂不确定）追加到 `logs/butler/queue.md` P2 节，由 butler 后续处理。
+
+#### 9-C-4 渲染验证与提交
+
+- [ ] `./wiki-daemon.sh start`，随机抽查 3–5 个章节，链接可点击跳转，无误链
+- [ ] `defer` 条目已追加到 `logs/butler/queue.md` P2 节
+- [ ] 写入处理日志 `logs/gene-express/YYYY-MM-DD-9C-wikify-summary.md`：
+  - 总候选数、accept/reject/defer 分布
+  - 典型 reject 理由归类
+- [ ] commit：`wikify: Phase 9-C — link pilot pages in all chapters ({N} links added)`
+
+---
+
+### 9-D 重建反向链接索引
+
+**前置条件**：9-C Wikify 全部章节链接已写入并 commit。
+
+所有 wikilink 写入后，必须重建 backlinks 索引，词条页面的"被引用"区块才能正确显示哪些章节引用了该词条。
+
+执行 **LNK19**（backlinks-rebuild）：
+
+```bash
+python3 "$MEMEX_ROOT/wiki/scripts/build_backlinks.py" --stats
+git add docs/wiki/backlinks.json
+```
+
+- [ ] 输出"覆盖 N 个被引用页，共 M 条反向链接"，N、M 均大于零
+- [ ] 本地启动 Wiki（`bash wiki-daemon.sh start`），打开任意 pilot 词条页面，确认"引用此页"区块正常显示
+- [ ] commit：`index: rebuild backlinks after Phase 9-C wikify`
+
+---
+
+### 9-E 首页建设（APP5）
+
+**前置条件**：9-D backlinks 重建完成，pilot 词条已可正常渲染。
+
+调用 **APP5**（homepage-featured-curation）建设首页。执行前先向用户确认两项决策，**默认均为最简选项，用户直接回车即可跳过**。
+
+#### 决策 1 — 首页展示策略
+
+```
+首页展示策略（默认 0：无区块，空白展示）：
+  [0] 不分区块，不设精选（home.js 保持 HOME_SECTIONS/CORE_FEATURED 为空）← 默认
+  [1] 分区块：按词条类型分区展示（HOME_SECTIONS，每类自动计算 limit）
+  [2] 精选列表：手动维护 CORE_FEATURED 精选词条卡片
+  [3] 分区块 + 精选：[1] 与 [2] 组合
+请输入选项编号（直接回车 = 选 0）：
+```
+
+#### 决策 2 — 词条卡片是否显示图片
+
+```
+词条卡片图片（默认 0：无图，纯文字卡片）：
+  [0] 无图 ← 默认
+  [1] 有图：对已有图片文件的词条加 image: 字段，首页卡片显示缩略图
+请输入选项编号（直接回车 = 选 0）：
+```
+
+> 图片来源为 Phase 3-B 提取到 `docs/wiki/images/` 的章节插图，或用户另行准备的图片。选 [1] 时，APP5 仅为文件名可匹配到 pilot slug 的词条加 `image:` 字段，无对应图片的词条不强制补图。
+
+#### 执行逻辑
+
+| 策略 | APP5 执行内容 |
+|------|-------------|
+| 0（默认） | 确认 `docs/wiki/local/config/home.js` 空数组，重建注册表验证首页不报错即可 |
+| 1 | 机制 B：配置 `HOME_SECTIONS`，limit = max(3, pilot 该类型页数 ÷ 2) |
+| 2 | 机制 A：从 pilot 词条中挑选 quality ≥ standard 条目填入 `CORE_FEATURED` |
+| 3 | 先配置 `HOME_SECTIONS`，再配置 `CORE_FEATURED` |
+| 有图 | 扫描 `docs/wiki/images/`，匹配 pilot slug，写入 `image:` frontmatter 字段 |
+
+```bash
+# 执行后重建注册表并本地验证
+python3 "$MEMEX_ROOT/wiki/scripts/build_registry.py"
+# bash wiki-daemon.sh start → 打开首页确认展示正常
+```
+
+- [ ] 用户已确认展示策略和图片选项（或接受默认）
+- [ ] `docs/wiki/local/config/home.js` 按选择配置完毕
+- [ ] 执行 **CHK11**（homepage-deploy-check）L1–L5 自动化检查，全部 PASS
+- [ ] 人工执行 CHK11 L6 浏览器检查，无异常
+- [ ] commit：`feat: Phase 9-E homepage setup via APP5`
+
+---
+
+### 完成条件
+
+- [ ] **9-A**：CHK7 全部通过（7 项），试建页无遗留阻塞问题
+- [ ] 所有主要类型完成三轮 SCN27+EVV5 迭代及 EVV6 元反思
+- [ ] 所有主要类型在 EVV6 之后完成 EXIT-GATE 完整序列（E1–E5，见 `ref/spec/workflow-exit-gate.md`），无未修正 FAIL 项
+- [ ] 每种类型有 15 个 quality ≥ standard 的 pilot 页
+- [ ] 所有类型模板已定稿（EVV6 状态为 converged 或 partial）
+- [ ] **9-C**：全章节 Wikify 完成，处理日志已写入，defer 条目已入队
+- [ ] **9-D**：backlinks 索引已重建，词条页面"引用此页"区块正常显示
+- [ ] **9-E**：首页已通过 APP5 配置，本地渲染正常
+- [ ] 首页各分区能展示对应类型词条，渲染无报错
+- [ ] 发现的工作流问题已记录为 RFC（堵塞性）或加入 housekeeping 队列
+- [ ] 回填修订历史：
   ```bash
-  WIKI_ROOT=$PWD python3 "$MEMEX_ROOT/wiki/scripts/wikify_chapters.py" --dry-run
+  python3 "$MEMEX_ROOT/wiki/scripts/backfill_recent.py" --public docs/wiki
   ```
-- [ ] 逐章语义审查（不可批量跳过）：判断匹配完整性、前后缀误伤、语境义一致性、是否宜链
-- [ ] 审查通过后正式写入，每章打印 accept/reject/defer 摘要
+- [ ] commit: `pilot: Phase 9 complete — {N} types × 15 pages, templates finalized`
 
 ---
 

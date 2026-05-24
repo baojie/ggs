@@ -1,6 +1,6 @@
 # RFC-ggs-0015: /boot init 后应执行结构完整性校验，防止章节遗漏
 
-- **Status**: proposed
+- **Status**: implemented
 - **Date**: 2026-05-25
 - **Issue**: https://github.com/baojie/memex/issues/149
 - **Source wiki**: ggs
@@ -98,3 +98,16 @@ Spec Phase 9 标题数：17，实例 Phase 9 标题数：17
 ### 对 /comply 的建议
 
 `/comply birth phase N` 应增加专门的 **S4 结构完整性** 检查项：对照 BIRTH.spec.md 提取 Phase N 的标题树，报告是否有标题缺失。此项不属于现有 T/L/V 分类，建议作为独立子检查在 CHK5 之前执行。
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-25
+**Commits**:
+- baojie/memex@02235eb2df8bfed328b4c1daf611e29480b17142: implement RFC-ggs-0015
+
+### 说明
+- 在 `boot/SKILL.md` 中将 `/boot init` Step 3 拆分为 Step 3a（标题树结构校验）+ Step 3b（语义合规检查），Step 3a 失败时中止
+- 同步在 `grow/SKILL.md` 对 `/grow init` 实施同理检查（对照 GROW.spec.md vs GROW.md）
+- RFC 建议的 `/comply` S4 检查项为非核心建议，未实施
+
