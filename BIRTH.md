@@ -656,7 +656,64 @@ RFC 合并或明确标注"不阻塞"后，方可进入全量赋号。
 
 ## Phase 7：知识结构摸底与类型体系调整
 
-> 状态：未开始
+**前置条件**：Phase 6 完成（基础数据就绪），**非章节词条建立之前**执行。
+
+**目标**：推导该 wiki 的实体类型体系，调整 `docs/wiki/local/config/types.js` 配置，为后续批量建页和分类查询建立类型先验。
+
+### 7-A 实体类型勘探（SCN23）
+
+- [ ] 扫描所有章节页面，分析内容中出现的实体类型（人物、地点、事件、概念、物种等）
+  - 命令参考：`grep -rh '^\[\[' docs/wiki/pages/ | sort | uniq -c | sort -rn | head -50`
+- [ ] 输出 `logs/butler/type-survey.md`，包含各类型估算数量和典型实例
+- [ ] 确定该 wiki 的主要 `type` 值集合及权重
+
+本 wiki 基于《枪炮、病菌与钢铁》，预期实体类型分布（待 SCN23 确认）：
+
+| type | 说明 | 预估数量 | 优先级 |
+|------|------|---------|--------|
+| `concept` | 核心理论概念（地理决定论、粮食生产等） | ~80 | P1 |
+| `person` | 历史人物、学者、原住民代表 | ~50 | P1 |
+| `place` | 地理区域、大陆、文明地点 | ~60 | P1 |
+| `species` | 动植物、病原体 | ~80 | P1 |
+| `event` | 历史事件（驯化、征服等） | ~30 | P2 |
+| `chapter` | 章节摘要（已有 22 章） | 22 | 已完成 |
+| `overview` | 综述/目录页 | ~3 | 已有 |
+
+**输出验证**：`logs/butler/type-survey.md` 存在且包含至少 3 种类型及其估算数量。
+
+### 7-B 类型体系配置调整
+
+当前 `docs/wiki/local/config/types.js` 已有类型：
+`concept / person / event / organization / place / species / overview / chapter / list`
+
+LAW.md §四 定义的类型：
+`concept / person / chapter / place / event / species / overview`
+
+**待决策**：
+- `organization`（机构）：原书涉及欧洲殖民帝国、土著部落等，保留为有效类型
+- `list`（列表）：可用于列举性词条，保留
+
+- [ ] type-survey.md 已生成（7-A 完成后）
+- [ ] 审查 types.js，确认所有 type 均有对应 label（当前 9 种均已覆盖）
+- [ ] 对占比 < 1% 的边缘类型决定合并或保留
+- [ ] 更新 LAW.md §四 同步 `organization` 和 `list` 两个类型
+
+### 7-C 类型图式模板设计（MTD3）
+
+为占比 ≥ 5% 的主要 type 设计模板（`local/template/<type>-schema.md`）：
+
+- [ ] `local/template/concept-schema.md`（概念，预估 ~80 条，占比最高）
+- [ ] `local/template/person-schema.md`（人物，预估 ~50 条）
+- [ ] `local/template/place-schema.md`（地点，预估 ~60 条）
+- [ ] `local/template/species-schema.md`（物种，预估 ~80 条）
+
+本 wiki 插图引用规范：`docs/wiki/images/` 下已有原书图片，`:::image` 块格式见 LAW.md §三。
+所有模板的 frontmatter 字段须与 `CLAUDE.md §Frontmatter Fields` 一致。
+
+**完成条件**：
+- [ ] 所有占比 ≥ 5% 的 type 均有对应模板文件
+- [ ] 模板中的 frontmatter 字段已同步到 `CLAUDE.md §Frontmatter Fields`
+- [ ] `docs/wiki/local/config/types.js` 的 label 与模板文件的 type 值一一对应
 
 ---
 
