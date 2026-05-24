@@ -1,7 +1,11 @@
 {
   "corpus_file": "corpus/raw/枪炮病菌与钢铁_校勘底稿.md",
-  "chapter_pattern": "^## (第[一二三四五六七八九十百千万]+章|前言|后记)",
+  "chapter_pattern": "^## 第([一二三四五六七八九十百千万]+)章",
   "chapter_title_offset": 0,
+  "preface_pattern": "^## 前言",
+  "preface_nnn": "P03",
+  "epilogue_pattern": "^## 后记",
+  "epilogue_nnn": "020",
   "chapter_order_file": "ref/chapter-order.md",
   "chapter_order_skip": ["P01", "P02"]
 }

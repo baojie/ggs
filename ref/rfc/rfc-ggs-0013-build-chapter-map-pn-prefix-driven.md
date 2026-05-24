@@ -1,6 +1,6 @@
 # RFC-ggs-0013: build_chapter_map.py 改为以 pn_prefix 为主键，支持中文数字序号和无数字序号
 
-- **Status**: proposed
+- **Status**: implemented
 - **Date**: 2026-05-24
 - **Issue**: https://github.com/baojie/memex/issues/145
 - **Source wiki**: ggs
@@ -95,3 +95,23 @@ nnn = f"{chapter_num:03d}"
 - ggs wiki `local/config/butler.json` 的 `chapter_pattern` 将修复后不再崩溃
 - `epilogue_pattern: "^## 后记"` 字段将被正确识别
 - `local/butler/chapter-map.md` 将包含完整 22 个章节（含前言 P03 和后记 020）
+
+---
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-24
+**Commits**:
+- baojie/memex@04d08e7284b27bfac37059d1a99c9bf307de6416: implement RFC-ggs-0013
+- baojie/ggs@<ggs-sha>: config: 更新 butler.json 分离前言/后记/章节配置
+
+**实施内容**（Plan B 优先）：
+
+1. `_parse_chinese_num()` 中文数字→阿拉伯数字转换
+2. `epilogue_pattern`/`epilogue_nnn` 字段支持
+3. `nnn_map` 标题→NNN 显式映射
+4. `chapter_pattern` 捕获组改为可选
+5. ggs `butler.json` 分离前言/后记/章节正则
+
+**Plan A 待后续 RFC**：读取 pages.json 的 pn_prefix 作为 NNN 权威来源
