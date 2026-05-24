@@ -30,8 +30,8 @@
       ],
       "path": "ai/爱迪生.md",
       "description": "美国发明家，以发明留声机（1877年）和白炽灯泡（1879年）著称；戴蒙德以爱迪生为例论证技术发明并非凭空创造，而是对已有发明的渐进改进，同时指出发明者往往无法预见其发明的最终主要用途。",
-      "prose_len": 681,
-      "prose_chars": 645,
+      "prose_len": 680,
+      "prose_chars": 644,
       "h2_count": 3,
       "pn_count": 6,
       "wikilink_count": 4,
@@ -39,7 +39,7 @@
       "quality": "standard",
       "quality_score": 26,
       "affiliation": "美国",
-      "total_refs": 0
+      "total_refs": 1
     },
     "安娜-卡列尼娜原则": {
       "type": "concept",
@@ -113,7 +113,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 0
+      "total_refs": 1
     },
     "阿塔瓦尔帕": {
       "type": "person",
@@ -186,7 +186,32 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 19
+      "total_refs": 20
+    },
+    "伯克和威尔斯": {
+      "type": "person",
+      "label": "伯克和威尔斯",
+      "aliases": [
+        "Robert Burke",
+        "William Wills",
+        "罗伯特·伯克",
+        "威廉·威尔斯"
+      ],
+      "tags": [
+        "探险家"
+      ],
+      "path": "bo/伯克和威尔斯.md",
+      "description": "第一支从南到北纵贯澳大利亚的探险队的领导者，最终在沙漠中饿死；戴蒙德以此为例论证，欧洲人的技术优势（枪支）在面对澳大利亚本土环境时无济于事——土著人的本地知识才是真正的生存技能，这是对\"文明优势\"神话的有力反驳。",
+      "prose_len": 596,
+      "prose_chars": 562,
+      "h2_count": 3,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 25,
+      "affiliation": "英国",
+      "total_refs": 0
     },
     "波利尼西亚": {
       "type": "place",
@@ -677,7 +702,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 3
+      "total_refs": 5
     },
     "东南亚": {
       "type": "place",
@@ -745,7 +770,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 1
+      "total_refs": 2
     },
     "Frontispiece": {
       "type": "chapter",
@@ -814,6 +839,29 @@
       "affiliation": "西班牙王国",
       "total_refs": 0
     },
+    "格林伯格": {
+      "type": "person",
+      "label": "约瑟夫·格林伯格",
+      "aliases": [
+        "Joseph Greenberg",
+        "格林伯格"
+      ],
+      "tags": [
+        "学者"
+      ],
+      "path": "ge/格林伯格.md",
+      "description": "斯坦福大学语言学家，将非洲语言分类梳理为清晰的大语系框架，将美洲印第安语归入争议性的\"美印语系\"；戴蒙德援引格林伯格的非洲语言分类成果，以语言分布为证据推断班图人的扩张路线。",
+      "prose_len": 569,
+      "prose_chars": 537,
+      "h2_count": 3,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 25,
+      "affiliation": "斯坦福大学",
+      "total_refs": 0
+    },
     "谷登堡": {
       "type": "person",
       "label": "谷登堡",
@@ -836,7 +884,7 @@
       "quality": "standard",
       "quality_score": 25,
       "affiliation": "神圣罗马帝国",
-      "total_refs": 2
+      "total_refs": 3
     },
     "家畜": {
       "type": "concept",
@@ -886,7 +934,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 6
+      "total_refs": 7
     },
     "近端原因与终极原因": {
       "type": "concept",
@@ -911,7 +959,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 24
+      "total_refs": 26
     },
     "卡哈马卡": {
       "type": "place",
@@ -961,6 +1009,30 @@
       "quality_score": 25,
       "affiliation": "西班牙王国",
       "total_refs": 1
+    },
+    "莱特兄弟": {
+      "type": "person",
+      "label": "莱特兄弟",
+      "aliases": [
+        "Wright Brothers",
+        "奥维尔·莱特",
+        "威尔伯·莱特"
+      ],
+      "tags": [
+        "发明家"
+      ],
+      "path": "la/莱特兄弟.md",
+      "description": "美国航空先驱；戴蒙德将莱特兄弟与谷登堡、瓦特、爱迪生并列为\"稀有天才\"发明家的典型，同时指出莱特兄弟的有动力载人飞机是在既有发明基础上的渐进改进，而非凭空创造。",
+      "prose_len": 406,
+      "prose_chars": 374,
+      "h2_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 24,
+      "affiliation": "美国",
+      "total_refs": 0
     },
     "粮食生产": {
       "type": "concept",
@@ -1138,7 +1210,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 2
+      "total_refs": 3
     },
     "蒙特朱马": {
       "type": "person",
@@ -1282,7 +1354,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 0
+      "total_refs": 1
     },
     "皮萨罗": {
       "type": "person",
@@ -1473,7 +1545,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 4
+      "total_refs": 5
     },
     "社会复杂性": {
       "type": "concept",
@@ -1498,7 +1570,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 7
+      "total_refs": 9
     },
     "天花病毒": {
       "type": "species",
@@ -1546,7 +1618,7 @@
       "quality": "standard",
       "quality_score": 24,
       "affiliation": "英国",
-      "total_refs": 0
+      "total_refs": 1
     },
     "豌豆": {
       "type": "species",
@@ -1598,6 +1670,29 @@
       "quality": "standard",
       "quality_score": 29,
       "total_refs": 1
+    },
+    "希特勒": {
+      "type": "person",
+      "label": "阿道夫·希特勒",
+      "aliases": [
+        "Adolf Hitler",
+        "希特勒"
+      ],
+      "tags": [
+        "政治家"
+      ],
+      "path": "xi/希特勒.md",
+      "description": "德国纳粹领袖；戴蒙德在第二十章以希特勒为案例分析个人在历史中的作用，援引1930年交通事故和1944年暗杀图谋两个险些终结其生命的事件，以此讨论偶然事件能否改变历史走向。",
+      "prose_len": 739,
+      "prose_chars": 703,
+      "h2_count": 3,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 27,
+      "affiliation": "德国",
+      "total_refs": 0
     },
     "新几内亚": {
       "type": "place",
@@ -1676,6 +1771,30 @@
       "quality_score": 31,
       "total_refs": 20
     },
+    "亚历山大大帝": {
+      "type": "person",
+      "label": "亚历山大大帝",
+      "aliases": [
+        "Alexander the Great",
+        "亚历山大"
+      ],
+      "tags": [
+        "统治者",
+        "征服者"
+      ],
+      "path": "ya/亚历山大大帝.md",
+      "description": "马其顿国王，公元前4世纪末率希腊人征服了从希腊向东直到印度的所有先进社会；戴蒙德以亚历山大为例，论证即使是伟大的征服者也无法改变历史的深层结构性驱动力，历史个人的特质只能\"推动\"已具备结构性条件的变化。",
+      "prose_len": 604,
+      "prose_chars": 570,
+      "h2_count": 3,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
+      "affiliation": "马其顿帝国",
+      "total_refs": 1
+    },
     "耶利": {
       "type": "person",
       "label": "耶利",
@@ -1749,7 +1868,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 2
+      "total_refs": 3
     },
     "中国": {
       "type": "place",
@@ -1858,6 +1977,11 @@
     "传染病": "病菌",
     "流行病": "病菌",
     "germs": "病菌",
+    "伯克和威尔斯": "伯克和威尔斯",
+    "Robert Burke": "伯克和威尔斯",
+    "William Wills": "伯克和威尔斯",
+    "罗伯特·伯克": "伯克和威尔斯",
+    "威廉·威尔斯": "伯克和威尔斯",
     "波利尼西亚": "波利尼西亚",
     "Polynesia": "波利尼西亚",
     "太平洋诸岛": "波利尼西亚",
@@ -1915,6 +2039,9 @@
     "哥伦布": "哥伦布",
     "克里斯托弗·哥伦布": "哥伦布",
     "Christopher Columbus": "哥伦布",
+    "格林伯格": "格林伯格",
+    "约瑟夫·格林伯格": "格林伯格",
+    "Joseph Greenberg": "格林伯格",
     "谷登堡": "谷登堡",
     "约翰内斯·谷登堡": "谷登堡",
     "Johannes Gutenberg": "谷登堡",
@@ -1936,6 +2063,10 @@
     "科尔特斯": "科尔特斯",
     "埃尔南·科尔特斯": "科尔特斯",
     "Hernán Cortés": "科尔特斯",
+    "莱特兄弟": "莱特兄弟",
+    "Wright Brothers": "莱特兄弟",
+    "奥维尔·莱特": "莱特兄弟",
+    "威尔伯·莱特": "莱特兄弟",
     "粮食生产": "粮食生产",
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
@@ -2036,6 +2167,9 @@
     "单粒小麦": "小麦",
     "wheat": "小麦",
     "Triticum": "小麦",
+    "希特勒": "希特勒",
+    "阿道夫·希特勒": "希特勒",
+    "Adolf Hitler": "希特勒",
     "新几内亚": "新几内亚",
     "巴布亚新几内亚": "新几内亚",
     "Papua New Guinea": "新几内亚",
@@ -2049,6 +2183,9 @@
     "植物驯化": "驯化",
     "动物驯化": "驯化",
     "domestication": "驯化",
+    "亚历山大大帝": "亚历山大大帝",
+    "Alexander the Great": "亚历山大大帝",
+    "亚历山大": "亚历山大大帝",
     "耶利": "耶利",
     "Yali": "耶利",
     "玉米": "玉米",
@@ -2075,6 +2212,6 @@
     "pig": "猪",
     "Sus scrofa domesticus": "猪"
   },
-  "page_count": 80,
-  "generated": "2026-05-24T21:32:28Z"
+  "page_count": 85,
+  "generated": "2026-05-24T21:40:47Z"
 }
