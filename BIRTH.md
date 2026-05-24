@@ -818,9 +818,98 @@ LAW.md §四 定义的类型：
 
 ---
 
-## Phase 9：类型 Pilot
+## Phase 9：类型 Pilot（SCN27/EVV5 循环）
 
-> 状态：未开始
+**前置条件**：Phase 8 完成（butler 基础设施就绪、首轮试跑无报错）。✓
+
+**目标**：在 butler 正式循环启动之前，为每个主要词条类型手建高质量示范页，端到端验证模板（frontmatter + 节结构 + PN 引注 + wikilink）可正常渲染，并为 butler 提供可参照的内容质量基线。
+
+**类型建设顺序**（按依赖关系，先基础后引用）：
+`concept` → `species` → `place` → `person` → `event`
+
+**WIKI_LANG**：`zh`（行内引注用全角括号 `（NNN-PPP）`，段落标注用 `[NNN-PPP]`）
+
+Phase 9 轮次：R=0
+
+---
+
+### 9-A 试建核验（进入批量循环前的一次性检验）
+
+**目的**：手建 1 个 concept 类页面，端到端验证 wiki 引擎、插件、历史与最近变更全链路无断裂。
+
+**选页原则**：concept 类语料信息最丰富的实体，无外部依赖（无需依赖尚未建立的 person/place 页面）。
+
+**候选**：`地理决定论`（贯穿全书核心命题，语料命中极高，ch01/ch15/ch19 均大量涉及）
+
+1. - [ ] 手动执行建页（选 concept 类实体）：
+   ```bash
+   WIKI_ROOT=$PWD python3 "$MEMEX_ROOT/wiki/scripts/add_page.py" SLUG - \
+     --summary "pilot: 9-A trial page — LABEL" << 'EOF'
+   [frontmatter + content]
+   EOF
+   ```
+
+2. - [ ] 执行 **CHK7**（new-page-system-check）：
+   ```bash
+   python3 "$MEMEX_ROOT/wiki/scripts/chk7.py" \
+     --base-url http://localhost:1997 \
+     --slug {slug}
+   ```
+   检查项：S1 页面渲染 / S2 PN 引注 / S3 Infobox / S4 Wikilink / S5 History / S6 Recent 收录 / S7 交叉验证
+
+3. - [ ] CHK7 全部通过 → 记录结果，进入 9-B；有 fail 项 → 提交 RFC 修复后重跑
+
+---
+
+### 质量目标（所有 pilot 页面须达到 `standard` 档）
+
+| 要求 | 标准 |
+|------|------|
+| 语言 | 全中文，WIKI_LANG=zh |
+| 内容 | 每节有实质内容，无占位符残留 |
+| PN 引注 | 至少 3 处，格式 `（NNN-PPP）` |
+| Wikilink 目标 | 相关词条节的链接均指向已存在页面（zh wiki 用 id 形式 `[[词条名]]`） |
+| Frontmatter | 类型专属字段全部填写（按 `local/template/<type>-schema.md`） |
+| quality 字段 | `quality: standard` |
+
+---
+
+### 9-B 批量循环（SCN27 → QUO23 → EVV5 → EVV6 迭代）
+
+每种类型执行独立的三轮迭代（SCN27×3 + EVV5×3 + QUO23×1 + EVV6×1 = 8 轮），每轮须人工审核后方可进入下一轮。
+
+**类型选页参考**（各取语料信息最丰富的实体）：
+
+| 类型 | 预估数量 | 典型实体（供参考） |
+|------|---------|-----------------|
+| concept | ~80 | 地理决定论、粮食生产、近端原因/终极原因、安娜·卡列尼娜原则 |
+| species | ~70 | 小麦、马、天花病毒、牛、斑马 |
+| place | ~60 | 新月沃地、新几内亚、欧亚大陆、美洲、卡哈马卡 |
+| person | ~50 | 贾雷德·戴蒙德、耶利、弗朗西斯科·皮萨罗、阿塔瓦尔帕 |
+| event | ~30 | 卡哈马卡之战、动植物驯化、欧洲人征服美洲、班图扩张 |
+
+### 轮次进度表
+
+| 类型 | r1-SCN27 | r1-EVV5 | r2-SCN27 | r2-EVV5 | r3-SCN27 | QUO23 | r3-EVV5 | EVV6 | EXIT-GATE | 状态 |
+|------|---------|---------|---------|---------|---------|-------|---------|------|-----------|------|
+| concept | | | | | | | | | | 未开始 |
+| species | | | | | | | | | | 未开始 |
+| place | | | | | | | | | | 未开始 |
+| person | | | | | | | | | | 未开始 |
+| event | | | | | | | | | | 未开始 |
+
+---
+
+### 9-C 全章节 Wikify（Pilot 词条链接回填）
+
+**前置条件**：所有类型的 EVV6 均已完成（9-B 全部通过）。
+
+- [ ] dry-run 确认候选：
+  ```bash
+  WIKI_ROOT=$PWD python3 "$MEMEX_ROOT/wiki/scripts/wikify_chapters.py" --dry-run
+  ```
+- [ ] 逐章语义审查（不可批量跳过）：判断匹配完整性、前后缀误伤、语境义一致性、是否宜链
+- [ ] 审查通过后正式写入，每章打印 accept/reject/defer 摘要
 
 ---
 
