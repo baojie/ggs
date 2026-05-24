@@ -722,7 +722,124 @@ LAW.md §四 定义的类型：
 
 ## Phase 8：Butler 准备期
 
-> 状态：未开始
+**前置条件**：Phase 7 完成（类型体系和图式模板就绪），且 5-F `data/pn-source.json` 已构建。
+
+**目标**：在首次 `/butler` 启动之前，建立 butler 运行所需的全部文件骨架，确保 Step 1 读状态时不因缺文件而报错。
+
+> **自动创建（无需手动）**：`logs/butler/`、`round_counter.txt`、`actions.jsonl` 均由脚本首次调用时自动生成。
+>
+> **必须手动创建**：`local/config/butler.json`、`logs/butler/queue.md`、`logs/butler/housekeeping_queue.md`、`logs/butler/quality_rules.md`、`local/butler/chapter-map.md`，以及 `local/config.md` 中的 `CORPUS_PATH` 字段（已存在）。
+
+### 8-A 建立 logs/ 子目录结构
+
+- [ ] 创建完整 logs 子目录：
+  ```bash
+  mkdir -p logs/butler logs/daily logs/lint logs/build logs/reports/weekly logs/reports/monthly logs/gene-express
+  ```
+
+### 8-B 建立队列文件骨架
+
+- [ ] 创建 `logs/butler/queue.md`：
+  ```markdown
+  # 内容任务队列
+
+  ## P1 — 高优先级
+  <!-- 空，butler discover 后自动填入 -->
+
+  ## P2 — 中优先级
+
+  ## P3 — 发现型（每11轮触发）
+  ```
+- [ ] 创建 `logs/butler/housekeeping_queue.md`（内容同结构，标题改为"日常维护队列"）
+
+### 8-B2 创建 local/config/butler.json
+
+本 wiki 语料：`corpus/raw/枪炮病菌与钢铁_校勘底稿.md`
+章节标题格式：`## 第N章　标题`（中文数字，H2）
+前言格式：`## 前言　耶利的问题`（H2）
+后记格式：`## 后记　...`（H2，无附录）
+
+- [ ] 创建 `local/config/` 目录：
+  ```bash
+  mkdir -p local/config
+  ```
+- [ ] 创建 `local/config/butler.json`：
+  ```json
+  {
+    "corpus_file": "corpus/raw/枪炮病菌与钢铁_校勘底稿.md",
+    "chapter_pattern": "^## 第[一二三四五六七八九十百千万]+章",
+    "preface_pattern": "^## 前言",
+    "preface_nnn": "P03",
+    "epilogue_pattern": "^## 后记"
+  }
+  ```
+- [ ] 验证 JSON 格式合法：
+  ```bash
+  python3 -m json.tool local/config/butler.json
+  ```
+
+### 8-C 配置章节映射表
+
+- [ ] 创建 `local/butler/` 目录：
+  ```bash
+  mkdir -p local/butler
+  ```
+- [ ] 运行生成脚本（需先完成 8-B2）：
+  ```bash
+  python3 "$MEMEX_ROOT/wiki/scripts/butler/build_chapter_map.py"
+  ```
+- [ ] 验证输出章节数（期望 22 行，含前言/后记等）：
+  ```bash
+  grep -c "^| \`" local/butler/chapter-map.md
+  ```
+
+### 8-D 补全 local/config.md
+
+`local/config.md` 已包含 `WIKI_LANG=zh` 和 `CORPUS_PATH=corpus/raw/枪炮病菌与钢铁_校勘底稿.md`。
+
+- [ ] 验证 `CORPUS_PATH` 文件实际存在：
+  ```bash
+  ls -lh corpus/raw/枪炮病菌与钢铁_校勘底稿.md
+  ```
+
+### 8-E 建立 quality_rules.md
+
+- [ ] 创建 `logs/butler/quality_rules.md`：
+  ```markdown
+  # 质量规则库
+
+  本文件由 butler 自动追加，记录从实际操作中沉淀的约束规则。
+
+  ## 格式规范
+
+  ## 内容规范
+
+  ## PN 引注规范
+  ```
+
+### 8-F 验证核心脚本
+
+- [ ] 验证 `docs/wiki/pages.json` 存在且为合法 JSON：
+  ```bash
+  python3 -c "import json; json.load(open('docs/wiki/pages.json')); print('OK')"
+  ```
+
+### 8-G 首次试跑
+
+- [ ] 启动 butler，确认 Step 1 读状态无报错：
+  ```
+  /butler --instance explorer --focus discover
+  ```
+  预期：输出 `[R1] ...`，无 FileNotFoundError，`logs/butler/actions.jsonl` 自动生成
+
+**完成条件**：
+- [ ] `logs/butler/queue.md` 和 `logs/butler/housekeeping_queue.md` 存在
+- [ ] `logs/butler/quality_rules.md` 存在
+- [ ] `local/butler/chapter-map.md` 存在
+- [ ] `local/config/butler.json` 合法且字段正确
+- [ ] `local/config.md` 包含 `WIKI_LANG` 和 `CORPUS_PATH`（已有）
+- [ ] `docs/wiki/pages.json` 合法
+- [ ] 首轮 butler 输出 `[R1]` 行且 `actions.jsonl` 有记录
 
 ---
 
