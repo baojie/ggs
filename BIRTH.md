@@ -552,13 +552,29 @@ RFC 合并或明确标注"不阻塞"后，方可进入全量赋号。
 
 ### 5-E 验证与提交
 
-- [x] 全书 PN 连续性验证（跨章检查 NNN 序号无缺失）
-  - 23 章 1489 PN，全部连续，零错误 ✓
-- [x] 重建注册表（`build_registry.py docs/wiki/pages`）：24 pages ✓
-- [x] **提交全量 PN 标注结果**：
+> 通用工作流见 `$MEMEX_ROOT/ref/spec/workflow-post-pn-lint.md`，以下为本 wiki 执行记录。
+
+- [x] **Step 1 — 语料预检查复核**：运行 PRE22
+  - 说明：PRE22 对应脚本为 `pn_structure_verify.py`，此即 FIX24，合并执行
+  - 结果：首轮 32 处 A5（单换行段落合并为一 block 未获 PN）；修复：插入空行 + 清除旧 PN + 重新赋号后 0 处问题
+- [x] **Step 2 — PN 定义格式与编号完整性验证**：运行 FIX24
+  - 命令：`python3 "$MEMEX_ROOT/wiki/scripts/pn_structure_verify.py" --dir docs/wiki/pages/`
+  - 结果：**0 处问题**（修复后）；总计 1522 PN（23 章：P01/3 + P02/65 + P03/74 + 001-019正文章节 + 020/280）
+- [x] **Step 3 — PN 索引完整性检查**：参照 FIX26，人工检查父子关系与映射完整性
+  - 命令：`grep -rn '\[[0-9P][0-9P][0-9P]-[0-9][0-9][0-9]-[0-9][0-9][0-9]' docs/wiki/pages/`
+  - 结果：无子段 PN（NNN-PPP-SSS），符合当前阶段预期
+- [x] **Step 4 — Wikilink 有效性验证**
+  - 命令：`python3 "$MEMEX_ROOT/wiki/scripts/lint_empty_wikilinks.py"`
+  - 结果：✓ 所有页面无空 wikilink
+- [x] **Step 5 — Frontmatter 完整性验证**
+  - 命令：`python3 wiki/scripts/verify_pn_completeness.py`（CHKP1 含 F1/F2 覆盖检查）
+  - 结果：ERROR:0 WARN:0；F1 23/23 章节存在，F2 NNN 与 chapter-order 一致
+- [x] **Step 6 — Markdown 渲染质量检查**：人工抽检 3 章
+  - 结果：ch02(46 PN)/ch09(67 PN)/ch12(82 PN) 浏览器渲染正常，PN 可见，无 JS 错误
+- [x] **全通过后提交**：
   ```bash
   git add docs/wiki/pages/ docs/wiki/pages.json docs/wiki/pages.lite.json
-  bash wiki/scripts/skill_commit.sh "feat: Phase 5 全书 PN 段落编号完成"
+  bash wiki/scripts/skill_commit.sh -m "feat: Phase 5-E 全书 PN 验证完成，补标 29 个漏标段落"
   ```
 
 

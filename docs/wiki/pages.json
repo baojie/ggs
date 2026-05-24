@@ -44,8 +44,8 @@
         "chapter"
       ],
       "path": "ch/ch02-natural-experiment-of-history.md",
-      "prose_len": 11572,
-      "prose_chars": 11427,
+      "prose_len": 11582,
+      "prose_chars": 11436,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -98,8 +98,8 @@
         "chapter"
       ],
       "path": "ch/ch05-historys-haves-and-have-nots.md",
-      "prose_len": 8239,
-      "prose_chars": 8127,
+      "prose_len": 8259,
+      "prose_chars": 8145,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -134,8 +134,8 @@
         "chapter"
       ],
       "path": "ch/ch07-how-to-make-an-almond.md",
-      "prose_len": 12954,
-      "prose_chars": 12750,
+      "prose_len": 12964,
+      "prose_chars": 12759,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -152,8 +152,8 @@
         "chapter"
       ],
       "path": "ch/ch08-apples-or-indians.md",
-      "prose_len": 21036,
-      "prose_chars": 20695,
+      "prose_len": 21066,
+      "prose_chars": 20722,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -170,8 +170,8 @@
         "chapter"
       ],
       "path": "ch/ch09-zebras-unhappy-marriages-anna-karenina.md",
-      "prose_len": 14680,
-      "prose_chars": 14367,
+      "prose_len": 14720,
+      "prose_chars": 14403,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -206,8 +206,8 @@
         "chapter"
       ],
       "path": "ch/ch11-lethal-gift-of-livestock.md",
-      "prose_len": 16778,
-      "prose_chars": 16622,
+      "prose_len": 16788,
+      "prose_chars": 16631,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -224,8 +224,8 @@
         "chapter"
       ],
       "path": "ch/ch12-blueprints-borrowed-letters.md",
-      "prose_len": 17809,
-      "prose_chars": 17377,
+      "prose_len": 17859,
+      "prose_chars": 17422,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -242,8 +242,8 @@
         "chapter"
       ],
       "path": "ch/ch13-necessitys-mother.md",
-      "prose_len": 21616,
-      "prose_chars": 21308,
+      "prose_len": 21626,
+      "prose_chars": 21317,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -260,8 +260,8 @@
         "chapter"
       ],
       "path": "ch/ch14-from-egalitarianism-to-kleptocracy.md",
-      "prose_len": 23307,
-      "prose_chars": 23112,
+      "prose_len": 23317,
+      "prose_chars": 23121,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -314,8 +314,8 @@
         "chapter"
       ],
       "path": "ch/ch17-speedboat-to-polynesia.md",
-      "prose_len": 16694,
-      "prose_chars": 16484,
+      "prose_len": 16714,
+      "prose_chars": 16502,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -332,8 +332,8 @@
         "chapter"
       ],
       "path": "ch/ch18-collision-of-two-hemispheres.md",
-      "prose_len": 16205,
-      "prose_chars": 15958,
+      "prose_len": 16235,
+      "prose_chars": 15985,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -350,8 +350,8 @@
         "chapter"
       ],
       "path": "ch/ch19-how-africa-became-black.md",
-      "prose_len": 19564,
-      "prose_chars": 19221,
+      "prose_len": 19604,
+      "prose_chars": 19257,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -368,8 +368,8 @@
         "chapter"
       ],
       "path": "ep/Epilogue.md",
-      "prose_len": 26605,
-      "prose_chars": 25895,
+      "prose_len": 26615,
+      "prose_chars": 25904,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -397,11 +397,14 @@
       "total_refs": 0
     },
     "目录": {
-      "type": "unknown",
+      "type": "overview",
       "label": "目录",
       "aliases": [],
-      "tags": [],
+      "tags": [
+        "toc"
+      ],
       "path": "mu/目录.md",
+      "description": "全书目录页",
       "prose_len": 1237,
       "prose_chars": 1048,
       "h2_count": 1,
@@ -418,8 +421,8 @@
         "chapter"
       ],
       "path": "pr/Preface.md",
-      "prose_len": 17281,
-      "prose_chars": 17098,
+      "prose_len": 17311,
+      "prose_chars": 17125,
       "h2_count": 1,
       "pn_count": 0,
       "wikilink_count": 0,
@@ -458,5 +461,5 @@
     "Preface": "Preface"
   },
   "page_count": 24,
-  "generated": "2026-05-24T01:07:17Z"
+  "generated": "2026-05-24T09:23:14Z"
 }
