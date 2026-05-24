@@ -214,6 +214,17 @@
       ],
       "path": "li/粮食生产.md"
     },
+    "马": {
+      "type": "species",
+      "label": "马",
+      "aliases": [
+        "马匹",
+        "骏马",
+        "horse",
+        "Equus ferus caballus"
+      ],
+      "path": "ma/马.md"
+    },
     "免疫力": {
       "type": "concept",
       "label": "免疫力",
@@ -276,6 +287,28 @@
       ],
       "path": "sh/社会复杂性.md"
     },
+    "天花病毒": {
+      "type": "species",
+      "label": "天花病毒",
+      "aliases": [
+        "天花",
+        "痘病毒",
+        "smallpox",
+        "Variola virus"
+      ],
+      "path": "ti/天花病毒.md"
+    },
+    "小麦": {
+      "type": "species",
+      "label": "小麦",
+      "aliases": [
+        "二粒小麦",
+        "单粒小麦",
+        "wheat",
+        "Triticum"
+      ],
+      "path": "xi/小麦.md"
+    },
     "新月沃地": {
       "type": "concept",
       "label": "新月沃地",
@@ -297,6 +330,18 @@
       ],
       "path": "xu/驯化.md"
     },
+    "玉米": {
+      "type": "species",
+      "label": "玉米",
+      "aliases": [
+        "玉蜀黍",
+        "墨西哥类蜀黍",
+        "maize",
+        "corn",
+        "Zea mays"
+      ],
+      "path": "yu/玉米.md"
+    },
     "语言传播": {
       "type": "concept",
       "label": "语言传播",
@@ -306,6 +351,17 @@
         "language spread"
       ],
       "path": "yu/语言传播.md"
+    },
+    "猪": {
+      "type": "species",
+      "label": "猪",
+      "aliases": [
+        "家猪",
+        "野猪",
+        "pig",
+        "Sus scrofa domesticus"
+      ],
+      "path": "zh/猪.md"
     }
   },
   "alias_index": {
@@ -365,6 +421,11 @@
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
     "农耕": "粮食生产",
+    "马": "马",
+    "马匹": "马",
+    "骏马": "马",
+    "horse": "马",
+    "Equus ferus caballus": "马",
     "免疫力": "免疫力",
     "免疫": "免疫力",
     "抵抗力": "免疫力",
@@ -387,6 +448,16 @@
     "政治复杂性": "社会复杂性",
     "社会层级": "社会复杂性",
     "social complexity": "社会复杂性",
+    "天花病毒": "天花病毒",
+    "天花": "天花病毒",
+    "痘病毒": "天花病毒",
+    "smallpox": "天花病毒",
+    "Variola virus": "天花病毒",
+    "小麦": "小麦",
+    "二粒小麦": "小麦",
+    "单粒小麦": "小麦",
+    "wheat": "小麦",
+    "Triticum": "小麦",
     "新月沃地": "新月沃地",
     "肥沃新月": "新月沃地",
     "西南亚": "新月沃地",
@@ -396,11 +467,22 @@
     "植物驯化": "驯化",
     "动物驯化": "驯化",
     "domestication": "驯化",
+    "玉米": "玉米",
+    "玉蜀黍": "玉米",
+    "墨西哥类蜀黍": "玉米",
+    "maize": "玉米",
+    "corn": "玉米",
+    "Zea mays": "玉米",
     "语言传播": "语言传播",
     "语系扩散": "语言传播",
     "语言扩张": "语言传播",
-    "language spread": "语言传播"
+    "language spread": "语言传播",
+    "猪": "猪",
+    "家猪": "猪",
+    "野猪": "猪",
+    "pig": "猪",
+    "Sus scrofa domesticus": "猪"
   },
-  "page_count": 40,
-  "generated": "2026-05-24T20:32:31Z"
+  "page_count": 45,
+  "generated": "2026-05-24T20:40:49Z"
 }
