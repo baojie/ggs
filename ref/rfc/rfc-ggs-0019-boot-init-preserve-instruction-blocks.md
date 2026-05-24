@@ -1,6 +1,6 @@
 # RFC-ggs-0019: /boot init 须原文保留说明性文字块，禁止摘要
 
-- **Status**: proposed
+- **Status**: accepted
 - **Date**: 2026-05-25
 - **Issue**: https://github.com/baojie/memex/issues/155
 - **Source wiki**: ggs
