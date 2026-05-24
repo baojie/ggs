@@ -578,9 +578,33 @@ RFC 合并或明确标注"不阻塞"后，方可进入全量赋号。
   ```
 
 
+### 5-E2 `:::` 区块格式检查
+
+> **RFC**: [RFC-ggs-0012](ref/rfc/rfc-ggs-0012-lnt15-block-format-lint.md) / [issue #144](https://github.com/baojie/memex/issues/144)
+>
+> **基因定义**：`LNT15-block-format-lint`（待 memex 接受 RFC 后方可写入 `$MEMEX_ROOT/skills/gene/`）
+
+**执行 LNT15 全库扫描**，检查 `:::` fenced div 块前后空行和空格规范：
+
+| 检查项 | 说明 |
+|--------|------|
+| 开启前缺空行 | `:::` 前无空行（非文件首、非连续 `:::` 块） |
+| 闭合后缺空行 | `:::` 后无空行（非文件尾） |
+| `:::` 后缺/多余空格 | `:::` 与 TYPE 之间须恰有 1 个空格 |
+| TYPE 后多余空格 | TYPE 后不应有多余空格 |
+| 行末尾随空格 | 任意行末尾无尾随空格 |
+
+- [ ] 创建配套检测脚本：`wiki/scripts/lint_block_format.py`
+- [ ] 执行全库扫描并自动修复：
+  ```bash
+  python3 wiki/scripts/lint_block_format.py --dir docs/wiki/pages/ --fix
+  ```
+- [ ] 验证所有章节页面无残留问题
+- [ ] 确认本次提交不含 `:::` 区块格式问题
+
 ### 5-F PN 检索源构建
 
-**前置条件**：5-E 完成（所有章节 PN 已标注并提交）。
+**前置条件**：5-E2 完成（`:::` 区块格式已统一修复）。
 
 - [x] 执行构建脚本，确认输出无报错：
   ```bash

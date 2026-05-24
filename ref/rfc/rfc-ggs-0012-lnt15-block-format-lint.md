@@ -1,6 +1,6 @@
 # RFC-ggs-0012: LNT15-block-format-lint 基因创建
 
-- **Status**: proposed
+- **Status**: accepted
 - **Date**: 2026-05-24
 - **Issue**: https://github.com/baojie/memex/issues/144
 - **Source wiki**: ggs
