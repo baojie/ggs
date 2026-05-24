@@ -135,6 +135,16 @@
       "aliases": [],
       "path": "fr/Frontispiece.md"
     },
+    "粮食生产": {
+      "type": "concept",
+      "label": "粮食生产",
+      "aliases": [
+        "农业生产",
+        "食物生产",
+        "农耕"
+      ],
+      "path": "li/粮食生产.md"
+    },
     "目录": {
       "type": "overview",
       "label": "目录",
@@ -173,9 +183,13 @@
     "ch19-how-africa-became-black": "ch19-how-africa-became-black",
     "Epilogue": "Epilogue",
     "Frontispiece": "Frontispiece",
+    "粮食生产": "粮食生产",
+    "农业生产": "粮食生产",
+    "食物生产": "粮食生产",
+    "农耕": "粮食生产",
     "目录": "目录",
     "Preface": "Preface"
   },
-  "page_count": 24,
-  "generated": "2026-05-24T15:41:39Z"
+  "page_count": 25,
+  "generated": "2026-05-24T16:40:56Z"
 }
