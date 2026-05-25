@@ -1,6 +1,6 @@
 # RFC-ggs-0027: backfill_recent.py 忽略分桶结构，将 history 文件写入平铺路径
 
-- **Status**: proposed
+- **Status**: implemented
 - **Date**: 2026-05-25
 - **Issue**: https://github.com/baojie/memex/issues/169
 - **Source wiki**: ggs
@@ -67,3 +67,11 @@ p.parent.mkdir(parents=True, exist_ok=True)
 
 同时建议提供一次性迁移脚本，将现有平铺 history 文件的内容合并至对应
 分桶路径后删除，避免历史记录继续分裂。
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-26
+**Commits**:
+- baojie/memex@202a3a6: fix(backfill): history 路径镜像 pages 分桶结构
+- baojie/ggs@7d4623b: scripts: 新增平铺 history 迁移脚本（RFC-ggs-0027 配套）
