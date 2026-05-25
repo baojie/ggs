@@ -41,7 +41,7 @@
       "quality": "featured",
       "quality_score": 56,
       "affiliation": "美国",
-      "total_refs": 2
+      "total_refs": 3
     },
     "安娜-卡列尼娜原则": {
       "type": "concept",
@@ -139,7 +139,7 @@
       "quality": "featured",
       "quality_score": 57,
       "affiliation": "印加帝国",
-      "total_refs": 5
+      "total_refs": 6
     },
     "斑马": {
       "type": "species",
@@ -188,6 +188,29 @@
       "quality": "featured",
       "quality_score": 56,
       "total_refs": 2
+    },
+    "病原体": {
+      "type": "concept",
+      "label": "病原体",
+      "aliases": [
+        "致病原",
+        "病菌",
+        "pathogen"
+      ],
+      "tags": [
+        "传染病",
+        "生物学",
+        "演化"
+      ],
+      "path": "bi/病原体.md",
+      "description": "能引发疾病的微生物统称，在枪炮病菌与钢铁中是新旧大陆历史分岔的关键非人类行为者",
+      "prose_len": 809,
+      "prose_chars": 715,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "病菌": {
       "type": "concept",
@@ -657,7 +680,7 @@
       "blockquote_count": 1,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 7
+      "total_refs": 9
     },
     "创新": {
       "type": "concept",
@@ -733,7 +756,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 37
+      "total_refs": 38
     },
     "大麦": {
       "type": "species",
@@ -1000,6 +1023,29 @@
       "quality": "featured",
       "quality_score": 63,
       "total_refs": 7
+    },
+    "发明家": {
+      "type": "concept",
+      "label": "发明家",
+      "aliases": [
+        "发明者",
+        "创新者",
+        "inventor"
+      ],
+      "tags": [
+        "技术",
+        "创新",
+        "历史解释"
+      ],
+      "path": "fa/发明家.md",
+      "description": "被赋予技术突破功劳的个人，枪炮病菌与钢铁批判\"发明英雄论\"，强调技术进步的累积性和社会需求的驱动作用",
+      "prose_len": 807,
+      "prose_chars": 717,
+      "h2_count": 4,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "分裂": {
       "type": "concept",
@@ -1551,7 +1597,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 22
+      "total_refs": 23
     },
     "技术积累": {
       "type": "concept",
@@ -1577,7 +1623,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 27,
-      "total_refs": 5
+      "total_refs": 6
     },
     "旧大陆": {
       "type": "concept",
@@ -1599,7 +1645,7 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "继承": {
       "type": "concept",
@@ -1801,7 +1847,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 3
+      "total_refs": 4
     },
     "卡哈马卡之战": {
       "type": "event",
@@ -2379,6 +2425,29 @@
       "quality_score": 17,
       "total_refs": 0
     },
+    "南北轴": {
+      "type": "concept",
+      "label": "南北轴",
+      "aliases": [
+        "南北走向",
+        "南北轴线",
+        "大陆轴线南北"
+      ],
+      "tags": [
+        "地理",
+        "大陆轴线",
+        "作物传播"
+      ],
+      "path": "na/南北轴.md",
+      "description": "美洲和非洲等大陆的主体呈南北走向，使得作物与技术的传播必须穿越不同气候带，速度远慢于东西轴大陆",
+      "prose_len": 808,
+      "prose_chars": 718,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 7,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "南岛语族扩张": {
       "type": "event",
       "label": "南岛语族扩张",
@@ -2505,7 +2574,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 5
+      "total_refs": 6
     },
     "欧洲殖民非洲": {
       "type": "event",
@@ -2554,7 +2623,7 @@
       "quality": "featured",
       "quality_score": 56,
       "affiliation": "西班牙王国",
-      "total_refs": 5
+      "total_refs": 6
     },
     "Preface": {
       "type": "chapter",
@@ -2624,7 +2693,7 @@
       "blockquote_count": 1,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 7
+      "total_refs": 8
     },
     "气候": {
       "type": "concept",
@@ -2752,6 +2821,29 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 59,
+      "total_refs": 0
+    },
+    "人种": {
+      "type": "concept",
+      "label": "人种",
+      "aliases": [
+        "种族",
+        "人类种族",
+        "生物性种族"
+      ],
+      "tags": [
+        "生物学",
+        "种族主义",
+        "历史解释"
+      ],
+      "path": "re/人种.md",
+      "description": "对人类群体进行生物学分类的概念，枪炮病菌与钢铁明确反驳以人种差异解释历史走向的论点",
+      "prose_len": 810,
+      "prose_chars": 719,
+      "h2_count": 4,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
       "total_refs": 0
     },
     "人类首次定居澳大利亚": {
@@ -3405,7 +3497,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 32
+      "total_refs": 33
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -3456,7 +3548,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 0
+      "total_refs": 1
     },
     "行政": {
       "type": "concept",
@@ -3943,6 +4035,28 @@
       "quality_score": 58,
       "total_refs": 6
     },
+    "征服者": {
+      "type": "concept",
+      "label": "征服者",
+      "aliases": [
+        "conquistador",
+        "军事征服者"
+      ],
+      "tags": [
+        "征服",
+        "军事",
+        "殖民主义"
+      ],
+      "path": "zh/征服者.md",
+      "description": "以军事力量征服其他社会的施动者，在枪炮病菌与钢铁框架中是背后结构性优势的体现者",
+      "prose_len": 745,
+      "prose_chars": 655,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 7,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "战争": {
       "type": "concept",
       "label": "战争",
@@ -4250,7 +4364,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 1
+      "total_refs": 2
     }
   },
   "alias_index": {
@@ -4281,7 +4395,10 @@
     "班图扩张": "班图扩张",
     "Bantu Expansion": "班图扩张",
     "班图族扩张": "班图扩张",
-    "病菌": "病菌",
+    "病原体": "病原体",
+    "致病原": "病原体",
+    "病菌": "病原体",
+    "pathogen": "病原体",
     "传染病": "病菌",
     "流行病": "病菌",
     "germs": "病菌",
@@ -4370,6 +4487,10 @@
     "发明": "发明",
     "技术发明": "发明",
     "invention": "发明",
+    "发明家": "发明家",
+    "发明者": "发明家",
+    "创新者": "发明家",
+    "inventor": "发明家",
     "分裂": "分裂",
     "政治分裂": "分裂",
     "碎片化": "分裂",
@@ -4589,6 +4710,9 @@
     "sheep": "绵羊",
     "Ovis aries": "绵羊",
     "目录": "目录",
+    "南北轴": "南北轴",
+    "南北走向": "南北轴",
+    "大陆轴线南北": "南北轴",
     "南岛语族扩张": "南岛语族扩张",
     "Austronesian Expansion": "南岛语族扩张",
     "波利尼西亚扩张": "南岛语族扩张",
@@ -4647,6 +4771,9 @@
     "population size": "人口规模",
     "人口数量": "人口规模",
     "人口": "人口规模",
+    "人种": "人种",
+    "人类种族": "人种",
+    "生物性种族": "人种",
     "人类首次定居澳大利亚": "人类首次定居澳大利亚",
     "First Human Settlement of Australia": "人类首次定居澳大利亚",
     "澳大利亚最早定居": "人类首次定居澳大利亚",
@@ -4835,6 +4962,9 @@
     "Mesoamerica": "中美洲",
     "墨西哥": "中美洲",
     "美索美洲": "中美洲",
+    "征服者": "征服者",
+    "conquistador": "征服者",
+    "军事征服者": "征服者",
     "战争": "战争",
     "征服战争": "战争",
     "武装冲突": "战争",
@@ -4888,6 +5018,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 175,
-  "generated": "2026-05-25T13:45:45Z"
+  "page_count": 180,
+  "generated": "2026-05-25T13:50:54Z"
 }
