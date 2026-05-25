@@ -26,6 +26,23 @@
       ],
       "path": "ai/爱迪生.md"
     },
+    "alabobandao": {
+      "type": "place",
+      "label": "阿拉伯半岛",
+      "aliases": [
+        "Arabian Peninsula"
+      ],
+      "path": "al/alabobandao.md"
+    },
+    "annatuoliya": {
+      "type": "place",
+      "label": "安纳托利亚",
+      "aliases": [
+        "Anatolia",
+        "小亚细亚"
+      ],
+      "path": "an/annatuoliya.md"
+    },
     "安娜-卡列尼娜原则": {
       "type": "concept",
       "label": "安娜·卡列尼娜原则",
@@ -1516,6 +1533,14 @@
       ],
       "path": "na/南岛语族扩张.md"
     },
+    "niluohe": {
+      "type": "place",
+      "label": "尼罗河",
+      "aliases": [
+        "Nile River"
+      ],
+      "path": "ni/niluohe.md"
+    },
     "牛": {
       "type": "species",
       "label": "牛",
@@ -2128,6 +2153,14 @@
       ],
       "path": "wu/无花果.md"
     },
+    "ximalaya": {
+      "type": "place",
+      "label": "喜马拉雅",
+      "aliases": [
+        "Himalayas"
+      ],
+      "path": "xi/ximalaya.md"
+    },
     "xinyuewodi": {
       "type": "place",
       "label": "新月沃地",
@@ -2512,6 +2545,14 @@
       ],
       "path": "za/再分配.md"
     },
+    "zhili": {
+      "type": "place",
+      "label": "智利",
+      "aliases": [
+        "Chile"
+      ],
+      "path": "zh/zhili.md"
+    },
     "专业化分工": {
       "type": "concept",
       "label": "专业化分工",
@@ -2734,6 +2775,13 @@
     "爱迪生": "爱迪生",
     "托马斯·爱迪生": "爱迪生",
     "Thomas Edison": "爱迪生",
+    "alabobandao": "alabobandao",
+    "阿拉伯半岛": "alabobandao",
+    "Arabian Peninsula": "alabobandao",
+    "annatuoliya": "annatuoliya",
+    "安纳托利亚": "annatuoliya",
+    "Anatolia": "annatuoliya",
+    "小亚细亚": "annatuoliya",
     "安娜-卡列尼娜原则": "安娜-卡列尼娜原则",
     "安娜·卡列尼娜原则": "安娜-卡列尼娜原则",
     "安娜卡列尼娜原则": "安娜-卡列尼娜原则",
@@ -3275,6 +3323,9 @@
     "Austronesian Expansion": "南岛语族扩张",
     "波利尼西亚扩张": "南岛语族扩张",
     "南岛人扩张": "南岛语族扩张",
+    "niluohe": "niluohe",
+    "尼罗河": "niluohe",
+    "Nile River": "niluohe",
     "牛": "牛",
     "家牛": "牛",
     "黄牛": "牛",
@@ -3492,6 +3543,9 @@
     "东西轴纬度": "纬度",
     "无花果": "无花果",
     "fig": "无花果",
+    "ximalaya": "ximalaya",
+    "喜马拉雅": "ximalaya",
+    "Himalayas": "ximalaya",
     "xinyuewodi": "xinyuewodi",
     "新月沃地": "xinyuewodi",
     "Fertile Crescent": "xinyuewodi",
@@ -3630,6 +3684,9 @@
     "再分配经济": "再分配",
     "贡品再分配": "再分配",
     "财富再分配": "再分配",
+    "zhili": "zhili",
+    "智利": "zhili",
+    "Chile": "zhili",
     "专业化分工": "专业化分工",
     "经济专业化": "专业化分工",
     "分工": "专业化分工",
@@ -3713,6 +3770,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 286,
-  "generated": "2026-05-25T15:02:29Z"
+  "page_count": 291,
+  "generated": "2026-05-25T15:03:26Z"
 }
