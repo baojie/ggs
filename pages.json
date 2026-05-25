@@ -210,7 +210,7 @@
       "pn_count": 3,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 4
+      "total_refs": 5
     },
     "病菌": {
       "type": "concept",
@@ -287,6 +287,29 @@
       "quality": "featured",
       "quality_score": 59,
       "total_refs": 8
+    },
+    "部族": {
+      "type": "concept",
+      "label": "部族",
+      "aliases": [
+        "部落",
+        "族群组织",
+        "部落组织"
+      ],
+      "tags": [
+        "社会组织",
+        "政治结构",
+        "史前社会"
+      ],
+      "path": "bu/部族.md",
+      "description": "介于族群与酋长制之间的社会政治组织形式，以村落为基本政治单元",
+      "prose_len": 758,
+      "prose_chars": 683,
+      "h2_count": 4,
+      "pn_count": 4,
+      "wikilink_count": 8,
+      "blockquote_count": 0,
+      "total_refs": 1
     },
     "部落": {
       "type": "concept",
@@ -703,7 +726,7 @@
       "blockquote_count": 1,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 11
+      "total_refs": 12
     },
     "创新": {
       "type": "concept",
@@ -756,6 +779,52 @@
       "quality_score": 60,
       "total_refs": 1
     },
+    "船只": {
+      "type": "concept",
+      "label": "船只",
+      "aliases": [
+        "船舶",
+        "帆船",
+        "航船"
+      ],
+      "tags": [
+        "技术",
+        "航海",
+        "征服"
+      ],
+      "path": "ch/船只.md",
+      "description": "水上运输工具，是航海能力的物质载体，使人类得以跨越海洋进行贸易、传播和征服",
+      "prose_len": 748,
+      "prose_chars": 662,
+      "h2_count": 4,
+      "pn_count": 4,
+      "wikilink_count": 7,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
+    "村落": {
+      "type": "concept",
+      "label": "村落",
+      "aliases": [
+        "村庄",
+        "定居点",
+        "settlement"
+      ],
+      "tags": [
+        "政治组织",
+        "社会复杂化",
+        "农业"
+      ],
+      "path": "cu/村落.md",
+      "description": "固定居住的基本定居单元，是粮食生产社会的典型聚落形式，也是从族群向酋长制过渡的关键中间状态",
+      "prose_len": 787,
+      "prose_chars": 697,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
     "大陆轴线": {
       "type": "concept",
       "label": "大陆轴线",
@@ -779,7 +848,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 40
+      "total_refs": 41
     },
     "大麦": {
       "type": "species",
@@ -929,7 +998,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 26,
-      "total_refs": 1
+      "total_refs": 3
     },
     "帝国": {
       "type": "concept",
@@ -1393,7 +1462,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 20
+      "total_refs": 21
     },
     "国家的形成": {
       "type": "event",
@@ -1495,6 +1564,29 @@
       "quality": "featured",
       "quality_score": 61,
       "total_refs": 2
+    },
+    "河流": {
+      "type": "concept",
+      "label": "河流",
+      "aliases": [
+        "水道",
+        "可通航河流",
+        "内陆水系"
+      ],
+      "tags": [
+        "地理",
+        "农业起源",
+        "文明核心区"
+      ],
+      "path": "he/河流.md",
+      "description": "内陆水道系统，是农业起源核心区的基础条件，也是文明内部整合与贸易网络的关键基础设施",
+      "prose_len": 812,
+      "prose_chars": 721,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "黑死病": {
       "type": "event",
@@ -1617,6 +1709,30 @@
       "blockquote_count": 0,
       "total_refs": 0
     },
+    "季节性": {
+      "type": "concept",
+      "label": "季节性",
+      "aliases": [
+        "季节变化",
+        "生长季节",
+        "气候季节"
+      ],
+      "tags": [
+        "气候",
+        "农业起源",
+        "植物驯化",
+        "地理"
+      ],
+      "path": "ji/季节性.md",
+      "description": "气候随时间呈现的规律性周期变化，驱动植物生长周期并深刻影响农业起源与扩散",
+      "prose_len": 807,
+      "prose_chars": 734,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 10,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "家畜": {
       "type": "concept",
       "label": "家畜",
@@ -1640,7 +1756,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 16
+      "total_refs": 17
     },
     "技术传播": {
       "type": "concept",
@@ -1713,7 +1829,7 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 4
+      "total_refs": 6
     },
     "继承": {
       "type": "concept",
@@ -1838,7 +1954,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 3
+      "total_refs": 5
     },
     "军事征服": {
       "type": "concept",
@@ -2417,7 +2533,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 6
+      "total_refs": 7
     },
     "民族": {
       "type": "concept",
@@ -2736,7 +2852,7 @@
       "quality": "featured",
       "quality_score": 56,
       "affiliation": "西班牙王国",
-      "total_refs": 8
+      "total_refs": 9
     },
     "Preface": {
       "type": "chapter",
@@ -2858,7 +2974,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 27,
-      "total_refs": 9
+      "total_refs": 11
     },
     "人口密度": {
       "type": "concept",
@@ -3079,7 +3195,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 21
+      "total_refs": 22
     },
     "伤寒": {
       "type": "concept",
@@ -3202,7 +3318,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 13
+      "total_refs": 15
     },
     "生态": {
       "type": "concept",
@@ -3303,7 +3419,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 23
+      "total_refs": 24
     },
     "探险": {
       "type": "concept",
@@ -3702,7 +3818,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 33
+      "total_refs": 35
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -4187,7 +4303,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 8
+      "total_refs": 9
     },
     "中国农业起源": {
       "type": "event",
@@ -4639,9 +4755,11 @@
     "Polynesia": "波利尼西亚",
     "太平洋诸岛": "波利尼西亚",
     "南岛人": "波利尼西亚",
-    "部落": "部落",
+    "部族": "部族",
+    "部落": "部族",
+    "族群组织": "部族",
+    "部落组织": "部族",
     "部落社会": "部落",
-    "部落组织": "部落",
     "氏族部落": "部落",
     "草原": "草原",
     "大草原": "草原",
@@ -4678,6 +4796,14 @@
     "城镇": "城市",
     "都市": "城市",
     "城市化": "城市",
+    "船只": "船只",
+    "船舶": "船只",
+    "帆船": "船只",
+    "航船": "船只",
+    "村落": "村落",
+    "村庄": "村落",
+    "定居点": "村落",
+    "settlement": "村落",
     "大陆轴线": "大陆轴线",
     "大陆主轴线": "大陆轴线",
     "东西轴线": "大陆轴线",
@@ -4790,6 +4916,10 @@
     "maritime technology": "航海",
     "海上扩张": "航海",
     "航运": "航海",
+    "河流": "河流",
+    "水道": "河流",
+    "可通航河流": "河流",
+    "内陆水系": "河流",
     "黑死病": "黑死病",
     "Black Death": "黑死病",
     "腺鼠疫": "黑死病",
@@ -4810,6 +4940,10 @@
     "霍乱": "霍乱",
     "cholera": "霍乱",
     "霍乱弧菌": "霍乱",
+    "季节性": "季节性",
+    "季节变化": "季节性",
+    "生长季节": "季节性",
+    "气候季节": "季节性",
     "家畜": "家畜",
     "驯化动物": "家畜",
     "牲畜": "家畜",
@@ -5283,6 +5417,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 190,
-  "generated": "2026-05-25T14:00:38Z"
+  "page_count": 195,
+  "generated": "2026-05-25T14:07:50Z"
 }
