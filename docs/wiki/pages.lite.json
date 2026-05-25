@@ -125,6 +125,16 @@
       ],
       "path": "bu/部落.md"
     },
+    "草原": {
+      "type": "concept",
+      "label": "草原",
+      "aliases": [
+        "大草原",
+        "欧亚草原",
+        "steppe"
+      ],
+      "path": "ca/草原.md"
+    },
     "ch01-up-to-the-starting-line": {
       "type": "chapter",
       "label": "第一章　走上起跑线",
@@ -597,6 +607,15 @@
       ],
       "path": "hu/环境.md"
     },
+    "霍乱": {
+      "type": "concept",
+      "label": "霍乱",
+      "aliases": [
+        "cholera",
+        "霍乱弧菌"
+      ],
+      "path": "hu/霍乱.md"
+    },
     "家畜": {
       "type": "concept",
       "label": "家畜",
@@ -1001,6 +1020,15 @@
       ],
       "path": "nu/奴隶.md"
     },
+    "疟疾": {
+      "type": "concept",
+      "label": "疟疾",
+      "aliases": [
+        "malaria",
+        "疟原虫感染"
+      ],
+      "path": "nv/疟疾.md"
+    },
     "欧亚大陆": {
       "type": "place",
       "label": "欧亚大陆",
@@ -1290,6 +1318,26 @@
         "地力"
       ],
       "path": "tu/土壤.md"
+    },
+    "突变": {
+      "type": "concept",
+      "label": "突变",
+      "aliases": [
+        "基因突变",
+        "遗传突变",
+        "mutation"
+      ],
+      "path": "tu/突变.md"
+    },
+    "王国": {
+      "type": "concept",
+      "label": "王国",
+      "aliases": [
+        "国家雏形",
+        "早期国家",
+        "kingdom"
+      ],
+      "path": "wa/王国.md"
     },
     "瓦特": {
       "type": "person",
@@ -1774,6 +1822,10 @@
     "部落社会": "部落",
     "部落组织": "部落",
     "氏族部落": "部落",
+    "草原": "草原",
+    "大草原": "草原",
+    "欧亚草原": "草原",
+    "steppe": "草原",
     "ch01-up-to-the-starting-line": "ch01-up-to-the-starting-line",
     "ch02-natural-experiment-of-history": "ch02-natural-experiment-of-history",
     "ch03-collision-at-cajamarca": "ch03-collision-at-cajamarca",
@@ -1930,6 +1982,9 @@
     "environment": "环境",
     "自然环境": "环境",
     "环境条件": "环境",
+    "霍乱": "霍乱",
+    "cholera": "霍乱",
+    "霍乱弧菌": "霍乱",
     "家畜": "家畜",
     "驯化动物": "家畜",
     "牲畜": "家畜",
@@ -2090,6 +2145,9 @@
     "奴隶制": "奴隶",
     "奴隶劳动": "奴隶",
     "奴役": "奴隶",
+    "疟疾": "疟疾",
+    "malaria": "疟疾",
+    "疟原虫感染": "疟疾",
     "欧亚大陆": "欧亚大陆",
     "Eurasia": "欧亚大陆",
     "亚欧大陆": "欧亚大陆",
@@ -2204,6 +2262,14 @@
     "土壤条件": "土壤",
     "土壤肥力": "土壤",
     "地力": "土壤",
+    "突变": "突变",
+    "基因突变": "突变",
+    "遗传突变": "突变",
+    "mutation": "突变",
+    "王国": "王国",
+    "国家雏形": "王国",
+    "早期国家": "王国",
+    "kingdom": "王国",
     "瓦特": "瓦特",
     "詹姆士·瓦特": "瓦特",
     "James Watt": "瓦特",
@@ -2377,6 +2443,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 180,
-  "generated": "2026-05-25T13:50:54Z"
+  "page_count": 185,
+  "generated": "2026-05-25T13:55:08Z"
 }
