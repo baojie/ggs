@@ -1266,6 +1266,28 @@
       "quality_score": 58,
       "total_refs": 0
     },
+    "鹅": {
+      "type": "species",
+      "label": "鹅",
+      "aliases": [
+        "goose",
+        "家鹅"
+      ],
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ],
+      "path": "e0/鹅.md",
+      "description": "欧亚大陆驯化的水禽，为人类提供肉、蛋和羽毛",
+      "prose_len": 384,
+      "prose_chars": 337,
+      "h2_count": 4,
+      "pn_count": 0,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "Epilogue": {
       "type": "chapter",
       "label": "后记　人类史作为一门科学的未来",
@@ -2074,6 +2096,28 @@
       "blockquote_count": 0,
       "total_refs": 0
     },
+    "火鸡": {
+      "type": "species",
+      "label": "火鸡",
+      "aliases": [
+        "turkey",
+        "吐绶鸡"
+      ],
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ],
+      "path": "hu/火鸡.md",
+      "description": "中美洲驯化的大型鸟类，为新大陆唯一的驯化鸟类之一",
+      "prose_len": 497,
+      "prose_chars": 439,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "环境": {
       "type": "concept",
       "label": "环境",
@@ -2522,7 +2566,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 2
     },
     "军事征服": {
       "type": "concept",
@@ -2924,7 +2968,52 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 1
+      "total_refs": 2
+    },
+    "驴": {
+      "type": "species",
+      "label": "驴",
+      "aliases": [
+        "donkey",
+        "ass",
+        "家驴"
+      ],
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ],
+      "path": "lv/驴.md",
+      "description": "非洲驯化的大型哺乳动物，是古代文明重要的驮畜和骑乘动物",
+      "prose_len": 384,
+      "prose_chars": 337,
+      "h2_count": 4,
+      "pn_count": 0,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
+    "牦牛": {
+      "type": "species",
+      "label": "牦牛",
+      "aliases": [
+        "yak",
+        "犛牛"
+      ],
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ],
+      "path": "ma/牦牛.md",
+      "description": "西藏高原驯化的大型哺乳动物，适应高海拔环境，提供肉、奶、毛皮和驮运服务",
+      "prose_len": 429,
+      "prose_chars": 382,
+      "h2_count": 4,
+      "pn_count": 0,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "贸易": {
       "type": "concept",
@@ -2976,7 +3065,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 9
+      "total_refs": 11
     },
     "马的驯化": {
       "type": "event",
@@ -3421,7 +3510,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 1
+      "total_refs": 2
     },
     "农业": {
       "type": "concept",
@@ -5055,7 +5144,29 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 49
+      "total_refs": 54
+    },
+    "驯鹿": {
+      "type": "species",
+      "label": "驯鹿",
+      "aliases": [
+        "reindeer",
+        "caribou"
+      ],
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ],
+      "path": "xu/驯鹿.md",
+      "description": "北极地区驯化的大型哺乳动物，用于拉雪橇和提供肉食毛皮",
+      "prose_len": 413,
+      "prose_chars": 366,
+      "h2_count": 4,
+      "pn_count": 0,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "亚历山大大帝": {
       "type": "person",
@@ -5663,7 +5774,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 6
+      "total_refs": 7
     },
     "征服者": {
       "type": "concept",
@@ -6231,6 +6342,9 @@
     "野生动物": "动物",
     "动物物种": "动物",
     "动物多样性": "动物",
+    "鹅": "鹅",
+    "goose": "鹅",
+    "家鹅": "鹅",
     "Epilogue": "Epilogue",
     "发明": "发明",
     "技术发明": "发明",
@@ -6357,6 +6471,9 @@
     "黑色火药": "火药",
     "黑火药": "火药",
     "炸药": "火药",
+    "火鸡": "火鸡",
+    "turkey": "火鸡",
+    "吐绶鸡": "火鸡",
     "环境": "环境",
     "environment": "环境",
     "自然环境": "环境",
@@ -6490,6 +6607,13 @@
     "双峰驼": "骆驼",
     "camel": "骆驼",
     "Camelus dromedarius": "骆驼",
+    "驴": "驴",
+    "donkey": "驴",
+    "ass": "驴",
+    "家驴": "驴",
+    "牦牛": "牦牛",
+    "yak": "牦牛",
+    "犛牛": "牦牛",
     "贸易": "贸易",
     "trade": "贸易",
     "商贸": "贸易",
@@ -6803,6 +6927,9 @@
     "植物驯化": "驯化",
     "动物驯化": "驯化",
     "domestication": "驯化",
+    "驯鹿": "驯鹿",
+    "reindeer": "驯鹿",
+    "caribou": "驯鹿",
     "亚历山大大帝": "亚历山大大帝",
     "Alexander the Great": "亚历山大大帝",
     "亚历山大": "亚历山大大帝",
@@ -6957,6 +7084,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 251,
-  "generated": "2026-05-25T14:54:35Z"
+  "page_count": 256,
+  "generated": "2026-05-25T14:55:17Z"
 }
