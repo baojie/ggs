@@ -676,7 +676,7 @@
       "pn_count": 5,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 2
     },
     "城市": {
       "type": "concept",
@@ -825,7 +825,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 9
+      "total_refs": 10
     },
     "地理因素": {
       "type": "concept",
@@ -1039,7 +1039,7 @@
       "blockquote_count": 1,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 3
+      "total_refs": 4
     },
     "高粱": {
       "type": "species",
@@ -1268,7 +1268,7 @@
       "blockquote_count": 1,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 1
+      "total_refs": 2
     },
     "谷登堡": {
       "type": "person",
@@ -1345,6 +1345,29 @@
       "quality_score": 25,
       "total_refs": 1
     },
+    "环境": {
+      "type": "concept",
+      "label": "环境",
+      "aliases": [
+        "environment",
+        "自然环境",
+        "环境条件"
+      ],
+      "tags": [
+        "地理",
+        "决定论",
+        "社会发展"
+      ],
+      "path": "hu/环境.md",
+      "description": "自然环境对人类社会发展轨迹的塑造作用，《枪炮》核心论点的出发点",
+      "prose_len": 828,
+      "prose_chars": 746,
+      "h2_count": 5,
+      "pn_count": 4,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "家畜": {
       "type": "concept",
       "label": "家畜",
@@ -1368,7 +1391,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 15
+      "total_refs": 16
     },
     "技术传播": {
       "type": "concept",
@@ -1393,7 +1416,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 21
+      "total_refs": 22
     },
     "技术积累": {
       "type": "concept",
@@ -1417,7 +1440,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 4
     },
     "近端原因与终极原因": {
       "type": "concept",
@@ -1443,6 +1466,30 @@
       "quality": "standard",
       "quality_score": 29,
       "total_refs": 32
+    },
+    "金属": {
+      "type": "concept",
+      "label": "金属",
+      "aliases": [
+        "metals",
+        "金属材料",
+        "铜铁",
+        "金属工具"
+      ],
+      "tags": [
+        "技术",
+        "材料",
+        "冶金"
+      ],
+      "path": "ji/金属.md",
+      "description": "铜、铁、青铜等金属材料的开发利用，是技术进步与军事优势的关键物质基础",
+      "prose_len": 888,
+      "prose_chars": 797,
+      "h2_count": 5,
+      "pn_count": 4,
+      "wikilink_count": 8,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "军事征服": {
       "type": "concept",
@@ -1563,7 +1610,31 @@
       "pn_count": 5,
       "wikilink_count": 6,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 3
+    },
+    "科学": {
+      "type": "concept",
+      "label": "科学",
+      "aliases": [
+        "science",
+        "科学方法",
+        "科学观点",
+        "历史科学"
+      ],
+      "tags": [
+        "方法论",
+        "知识",
+        "欧洲"
+      ],
+      "path": "ke/科学.md",
+      "description": "经验性知识体系与科学方法，作为欧洲技术优势的意识形态前提及历史学的方法论基础",
+      "prose_len": 772,
+      "prose_chars": 698,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 6,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "科尔特斯": {
       "type": "person",
@@ -1662,7 +1733,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 62
+      "total_refs": 64
     },
     "轮子": {
       "type": "concept",
@@ -2135,7 +2206,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 13
+      "total_refs": 14
     },
     "奴隶": {
       "type": "concept",
@@ -2350,7 +2421,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 8
+      "total_refs": 9
     },
     "人口扩张": {
       "type": "concept",
@@ -2522,7 +2593,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 5
+      "total_refs": 6
     },
     "水稻": {
       "type": "species",
@@ -2699,6 +2770,30 @@
       "quality_score": 28,
       "total_refs": 4
     },
+    "土壤": {
+      "type": "concept",
+      "label": "土壤",
+      "aliases": [
+        "soil",
+        "土壤条件",
+        "土壤肥力",
+        "地力"
+      ],
+      "tags": [
+        "地理",
+        "农业",
+        "环境"
+      ],
+      "path": "tu/土壤.md",
+      "description": "土壤的肥力与理化性质是农业生产力的基础，决定了各地区农业发展的天花板",
+      "prose_len": 830,
+      "prose_chars": 753,
+      "h2_count": 4,
+      "pn_count": 4,
+      "wikilink_count": 9,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "瓦特": {
       "type": "person",
       "label": "詹姆士·瓦特",
@@ -2746,6 +2841,29 @@
       "quality": "standard",
       "quality_score": 31,
       "total_refs": 2
+    },
+    "文化": {
+      "type": "concept",
+      "label": "文化",
+      "aliases": [
+        "culture",
+        "文化因素",
+        "文化差异"
+      ],
+      "tags": [
+        "社会",
+        "文化",
+        "技术采纳"
+      ],
+      "path": "we/文化.md",
+      "description": "人类群体共有的行为与信仰体系，在技术采纳与传播中发挥独立的历史作用",
+      "prose_len": 796,
+      "prose_chars": 712,
+      "h2_count": 5,
+      "pn_count": 4,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "文字的独立发明": {
       "type": "event",
@@ -2895,7 +3013,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 30
+      "total_refs": 31
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -3020,7 +3138,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 6
+      "total_refs": 7
     },
     "耶利": {
       "type": "person",
@@ -3092,7 +3210,7 @@
       "blockquote_count": 3,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 1
+      "total_refs": 2
     },
     "移民": {
       "type": "concept",
@@ -3140,7 +3258,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 3
+      "total_refs": 4
     },
     "游牧": {
       "type": "concept",
@@ -3263,7 +3381,7 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "再分配": {
       "type": "concept",
@@ -3311,7 +3429,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 4
+      "total_refs": 5
     },
     "中国": {
       "type": "place",
@@ -3462,7 +3580,7 @@
       "blockquote_count": 1,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 7
+      "total_refs": 8
     },
     "植物学": {
       "type": "concept",
@@ -3860,6 +3978,10 @@
     "Black Death": "黑死病",
     "腺鼠疫": "黑死病",
     "1346年鼠疫": "黑死病",
+    "环境": "环境",
+    "environment": "环境",
+    "自然环境": "环境",
+    "环境条件": "环境",
     "家畜": "家畜",
     "驯化动物": "家畜",
     "牲畜": "家畜",
@@ -3876,6 +3998,11 @@
     "直接原因与终极原因": "近端原因与终极原因",
     "proximate cause": "近端原因与终极原因",
     "ultimate cause": "近端原因与终极原因",
+    "金属": "金属",
+    "metals": "金属",
+    "金属材料": "金属",
+    "铜铁": "金属",
+    "金属工具": "金属",
     "军事征服": "军事征服",
     "military conquest": "军事征服",
     "武装征服": "军事征服",
@@ -3894,6 +4021,11 @@
     "archaeology": "考古学",
     "考古学方法": "考古学",
     "考古证据": "考古学",
+    "科学": "科学",
+    "science": "科学",
+    "科学方法": "科学",
+    "科学观点": "科学",
+    "历史科学": "科学",
     "科尔特斯": "科尔特斯",
     "埃尔南·科尔特斯": "科尔特斯",
     "Hernán Cortés": "科尔特斯",
@@ -4075,12 +4207,21 @@
     "痘病毒": "天花病毒",
     "smallpox": "天花病毒",
     "Variola virus": "天花病毒",
+    "土壤": "土壤",
+    "soil": "土壤",
+    "土壤条件": "土壤",
+    "土壤肥力": "土壤",
+    "地力": "土壤",
     "瓦特": "瓦特",
     "詹姆士·瓦特": "瓦特",
     "James Watt": "瓦特",
     "豌豆": "豌豆",
     "pea": "豌豆",
     "Pisum sativum": "豌豆",
+    "文化": "文化",
+    "culture": "文化",
+    "文化因素": "文化",
+    "文化差异": "文化",
     "文字的独立发明": "文字的独立发明",
     "Independent Invention of Writing": "文字的独立发明",
     "苏美尔文字": "文字的独立发明",
@@ -4237,6 +4378,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 155,
-  "generated": "2026-05-25T13:19:11Z"
+  "page_count": 160,
+  "generated": "2026-05-25T13:24:13Z"
 }
