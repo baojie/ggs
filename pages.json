@@ -235,7 +235,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 35
+      "total_refs": 37
     },
     "伯克和威尔斯": {
       "type": "person",
@@ -287,6 +287,29 @@
       "quality": "featured",
       "quality_score": 59,
       "total_refs": 8
+    },
+    "玻璃": {
+      "type": "concept",
+      "label": "玻璃",
+      "aliases": [
+        "玻璃器具",
+        "玻璃制品",
+        "硅酸盐玻璃"
+      ],
+      "tags": [
+        "材料技术",
+        "技术积累",
+        "科学仪器"
+      ],
+      "path": "bo/玻璃.md",
+      "description": "由沙子和石灰岩等硅酸盐材料高温熔制而成的非晶态固体，是人类长期偶然积累发现的技术成果",
+      "prose_len": 879,
+      "prose_chars": 803,
+      "h2_count": 4,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "部族": {
       "type": "concept",
@@ -701,6 +724,29 @@
       "chapter": 19,
       "book_seq": 19,
       "total_refs": 1
+    },
+    "传教": {
+      "type": "concept",
+      "label": "传教",
+      "aliases": [
+        "传教活动",
+        "传教士",
+        "宗教传播"
+      ],
+      "tags": [
+        "宗教",
+        "殖民扩张",
+        "文化接触"
+      ],
+      "path": "ch/传教.md",
+      "description": "有组织地向异教地区传播特定宗教信仰的活动，在历史上与政治征服和文化同化密切交织",
+      "prose_len": 852,
+      "prose_chars": 776,
+      "h2_count": 4,
+      "pn_count": 4,
+      "wikilink_count": 1,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "传染病": {
       "type": "concept",
@@ -1281,7 +1327,7 @@
       "blockquote_count": 1,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 6
+      "total_refs": 7
     },
     "高粱": {
       "type": "species",
@@ -1731,6 +1777,29 @@
       "quality_score": 57,
       "total_refs": 0
     },
+    "火器": {
+      "type": "concept",
+      "label": "火器",
+      "aliases": [
+        "枪炮",
+        "火药武器",
+        "枪械"
+      ],
+      "tags": [
+        "军事技术",
+        "技术传播",
+        "殖民扩张"
+      ],
+      "path": "hu/火器.md",
+      "description": "利用火药燃烧产生的爆炸力推进弹丸的武器，是近代军事革命的核心技术",
+      "prose_len": 867,
+      "prose_chars": 780,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "环境": {
       "type": "concept",
       "label": "环境",
@@ -1848,7 +1917,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 19
+      "total_refs": 20
     },
     "技术": {
       "type": "concept",
@@ -1871,7 +1940,7 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "技术传播": {
       "type": "concept",
@@ -1945,6 +2014,29 @@
       "wikilink_count": 5,
       "blockquote_count": 0,
       "total_refs": 7
+    },
+    "结核": {
+      "type": "concept",
+      "label": "结核",
+      "aliases": [
+        "肺结核",
+        "结核病",
+        "结核杆菌"
+      ],
+      "tags": [
+        "传染病",
+        "病菌",
+        "人口"
+      ],
+      "path": "ji/结核.md",
+      "description": "由结核杆菌引起的慢性传染病，是人类历史上累计死亡人数最多的传染病之一",
+      "prose_len": 850,
+      "prose_chars": 770,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "继承": {
       "type": "concept",
@@ -2693,7 +2785,30 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 7
+      "total_refs": 8
+    },
+    "棉花": {
+      "type": "concept",
+      "label": "棉花",
+      "aliases": [
+        "棉",
+        "棉纤维",
+        "棉作物"
+      ],
+      "tags": [
+        "作物驯化",
+        "纺织",
+        "农业"
+      ],
+      "path": "mi/棉花.md",
+      "description": "重要的纤维作物，同时也提供油脂，是人类纺织文明的核心植物原料之一",
+      "prose_len": 829,
+      "prose_chars": 750,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "民族": {
       "type": "concept",
@@ -2917,7 +3032,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 11,
-      "total_refs": 0
+      "total_refs": 1
     },
     "疟疾": {
       "type": "concept",
@@ -3722,7 +3837,7 @@
       "pn_count": 5,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "天花病毒": {
       "type": "species",
@@ -3964,7 +4079,7 @@
       "pn_count": 5,
       "wikilink_count": 2,
       "blockquote_count": 0,
-      "total_refs": 7
+      "total_refs": 8
     },
     "文字的独立发明": {
       "type": "event",
@@ -4269,7 +4384,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 9
+      "total_refs": 10
     },
     "耶利": {
       "type": "person",
@@ -5026,7 +5141,7 @@
       "pn_count": 8,
       "wikilink_count": 1,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "作物传播": {
       "type": "concept",
@@ -5099,6 +5214,10 @@
     "Polynesia": "波利尼西亚",
     "太平洋诸岛": "波利尼西亚",
     "南岛人": "波利尼西亚",
+    "玻璃": "玻璃",
+    "玻璃器具": "玻璃",
+    "玻璃制品": "玻璃",
+    "硅酸盐玻璃": "玻璃",
     "部族": "部族",
     "部落": "部族",
     "族群组织": "部族",
@@ -5128,6 +5247,10 @@
     "ch17-speedboat-to-polynesia": "ch17-speedboat-to-polynesia",
     "ch18-collision-of-two-hemispheres": "ch18-collision-of-two-hemispheres",
     "ch19-how-africa-became-black": "ch19-how-africa-became-black",
+    "传教": "传教",
+    "传教活动": "传教",
+    "传教士": "传教",
+    "宗教传播": "传教",
     "epidemic": "传染病",
     "病菌传播": "传染病",
     "传染性疾病": "传染病",
@@ -5288,6 +5411,10 @@
     "用火": "火",
     "火耕": "火",
     "火耕农业": "火",
+    "火器": "火器",
+    "枪炮": "火器",
+    "火药武器": "火器",
+    "枪械": "火器",
     "环境": "环境",
     "environment": "环境",
     "自然环境": "环境",
@@ -5320,6 +5447,10 @@
     "旧大陆": "旧大陆",
     "欧亚非大陆": "旧大陆",
     "Old World": "旧大陆",
+    "结核": "结核",
+    "肺结核": "结核",
+    "结核病": "结核",
+    "结核杆菌": "结核",
     "继承": "继承",
     "inheritance": "继承",
     "世袭": "继承",
@@ -5441,6 +5572,10 @@
     "抵抗力": "免疫力",
     "病菌免疫": "免疫力",
     "immunity": "免疫力",
+    "棉花": "棉花",
+    "棉": "棉花",
+    "棉纤维": "棉花",
+    "棉作物": "棉花",
     "民族": "民族",
     "族群": "民族",
     "民族形成": "民族",
@@ -5494,8 +5629,6 @@
     "血缘": "亲属关系",
     "亲族": "亲属关系",
     "亲属网络": "亲属关系",
-    "枪炮": "枪炮",
-    "火器": "枪炮",
     "firearm": "枪炮",
     "火枪": "枪炮",
     "火炮": "枪炮",
@@ -5801,6 +5934,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 210,
-  "generated": "2026-05-25T14:22:10Z"
+  "page_count": 215,
+  "generated": "2026-05-25T14:26:25Z"
 }
