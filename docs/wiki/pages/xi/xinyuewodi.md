@@ -1,8 +1,8 @@
 ---
 id: xinyuewodi
 type: place
-label: 新月沃地
-aliases: [Fertile Crescent, 肥沃月弯]
+label: 新月沃地（地理）
+aliases: [肥沃月弯]
 tags: [地区, 文明, 农业]
 region: eurasia
 axis: east-west
