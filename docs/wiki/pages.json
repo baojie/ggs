@@ -210,7 +210,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 31
+      "total_refs": 32
     },
     "伯克和威尔斯": {
       "type": "person",
@@ -1015,7 +1015,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 1
+      "total_refs": 2
     },
     "国家的形成": {
       "type": "event",
@@ -1287,7 +1287,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 45
+      "total_refs": 46
     },
     "骆驼": {
       "type": "species",
@@ -2349,6 +2349,32 @@
       "quality_score": 28,
       "total_refs": 6
     },
+    "战争": {
+      "type": "concept",
+      "label": "战争",
+      "aliases": [
+        "征服战争",
+        "武装冲突",
+        "warfare"
+      ],
+      "tags": [
+        "征服",
+        "政治组织",
+        "技术传播",
+        "社会复杂性"
+      ],
+      "path": "zh/战争.md",
+      "description": "有组织的武装冲突，在《枪炮、病菌与钢铁》中作为社会复杂性的放大器：农业粮食储备养活了职业军队，国家组织提供了持久动员能力，而病菌往往比武器更具杀伤力。",
+      "prose_len": 1215,
+      "prose_chars": 1070,
+      "h2_count": 5,
+      "pn_count": 10,
+      "wikilink_count": 5,
+      "blockquote_count": 1,
+      "quality": "standard",
+      "quality_score": 32,
+      "total_refs": 0
+    },
     "猪": {
       "type": "species",
       "label": "猪",
@@ -2722,6 +2748,10 @@
     "Mesoamerica": "中美洲",
     "墨西哥": "中美洲",
     "美索美洲": "中美洲",
+    "战争": "战争",
+    "征服战争": "战争",
+    "武装冲突": "战争",
+    "warfare": "战争",
     "猪": "猪",
     "家猪": "猪",
     "野猪": "猪",
@@ -2732,6 +2762,6 @@
     "字母传播": "字母文字的传播",
     "腓尼基字母传播": "字母文字的传播"
   },
-  "page_count": 103,
-  "generated": "2026-05-25T09:20:54Z"
+  "page_count": 104,
+  "generated": "2026-05-25T09:23:05Z"
 }
