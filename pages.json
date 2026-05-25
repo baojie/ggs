@@ -16,6 +16,8 @@
       "pn_count": 0,
       "wikilink_count": 0,
       "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 13,
       "total_refs": 0
     },
     "爱迪生": {
@@ -36,8 +38,8 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 56,
       "affiliation": "美国",
       "total_refs": 2
     },
@@ -61,8 +63,8 @@
       "pn_count": 7,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 29,
+      "quality": "featured",
+      "quality_score": 59,
       "total_refs": 6
     },
     "安第斯山脉": {
@@ -86,8 +88,8 @@
       "pn_count": 14,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 31,
+      "quality": "featured",
+      "quality_score": 61,
       "total_refs": 2
     },
     "澳大利亚": {
@@ -111,8 +113,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 30,
+      "quality": "featured",
+      "quality_score": 60,
       "total_refs": 9
     },
     "阿塔瓦尔帕": {
@@ -134,10 +136,10 @@
       "pn_count": 7,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 27,
+      "quality": "featured",
+      "quality_score": 57,
       "affiliation": "印加帝国",
-      "total_refs": 4
+      "total_refs": 5
     },
     "斑马": {
       "type": "species",
@@ -159,8 +161,8 @@
       "pn_count": 8,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 30,
+      "quality": "featured",
+      "quality_score": 60,
       "total_refs": 2
     },
     "班图扩张": {
@@ -183,8 +185,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 56,
       "total_refs": 2
     },
     "病菌": {
@@ -208,8 +210,8 @@
       "pn_count": 8,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 28,
+      "quality": "featured",
+      "quality_score": 58,
       "total_refs": 35
     },
     "伯克和威尔斯": {
@@ -232,8 +234,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 25,
+      "quality": "featured",
+      "quality_score": 55,
       "affiliation": "英国",
       "total_refs": 1
     },
@@ -259,8 +261,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 29,
+      "quality": "featured",
+      "quality_score": 59,
       "total_refs": 8
     },
     "部落": {
@@ -285,6 +287,8 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 3
     },
     "ch01-up-to-the-starting-line": {
@@ -651,9 +655,9 @@
       "pn_count": 9,
       "wikilink_count": 5,
       "blockquote_count": 1,
-      "quality": "standard",
-      "quality_score": 30,
-      "total_refs": 5
+      "quality": "featured",
+      "quality_score": 60,
+      "total_refs": 7
     },
     "创新": {
       "type": "concept",
@@ -676,6 +680,8 @@
       "pn_count": 5,
       "wikilink_count": 3,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 59,
       "total_refs": 3
     },
     "城市": {
@@ -700,8 +706,8 @@
       "pn_count": 6,
       "wikilink_count": 5,
       "blockquote_count": 2,
-      "quality": "standard",
-      "quality_score": 30,
+      "quality": "featured",
+      "quality_score": 60,
       "total_refs": 1
     },
     "大陆轴线": {
@@ -725,9 +731,9 @@
       "pn_count": 9,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 29,
-      "total_refs": 36
+      "quality": "featured",
+      "quality_score": 59,
+      "total_refs": 37
     },
     "大麦": {
       "type": "species",
@@ -750,8 +756,8 @@
       "pn_count": 10,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 31,
+      "quality": "featured",
+      "quality_score": 61,
       "total_refs": 5
     },
     "达尔文": {
@@ -799,8 +805,8 @@
       "pn_count": 8,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 28,
+      "quality": "featured",
+      "quality_score": 58,
       "total_refs": 0
     },
     "地理决定论": {
@@ -823,8 +829,8 @@
       "pn_count": 6,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 29,
+      "quality": "featured",
+      "quality_score": 59,
       "total_refs": 10
     },
     "地理因素": {
@@ -849,8 +855,8 @@
       "pn_count": 4,
       "wikilink_count": 5,
       "blockquote_count": 3,
-      "quality": "standard",
-      "quality_score": 30,
+      "quality": "featured",
+      "quality_score": 60,
       "total_refs": 4
     },
     "定居": {
@@ -875,6 +881,8 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 1
     },
     "帝国": {
@@ -899,8 +907,30 @@
       "pn_count": 11,
       "wikilink_count": 6,
       "blockquote_count": 2,
-      "quality": "standard",
-      "quality_score": 32,
+      "quality": "featured",
+      "quality_score": 62,
+      "total_refs": 0
+    },
+    "抵抗": {
+      "type": "concept",
+      "label": "抵抗",
+      "aliases": [
+        "反抗",
+        "武装抵抗"
+      ],
+      "tags": [
+        "军事",
+        "征服",
+        "政治组织"
+      ],
+      "path": "di/抵抗.md",
+      "description": "被征服民族对外来侵略的有组织或无组织的反击，其有效性取决于技术、疾病与组织优势的对比",
+      "prose_len": 686,
+      "prose_chars": 590,
+      "h2_count": 4,
+      "pn_count": 4,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
       "total_refs": 0
     },
     "东南亚": {
@@ -923,8 +953,8 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 56,
       "total_refs": 2
     },
     "Epilogue": {
@@ -967,8 +997,8 @@
       "pn_count": 11,
       "wikilink_count": 5,
       "blockquote_count": 2,
-      "quality": "standard",
-      "quality_score": 33,
+      "quality": "featured",
+      "quality_score": 63,
       "total_refs": 7
     },
     "分裂": {
@@ -992,6 +1022,8 @@
       "pn_count": 3,
       "wikilink_count": 8,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 58,
       "total_refs": 0
     },
     "非洲": {
@@ -1016,8 +1048,8 @@
       "pn_count": 10,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 29,
+      "quality": "featured",
+      "quality_score": 59,
       "total_refs": 7
     },
     "Frontispiece": {
@@ -1060,6 +1092,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 58,
       "total_refs": 0
     },
     "钢铁": {
@@ -1084,8 +1118,8 @@
       "pn_count": 10,
       "wikilink_count": 5,
       "blockquote_count": 1,
-      "quality": "standard",
-      "quality_score": 30,
+      "quality": "featured",
+      "quality_score": 60,
       "total_refs": 4
     },
     "高粱": {
@@ -1109,8 +1143,8 @@
       "pn_count": 8,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 30,
+      "quality": "featured",
+      "quality_score": 60,
       "total_refs": 1
     },
     "哥伦布": {
@@ -1132,10 +1166,10 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 56,
       "affiliation": "西班牙王国",
-      "total_refs": 0
+      "total_refs": 1
     },
     "哥伦布航行与两个半球的碰撞": {
       "type": "event",
@@ -1160,8 +1194,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 56,
       "total_refs": 0
     },
     "更新世大型动物灭绝": {
@@ -1187,8 +1221,8 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 56,
       "total_refs": 2
     },
     "格林伯格": {
@@ -1209,8 +1243,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 25,
+      "quality": "featured",
+      "quality_score": 55,
       "affiliation": "斯坦福大学",
       "total_refs": 0
     },
@@ -1237,8 +1271,8 @@
       "pn_count": 6,
       "wikilink_count": 5,
       "blockquote_count": 3,
-      "quality": "standard",
-      "quality_score": 31,
+      "quality": "featured",
+      "quality_score": 61,
       "total_refs": 1
     },
     "工程": {
@@ -1263,6 +1297,8 @@
       "pn_count": 6,
       "wikilink_count": 8,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 59,
       "total_refs": 1
     },
     "国家": {
@@ -1286,9 +1322,9 @@
       "pn_count": 9,
       "wikilink_count": 8,
       "blockquote_count": 2,
-      "quality": "standard",
-      "quality_score": 31,
-      "total_refs": 19
+      "quality": "featured",
+      "quality_score": 61,
+      "total_refs": 20
     },
     "国家的形成": {
       "type": "event",
@@ -1311,8 +1347,8 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 56,
       "total_refs": 0
     },
     "灌溉": {
@@ -1337,8 +1373,8 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 1,
-      "quality": "standard",
-      "quality_score": 31,
+      "quality": "featured",
+      "quality_score": 61,
       "total_refs": 2
     },
     "谷登堡": {
@@ -1360,8 +1396,8 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 25,
+      "quality": "featured",
+      "quality_score": 55,
       "affiliation": "神圣罗马帝国",
       "total_refs": 4
     },
@@ -1387,8 +1423,8 @@
       "pn_count": 7,
       "wikilink_count": 5,
       "blockquote_count": 3,
-      "quality": "standard",
-      "quality_score": 31,
+      "quality": "featured",
+      "quality_score": 61,
       "total_refs": 2
     },
     "黑死病": {
@@ -1412,8 +1448,8 @@
       "pn_count": 3,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 25,
+      "quality": "featured",
+      "quality_score": 55,
       "total_refs": 1
     },
     "火": {
@@ -1438,6 +1474,8 @@
       "pn_count": 4,
       "wikilink_count": 2,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 57,
       "total_refs": 0
     },
     "环境": {
@@ -1461,6 +1499,8 @@
       "pn_count": 4,
       "wikilink_count": 3,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 58,
       "total_refs": 0
     },
     "家畜": {
@@ -1484,8 +1524,8 @@
       "pn_count": 7,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 31,
+      "quality": "featured",
+      "quality_score": 61,
       "total_refs": 16
     },
     "技术传播": {
@@ -1509,8 +1549,8 @@
       "pn_count": 10,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 30,
+      "quality": "featured",
+      "quality_score": 60,
       "total_refs": 22
     },
     "技术积累": {
@@ -1535,7 +1575,31 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 27,
       "total_refs": 5
+    },
+    "旧大陆": {
+      "type": "concept",
+      "label": "旧大陆",
+      "aliases": [
+        "欧亚非大陆",
+        "Old World"
+      ],
+      "tags": [
+        "地理",
+        "历史",
+        "比较研究"
+      ],
+      "path": "ji/旧大陆.md",
+      "description": "哥伦布到达美洲之前人类已知的欧洲、亚洲和非洲三大洲，与\"新大陆\"美洲构成比较研究的两极",
+      "prose_len": 685,
+      "prose_chars": 610,
+      "h2_count": 3,
+      "pn_count": 5,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 1
     },
     "继承": {
       "type": "concept",
@@ -1559,6 +1623,8 @@
       "pn_count": 3,
       "wikilink_count": 7,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 58,
       "total_refs": 1
     },
     "近端原因与终极原因": {
@@ -1582,8 +1648,8 @@
       "pn_count": 8,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 29,
+      "quality": "featured",
+      "quality_score": 59,
       "total_refs": 32
     },
     "金属": {
@@ -1608,7 +1674,32 @@
       "pn_count": 4,
       "wikilink_count": 8,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 58,
       "total_refs": 1
+    },
+    "阶级": {
+      "type": "concept",
+      "label": "阶级",
+      "aliases": [
+        "社会阶级",
+        "阶层",
+        "社会分层"
+      ],
+      "tags": [
+        "政治组织",
+        "社会复杂化",
+        "国家形成"
+      ],
+      "path": "ji/阶级.md",
+      "description": "按照财富、权力或出身划分的社会层次，是农业社会和复杂国家的结构性特征",
+      "prose_len": 751,
+      "prose_chars": 662,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 7,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "集中": {
       "type": "concept",
@@ -1631,6 +1722,8 @@
       "pn_count": 4,
       "wikilink_count": 7,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 57,
       "total_refs": 1
     },
     "军事征服": {
@@ -1655,8 +1748,8 @@
       "pn_count": 6,
       "wikilink_count": 5,
       "blockquote_count": 2,
-      "quality": "standard",
-      "quality_score": 30,
+      "quality": "featured",
+      "quality_score": 60,
       "total_refs": 10
     },
     "巨型动物": {
@@ -1681,6 +1774,8 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 27,
       "total_refs": 1
     },
     "卡哈马卡": {
@@ -1704,8 +1799,8 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 29,
+      "quality": "featured",
+      "quality_score": 59,
       "total_refs": 3
     },
     "卡哈马卡之战": {
@@ -1728,8 +1823,8 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 56,
       "total_refs": 4
     },
     "考古学": {
@@ -1752,6 +1847,8 @@
       "pn_count": 5,
       "wikilink_count": 6,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 59,
       "total_refs": 4
     },
     "科学": {
@@ -1776,6 +1873,8 @@
       "pn_count": 5,
       "wikilink_count": 6,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 57,
       "total_refs": 0
     },
     "科尔特斯": {
@@ -1797,8 +1896,8 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 25,
+      "quality": "featured",
+      "quality_score": 55,
       "affiliation": "西班牙王国",
       "total_refs": 1
     },
@@ -1825,6 +1924,8 @@
       "pn_count": 6,
       "wikilink_count": 7,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 59,
       "total_refs": 1
     },
     "莱特兄弟": {
@@ -1873,9 +1974,9 @@
       "pn_count": 17,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 30,
-      "total_refs": 65
+      "quality": "featured",
+      "quality_score": 60,
+      "total_refs": 66
     },
     "轮子": {
       "type": "concept",
@@ -1899,8 +2000,8 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 2,
-      "quality": "standard",
-      "quality_score": 31,
+      "quality": "featured",
+      "quality_score": 61,
       "total_refs": 1
     },
     "骆驼": {
@@ -1926,8 +2027,8 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 31,
+      "quality": "featured",
+      "quality_score": 61,
       "total_refs": 1
     },
     "贸易": {
@@ -1952,8 +2053,8 @@
       "pn_count": 6,
       "wikilink_count": 5,
       "blockquote_count": 1,
-      "quality": "standard",
-      "quality_score": 31,
+      "quality": "featured",
+      "quality_score": 61,
       "total_refs": 0
     },
     "马": {
@@ -1978,8 +2079,8 @@
       "pn_count": 7,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 28,
+      "quality": "featured",
+      "quality_score": 58,
       "total_refs": 5
     },
     "马的驯化": {
@@ -2003,8 +2104,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 25,
+      "quality": "featured",
+      "quality_score": 55,
       "total_refs": 0
     },
     "马铃薯": {
@@ -2029,8 +2130,8 @@
       "pn_count": 8,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 27,
+      "quality": "featured",
+      "quality_score": 57,
       "total_refs": 2
     },
     "麻疹": {
@@ -2052,8 +2153,8 @@
       "pn_count": 8,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 30,
+      "quality": "featured",
+      "quality_score": 60,
       "total_refs": 4
     },
     "美国东部": {
@@ -2076,8 +2177,8 @@
       "pn_count": 7,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 27,
+      "quality": "featured",
+      "quality_score": 57,
       "total_refs": 1
     },
     "美洲": {
@@ -2102,8 +2203,8 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 28,
+      "quality": "featured",
+      "quality_score": 58,
       "total_refs": 7
     },
     "美洲独立农业起源": {
@@ -2127,8 +2228,8 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 56,
       "total_refs": 0
     },
     "蒙特朱马": {
@@ -2150,8 +2251,8 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 25,
+      "quality": "featured",
+      "quality_score": 55,
       "affiliation": "阿兹特克帝国",
       "total_refs": 0
     },
@@ -2177,8 +2278,8 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 30,
+      "quality": "featured",
+      "quality_score": 60,
       "total_refs": 6
     },
     "民族": {
@@ -2204,6 +2305,8 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 27,
       "total_refs": 3
     },
     "灭绝": {
@@ -2227,6 +2330,8 @@
       "pn_count": 8,
       "wikilink_count": 5,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 59,
       "total_refs": 1
     },
     "绵羊": {
@@ -2251,8 +2356,8 @@
       "pn_count": 11,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 32,
+      "quality": "featured",
+      "quality_score": 62,
       "total_refs": 4
     },
     "目录": {
@@ -2270,6 +2375,8 @@
       "pn_count": 0,
       "wikilink_count": 21,
       "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 17,
       "total_refs": 0
     },
     "南岛语族扩张": {
@@ -2293,8 +2400,8 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 56,
       "total_refs": 1
     },
     "牛": {
@@ -2320,8 +2427,8 @@
       "pn_count": 9,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 30,
+      "quality": "featured",
+      "quality_score": 60,
       "total_refs": 0
     },
     "农业": {
@@ -2346,8 +2453,8 @@
       "pn_count": 6,
       "wikilink_count": 5,
       "blockquote_count": 2,
-      "quality": "standard",
-      "quality_score": 31,
+      "quality": "featured",
+      "quality_score": 61,
       "total_refs": 16
     },
     "奴隶": {
@@ -2372,6 +2479,8 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 11,
       "total_refs": 0
     },
     "欧亚大陆": {
@@ -2394,8 +2503,8 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 29,
+      "quality": "featured",
+      "quality_score": 59,
       "total_refs": 5
     },
     "欧洲殖民非洲": {
@@ -2419,8 +2528,8 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 56,
       "total_refs": 0
     },
     "皮萨罗": {
@@ -2442,10 +2551,10 @@
       "pn_count": 7,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 56,
       "affiliation": "西班牙王国",
-      "total_refs": 4
+      "total_refs": 5
     },
     "Preface": {
       "type": "chapter",
@@ -2487,6 +2596,8 @@
       "pn_count": 5,
       "wikilink_count": 3,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 57,
       "total_refs": 0
     },
     "枪炮": {
@@ -2511,9 +2622,9 @@
       "pn_count": 10,
       "wikilink_count": 5,
       "blockquote_count": 1,
-      "quality": "standard",
-      "quality_score": 31,
-      "total_refs": 6
+      "quality": "featured",
+      "quality_score": 61,
+      "total_refs": 7
     },
     "气候": {
       "type": "concept",
@@ -2537,8 +2648,8 @@
       "pn_count": 6,
       "wikilink_count": 5,
       "blockquote_count": 1,
-      "quality": "standard",
-      "quality_score": 31,
+      "quality": "featured",
+      "quality_score": 61,
       "total_refs": 3
     },
     "酋长": {
@@ -2563,7 +2674,9 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 7
+      "quality": "standard",
+      "quality_score": 27,
+      "total_refs": 8
     },
     "人口密度": {
       "type": "concept",
@@ -2585,8 +2698,8 @@
       "pn_count": 9,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 31,
+      "quality": "featured",
+      "quality_score": 61,
       "total_refs": 9
     },
     "人口扩张": {
@@ -2611,6 +2724,8 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 27,
       "total_refs": 3
     },
     "人口规模": {
@@ -2635,8 +2750,8 @@
       "pn_count": 4,
       "wikilink_count": 5,
       "blockquote_count": 2,
-      "quality": "standard",
-      "quality_score": 29,
+      "quality": "featured",
+      "quality_score": 59,
       "total_refs": 0
     },
     "人类首次定居澳大利亚": {
@@ -2659,8 +2774,32 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 56,
+      "total_refs": 0
+    },
+    "热带地区": {
+      "type": "concept",
+      "label": "热带地区",
+      "aliases": [
+        "热带",
+        "热带气候",
+        "低纬度地区"
+      ],
+      "tags": [
+        "地理",
+        "气候",
+        "农业",
+        "传染病"
+      ],
+      "path": "re/热带地区.md",
+      "description": "赤道附近的高温多雨地带，在枪炮病菌与钢铁的框架中是农业传播的屏障和殖民的生物障碍",
+      "prose_len": 833,
+      "prose_chars": 737,
+      "h2_count": 4,
+      "pn_count": 6,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
       "total_refs": 0
     },
     "日本": {
@@ -2683,8 +2822,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 25,
+      "quality": "featured",
+      "quality_score": 55,
       "total_refs": 4
     },
     "萨赫勒地带": {
@@ -2708,8 +2847,8 @@
       "pn_count": 10,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 28,
+      "quality": "featured",
+      "quality_score": 58,
       "total_refs": 2
     },
     "书写系统": {
@@ -2733,8 +2872,8 @@
       "pn_count": 12,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 30,
+      "quality": "featured",
+      "quality_score": 60,
       "total_refs": 18
     },
     "剩余粮食": {
@@ -2759,7 +2898,9 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 8
+      "quality": "standard",
+      "quality_score": 27,
+      "total_refs": 9
     },
     "水稻": {
       "type": "species",
@@ -2783,8 +2924,8 @@
       "pn_count": 9,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 30,
+      "quality": "featured",
+      "quality_score": 60,
       "total_refs": 2
     },
     "狩猎采集": {
@@ -2808,9 +2949,9 @@
       "pn_count": 7,
       "wikilink_count": 6,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 31,
-      "total_refs": 10
+      "quality": "featured",
+      "quality_score": 61,
+      "total_refs": 12
     },
     "生态": {
       "type": "concept",
@@ -2834,6 +2975,8 @@
       "pn_count": 3,
       "wikilink_count": 3,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 57,
       "total_refs": 0
     },
     "生态适应": {
@@ -2859,7 +3002,32 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 29,
       "total_refs": 6
+    },
+    "石器时代": {
+      "type": "concept",
+      "label": "石器时代",
+      "aliases": [
+        "旧石器时代",
+        "新石器时代",
+        "Stone Age"
+      ],
+      "tags": [
+        "史前史",
+        "技术",
+        "考古学"
+      ],
+      "path": "sh/石器时代.md",
+      "description": "人类以石制工具为主要技术手段的历史时期，涵盖旧石器与新石器两个阶段，以农业革命为分界",
+      "prose_len": 803,
+      "prose_chars": 710,
+      "h2_count": 4,
+      "pn_count": 4,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "社会复杂性": {
       "type": "concept",
@@ -2882,8 +3050,8 @@
       "pn_count": 9,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 31,
+      "quality": "featured",
+      "quality_score": 61,
       "total_refs": 23
     },
     "探险": {
@@ -2908,6 +3076,8 @@
       "pn_count": 4,
       "wikilink_count": 6,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 58,
       "total_refs": 0
     },
     "陶器": {
@@ -2931,8 +3101,8 @@
       "pn_count": 7,
       "wikilink_count": 5,
       "blockquote_count": 1,
-      "quality": "standard",
-      "quality_score": 31,
+      "quality": "featured",
+      "quality_score": 61,
       "total_refs": 1
     },
     "天花病毒": {
@@ -2956,8 +3126,8 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 28,
+      "quality": "featured",
+      "quality_score": 58,
       "total_refs": 4
     },
     "统一": {
@@ -2982,6 +3152,8 @@
       "pn_count": 5,
       "wikilink_count": 1,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 58,
       "total_refs": 0
     },
     "土壤": {
@@ -3006,6 +3178,8 @@
       "pn_count": 4,
       "wikilink_count": 9,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 58,
       "total_refs": 1
     },
     "瓦特": {
@@ -3052,8 +3226,8 @@
       "pn_count": 9,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 31,
+      "quality": "featured",
+      "quality_score": 61,
       "total_refs": 2
     },
     "文化": {
@@ -3077,6 +3251,8 @@
       "pn_count": 4,
       "wikilink_count": 3,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 57,
       "total_refs": 0
     },
     "文字的独立发明": {
@@ -3100,8 +3276,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 56,
       "total_refs": 2
     },
     "纬度": {
@@ -3126,6 +3302,8 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 27,
       "total_refs": 0
     },
     "小麦": {
@@ -3150,8 +3328,8 @@
       "pn_count": 7,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 29,
+      "quality": "featured",
+      "quality_score": 59,
       "total_refs": 5
     },
     "希特勒": {
@@ -3172,8 +3350,8 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 27,
+      "quality": "featured",
+      "quality_score": 57,
       "affiliation": "德国",
       "total_refs": 0
     },
@@ -3199,8 +3377,8 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 30,
+      "quality": "featured",
+      "quality_score": 60,
       "total_refs": 7
     },
     "新月沃地": {
@@ -3225,8 +3403,8 @@
       "pn_count": 10,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 31,
+      "quality": "featured",
+      "quality_score": 61,
       "total_refs": 32
     },
     "新月沃地农业起源": {
@@ -3250,8 +3428,8 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 56,
       "total_refs": 1
     },
     "现代人": {
@@ -3276,6 +3454,8 @@
       "pn_count": 7,
       "wikilink_count": 4,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 58,
       "total_refs": 0
     },
     "行政": {
@@ -3300,6 +3480,8 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 27,
       "total_refs": 2
     },
     "驯化": {
@@ -3323,8 +3505,8 @@
       "pn_count": 12,
       "wikilink_count": 7,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 31,
+      "quality": "featured",
+      "quality_score": 61,
       "total_refs": 39
     },
     "亚历山大大帝": {
@@ -3346,8 +3528,8 @@
       "pn_count": 3,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 56,
       "affiliation": "马其顿帝国",
       "total_refs": 2
     },
@@ -3374,8 +3556,8 @@
       "pn_count": 8,
       "wikilink_count": 5,
       "blockquote_count": 2,
-      "quality": "standard",
-      "quality_score": 30,
+      "quality": "featured",
+      "quality_score": 60,
       "total_refs": 7
     },
     "耶利": {
@@ -3396,8 +3578,8 @@
       "pn_count": 7,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 56,
       "affiliation": "新几内亚",
       "total_refs": 0
     },
@@ -3422,6 +3604,8 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 27,
       "total_refs": 0
     },
     "印刷术": {
@@ -3446,8 +3630,8 @@
       "pn_count": 6,
       "wikilink_count": 5,
       "blockquote_count": 3,
-      "quality": "standard",
-      "quality_score": 30,
+      "quality": "featured",
+      "quality_score": 60,
       "total_refs": 2
     },
     "移民": {
@@ -3472,6 +3656,8 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 27,
       "total_refs": 5
     },
     "遗传": {
@@ -3496,6 +3682,8 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 5
     },
     "游牧": {
@@ -3520,6 +3708,8 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 1
     },
     "玉米": {
@@ -3545,8 +3735,8 @@
       "pn_count": 9,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 30,
+      "quality": "featured",
+      "quality_score": 60,
       "total_refs": 6
     },
     "语言": {
@@ -3571,6 +3761,8 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 27,
       "total_refs": 2
     },
     "语言传播": {
@@ -3594,8 +3786,8 @@
       "pn_count": 9,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 31,
+      "quality": "featured",
+      "quality_score": 61,
       "total_refs": 3
     },
     "语言学": {
@@ -3619,6 +3811,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 59,
       "total_refs": 2
     },
     "再分配": {
@@ -3644,6 +3838,8 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 5
     },
     "专业化分工": {
@@ -3667,6 +3863,8 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 28,
       "total_refs": 5
     },
     "中国": {
@@ -3690,8 +3888,8 @@
       "pn_count": 9,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 29,
+      "quality": "featured",
+      "quality_score": 59,
       "total_refs": 7
     },
     "中国农业起源": {
@@ -3715,8 +3913,8 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 56,
       "total_refs": 0
     },
     "中美洲": {
@@ -3741,8 +3939,8 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 28,
+      "quality": "featured",
+      "quality_score": 58,
       "total_refs": 6
     },
     "战争": {
@@ -3767,8 +3965,8 @@
       "pn_count": 10,
       "wikilink_count": 5,
       "blockquote_count": 1,
-      "quality": "standard",
-      "quality_score": 32,
+      "quality": "featured",
+      "quality_score": 62,
       "total_refs": 3
     },
     "政治竞争": {
@@ -3793,6 +3991,8 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 28,
       "total_refs": 1
     },
     "政治组织": {
@@ -3816,8 +4016,8 @@
       "pn_count": 9,
       "wikilink_count": 5,
       "blockquote_count": 1,
-      "quality": "standard",
-      "quality_score": 31,
+      "quality": "featured",
+      "quality_score": 61,
       "total_refs": 9
     },
     "植物学": {
@@ -3841,6 +4041,8 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 59,
       "total_refs": 1
     },
     "殖民主义": {
@@ -3865,9 +4067,9 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 1,
-      "quality": "standard",
-      "quality_score": 32,
-      "total_refs": 3
+      "quality": "featured",
+      "quality_score": 62,
+      "total_refs": 4
     },
     "猪": {
       "type": "species",
@@ -3891,8 +4093,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 28,
+      "quality": "featured",
+      "quality_score": 58,
       "total_refs": 1
     },
     "种族主义": {
@@ -3916,9 +4118,9 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 1,
-      "quality": "standard",
-      "quality_score": 29,
-      "total_refs": 0
+      "quality": "featured",
+      "quality_score": 59,
+      "total_refs": 1
     },
     "字母文字的传播": {
       "type": "event",
@@ -3942,8 +4144,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 56,
       "total_refs": 0
     },
     "自然选择": {
@@ -3968,6 +4170,8 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 1
     },
     "资源": {
@@ -3992,6 +4196,8 @@
       "pn_count": 5,
       "wikilink_count": 8,
       "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 59,
       "total_refs": 0
     },
     "宗教": {
@@ -4016,8 +4222,8 @@
       "pn_count": 9,
       "wikilink_count": 5,
       "blockquote_count": 1,
-      "quality": "standard",
-      "quality_score": 31,
+      "quality": "featured",
+      "quality_score": 61,
       "total_refs": 1
     },
     "作物传播": {
@@ -4042,7 +4248,9 @@
       "pn_count": 6,
       "wikilink_count": 9,
       "blockquote_count": 0,
-      "total_refs": 0
+      "quality": "featured",
+      "quality_score": 59,
+      "total_refs": 1
     }
   },
   "alias_index": {
@@ -4152,6 +4360,9 @@
     "帝国扩张": "帝国",
     "empire": "帝国",
     "征服帝国": "帝国",
+    "抵抗": "抵抗",
+    "反抗": "抵抗",
+    "武装抵抗": "抵抗",
     "东南亚": "东南亚",
     "Southeast Asia": "东南亚",
     "热带东南亚": "东南亚",
@@ -4251,6 +4462,9 @@
     "累积性技术进步": "技术积累",
     "技术演化": "技术积累",
     "发明的积累性": "技术积累",
+    "旧大陆": "旧大陆",
+    "欧亚非大陆": "旧大陆",
+    "Old World": "旧大陆",
     "继承": "继承",
     "inheritance": "继承",
     "世袭": "继承",
@@ -4265,6 +4479,10 @@
     "金属材料": "金属",
     "铜铁": "金属",
     "金属工具": "金属",
+    "阶级": "阶级",
+    "社会阶级": "阶级",
+    "阶层": "阶级",
+    "社会分层": "阶级",
     "集中": "集中",
     "权力集中": "集中",
     "集权": "集中",
@@ -4432,6 +4650,10 @@
     "人类首次定居澳大利亚": "人类首次定居澳大利亚",
     "First Human Settlement of Australia": "人类首次定居澳大利亚",
     "澳大利亚最早定居": "人类首次定居澳大利亚",
+    "热带地区": "热带地区",
+    "热带": "热带地区",
+    "热带气候": "热带地区",
+    "低纬度地区": "热带地区",
     "日本": "日本",
     "Japan": "日本",
     "日本列岛": "日本",
@@ -4465,6 +4687,10 @@
     "环境适应": "生态适应",
     "生态位适应": "生态适应",
     "气候适应": "生态适应",
+    "石器时代": "石器时代",
+    "旧石器时代": "石器时代",
+    "新石器时代": "石器时代",
+    "Stone Age": "石器时代",
     "社会复杂性": "社会复杂性",
     "政治复杂性": "社会复杂性",
     "社会层级": "社会复杂性",
@@ -4662,6 +4888,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 170,
-  "generated": "2026-05-25T13:36:08Z"
+  "page_count": 175,
+  "generated": "2026-05-25T13:45:45Z"
 }
