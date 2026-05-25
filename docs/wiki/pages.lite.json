@@ -484,6 +484,15 @@
       ],
       "path": "do/动物.md"
     },
+    "鹅": {
+      "type": "species",
+      "label": "鹅",
+      "aliases": [
+        "goose",
+        "家鹅"
+      ],
+      "path": "e0/鹅.md"
+    },
     "Epilogue": {
       "type": "chapter",
       "label": "后记　人类史作为一门科学的未来",
@@ -810,6 +819,15 @@
         "炸药"
       ],
       "path": "hu/火药.md"
+    },
+    "火鸡": {
+      "type": "species",
+      "label": "火鸡",
+      "aliases": [
+        "turkey",
+        "吐绶鸡"
+      ],
+      "path": "hu/火鸡.md"
     },
     "环境": {
       "type": "concept",
@@ -1152,6 +1170,25 @@
         "Camelus dromedarius"
       ],
       "path": "lu/骆驼.md"
+    },
+    "驴": {
+      "type": "species",
+      "label": "驴",
+      "aliases": [
+        "donkey",
+        "ass",
+        "家驴"
+      ],
+      "path": "lv/驴.md"
+    },
+    "牦牛": {
+      "type": "species",
+      "label": "牦牛",
+      "aliases": [
+        "yak",
+        "犛牛"
+      ],
+      "path": "ma/牦牛.md"
     },
     "贸易": {
       "type": "concept",
@@ -2009,6 +2046,15 @@
       ],
       "path": "xu/驯化.md"
     },
+    "驯鹿": {
+      "type": "species",
+      "label": "驯鹿",
+      "aliases": [
+        "reindeer",
+        "caribou"
+      ],
+      "path": "xu/驯鹿.md"
+    },
     "亚历山大大帝": {
       "type": "person",
       "label": "亚历山大大帝",
@@ -2575,6 +2621,9 @@
     "野生动物": "动物",
     "动物物种": "动物",
     "动物多样性": "动物",
+    "鹅": "鹅",
+    "goose": "鹅",
+    "家鹅": "鹅",
     "Epilogue": "Epilogue",
     "发明": "发明",
     "技术发明": "发明",
@@ -2701,6 +2750,9 @@
     "黑色火药": "火药",
     "黑火药": "火药",
     "炸药": "火药",
+    "火鸡": "火鸡",
+    "turkey": "火鸡",
+    "吐绶鸡": "火鸡",
     "环境": "环境",
     "environment": "环境",
     "自然环境": "环境",
@@ -2834,6 +2886,13 @@
     "双峰驼": "骆驼",
     "camel": "骆驼",
     "Camelus dromedarius": "骆驼",
+    "驴": "驴",
+    "donkey": "驴",
+    "ass": "驴",
+    "家驴": "驴",
+    "牦牛": "牦牛",
+    "yak": "牦牛",
+    "犛牛": "牦牛",
     "贸易": "贸易",
     "trade": "贸易",
     "商贸": "贸易",
@@ -3147,6 +3206,9 @@
     "植物驯化": "驯化",
     "动物驯化": "驯化",
     "domestication": "驯化",
+    "驯鹿": "驯鹿",
+    "reindeer": "驯鹿",
+    "caribou": "驯鹿",
     "亚历山大大帝": "亚历山大大帝",
     "Alexander the Great": "亚历山大大帝",
     "亚历山大": "亚历山大大帝",
@@ -3301,6 +3363,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 251,
-  "generated": "2026-05-25T14:54:35Z"
+  "page_count": 256,
+  "generated": "2026-05-25T14:55:17Z"
 }
