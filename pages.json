@@ -1042,6 +1042,28 @@
       "quality_score": 61,
       "total_refs": 5
     },
+    "大麻": {
+      "type": "species",
+      "label": "大麻",
+      "aliases": [
+        "hemp",
+        "工业大麻"
+      ],
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ],
+      "path": "da/大麻.md",
+      "description": "古老的纤维作物，与亚麻和棉花并列为重要的天然纤维来源",
+      "prose_len": 260,
+      "prose_chars": 227,
+      "h2_count": 3,
+      "pn_count": 0,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "岛屿": {
       "type": "concept",
       "label": "岛屿",
@@ -1494,7 +1516,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 3
     },
     "甘薯": {
       "type": "species",
@@ -1517,7 +1539,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 3
     },
     "钢铁": {
       "type": "concept",
@@ -2138,7 +2160,7 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "环境": {
       "type": "concept",
@@ -2937,7 +2959,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 80
+      "total_refs": 81
     },
     "轮子": {
       "type": "concept",
@@ -3236,6 +3258,28 @@
       "quality_score": 58,
       "total_refs": 8
     },
+    "美洲家鸭": {
+      "type": "species",
+      "label": "美洲家鸭",
+      "aliases": [
+        "Muscovy duck",
+        "疣鼻栖鸭"
+      ],
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ],
+      "path": "me/美洲家鸭.md",
+      "description": "南美洲驯化的水禽，新大陆少数驯化鸟类之一",
+      "prose_len": 259,
+      "prose_chars": 227,
+      "h2_count": 3,
+      "pn_count": 0,
+      "wikilink_count": 2,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "美洲独立农业起源": {
       "type": "event",
       "label": "美洲独立农业起源",
@@ -3284,7 +3328,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 3
     },
     "蒙特朱马": {
       "type": "person",
@@ -3359,7 +3403,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 1
+      "total_refs": 2
     },
     "民族": {
       "type": "concept",
@@ -3478,6 +3522,29 @@
       "h2_count": 4,
       "pn_count": 0,
       "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
+    "木薯": {
+      "type": "species",
+      "label": "木薯",
+      "aliases": [
+        "cassava",
+        "manioc",
+        "树薯"
+      ],
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ],
+      "path": "mu/木薯.md",
+      "description": "南美洲驯化的根用作物，热带地区重要的碳水化合物来源",
+      "prose_len": 358,
+      "prose_chars": 315,
+      "h2_count": 4,
+      "pn_count": 0,
+      "wikilink_count": 2,
       "blockquote_count": 0,
       "total_refs": 0
     },
@@ -3833,7 +3900,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "亲属关系": {
       "type": "concept",
@@ -5031,6 +5098,27 @@
       "quality_score": 27,
       "total_refs": 0
     },
+    "无花果": {
+      "type": "species",
+      "label": "无花果",
+      "aliases": [
+        "fig"
+      ],
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ],
+      "path": "wu/无花果.md",
+      "description": "地中海地区最早驯化的水果之一",
+      "prose_len": 269,
+      "prose_chars": 236,
+      "h2_count": 3,
+      "pn_count": 0,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 2
+    },
     "向日葵": {
       "type": "species",
       "label": "向日葵",
@@ -5151,7 +5239,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 42
+      "total_refs": 43
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -5296,7 +5384,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 61
+      "total_refs": 63
     },
     "驯鹿": {
       "type": "species",
@@ -5363,7 +5451,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "演化": {
       "type": "concept",
@@ -5387,6 +5475,28 @@
       "wikilink_count": 4,
       "blockquote_count": 0,
       "total_refs": 1
+    },
+    "羊驼": {
+      "type": "species",
+      "label": "羊驼",
+      "aliases": [
+        "alpaca",
+        "美洲羊驼"
+      ],
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ],
+      "path": "ya/羊驼.md",
+      "description": "安第斯山脉驯化的骆驼科动物，其毛绒极为珍贵",
+      "prose_len": 276,
+      "prose_chars": 244,
+      "h2_count": 3,
+      "pn_count": 0,
+      "wikilink_count": 2,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "鸭": {
       "type": "species",
@@ -6528,6 +6638,9 @@
     "大麦草": "大麦",
     "barley": "大麦",
     "Hordeum vulgare": "大麦",
+    "大麻": "大麻",
+    "hemp": "大麻",
+    "工业大麻": "大麻",
     "岛屿": "岛屿",
     "岛": "岛屿",
     "海岛": "岛屿",
@@ -6867,6 +6980,9 @@
     "Americas": "美洲",
     "新大陆": "美洲",
     "the Americas": "美洲",
+    "美洲家鸭": "美洲家鸭",
+    "Muscovy duck": "美洲家鸭",
+    "疣鼻栖鸭": "美洲家鸭",
     "美洲独立农业起源": "美洲独立农业起源",
     "Independent Agricultural Origins in the Americas": "美洲独立农业起源",
     "中美洲农业起源": "美洲独立农业起源",
@@ -6904,6 +7020,10 @@
     "家蜂": "蜜蜂",
     "面包果": "面包果",
     "breadfruit": "面包果",
+    "木薯": "木薯",
+    "cassava": "木薯",
+    "manioc": "木薯",
+    "树薯": "木薯",
     "牧人": "牧人",
     "牧民": "牧人",
     "游牧民族": "牧人",
@@ -7124,6 +7244,8 @@
     "纬度效应": "纬度",
     "纬度与气候": "纬度",
     "东西轴纬度": "纬度",
+    "无花果": "无花果",
+    "fig": "无花果",
     "向日葵": "向日葵",
     "sunflower": "向日葵",
     "小麦": "小麦",
@@ -7178,6 +7300,8 @@
     "生物演化": "演化",
     "进化": "演化",
     "自然选择": "演化",
+    "alpaca": "羊驼",
+    "美洲羊驼": "羊驼",
     "鸭": "鸭",
     "duck": "鸭",
     "家鸭": "鸭",
@@ -7330,6 +7454,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 266,
-  "generated": "2026-05-25T14:56:33Z"
+  "page_count": 271,
+  "generated": "2026-05-25T14:57:11Z"
 }
