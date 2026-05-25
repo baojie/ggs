@@ -1398,6 +1398,14 @@
       ],
       "path": "mi/面包果.md"
     },
+    "moxige": {
+      "type": "place",
+      "label": "墨西哥",
+      "aliases": [
+        "Mexico"
+      ],
+      "path": "mo/moxige.md"
+    },
     "木薯": {
       "type": "species",
       "label": "木薯",
@@ -1678,6 +1686,15 @@
         "日本列岛"
       ],
       "path": "ri/日本.md"
+    },
+    "sahala": {
+      "type": "place",
+      "label": "撒哈拉",
+      "aliases": [
+        "Sahara",
+        "撒哈拉沙漠"
+      ],
+      "path": "sa/sahala.md"
     },
     "萨赫勒地带": {
       "type": "place",
@@ -2038,6 +2055,15 @@
       ],
       "path": "wu/无花果.md"
     },
+    "xinyuewodi": {
+      "type": "place",
+      "label": "新月沃地",
+      "aliases": [
+        "Fertile Crescent",
+        "肥沃月弯"
+      ],
+      "path": "xi/xinyuewodi.md"
+    },
     "向日葵": {
       "type": "species",
       "label": "向日葵",
@@ -2228,6 +2254,24 @@
         "Yali"
       ],
       "path": "ye/耶利.md"
+    },
+    "yindu": {
+      "type": "place",
+      "label": "印度",
+      "aliases": [
+        "India",
+        "印度次大陆"
+      ],
+      "path": "yi/yindu.md"
+    },
+    "yindunixiya": {
+      "type": "place",
+      "label": "印度尼西亚",
+      "aliases": [
+        "Indonesia",
+        "马来群岛"
+      ],
+      "path": "yi/yindunixiya.md"
     },
     "一年生植物": {
       "type": "concept",
@@ -3106,6 +3150,9 @@
     "家蜂": "蜜蜂",
     "面包果": "面包果",
     "breadfruit": "面包果",
+    "moxige": "moxige",
+    "墨西哥": "moxige",
+    "Mexico": "moxige",
     "木薯": "木薯",
     "cassava": "木薯",
     "manioc": "木薯",
@@ -3203,6 +3250,10 @@
     "日本": "日本",
     "Japan": "日本",
     "日本列岛": "日本",
+    "sahala": "sahala",
+    "撒哈拉": "sahala",
+    "Sahara": "sahala",
+    "撒哈拉沙漠": "sahala",
     "萨赫勒地带": "萨赫勒地带",
     "萨赫勒": "萨赫勒地带",
     "Sahel": "萨赫勒地带",
@@ -3241,7 +3292,6 @@
     "rice": "水稻",
     "Oryza sativa": "水稻",
     "沙漠": "沙漠",
-    "撒哈拉沙漠": "沙漠",
     "干旱区": "沙漠",
     "desert": "沙漠",
     "狩猎采集": "狩猎采集",
@@ -3332,6 +3382,10 @@
     "东西轴纬度": "纬度",
     "无花果": "无花果",
     "fig": "无花果",
+    "xinyuewodi": "xinyuewodi",
+    "新月沃地": "xinyuewodi",
+    "Fertile Crescent": "xinyuewodi",
+    "肥沃月弯": "xinyuewodi",
     "向日葵": "向日葵",
     "sunflower": "向日葵",
     "小麦": "小麦",
@@ -3346,11 +3400,9 @@
     "巴布亚新几内亚": "新几内亚",
     "Papua New Guinea": "新几内亚",
     "Papua": "新几内亚",
-    "新月沃地": "新月沃地",
     "肥沃新月": "新月沃地",
     "西南亚": "新月沃地",
     "近东": "新月沃地",
-    "Fertile Crescent": "新月沃地",
     "新月沃地农业起源": "新月沃地农业起源",
     "Fertile Crescent Agricultural Origins": "新月沃地农业起源",
     "西南亚农业起源": "新月沃地农业起源",
@@ -3401,6 +3453,14 @@
     "coconut": "椰子",
     "耶利": "耶利",
     "Yali": "耶利",
+    "yindu": "yindu",
+    "印度": "yindu",
+    "India": "yindu",
+    "印度次大陆": "yindu",
+    "yindunixiya": "yindunixiya",
+    "印度尼西亚": "yindunixiya",
+    "Indonesia": "yindunixiya",
+    "马来群岛": "yindunixiya",
     "一年生植物": "一年生植物",
     "一年生作物": "一年生植物",
     "年生植物": "一年生植物",
@@ -3469,7 +3529,6 @@
     "中国粮食生产起源": "中国农业起源",
     "中美洲": "中美洲",
     "Mesoamerica": "中美洲",
-    "墨西哥": "中美洲",
     "美索美洲": "中美洲",
     "征服者": "征服者",
     "conquistador": "征服者",
@@ -3540,6 +3599,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 271,
-  "generated": "2026-05-25T14:57:11Z"
+  "page_count": 276,
+  "generated": "2026-05-25T14:59:44Z"
 }
