@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "wiki": "枪炮、病菌与钢铁",
-  "grow_phase": "2.1",
+  "grow_phase": "3",
   "phase2_iteration": 1,
-  "phase2_closed": false,
-  "current_type": "event",
+  "phase2_closed": true,
+  "current_type": "enrich",
   "type_queue": [],
   "closed_types": [
     {
@@ -26,10 +26,15 @@
       "type": "person",
       "final_count": 25,
       "closed_round": 87
+    },
+    {
+      "type": "event",
+      "final_count": 20,
+      "closed_round": 88
     }
   ],
   "counters": {
-    "current_round": 88,
+    "current_round": 90,
     "type_round": 0,
     "rounds_since_last_evv5": 0,
     "rounds_since_last_discover": 0,
@@ -43,5 +48,5 @@
     "type_close_new_candidate_min": 3
   },
   "pending_new_types": [],
-  "last_updated_round": 88
+  "last_updated_round": 90
 }
