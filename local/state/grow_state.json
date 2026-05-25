@@ -4,19 +4,24 @@
   "grow_phase": "2.1",
   "phase2_iteration": 1,
   "phase2_closed": false,
-  "current_type": "concept",
+  "current_type": "species",
   "type_queue": [
-    "species",
     "place",
     "person",
     "event"
   ],
-  "closed_types": [],
+  "closed_types": [
+    {
+      "type": "concept",
+      "final_count": 153,
+      "closed_round": 72
+    }
+  ],
   "counters": {
     "current_round": 72,
-    "type_round": 32,
-    "rounds_since_last_evv5": 1,
-    "rounds_since_last_discover": 2,
+    "type_round": 0,
+    "rounds_since_last_evv5": 0,
+    "rounds_since_last_discover": 0,
     "discover_streak_low": 0
   },
   "thresholds": {
