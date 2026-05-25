@@ -948,7 +948,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 48
+      "total_refs": 49
     },
     "大麦": {
       "type": "species",
@@ -1068,7 +1068,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 11
+      "total_refs": 12
     },
     "地理因素": {
       "type": "concept",
@@ -1146,7 +1146,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 62,
-      "total_refs": 1
+      "total_refs": 2
     },
     "抵抗": {
       "type": "concept",
@@ -1339,7 +1339,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 8
+      "total_refs": 9
     },
     "Frontispiece": {
       "type": "chapter",
@@ -1936,7 +1936,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 1
+      "total_refs": 2
     },
     "火药": {
       "type": "concept",
@@ -2159,7 +2159,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 23
+      "total_refs": 25
     },
     "技术积累": {
       "type": "concept",
@@ -2735,7 +2735,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 69
+      "total_refs": 71
     },
     "轮子": {
       "type": "concept",
@@ -2840,7 +2840,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 6
+      "total_refs": 7
     },
     "马的驯化": {
       "type": "event",
@@ -3064,7 +3064,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 0
+      "total_refs": 1
     },
     "民族": {
       "type": "concept",
@@ -3143,6 +3143,28 @@
       "quality": "featured",
       "quality_score": 62,
       "total_refs": 4
+    },
+    "牧人": {
+      "type": "concept",
+      "label": "牧人",
+      "aliases": [
+        "牧民",
+        "游牧民族"
+      ],
+      "tags": [
+        "社会组织",
+        "农业",
+        "战争"
+      ],
+      "path": "mu/牧人.md",
+      "description": "以饲养牲畜为主要生计方式的人群，其生活方式与农业文明之间的互动塑造了欧亚大陆数千年的历史进程",
+      "prose_len": 854,
+      "prose_chars": 794,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "目录": {
       "type": "overview",
@@ -4507,7 +4529,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 9
+      "total_refs": 10
     },
     "文字的独立发明": {
       "type": "event",
@@ -4659,7 +4681,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 35
+      "total_refs": 36
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -4738,6 +4760,26 @@
       "quality_score": 27,
       "total_refs": 2
     },
+    "锡": {
+      "type": "concept",
+      "label": "锡",
+      "aliases": [
+        "锡金属"
+      ],
+      "tags": [
+        "技术",
+        "贸易"
+      ],
+      "path": "xi/锡.md",
+      "description": "金属元素，与铜熔炼为青铜的关键原料，其资源分布对青铜时代各文明的军事和技术优势产生了重要影响",
+      "prose_len": 919,
+      "prose_chars": 859,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "驯化": {
       "type": "concept",
       "label": "驯化",
@@ -4761,7 +4803,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 43
+      "total_refs": 44
     },
     "亚历山大大帝": {
       "type": "person",
@@ -4786,6 +4828,27 @@
       "quality_score": 56,
       "affiliation": "马其顿帝国",
       "total_refs": 2
+    },
+    "亚麻": {
+      "type": "concept",
+      "label": "亚麻",
+      "aliases": [
+        "亚麻布",
+        "flax"
+      ],
+      "tags": [
+        "农业",
+        "技术"
+      ],
+      "path": "ya/亚麻.md",
+      "description": "最早被人类驯化的纤维作物之一，为古代文明提供了重要的纺织品原料",
+      "prose_len": 915,
+      "prose_chars": 855,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "演化": {
       "type": "concept",
@@ -4883,6 +4946,27 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 27,
+      "total_refs": 0
+    },
+    "印刷": {
+      "type": "concept",
+      "label": "印刷",
+      "aliases": [
+        "印刷术",
+        "活字印刷"
+      ],
+      "tags": [
+        "技术",
+        "语言"
+      ],
+      "path": "yi/印刷.md",
+      "description": "批量复制文字和图像的技术，从印章到活字印刷再到印刷机的发展历程展示了技术传播的复杂性和偶然性",
+      "prose_len": 1036,
+      "prose_chars": 976,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
       "total_refs": 0
     },
     "印刷术": {
@@ -5112,6 +5196,27 @@
       "quality": "featured",
       "quality_score": 59,
       "total_refs": 2
+    },
+    "雨林": {
+      "type": "concept",
+      "label": "雨林",
+      "aliases": [
+        "热带雨林",
+        "赤道雨林"
+      ],
+      "tags": [
+        "地理",
+        "生物"
+      ],
+      "path": "yu/雨林.md",
+      "description": "高降雨量的茂密森林生态系统，既是人类迁徙的屏障也是独特的生物区系演化环境",
+      "prose_len": 992,
+      "prose_chars": 932,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "再分配": {
       "type": "concept",
@@ -6099,6 +6204,9 @@
     "家羊": "绵羊",
     "sheep": "绵羊",
     "Ovis aries": "绵羊",
+    "牧人": "牧人",
+    "牧民": "牧人",
+    "游牧民族": "牧人",
     "目录": "目录",
     "南北轴": "南北轴",
     "南北走向": "南北轴",
@@ -6328,6 +6436,8 @@
     "行政管理": "行政",
     "官僚制": "行政",
     "中央行政": "行政",
+    "锡": "锡",
+    "锡金属": "锡",
     "驯化": "驯化",
     "植物驯化": "驯化",
     "动物驯化": "驯化",
@@ -6335,6 +6445,9 @@
     "亚历山大大帝": "亚历山大大帝",
     "Alexander the Great": "亚历山大大帝",
     "亚历山大": "亚历山大大帝",
+    "亚麻": "亚麻",
+    "亚麻布": "亚麻",
+    "flax": "亚麻",
     "演化": "演化",
     "生物演化": "演化",
     "进化": "演化",
@@ -6350,9 +6463,10 @@
     "一年生植物": "一年生植物",
     "一年生作物": "一年生植物",
     "年生植物": "一年生植物",
-    "印刷术": "印刷术",
+    "印刷": "印刷",
+    "印刷术": "印刷",
+    "活字印刷": "印刷",
     "printing": "印刷术",
-    "活字印刷": "印刷术",
     "印刷机": "印刷术",
     "移民": "移民",
     "人口迁徙": "移民",
@@ -6365,7 +6479,6 @@
     "游牧": "游牧",
     "游牧生活": "游牧",
     "游牧族群": "游牧",
-    "游牧民族": "游牧",
     "玉米": "玉米",
     "玉蜀黍": "玉米",
     "墨西哥类蜀黍": "玉米",
@@ -6385,6 +6498,9 @@
     "linguistics": "语言学",
     "历史语言学": "语言学",
     "语言分类": "语言学",
+    "雨林": "雨林",
+    "热带雨林": "雨林",
+    "赤道雨林": "雨林",
     "再分配": "再分配",
     "再分配经济": "再分配",
     "贡品再分配": "再分配",
@@ -6471,6 +6587,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 232,
-  "generated": "2026-05-25T14:45:04Z"
+  "page_count": 237,
+  "generated": "2026-05-25T14:51:19Z"
 }
