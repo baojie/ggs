@@ -261,7 +261,31 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 5
+      "total_refs": 8
+    },
+    "部落": {
+      "type": "concept",
+      "label": "部落",
+      "aliases": [
+        "部落社会",
+        "部落组织",
+        "氏族部落"
+      ],
+      "tags": [
+        "社会组织",
+        "政治",
+        "人类学",
+        "平等主义"
+      ],
+      "path": "bu/部落.md",
+      "description": "以亲属关系为纽带、规模数百至数千人的平等主义社会组织形式",
+      "prose_len": 697,
+      "prose_chars": 595,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 1
     },
     "ch01-up-to-the-starting-line": {
       "type": "chapter",
@@ -804,7 +828,7 @@
       "blockquote_count": 3,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 2
+      "total_refs": 3
     },
     "帝国": {
       "type": "concept",
@@ -1146,7 +1170,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 9
+      "total_refs": 11
     },
     "国家的形成": {
       "type": "event",
@@ -1826,6 +1850,31 @@
       "quality_score": 30,
       "total_refs": 6
     },
+    "民族": {
+      "type": "concept",
+      "label": "民族",
+      "aliases": [
+        "族群",
+        "民族形成",
+        "种族"
+      ],
+      "tags": [
+        "人类学",
+        "族群",
+        "历史",
+        "语言",
+        "迁徙"
+      ],
+      "path": "mi/民族.md",
+      "description": "共享语言、文化和起源的人群集合；其分布格局是人口扩张和历史征服的结果",
+      "prose_len": 720,
+      "prose_chars": 611,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 2
+    },
     "绵羊": {
       "type": "species",
       "label": "绵羊",
@@ -2090,6 +2139,30 @@
       "quality_score": 31,
       "total_refs": 2
     },
+    "酋长": {
+      "type": "concept",
+      "label": "酋长",
+      "aliases": [
+        "酋长制",
+        "酋长管辖地",
+        "酋邦"
+      ],
+      "tags": [
+        "社会组织",
+        "政治",
+        "社会复杂化",
+        "国家起源"
+      ],
+      "path": "qi/酋长.md",
+      "description": "介于部落与国家之间的政治形态，以世袭权威为核心，人口从数千到数万",
+      "prose_len": 723,
+      "prose_chars": 626,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
     "人口密度": {
       "type": "concept",
       "label": "人口密度",
@@ -2136,7 +2209,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "人口规模": {
       "type": "concept",
@@ -2260,7 +2333,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 15
+      "total_refs": 16
     },
     "水稻": {
       "type": "species",
@@ -2311,7 +2384,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 8
+      "total_refs": 9
     },
     "生态适应": {
       "type": "concept",
@@ -2336,7 +2409,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "社会复杂性": {
       "type": "concept",
@@ -2559,7 +2632,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 6
+      "total_refs": 7
     },
     "新月沃地": {
       "type": "concept",
@@ -2737,6 +2810,30 @@
       "quality_score": 30,
       "total_refs": 1
     },
+    "移民": {
+      "type": "concept",
+      "label": "移民",
+      "aliases": [
+        "人口迁徙",
+        "史前迁徙",
+        "移民浪潮"
+      ],
+      "tags": [
+        "人口",
+        "迁徙",
+        "史前史",
+        "文明传播"
+      ],
+      "path": "yi/移民.md",
+      "description": "人类从原住地向新地区的大规模迁徙，是物种、技术和文化传播的核心驱动力",
+      "prose_len": 762,
+      "prose_chars": 665,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 2
+    },
     "玉米": {
       "type": "species",
       "label": "玉米",
@@ -2763,6 +2860,30 @@
       "quality": "standard",
       "quality_score": 30,
       "total_refs": 6
+    },
+    "语言": {
+      "type": "concept",
+      "label": "语言",
+      "aliases": [
+        "语系",
+        "语言扩张",
+        "语言多样性"
+      ],
+      "tags": [
+        "语言学",
+        "文化传播",
+        "民族",
+        "农业扩张"
+      ],
+      "path": "yu/语言.md",
+      "description": "语言的地理分布格局记录了人口迁移和文化扩张的历史轨迹",
+      "prose_len": 735,
+      "prose_chars": 615,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 2
     },
     "语言传播": {
       "type": "concept",
@@ -2810,7 +2931,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 2
     },
     "中国": {
       "type": "place",
@@ -2835,7 +2956,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 4
+      "total_refs": 5
     },
     "中国农业起源": {
       "type": "event",
@@ -2987,7 +3108,7 @@
       "blockquote_count": 1,
       "quality": "standard",
       "quality_score": 32,
-      "total_refs": 2
+      "total_refs": 3
     },
     "猪": {
       "type": "species",
@@ -3134,6 +3255,10 @@
     "Polynesia": "波利尼西亚",
     "太平洋诸岛": "波利尼西亚",
     "南岛人": "波利尼西亚",
+    "部落": "部落",
+    "部落社会": "部落",
+    "部落组织": "部落",
+    "氏族部落": "部落",
     "ch01-up-to-the-starting-line": "ch01-up-to-the-starting-line",
     "ch02-natural-experiment-of-history": "ch02-natural-experiment-of-history",
     "ch03-collision-at-cajamarca": "ch03-collision-at-cajamarca",
@@ -3342,6 +3467,10 @@
     "抵抗力": "免疫力",
     "病菌免疫": "免疫力",
     "immunity": "免疫力",
+    "民族": "民族",
+    "族群": "民族",
+    "民族形成": "民族",
+    "种族": "民族",
     "绵羊": "绵羊",
     "羊": "绵羊",
     "家羊": "绵羊",
@@ -3383,6 +3512,10 @@
     "气候条件": "气候",
     "地中海气候": "气候",
     "气候变化": "气候",
+    "酋长": "酋长",
+    "酋长制": "酋长",
+    "酋长管辖地": "酋长",
+    "酋邦": "酋长",
     "人口密度": "人口密度",
     "人口压力": "人口密度",
     "population density": "人口密度",
@@ -3483,15 +3616,22 @@
     "printing": "印刷术",
     "活字印刷": "印刷术",
     "印刷机": "印刷术",
+    "移民": "移民",
+    "人口迁徙": "移民",
+    "史前迁徙": "移民",
+    "移民浪潮": "移民",
     "玉米": "玉米",
     "玉蜀黍": "玉米",
     "墨西哥类蜀黍": "玉米",
     "maize": "玉米",
     "corn": "玉米",
     "Zea mays": "玉米",
+    "语言": "语言",
+    "语系": "语言",
+    "语言扩张": "语言",
+    "语言多样性": "语言",
     "语言传播": "语言传播",
     "语系扩散": "语言传播",
-    "语言扩张": "语言传播",
     "language spread": "语言传播",
     "专业化分工": "专业化分工",
     "经济专业化": "专业化分工",
@@ -3545,6 +3685,6 @@
     "意识形态": "宗教",
     "神权": "宗教"
   },
-  "page_count": 130,
-  "generated": "2026-05-25T12:51:10Z"
+  "page_count": 135,
+  "generated": "2026-05-25T12:56:02Z"
 }
