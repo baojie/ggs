@@ -628,7 +628,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 27
+      "total_refs": 28
     },
     "大麦": {
       "type": "species",
@@ -820,7 +820,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 33,
-      "total_refs": 0
+      "total_refs": 1
     },
     "非洲": {
       "type": "place",
@@ -1139,7 +1139,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 11
+      "total_refs": 12
     },
     "近端原因与终极原因": {
       "type": "concept",
@@ -1287,7 +1287,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 46
+      "total_refs": 47
     },
     "骆驼": {
       "type": "species",
@@ -1924,6 +1924,31 @@
       "quality": "standard",
       "quality_score": 31,
       "total_refs": 13
+    },
+    "陶器": {
+      "type": "concept",
+      "label": "陶器",
+      "aliases": [
+        "陶瓷",
+        "pottery",
+        "制陶技术"
+      ],
+      "tags": [
+        "技术传播",
+        "发明",
+        "定居生活"
+      ],
+      "path": "ta/陶器.md",
+      "description": "用黏土烧制容器的技术，是人类最早在多个地点独立发明的技术之一；在《枪炮、病菌与钢铁》中，陶器作为技术传播受定居生活约束的典型案例，也是大陆轴线影响技术扩散速度的例证。",
+      "prose_len": 1159,
+      "prose_chars": 1031,
+      "h2_count": 5,
+      "pn_count": 7,
+      "wikilink_count": 5,
+      "blockquote_count": 1,
+      "quality": "standard",
+      "quality_score": 31,
+      "total_refs": 0
     },
     "天花病毒": {
       "type": "species",
@@ -2683,6 +2708,10 @@
     "政治复杂性": "社会复杂性",
     "社会层级": "社会复杂性",
     "social complexity": "社会复杂性",
+    "陶器": "陶器",
+    "陶瓷": "陶器",
+    "pottery": "陶器",
+    "制陶技术": "陶器",
     "天花病毒": "天花病毒",
     "天花": "天花病毒",
     "痘病毒": "天花病毒",
@@ -2762,6 +2791,6 @@
     "字母传播": "字母文字的传播",
     "腓尼基字母传播": "字母文字的传播"
   },
-  "page_count": 104,
-  "generated": "2026-05-25T09:23:05Z"
+  "page_count": 105,
+  "generated": "2026-05-25T09:25:05Z"
 }
