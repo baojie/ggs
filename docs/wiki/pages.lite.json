@@ -3,4065 +3,3074 @@
     "About": {
       "type": "overview",
       "label": "关于本 Wiki",
-      "aliases": [
-        "关于",
-        "About"
-      ],
-      "path": "ab/About.md"
+      "quality": "basic",
+      "tags": []
     },
     "aisaobiya": {
       "type": "place",
       "label": "埃塞俄比亚",
-      "aliases": [
-        "Ethiopia"
-      ],
-      "path": "ai/aisaobiya.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "农业",
+        "文明"
+      ]
     },
     "爱迪生": {
       "type": "person",
       "label": "托马斯·爱迪生",
-      "aliases": [
-        "Thomas Edison",
-        "爱迪生"
-      ],
-      "path": "ai/爱迪生.md"
+      "quality": "featured",
+      "tags": [
+        "科学家"
+      ]
     },
     "alabobandao": {
       "type": "place",
       "label": "阿拉伯半岛",
-      "aliases": [
-        "Arabian Peninsula"
-      ],
-      "path": "al/alabobandao.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "帝国",
+        "路线"
+      ]
     },
     "annatuoliya": {
       "type": "place",
       "label": "安纳托利亚",
-      "aliases": [
-        "Anatolia",
-        "小亚细亚"
-      ],
-      "path": "an/annatuoliya.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "文明"
+      ]
     },
     "安娜-卡列尼娜原则": {
       "type": "concept",
       "label": "安娜·卡列尼娜原则",
-      "aliases": [
-        "安娜卡列尼娜原则",
-        "驯化失败原则"
-      ],
-      "path": "an/安娜-卡列尼娜原则.md"
+      "quality": "featured",
+      "tags": [
+        "生物",
+        "农业",
+        "演化"
+      ]
     },
     "安第斯山脉": {
       "type": "place",
       "label": "安第斯山脉",
-      "aliases": [
-        "安第斯",
-        "Andes",
-        "南美安第斯"
-      ],
-      "path": "an/安第斯山脉.md"
+      "quality": "featured",
+      "tags": [
+        "地区",
+        "农业起源",
+        "南美洲"
+      ]
     },
     "澳大利亚": {
       "type": "place",
       "label": "澳大利亚",
-      "aliases": [
-        "Australia",
-        "澳洲"
-      ],
-      "path": "ao/澳大利亚.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "历史",
+        "狩猎采集",
+        "大洋洲"
+      ]
     },
     "阿塔瓦尔帕": {
       "type": "person",
       "label": "阿塔瓦尔帕",
-      "aliases": [
-        "Atahualpa",
-        "阿塔华帕"
-      ],
-      "path": "at/阿塔瓦尔帕.md"
+      "quality": "featured",
+      "tags": [
+        "统治者",
+        "原住民"
+      ]
     },
     "baergan": {
       "type": "place",
       "label": "巴尔干",
-      "aliases": [
-        "Balkans",
-        "巴尔干半岛"
-      ],
-      "path": "ba/baergan.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "路线"
+      ]
     },
     "bailatu": {
       "type": "person",
       "label": "柏拉图",
-      "aliases": [
-        "Plato"
-      ],
-      "path": "ba/bailatu.md"
+      "quality": "",
+      "tags": [
+        "学者"
+      ]
     },
     "半岛": {
       "type": "concept",
       "label": "半岛",
-      "aliases": [
-        "半岛地形"
-      ],
-      "path": "ba/半岛.md"
+      "quality": "",
+      "tags": [
+        "地理"
+      ]
     },
     "斑马": {
       "type": "species",
       "label": "斑马",
-      "aliases": [
-        "非洲斑马",
-        "zebra",
-        "Equus quagga"
-      ],
-      "path": "ba/斑马.md"
+      "quality": "featured",
+      "tags": [
+        "动物",
+        "野生"
+      ]
     },
     "班图扩张": {
       "type": "event",
       "label": "班图扩张",
-      "aliases": [
-        "Bantu Expansion",
-        "班图族扩张"
-      ],
-      "path": "ba/班图扩张.md"
+      "quality": "featured",
+      "tags": [
+        "人口迁移",
+        "非洲",
+        "农业传播"
+      ]
     },
     "beimeizhou": {
       "type": "place",
       "label": "北美洲",
-      "aliases": [
-        "North America"
-      ],
-      "path": "be/beimeizhou.md"
+      "quality": "",
+      "tags": [
+        "大陆",
+        "地理"
+      ]
     },
     "兵豆": {
       "type": "species",
       "label": "兵豆",
-      "aliases": [
-        "lentil",
-        "扁豆",
-        "小扁豆"
-      ],
-      "path": "bi/兵豆.md"
+      "quality": "",
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ]
     },
     "病原体": {
       "type": "concept",
       "label": "病原体",
-      "aliases": [
-        "致病原",
-        "病菌",
-        "pathogen"
-      ],
-      "path": "bi/病原体.md"
+      "quality": "featured",
+      "tags": [
+        "传染病",
+        "生物学",
+        "演化"
+      ]
     },
     "病菌": {
       "type": "concept",
       "label": "病菌",
-      "aliases": [
-        "传染病",
-        "流行病",
-        "germs"
-      ],
-      "path": "bi/病菌.md"
+      "quality": "featured",
+      "tags": [
+        "疾病",
+        "生物",
+        "农业"
+      ]
     },
     "伯克和威尔斯": {
       "type": "person",
       "label": "伯克和威尔斯",
-      "aliases": [
-        "Robert Burke",
-        "William Wills",
-        "罗伯特·伯克",
-        "威廉·威尔斯"
-      ],
-      "path": "bo/伯克和威尔斯.md"
+      "quality": "featured",
+      "tags": [
+        "探险家"
+      ]
     },
     "波利尼西亚": {
       "type": "place",
       "label": "波利尼西亚",
-      "aliases": [
-        "Polynesia",
-        "太平洋诸岛",
-        "南岛人"
-      ],
-      "path": "bo/波利尼西亚.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "太平洋",
+        "历史",
+        "农业"
+      ]
     },
     "玻璃": {
       "type": "concept",
       "label": "玻璃",
-      "aliases": [
-        "玻璃器具",
-        "玻璃制品",
-        "硅酸盐玻璃"
-      ],
-      "path": "bo/玻璃.md"
+      "quality": "standard",
+      "tags": [
+        "材料技术",
+        "技术积累",
+        "科学仪器"
+      ]
     },
     "部族": {
       "type": "concept",
       "label": "部族",
-      "aliases": [
-        "部落",
-        "族群组织",
-        "部落组织"
-      ],
-      "path": "bu/部族.md"
+      "quality": "featured",
+      "tags": [
+        "社会组织",
+        "政治结构",
+        "史前社会"
+      ]
     },
     "部落": {
       "type": "concept",
       "label": "部落",
-      "aliases": [
-        "部落社会",
-        "部落组织",
-        "氏族部落"
-      ],
-      "path": "bu/部落.md"
+      "quality": "standard",
+      "tags": [
+        "社会组织",
+        "政治",
+        "人类学",
+        "平等主义"
+      ]
     },
     "草原": {
       "type": "concept",
       "label": "草原",
-      "aliases": [
-        "大草原",
-        "欧亚草原",
-        "steppe"
-      ],
-      "path": "ca/草原.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "生态",
+        "驯化"
+      ]
     },
     "蚕": {
       "type": "species",
       "label": "蚕",
-      "aliases": [
-        "家蚕",
-        "silkworm",
-        "桑蚕"
-      ],
-      "path": "ca/蚕.md"
+      "quality": "",
+      "tags": [
+        "动物",
+        "驯化种"
+      ]
     },
     "ch01-up-to-the-starting-line": {
       "type": "chapter",
       "label": "第一章　走上起跑线",
-      "aliases": [],
-      "path": "ch/ch01-up-to-the-starting-line.md"
+      "quality": "",
+      "tags": [
+        "chapter"
+      ]
     },
     "ch02-natural-experiment-of-history": {
       "type": "chapter",
       "label": "第二章　历史的自然实验",
-      "aliases": [],
-      "path": "ch/ch02-natural-experiment-of-history.md"
+      "quality": "",
+      "tags": [
+        "chapter"
+      ]
     },
     "ch03-collision-at-cajamarca": {
       "type": "chapter",
       "label": "第三章　卡哈马卡的冲突",
-      "aliases": [],
-      "path": "ch/ch03-collision-at-cajamarca.md"
+      "quality": "",
+      "tags": [
+        "chapter"
+      ]
     },
     "ch04-farmer-power": {
       "type": "chapter",
       "label": "第四章　农民的力量",
-      "aliases": [],
-      "path": "ch/ch04-farmer-power.md"
+      "quality": "",
+      "tags": [
+        "chapter"
+      ]
     },
     "ch05-historys-haves-and-have-nots": {
       "type": "chapter",
       "label": "第五章　历史上的穷与富",
-      "aliases": [],
-      "path": "ch/ch05-historys-haves-and-have-nots.md"
+      "quality": "",
+      "tags": [
+        "chapter"
+      ]
     },
     "ch06-to-farm-or-not-to-farm": {
       "type": "chapter",
       "label": "第六章　种田还是不种田",
-      "aliases": [],
-      "path": "ch/ch06-to-farm-or-not-to-farm.md"
+      "quality": "",
+      "tags": [
+        "chapter"
+      ]
     },
     "ch07-how-to-make-an-almond": {
       "type": "chapter",
       "label": "第七章　怎样识别杏仁",
-      "aliases": [],
-      "path": "ch/ch07-how-to-make-an-almond.md"
+      "quality": "",
+      "tags": [
+        "chapter"
+      ]
     },
     "ch08-apples-or-indians": {
       "type": "chapter",
       "label": "第八章　问题在苹果还是在印第安人",
-      "aliases": [],
-      "path": "ch/ch08-apples-or-indians.md"
+      "quality": "",
+      "tags": [
+        "chapter"
+      ]
     },
     "ch09-zebras-unhappy-marriages-anna-karenina": {
       "type": "chapter",
       "label": "第九章　斑马、不幸的婚姻和安娜·卡列尼娜原则",
-      "aliases": [],
-      "path": "ch/ch09-zebras-unhappy-marriages-anna-karenina.md"
+      "quality": "",
+      "tags": [
+        "chapter"
+      ]
     },
     "ch10-spacious-skies-tilted-axis": {
       "type": "chapter",
       "label": "第十章　辽阔的天空与偏斜的轴线",
-      "aliases": [],
-      "path": "ch/ch10-spacious-skies-tilted-axis.md"
+      "quality": "",
+      "tags": [
+        "chapter"
+      ]
     },
     "ch11-lethal-gift-of-livestock": {
       "type": "chapter",
       "label": "第十一章　牲畜的致命礼物",
-      "aliases": [],
-      "path": "ch/ch11-lethal-gift-of-livestock.md"
+      "quality": "",
+      "tags": [
+        "chapter"
+      ]
     },
     "ch12-blueprints-borrowed-letters": {
       "type": "chapter",
       "label": "第十二章　蓝图和借用字母",
-      "aliases": [],
-      "path": "ch/ch12-blueprints-borrowed-letters.md"
+      "quality": "",
+      "tags": [
+        "chapter"
+      ]
     },
     "ch13-necessitys-mother": {
       "type": "chapter",
       "label": "第十三章　需要之母",
-      "aliases": [],
-      "path": "ch/ch13-necessitys-mother.md"
+      "quality": "",
+      "tags": [
+        "chapter"
+      ]
     },
     "ch14-from-egalitarianism-to-kleptocracy": {
       "type": "chapter",
       "label": "第十四章　从平等主义到盗贼统治",
-      "aliases": [],
-      "path": "ch/ch14-from-egalitarianism-to-kleptocracy.md"
+      "quality": "",
+      "tags": [
+        "chapter"
+      ]
     },
     "ch15-yalis-people": {
       "type": "chapter",
       "label": "第十五章　耶利的族人",
-      "aliases": [],
-      "path": "ch/ch15-yalis-people.md"
+      "quality": "",
+      "tags": [
+        "chapter"
+      ]
     },
     "ch16-how-china-became-chinese": {
       "type": "chapter",
       "label": "第十六章　中国是怎样成为中国人的中国的",
-      "aliases": [],
-      "path": "ch/ch16-how-china-became-chinese.md"
+      "quality": "",
+      "tags": [
+        "chapter"
+      ]
     },
     "ch17-speedboat-to-polynesia": {
       "type": "chapter",
       "label": "第十七章　驶向波利尼西亚的快艇",
-      "aliases": [],
-      "path": "ch/ch17-speedboat-to-polynesia.md"
+      "quality": "",
+      "tags": [
+        "chapter"
+      ]
     },
     "ch18-collision-of-two-hemispheres": {
       "type": "chapter",
       "label": "第十八章　两个半球的碰撞",
-      "aliases": [],
-      "path": "ch/ch18-collision-of-two-hemispheres.md"
+      "quality": "",
+      "tags": [
+        "chapter"
+      ]
     },
     "ch19-how-africa-became-black": {
       "type": "chapter",
       "label": "第十九章　非洲是怎样成为黑人的非洲的",
-      "aliases": [],
-      "path": "ch/ch19-how-africa-became-black.md"
+      "quality": "",
+      "tags": [
+        "chapter"
+      ]
     },
     "chaoxian": {
       "type": "place",
       "label": "朝鲜",
-      "aliases": [
-        "Korea",
-        "朝鲜半岛"
-      ],
-      "path": "ch/chaoxian.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "文明",
+        "语言"
+      ]
     },
     "传教": {
       "type": "concept",
       "label": "传教",
-      "aliases": [
-        "传教活动",
-        "传教士",
-        "宗教传播"
-      ],
-      "path": "ch/传教.md"
+      "quality": "featured",
+      "tags": [
+        "宗教",
+        "殖民扩张",
+        "文化接触"
+      ]
     },
     "传染病": {
       "type": "concept",
       "label": "传染病",
-      "aliases": [
-        "流行病",
-        "epidemic",
-        "病菌传播",
-        "传染性疾病"
-      ],
-      "path": "ch/传染病.md"
+      "quality": "featured",
+      "tags": [
+        "病菌",
+        "征服",
+        "人口崩溃"
+      ]
     },
     "创新": {
       "type": "concept",
       "label": "创新",
-      "aliases": [
-        "innovation",
-        "技术创新",
-        "发明创造"
-      ],
-      "path": "ch/创新.md"
+      "quality": "featured",
+      "tags": [
+        "技术",
+        "发明",
+        "社会因素"
+      ]
     },
     "城市": {
       "type": "concept",
       "label": "城市",
-      "aliases": [
-        "city",
-        "城镇",
-        "都市",
-        "城市化"
-      ],
-      "path": "ch/城市.md"
+      "quality": "featured",
+      "tags": [
+        "社会复杂性",
+        "国家",
+        "传染病"
+      ]
     },
     "船只": {
       "type": "concept",
       "label": "船只",
-      "aliases": [
-        "船舶",
-        "帆船",
-        "航船"
-      ],
-      "path": "ch/船只.md"
+      "quality": "featured",
+      "tags": [
+        "技术",
+        "航海",
+        "征服"
+      ]
     },
     "村落": {
       "type": "concept",
       "label": "村落",
-      "aliases": [
-        "村庄",
-        "定居点",
-        "settlement"
-      ],
-      "path": "cu/村落.md"
+      "quality": "featured",
+      "tags": [
+        "政治组织",
+        "社会复杂化",
+        "农业"
+      ]
     },
     "dagama": {
       "type": "person",
       "label": "瓦斯科·达·伽马",
-      "aliases": [
-        "Vasco da Gama",
-        "达·伽马"
-      ],
-      "path": "da/dagama.md"
+      "quality": "",
+      "tags": [
+        "探险家"
+      ]
     },
     "daimengde": {
       "type": "person",
       "label": "贾雷德·戴蒙德",
-      "aliases": [
-        "Jared Diamond",
-        "戴蒙德"
-      ],
-      "path": "da/daimengde.md"
+      "quality": "",
+      "tags": [
+        "学者",
+        "作者",
+        "科学家"
+      ]
     },
     "大豆": {
       "type": "species",
       "label": "大豆",
-      "aliases": [
-        "soybean",
-        "黄豆"
-      ],
-      "path": "da/大豆.md"
+      "quality": "",
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ]
     },
     "大陆": {
       "type": "concept",
       "label": "大陆",
-      "aliases": [
-        "洲",
-        "大洲"
-      ],
-      "path": "da/大陆.md"
+      "quality": "",
+      "tags": [
+        "地理",
+        "历史"
+      ]
     },
     "大陆轴线": {
       "type": "concept",
       "label": "大陆轴线",
-      "aliases": [
-        "大陆主轴线",
-        "东西轴线",
-        "南北轴线",
-        "continental axis"
-      ],
-      "path": "da/大陆轴线.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "农业"
+      ]
     },
     "大麦": {
       "type": "species",
       "label": "大麦",
-      "aliases": [
-        "大麦草",
-        "barley",
-        "Hordeum vulgare"
-      ],
-      "path": "da/大麦.md"
+      "quality": "featured",
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ]
     },
     "大麻": {
       "type": "species",
       "label": "大麻",
-      "aliases": [
-        "hemp",
-        "工业大麻"
-      ],
-      "path": "da/大麻.md"
+      "quality": "",
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ]
     },
     "岛屿": {
       "type": "concept",
       "label": "岛屿",
-      "aliases": [
-        "岛",
-        "海岛"
-      ],
-      "path": "da/岛屿.md"
+      "quality": "",
+      "tags": [
+        "地理",
+        "生物",
+        "演化"
+      ]
     },
     "达尔文": {
       "type": "person",
       "label": "达尔文",
-      "aliases": [
-        "查尔斯·达尔文",
-        "Charles Darwin"
-      ],
-      "path": "da/达尔文.md"
+      "quality": "standard",
+      "tags": [
+        "科学家",
+        "学者"
+      ]
     },
     "地中海地区": {
       "type": "place",
       "label": "地中海地区",
-      "aliases": [
-        "地中海气候带",
-        "Mediterranean",
-        "欧亚大陆西部地中海气候带"
-      ],
-      "path": "di/地中海地区.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "农业起源",
+        "气候带"
+      ]
     },
     "地理决定论": {
       "type": "concept",
       "label": "地理决定论",
-      "aliases": [
-        "环境决定论",
-        "geographic determinism"
-      ],
-      "path": "di/地理决定论.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "历史",
+        "社会组织"
+      ]
     },
     "地理因素": {
       "type": "concept",
       "label": "地理因素",
-      "aliases": [
-        "geography",
-        "地理条件",
-        "地理环境",
-        "环境决定论"
-      ],
-      "path": "di/地理因素.md"
+      "quality": "featured",
+      "tags": [
+        "地理决定论",
+        "近端原因与终极原因",
+        "大陆轴线"
+      ]
     },
     "定居": {
       "type": "concept",
       "label": "定居",
-      "aliases": [
-        "定居生活",
-        "定居化",
-        "定居社会"
-      ],
-      "path": "di/定居.md"
+      "quality": "featured",
+      "tags": [
+        "农业",
+        "社会组织",
+        "粮食生产",
+        "人口"
+      ]
     },
     "帝国": {
       "type": "concept",
       "label": "帝国",
-      "aliases": [
-        "帝国扩张",
-        "empire",
-        "征服帝国"
-      ],
-      "path": "di/帝国.md"
+      "quality": "featured",
+      "tags": [
+        "政治组织",
+        "社会复杂性",
+        "征服",
+        "扩张"
+      ]
     },
     "抵抗": {
       "type": "concept",
       "label": "抵抗",
-      "aliases": [
-        "反抗",
-        "武装抵抗"
-      ],
-      "path": "di/抵抗.md"
+      "quality": "featured",
+      "tags": [
+        "军事",
+        "征服",
+        "政治组织"
+      ]
     },
     "东南亚": {
       "type": "place",
       "label": "东南亚",
-      "aliases": [
-        "Southeast Asia",
-        "热带东南亚"
-      ],
-      "path": "do/东南亚.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "农业传播",
+        "语言扩张"
+      ]
     },
     "动物": {
       "type": "concept",
       "label": "动物",
-      "aliases": [
-        "野生动物",
-        "动物物种",
-        "动物多样性"
-      ],
-      "path": "do/动物.md"
+      "quality": "featured",
+      "tags": [
+        "生物学",
+        "动物驯化",
+        "物种灭绝"
+      ]
     },
     "鹅": {
       "type": "species",
       "label": "鹅",
-      "aliases": [
-        "goose",
-        "家鹅"
-      ],
-      "path": "e0/鹅.md"
+      "quality": "",
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ]
     },
     "Epilogue": {
       "type": "chapter",
       "label": "后记　人类史作为一门科学的未来",
-      "aliases": [],
-      "path": "ep/Epilogue.md"
+      "quality": "",
+      "tags": [
+        "chapter"
+      ]
     },
     "发明": {
       "type": "concept",
       "label": "发明",
-      "aliases": [
-        "技术发明",
-        "创新",
-        "invention",
-        "技术创新"
-      ],
-      "path": "fa/发明.md"
+      "quality": "featured",
+      "tags": [
+        "技术传播",
+        "社会复杂性",
+        "竞争优势"
+      ]
     },
     "发明家": {
       "type": "concept",
       "label": "发明家",
-      "aliases": [
-        "发明者",
-        "创新者",
-        "inventor"
-      ],
-      "path": "fa/发明家.md"
+      "quality": "featured",
+      "tags": [
+        "技术",
+        "创新",
+        "历史解释"
+      ]
     },
     "feilvbin": {
       "type": "place",
       "label": "菲律宾",
-      "aliases": [
-        "Philippines"
-      ],
-      "path": "fe/feilvbin.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "岛屿",
+        "农业"
+      ]
     },
     "分裂": {
       "type": "concept",
       "label": "分裂",
-      "aliases": [
-        "政治分裂",
-        "碎片化",
-        "欧洲分裂"
-      ],
-      "path": "fe/分裂.md"
+      "quality": "featured",
+      "tags": [
+        "政治组织",
+        "地理决定论",
+        "国家形成"
+      ]
     },
     "非洲": {
       "type": "place",
       "label": "非洲",
-      "aliases": [
-        "Africa",
-        "撒哈拉以南非洲",
-        "非洲大陆"
-      ],
-      "path": "fe/非洲.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "历史",
+        "农业",
+        "疾病"
+      ]
     },
     "Frontispiece": {
       "type": "chapter",
       "label": "书前彩插",
-      "aliases": [],
-      "path": "fr/Frontispiece.md"
+      "quality": "",
+      "tags": [
+        "chapter",
+        "illustrations"
+      ]
     },
     "fuhuojiedao": {
       "type": "place",
       "label": "复活节岛",
-      "aliases": [
-        "Easter Island",
-        "拉帕努伊"
-      ],
-      "path": "fu/fuhuojiedao.md"
+      "quality": "",
+      "tags": [
+        "岛屿",
+        "文明"
+      ]
     },
     "干旱": {
       "type": "concept",
       "label": "干旱",
-      "aliases": [
-        "drought",
-        "旱灾",
-        "干燥气候",
-        "ENSO"
-      ],
-      "path": "ga/干旱.md"
+      "quality": "featured",
+      "tags": [
+        "气候",
+        "环境",
+        "澳大利亚"
+      ]
     },
     "橄榄": {
       "type": "species",
       "label": "橄榄",
-      "aliases": [
-        "油橄榄",
-        "olive"
-      ],
-      "path": "ga/橄榄.md"
+      "quality": "",
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ]
     },
     "甘薯": {
       "type": "species",
       "label": "甘薯",
-      "aliases": [
-        "红薯",
-        "番薯",
-        "sweet potato"
-      ],
-      "path": "ga/甘薯.md"
+      "quality": "",
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ]
     },
     "钢铁": {
       "type": "concept",
       "label": "钢铁",
-      "aliases": [
-        "铁器",
-        "钢铁技术",
-        "steel",
-        "iron"
-      ],
-      "path": "ga/钢铁.md"
+      "quality": "featured",
+      "tags": [
+        "军事技术",
+        "冶金",
+        "征服"
+      ]
     },
     "高原": {
       "type": "concept",
       "label": "高原",
-      "aliases": [
-        "高地",
-        "高原地区",
-        "高原地带"
-      ],
-      "path": "ga/高原.md"
+      "quality": "",
+      "tags": [
+        "地理",
+        "农业",
+        "生态"
+      ]
     },
     "高粱": {
       "type": "species",
       "label": "高粱",
-      "aliases": [
-        "高粱",
-        "sorghum",
-        "Sorghum bicolor"
-      ],
-      "path": "ga/高粱.md"
+      "quality": "featured",
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ]
     },
     "哥伦布": {
       "type": "person",
       "label": "哥伦布",
-      "aliases": [
-        "克里斯托弗·哥伦布",
-        "Christopher Columbus"
-      ],
-      "path": "ge/哥伦布.md"
+      "quality": "featured",
+      "tags": [
+        "探险家",
+        "征服者"
+      ]
     },
     "哥伦布航行与两个半球的碰撞": {
       "type": "event",
       "label": "哥伦布航行与两个半球的碰撞",
-      "aliases": [
-        "Columbus Voyage",
-        "1492年哥伦布航行",
-        "两个半球的碰撞"
-      ],
-      "path": "ge/哥伦布航行与两个半球的碰撞.md"
+      "quality": "featured",
+      "tags": [
+        "航海",
+        "征服",
+        "碰撞",
+        "旧大陆",
+        "新大陆"
+      ]
     },
     "更新世大型动物灭绝": {
       "type": "event",
       "label": "更新世大型动物灭绝",
-      "aliases": [
-        "Pleistocene megafauna extinction",
-        "晚更新世灭绝",
-        "巨型动物灭绝"
-      ],
-      "path": "ge/更新世大型动物灭绝.md"
+      "quality": "featured",
+      "tags": [
+        "灭绝",
+        "史前",
+        "动物",
+        "美洲",
+        "澳大利亚"
+      ]
     },
     "格林伯格": {
       "type": "person",
       "label": "约瑟夫·格林伯格",
-      "aliases": [
-        "Joseph Greenberg",
-        "格林伯格"
-      ],
-      "path": "ge/格林伯格.md"
+      "quality": "featured",
+      "tags": [
+        "学者"
+      ]
     },
     "工具": {
       "type": "concept",
       "label": "工具",
-      "aliases": [
-        "tools",
-        "技术工具",
-        "石器",
-        "铁器",
-        "人工制品"
-      ],
-      "path": "go/工具.md"
+      "quality": "featured",
+      "tags": [
+        "技术传播",
+        "征服",
+        "发明"
+      ]
     },
     "工程": {
       "type": "concept",
       "label": "工程",
-      "aliases": [
-        "engineering",
-        "公共工程",
-        "大型工程",
-        "基础设施"
-      ],
-      "path": "go/工程.md"
+      "quality": "featured",
+      "tags": [
+        "政治组织",
+        "技术",
+        "国家"
+      ]
     },
     "弓箭": {
       "type": "concept",
       "label": "弓箭",
-      "aliases": [
-        "弓矢",
-        "弓与箭",
-        "复合弓"
-      ],
-      "path": "go/弓箭.md"
+      "quality": "featured",
+      "tags": [
+        "技术",
+        "武器",
+        "狩猎"
+      ]
     },
     "狗": {
       "type": "species",
       "label": "狗",
-      "aliases": [
-        "家犬",
-        "犬",
-        "dog"
-      ],
-      "path": "go/狗.md"
+      "quality": "",
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ]
     },
     "国家": {
       "type": "concept",
       "label": "国家",
-      "aliases": [
-        "国家社会",
-        "国家形成",
-        "state"
-      ],
-      "path": "gu/国家.md"
+      "quality": "featured",
+      "tags": [
+        "政治组织",
+        "社会复杂性",
+        "征服"
+      ]
     },
     "国家的形成": {
       "type": "event",
       "label": "国家的形成",
-      "aliases": [
-        "State Formation",
-        "最早国家",
-        "国家起源"
-      ],
-      "path": "gu/国家的形成.md"
+      "quality": "featured",
+      "tags": [
+        "国家",
+        "政治",
+        "社会复杂性"
+      ]
     },
     "国王": {
       "type": "concept",
       "label": "国王",
-      "aliases": [
-        "王",
-        "君王",
-        "世袭君主"
-      ],
-      "path": "gu/国王.md"
+      "quality": "",
+      "tags": [
+        "政治组织",
+        "国家形成",
+        "君主制"
+      ]
     },
     "官员": {
       "type": "concept",
       "label": "官员",
-      "aliases": [
-        "官僚",
-        "行政官员",
-        "文官"
-      ],
-      "path": "gu/官员.md"
+      "quality": "featured",
+      "tags": [
+        "国家形成",
+        "政治组织",
+        "官僚制"
+      ]
     },
     "灌溉": {
       "type": "concept",
       "label": "灌溉",
-      "aliases": [
-        "irrigation",
-        "灌溉农业",
-        "水利工程",
-        "灌溉系统"
-      ],
-      "path": "gu/灌溉.md"
+      "quality": "featured",
+      "tags": [
+        "农业",
+        "社会复杂性",
+        "国家"
+      ]
     },
     "谷登堡": {
       "type": "person",
       "label": "谷登堡",
-      "aliases": [
-        "约翰内斯·谷登堡",
-        "Johannes Gutenberg"
-      ],
-      "path": "gu/谷登堡.md"
+      "quality": "featured",
+      "tags": [
+        "科学家",
+        "探险家"
+      ]
     },
     "hanniba": {
       "type": "person",
       "label": "汉尼拔",
-      "aliases": [
-        "Hannibal",
-        "汉尼拔·巴卡"
-      ],
-      "path": "ha/hanniba.md"
+      "quality": "",
+      "tags": [
+        "统治者",
+        "征服者"
+      ]
     },
     "航海": {
       "type": "concept",
       "label": "航海",
-      "aliases": [
-        "航海技术",
-        "maritime technology",
-        "海上扩张",
-        "航运"
-      ],
-      "path": "ha/航海.md"
+      "quality": "featured",
+      "tags": [
+        "技术传播",
+        "征服",
+        "扩张"
+      ]
     },
     "航行": {
       "type": "concept",
       "label": "航行",
-      "aliases": [
-        "远洋航行",
-        "水上航行",
-        "航海"
-      ],
-      "path": "ha/航行.md"
+      "quality": "featured",
+      "tags": [
+        "技术",
+        "贸易",
+        "地理扩张"
+      ]
     },
     "河流": {
       "type": "concept",
       "label": "河流",
-      "aliases": [
-        "水道",
-        "可通航河流",
-        "内陆水系"
-      ],
-      "path": "he/河流.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "农业起源",
+        "文明核心区"
+      ]
     },
     "黑死病": {
       "type": "event",
       "label": "黑死病",
-      "aliases": [
-        "Black Death",
-        "腺鼠疫",
-        "1346年鼠疫"
-      ],
-      "path": "he/黑死病.md"
+      "quality": "featured",
+      "tags": [
+        "流行病",
+        "欧洲",
+        "疾病"
+      ]
     },
     "huashengdun": {
       "type": "person",
       "label": "乔治·华盛顿",
-      "aliases": [
-        "George Washington"
-      ],
-      "path": "hu/huashengdun.md"
+      "quality": "",
+      "tags": [
+        "统治者"
+      ]
     },
     "火": {
       "type": "concept",
       "label": "火",
-      "aliases": [
-        "fire",
-        "用火",
-        "火耕",
-        "火耕农业"
-      ],
-      "path": "hu/火.md"
+      "quality": "featured",
+      "tags": [
+        "技术",
+        "生态",
+        "土著"
+      ]
     },
     "火器": {
       "type": "concept",
       "label": "火器",
-      "aliases": [
-        "枪炮",
-        "火药武器",
-        "枪械"
-      ],
-      "path": "hu/火器.md"
+      "quality": "featured",
+      "tags": [
+        "军事技术",
+        "技术传播",
+        "殖民扩张"
+      ]
     },
     "火药": {
       "type": "concept",
       "label": "火药",
-      "aliases": [
-        "黑色火药",
-        "黑火药",
-        "炸药"
-      ],
-      "path": "hu/火药.md"
+      "quality": "",
+      "tags": [
+        "技术",
+        "军事",
+        "中国发明"
+      ]
     },
     "火鸡": {
       "type": "species",
       "label": "火鸡",
-      "aliases": [
-        "turkey",
-        "吐绶鸡"
-      ],
-      "path": "hu/火鸡.md"
+      "quality": "",
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ]
     },
     "环境": {
       "type": "concept",
       "label": "环境",
-      "aliases": [
-        "environment",
-        "自然环境",
-        "环境条件"
-      ],
-      "path": "hu/环境.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "决定论",
+        "社会发展"
+      ]
     },
     "皇帝": {
       "type": "concept",
       "label": "皇帝",
-      "aliases": [
-        "君主",
-        "帝王",
-        "emperor"
-      ],
-      "path": "hu/皇帝.md"
+      "quality": "featured",
+      "tags": [
+        "政治组织",
+        "国家形成",
+        "征服"
+      ]
     },
     "霍乱": {
       "type": "concept",
       "label": "霍乱",
-      "aliases": [
-        "cholera",
-        "霍乱弧菌"
-      ],
-      "path": "hu/霍乱.md"
+      "quality": "featured",
+      "tags": [
+        "传染病",
+        "演化",
+        "旧大陆"
+      ]
     },
     "jialifuniya": {
       "type": "place",
       "label": "加利福尼亚",
-      "aliases": [
-        "California"
-      ],
-      "path": "ji/jialifuniya.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "地理"
+      ]
     },
     "交换": {
       "type": "concept",
       "label": "交换",
-      "aliases": [
-        "物物交换",
-        "贸易交换",
-        "商品流通"
-      ],
-      "path": "ji/交换.md"
+      "quality": "featured",
+      "tags": [
+        "贸易",
+        "经济",
+        "文化接触"
+      ]
     },
     "季节性": {
       "type": "concept",
       "label": "季节性",
-      "aliases": [
-        "季节变化",
-        "生长季节",
-        "气候季节"
-      ],
-      "path": "ji/季节性.md"
+      "quality": "featured",
+      "tags": [
+        "气候",
+        "农业起源",
+        "植物驯化",
+        "地理"
+      ]
     },
     "家畜": {
       "type": "concept",
       "label": "家畜",
-      "aliases": [
-        "驯化动物",
-        "牲畜",
-        "domestic animals"
-      ],
-      "path": "ji/家畜.md"
+      "quality": "featured",
+      "tags": [
+        "动物",
+        "农业",
+        "生物"
+      ]
     },
     "技术": {
       "type": "concept",
       "label": "技术",
-      "aliases": [
-        "技术进步",
-        "技术传播",
-        "技术积累"
-      ],
-      "path": "ji/技术.md"
+      "quality": "featured",
+      "tags": [
+        "文明发展",
+        "创新",
+        "知识积累"
+      ]
     },
     "技术传播": {
       "type": "concept",
       "label": "技术传播",
-      "aliases": [
-        "技术扩散",
-        "技术交流",
-        "technology diffusion"
-      ],
-      "path": "ji/技术传播.md"
+      "quality": "featured",
+      "tags": [
+        "技术",
+        "历史",
+        "贸易"
+      ]
     },
     "技术积累": {
       "type": "concept",
       "label": "技术积累",
-      "aliases": [
-        "累积性技术进步",
-        "技术演化",
-        "发明的积累性"
-      ],
-      "path": "ji/技术积累.md"
+      "quality": "standard",
+      "tags": [
+        "技术",
+        "创新",
+        "历史",
+        "发明"
+      ]
     },
     "旧大陆": {
       "type": "concept",
       "label": "旧大陆",
-      "aliases": [
-        "欧亚非大陆",
-        "Old World"
-      ],
-      "path": "ji/旧大陆.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "历史",
+        "比较研究"
+      ]
     },
     "竞争": {
       "type": "concept",
       "label": "竞争",
-      "aliases": [
-        "社会竞争",
-        "竞争压力",
-        "间竞争"
-      ],
-      "path": "ji/竞争.md"
+      "quality": "featured",
+      "tags": [
+        "社会演化",
+        "技术传播",
+        "政治组织"
+      ]
     },
     "结核": {
       "type": "concept",
       "label": "结核",
-      "aliases": [
-        "肺结核",
-        "结核病",
-        "结核杆菌"
-      ],
-      "path": "ji/结核.md"
+      "quality": "featured",
+      "tags": [
+        "传染病",
+        "病菌",
+        "人口"
+      ]
     },
     "继承": {
       "type": "concept",
       "label": "继承",
-      "aliases": [
-        "inheritance",
-        "世袭",
-        "权力继承",
-        "世袭制度"
-      ],
-      "path": "ji/继承.md"
+      "quality": "featured",
+      "tags": [
+        "政治组织",
+        "社会",
+        "酋长"
+      ]
     },
     "近端原因与终极原因": {
       "type": "concept",
       "label": "近端原因与终极原因",
-      "aliases": [
-        "直接原因与终极原因",
-        "proximate cause",
-        "ultimate cause"
-      ],
-      "path": "ji/近端原因与终极原因.md"
+      "quality": "featured",
+      "tags": [
+        "社会组织",
+        "地理",
+        "技术"
+      ]
     },
     "金属": {
       "type": "concept",
       "label": "金属",
-      "aliases": [
-        "metals",
-        "金属材料",
-        "铜铁",
-        "金属工具"
-      ],
-      "path": "ji/金属.md"
+      "quality": "featured",
+      "tags": [
+        "技术",
+        "材料",
+        "冶金"
+      ]
     },
     "阶级": {
       "type": "concept",
       "label": "阶级",
-      "aliases": [
-        "社会阶级",
-        "阶层",
-        "社会分层"
-      ],
-      "path": "ji/阶级.md"
+      "quality": "featured",
+      "tags": [
+        "政治组织",
+        "社会复杂化",
+        "国家形成"
+      ]
     },
     "集中": {
       "type": "concept",
       "label": "集中",
-      "aliases": [
-        "权力集中",
-        "集权",
-        "中央集权"
-      ],
-      "path": "ji/集中.md"
+      "quality": "featured",
+      "tags": [
+        "政治组织",
+        "社会复杂化",
+        "国家形成"
+      ]
     },
     "鸡": {
       "type": "species",
       "label": "鸡",
-      "aliases": [
-        "家鸡",
-        "chicken",
-        "原鸡"
-      ],
-      "path": "ji/鸡.md"
+      "quality": "",
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ]
     },
     "军事征服": {
       "type": "concept",
       "label": "军事征服",
-      "aliases": [
-        "military conquest",
-        "武装征服",
-        "军事扩张",
-        "征服"
-      ],
-      "path": "ju/军事征服.md"
+      "quality": "featured",
+      "tags": [
+        "战争",
+        "技术传播",
+        "殖民主义"
+      ]
     },
     "军队": {
       "type": "concept",
       "label": "军队",
-      "aliases": [
-        "武装力量",
-        "士兵",
-        "军事力量"
-      ],
-      "path": "ju/军队.md"
+      "quality": "featured",
+      "tags": [
+        "政治组织",
+        "战争",
+        "国家形成"
+      ]
     },
     "君主": {
       "type": "concept",
       "label": "君主",
-      "aliases": [
-        "君主制",
-        "世袭统治者",
-        "monarch"
-      ],
-      "path": "ju/君主.md"
+      "quality": "featured",
+      "tags": [
+        "政治组织",
+        "合法性",
+        "国家形成"
+      ]
     },
     "巨型动物": {
       "type": "concept",
       "label": "巨型动物",
-      "aliases": [
-        "巨型动物灭绝",
-        "大型哺乳动物",
-        "史前动物灭绝"
-      ],
-      "path": "ju/巨型动物.md"
+      "quality": "standard",
+      "tags": [
+        "生态",
+        "史前史",
+        "人类扩散",
+        "动物驯化"
+      ]
     },
     "卡哈马卡": {
       "type": "place",
       "label": "卡哈马卡",
-      "aliases": [
-        "Cajamarca",
-        "卡哈马卡战役"
-      ],
-      "path": "ka/卡哈马卡.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "历史",
+        "南美洲",
+        "征服"
+      ]
     },
     "卡哈马卡之战": {
       "type": "event",
       "label": "卡哈马卡之战",
-      "aliases": [
-        "Battle of Cajamarca",
-        "1532年卡哈马卡战役"
-      ],
-      "path": "ka/卡哈马卡之战.md"
+      "quality": "featured",
+      "tags": [
+        "军事",
+        "征服",
+        "南美洲"
+      ]
     },
     "考古学": {
       "type": "concept",
       "label": "考古学",
-      "aliases": [
-        "archaeology",
-        "考古学方法",
-        "考古证据"
-      ],
-      "path": "ka/考古学.md"
+      "quality": "featured",
+      "tags": [
+        "方法论",
+        "历史证据"
+      ]
     },
     "考古遗址": {
       "type": "concept",
       "label": "考古遗址",
-      "aliases": [
-        "遗址",
-        "考古发掘"
-      ],
-      "path": "ka/考古遗址.md"
+      "quality": "featured",
+      "tags": [
+        "考古学",
+        "史前史",
+        "研究方法"
+      ]
     },
     "keluoweiwenhua": {
       "type": "event",
       "label": "克罗维文化",
-      "aliases": [
-        "Clovis culture",
-        "克罗维遗址"
-      ],
-      "path": "ke/keluoweiwenhua.md"
+      "quality": "",
+      "tags": [
+        "迁徙",
+        "发现"
+      ]
     },
     "科学": {
       "type": "concept",
       "label": "科学",
-      "aliases": [
-        "science",
-        "科学方法",
-        "科学观点",
-        "历史科学"
-      ],
-      "path": "ke/科学.md"
+      "quality": "featured",
+      "tags": [
+        "方法论",
+        "知识",
+        "欧洲"
+      ]
     },
     "科尔特斯": {
       "type": "person",
       "label": "科尔特斯",
-      "aliases": [
-        "埃尔南·科尔特斯",
-        "Hernán Cortés"
-      ],
-      "path": "ke/科尔特斯.md"
+      "quality": "featured",
+      "tags": [
+        "征服者",
+        "探险家"
+      ]
     },
     "kuke": {
       "type": "person",
       "label": "詹姆斯·库克",
-      "aliases": [
-        "James Cook",
-        "库克船长"
-      ],
-      "path": "ku/kuke.md"
+      "quality": "",
+      "tags": [
+        "探险家"
+      ]
     },
     "扩张": {
       "type": "concept",
       "label": "扩张",
-      "aliases": [
-        "expansion",
-        "人口扩张",
-        "领土扩张",
-        "农业扩张"
-      ],
-      "path": "ku/扩张.md"
+      "quality": "featured",
+      "tags": [
+        "人口",
+        "农业",
+        "迁徙",
+        "历史"
+      ]
     },
     "劳动力": {
       "type": "concept",
       "label": "劳动力",
-      "aliases": [
-        "人力资源",
-        "劳工",
-        "劳动人口"
-      ],
-      "path": "la/劳动力.md"
+      "quality": "",
+      "tags": [
+        "经济",
+        "政治组织",
+        "农业"
+      ]
     },
     "莱特兄弟": {
       "type": "person",
       "label": "莱特兄弟",
-      "aliases": [
-        "Wright Brothers",
-        "奥维尔·莱特",
-        "威尔伯·莱特"
-      ],
-      "path": "la/莱特兄弟.md"
+      "quality": "standard",
+      "tags": [
+        "发明家"
+      ]
     },
     "粮食生产": {
       "type": "concept",
       "label": "粮食生产",
-      "aliases": [
-        "农业生产",
-        "食物生产",
-        "农耕"
-      ],
-      "path": "li/粮食生产.md"
+      "quality": "featured",
+      "tags": [
+        "农业",
+        "地理",
+        "生物",
+        "社会组织"
+      ]
     },
     "luoma-diguo": {
       "type": "event",
       "label": "罗马帝国",
-      "aliases": [
-        "Roman Empire"
-      ],
-      "path": "lu/luoma-diguo.md"
+      "quality": "",
+      "tags": [
+        "征服",
+        "建国"
+      ]
     },
     "lusuo": {
       "type": "person",
       "label": "让-雅克·卢梭",
-      "aliases": [
-        "Jean-Jacques Rousseau",
-        "卢梭"
-      ],
-      "path": "lu/lusuo.md"
+      "quality": "",
+      "tags": [
+        "学者"
+      ]
     },
     "轮子": {
       "type": "concept",
       "label": "轮子",
-      "aliases": [
-        "wheel",
-        "车轮",
-        "轮轴",
-        "有轮车"
-      ],
-      "path": "lu/轮子.md"
+      "quality": "featured",
+      "tags": [
+        "技术传播",
+        "发明",
+        "大陆轴线"
+      ]
     },
     "骆驼": {
       "type": "species",
       "label": "骆驼",
-      "aliases": [
-        "单峰驼",
-        "双峰驼",
-        "骆驼",
-        "camel",
-        "Camelus dromedarius"
-      ],
-      "path": "lu/骆驼.md"
+      "quality": "featured",
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ]
     },
     "驴": {
       "type": "species",
       "label": "驴",
-      "aliases": [
-        "donkey",
-        "ass",
-        "家驴"
-      ],
-      "path": "lv/驴.md"
+      "quality": "",
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ]
     },
     "madagascar": {
       "type": "place",
       "label": "马达加斯加",
-      "aliases": [
-        "Madagascar"
-      ],
-      "path": "ma/madagascar.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "岛屿",
+        "文明"
+      ]
     },
     "makesi": {
       "type": "person",
       "label": "卡尔·马克思",
-      "aliases": [
-        "Karl Marx",
-        "马克思"
-      ],
-      "path": "ma/makesi.md"
+      "quality": "",
+      "tags": [
+        "学者"
+      ]
     },
     "牦牛": {
       "type": "species",
       "label": "牦牛",
-      "aliases": [
-        "yak",
-        "犛牛"
-      ],
-      "path": "ma/牦牛.md"
+      "quality": "",
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ]
     },
     "猫": {
       "type": "species",
       "label": "猫",
-      "aliases": [
-        "家猫",
-        "cat",
-        "驯化猫"
-      ],
-      "path": "ma/猫.md"
+      "quality": "",
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ]
     },
     "贸易": {
       "type": "concept",
       "label": "贸易",
-      "aliases": [
-        "trade",
-        "商贸",
-        "贸易路线",
-        "交换"
-      ],
-      "path": "ma/贸易.md"
+      "quality": "featured",
+      "tags": [
+        "技术传播",
+        "传染病",
+        "社会复杂性"
+      ]
     },
     "马": {
       "type": "species",
       "label": "马",
-      "aliases": [
-        "马匹",
-        "骏马",
-        "horse",
-        "Equus ferus caballus"
-      ],
-      "path": "ma/马.md"
+      "quality": "featured",
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ]
     },
     "马的驯化": {
       "type": "event",
       "label": "马的驯化",
-      "aliases": [
-        "Horse Domestication",
-        "驯化马"
-      ],
-      "path": "ma/马的驯化.md"
+      "quality": "featured",
+      "tags": [
+        "驯化",
+        "动物",
+        "战争",
+        "欧亚大陆"
+      ]
     },
     "马铃薯": {
       "type": "species",
       "label": "马铃薯",
-      "aliases": [
-        "土豆",
-        "洋芋",
-        "potato",
-        "Solanum tuberosum"
-      ],
-      "path": "ma/马铃薯.md"
+      "quality": "featured",
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ]
     },
     "麻疹": {
       "type": "species",
       "label": "麻疹",
-      "aliases": [
-        "麻疹病毒",
-        "measles",
-        "Measles morbillivirus"
-      ],
-      "path": "ma/麻疹.md"
+      "quality": "featured",
+      "tags": [
+        "病原体"
+      ]
     },
     "meilaxiniya": {
       "type": "place",
       "label": "美拉尼西亚",
-      "aliases": [
-        "Melanesia"
-      ],
-      "path": "me/meilaxiniya.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "岛屿"
+      ]
     },
     "meisuobudamiya": {
       "type": "place",
       "label": "美索不达米亚",
-      "aliases": [
-        "Mesopotamia",
-        "两河流域"
-      ],
-      "path": "me/meisuobudamiya.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "文明",
+        "河流"
+      ]
     },
     "menggu-diguo": {
       "type": "event",
       "label": "蒙古帝国",
-      "aliases": [
-        "Mongol Empire"
-      ],
-      "path": "me/menggu-diguo.md"
+      "quality": "",
+      "tags": [
+        "征服"
+      ]
     },
     "menggu": {
       "type": "place",
       "label": "蒙古",
-      "aliases": [
-        "Mongolia",
-        "蒙古草原"
-      ],
-      "path": "me/menggu.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "帝国"
+      ]
     },
     "美国东部": {
       "type": "place",
       "label": "美国东部",
-      "aliases": [
-        "北美东部",
-        "Eastern North America"
-      ],
-      "path": "me/美国东部.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "农业起源",
+        "粮食生产"
+      ]
     },
     "美洲": {
       "type": "place",
       "label": "美洲",
-      "aliases": [
-        "Americas",
-        "新大陆",
-        "the Americas"
-      ],
-      "path": "me/美洲.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "历史",
+        "农业",
+        "征服"
+      ]
     },
     "美洲家鸭": {
       "type": "species",
       "label": "美洲家鸭",
-      "aliases": [
-        "Muscovy duck",
-        "疣鼻栖鸭"
-      ],
-      "path": "me/美洲家鸭.md"
+      "quality": "",
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ]
     },
     "美洲独立农业起源": {
       "type": "event",
       "label": "美洲独立农业起源",
-      "aliases": [
-        "Independent Agricultural Origins in the Americas",
-        "中美洲农业起源"
-      ],
-      "path": "me/美洲独立农业起源.md"
+      "quality": "featured",
+      "tags": [
+        "农业",
+        "驯化",
+        "美洲",
+        "起源"
+      ]
     },
     "美洲驼": {
       "type": "species",
       "label": "美洲驼",
-      "aliases": [
-        "美洲驼",
-        "大羊驼",
-        "llama",
-        "羊驼",
-        "南美小羊驼"
-      ],
-      "path": "me/美洲驼.md"
+      "quality": "",
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ]
     },
     "蒙特朱马": {
       "type": "person",
       "label": "蒙特朱马",
-      "aliases": [
-        "Moctezuma",
-        "蒙特苏马"
-      ],
-      "path": "me/蒙特朱马.md"
+      "quality": "featured",
+      "tags": [
+        "统治者",
+        "原住民"
+      ]
     },
     "mikelunixiya": {
       "type": "place",
       "label": "密克罗尼西亚",
-      "aliases": [
-        "Micronesia"
-      ],
-      "path": "mi/mikelunixiya.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "岛屿"
+      ]
     },
     "milu": {
       "type": "place",
       "label": "秘鲁",
-      "aliases": [
-        "Peru"
-      ],
-      "path": "mi/milu.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "文明",
+        "农业"
+      ]
     },
     "免疫力": {
       "type": "concept",
       "label": "免疫力",
-      "aliases": [
-        "免疫",
-        "抵抗力",
-        "病菌免疫",
-        "immunity"
-      ],
-      "path": "mi/免疫力.md"
+      "quality": "featured",
+      "tags": [
+        "疾病",
+        "生物",
+        "历史"
+      ]
     },
     "棉花": {
       "type": "concept",
       "label": "棉花",
-      "aliases": [
-        "棉",
-        "棉纤维",
-        "棉作物"
-      ],
-      "path": "mi/棉花.md"
+      "quality": "featured",
+      "tags": [
+        "作物驯化",
+        "纺织",
+        "农业"
+      ]
     },
     "民族": {
       "type": "concept",
       "label": "民族",
-      "aliases": [
+      "quality": "standard",
+      "tags": [
+        "人类学",
         "族群",
-        "民族形成",
-        "种族"
-      ],
-      "path": "mi/民族.md"
+        "历史",
+        "语言",
+        "迁徙"
+      ]
     },
     "灭绝": {
       "type": "concept",
       "label": "灭绝",
-      "aliases": [
-        "extinction",
-        "物种灭绝",
-        "巨型动物灭绝"
-      ],
-      "path": "mi/灭绝.md"
+      "quality": "featured",
+      "tags": [
+        "生态",
+        "人类影响",
+        "史前史"
+      ]
     },
     "绵羊": {
       "type": "species",
       "label": "绵羊",
-      "aliases": [
-        "羊",
-        "家羊",
-        "sheep",
-        "Ovis aries"
-      ],
-      "path": "mi/绵羊.md"
+      "quality": "featured",
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ]
     },
     "蜜蜂": {
       "type": "species",
       "label": "蜜蜂",
-      "aliases": [
-        "honeybee",
-        "家蜂"
-      ],
-      "path": "mi/蜜蜂.md"
+      "quality": "",
+      "tags": [
+        "动物",
+        "驯化种"
+      ]
     },
     "面包果": {
       "type": "species",
       "label": "面包果",
-      "aliases": [
-        "breadfruit"
-      ],
-      "path": "mi/面包果.md"
+      "quality": "",
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ]
     },
     "moxige": {
       "type": "place",
       "label": "墨西哥",
-      "aliases": [
-        "Mexico"
-      ],
-      "path": "mo/moxige.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "文明",
+        "农业"
+      ]
     },
     "木薯": {
       "type": "species",
       "label": "木薯",
-      "aliases": [
-        "cassava",
-        "manioc",
-        "树薯"
-      ],
-      "path": "mu/木薯.md"
+      "quality": "",
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ]
     },
     "牧人": {
       "type": "concept",
       "label": "牧人",
-      "aliases": [
-        "牧民",
-        "游牧民族"
-      ],
-      "path": "mu/牧人.md"
+      "quality": "",
+      "tags": [
+        "社会组织",
+        "农业",
+        "战争"
+      ]
     },
     "目录": {
       "type": "overview",
       "label": "目录",
-      "aliases": [],
-      "path": "mu/目录.md"
+      "quality": "basic",
+      "tags": [
+        "toc"
+      ]
     },
     "nanmeizhou": {
       "type": "place",
       "label": "南美洲",
-      "aliases": [
-        "South America"
-      ],
-      "path": "na/nanmeizhou.md"
+      "quality": "",
+      "tags": [
+        "大陆",
+        "地理"
+      ]
     },
     "napolun": {
       "type": "person",
       "label": "拿破仑",
-      "aliases": [
-        "Napoleon Bonaparte",
-        "拿破仑·波拿巴"
-      ],
-      "path": "na/napolun.md"
+      "quality": "",
+      "tags": [
+        "统治者",
+        "征服者"
+      ]
     },
     "南北轴": {
       "type": "concept",
       "label": "南北轴",
-      "aliases": [
-        "南北走向",
-        "南北轴线",
-        "大陆轴线南北"
-      ],
-      "path": "na/南北轴.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "大陆轴线",
+        "作物传播"
+      ]
     },
     "南岛语族扩张": {
       "type": "event",
       "label": "南岛语族扩张",
-      "aliases": [
-        "Austronesian Expansion",
-        "波利尼西亚扩张",
-        "南岛人扩张"
-      ],
-      "path": "na/南岛语族扩张.md"
+      "quality": "featured",
+      "tags": [
+        "人口迁移",
+        "太平洋",
+        "语言"
+      ]
     },
     "niandetelian": {
       "type": "person",
       "label": "尼安德特人",
-      "aliases": [
-        "Neanderthal",
-        "Homo neanderthalensis"
-      ],
-      "path": "ni/niandetelian.md"
+      "quality": "",
+      "tags": [
+        "原住民"
+      ]
     },
     "niluohe": {
       "type": "place",
       "label": "尼罗河",
-      "aliases": [
-        "Nile River"
-      ],
-      "path": "ni/niluohe.md"
+      "quality": "",
+      "tags": [
+        "河流",
+        "文明"
+      ]
     },
     "牛": {
       "type": "species",
       "label": "牛",
-      "aliases": [
-        "家牛",
-        "黄牛",
-        "cattle",
-        "ox",
-        "Bos taurus"
-      ],
-      "path": "ni/牛.md"
+      "quality": "featured",
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ]
     },
     "农业": {
       "type": "concept",
       "label": "农业",
-      "aliases": [
-        "agriculture",
-        "作物栽培",
-        "农耕",
-        "种植业"
-      ],
-      "path": "no/农业.md"
+      "quality": "featured",
+      "tags": [
+        "粮食生产",
+        "驯化",
+        "技术传播"
+      ]
     },
     "奴隶": {
       "type": "concept",
       "label": "奴隶",
-      "aliases": [
-        "奴隶制",
-        "奴隶劳动",
-        "奴役"
-      ],
-      "path": "nu/奴隶.md"
+      "quality": "basic",
+      "tags": [
+        "社会组织",
+        "政治",
+        "经济",
+        "劳动"
+      ]
     },
     "疟疾": {
       "type": "concept",
       "label": "疟疾",
-      "aliases": [
-        "malaria",
-        "疟原虫感染"
-      ],
-      "path": "nv/疟疾.md"
+      "quality": "featured",
+      "tags": [
+        "传染病",
+        "热带地区",
+        "殖民主义"
+      ]
     },
     "欧亚大陆": {
       "type": "place",
       "label": "欧亚大陆",
-      "aliases": [
-        "Eurasia",
-        "亚欧大陆"
-      ],
-      "path": "ou/欧亚大陆.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "历史",
+        "农业"
+      ]
     },
     "欧洲殖民非洲": {
       "type": "event",
       "label": "欧洲殖民非洲",
-      "aliases": [
-        "European Colonization of Africa",
-        "非洲殖民",
-        "欧洲征服非洲"
-      ],
-      "path": "ou/欧洲殖民非洲.md"
+      "quality": "featured",
+      "tags": [
+        "殖民",
+        "非洲",
+        "征服"
+      ]
     },
     "平原": {
       "type": "concept",
       "label": "平原",
-      "aliases": [
-        "大平原",
-        "冲积平原"
-      ],
-      "path": "pi/平原.md"
+      "quality": "",
+      "tags": [
+        "地理",
+        "农业"
+      ]
     },
     "平民": {
       "type": "concept",
       "label": "平民",
-      "aliases": [
-        "庶民",
-        "普通人",
-        "非精英阶层"
-      ],
-      "path": "pi/平民.md"
+      "quality": "standard",
+      "tags": [
+        "社会分层",
+        "政治组织",
+        "剩余征用"
+      ]
     },
     "皮萨罗": {
       "type": "person",
       "label": "皮萨罗",
-      "aliases": [
-        "弗朗西斯科·皮萨罗",
-        "Francisco Pizarro"
-      ],
-      "path": "pi/皮萨罗.md"
+      "quality": "featured",
+      "tags": [
+        "征服者",
+        "探险家"
+      ]
     },
     "Preface": {
       "type": "chapter",
       "label": "前言　耶利的问题",
-      "aliases": [],
-      "path": "pr/Preface.md"
+      "quality": "",
+      "tags": [
+        "chapter"
+      ]
     },
     "葡萄": {
       "type": "species",
       "label": "葡萄",
-      "aliases": [
-        "葡萄藤",
-        "grape",
-        "栽培葡萄"
-      ],
-      "path": "pu/葡萄.md"
+      "quality": "",
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ]
     },
     "亲属关系": {
       "type": "concept",
       "label": "亲属关系",
-      "aliases": [
-        "kinship",
-        "血缘",
-        "亲族",
-        "亲属网络"
-      ],
-      "path": "qi/亲属关系.md"
+      "quality": "featured",
+      "tags": [
+        "社会",
+        "族群",
+        "政治组织"
+      ]
     },
     "枪炮": {
       "type": "concept",
       "label": "枪炮",
-      "aliases": [
-        "火器",
-        "firearm",
-        "火枪",
-        "火炮"
-      ],
-      "path": "qi/枪炮.md"
+      "quality": "featured",
+      "tags": [
+        "军事技术",
+        "征服",
+        "技术传播"
+      ]
     },
     "栖息地": {
       "type": "concept",
       "label": "栖息地",
-      "aliases": [
-        "生境",
-        "自然环境",
-        "生态环境"
-      ],
-      "path": "qi/栖息地.md"
+      "quality": "featured",
+      "tags": [
+        "生态学",
+        "物种分布",
+        "动物灭绝"
+      ]
     },
     "气候": {
       "type": "concept",
       "label": "气候",
-      "aliases": [
-        "climate",
-        "气候条件",
-        "地中海气候",
-        "气候变化"
-      ],
-      "path": "qi/气候.md"
+      "quality": "featured",
+      "tags": [
+        "地理决定论",
+        "粮食生产",
+        "大陆轴线"
+      ]
     },
     "酋长": {
       "type": "concept",
       "label": "酋长",
-      "aliases": [
-        "酋长制",
-        "酋长管辖地",
-        "酋邦"
-      ],
-      "path": "qi/酋长.md"
+      "quality": "standard",
+      "tags": [
+        "社会组织",
+        "政治",
+        "社会复杂化",
+        "国家起源"
+      ]
     },
     "人口": {
       "type": "concept",
       "label": "人口",
-      "aliases": [
-        "人口规模",
-        "人口密度",
-        "人口压力"
-      ],
-      "path": "re/人口.md"
+      "quality": "featured",
+      "tags": [
+        "社会组织",
+        "国家形成",
+        "农业"
+      ]
     },
     "人口密度": {
       "type": "concept",
       "label": "人口密度",
-      "aliases": [
-        "人口压力",
-        "population density"
-      ],
-      "path": "re/人口密度.md"
+      "quality": "featured",
+      "tags": [
+        "社会组织",
+        "农业",
+        "历史"
+      ]
     },
     "人口扩张": {
       "type": "concept",
       "label": "人口扩张",
-      "aliases": [
-        "农民扩张",
-        "人口置换",
-        "人口压力扩张"
-      ],
-      "path": "re/人口扩张.md"
+      "quality": "featured",
+      "tags": [
+        "人口",
+        "农业",
+        "民族迁移",
+        "狩猎采集"
+      ]
     },
     "人口规模": {
       "type": "concept",
       "label": "人口规模",
-      "aliases": [
-        "population size",
-        "人口密度",
-        "人口数量",
-        "人口"
-      ],
-      "path": "re/人口规模.md"
+      "quality": "featured",
+      "tags": [
+        "社会复杂性",
+        "技术传播",
+        "粮食生产"
+      ]
     },
     "人种": {
       "type": "concept",
       "label": "人种",
-      "aliases": [
-        "种族",
-        "人类种族",
-        "生物性种族"
-      ],
-      "path": "re/人种.md"
+      "quality": "featured",
+      "tags": [
+        "生物学",
+        "种族主义",
+        "历史解释"
+      ]
     },
     "人类首次定居澳大利亚": {
       "type": "event",
       "label": "人类首次定居澳大利亚",
-      "aliases": [
-        "First Human Settlement of Australia",
-        "澳大利亚最早定居"
-      ],
-      "path": "re/人类首次定居澳大利亚.md"
+      "quality": "featured",
+      "tags": [
+        "迁移",
+        "澳大利亚",
+        "史前"
+      ]
     },
     "热带地区": {
       "type": "concept",
       "label": "热带地区",
-      "aliases": [
-        "热带",
-        "热带气候",
-        "低纬度地区"
-      ],
-      "path": "re/热带地区.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "气候",
+        "农业",
+        "传染病"
+      ]
     },
     "日本": {
       "type": "place",
       "label": "日本",
-      "aliases": [
-        "Japan",
-        "日本列岛"
-      ],
-      "path": "ri/日本.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "农业传播",
+        "语言起源"
+      ]
     },
     "sahala": {
       "type": "place",
       "label": "撒哈拉",
-      "aliases": [
-        "Sahara",
-        "撒哈拉沙漠"
-      ],
-      "path": "sa/sahala.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "地理"
+      ]
     },
     "萨赫勒地带": {
       "type": "place",
       "label": "萨赫勒地带",
-      "aliases": [
-        "萨赫勒",
-        "Sahel",
-        "非洲萨赫勒"
-      ],
-      "path": "sa/萨赫勒地带.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "农业起源",
+        "非洲"
+      ]
     },
     "书写系统": {
       "type": "concept",
       "label": "书写系统",
-      "aliases": [
-        "文字",
-        "文字系统",
-        "writing system"
-      ],
-      "path": "sh/书写系统.md"
+      "quality": "featured",
+      "tags": [
+        "语言",
+        "技术",
+        "社会组织"
+      ]
     },
     "伤寒": {
       "type": "concept",
       "label": "伤寒",
-      "aliases": [
-        "斑疹伤寒",
-        "typhus",
-        "typhoid"
-      ],
-      "path": "sh/伤寒.md"
+      "quality": "featured",
+      "tags": [
+        "传染病",
+        "旧大陆",
+        "征服"
+      ]
     },
     "剩余粮食": {
       "type": "concept",
       "label": "剩余粮食",
-      "aliases": [
-        "粮食剩余",
-        "农业剩余",
-        "粮食储备"
-      ],
-      "path": "sh/剩余粮食.md"
+      "quality": "standard",
+      "tags": [
+        "农业",
+        "社会复杂化",
+        "专业化分工",
+        "政治组织"
+      ]
     },
     "商人": {
       "type": "concept",
       "label": "商人",
-      "aliases": [
-        "贸易商",
-        "商贾",
-        "长途贸易者"
-      ],
-      "path": "sh/商人.md"
+      "quality": "",
+      "tags": [
+        "贸易",
+        "经济",
+        "文化传播"
+      ]
     },
     "山羊": {
       "type": "species",
       "label": "山羊",
-      "aliases": [
-        "家山羊",
-        "goat",
-        "野山羊"
-      ],
-      "path": "sh/山羊.md"
+      "quality": "",
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ]
     },
     "山脉": {
       "type": "concept",
       "label": "山脉",
-      "aliases": [
-        "山系",
-        "山地",
-        "山区"
-      ],
-      "path": "sh/山脉.md"
+      "quality": "",
+      "tags": [
+        "地理",
+        "农业",
+        "技术传播"
+      ]
     },
     "水利": {
       "type": "concept",
       "label": "水利",
-      "aliases": [
-        "灌溉",
-        "水利工程",
-        "灌溉系统"
-      ],
-      "path": "sh/水利.md"
+      "quality": "featured",
+      "tags": [
+        "农业技术",
+        "政治组织",
+        "国家形成"
+      ]
     },
     "水牛": {
       "type": "species",
       "label": "水牛",
-      "aliases": [
-        "water buffalo",
-        "亚洲水牛"
-      ],
-      "path": "sh/水牛.md"
+      "quality": "",
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ]
     },
     "水稻": {
       "type": "species",
       "label": "水稻",
-      "aliases": [
-        "稻米",
-        "大米",
-        "rice",
-        "Oryza sativa"
-      ],
-      "path": "sh/水稻.md"
+      "quality": "featured",
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ]
     },
     "沙漠": {
       "type": "concept",
       "label": "沙漠",
-      "aliases": [
-        "撒哈拉沙漠",
-        "干旱区",
-        "desert"
-      ],
-      "path": "sh/沙漠.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "传播屏障",
+        "非洲"
+      ]
     },
     "狩猎采集": {
       "type": "concept",
       "label": "狩猎采集",
-      "aliases": [
-        "狩猎采集者",
-        "采集狩猎",
-        "hunter-gatherer"
-      ],
-      "path": "sh/狩猎采集.md"
+      "quality": "featured",
+      "tags": [
+        "社会组织",
+        "历史",
+        "农业"
+      ]
     },
     "生态": {
       "type": "concept",
       "label": "生态",
-      "aliases": [
-        "ecology",
-        "生态环境",
-        "生态系统",
-        "生态条件"
-      ],
-      "path": "sh/生态.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "环境",
+        "生物多样性"
+      ]
     },
     "生态适应": {
       "type": "concept",
       "label": "生态适应",
-      "aliases": [
-        "环境适应",
-        "生态位适应",
-        "气候适应"
-      ],
-      "path": "sh/生态适应.md"
+      "quality": "standard",
+      "tags": [
+        "生态",
+        "进化",
+        "驯化",
+        "气候",
+        "地理"
+      ]
     },
     "石器时代": {
       "type": "concept",
       "label": "石器时代",
-      "aliases": [
-        "旧石器时代",
-        "新石器时代",
-        "Stone Age"
-      ],
-      "path": "sh/石器时代.md"
+      "quality": "featured",
+      "tags": [
+        "史前史",
+        "技术",
+        "考古学"
+      ]
     },
     "社会复杂性": {
       "type": "concept",
       "label": "社会复杂性",
-      "aliases": [
-        "政治复杂性",
-        "社会层级",
-        "social complexity"
-      ],
-      "path": "sh/社会复杂性.md"
+      "quality": "featured",
+      "tags": [
+        "社会组织",
+        "历史",
+        "政治"
+      ]
     },
     "鼠疫": {
       "type": "concept",
       "label": "鼠疫",
-      "aliases": [
-        "腺鼠疫",
-        "黑死病",
-        "鼠疫杆菌"
-      ],
-      "path": "sh/鼠疫.md"
+      "quality": "standard",
+      "tags": [
+        "传染病",
+        "病菌",
+        "人口"
+      ]
     },
     "taiwan": {
       "type": "place",
       "label": "台湾",
-      "aliases": [
-        "Taiwan"
-      ],
-      "path": "ta/taiwan.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "岛屿",
+        "语言"
+      ]
     },
     "探险": {
       "type": "concept",
       "label": "探险",
-      "aliases": [
-        "exploration",
-        "地理探险",
-        "地理发现",
-        "航海探险"
-      ],
-      "path": "ta/探险.md"
+      "quality": "featured",
+      "tags": [
+        "航海",
+        "迁徙",
+        "地理发现"
+      ]
     },
     "陶器": {
       "type": "concept",
       "label": "陶器",
-      "aliases": [
-        "陶瓷",
-        "pottery",
-        "制陶技术"
-      ],
-      "path": "ta/陶器.md"
+      "quality": "featured",
+      "tags": [
+        "技术传播",
+        "发明",
+        "定居生活"
+      ]
     },
     "天花": {
       "type": "concept",
       "label": "天花",
-      "aliases": [
-        "天花病毒",
-        "痘疮",
-        "smallpox"
-      ],
-      "path": "ti/天花.md"
+      "quality": "featured",
+      "tags": [
+        "传染病",
+        "病菌",
+        "殖民史"
+      ]
     },
     "天花病毒": {
       "type": "species",
       "label": "天花病毒",
-      "aliases": [
-        "天花",
-        "痘病毒",
-        "smallpox",
-        "Variola virus"
-      ],
-      "path": "ti/天花病毒.md"
+      "quality": "featured",
+      "tags": [
+        "病原体",
+        "疾病"
+      ]
     },
     "铁器": {
       "type": "concept",
       "label": "铁器",
-      "aliases": [
-        "铁制工具",
-        "铁器时代",
-        "冶铁"
-      ],
-      "path": "ti/铁器.md"
+      "quality": "featured",
+      "tags": [
+        "冶金",
+        "技术",
+        "军事"
+      ]
     },
     "统一": {
       "type": "concept",
       "label": "统一",
-      "aliases": [
-        "unification",
-        "政治统一",
-        "文化统一"
-      ],
-      "path": "to/统一.md"
+      "quality": "featured",
+      "tags": [
+        "政治",
+        "国家",
+        "中国",
+        "欧洲"
+      ]
     },
     "兔": {
       "type": "species",
       "label": "兔",
-      "aliases": [
-        "rabbit",
-        "家兔"
-      ],
-      "path": "tu/兔.md"
+      "quality": "",
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ]
     },
     "土地": {
       "type": "concept",
       "label": "土地",
-      "aliases": [
-        "土地资源",
-        "耕地",
-        "土地所有权"
-      ],
-      "path": "tu/土地.md"
+      "quality": "featured",
+      "tags": [
+        "农业",
+        "政治组织",
+        "资源"
+      ]
     },
     "土壤": {
       "type": "concept",
       "label": "土壤",
-      "aliases": [
-        "soil",
-        "土壤条件",
-        "土壤肥力",
-        "地力"
-      ],
-      "path": "tu/土壤.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "农业",
+        "环境"
+      ]
     },
     "突变": {
       "type": "concept",
       "label": "突变",
-      "aliases": [
-        "基因突变",
-        "遗传突变",
-        "mutation"
-      ],
-      "path": "tu/突变.md"
+      "quality": "featured",
+      "tags": [
+        "生物学",
+        "演化",
+        "驯化"
+      ]
     },
     "豚鼠": {
       "type": "species",
       "label": "豚鼠",
-      "aliases": [
-        "guinea pig",
-        "荷兰猪"
-      ],
-      "path": "tu/豚鼠.md"
+      "quality": "",
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ]
     },
     "王国": {
       "type": "concept",
       "label": "王国",
-      "aliases": [
-        "国家雏形",
-        "早期国家",
-        "kingdom"
-      ],
-      "path": "wa/王国.md"
+      "quality": "featured",
+      "tags": [
+        "政治组织",
+        "社会复杂化",
+        "国家形成"
+      ]
     },
     "瓦特": {
       "type": "person",
       "label": "詹姆士·瓦特",
-      "aliases": [
-        "James Watt",
-        "瓦特"
-      ],
-      "path": "wa/瓦特.md"
+      "quality": "standard",
+      "tags": [
+        "科学家"
+      ]
     },
     "豌豆": {
       "type": "species",
       "label": "豌豆",
-      "aliases": [
-        "豌豆",
-        "pea",
-        "Pisum sativum"
-      ],
-      "path": "wa/豌豆.md"
+      "quality": "featured",
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ]
     },
     "文化": {
       "type": "concept",
       "label": "文化",
-      "aliases": [
-        "culture",
-        "文化因素",
-        "文化差异"
-      ],
-      "path": "we/文化.md"
+      "quality": "featured",
+      "tags": [
+        "社会",
+        "文化",
+        "技术采纳"
+      ]
     },
     "文字": {
       "type": "concept",
       "label": "文字",
-      "aliases": [
-        "书写系统",
-        "文字系统",
-        "书面语言"
-      ],
-      "path": "we/文字.md"
+      "quality": "featured",
+      "tags": [
+        "信息传递",
+        "文明发展",
+        "知识积累"
+      ]
     },
     "文字的独立发明": {
       "type": "event",
       "label": "文字的独立发明",
-      "aliases": [
-        "Independent Invention of Writing",
-        "苏美尔文字",
-        "楔形文字发明"
-      ],
-      "path": "we/文字的独立发明.md"
+      "quality": "featured",
+      "tags": [
+        "文字",
+        "技术",
+        "信息传播"
+      ]
     },
     "纬度": {
       "type": "concept",
       "label": "纬度",
-      "aliases": [
-        "纬度效应",
-        "纬度与气候",
-        "东西轴纬度"
-      ],
-      "path": "we/纬度.md"
+      "quality": "standard",
+      "tags": [
+        "地理",
+        "气候",
+        "农业传播",
+        "大陆轴线"
+      ]
     },
     "无花果": {
       "type": "species",
       "label": "无花果",
-      "aliases": [
-        "fig"
-      ],
-      "path": "wu/无花果.md"
+      "quality": "",
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ]
     },
     "xiaweiyi": {
       "type": "place",
       "label": "夏威夷",
-      "aliases": [
-        "Hawaii"
-      ],
-      "path": "xi/xiaweiyi.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "岛屿",
+        "文明"
+      ]
     },
     "xibanya-zhengfu-aziteke": {
       "type": "event",
       "label": "西班牙征服阿兹特克帝国",
-      "aliases": [
-        "Spanish conquest of Aztec Empire"
-      ],
-      "path": "xi/xibanya-zhengfu-aziteke.md"
+      "quality": "",
+      "tags": [
+        "征服",
+        "战役"
+      ]
     },
     "xibanya-zhengfu-yinjia": {
       "type": "event",
       "label": "西班牙征服印加帝国",
-      "aliases": [
-        "Spanish conquest of Inca Empire"
-      ],
-      "path": "xi/xibanya-zhengfu-yinjia.md"
+      "quality": "",
+      "tags": [
+        "征服",
+        "战役"
+      ]
     },
     "xiboliya": {
       "type": "place",
       "label": "西伯利亚",
-      "aliases": [
-        "Siberia"
-      ],
-      "path": "xi/xiboliya.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "地理"
+      ]
     },
     "ximalaya": {
       "type": "place",
       "label": "喜马拉雅",
-      "aliases": [
-        "Himalayas"
-      ],
-      "path": "xi/ximalaya.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "地理"
+      ]
     },
     "xinyuewodi": {
       "type": "place",
       "label": "新月沃地",
-      "aliases": [
-        "Fertile Crescent",
-        "肥沃月弯"
-      ],
-      "path": "xi/xinyuewodi.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "文明",
+        "农业"
+      ]
     },
     "xizang": {
       "type": "place",
       "label": "西藏",
-      "aliases": [
-        "Tibet",
-        "青藏高原"
-      ],
-      "path": "xi/xizang.md"
+      "quality": "",
+      "tags": [
+        "高原",
+        "地区"
+      ]
     },
     "向日葵": {
       "type": "species",
       "label": "向日葵",
-      "aliases": [
-        "sunflower"
-      ],
-      "path": "xi/向日葵.md"
+      "quality": "",
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ]
     },
     "小麦": {
       "type": "species",
       "label": "小麦",
-      "aliases": [
-        "二粒小麦",
-        "单粒小麦",
-        "wheat",
-        "Triticum"
-      ],
-      "path": "xi/小麦.md"
+      "quality": "featured",
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ]
     },
     "希特勒": {
       "type": "person",
       "label": "阿道夫·希特勒",
-      "aliases": [
-        "Adolf Hitler",
-        "希特勒"
-      ],
-      "path": "xi/希特勒.md"
+      "quality": "featured",
+      "tags": [
+        "政治家"
+      ]
     },
     "新几内亚": {
       "type": "place",
       "label": "新几内亚",
-      "aliases": [
-        "巴布亚新几内亚",
-        "Papua New Guinea",
-        "Papua"
-      ],
-      "path": "xi/新几内亚.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "太平洋",
+        "农业",
+        "历史"
+      ]
     },
     "新月沃地": {
       "type": "concept",
       "label": "新月沃地",
-      "aliases": [
-        "肥沃新月",
-        "西南亚",
-        "近东",
-        "Fertile Crescent"
-      ],
-      "path": "xi/新月沃地.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "农业",
+        "历史"
+      ]
     },
     "新月沃地农业起源": {
       "type": "event",
       "label": "新月沃地农业起源",
-      "aliases": [
-        "Fertile Crescent Agricultural Origins",
-        "西南亚农业起源"
-      ],
-      "path": "xi/新月沃地农业起源.md"
+      "quality": "featured",
+      "tags": [
+        "农业",
+        "驯化",
+        "西南亚",
+        "起源"
+      ]
     },
     "现代人": {
       "type": "concept",
       "label": "现代人",
-      "aliases": [
-        "modern humans",
-        "解剖学现代人",
-        "智人",
-        "大跃进"
-      ],
-      "path": "xi/现代人.md"
+      "quality": "featured",
+      "tags": [
+        "人类进化",
+        "认知",
+        "史前史"
+      ]
     },
     "行政": {
       "type": "concept",
       "label": "行政",
-      "aliases": [
-        "行政管理",
-        "官僚制",
-        "中央行政"
-      ],
-      "path": "xi/行政.md"
+      "quality": "standard",
+      "tags": [
+        "政治组织",
+        "国家",
+        "官僚体系",
+        "社会复杂化"
+      ]
     },
     "锡": {
       "type": "concept",
       "label": "锡",
-      "aliases": [
-        "锡金属"
-      ],
-      "path": "xi/锡.md"
+      "quality": "",
+      "tags": [
+        "技术",
+        "贸易"
+      ]
     },
     "香蕉": {
       "type": "species",
       "label": "香蕉",
-      "aliases": [
-        "大蕉",
-        "banana",
-        "plantain"
-      ],
-      "path": "xi/香蕉.md"
+      "quality": "",
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ]
     },
     "驯化": {
       "type": "concept",
       "label": "驯化",
-      "aliases": [
-        "植物驯化",
-        "动物驯化",
-        "domestication"
-      ],
-      "path": "xu/驯化.md"
+      "quality": "featured",
+      "tags": [
+        "农业",
+        "生物",
+        "演化"
+      ]
     },
     "驯鹿": {
       "type": "species",
       "label": "驯鹿",
-      "aliases": [
-        "reindeer",
-        "caribou"
-      ],
-      "path": "xu/驯鹿.md"
+      "quality": "",
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ]
     },
     "亚历山大大帝": {
       "type": "person",
       "label": "亚历山大大帝",
-      "aliases": [
-        "Alexander the Great",
-        "亚历山大"
-      ],
-      "path": "ya/亚历山大大帝.md"
+      "quality": "featured",
+      "tags": [
+        "统治者",
+        "征服者"
+      ]
     },
     "亚麻": {
       "type": "concept",
       "label": "亚麻",
-      "aliases": [
-        "亚麻布",
-        "flax"
-      ],
-      "path": "ya/亚麻.md"
+      "quality": "",
+      "tags": [
+        "农业",
+        "技术"
+      ]
     },
     "演化": {
       "type": "concept",
       "label": "演化",
-      "aliases": [
-        "生物演化",
-        "进化",
-        "自然选择"
-      ],
-      "path": "ya/演化.md"
+      "quality": "",
+      "tags": [
+        "生物学",
+        "作物驯化",
+        "物种"
+      ]
     },
     "羊驼": {
       "type": "species",
       "label": "羊驼",
-      "aliases": [
-        "alpaca",
-        "美洲羊驼"
-      ],
-      "path": "ya/羊驼.md"
+      "quality": "",
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ]
     },
     "鸭": {
       "type": "species",
       "label": "鸭",
-      "aliases": [
-        "duck",
-        "家鸭"
-      ],
-      "path": "ya/鸭.md"
+      "quality": "",
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ]
     },
     "冶金": {
       "type": "concept",
       "label": "冶金",
-      "aliases": [
-        "冶金技术",
-        "metallurgy",
-        "金属加工",
-        "炼铁",
-        "青铜冶炼"
-      ],
-      "path": "ye/冶金.md"
+      "quality": "featured",
+      "tags": [
+        "技术传播",
+        "武器",
+        "发明"
+      ]
     },
     "椰子": {
       "type": "species",
       "label": "椰子",
-      "aliases": [
-        "椰子",
-        "coconut"
-      ],
-      "path": "ye/椰子.md"
+      "quality": "",
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ]
     },
     "耶利": {
       "type": "person",
       "label": "耶利",
-      "aliases": [
-        "Yali"
-      ],
-      "path": "ye/耶利.md"
+      "quality": "featured",
+      "tags": [
+        "原住民",
+        "学者"
+      ]
     },
     "yindu": {
       "type": "place",
       "label": "印度",
-      "aliases": [
-        "India",
-        "印度次大陆"
-      ],
-      "path": "yi/yindu.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "文明",
+        "农业"
+      ]
     },
     "yinduhe": {
       "type": "place",
       "label": "印度河",
-      "aliases": [
-        "Indus River",
-        "印度河流域"
-      ],
-      "path": "yi/yinduhe.md"
+      "quality": "",
+      "tags": [
+        "河流",
+        "文明",
+        "农业"
+      ]
     },
     "yindunixiya": {
       "type": "place",
       "label": "印度尼西亚",
-      "aliases": [
-        "Indonesia",
-        "马来群岛"
-      ],
-      "path": "yi/yindunixiya.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "岛屿",
+        "农业"
+      ]
     },
     "一年生植物": {
       "type": "concept",
       "label": "一年生植物",
-      "aliases": [
-        "一年生作物",
-        "年生植物"
-      ],
-      "path": "yi/一年生植物.md"
+      "quality": "featured",
+      "tags": [
+        "植物学",
+        "驯化",
+        "农业",
+        "种子"
+      ]
     },
     "印刷": {
       "type": "concept",
       "label": "印刷",
-      "aliases": [
-        "印刷术",
-        "活字印刷"
-      ],
-      "path": "yi/印刷.md"
+      "quality": "",
+      "tags": [
+        "技术",
+        "语言"
+      ]
     },
     "印刷术": {
       "type": "concept",
       "label": "印刷术",
-      "aliases": [
-        "printing",
-        "活字印刷",
-        "印刷机",
-        "谷登堡"
-      ],
-      "path": "yi/印刷术.md"
+      "quality": "featured",
+      "tags": [
+        "技术传播",
+        "书写系统",
+        "发明"
+      ]
     },
     "移民": {
       "type": "concept",
       "label": "移民",
-      "aliases": [
-        "人口迁徙",
-        "史前迁徙",
-        "移民浪潮"
-      ],
-      "path": "yi/移民.md"
+      "quality": "standard",
+      "tags": [
+        "人口",
+        "迁徙",
+        "史前史",
+        "文明传播"
+      ]
     },
     "罂粟": {
       "type": "species",
       "label": "罂粟",
-      "aliases": [
-        "poppy",
-        "鸦片罂粟"
-      ],
-      "path": "yi/罂粟.md"
+      "quality": "",
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ]
     },
     "遗传": {
       "type": "concept",
       "label": "遗传",
-      "aliases": [
+      "quality": "standard",
+      "tags": [
         "遗传学",
-        "基因",
-        "遗传差异"
-      ],
-      "path": "yi/遗传.md"
+        "人类多样性",
+        "生物进化",
+        "驯化"
+      ]
     },
     "鹰嘴豆": {
       "type": "species",
       "label": "鹰嘴豆",
-      "aliases": [
-        "chickpea",
-        "埃及豆"
-      ],
-      "path": "yi/鹰嘴豆.md"
+      "quality": "",
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ]
     },
     "游牧": {
       "type": "concept",
       "label": "游牧",
-      "aliases": [
-        "游牧生活",
-        "游牧族群",
-        "游牧民族"
-      ],
-      "path": "yo/游牧.md"
+      "quality": "standard",
+      "tags": [
+        "生活方式",
+        "社会组织",
+        "狩猎采集",
+        "粮食生产"
+      ]
     },
     "玉米": {
       "type": "species",
       "label": "玉米",
-      "aliases": [
-        "玉蜀黍",
-        "墨西哥类蜀黍",
-        "maize",
-        "corn",
-        "Zea mays"
-      ],
-      "path": "yu/玉米.md"
+      "quality": "featured",
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ]
     },
     "芋艿": {
       "type": "species",
       "label": "芋艿",
-      "aliases": [
-        "芋头",
-        "芋",
-        "taro"
-      ],
-      "path": "yu/芋艿.md"
+      "quality": "",
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ]
     },
     "语系": {
       "type": "concept",
       "label": "语系",
-      "aliases": [
-        "语言家族",
-        "语族"
-      ],
-      "path": "yu/语系.md"
+      "quality": "",
+      "tags": [
+        "语言",
+        "历史"
+      ]
     },
     "语言": {
       "type": "concept",
       "label": "语言",
-      "aliases": [
-        "语系",
-        "语言扩张",
-        "语言多样性"
-      ],
-      "path": "yu/语言.md"
+      "quality": "standard",
+      "tags": [
+        "语言学",
+        "文化传播",
+        "民族",
+        "农业扩张"
+      ]
     },
     "语言传播": {
       "type": "concept",
       "label": "语言传播",
-      "aliases": [
-        "语系扩散",
-        "语言扩张",
-        "language spread"
-      ],
-      "path": "yu/语言传播.md"
+      "quality": "featured",
+      "tags": [
+        "语言",
+        "历史",
+        "社会组织"
+      ]
     },
     "语言学": {
       "type": "concept",
       "label": "语言学",
-      "aliases": [
-        "linguistics",
-        "历史语言学",
-        "语言分类"
-      ],
-      "path": "yu/语言学.md"
+      "quality": "featured",
+      "tags": [
+        "方法论",
+        "历史证据",
+        "人口迁徙"
+      ]
     },
     "雨林": {
       "type": "concept",
       "label": "雨林",
-      "aliases": [
-        "热带雨林",
-        "赤道雨林"
-      ],
-      "path": "yu/雨林.md"
+      "quality": "",
+      "tags": [
+        "地理",
+        "生物"
+      ]
     },
     "再分配": {
       "type": "concept",
       "label": "再分配",
-      "aliases": [
-        "再分配经济",
-        "贡品再分配",
-        "财富再分配"
-      ],
-      "path": "za/再分配.md"
+      "quality": "featured",
+      "tags": [
+        "经济",
+        "政治组织",
+        "酋长",
+        "国家",
+        "税收"
+      ]
     },
     "zhili": {
       "type": "place",
       "label": "智利",
-      "aliases": [
-        "Chile"
-      ],
-      "path": "zh/zhili.md"
+      "quality": "",
+      "tags": [
+        "地区",
+        "地理"
+      ]
     },
     "专业化分工": {
       "type": "concept",
       "label": "专业化分工",
-      "aliases": [
-        "经济专业化",
-        "分工",
-        "专业手艺人"
-      ],
-      "path": "zh/专业化分工.md"
+      "quality": "featured",
+      "tags": [
+        "社会组织",
+        "粮食生产",
+        "波利尼西亚"
+      ]
     },
     "中国": {
       "type": "place",
       "label": "中国",
-      "aliases": [
-        "China",
-        "华夏",
-        "中原"
-      ],
-      "path": "zh/中国.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "历史",
+        "农业"
+      ]
     },
     "中国农业起源": {
       "type": "event",
       "label": "中国农业起源",
-      "aliases": [
-        "Chinese Agricultural Origins",
-        "中国粮食生产起源"
-      ],
-      "path": "zh/中国农业起源.md"
+      "quality": "featured",
+      "tags": [
+        "农业",
+        "驯化",
+        "中国",
+        "东亚"
+      ]
     },
     "中美洲": {
       "type": "place",
       "label": "中美洲",
-      "aliases": [
-        "Mesoamerica",
-        "墨西哥",
-        "美索美洲"
-      ],
-      "path": "zh/中美洲.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "历史",
+        "农业",
+        "美洲"
+      ]
     },
     "征服者": {
       "type": "concept",
       "label": "征服者",
-      "aliases": [
-        "conquistador",
-        "军事征服者"
-      ],
-      "path": "zh/征服者.md"
+      "quality": "featured",
+      "tags": [
+        "征服",
+        "军事",
+        "殖民主义"
+      ]
     },
     "战争": {
       "type": "concept",
       "label": "战争",
-      "aliases": [
-        "征服战争",
-        "武装冲突",
-        "warfare"
-      ],
-      "path": "zh/战争.md"
+      "quality": "featured",
+      "tags": [
+        "征服",
+        "政治组织",
+        "技术传播",
+        "社会复杂性"
+      ]
     },
     "政治竞争": {
       "type": "concept",
       "label": "政治竞争",
-      "aliases": [
-        "政治分裂",
-        "竞争性国家体系",
-        "分裂促竞争"
-      ],
-      "path": "zh/政治竞争.md"
+      "quality": "standard",
+      "tags": [
+        "政治组织",
+        "技术创新",
+        "欧洲",
+        "中国"
+      ]
     },
     "政治组织": {
       "type": "concept",
       "label": "政治组织",
-      "aliases": [
-        "政治结构",
-        "political organization",
-        "社会组织"
-      ],
-      "path": "zh/政治组织.md"
+      "quality": "featured",
+      "tags": [
+        "社会复杂性",
+        "国家",
+        "征服"
+      ]
     },
     "植物": {
       "type": "concept",
       "label": "植物",
-      "aliases": [
-        "野生植物",
-        "植物物种",
-        "植物多样性"
-      ],
-      "path": "zh/植物.md"
+      "quality": "featured",
+      "tags": [
+        "生物学",
+        "作物驯化",
+        "农业起源"
+      ]
     },
     "植物学": {
       "type": "concept",
       "label": "植物学",
-      "aliases": [
-        "botany",
-        "植物科学",
-        "作物植物学"
-      ],
-      "path": "zh/植物学.md"
+      "quality": "featured",
+      "tags": [
+        "方法论",
+        "驯化",
+        "农业起源"
+      ]
     },
     "殖民主义": {
       "type": "concept",
       "label": "殖民主义",
-      "aliases": [
-        "colonialism",
-        "欧洲殖民",
-        "殖民扩张",
-        "殖民地"
-      ],
-      "path": "zh/殖民主义.md"
+      "quality": "featured",
+      "tags": [
+        "征服",
+        "技术传播",
+        "病菌"
+      ]
     },
     "猪": {
       "type": "species",
       "label": "猪",
-      "aliases": [
-        "家猪",
-        "野猪",
-        "pig",
-        "Sus scrofa domesticus"
-      ],
-      "path": "zh/猪.md"
+      "quality": "featured",
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ]
     },
     "珍珠鸡": {
       "type": "species",
       "label": "珍珠鸡",
-      "aliases": [
-        "guinea fowl"
-      ],
-      "path": "zh/珍珠鸡.md"
+      "quality": "",
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ]
     },
     "种族主义": {
       "type": "concept",
       "label": "种族主义",
-      "aliases": [
-        "racism",
-        "种族决定论",
-        "种族优越论",
-        "智力差异"
-      ],
-      "path": "zh/种族主义.md"
+      "quality": "featured",
+      "tags": [
+        "地理决定论",
+        "近端原因与终极原因"
+      ]
     },
     "字母": {
       "type": "concept",
       "label": "字母",
-      "aliases": [
-        "字母表",
-        "表音文字",
-        "alphabet"
-      ],
-      "path": "zi/字母.md"
+      "quality": "featured",
+      "tags": [
+        "书写系统",
+        "技术传播",
+        "语言"
+      ]
     },
     "字母文字的传播": {
       "type": "event",
       "label": "字母文字的传播",
-      "aliases": [
-        "Spread of Alphabetic Writing",
-        "字母传播",
-        "腓尼基字母传播"
-      ],
-      "path": "zi/字母文字的传播.md"
+      "quality": "featured",
+      "tags": [
+        "文字",
+        "字母",
+        "传播",
+        "技术"
+      ]
     },
     "自然选择": {
       "type": "concept",
       "label": "自然选择",
-      "aliases": [
-        "达尔文自然选择",
-        "物种选择",
-        "进化选择"
-      ],
-      "path": "zi/自然选择.md"
+      "quality": "standard",
+      "tags": [
+        "进化论",
+        "生物学",
+        "驯化",
+        "达尔文"
+      ]
     },
     "资源": {
       "type": "concept",
       "label": "资源",
-      "aliases": [
-        "resources",
-        "自然资源",
-        "环境资源",
-        "矿产资源"
-      ],
-      "path": "zi/资源.md"
+      "quality": "featured",
+      "tags": [
+        "地理",
+        "环境",
+        "社会发展"
+      ]
     },
     "宗教": {
       "type": "concept",
       "label": "宗教",
-      "aliases": [
-        "有组织的宗教",
-        "religion",
-        "意识形态",
-        "神权"
-      ],
-      "path": "zo/宗教.md"
+      "quality": "featured",
+      "tags": [
+        "政治组织",
+        "社会复杂性",
+        "征服"
+      ]
     },
     "作物": {
       "type": "concept",
       "label": "作物",
-      "aliases": [
-        "农作物",
-        "驯化植物",
-        "栽培植物"
-      ],
-      "path": "zu/作物.md"
+      "quality": "featured",
+      "tags": [
+        "农业",
+        "作物驯化",
+        "粮食生产"
+      ]
     },
     "作物传播": {
       "type": "concept",
       "label": "作物传播",
-      "aliases": [
-        "crop diffusion",
-        "粮食生产传播",
-        "农业传播"
-      ],
-      "path": "zu/作物传播.md"
+      "quality": "featured",
+      "tags": [
+        "农业",
+        "地理",
+        "传播速度",
+        "轴线"
+      ]
     }
-  },
-  "alias_index": {
-    "About": "About",
-    "关于本 Wiki": "About",
-    "关于": "About",
-    "aisaobiya": "aisaobiya",
-    "埃塞俄比亚": "aisaobiya",
-    "Ethiopia": "aisaobiya",
-    "爱迪生": "爱迪生",
-    "托马斯·爱迪生": "爱迪生",
-    "Thomas Edison": "爱迪生",
-    "alabobandao": "alabobandao",
-    "阿拉伯半岛": "alabobandao",
-    "Arabian Peninsula": "alabobandao",
-    "annatuoliya": "annatuoliya",
-    "安纳托利亚": "annatuoliya",
-    "Anatolia": "annatuoliya",
-    "小亚细亚": "annatuoliya",
-    "安娜-卡列尼娜原则": "安娜-卡列尼娜原则",
-    "安娜·卡列尼娜原则": "安娜-卡列尼娜原则",
-    "安娜卡列尼娜原则": "安娜-卡列尼娜原则",
-    "驯化失败原则": "安娜-卡列尼娜原则",
-    "安第斯山脉": "安第斯山脉",
-    "安第斯": "安第斯山脉",
-    "Andes": "安第斯山脉",
-    "南美安第斯": "安第斯山脉",
-    "澳大利亚": "澳大利亚",
-    "Australia": "澳大利亚",
-    "澳洲": "澳大利亚",
-    "阿塔瓦尔帕": "阿塔瓦尔帕",
-    "Atahualpa": "阿塔瓦尔帕",
-    "阿塔华帕": "阿塔瓦尔帕",
-    "baergan": "baergan",
-    "巴尔干": "baergan",
-    "Balkans": "baergan",
-    "巴尔干半岛": "baergan",
-    "bailatu": "bailatu",
-    "柏拉图": "bailatu",
-    "Plato": "bailatu",
-    "半岛": "半岛",
-    "半岛地形": "半岛",
-    "斑马": "斑马",
-    "非洲斑马": "斑马",
-    "zebra": "斑马",
-    "Equus quagga": "斑马",
-    "班图扩张": "班图扩张",
-    "Bantu Expansion": "班图扩张",
-    "班图族扩张": "班图扩张",
-    "beimeizhou": "beimeizhou",
-    "北美洲": "beimeizhou",
-    "North America": "beimeizhou",
-    "兵豆": "兵豆",
-    "lentil": "兵豆",
-    "扁豆": "兵豆",
-    "小扁豆": "兵豆",
-    "病原体": "病原体",
-    "致病原": "病原体",
-    "病菌": "病原体",
-    "pathogen": "病原体",
-    "传染病": "病菌",
-    "流行病": "病菌",
-    "germs": "病菌",
-    "伯克和威尔斯": "伯克和威尔斯",
-    "Robert Burke": "伯克和威尔斯",
-    "William Wills": "伯克和威尔斯",
-    "罗伯特·伯克": "伯克和威尔斯",
-    "威廉·威尔斯": "伯克和威尔斯",
-    "波利尼西亚": "波利尼西亚",
-    "Polynesia": "波利尼西亚",
-    "太平洋诸岛": "波利尼西亚",
-    "南岛人": "波利尼西亚",
-    "玻璃": "玻璃",
-    "玻璃器具": "玻璃",
-    "玻璃制品": "玻璃",
-    "硅酸盐玻璃": "玻璃",
-    "部族": "部族",
-    "部落": "部族",
-    "族群组织": "部族",
-    "部落组织": "部族",
-    "部落社会": "部落",
-    "氏族部落": "部落",
-    "草原": "草原",
-    "大草原": "草原",
-    "欧亚草原": "草原",
-    "steppe": "草原",
-    "蚕": "蚕",
-    "家蚕": "蚕",
-    "silkworm": "蚕",
-    "桑蚕": "蚕",
-    "ch01-up-to-the-starting-line": "ch01-up-to-the-starting-line",
-    "ch02-natural-experiment-of-history": "ch02-natural-experiment-of-history",
-    "ch03-collision-at-cajamarca": "ch03-collision-at-cajamarca",
-    "ch04-farmer-power": "ch04-farmer-power",
-    "ch05-historys-haves-and-have-nots": "ch05-historys-haves-and-have-nots",
-    "ch06-to-farm-or-not-to-farm": "ch06-to-farm-or-not-to-farm",
-    "ch07-how-to-make-an-almond": "ch07-how-to-make-an-almond",
-    "ch08-apples-or-indians": "ch08-apples-or-indians",
-    "ch09-zebras-unhappy-marriages-anna-karenina": "ch09-zebras-unhappy-marriages-anna-karenina",
-    "ch10-spacious-skies-tilted-axis": "ch10-spacious-skies-tilted-axis",
-    "ch11-lethal-gift-of-livestock": "ch11-lethal-gift-of-livestock",
-    "ch12-blueprints-borrowed-letters": "ch12-blueprints-borrowed-letters",
-    "ch13-necessitys-mother": "ch13-necessitys-mother",
-    "ch14-from-egalitarianism-to-kleptocracy": "ch14-from-egalitarianism-to-kleptocracy",
-    "ch15-yalis-people": "ch15-yalis-people",
-    "ch16-how-china-became-chinese": "ch16-how-china-became-chinese",
-    "ch17-speedboat-to-polynesia": "ch17-speedboat-to-polynesia",
-    "ch18-collision-of-two-hemispheres": "ch18-collision-of-two-hemispheres",
-    "ch19-how-africa-became-black": "ch19-how-africa-became-black",
-    "chaoxian": "chaoxian",
-    "朝鲜": "chaoxian",
-    "Korea": "chaoxian",
-    "朝鲜半岛": "chaoxian",
-    "传教": "传教",
-    "传教活动": "传教",
-    "传教士": "传教",
-    "宗教传播": "传教",
-    "epidemic": "传染病",
-    "病菌传播": "传染病",
-    "传染性疾病": "传染病",
-    "创新": "创新",
-    "innovation": "创新",
-    "技术创新": "创新",
-    "发明创造": "创新",
-    "城市": "城市",
-    "city": "城市",
-    "城镇": "城市",
-    "都市": "城市",
-    "城市化": "城市",
-    "船只": "船只",
-    "船舶": "船只",
-    "帆船": "船只",
-    "航船": "船只",
-    "村落": "村落",
-    "村庄": "村落",
-    "定居点": "村落",
-    "settlement": "村落",
-    "dagama": "dagama",
-    "瓦斯科·达·伽马": "dagama",
-    "Vasco da Gama": "dagama",
-    "达·伽马": "dagama",
-    "daimengde": "daimengde",
-    "贾雷德·戴蒙德": "daimengde",
-    "Jared Diamond": "daimengde",
-    "戴蒙德": "daimengde",
-    "大豆": "大豆",
-    "soybean": "大豆",
-    "黄豆": "大豆",
-    "大陆": "大陆",
-    "洲": "大陆",
-    "大洲": "大陆",
-    "大陆轴线": "大陆轴线",
-    "大陆主轴线": "大陆轴线",
-    "东西轴线": "大陆轴线",
-    "南北轴线": "大陆轴线",
-    "continental axis": "大陆轴线",
-    "大麦": "大麦",
-    "大麦草": "大麦",
-    "barley": "大麦",
-    "Hordeum vulgare": "大麦",
-    "大麻": "大麻",
-    "hemp": "大麻",
-    "工业大麻": "大麻",
-    "岛屿": "岛屿",
-    "岛": "岛屿",
-    "海岛": "岛屿",
-    "达尔文": "达尔文",
-    "查尔斯·达尔文": "达尔文",
-    "Charles Darwin": "达尔文",
-    "地中海地区": "地中海地区",
-    "地中海气候带": "地中海地区",
-    "Mediterranean": "地中海地区",
-    "欧亚大陆西部地中海气候带": "地中海地区",
-    "地理决定论": "地理决定论",
-    "环境决定论": "地理决定论",
-    "geographic determinism": "地理决定论",
-    "地理因素": "地理因素",
-    "geography": "地理因素",
-    "地理条件": "地理因素",
-    "地理环境": "地理因素",
-    "定居": "定居",
-    "定居生活": "定居",
-    "定居化": "定居",
-    "定居社会": "定居",
-    "帝国": "帝国",
-    "帝国扩张": "帝国",
-    "empire": "帝国",
-    "征服帝国": "帝国",
-    "抵抗": "抵抗",
-    "反抗": "抵抗",
-    "武装抵抗": "抵抗",
-    "东南亚": "东南亚",
-    "Southeast Asia": "东南亚",
-    "热带东南亚": "东南亚",
-    "动物": "动物",
-    "野生动物": "动物",
-    "动物物种": "动物",
-    "动物多样性": "动物",
-    "鹅": "鹅",
-    "goose": "鹅",
-    "家鹅": "鹅",
-    "Epilogue": "Epilogue",
-    "发明": "发明",
-    "技术发明": "发明",
-    "invention": "发明",
-    "发明家": "发明家",
-    "发明者": "发明家",
-    "创新者": "发明家",
-    "inventor": "发明家",
-    "feilvbin": "feilvbin",
-    "菲律宾": "feilvbin",
-    "Philippines": "feilvbin",
-    "分裂": "分裂",
-    "政治分裂": "分裂",
-    "碎片化": "分裂",
-    "欧洲分裂": "分裂",
-    "非洲": "非洲",
-    "Africa": "非洲",
-    "撒哈拉以南非洲": "非洲",
-    "非洲大陆": "非洲",
-    "Frontispiece": "Frontispiece",
-    "fuhuojiedao": "fuhuojiedao",
-    "复活节岛": "fuhuojiedao",
-    "Easter Island": "fuhuojiedao",
-    "拉帕努伊": "fuhuojiedao",
-    "干旱": "干旱",
-    "drought": "干旱",
-    "旱灾": "干旱",
-    "干燥气候": "干旱",
-    "ENSO": "干旱",
-    "橄榄": "橄榄",
-    "油橄榄": "橄榄",
-    "olive": "橄榄",
-    "甘薯": "甘薯",
-    "红薯": "甘薯",
-    "番薯": "甘薯",
-    "sweet potato": "甘薯",
-    "钢铁": "钢铁",
-    "铁器": "钢铁",
-    "钢铁技术": "钢铁",
-    "steel": "钢铁",
-    "iron": "钢铁",
-    "高原": "高原",
-    "高地": "高原",
-    "高原地区": "高原",
-    "高原地带": "高原",
-    "高粱": "高粱",
-    "sorghum": "高粱",
-    "Sorghum bicolor": "高粱",
-    "哥伦布": "哥伦布",
-    "克里斯托弗·哥伦布": "哥伦布",
-    "Christopher Columbus": "哥伦布",
-    "哥伦布航行与两个半球的碰撞": "哥伦布航行与两个半球的碰撞",
-    "Columbus Voyage": "哥伦布航行与两个半球的碰撞",
-    "1492年哥伦布航行": "哥伦布航行与两个半球的碰撞",
-    "两个半球的碰撞": "哥伦布航行与两个半球的碰撞",
-    "更新世大型动物灭绝": "更新世大型动物灭绝",
-    "Pleistocene megafauna extinction": "更新世大型动物灭绝",
-    "晚更新世灭绝": "更新世大型动物灭绝",
-    "巨型动物灭绝": "更新世大型动物灭绝",
-    "格林伯格": "格林伯格",
-    "约瑟夫·格林伯格": "格林伯格",
-    "Joseph Greenberg": "格林伯格",
-    "工具": "工具",
-    "tools": "工具",
-    "技术工具": "工具",
-    "石器": "工具",
-    "人工制品": "工具",
-    "工程": "工程",
-    "engineering": "工程",
-    "公共工程": "工程",
-    "大型工程": "工程",
-    "基础设施": "工程",
-    "弓箭": "弓箭",
-    "弓矢": "弓箭",
-    "弓与箭": "弓箭",
-    "复合弓": "弓箭",
-    "狗": "狗",
-    "家犬": "狗",
-    "犬": "狗",
-    "dog": "狗",
-    "国家": "国家",
-    "国家社会": "国家",
-    "国家形成": "国家",
-    "state": "国家",
-    "国家的形成": "国家的形成",
-    "State Formation": "国家的形成",
-    "最早国家": "国家的形成",
-    "国家起源": "国家的形成",
-    "国王": "国王",
-    "王": "国王",
-    "君王": "国王",
-    "世袭君主": "国王",
-    "官员": "官员",
-    "官僚": "官员",
-    "行政官员": "官员",
-    "文官": "官员",
-    "灌溉": "灌溉",
-    "irrigation": "灌溉",
-    "灌溉农业": "灌溉",
-    "水利工程": "灌溉",
-    "灌溉系统": "灌溉",
-    "谷登堡": "谷登堡",
-    "约翰内斯·谷登堡": "谷登堡",
-    "Johannes Gutenberg": "谷登堡",
-    "hanniba": "hanniba",
-    "汉尼拔": "hanniba",
-    "Hannibal": "hanniba",
-    "汉尼拔·巴卡": "hanniba",
-    "航海": "航海",
-    "航海技术": "航海",
-    "maritime technology": "航海",
-    "海上扩张": "航海",
-    "航运": "航海",
-    "航行": "航行",
-    "远洋航行": "航行",
-    "水上航行": "航行",
-    "河流": "河流",
-    "水道": "河流",
-    "可通航河流": "河流",
-    "内陆水系": "河流",
-    "黑死病": "黑死病",
-    "Black Death": "黑死病",
-    "腺鼠疫": "黑死病",
-    "1346年鼠疫": "黑死病",
-    "huashengdun": "huashengdun",
-    "乔治·华盛顿": "huashengdun",
-    "George Washington": "huashengdun",
-    "火": "火",
-    "fire": "火",
-    "用火": "火",
-    "火耕": "火",
-    "火耕农业": "火",
-    "火器": "火器",
-    "枪炮": "火器",
-    "火药武器": "火器",
-    "枪械": "火器",
-    "火药": "火药",
-    "黑色火药": "火药",
-    "黑火药": "火药",
-    "炸药": "火药",
-    "火鸡": "火鸡",
-    "turkey": "火鸡",
-    "吐绶鸡": "火鸡",
-    "环境": "环境",
-    "environment": "环境",
-    "自然环境": "环境",
-    "环境条件": "环境",
-    "皇帝": "皇帝",
-    "君主": "皇帝",
-    "帝王": "皇帝",
-    "emperor": "皇帝",
-    "霍乱": "霍乱",
-    "cholera": "霍乱",
-    "霍乱弧菌": "霍乱",
-    "jialifuniya": "jialifuniya",
-    "加利福尼亚": "jialifuniya",
-    "California": "jialifuniya",
-    "交换": "交换",
-    "物物交换": "交换",
-    "贸易交换": "交换",
-    "商品流通": "交换",
-    "季节性": "季节性",
-    "季节变化": "季节性",
-    "生长季节": "季节性",
-    "气候季节": "季节性",
-    "家畜": "家畜",
-    "驯化动物": "家畜",
-    "牲畜": "家畜",
-    "domestic animals": "家畜",
-    "技术": "技术",
-    "技术进步": "技术",
-    "技术传播": "技术",
-    "技术积累": "技术",
-    "技术扩散": "技术传播",
-    "技术交流": "技术传播",
-    "technology diffusion": "技术传播",
-    "累积性技术进步": "技术积累",
-    "技术演化": "技术积累",
-    "发明的积累性": "技术积累",
-    "旧大陆": "旧大陆",
-    "欧亚非大陆": "旧大陆",
-    "Old World": "旧大陆",
-    "竞争": "竞争",
-    "社会竞争": "竞争",
-    "竞争压力": "竞争",
-    "间竞争": "竞争",
-    "结核": "结核",
-    "肺结核": "结核",
-    "结核病": "结核",
-    "结核杆菌": "结核",
-    "继承": "继承",
-    "inheritance": "继承",
-    "世袭": "继承",
-    "权力继承": "继承",
-    "世袭制度": "继承",
-    "近端原因与终极原因": "近端原因与终极原因",
-    "直接原因与终极原因": "近端原因与终极原因",
-    "proximate cause": "近端原因与终极原因",
-    "ultimate cause": "近端原因与终极原因",
-    "金属": "金属",
-    "metals": "金属",
-    "金属材料": "金属",
-    "铜铁": "金属",
-    "金属工具": "金属",
-    "阶级": "阶级",
-    "社会阶级": "阶级",
-    "阶层": "阶级",
-    "社会分层": "阶级",
-    "集中": "集中",
-    "权力集中": "集中",
-    "集权": "集中",
-    "中央集权": "集中",
-    "鸡": "鸡",
-    "家鸡": "鸡",
-    "chicken": "鸡",
-    "原鸡": "鸡",
-    "军事征服": "军事征服",
-    "military conquest": "军事征服",
-    "武装征服": "军事征服",
-    "军事扩张": "军事征服",
-    "征服": "军事征服",
-    "军队": "军队",
-    "武装力量": "军队",
-    "士兵": "军队",
-    "军事力量": "军队",
-    "君主制": "君主",
-    "世袭统治者": "君主",
-    "monarch": "君主",
-    "巨型动物": "巨型动物",
-    "大型哺乳动物": "巨型动物",
-    "史前动物灭绝": "巨型动物",
-    "卡哈马卡": "卡哈马卡",
-    "Cajamarca": "卡哈马卡",
-    "卡哈马卡战役": "卡哈马卡",
-    "卡哈马卡之战": "卡哈马卡之战",
-    "Battle of Cajamarca": "卡哈马卡之战",
-    "1532年卡哈马卡战役": "卡哈马卡之战",
-    "考古学": "考古学",
-    "archaeology": "考古学",
-    "考古学方法": "考古学",
-    "考古证据": "考古学",
-    "考古遗址": "考古遗址",
-    "遗址": "考古遗址",
-    "考古发掘": "考古遗址",
-    "keluoweiwenhua": "keluoweiwenhua",
-    "克罗维文化": "keluoweiwenhua",
-    "Clovis culture": "keluoweiwenhua",
-    "克罗维遗址": "keluoweiwenhua",
-    "科学": "科学",
-    "science": "科学",
-    "科学方法": "科学",
-    "科学观点": "科学",
-    "历史科学": "科学",
-    "科尔特斯": "科尔特斯",
-    "埃尔南·科尔特斯": "科尔特斯",
-    "Hernán Cortés": "科尔特斯",
-    "kuke": "kuke",
-    "詹姆斯·库克": "kuke",
-    "James Cook": "kuke",
-    "库克船长": "kuke",
-    "扩张": "扩张",
-    "expansion": "扩张",
-    "人口扩张": "扩张",
-    "领土扩张": "扩张",
-    "农业扩张": "扩张",
-    "劳动力": "劳动力",
-    "人力资源": "劳动力",
-    "劳工": "劳动力",
-    "劳动人口": "劳动力",
-    "莱特兄弟": "莱特兄弟",
-    "Wright Brothers": "莱特兄弟",
-    "奥维尔·莱特": "莱特兄弟",
-    "威尔伯·莱特": "莱特兄弟",
-    "粮食生产": "粮食生产",
-    "农业生产": "粮食生产",
-    "食物生产": "粮食生产",
-    "农耕": "粮食生产",
-    "luoma-diguo": "luoma-diguo",
-    "罗马帝国": "luoma-diguo",
-    "Roman Empire": "luoma-diguo",
-    "lusuo": "lusuo",
-    "让-雅克·卢梭": "lusuo",
-    "Jean-Jacques Rousseau": "lusuo",
-    "卢梭": "lusuo",
-    "轮子": "轮子",
-    "wheel": "轮子",
-    "车轮": "轮子",
-    "轮轴": "轮子",
-    "有轮车": "轮子",
-    "骆驼": "骆驼",
-    "单峰驼": "骆驼",
-    "双峰驼": "骆驼",
-    "camel": "骆驼",
-    "Camelus dromedarius": "骆驼",
-    "驴": "驴",
-    "donkey": "驴",
-    "ass": "驴",
-    "家驴": "驴",
-    "madagascar": "madagascar",
-    "马达加斯加": "madagascar",
-    "Madagascar": "madagascar",
-    "makesi": "makesi",
-    "卡尔·马克思": "makesi",
-    "Karl Marx": "makesi",
-    "马克思": "makesi",
-    "牦牛": "牦牛",
-    "yak": "牦牛",
-    "犛牛": "牦牛",
-    "猫": "猫",
-    "家猫": "猫",
-    "cat": "猫",
-    "驯化猫": "猫",
-    "贸易": "贸易",
-    "trade": "贸易",
-    "商贸": "贸易",
-    "贸易路线": "贸易",
-    "马": "马",
-    "马匹": "马",
-    "骏马": "马",
-    "horse": "马",
-    "Equus ferus caballus": "马",
-    "马的驯化": "马的驯化",
-    "Horse Domestication": "马的驯化",
-    "驯化马": "马的驯化",
-    "马铃薯": "马铃薯",
-    "土豆": "马铃薯",
-    "洋芋": "马铃薯",
-    "potato": "马铃薯",
-    "Solanum tuberosum": "马铃薯",
-    "麻疹": "麻疹",
-    "麻疹病毒": "麻疹",
-    "measles": "麻疹",
-    "Measles morbillivirus": "麻疹",
-    "meilaxiniya": "meilaxiniya",
-    "美拉尼西亚": "meilaxiniya",
-    "Melanesia": "meilaxiniya",
-    "meisuobudamiya": "meisuobudamiya",
-    "美索不达米亚": "meisuobudamiya",
-    "Mesopotamia": "meisuobudamiya",
-    "两河流域": "meisuobudamiya",
-    "menggu-diguo": "menggu-diguo",
-    "蒙古帝国": "menggu-diguo",
-    "Mongol Empire": "menggu-diguo",
-    "menggu": "menggu",
-    "蒙古": "menggu",
-    "Mongolia": "menggu",
-    "蒙古草原": "menggu",
-    "美国东部": "美国东部",
-    "北美东部": "美国东部",
-    "Eastern North America": "美国东部",
-    "美洲": "美洲",
-    "Americas": "美洲",
-    "新大陆": "美洲",
-    "the Americas": "美洲",
-    "美洲家鸭": "美洲家鸭",
-    "Muscovy duck": "美洲家鸭",
-    "疣鼻栖鸭": "美洲家鸭",
-    "美洲独立农业起源": "美洲独立农业起源",
-    "Independent Agricultural Origins in the Americas": "美洲独立农业起源",
-    "中美洲农业起源": "美洲独立农业起源",
-    "美洲驼": "美洲驼",
-    "大羊驼": "美洲驼",
-    "llama": "美洲驼",
-    "羊驼": "美洲驼",
-    "南美小羊驼": "美洲驼",
-    "蒙特朱马": "蒙特朱马",
-    "Moctezuma": "蒙特朱马",
-    "蒙特苏马": "蒙特朱马",
-    "mikelunixiya": "mikelunixiya",
-    "密克罗尼西亚": "mikelunixiya",
-    "Micronesia": "mikelunixiya",
-    "milu": "milu",
-    "秘鲁": "milu",
-    "Peru": "milu",
-    "免疫力": "免疫力",
-    "免疫": "免疫力",
-    "抵抗力": "免疫力",
-    "病菌免疫": "免疫力",
-    "immunity": "免疫力",
-    "棉花": "棉花",
-    "棉": "棉花",
-    "棉纤维": "棉花",
-    "棉作物": "棉花",
-    "民族": "民族",
-    "族群": "民族",
-    "民族形成": "民族",
-    "种族": "民族",
-    "灭绝": "灭绝",
-    "extinction": "灭绝",
-    "物种灭绝": "灭绝",
-    "绵羊": "绵羊",
-    "羊": "绵羊",
-    "家羊": "绵羊",
-    "sheep": "绵羊",
-    "Ovis aries": "绵羊",
-    "蜜蜂": "蜜蜂",
-    "honeybee": "蜜蜂",
-    "家蜂": "蜜蜂",
-    "面包果": "面包果",
-    "breadfruit": "面包果",
-    "moxige": "moxige",
-    "墨西哥": "moxige",
-    "Mexico": "moxige",
-    "木薯": "木薯",
-    "cassava": "木薯",
-    "manioc": "木薯",
-    "树薯": "木薯",
-    "牧人": "牧人",
-    "牧民": "牧人",
-    "游牧民族": "牧人",
-    "目录": "目录",
-    "nanmeizhou": "nanmeizhou",
-    "南美洲": "nanmeizhou",
-    "South America": "nanmeizhou",
-    "napolun": "napolun",
-    "拿破仑": "napolun",
-    "Napoleon Bonaparte": "napolun",
-    "拿破仑·波拿巴": "napolun",
-    "南北轴": "南北轴",
-    "南北走向": "南北轴",
-    "大陆轴线南北": "南北轴",
-    "南岛语族扩张": "南岛语族扩张",
-    "Austronesian Expansion": "南岛语族扩张",
-    "波利尼西亚扩张": "南岛语族扩张",
-    "南岛人扩张": "南岛语族扩张",
-    "niandetelian": "niandetelian",
-    "尼安德特人": "niandetelian",
-    "Neanderthal": "niandetelian",
-    "Homo neanderthalensis": "niandetelian",
-    "niluohe": "niluohe",
-    "尼罗河": "niluohe",
-    "Nile River": "niluohe",
-    "牛": "牛",
-    "家牛": "牛",
-    "黄牛": "牛",
-    "cattle": "牛",
-    "ox": "牛",
-    "Bos taurus": "牛",
-    "农业": "农业",
-    "agriculture": "农业",
-    "作物栽培": "农业",
-    "种植业": "农业",
-    "奴隶": "奴隶",
-    "奴隶制": "奴隶",
-    "奴隶劳动": "奴隶",
-    "奴役": "奴隶",
-    "疟疾": "疟疾",
-    "malaria": "疟疾",
-    "疟原虫感染": "疟疾",
-    "欧亚大陆": "欧亚大陆",
-    "Eurasia": "欧亚大陆",
-    "亚欧大陆": "欧亚大陆",
-    "欧洲殖民非洲": "欧洲殖民非洲",
-    "European Colonization of Africa": "欧洲殖民非洲",
-    "非洲殖民": "欧洲殖民非洲",
-    "欧洲征服非洲": "欧洲殖民非洲",
-    "平原": "平原",
-    "大平原": "平原",
-    "冲积平原": "平原",
-    "平民": "平民",
-    "庶民": "平民",
-    "普通人": "平民",
-    "非精英阶层": "平民",
-    "皮萨罗": "皮萨罗",
-    "弗朗西斯科·皮萨罗": "皮萨罗",
-    "Francisco Pizarro": "皮萨罗",
-    "Preface": "Preface",
-    "葡萄": "葡萄",
-    "葡萄藤": "葡萄",
-    "grape": "葡萄",
-    "栽培葡萄": "葡萄",
-    "亲属关系": "亲属关系",
-    "kinship": "亲属关系",
-    "血缘": "亲属关系",
-    "亲族": "亲属关系",
-    "亲属网络": "亲属关系",
-    "firearm": "枪炮",
-    "火枪": "枪炮",
-    "火炮": "枪炮",
-    "栖息地": "栖息地",
-    "生境": "栖息地",
-    "生态环境": "栖息地",
-    "气候": "气候",
-    "climate": "气候",
-    "气候条件": "气候",
-    "地中海气候": "气候",
-    "气候变化": "气候",
-    "酋长": "酋长",
-    "酋长制": "酋长",
-    "酋长管辖地": "酋长",
-    "酋邦": "酋长",
-    "人口": "人口",
-    "人口规模": "人口",
-    "人口密度": "人口",
-    "人口压力": "人口",
-    "population density": "人口密度",
-    "农民扩张": "人口扩张",
-    "人口置换": "人口扩张",
-    "人口压力扩张": "人口扩张",
-    "population size": "人口规模",
-    "人口数量": "人口规模",
-    "人种": "人种",
-    "人类种族": "人种",
-    "生物性种族": "人种",
-    "人类首次定居澳大利亚": "人类首次定居澳大利亚",
-    "First Human Settlement of Australia": "人类首次定居澳大利亚",
-    "澳大利亚最早定居": "人类首次定居澳大利亚",
-    "热带地区": "热带地区",
-    "热带": "热带地区",
-    "热带气候": "热带地区",
-    "低纬度地区": "热带地区",
-    "日本": "日本",
-    "Japan": "日本",
-    "日本列岛": "日本",
-    "sahala": "sahala",
-    "撒哈拉": "sahala",
-    "Sahara": "sahala",
-    "撒哈拉沙漠": "sahala",
-    "萨赫勒地带": "萨赫勒地带",
-    "萨赫勒": "萨赫勒地带",
-    "Sahel": "萨赫勒地带",
-    "非洲萨赫勒": "萨赫勒地带",
-    "书写系统": "书写系统",
-    "文字": "书写系统",
-    "文字系统": "书写系统",
-    "writing system": "书写系统",
-    "伤寒": "伤寒",
-    "斑疹伤寒": "伤寒",
-    "typhus": "伤寒",
-    "typhoid": "伤寒",
-    "剩余粮食": "剩余粮食",
-    "粮食剩余": "剩余粮食",
-    "农业剩余": "剩余粮食",
-    "粮食储备": "剩余粮食",
-    "商人": "商人",
-    "贸易商": "商人",
-    "商贾": "商人",
-    "长途贸易者": "商人",
-    "山羊": "山羊",
-    "家山羊": "山羊",
-    "goat": "山羊",
-    "野山羊": "山羊",
-    "山脉": "山脉",
-    "山系": "山脉",
-    "山地": "山脉",
-    "山区": "山脉",
-    "水利": "水利",
-    "水牛": "水牛",
-    "water buffalo": "水牛",
-    "亚洲水牛": "水牛",
-    "水稻": "水稻",
-    "稻米": "水稻",
-    "大米": "水稻",
-    "rice": "水稻",
-    "Oryza sativa": "水稻",
-    "沙漠": "沙漠",
-    "干旱区": "沙漠",
-    "desert": "沙漠",
-    "狩猎采集": "狩猎采集",
-    "狩猎采集者": "狩猎采集",
-    "采集狩猎": "狩猎采集",
-    "hunter-gatherer": "狩猎采集",
-    "生态": "生态",
-    "ecology": "生态",
-    "生态系统": "生态",
-    "生态条件": "生态",
-    "生态适应": "生态适应",
-    "环境适应": "生态适应",
-    "生态位适应": "生态适应",
-    "气候适应": "生态适应",
-    "石器时代": "石器时代",
-    "旧石器时代": "石器时代",
-    "新石器时代": "石器时代",
-    "Stone Age": "石器时代",
-    "社会复杂性": "社会复杂性",
-    "政治复杂性": "社会复杂性",
-    "社会层级": "社会复杂性",
-    "social complexity": "社会复杂性",
-    "鼠疫": "鼠疫",
-    "鼠疫杆菌": "鼠疫",
-    "taiwan": "taiwan",
-    "台湾": "taiwan",
-    "Taiwan": "taiwan",
-    "探险": "探险",
-    "exploration": "探险",
-    "地理探险": "探险",
-    "地理发现": "探险",
-    "航海探险": "探险",
-    "陶器": "陶器",
-    "陶瓷": "陶器",
-    "pottery": "陶器",
-    "制陶技术": "陶器",
-    "天花": "天花",
-    "天花病毒": "天花",
-    "痘疮": "天花",
-    "smallpox": "天花",
-    "痘病毒": "天花病毒",
-    "Variola virus": "天花病毒",
-    "铁制工具": "铁器",
-    "铁器时代": "铁器",
-    "冶铁": "铁器",
-    "统一": "统一",
-    "unification": "统一",
-    "政治统一": "统一",
-    "文化统一": "统一",
-    "兔": "兔",
-    "rabbit": "兔",
-    "家兔": "兔",
-    "土地": "土地",
-    "土地资源": "土地",
-    "耕地": "土地",
-    "土地所有权": "土地",
-    "土壤": "土壤",
-    "soil": "土壤",
-    "土壤条件": "土壤",
-    "土壤肥力": "土壤",
-    "地力": "土壤",
-    "突变": "突变",
-    "基因突变": "突变",
-    "遗传突变": "突变",
-    "mutation": "突变",
-    "豚鼠": "豚鼠",
-    "guinea pig": "豚鼠",
-    "荷兰猪": "豚鼠",
-    "王国": "王国",
-    "国家雏形": "王国",
-    "早期国家": "王国",
-    "kingdom": "王国",
-    "瓦特": "瓦特",
-    "詹姆士·瓦特": "瓦特",
-    "James Watt": "瓦特",
-    "豌豆": "豌豆",
-    "pea": "豌豆",
-    "Pisum sativum": "豌豆",
-    "文化": "文化",
-    "culture": "文化",
-    "文化因素": "文化",
-    "文化差异": "文化",
-    "书面语言": "文字",
-    "文字的独立发明": "文字的独立发明",
-    "Independent Invention of Writing": "文字的独立发明",
-    "苏美尔文字": "文字的独立发明",
-    "楔形文字发明": "文字的独立发明",
-    "纬度": "纬度",
-    "纬度效应": "纬度",
-    "纬度与气候": "纬度",
-    "东西轴纬度": "纬度",
-    "无花果": "无花果",
-    "fig": "无花果",
-    "xiaweiyi": "xiaweiyi",
-    "夏威夷": "xiaweiyi",
-    "Hawaii": "xiaweiyi",
-    "xibanya-zhengfu-aziteke": "xibanya-zhengfu-aziteke",
-    "西班牙征服阿兹特克帝国": "xibanya-zhengfu-aziteke",
-    "Spanish conquest of Aztec Empire": "xibanya-zhengfu-aziteke",
-    "xibanya-zhengfu-yinjia": "xibanya-zhengfu-yinjia",
-    "西班牙征服印加帝国": "xibanya-zhengfu-yinjia",
-    "Spanish conquest of Inca Empire": "xibanya-zhengfu-yinjia",
-    "xiboliya": "xiboliya",
-    "西伯利亚": "xiboliya",
-    "Siberia": "xiboliya",
-    "ximalaya": "ximalaya",
-    "喜马拉雅": "ximalaya",
-    "Himalayas": "ximalaya",
-    "xinyuewodi": "xinyuewodi",
-    "新月沃地": "xinyuewodi",
-    "Fertile Crescent": "xinyuewodi",
-    "肥沃月弯": "xinyuewodi",
-    "xizang": "xizang",
-    "西藏": "xizang",
-    "Tibet": "xizang",
-    "青藏高原": "xizang",
-    "向日葵": "向日葵",
-    "sunflower": "向日葵",
-    "小麦": "小麦",
-    "二粒小麦": "小麦",
-    "单粒小麦": "小麦",
-    "wheat": "小麦",
-    "Triticum": "小麦",
-    "希特勒": "希特勒",
-    "阿道夫·希特勒": "希特勒",
-    "Adolf Hitler": "希特勒",
-    "新几内亚": "新几内亚",
-    "巴布亚新几内亚": "新几内亚",
-    "Papua New Guinea": "新几内亚",
-    "Papua": "新几内亚",
-    "肥沃新月": "新月沃地",
-    "西南亚": "新月沃地",
-    "近东": "新月沃地",
-    "新月沃地农业起源": "新月沃地农业起源",
-    "Fertile Crescent Agricultural Origins": "新月沃地农业起源",
-    "西南亚农业起源": "新月沃地农业起源",
-    "现代人": "现代人",
-    "modern humans": "现代人",
-    "解剖学现代人": "现代人",
-    "智人": "现代人",
-    "大跃进": "现代人",
-    "行政": "行政",
-    "行政管理": "行政",
-    "官僚制": "行政",
-    "中央行政": "行政",
-    "锡": "锡",
-    "锡金属": "锡",
-    "香蕉": "香蕉",
-    "大蕉": "香蕉",
-    "banana": "香蕉",
-    "plantain": "香蕉",
-    "驯化": "驯化",
-    "植物驯化": "驯化",
-    "动物驯化": "驯化",
-    "domestication": "驯化",
-    "驯鹿": "驯鹿",
-    "reindeer": "驯鹿",
-    "caribou": "驯鹿",
-    "亚历山大大帝": "亚历山大大帝",
-    "Alexander the Great": "亚历山大大帝",
-    "亚历山大": "亚历山大大帝",
-    "亚麻": "亚麻",
-    "亚麻布": "亚麻",
-    "flax": "亚麻",
-    "演化": "演化",
-    "生物演化": "演化",
-    "进化": "演化",
-    "自然选择": "演化",
-    "alpaca": "羊驼",
-    "美洲羊驼": "羊驼",
-    "鸭": "鸭",
-    "duck": "鸭",
-    "家鸭": "鸭",
-    "冶金": "冶金",
-    "冶金技术": "冶金",
-    "metallurgy": "冶金",
-    "金属加工": "冶金",
-    "炼铁": "冶金",
-    "青铜冶炼": "冶金",
-    "椰子": "椰子",
-    "coconut": "椰子",
-    "耶利": "耶利",
-    "Yali": "耶利",
-    "yindu": "yindu",
-    "印度": "yindu",
-    "India": "yindu",
-    "印度次大陆": "yindu",
-    "yinduhe": "yinduhe",
-    "印度河": "yinduhe",
-    "Indus River": "yinduhe",
-    "印度河流域": "yinduhe",
-    "yindunixiya": "yindunixiya",
-    "印度尼西亚": "yindunixiya",
-    "Indonesia": "yindunixiya",
-    "马来群岛": "yindunixiya",
-    "一年生植物": "一年生植物",
-    "一年生作物": "一年生植物",
-    "年生植物": "一年生植物",
-    "印刷": "印刷",
-    "印刷术": "印刷",
-    "活字印刷": "印刷",
-    "printing": "印刷术",
-    "印刷机": "印刷术",
-    "移民": "移民",
-    "人口迁徙": "移民",
-    "史前迁徙": "移民",
-    "移民浪潮": "移民",
-    "罂粟": "罂粟",
-    "poppy": "罂粟",
-    "鸦片罂粟": "罂粟",
-    "遗传": "遗传",
-    "遗传学": "遗传",
-    "基因": "遗传",
-    "遗传差异": "遗传",
-    "鹰嘴豆": "鹰嘴豆",
-    "chickpea": "鹰嘴豆",
-    "埃及豆": "鹰嘴豆",
-    "游牧": "游牧",
-    "游牧生活": "游牧",
-    "游牧族群": "游牧",
-    "玉米": "玉米",
-    "玉蜀黍": "玉米",
-    "墨西哥类蜀黍": "玉米",
-    "maize": "玉米",
-    "corn": "玉米",
-    "Zea mays": "玉米",
-    "芋艿": "芋艿",
-    "芋头": "芋艿",
-    "芋": "芋艿",
-    "taro": "芋艿",
-    "语系": "语系",
-    "语言家族": "语系",
-    "语族": "语系",
-    "语言": "语言",
-    "语言扩张": "语言",
-    "语言多样性": "语言",
-    "语言传播": "语言传播",
-    "语系扩散": "语言传播",
-    "language spread": "语言传播",
-    "语言学": "语言学",
-    "linguistics": "语言学",
-    "历史语言学": "语言学",
-    "语言分类": "语言学",
-    "雨林": "雨林",
-    "热带雨林": "雨林",
-    "赤道雨林": "雨林",
-    "再分配": "再分配",
-    "再分配经济": "再分配",
-    "贡品再分配": "再分配",
-    "财富再分配": "再分配",
-    "zhili": "zhili",
-    "智利": "zhili",
-    "Chile": "zhili",
-    "专业化分工": "专业化分工",
-    "经济专业化": "专业化分工",
-    "分工": "专业化分工",
-    "专业手艺人": "专业化分工",
-    "中国": "中国",
-    "China": "中国",
-    "华夏": "中国",
-    "中原": "中国",
-    "中国农业起源": "中国农业起源",
-    "Chinese Agricultural Origins": "中国农业起源",
-    "中国粮食生产起源": "中国农业起源",
-    "中美洲": "中美洲",
-    "Mesoamerica": "中美洲",
-    "美索美洲": "中美洲",
-    "征服者": "征服者",
-    "conquistador": "征服者",
-    "军事征服者": "征服者",
-    "战争": "战争",
-    "征服战争": "战争",
-    "武装冲突": "战争",
-    "warfare": "战争",
-    "政治竞争": "政治竞争",
-    "竞争性国家体系": "政治竞争",
-    "分裂促竞争": "政治竞争",
-    "政治组织": "政治组织",
-    "政治结构": "政治组织",
-    "political organization": "政治组织",
-    "社会组织": "政治组织",
-    "植物": "植物",
-    "野生植物": "植物",
-    "植物物种": "植物",
-    "植物多样性": "植物",
-    "植物学": "植物学",
-    "botany": "植物学",
-    "植物科学": "植物学",
-    "作物植物学": "植物学",
-    "殖民主义": "殖民主义",
-    "colonialism": "殖民主义",
-    "欧洲殖民": "殖民主义",
-    "殖民扩张": "殖民主义",
-    "殖民地": "殖民主义",
-    "猪": "猪",
-    "家猪": "猪",
-    "野猪": "猪",
-    "pig": "猪",
-    "Sus scrofa domesticus": "猪",
-    "珍珠鸡": "珍珠鸡",
-    "guinea fowl": "珍珠鸡",
-    "种族主义": "种族主义",
-    "racism": "种族主义",
-    "种族决定论": "种族主义",
-    "种族优越论": "种族主义",
-    "智力差异": "种族主义",
-    "字母": "字母",
-    "字母表": "字母",
-    "表音文字": "字母",
-    "alphabet": "字母",
-    "字母文字的传播": "字母文字的传播",
-    "Spread of Alphabetic Writing": "字母文字的传播",
-    "字母传播": "字母文字的传播",
-    "腓尼基字母传播": "字母文字的传播",
-    "达尔文自然选择": "自然选择",
-    "物种选择": "自然选择",
-    "进化选择": "自然选择",
-    "资源": "资源",
-    "resources": "资源",
-    "自然资源": "资源",
-    "环境资源": "资源",
-    "矿产资源": "资源",
-    "宗教": "宗教",
-    "有组织的宗教": "宗教",
-    "religion": "宗教",
-    "意识形态": "宗教",
-    "神权": "宗教",
-    "作物": "作物",
-    "农作物": "作物",
-    "驯化植物": "作物",
-    "栽培植物": "作物",
-    "作物传播": "作物传播",
-    "crop diffusion": "作物传播",
-    "粮食生产传播": "作物传播",
-    "农业传播": "作物传播"
-  },
-  "page_count": 315,
-  "generated": "2026-05-25T15:10:26Z"
+  }
 }
