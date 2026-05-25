@@ -112,7 +112,7 @@
     },
     "部落": {
       "type": "concept",
-      "quality": "standard",
+      "quality": "featured",
       "label": "部落"
     },
     "草原": {
@@ -1002,7 +1002,7 @@
     },
     "酋长": {
       "type": "concept",
-      "quality": "standard",
+      "quality": "featured",
       "label": "酋长"
     },
     "人口": {
@@ -1412,7 +1412,7 @@
     },
     "遗传": {
       "type": "concept",
-      "quality": "standard",
+      "quality": "featured",
       "label": "遗传"
     },
     "鹰嘴豆": {
@@ -1442,7 +1442,7 @@
     },
     "语言": {
       "type": "concept",
-      "quality": "standard",
+      "quality": "featured",
       "label": "语言"
     },
     "语言传播": {
@@ -1552,7 +1552,7 @@
     },
     "自然选择": {
       "type": "concept",
-      "quality": "standard",
+      "quality": "featured",
       "label": "自然选择"
     },
     "资源": {
