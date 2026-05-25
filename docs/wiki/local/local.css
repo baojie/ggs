@@ -1,14 +1,241 @@
-/* ==========================================================
- * local/local.css — 枪炮、病菌与钢铁 Wiki 本地样式覆盖
- * 在 main.css 之后加载，用于修正深色主题下的样式问题。
- * ========================================================== */
+/* ============================================================
+ * Nord Dark (nord-dark)
+ * 北欧、冷静、克制
+ *
+ * 适用于: 学术 wiki、长篇阅读、冬季氛围
+ * 推荐配对: #45 Nord Light
+ * 风格分类: dark-neutral
+ * 模式: 暗色 (dark)
+ *
+ * 用法: 将此文件作为 local.css 引入，覆盖 base.css 的默认配色
+ * ============================================================ */
 
-/* ----------------------------------------------------------
- * 1. 脚注样式修正（footnote 插件使用了硬编码浅色主题颜色）
- * ---------------------------------------------------------- */
-.footnotes { color: var(--fg-muted) !important; }
-.footnote-ref a,
-.footnote-backref { color: var(--fg-muted) !important; text-decoration: none !important; }
-.footnote-ref a:hover,
-.footnote-backref:hover { color: var(--accent) !important; text-decoration: underline !important; }
-.footnotes-sep { border-top-color: var(--border) !important; }
+/* ---------- 1. CSS 变量体系 (base.css :root) ---------- */
+:root {
+  --fg: #eceff4;
+  --fg-muted: #b0b8c4;
+  --bg: #2e3440;
+  --bg-box: #3b4252;
+  --bg-nav: #242933;
+  --accent: #88c0d0;
+  --accent-dim: #3a4e5a;
+  --link: #ebcb8b;
+  --link-broken: #bf616a;
+  --border: #4c566a;
+  --bg-code: #3b4252;
+  --bg-table: #2e3440;
+  --bg-stripe: #323844;
+}
+
+/* ---------- 2. 首页 Hero 区 (home.css 硬编码覆盖) ---------- */
+.hero-eyebrow { color: #b0b8c4; }
+.hero-title {
+  color: #eceff4;
+  text-shadow: 0 0 30px #88c0d040;
+}
+.hero-tagline { color: #b0b8c4; }
+.hero-count { color: #88c0d0; }
+
+.hero-search input {
+  color: #eceff4;
+  background: #3b4252;
+  border: 1px solid #4c566a;
+  box-shadow: 0 0 0 0 transparent;
+}
+.hero-search input:focus {
+  border-color: #88c0d0;
+  box-shadow: 0 0 0 3px #88c0d033;
+}
+.hero-search input::placeholder { color: #b0b8c4; }
+
+.hero-search #search-results {
+  background: #3b4252;
+  border: 1px solid #4c566a;
+}
+
+.mode-opt { color: #b0b8c4; }
+.mode-opt input[type=checkbox] { accent-color: #88c0d0; }
+
+/* FTS 搜索结果 */
+.fts-chap { color: #b0b8c4; }
+.fts-title { color: #88c0d0; }
+.fts-pn { color: #b0b8c4; }
+.fts-snip { color: #eceff4; }
+.fts-hl {
+  color: #ebcb8b;
+  background: #ebcb8b33;
+}
+.fts-all a {
+  color: #88c0d0;
+  border-top: 1px solid #4c566a;
+}
+.fts-all a:hover { background: #3a4e5a; }
+
+/* ---------- 3. 首页 Knowledge 面板 ---------- */
+.k-title-link { color: #88c0d0; }
+.k-value { color: #eceff4; }
+.k-row { color: #eceff4; }
+.k-row.muted { color: #b0b8c4; }
+.k-panel {
+  background: #3b4252;
+  border: 1px solid #4c566a;
+}
+
+/* ---------- 4. 首页书卡 ---------- */
+.book-card {
+  background: #3b4252;
+  border: 1px solid #4c566a;
+}
+.bc-icon {
+  color: #88c0d0;
+  background: #3a4e5a;
+}
+.bc-title { color: #eceff4; }
+.bc-title:hover { color: #88c0d0; }
+.bc-sub { color: #b0b8c4; }
+.bc-chap { color: #ebcb8b; }
+.bc-chap:hover { color: #88c0d0; }
+.bc-chap--pre, .bc-chap--app { color: #b0b8c4; }
+
+/* ---------- 5. 文章正文 ---------- */
+article h2 {
+  color: #88c0d0;
+  border-bottom: 1px solid #4c566a;
+}
+article h3 { color: #eceff4; }
+
+article code {
+  color: #88c0d0;
+  background: #3b4252;
+  border: 1px solid #4c566a;
+}
+
+article table { border: 1px solid #4c566a; }
+article th {
+  background: #3b4252;
+  border: 1px solid #4c566a;
+}
+article td { border: 1px solid #4c566a; }
+article tr:nth-child(even) td { background: #323844; }
+
+article hr { border-top: 1px solid #4c566a; }
+
+.seealso-block {
+  background: #3a4e5a;
+  border-left: 4px solid #88c0d0;
+}
+
+/* blockquote */
+blockquote {
+  border-left: 4px solid #3a4e5a;
+  color: #b0b8c4;
+}
+
+/* ---------- 6. Diff 对比 ---------- */
+.diff-added { color: #a3be8c; }
+.diff-removed { color: #bf616a; }
+
+.diff-add {
+  color: #a3be8c;
+  background: #1f2818;
+}
+.diff-add .diff-sign { color: #a3be8c; }
+.diff-add .diff-char {
+  color: #a3be8c;
+  background: #385028;
+}
+
+.diff-del {
+  color: #bf616a;
+  background: #2a1010;
+}
+.diff-del .diff-sign { color: #bf616a; }
+.diff-del .diff-char {
+  color: #bf616a;
+  background: #581818;
+}
+
+/* ---------- 7. 实体卡片 ---------- */
+.card-header h3 { color: #88c0d0; }
+
+.featured-card {
+  background: #3b4252;
+  border: 1px solid #4c566a;
+}
+.featured-card:hover { border-color: #88c0d0; }
+.featured-card .card-eyebrow {
+  color: #88c0d0;
+  background: #3a4e5a;
+}
+.featured-card .card-desc { color: #b0b8c4; }
+
+/* ---------- 8. 实体类型强调色 (types.css) ---------- */
+.entity-person       { border-left-color: #88c0d0; }
+.entity-concept      { border-left-color: #81a1c1; }
+.entity-event        { border-left-color: #8fbcbb; }
+.entity-species      { border-left-color: #a3be8c; }
+.entity-theory       { border-left-color: #b48ead; }
+.entity-chapter      { border-left-color: #8fbcbb; }
+.entity-organization { border-left-color: #b48ead; }
+.entity-place        { border-left-color: #8fbcbb; }
+.entity-overview     { border-left-color: #8fbcbb; }
+
+.tag-person       { color: #88c0d0;       border-color: #88c0d0; }
+.tag-concept      { color: #81a1c1;      border-color: #81a1c1; }
+.tag-event        { color: #8fbcbb;        border-color: #8fbcbb; }
+.tag-species      { color: #a3be8c;      border-color: #a3be8c; }
+.tag-theory       { color: #b48ead;       border-color: #b48ead; }
+.tag-chapter      { color: #8fbcbb;      border-color: #8fbcbb; }
+.tag-organization { color: #b48ead; border-color: #b48ead; }
+.tag-place        { color: #8fbcbb;        border-color: #8fbcbb; }
+.tag-overview     { color: #8fbcbb;     border-color: #8fbcbb; }
+
+/* ---------- 9. 质量徽章 (quality.css) ---------- */
+.badge-premium {
+  background: #3a2858;
+  color: #d8c0f0;
+}
+.badge-featured {
+  background: #1f3a5a;
+  color: #a8c8e0;
+}
+.badge-standard {
+  background: #2a3a18;
+  color: #c0d8a0;
+}
+.badge-basic {
+  background: #3a2e08;
+  color: #e8c870;
+}
+.badge-stub {
+  background: #3a1818;
+  color: #e89898;
+}
+
+/* ---------- 10. 近期更改 (pages.css) ---------- */
+.rc-size-plus, .rc-plus { color: #a3be8c; }
+.rc-size-minus, .rc-minus { color: #bf616a; }
+
+/* ---------- 11. 阅读进度条 (nav.css) ---------- */
+.reading-progress {
+  background: linear-gradient(90deg, #88c0d0, #b8d8e0);
+}
+
+/* ---------- 12. 源代码视图 (source.css) ---------- */
+.src-container-fence { color: #b0b8c4; }
+.source-view {
+  color: #eceff4;
+  background: #3b4252;
+}
+.src-pre.src-fm { border-top: 1px solid #4c566a; }
+
+/* ---------- 13. 滚动条 ---------- */
+::-webkit-scrollbar-track { background: #2e3440; }
+::-webkit-scrollbar-thumb { background: #4c566a; }
+::-webkit-scrollbar-thumb:hover { background: #88c0d0; }
+
+/* ---------- 14. 选中文本 ---------- */
+::selection {
+  background: #88c0d040;
+  color: #eceff4;
+}

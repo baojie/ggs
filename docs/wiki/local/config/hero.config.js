@@ -6,7 +6,7 @@ export function buildHeroBackground() {
   // hero-cosmos div 撑开 hero 高度（CSS clamp(260px,36vw,460px)）
   // hero-map-wrap 绝对定位铺满，承载世界地图
   return `
-    <div class="hero-cosmos" style="background:#0d0a04;"></div>
+    <div class="hero-cosmos" style="background:#242933;"></div>
     <div id="hero-map-wrap" style="position:absolute;inset:0;overflow:hidden;">
       <img id="hero-worldmap"
            src="local/world-map.svg"
