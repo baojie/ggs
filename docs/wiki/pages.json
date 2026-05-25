@@ -39,7 +39,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 2,
+      "quality": "standard"
     },
     "爱迪生": {
       "type": "person",
@@ -83,7 +84,8 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "annatuoliya": {
       "type": "place",
@@ -104,7 +106,8 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 1,
+      "quality": "standard"
     },
     "安娜-卡列尼娜原则": {
       "type": "concept",
@@ -223,7 +226,8 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "bailatu": {
       "type": "person",
@@ -243,7 +247,8 @@
       "wikilink_count": 3,
       "blockquote_count": 0,
       "affiliation": "古希腊",
-      "total_refs": 2
+      "total_refs": 2,
+      "quality": "standard"
     },
     "半岛": {
       "type": "concept",
@@ -262,7 +267,8 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "斑马": {
       "type": "species",
@@ -330,7 +336,8 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 4
+      "total_refs": 4,
+      "quality": "standard"
     },
     "兵豆": {
       "type": "species",
@@ -353,7 +360,8 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 1,
+      "quality": "standard"
     },
     "病原体": {
       "type": "concept",
@@ -577,7 +585,8 @@
       "pn_count": 0,
       "wikilink_count": 2,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 1,
+      "quality": "standard"
     },
     "ch01-up-to-the-starting-line": {
       "type": "chapter",
@@ -941,7 +950,8 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "传教": {
       "type": "concept",
@@ -1114,7 +1124,8 @@
       "wikilink_count": 3,
       "blockquote_count": 0,
       "affiliation": "葡萄牙",
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "daimengde": {
       "type": "person",
@@ -1137,7 +1148,8 @@
       "wikilink_count": 3,
       "blockquote_count": 0,
       "affiliation": "美国",
-      "total_refs": 4
+      "total_refs": 4,
+      "quality": "standard"
     },
     "大豆": {
       "type": "species",
@@ -1159,7 +1171,8 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "大陆": {
       "type": "concept",
@@ -1180,7 +1193,8 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 2,
+      "quality": "standard"
     },
     "大陆轴线": {
       "type": "concept",
@@ -1252,7 +1266,8 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "岛屿": {
       "type": "concept",
@@ -1274,7 +1289,8 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "达尔文": {
       "type": "person",
@@ -1520,7 +1536,8 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 1,
+      "quality": "standard"
     },
     "Epilogue": {
       "type": "chapter",
@@ -1610,7 +1627,8 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 2,
+      "quality": "standard"
     },
     "分裂": {
       "type": "concept",
@@ -1700,7 +1718,8 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 1,
+      "quality": "standard"
     },
     "干旱": {
       "type": "concept",
@@ -1748,7 +1767,8 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 3
+      "total_refs": 3,
+      "quality": "standard"
     },
     "甘薯": {
       "type": "species",
@@ -1771,7 +1791,8 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 3
+      "total_refs": 3,
+      "quality": "standard"
     },
     "钢铁": {
       "type": "concept",
@@ -1820,7 +1841,8 @@
       "pn_count": 7,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "高粱": {
       "type": "species",
@@ -2047,7 +2069,8 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 2,
+      "quality": "standard"
     },
     "国家": {
       "type": "concept",
@@ -2120,7 +2143,8 @@
       "pn_count": 2,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "官员": {
       "type": "concept",
@@ -2217,7 +2241,8 @@
       "wikilink_count": 3,
       "blockquote_count": 0,
       "affiliation": "迦太基",
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "航海": {
       "type": "concept",
@@ -2338,7 +2363,8 @@
       "wikilink_count": 3,
       "blockquote_count": 0,
       "affiliation": "美国",
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "火": {
       "type": "concept",
@@ -2412,7 +2438,8 @@
       "pn_count": 1,
       "wikilink_count": 6,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "火鸡": {
       "type": "species",
@@ -2434,7 +2461,8 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 2,
+      "quality": "standard"
     },
     "环境": {
       "type": "concept",
@@ -2528,7 +2556,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "交换": {
       "type": "concept",
@@ -2904,7 +2933,8 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 4
+      "total_refs": 4,
+      "quality": "standard"
     },
     "军事征服": {
       "type": "concept",
@@ -3124,7 +3154,8 @@
       "pn_count": 5,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "科学": {
       "type": "concept",
@@ -3195,7 +3226,8 @@
       "wikilink_count": 3,
       "blockquote_count": 0,
       "affiliation": "英国",
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "扩张": {
       "type": "concept",
@@ -3245,7 +3277,8 @@
       "pn_count": 2,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "莱特兄弟": {
       "type": "person",
@@ -3315,7 +3348,8 @@
       "pn_count": 3,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 1,
+      "quality": "standard"
     },
     "lusuo": {
       "type": "person",
@@ -3336,7 +3370,8 @@
       "wikilink_count": 3,
       "blockquote_count": 0,
       "affiliation": "法国",
-      "total_refs": 1
+      "total_refs": 1,
+      "quality": "standard"
     },
     "轮子": {
       "type": "concept",
@@ -3412,7 +3447,8 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "madagascar": {
       "type": "place",
@@ -3433,7 +3469,8 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 1,
+      "quality": "standard"
     },
     "makesi": {
       "type": "person",
@@ -3454,7 +3491,8 @@
       "wikilink_count": 3,
       "blockquote_count": 0,
       "affiliation": "德国",
-      "total_refs": 2
+      "total_refs": 2,
+      "quality": "standard"
     },
     "牦牛": {
       "type": "species",
@@ -3476,7 +3514,8 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "猫": {
       "type": "species",
@@ -3499,7 +3538,8 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "贸易": {
       "type": "concept",
@@ -3645,7 +3685,8 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 1,
+      "quality": "standard"
     },
     "meisuobudamiya": {
       "type": "place",
@@ -3667,7 +3708,8 @@
       "pn_count": 7,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 5
+      "total_refs": 5,
+      "quality": "standard"
     },
     "menggu-diguo": {
       "type": "event",
@@ -3686,7 +3728,8 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 1,
+      "quality": "standard"
     },
     "menggu": {
       "type": "place",
@@ -3707,7 +3750,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 2,
+      "quality": "standard"
     },
     "美国东部": {
       "type": "place",
@@ -3779,7 +3823,8 @@
       "pn_count": 0,
       "wikilink_count": 2,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "美洲独立农业起源": {
       "type": "event",
@@ -3829,7 +3874,8 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 3
+      "total_refs": 3,
+      "quality": "standard"
     },
     "蒙特朱马": {
       "type": "person",
@@ -3873,7 +3919,8 @@
       "pn_count": 3,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "milu": {
       "type": "place",
@@ -3894,7 +3941,8 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 2,
+      "quality": "standard"
     },
     "免疫力": {
       "type": "concept",
@@ -4044,7 +4092,8 @@
       "pn_count": 0,
       "wikilink_count": 2,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "面包果": {
       "type": "species",
@@ -4065,7 +4114,8 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "moxige": {
       "type": "place",
@@ -4086,7 +4136,8 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 3
+      "total_refs": 3,
+      "quality": "standard"
     },
     "木薯": {
       "type": "species",
@@ -4109,7 +4160,8 @@
       "pn_count": 0,
       "wikilink_count": 2,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "牧人": {
       "type": "concept",
@@ -4131,7 +4183,8 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "目录": {
       "type": "overview",
@@ -4170,7 +4223,8 @@
       "pn_count": 6,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 1,
+      "quality": "standard"
     },
     "napolun": {
       "type": "person",
@@ -4192,7 +4246,8 @@
       "wikilink_count": 3,
       "blockquote_count": 0,
       "affiliation": "法国",
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "南北轴": {
       "type": "concept",
@@ -4263,7 +4318,8 @@
       "wikilink_count": 3,
       "blockquote_count": 0,
       "affiliation": "欧亚大陆",
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "niluohe": {
       "type": "place",
@@ -4283,7 +4339,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 2,
+      "quality": "standard"
     },
     "牛": {
       "type": "species",
@@ -4456,7 +4513,8 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 2,
+      "quality": "standard"
     },
     "平民": {
       "type": "concept",
@@ -4546,7 +4604,8 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 2,
+      "quality": "standard"
     },
     "亲属关系": {
       "type": "concept",
@@ -4896,7 +4955,8 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 2,
+      "quality": "standard"
     },
     "萨赫勒地带": {
       "type": "place",
@@ -5020,7 +5080,8 @@
       "pn_count": 3,
       "wikilink_count": 1,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "山羊": {
       "type": "species",
@@ -5043,7 +5104,8 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "山脉": {
       "type": "concept",
@@ -5066,7 +5128,8 @@
       "pn_count": 8,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "水利": {
       "type": "concept",
@@ -5113,7 +5176,8 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "水稻": {
       "type": "species",
@@ -5338,7 +5402,8 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 5
+      "total_refs": 5,
+      "quality": "standard"
     },
     "探险": {
       "type": "concept",
@@ -5512,7 +5577,8 @@
       "pn_count": 0,
       "wikilink_count": 2,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "土地": {
       "type": "concept",
@@ -5610,7 +5676,8 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 2,
+      "quality": "standard"
     },
     "王国": {
       "type": "concept",
@@ -5805,7 +5872,8 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 2,
+      "quality": "standard"
     },
     "xiaweiyi": {
       "type": "place",
@@ -5826,7 +5894,8 @@
       "pn_count": 4,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 2,
+      "quality": "standard"
     },
     "xibanya-zhengfu-aziteke": {
       "type": "event",
@@ -5846,7 +5915,8 @@
       "pn_count": 3,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "xibanya-zhengfu-yinjia": {
       "type": "event",
@@ -5866,7 +5936,8 @@
       "pn_count": 3,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "xiboliya": {
       "type": "place",
@@ -5886,7 +5957,8 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 1,
+      "quality": "standard"
     },
     "ximalaya": {
       "type": "place",
@@ -5906,7 +5978,8 @@
       "pn_count": 3,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 1,
+      "quality": "standard"
     },
     "xinyuewodi": {
       "type": "place",
@@ -5928,7 +6001,8 @@
       "pn_count": 6,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "xizang": {
       "type": "place",
@@ -5949,7 +6023,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "向日葵": {
       "type": "species",
@@ -5970,7 +6045,8 @@
       "pn_count": 0,
       "wikilink_count": 2,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "小麦": {
       "type": "species",
@@ -6168,7 +6244,8 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "香蕉": {
       "type": "species",
@@ -6191,7 +6268,8 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 2,
+      "quality": "standard"
     },
     "驯化": {
       "type": "concept",
@@ -6238,7 +6316,8 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "亚历山大大帝": {
       "type": "person",
@@ -6283,7 +6362,8 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 2,
+      "quality": "standard"
     },
     "演化": {
       "type": "concept",
@@ -6306,7 +6386,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 2,
+      "quality": "standard"
     },
     "羊驼": {
       "type": "species",
@@ -6328,7 +6409,8 @@
       "pn_count": 0,
       "wikilink_count": 2,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "鸭": {
       "type": "species",
@@ -6350,7 +6432,8 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 1,
+      "quality": "standard"
     },
     "冶金": {
       "type": "concept",
@@ -6399,7 +6482,8 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "耶利": {
       "type": "person",
@@ -6444,7 +6528,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 3
+      "total_refs": 3,
+      "quality": "standard"
     },
     "yinduhe": {
       "type": "place",
@@ -6466,7 +6551,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 2,
+      "quality": "standard"
     },
     "yindunixiya": {
       "type": "place",
@@ -6488,7 +6574,8 @@
       "pn_count": 5,
       "wikilink_count": 6,
       "blockquote_count": 0,
-      "total_refs": 4
+      "total_refs": 4,
+      "quality": "standard"
     },
     "一年生植物": {
       "type": "concept",
@@ -6534,7 +6621,8 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "印刷术": {
       "type": "concept",
@@ -6608,7 +6696,8 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "遗传": {
       "type": "concept",
@@ -6656,7 +6745,8 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 1,
+      "quality": "standard"
     },
     "游牧": {
       "type": "concept",
@@ -6732,7 +6822,8 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 2,
+      "quality": "standard"
     },
     "语系": {
       "type": "concept",
@@ -6753,7 +6844,8 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 5
+      "total_refs": 5,
+      "quality": "standard"
     },
     "语言": {
       "type": "concept",
@@ -6850,7 +6942,8 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "再分配": {
       "type": "concept",
@@ -6897,7 +6990,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "专业化分工": {
       "type": "concept",
@@ -7222,7 +7316,8 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 0,
+      "quality": "standard"
     },
     "种族主义": {
       "type": "concept",
