@@ -576,11 +576,11 @@ Phase 1 完成的标志（全部满足方可进入 Phase 2）：
 
 > `grow_phase` 字段供 butler 和 /grow skill 读取当前阶段，无需每次重新做 Phase 0 摸底。
 
-- [ ] 确认字段已写入且 JSON 合法：
+- [x] 确认字段已写入且 JSON 合法：
   ```bash
   python3 -c "import json; print(json.load(open('local/config/butler.json')))"
   ```
-- [ ] 提交配置变更：
+- [x] 提交配置变更：
   ```bash
   git add local/config/butler.json
   bash wiki/scripts/skill_commit.sh "config: Phase 2 WU quota 配置（1000 WU/轮）"
@@ -594,16 +594,18 @@ Phase 1 完成的标志（全部满足方可进入 Phase 2）：
 
 **对每个新类型，在扩张该类型前执行 Mini-Pilot（2–3 页 + 1 轮 EVV5）**：
 
-- [ ] 参考最相近类型的 `*-schema.md`，起草 `local/template/{type}-schema.md`
-- [ ] 手选 2–3 个语料最丰富的候选，使用 NEW1 建页至 standard（走完整写作流程）
-- [ ] 执行 EVV5：扫描这 2–3 页，识别系统性问题，更新模板
-- [ ] 均分 ≥ 75 → 模板可用，**将该类型加入 2.1-B 串行扩张队列，后续使用 NEW1 建页全部走 2.1-B 标准流程**
-- [ ] 均分 < 75 → 分析根因后决定是否继续（接受 stub 档 / 暂不纳入 Phase 2 / 补语料后重测）
+- [x] 参考最相近类型的 `*-schema.md`，起草 `local/template/{type}-schema.md`
+- [x] 手选 2–3 个语料最丰富的候选，使用 NEW1 建页至 standard（走完整写作流程）
+- [x] 执行 EVV5：扫描这 2–3 页，识别系统性问题，更新模板
+- [x] 均分 ≥ 75 → 模板可用，**将该类型加入 2.1-B 串行扩张队列，后续使用 NEW1 建页全部走 2.1-B 标准流程**
+- [x] 均分 < 75 → 分析根因后决定是否继续（接受 stub 档 / 暂不纳入 Phase 2 / 补语料后重测）
+
+> **N/A**：Phase 1 无新类型（organization/list 标注为 P3，不进入 Phase 2）。以上均跳过。
 
 > Mini-Pilot 同样须执行每轮 EXIT-GATE（见 §2.1-C），并写入日志（见 §2.1-D）。
 > Mini-Pilot 的 2–3 页计入 2.1-B 的建页总数，无需另行统计。
 
-- [ ] mini-pilot 完成后，初始化 state 文件：
+- [x] mini-pilot 完成后，初始化 state 文件：
   ```python
   import json, os
   os.makedirs('local/state', exist_ok=True)
@@ -638,12 +640,12 @@ Phase 1 完成的标志（全部满足方可进入 Phase 2）：
   print('state 初始化完成')
   ```
 
-- [ ] 验证文件合法：
+- [x] 验证文件合法：
   ```bash
   python3 -c "import json; s=json.load(open('local/state/grow_state.json')); print(s['grow_phase'], s['current_type'])"
   ```
 
-- [ ] 提交（与 mini-pilot 同批或单独提交）：
+- [x] 提交（与 mini-pilot 同批或单独提交）：
   ```bash
   git add local/state/grow_state.json
   bash wiki/scripts/skill_commit.sh "config: 初始化 GROW state 文件（Phase 2.1 起点）"
