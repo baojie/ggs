@@ -128,7 +128,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 6
+      "total_refs": 7
     },
     "安第斯山脉": {
       "type": "place",
@@ -178,7 +178,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 9
+      "total_refs": 10
     },
     "阿塔瓦尔帕": {
       "type": "person",
@@ -202,7 +202,7 @@
       "quality": "featured",
       "quality_score": 57,
       "affiliation": "印加帝国",
-      "total_refs": 9
+      "total_refs": 10
     },
     "baergan": {
       "type": "place",
@@ -224,6 +224,26 @@
       "wikilink_count": 4,
       "blockquote_count": 0,
       "total_refs": 0
+    },
+    "bailatu": {
+      "type": "person",
+      "label": "柏拉图",
+      "aliases": [
+        "Plato"
+      ],
+      "tags": [
+        "学者"
+      ],
+      "path": "ba/bailatu.md",
+      "description": "古希腊哲学家，戴蒙德在讨论政治理论时引用其思想",
+      "prose_len": 539,
+      "prose_chars": 497,
+      "h2_count": 4,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "affiliation": "古希腊",
+      "total_refs": 2
     },
     "半岛": {
       "type": "concept",
@@ -310,7 +330,7 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 3
+      "total_refs": 4
     },
     "兵豆": {
       "type": "species",
@@ -434,7 +454,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 20
+      "total_refs": 21
     },
     "玻璃": {
       "type": "concept",
@@ -510,7 +530,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 26,
-      "total_refs": 4
+      "total_refs": 7
     },
     "草原": {
       "type": "concept",
@@ -1073,7 +1093,51 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 1
+      "total_refs": 2
+    },
+    "dagama": {
+      "type": "person",
+      "label": "瓦斯科·达·伽马",
+      "aliases": [
+        "Vasco da Gama",
+        "达·伽马"
+      ],
+      "tags": [
+        "探险家"
+      ],
+      "path": "da/dagama.md",
+      "description": "葡萄牙航海家，开辟绕过非洲好望角通往印度的航线，开启欧洲殖民亚洲时代",
+      "prose_len": 617,
+      "prose_chars": 575,
+      "h2_count": 4,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "affiliation": "葡萄牙",
+      "total_refs": 0
+    },
+    "daimengde": {
+      "type": "person",
+      "label": "贾雷德·戴蒙德",
+      "aliases": [
+        "Jared Diamond",
+        "戴蒙德"
+      ],
+      "tags": [
+        "学者",
+        "作者",
+        "科学家"
+      ],
+      "path": "da/daimengde.md",
+      "description": "《枪炮、病菌与钢铁》作者，演化生物学家和生理学家",
+      "prose_len": 617,
+      "prose_chars": 575,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "affiliation": "美国",
+      "total_refs": 4
     },
     "大豆": {
       "type": "species",
@@ -1434,7 +1498,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 6
+      "total_refs": 7
     },
     "鹅": {
       "type": "species",
@@ -1597,7 +1661,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 12
+      "total_refs": 14
     },
     "Frontispiece": {
       "type": "chapter",
@@ -1805,7 +1869,7 @@
       "quality": "featured",
       "quality_score": 56,
       "affiliation": "西班牙王国",
-      "total_refs": 1
+      "total_refs": 2
     },
     "哥伦布航行与两个半球的碰撞": {
       "type": "event",
@@ -2133,6 +2197,28 @@
       "affiliation": "神圣罗马帝国",
       "total_refs": 4
     },
+    "hanniba": {
+      "type": "person",
+      "label": "汉尼拔",
+      "aliases": [
+        "Hannibal",
+        "汉尼拔·巴卡"
+      ],
+      "tags": [
+        "统治者",
+        "征服者"
+      ],
+      "path": "ha/hanniba.md",
+      "description": "迦太基军事家，戴蒙德以之为例讨论非洲象的驯化问题",
+      "prose_len": 564,
+      "prose_chars": 522,
+      "h2_count": 4,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "affiliation": "迦太基",
+      "total_refs": 0
+    },
     "航海": {
       "type": "concept",
       "label": "航海",
@@ -2182,7 +2268,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 5
+      "total_refs": 6
     },
     "河流": {
       "type": "concept",
@@ -2233,6 +2319,26 @@
       "quality": "featured",
       "quality_score": 55,
       "total_refs": 1
+    },
+    "huashengdun": {
+      "type": "person",
+      "label": "乔治·华盛顿",
+      "aliases": [
+        "George Washington"
+      ],
+      "tags": [
+        "统治者"
+      ],
+      "path": "hu/huashengdun.md",
+      "description": "美国开国总统，戴蒙德以之为例讨论政治领袖与财富分配",
+      "prose_len": 568,
+      "prose_chars": 526,
+      "h2_count": 4,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "affiliation": "美国",
+      "total_refs": 0
     },
     "火": {
       "type": "concept",
@@ -2925,7 +3031,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 6
+      "total_refs": 7
     },
     "卡哈马卡之战": {
       "type": "event",
@@ -3049,6 +3155,27 @@
       "affiliation": "西班牙王国",
       "total_refs": 1
     },
+    "kuke": {
+      "type": "person",
+      "label": "詹姆斯·库克",
+      "aliases": [
+        "James Cook",
+        "库克船长"
+      ],
+      "tags": [
+        "探险家"
+      ],
+      "path": "ku/kuke.md",
+      "description": "英国探险家和航海家，库克船长的航行将欧亚大陆传染病带入太平洋岛屿",
+      "prose_len": 627,
+      "prose_chars": 585,
+      "h2_count": 4,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "affiliation": "英国",
+      "total_refs": 0
+    },
     "扩张": {
       "type": "concept",
       "label": "扩张",
@@ -3149,6 +3276,27 @@
       "quality_score": 60,
       "total_refs": 81
     },
+    "lusuo": {
+      "type": "person",
+      "label": "让-雅克·卢梭",
+      "aliases": [
+        "Jean-Jacques Rousseau",
+        "卢梭"
+      ],
+      "tags": [
+        "学者"
+      ],
+      "path": "lu/lusuo.md",
+      "description": "法国启蒙思想家，戴蒙德以其社会契约论为对照讨论国家起源",
+      "prose_len": 606,
+      "prose_chars": 564,
+      "h2_count": 4,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "affiliation": "法国",
+      "total_refs": 1
+    },
     "轮子": {
       "type": "concept",
       "label": "轮子",
@@ -3245,6 +3393,27 @@
       "wikilink_count": 5,
       "blockquote_count": 0,
       "total_refs": 1
+    },
+    "makesi": {
+      "type": "person",
+      "label": "卡尔·马克思",
+      "aliases": [
+        "Karl Marx",
+        "马克思"
+      ],
+      "tags": [
+        "学者"
+      ],
+      "path": "ma/makesi.md",
+      "description": "德国哲学家和经济学家，戴蒙德以之为例讨论国家起源的理论谱系",
+      "prose_len": 590,
+      "prose_chars": 548,
+      "h2_count": 4,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "affiliation": "德国",
+      "total_refs": 2
     },
     "牦牛": {
       "type": "species",
@@ -3502,7 +3671,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 3
+      "total_refs": 4
     },
     "美洲": {
       "type": "place",
@@ -3943,6 +4112,28 @@
       "blockquote_count": 0,
       "total_refs": 1
     },
+    "napolun": {
+      "type": "person",
+      "label": "拿破仑",
+      "aliases": [
+        "Napoleon Bonaparte",
+        "拿破仑·波拿巴"
+      ],
+      "tags": [
+        "统治者",
+        "征服者"
+      ],
+      "path": "na/napolun.md",
+      "description": "法国军事家和皇帝，戴蒙德以之为例论证欧洲未能形成统一帝国的地理障碍",
+      "prose_len": 560,
+      "prose_chars": 518,
+      "h2_count": 4,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "affiliation": "法国",
+      "total_refs": 0
+    },
     "南北轴": {
       "type": "concept",
       "label": "南北轴",
@@ -3992,6 +4183,27 @@
       "quality": "featured",
       "quality_score": 56,
       "total_refs": 4
+    },
+    "niandetelian": {
+      "type": "person",
+      "label": "尼安德特人",
+      "aliases": [
+        "Neanderthal",
+        "Homo neanderthalensis"
+      ],
+      "tags": [
+        "原住民"
+      ],
+      "path": "ni/niandetelian.md",
+      "description": "欧亚大陆的远古人类种群，现代人类兴起后灭绝的近亲物种",
+      "prose_len": 654,
+      "prose_chars": 612,
+      "h2_count": 4,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "affiliation": "欧亚大陆",
+      "total_refs": 0
     },
     "niluohe": {
       "type": "place",
@@ -4138,7 +4350,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 20
+      "total_refs": 21
     },
     "欧洲殖民非洲": {
       "type": "event",
@@ -5554,7 +5766,7 @@
       "pn_count": 4,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "xiboliya": {
       "type": "place",
@@ -5994,7 +6206,7 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "羊驼": {
       "type": "species",
@@ -6110,7 +6322,7 @@
       "quality": "featured",
       "quality_score": 56,
       "affiliation": "新几内亚",
-      "total_refs": 0
+      "total_refs": 1
     },
     "yindu": {
       "type": "place",
@@ -6132,7 +6344,7 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 3
     },
     "yinduhe": {
       "type": "place",
@@ -6635,7 +6847,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 13
+      "total_refs": 14
     },
     "中国农业起源": {
       "type": "event",
@@ -7153,6 +7365,9 @@
     "巴尔干": "baergan",
     "Balkans": "baergan",
     "巴尔干半岛": "baergan",
+    "bailatu": "bailatu",
+    "柏拉图": "bailatu",
+    "Plato": "bailatu",
     "半岛": "半岛",
     "半岛地形": "半岛",
     "斑马": "斑马",
@@ -7250,6 +7465,14 @@
     "村庄": "村落",
     "定居点": "村落",
     "settlement": "村落",
+    "dagama": "dagama",
+    "瓦斯科·达·伽马": "dagama",
+    "Vasco da Gama": "dagama",
+    "达·伽马": "dagama",
+    "daimengde": "daimengde",
+    "贾雷德·戴蒙德": "daimengde",
+    "Jared Diamond": "daimengde",
+    "戴蒙德": "daimengde",
     "大豆": "大豆",
     "soybean": "大豆",
     "黄豆": "大豆",
@@ -7410,6 +7633,10 @@
     "谷登堡": "谷登堡",
     "约翰内斯·谷登堡": "谷登堡",
     "Johannes Gutenberg": "谷登堡",
+    "hanniba": "hanniba",
+    "汉尼拔": "hanniba",
+    "Hannibal": "hanniba",
+    "汉尼拔·巴卡": "hanniba",
     "航海": "航海",
     "航海技术": "航海",
     "maritime technology": "航海",
@@ -7426,6 +7653,9 @@
     "Black Death": "黑死病",
     "腺鼠疫": "黑死病",
     "1346年鼠疫": "黑死病",
+    "huashengdun": "huashengdun",
+    "乔治·华盛顿": "huashengdun",
+    "George Washington": "huashengdun",
     "火": "火",
     "fire": "火",
     "用火": "火",
@@ -7551,6 +7781,10 @@
     "科尔特斯": "科尔特斯",
     "埃尔南·科尔特斯": "科尔特斯",
     "Hernán Cortés": "科尔特斯",
+    "kuke": "kuke",
+    "詹姆斯·库克": "kuke",
+    "James Cook": "kuke",
+    "库克船长": "kuke",
     "扩张": "扩张",
     "expansion": "扩张",
     "人口扩张": "扩张",
@@ -7568,6 +7802,10 @@
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
     "农耕": "粮食生产",
+    "lusuo": "lusuo",
+    "让-雅克·卢梭": "lusuo",
+    "Jean-Jacques Rousseau": "lusuo",
+    "卢梭": "lusuo",
     "轮子": "轮子",
     "wheel": "轮子",
     "车轮": "轮子",
@@ -7585,6 +7823,10 @@
     "madagascar": "madagascar",
     "马达加斯加": "madagascar",
     "Madagascar": "madagascar",
+    "makesi": "makesi",
+    "卡尔·马克思": "makesi",
+    "Karl Marx": "makesi",
+    "马克思": "makesi",
     "牦牛": "牦牛",
     "yak": "牦牛",
     "犛牛": "牦牛",
@@ -7691,6 +7933,10 @@
     "nanmeizhou": "nanmeizhou",
     "南美洲": "nanmeizhou",
     "South America": "nanmeizhou",
+    "napolun": "napolun",
+    "拿破仑": "napolun",
+    "Napoleon Bonaparte": "napolun",
+    "拿破仑·波拿巴": "napolun",
     "南北轴": "南北轴",
     "南北走向": "南北轴",
     "大陆轴线南北": "南北轴",
@@ -7698,6 +7944,10 @@
     "Austronesian Expansion": "南岛语族扩张",
     "波利尼西亚扩张": "南岛语族扩张",
     "南岛人扩张": "南岛语族扩张",
+    "niandetelian": "niandetelian",
+    "尼安德特人": "niandetelian",
+    "Neanderthal": "niandetelian",
+    "Homo neanderthalensis": "niandetelian",
     "niluohe": "niluohe",
     "尼罗河": "niluohe",
     "Nile River": "niluohe",
@@ -8155,6 +8405,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 300,
-  "generated": "2026-05-25T15:05:21Z"
+  "page_count": 310,
+  "generated": "2026-05-25T15:09:02Z"
 }
