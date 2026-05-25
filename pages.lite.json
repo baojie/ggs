@@ -297,7 +297,7 @@
     },
     "达尔文": {
       "type": "person",
-      "quality": "standard",
+      "quality": "featured",
       "label": "达尔文"
     },
     "地中海地区": {
@@ -702,7 +702,7 @@
     },
     "莱特兄弟": {
       "type": "person",
-      "quality": "standard",
+      "quality": "featured",
       "label": "莱特兄弟"
     },
     "粮食生产": {
@@ -1132,7 +1132,7 @@
     },
     "鼠疫": {
       "type": "concept",
-      "quality": "standard",
+      "quality": "featured",
       "label": "鼠疫"
     },
     "taiwan": {
@@ -1202,7 +1202,7 @@
     },
     "瓦特": {
       "type": "person",
-      "quality": "standard",
+      "quality": "featured",
       "label": "詹姆士·瓦特"
     },
     "豌豆": {
@@ -1307,7 +1307,7 @@
     },
     "行政": {
       "type": "concept",
-      "quality": "standard",
+      "quality": "featured",
       "label": "行政"
     },
     "锡": {
