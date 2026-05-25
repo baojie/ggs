@@ -330,6 +330,15 @@
       "aliases": [],
       "path": "ch/ch19-how-africa-became-black.md"
     },
+    "chaoxian": {
+      "type": "place",
+      "label": "朝鲜",
+      "aliases": [
+        "Korea",
+        "朝鲜半岛"
+      ],
+      "path": "ch/chaoxian.md"
+    },
     "传教": {
       "type": "concept",
       "label": "传教",
@@ -605,6 +614,15 @@
       "label": "书前彩插",
       "aliases": [],
       "path": "fr/Frontispiece.md"
+    },
+    "fuhuojiedao": {
+      "type": "place",
+      "label": "复活节岛",
+      "aliases": [
+        "Easter Island",
+        "拉帕努伊"
+      ],
+      "path": "fu/fuhuojiedao.md"
     },
     "干旱": {
       "type": "concept",
@@ -1336,6 +1354,15 @@
         "两河流域"
       ],
       "path": "me/meisuobudamiya.md"
+    },
+    "menggu": {
+      "type": "place",
+      "label": "蒙古",
+      "aliases": [
+        "Mongolia",
+        "蒙古草原"
+      ],
+      "path": "me/menggu.md"
     },
     "美国东部": {
       "type": "place",
@@ -2153,6 +2180,22 @@
       ],
       "path": "wu/无花果.md"
     },
+    "xiaweiyi": {
+      "type": "place",
+      "label": "夏威夷",
+      "aliases": [
+        "Hawaii"
+      ],
+      "path": "xi/xiaweiyi.md"
+    },
+    "xiboliya": {
+      "type": "place",
+      "label": "西伯利亚",
+      "aliases": [
+        "Siberia"
+      ],
+      "path": "xi/xiboliya.md"
+    },
     "ximalaya": {
       "type": "place",
       "label": "喜马拉雅",
@@ -2865,6 +2908,10 @@
     "ch17-speedboat-to-polynesia": "ch17-speedboat-to-polynesia",
     "ch18-collision-of-two-hemispheres": "ch18-collision-of-two-hemispheres",
     "ch19-how-africa-became-black": "ch19-how-africa-became-black",
+    "chaoxian": "chaoxian",
+    "朝鲜": "chaoxian",
+    "Korea": "chaoxian",
+    "朝鲜半岛": "chaoxian",
     "传教": "传教",
     "传教活动": "传教",
     "传教士": "传教",
@@ -2965,6 +3012,10 @@
     "撒哈拉以南非洲": "非洲",
     "非洲大陆": "非洲",
     "Frontispiece": "Frontispiece",
+    "fuhuojiedao": "fuhuojiedao",
+    "复活节岛": "fuhuojiedao",
+    "Easter Island": "fuhuojiedao",
+    "拉帕努伊": "fuhuojiedao",
     "干旱": "干旱",
     "drought": "干旱",
     "旱灾": "干旱",
@@ -3252,6 +3303,10 @@
     "美索不达米亚": "meisuobudamiya",
     "Mesopotamia": "meisuobudamiya",
     "两河流域": "meisuobudamiya",
+    "menggu": "menggu",
+    "蒙古": "menggu",
+    "Mongolia": "menggu",
+    "蒙古草原": "menggu",
     "美国东部": "美国东部",
     "北美东部": "美国东部",
     "Eastern North America": "美国东部",
@@ -3543,6 +3598,12 @@
     "东西轴纬度": "纬度",
     "无花果": "无花果",
     "fig": "无花果",
+    "xiaweiyi": "xiaweiyi",
+    "夏威夷": "xiaweiyi",
+    "Hawaii": "xiaweiyi",
+    "xiboliya": "xiboliya",
+    "西伯利亚": "xiboliya",
+    "Siberia": "xiboliya",
     "ximalaya": "ximalaya",
     "喜马拉雅": "ximalaya",
     "Himalayas": "ximalaya",
@@ -3770,6 +3831,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 291,
-  "generated": "2026-05-25T15:03:26Z"
+  "page_count": 296,
+  "generated": "2026-05-25T15:04:35Z"
 }
