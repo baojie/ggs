@@ -4,9 +4,8 @@
   "grow_phase": "2.1",
   "phase2_iteration": 1,
   "phase2_closed": false,
-  "current_type": "species",
+  "current_type": "place",
   "type_queue": [
-    "place",
     "person",
     "event"
   ],
@@ -15,6 +14,11 @@
       "type": "concept",
       "final_count": 153,
       "closed_round": 72
+    },
+    {
+      "type": "species",
+      "final_count": 49,
+      "closed_round": 79
     }
   ],
   "counters": {
