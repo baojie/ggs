@@ -704,7 +704,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 35
+      "total_refs": 36
     },
     "大麦": {
       "type": "species",
@@ -828,7 +828,7 @@
       "blockquote_count": 3,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 3
+      "total_refs": 4
     },
     "帝国": {
       "type": "concept",
@@ -1170,7 +1170,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 11
+      "total_refs": 12
     },
     "国家的形成": {
       "type": "event",
@@ -1321,7 +1321,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 12
+      "total_refs": 13
     },
     "技术传播": {
       "type": "concept",
@@ -1422,6 +1422,30 @@
       "quality": "standard",
       "quality_score": 30,
       "total_refs": 9
+    },
+    "巨型动物": {
+      "type": "concept",
+      "label": "巨型动物",
+      "aliases": [
+        "巨型动物灭绝",
+        "大型哺乳动物",
+        "史前动物灭绝"
+      ],
+      "tags": [
+        "生态",
+        "史前史",
+        "人类扩散",
+        "动物驯化"
+      ],
+      "path": "ju/巨型动物.md",
+      "description": "史前大型动物在人类到达后的灭绝浪潮——对随后人类历史格局产生深远影响",
+      "prose_len": 712,
+      "prose_chars": 599,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "卡哈马卡": {
       "type": "place",
@@ -1544,7 +1568,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 58
+      "total_refs": 59
     },
     "轮子": {
       "type": "concept",
@@ -1873,7 +1897,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 3
     },
     "绵羊": {
       "type": "species",
@@ -1994,7 +2018,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 3
+      "total_refs": 6
     },
     "欧亚大陆": {
       "type": "place",
@@ -2137,7 +2161,7 @@
       "blockquote_count": 1,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 2
+      "total_refs": 3
     },
     "酋长": {
       "type": "concept",
@@ -2161,7 +2185,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "人口密度": {
       "type": "concept",
@@ -2209,7 +2233,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 3
     },
     "人口规模": {
       "type": "concept",
@@ -2335,6 +2359,30 @@
       "quality_score": 30,
       "total_refs": 16
     },
+    "剩余粮食": {
+      "type": "concept",
+      "label": "剩余粮食",
+      "aliases": [
+        "粮食剩余",
+        "农业剩余",
+        "粮食储备"
+      ],
+      "tags": [
+        "农业",
+        "社会复杂化",
+        "专业化分工",
+        "政治组织"
+      ],
+      "path": "sh/剩余粮食.md",
+      "description": "农业生产的粮食超出直接消费所需的部分——文明所有非农业活动的物质前提",
+      "prose_len": 703,
+      "prose_chars": 590,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
     "水稻": {
       "type": "species",
       "label": "水稻",
@@ -2409,7 +2457,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 6
     },
     "社会复杂性": {
       "type": "concept",
@@ -2558,6 +2606,30 @@
       "quality": "standard",
       "quality_score": 26,
       "total_refs": 2
+    },
+    "纬度": {
+      "type": "concept",
+      "label": "纬度",
+      "aliases": [
+        "纬度效应",
+        "纬度与气候",
+        "东西轴纬度"
+      ],
+      "tags": [
+        "地理",
+        "气候",
+        "农业传播",
+        "大陆轴线"
+      ],
+      "path": "we/纬度.md",
+      "description": "纬度决定白天长度和季节变化，是影响作物传播速度和方向的关键地理因素",
+      "prose_len": 725,
+      "prose_chars": 624,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "小麦": {
       "type": "species",
@@ -2708,7 +2780,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 31
+      "total_refs": 34
     },
     "亚历山大大帝": {
       "type": "person",
@@ -2832,7 +2904,31 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 4
+    },
+    "遗传": {
+      "type": "concept",
+      "label": "遗传",
+      "aliases": [
+        "遗传学",
+        "基因",
+        "遗传差异"
+      ],
+      "tags": [
+        "遗传学",
+        "人类多样性",
+        "生物进化",
+        "驯化"
+      ],
+      "path": "yi/遗传.md",
+      "description": "遗传是《枪炮》明确拒绝用来解释文明差异的因素，而是将其视为人口分化和疾病适应的记录者",
+      "prose_len": 687,
+      "prose_chars": 573,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 1
     },
     "玉米": {
       "type": "species",
@@ -2931,7 +3027,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 3
     },
     "中国": {
       "type": "place",
@@ -3187,6 +3283,30 @@
       "quality_score": 26,
       "total_refs": 0
     },
+    "自然选择": {
+      "type": "concept",
+      "label": "自然选择",
+      "aliases": [
+        "达尔文自然选择",
+        "物种选择",
+        "进化选择"
+      ],
+      "tags": [
+        "进化论",
+        "生物学",
+        "驯化",
+        "达尔文"
+      ],
+      "path": "zi/自然选择.md",
+      "description": "达尔文提出的进化机制——适应环境的个体存活率更高；农业耕作逆转了这一方向",
+      "prose_len": 687,
+      "prose_chars": 572,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "宗教": {
       "type": "concept",
       "label": "宗教",
@@ -3400,6 +3520,9 @@
     "武装征服": "军事征服",
     "军事扩张": "军事征服",
     "征服": "军事征服",
+    "巨型动物": "巨型动物",
+    "大型哺乳动物": "巨型动物",
+    "史前动物灭绝": "巨型动物",
     "卡哈马卡": "卡哈马卡",
     "Cajamarca": "卡哈马卡",
     "卡哈马卡战役": "卡哈马卡",
@@ -3541,6 +3664,10 @@
     "文字": "书写系统",
     "文字系统": "书写系统",
     "writing system": "书写系统",
+    "剩余粮食": "剩余粮食",
+    "粮食剩余": "剩余粮食",
+    "农业剩余": "剩余粮食",
+    "粮食储备": "剩余粮食",
     "水稻": "水稻",
     "稻米": "水稻",
     "大米": "水稻",
@@ -3577,6 +3704,10 @@
     "Independent Invention of Writing": "文字的独立发明",
     "苏美尔文字": "文字的独立发明",
     "楔形文字发明": "文字的独立发明",
+    "纬度": "纬度",
+    "纬度效应": "纬度",
+    "纬度与气候": "纬度",
+    "东西轴纬度": "纬度",
     "小麦": "小麦",
     "二粒小麦": "小麦",
     "单粒小麦": "小麦",
@@ -3620,6 +3751,10 @@
     "人口迁徙": "移民",
     "史前迁徙": "移民",
     "移民浪潮": "移民",
+    "遗传": "遗传",
+    "遗传学": "遗传",
+    "基因": "遗传",
+    "遗传差异": "遗传",
     "玉米": "玉米",
     "玉蜀黍": "玉米",
     "墨西哥类蜀黍": "玉米",
@@ -3679,12 +3814,16 @@
     "Spread of Alphabetic Writing": "字母文字的传播",
     "字母传播": "字母文字的传播",
     "腓尼基字母传播": "字母文字的传播",
+    "自然选择": "自然选择",
+    "达尔文自然选择": "自然选择",
+    "物种选择": "自然选择",
+    "进化选择": "自然选择",
     "宗教": "宗教",
     "有组织的宗教": "宗教",
     "religion": "宗教",
     "意识形态": "宗教",
     "神权": "宗教"
   },
-  "page_count": 135,
-  "generated": "2026-05-25T12:56:02Z"
+  "page_count": 140,
+  "generated": "2026-05-25T13:01:03Z"
 }
