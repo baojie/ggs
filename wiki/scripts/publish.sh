@@ -63,7 +63,7 @@ echo "[publish] 记录修订到 history/ ..."
   slug=$(basename "$fpath" .md)
   echo "  record_revision: $slug"
   python3 "$SCRIPTS/record_revision.py" "$slug" --author butler || true
-done
+done || true
 
 # ── 4. 重建反向引用索引 ───────────────────────────────────────────────────────
 

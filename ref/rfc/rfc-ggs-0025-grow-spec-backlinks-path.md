@@ -1,6 +1,6 @@
 # RFC-ggs-0025: GROW.spec.md Phase 0-E backlinks 路径过时
 
-- **Status**: proposed
+- **Status**: accepted
 - **Date**: 2026-05-25
 - **Issue**: https://github.com/baojie/memex/issues/161
 - **Source wiki**: ggs
@@ -33,3 +33,10 @@ d = json.load(open('docs/wiki/backlinks.json'))
 ```
 
 同时建议排查 `GROW.spec.md` 其他节中是否还有 `wiki/public/` 路径残留，一并修正。
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-25
+**Commits**:
+- baojie/memex@f2e56b52229f05563f08ab82e8f10d96efc373a1: fix(GROW): Phase 0-E backlinks 路径 wiki/public/ → docs/wiki/
