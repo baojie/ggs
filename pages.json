@@ -729,7 +729,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 4
+      "total_refs": 5
     },
     "达尔文": {
       "type": "person",
@@ -1194,7 +1194,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 14
+      "total_refs": 16
     },
     "国家的形成": {
       "type": "event",
@@ -1520,6 +1520,28 @@
       "quality_score": 26,
       "total_refs": 4
     },
+    "考古学": {
+      "type": "concept",
+      "label": "考古学",
+      "aliases": [
+        "archaeology",
+        "考古学方法",
+        "考古证据"
+      ],
+      "tags": [
+        "方法论",
+        "历史证据"
+      ],
+      "path": "ka/考古学.md",
+      "description": "通过实物遗址和遗骸重建史前历史的科学方法，是《枪炮》核心证据来源之一",
+      "prose_len": 973,
+      "prose_chars": 884,
+      "h2_count": 6,
+      "pn_count": 5,
+      "wikilink_count": 6,
+      "blockquote_count": 0,
+      "total_refs": 2
+    },
     "科尔特斯": {
       "type": "person",
       "label": "科尔特斯",
@@ -1618,7 +1640,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 0
+      "total_refs": 1
     },
     "骆驼": {
       "type": "species",
@@ -2042,7 +2064,31 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 9
+      "total_refs": 11
+    },
+    "奴隶": {
+      "type": "concept",
+      "label": "奴隶",
+      "aliases": [
+        "奴隶制",
+        "奴隶劳动",
+        "奴役"
+      ],
+      "tags": [
+        "社会组织",
+        "政治",
+        "经济",
+        "劳动"
+      ],
+      "path": "nu/奴隶.md",
+      "description": "被强制剥夺人身自由、被他人占有的劳动者——伴随经济专业化而出现的社会制度",
+      "prose_len": 623,
+      "prose_chars": 512,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "欧亚大陆": {
       "type": "place",
@@ -2209,7 +2255,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 4
+      "total_refs": 5
     },
     "人口密度": {
       "type": "concept",
@@ -2381,7 +2427,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 16
+      "total_refs": 17
     },
     "剩余粮食": {
       "type": "concept",
@@ -2405,7 +2451,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 3
+      "total_refs": 4
     },
     "水稻": {
       "type": "species",
@@ -2679,7 +2725,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 4
+      "total_refs": 5
     },
     "希特勒": {
       "type": "person",
@@ -2754,7 +2800,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 27
+      "total_refs": 29
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -2828,7 +2874,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 35
+      "total_refs": 37
     },
     "亚历山大大帝": {
       "type": "person",
@@ -2999,7 +3045,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 3
     },
     "游牧": {
       "type": "concept",
@@ -3101,6 +3147,29 @@
       "quality_score": 31,
       "total_refs": 3
     },
+    "语言学": {
+      "type": "concept",
+      "label": "语言学",
+      "aliases": [
+        "linguistics",
+        "历史语言学",
+        "语言分类"
+      ],
+      "tags": [
+        "方法论",
+        "历史证据",
+        "人口迁徙"
+      ],
+      "path": "yu/语言学.md",
+      "description": "通过语系分布重建史前人口扩张路径的科学方法，与考古学和遗传学互为印证",
+      "prose_len": 907,
+      "prose_chars": 821,
+      "h2_count": 5,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
     "再分配": {
       "type": "concept",
       "label": "再分配",
@@ -3124,7 +3193,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "专业化分工": {
       "type": "concept",
@@ -3147,7 +3216,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 3
+      "total_refs": 4
     },
     "中国": {
       "type": "place",
@@ -3299,6 +3368,29 @@
       "quality": "standard",
       "quality_score": 31,
       "total_refs": 5
+    },
+    "植物学": {
+      "type": "concept",
+      "label": "植物学",
+      "aliases": [
+        "botany",
+        "植物科学",
+        "作物植物学"
+      ],
+      "tags": [
+        "方法论",
+        "驯化",
+        "农业起源"
+      ],
+      "path": "zh/植物学.md",
+      "description": "研究植物驯化过程与作物起源的科学，揭示野生植物向农作物演化的机制",
+      "prose_len": 912,
+      "prose_chars": 815,
+      "h2_count": 6,
+      "pn_count": 5,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 1
     },
     "殖民主义": {
       "type": "concept",
@@ -3452,6 +3544,30 @@
       "quality": "standard",
       "quality_score": 31,
       "total_refs": 1
+    },
+    "作物传播": {
+      "type": "concept",
+      "label": "作物传播",
+      "aliases": [
+        "crop diffusion",
+        "粮食生产传播",
+        "农业传播"
+      ],
+      "tags": [
+        "农业",
+        "地理",
+        "传播速度",
+        "轴线"
+      ],
+      "path": "zu/作物传播.md",
+      "description": "作物、牲口及农业知识在史前时期的地理扩散，受东西轴与南北轴的速度差异深刻影响",
+      "prose_len": 954,
+      "prose_chars": 856,
+      "h2_count": 6,
+      "pn_count": 6,
+      "wikilink_count": 9,
+      "blockquote_count": 0,
+      "total_refs": 0
     }
   },
   "alias_index": {
@@ -3653,6 +3769,10 @@
     "卡哈马卡之战": "卡哈马卡之战",
     "Battle of Cajamarca": "卡哈马卡之战",
     "1532年卡哈马卡战役": "卡哈马卡之战",
+    "考古学": "考古学",
+    "archaeology": "考古学",
+    "考古学方法": "考古学",
+    "考古证据": "考古学",
     "科尔特斯": "科尔特斯",
     "埃尔南·科尔特斯": "科尔特斯",
     "Hernán Cortés": "科尔特斯",
@@ -3738,6 +3858,10 @@
     "agriculture": "农业",
     "作物栽培": "农业",
     "种植业": "农业",
+    "奴隶": "奴隶",
+    "奴隶制": "奴隶",
+    "奴隶劳动": "奴隶",
+    "奴役": "奴隶",
     "欧亚大陆": "欧亚大陆",
     "Eurasia": "欧亚大陆",
     "亚欧大陆": "欧亚大陆",
@@ -3903,6 +4027,10 @@
     "语言传播": "语言传播",
     "语系扩散": "语言传播",
     "language spread": "语言传播",
+    "语言学": "语言学",
+    "linguistics": "语言学",
+    "历史语言学": "语言学",
+    "语言分类": "语言学",
     "再分配": "再分配",
     "再分配经济": "再分配",
     "贡品再分配": "再分配",
@@ -3934,6 +4062,10 @@
     "政治结构": "政治组织",
     "political organization": "政治组织",
     "社会组织": "政治组织",
+    "植物学": "植物学",
+    "botany": "植物学",
+    "植物科学": "植物学",
+    "作物植物学": "植物学",
     "殖民主义": "殖民主义",
     "colonialism": "殖民主义",
     "欧洲殖民": "殖民主义",
@@ -3961,8 +4093,12 @@
     "有组织的宗教": "宗教",
     "religion": "宗教",
     "意识形态": "宗教",
-    "神权": "宗教"
+    "神权": "宗教",
+    "作物传播": "作物传播",
+    "crop diffusion": "作物传播",
+    "粮食生产传播": "作物传播",
+    "农业传播": "作物传播"
   },
-  "page_count": 145,
-  "generated": "2026-05-25T13:05:36Z"
+  "page_count": 150,
+  "generated": "2026-05-25T13:13:01Z"
 }
