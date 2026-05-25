@@ -219,6 +219,17 @@
       "aliases": [],
       "path": "ch/ch19-how-africa-became-black.md"
     },
+    "传染病": {
+      "type": "concept",
+      "label": "传染病",
+      "aliases": [
+        "流行病",
+        "epidemic",
+        "病菌传播",
+        "传染性疾病"
+      ],
+      "path": "ch/传染病.md"
+    },
     "大陆轴线": {
       "type": "concept",
       "label": "大陆轴线",
@@ -319,6 +330,17 @@
       "label": "书前彩插",
       "aliases": [],
       "path": "fr/Frontispiece.md"
+    },
+    "钢铁": {
+      "type": "concept",
+      "label": "钢铁",
+      "aliases": [
+        "铁器",
+        "钢铁技术",
+        "steel",
+        "iron"
+      ],
+      "path": "ga/钢铁.md"
     },
     "高粱": {
       "type": "species",
@@ -658,6 +680,17 @@
       "aliases": [],
       "path": "pr/Preface.md"
     },
+    "枪炮": {
+      "type": "concept",
+      "label": "枪炮",
+      "aliases": [
+        "火器",
+        "firearm",
+        "火枪",
+        "火炮"
+      ],
+      "path": "qi/枪炮.md"
+    },
     "人口密度": {
       "type": "concept",
       "label": "人口密度",
@@ -924,6 +957,16 @@
       ],
       "path": "zh/战争.md"
     },
+    "政治组织": {
+      "type": "concept",
+      "label": "政治组织",
+      "aliases": [
+        "政治结构",
+        "political organization",
+        "社会组织"
+      ],
+      "path": "zh/政治组织.md"
+    },
     "猪": {
       "type": "species",
       "label": "猪",
@@ -944,6 +987,17 @@
         "腓尼基字母传播"
       ],
       "path": "zi/字母文字的传播.md"
+    },
+    "宗教": {
+      "type": "concept",
+      "label": "宗教",
+      "aliases": [
+        "有组织的宗教",
+        "religion",
+        "意识形态",
+        "神权"
+      ],
+      "path": "zo/宗教.md"
     }
   },
   "alias_index": {
@@ -1006,6 +1060,9 @@
     "ch17-speedboat-to-polynesia": "ch17-speedboat-to-polynesia",
     "ch18-collision-of-two-hemispheres": "ch18-collision-of-two-hemispheres",
     "ch19-how-africa-became-black": "ch19-how-africa-became-black",
+    "epidemic": "传染病",
+    "病菌传播": "传染病",
+    "传染性疾病": "传染病",
     "大陆轴线": "大陆轴线",
     "大陆主轴线": "大陆轴线",
     "东西轴线": "大陆轴线",
@@ -1043,6 +1100,11 @@
     "撒哈拉以南非洲": "非洲",
     "非洲大陆": "非洲",
     "Frontispiece": "Frontispiece",
+    "钢铁": "钢铁",
+    "铁器": "钢铁",
+    "钢铁技术": "钢铁",
+    "steel": "钢铁",
+    "iron": "钢铁",
     "高粱": "高粱",
     "sorghum": "高粱",
     "Sorghum bicolor": "高粱",
@@ -1171,6 +1233,11 @@
     "弗朗西斯科·皮萨罗": "皮萨罗",
     "Francisco Pizarro": "皮萨罗",
     "Preface": "Preface",
+    "枪炮": "枪炮",
+    "火器": "枪炮",
+    "firearm": "枪炮",
+    "火枪": "枪炮",
+    "火炮": "枪炮",
     "人口密度": "人口密度",
     "人口压力": "人口密度",
     "population density": "人口密度",
@@ -1274,6 +1341,10 @@
     "征服战争": "战争",
     "武装冲突": "战争",
     "warfare": "战争",
+    "政治组织": "政治组织",
+    "政治结构": "政治组织",
+    "political organization": "政治组织",
+    "社会组织": "政治组织",
     "猪": "猪",
     "家猪": "猪",
     "野猪": "猪",
@@ -1282,8 +1353,13 @@
     "字母文字的传播": "字母文字的传播",
     "Spread of Alphabetic Writing": "字母文字的传播",
     "字母传播": "字母文字的传播",
-    "腓尼基字母传播": "字母文字的传播"
+    "腓尼基字母传播": "字母文字的传播",
+    "宗教": "宗教",
+    "有组织的宗教": "宗教",
+    "religion": "宗教",
+    "意识形态": "宗教",
+    "神权": "宗教"
   },
-  "page_count": 105,
-  "generated": "2026-05-25T09:25:05Z"
+  "page_count": 110,
+  "generated": "2026-05-25T10:05:57Z"
 }
