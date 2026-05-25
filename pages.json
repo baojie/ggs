@@ -210,7 +210,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 32
+      "total_refs": 33
     },
     "伯克和威尔斯": {
       "type": "person",
@@ -605,6 +605,32 @@
       "book_seq": 19,
       "total_refs": 1
     },
+    "传染病": {
+      "type": "concept",
+      "label": "传染病",
+      "aliases": [
+        "流行病",
+        "epidemic",
+        "病菌传播",
+        "传染性疾病"
+      ],
+      "tags": [
+        "病菌",
+        "征服",
+        "人口崩溃"
+      ],
+      "path": "ch/传染病.md",
+      "description": "在《枪炮、病菌与钢铁》中，传染病是「病菌」概念的应用层——欧洲人携带的天花、麻疹等流行病杀死了比战场上更多的印第安人，是欧洲征服新大陆最关键的隐形武器。",
+      "prose_len": 1093,
+      "prose_chars": 969,
+      "h2_count": 5,
+      "pn_count": 9,
+      "wikilink_count": 5,
+      "blockquote_count": 1,
+      "quality": "standard",
+      "quality_score": 30,
+      "total_refs": 0
+    },
     "大陆轴线": {
       "type": "concept",
       "label": "大陆轴线",
@@ -628,7 +654,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 28
+      "total_refs": 29
     },
     "大麦": {
       "type": "species",
@@ -820,7 +846,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 33,
-      "total_refs": 1
+      "total_refs": 2
     },
     "非洲": {
       "type": "place",
@@ -865,6 +891,32 @@
       "blockquote_count": 0,
       "book_seq": -1,
       "total_refs": 0
+    },
+    "钢铁": {
+      "type": "concept",
+      "label": "钢铁",
+      "aliases": [
+        "铁器",
+        "钢铁技术",
+        "steel",
+        "iron"
+      ],
+      "tags": [
+        "军事技术",
+        "冶金",
+        "征服"
+      ],
+      "path": "ga/钢铁.md",
+      "description": "人类最重要的金属材料技术之一，书名三大要素之一；在卡哈马卡战役中，西班牙钢铁武器与铁甲是对印加人形成压倒性优势的直接工具，而铁器技术的出现依赖数千年陶器和青铜冶炼经验的积累。",
+      "prose_len": 1090,
+      "prose_chars": 951,
+      "h2_count": 5,
+      "pn_count": 10,
+      "wikilink_count": 5,
+      "blockquote_count": 1,
+      "quality": "standard",
+      "quality_score": 30,
+      "total_refs": 1
     },
     "高粱": {
       "type": "species",
@@ -1015,7 +1067,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 2
+      "total_refs": 5
     },
     "国家的形成": {
       "type": "event",
@@ -1114,7 +1166,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 10
+      "total_refs": 11
     },
     "技术传播": {
       "type": "concept",
@@ -1139,7 +1191,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 12
+      "total_refs": 13
     },
     "近端原因与终极原因": {
       "type": "concept",
@@ -1287,7 +1339,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 47
+      "total_refs": 50
     },
     "骆驼": {
       "type": "species",
@@ -1727,6 +1779,32 @@
       "book_seq": 0,
       "total_refs": 1
     },
+    "枪炮": {
+      "type": "concept",
+      "label": "枪炮",
+      "aliases": [
+        "火器",
+        "firearm",
+        "火枪",
+        "火炮"
+      ],
+      "tags": [
+        "军事技术",
+        "征服",
+        "技术传播"
+      ],
+      "path": "qi/枪炮.md",
+      "description": "以火药为动力的投射武器，《枪炮、病菌与钢铁》书名三大要素之一；在卡哈马卡征服战役中，枪炮只起次要作用，钢铁武器才是真正的杀伤利器，而病菌的影响超过一切武器。",
+      "prose_len": 1119,
+      "prose_chars": 987,
+      "h2_count": 5,
+      "pn_count": 10,
+      "wikilink_count": 5,
+      "blockquote_count": 1,
+      "quality": "standard",
+      "quality_score": 31,
+      "total_refs": 4
+    },
     "人口密度": {
       "type": "concept",
       "label": "人口密度",
@@ -1847,7 +1925,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 11
+      "total_refs": 12
     },
     "水稻": {
       "type": "species",
@@ -1923,7 +2001,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 13
+      "total_refs": 15
     },
     "陶器": {
       "type": "concept",
@@ -1948,7 +2026,7 @@
       "blockquote_count": 1,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 0
+      "total_refs": 1
     },
     "天花病毒": {
       "type": "species",
@@ -2398,7 +2476,32 @@
       "blockquote_count": 1,
       "quality": "standard",
       "quality_score": 32,
-      "total_refs": 0
+      "total_refs": 2
+    },
+    "政治组织": {
+      "type": "concept",
+      "label": "政治组织",
+      "aliases": [
+        "政治结构",
+        "political organization",
+        "社会组织"
+      ],
+      "tags": [
+        "社会复杂性",
+        "国家",
+        "征服"
+      ],
+      "path": "zh/政治组织.md",
+      "description": "人类社会组织权力和决策的方式，在《枪炮、病菌与钢铁》中构成四级演化体系（族群→部落→酋长管辖地→国家），不同层级的政治组织决定了战争动员能力、技术积累速度和征服优势。",
+      "prose_len": 1139,
+      "prose_chars": 1013,
+      "h2_count": 5,
+      "pn_count": 9,
+      "wikilink_count": 5,
+      "blockquote_count": 1,
+      "quality": "standard",
+      "quality_score": 31,
+      "total_refs": 1
     },
     "猪": {
       "type": "species",
@@ -2451,6 +2554,32 @@
       "quality": "standard",
       "quality_score": 26,
       "total_refs": 0
+    },
+    "宗教": {
+      "type": "concept",
+      "label": "宗教",
+      "aliases": [
+        "有组织的宗教",
+        "religion",
+        "意识形态",
+        "神权"
+      ],
+      "tags": [
+        "政治组织",
+        "社会复杂性",
+        "征服"
+      ],
+      "path": "zo/宗教.md",
+      "description": "在《枪炮、病菌与钢铁》中，宗教是统治合法性的意识形态装置：从酋长管辖地的神权信仰，到国家级的有组织宗教，它始终为盗贼统治提供辩护，并与政府结合构成历史最广泛模式的四大直接动力之一。",
+      "prose_len": 1169,
+      "prose_chars": 1050,
+      "h2_count": 5,
+      "pn_count": 9,
+      "wikilink_count": 5,
+      "blockquote_count": 1,
+      "quality": "standard",
+      "quality_score": 31,
+      "total_refs": 1
     }
   },
   "alias_index": {
@@ -2513,6 +2642,9 @@
     "ch17-speedboat-to-polynesia": "ch17-speedboat-to-polynesia",
     "ch18-collision-of-two-hemispheres": "ch18-collision-of-two-hemispheres",
     "ch19-how-africa-became-black": "ch19-how-africa-became-black",
+    "epidemic": "传染病",
+    "病菌传播": "传染病",
+    "传染性疾病": "传染病",
     "大陆轴线": "大陆轴线",
     "大陆主轴线": "大陆轴线",
     "东西轴线": "大陆轴线",
@@ -2550,6 +2682,11 @@
     "撒哈拉以南非洲": "非洲",
     "非洲大陆": "非洲",
     "Frontispiece": "Frontispiece",
+    "钢铁": "钢铁",
+    "铁器": "钢铁",
+    "钢铁技术": "钢铁",
+    "steel": "钢铁",
+    "iron": "钢铁",
     "高粱": "高粱",
     "sorghum": "高粱",
     "Sorghum bicolor": "高粱",
@@ -2678,6 +2815,11 @@
     "弗朗西斯科·皮萨罗": "皮萨罗",
     "Francisco Pizarro": "皮萨罗",
     "Preface": "Preface",
+    "枪炮": "枪炮",
+    "火器": "枪炮",
+    "firearm": "枪炮",
+    "火枪": "枪炮",
+    "火炮": "枪炮",
     "人口密度": "人口密度",
     "人口压力": "人口密度",
     "population density": "人口密度",
@@ -2781,6 +2923,10 @@
     "征服战争": "战争",
     "武装冲突": "战争",
     "warfare": "战争",
+    "政治组织": "政治组织",
+    "政治结构": "政治组织",
+    "political organization": "政治组织",
+    "社会组织": "政治组织",
     "猪": "猪",
     "家猪": "猪",
     "野猪": "猪",
@@ -2789,8 +2935,13 @@
     "字母文字的传播": "字母文字的传播",
     "Spread of Alphabetic Writing": "字母文字的传播",
     "字母传播": "字母文字的传播",
-    "腓尼基字母传播": "字母文字的传播"
+    "腓尼基字母传播": "字母文字的传播",
+    "宗教": "宗教",
+    "有组织的宗教": "宗教",
+    "religion": "宗教",
+    "意识形态": "宗教",
+    "神权": "宗教"
   },
-  "page_count": 105,
-  "generated": "2026-05-25T09:25:05Z"
+  "page_count": 110,
+  "generated": "2026-05-25T10:05:57Z"
 }
