@@ -139,7 +139,7 @@
       "quality": "featured",
       "quality_score": 57,
       "affiliation": "印加帝国",
-      "total_refs": 6
+      "total_refs": 8
     },
     "斑马": {
       "type": "species",
@@ -210,7 +210,7 @@
       "pn_count": 3,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 3
+      "total_refs": 4
     },
     "病菌": {
       "type": "concept",
@@ -728,7 +728,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 3
+      "total_refs": 5
     },
     "城市": {
       "type": "concept",
@@ -779,7 +779,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 39
+      "total_refs": 40
     },
     "大麦": {
       "type": "species",
@@ -1214,7 +1214,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 1
+      "total_refs": 2
     },
     "哥伦布": {
       "type": "person",
@@ -1572,6 +1572,29 @@
       "quality_score": 58,
       "total_refs": 0
     },
+    "皇帝": {
+      "type": "concept",
+      "label": "皇帝",
+      "aliases": [
+        "君主",
+        "帝王",
+        "emperor"
+      ],
+      "tags": [
+        "政治组织",
+        "国家形成",
+        "征服"
+      ],
+      "path": "hu/皇帝.md",
+      "description": "帝国的最高世袭统治者，代表国家权威的最高集中点，在枪炮病菌与钢铁中是文明间征服与对抗的核心人物形象",
+      "prose_len": 808,
+      "prose_chars": 717,
+      "h2_count": 4,
+      "pn_count": 4,
+      "wikilink_count": 7,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
     "霍乱": {
       "type": "concept",
       "label": "霍乱",
@@ -1690,7 +1713,7 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 3
+      "total_refs": 4
     },
     "继承": {
       "type": "concept",
@@ -1815,7 +1838,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 2
+      "total_refs": 3
     },
     "军事征服": {
       "type": "concept",
@@ -1842,6 +1865,29 @@
       "quality": "featured",
       "quality_score": 60,
       "total_refs": 10
+    },
+    "君主": {
+      "type": "concept",
+      "label": "君主",
+      "aliases": [
+        "君主制",
+        "世袭统治者",
+        "monarch"
+      ],
+      "tags": [
+        "政治组织",
+        "合法性",
+        "国家形成"
+      ],
+      "path": "ju/君主.md",
+      "description": "掌握世袭最高政治权力的个人，其权威往往与神圣秩序相连，是帝国和王国政治合法性的核心载体",
+      "prose_len": 833,
+      "prose_chars": 737,
+      "h2_count": 4,
+      "pn_count": 4,
+      "wikilink_count": 8,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "巨型动物": {
       "type": "concept",
@@ -1892,7 +1938,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 4
+      "total_refs": 5
     },
     "卡哈马卡之战": {
       "type": "event",
@@ -2491,7 +2537,7 @@
       "pn_count": 5,
       "wikilink_count": 7,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "南岛语族扩张": {
       "type": "event",
@@ -2690,7 +2736,7 @@
       "quality": "featured",
       "quality_score": 56,
       "affiliation": "西班牙王国",
-      "total_refs": 6
+      "total_refs": 8
     },
     "Preface": {
       "type": "chapter",
@@ -3033,7 +3079,30 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 18
+      "total_refs": 21
+    },
+    "伤寒": {
+      "type": "concept",
+      "label": "伤寒",
+      "aliases": [
+        "斑疹伤寒",
+        "typhus",
+        "typhoid"
+      ],
+      "tags": [
+        "传染病",
+        "旧大陆",
+        "征服"
+      ],
+      "path": "sh/伤寒.md",
+      "description": "由立克次体引起、经虱子传播的急性传染病，是欧洲人征服美洲的旧大陆病菌之一，也是分析病原体演化路径的典型案例",
+      "prose_len": 748,
+      "prose_chars": 660,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "剩余粮食": {
       "type": "concept",
@@ -3086,6 +3155,29 @@
       "quality": "featured",
       "quality_score": 60,
       "total_refs": 2
+    },
+    "沙漠": {
+      "type": "concept",
+      "label": "沙漠",
+      "aliases": [
+        "撒哈拉沙漠",
+        "干旱区",
+        "desert"
+      ],
+      "tags": [
+        "地理",
+        "传播屏障",
+        "非洲"
+      ],
+      "path": "sh/沙漠.md",
+      "description": "极度干旱的地理区域，在枪炮病菌与钢铁中是切断非洲内部技术与文明传播的关键地理屏障",
+      "prose_len": 788,
+      "prose_chars": 689,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "狩猎采集": {
       "type": "concept",
@@ -3385,7 +3477,7 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 1
     },
     "瓦特": {
       "type": "person",
@@ -4095,7 +4187,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 7
+      "total_refs": 8
     },
     "中国农业起源": {
       "type": "event",
@@ -4349,6 +4441,29 @@
       "quality_score": 59,
       "total_refs": 1
     },
+    "字母": {
+      "type": "concept",
+      "label": "字母",
+      "aliases": [
+        "字母表",
+        "表音文字",
+        "alphabet"
+      ],
+      "tags": [
+        "书写系统",
+        "技术传播",
+        "语言"
+      ],
+      "path": "zi/字母.md",
+      "description": "用单个符号表示基本语音单位（音素）的书写策略，是枪炮病菌与钢铁分析文字技术传播的核心案例之一",
+      "prose_len": 854,
+      "prose_chars": 768,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 6,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "字母文字的传播": {
       "type": "event",
       "label": "字母文字的传播",
@@ -4451,7 +4566,7 @@
       "blockquote_count": 1,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 1
+      "total_refs": 2
     },
     "作物传播": {
       "type": "concept",
@@ -4688,6 +4803,10 @@
     "environment": "环境",
     "自然环境": "环境",
     "环境条件": "环境",
+    "皇帝": "皇帝",
+    "君主": "皇帝",
+    "帝王": "皇帝",
+    "emperor": "皇帝",
     "霍乱": "霍乱",
     "cholera": "霍乱",
     "霍乱弧菌": "霍乱",
@@ -4733,6 +4852,9 @@
     "武装征服": "军事征服",
     "军事扩张": "军事征服",
     "征服": "军事征服",
+    "君主制": "君主",
+    "世袭统治者": "君主",
+    "monarch": "君主",
     "巨型动物": "巨型动物",
     "大型哺乳动物": "巨型动物",
     "史前动物灭绝": "巨型动物",
@@ -4915,6 +5037,10 @@
     "文字": "书写系统",
     "文字系统": "书写系统",
     "writing system": "书写系统",
+    "伤寒": "伤寒",
+    "斑疹伤寒": "伤寒",
+    "typhus": "伤寒",
+    "typhoid": "伤寒",
     "剩余粮食": "剩余粮食",
     "粮食剩余": "剩余粮食",
     "农业剩余": "剩余粮食",
@@ -4924,6 +5050,10 @@
     "大米": "水稻",
     "rice": "水稻",
     "Oryza sativa": "水稻",
+    "沙漠": "沙漠",
+    "撒哈拉沙漠": "沙漠",
+    "干旱区": "沙漠",
+    "desert": "沙漠",
     "狩猎采集": "狩猎采集",
     "狩猎采集者": "狩猎采集",
     "采集狩猎": "狩猎采集",
@@ -5126,6 +5256,10 @@
     "种族决定论": "种族主义",
     "种族优越论": "种族主义",
     "智力差异": "种族主义",
+    "字母": "字母",
+    "字母表": "字母",
+    "表音文字": "字母",
+    "alphabet": "字母",
     "字母文字的传播": "字母文字的传播",
     "Spread of Alphabetic Writing": "字母文字的传播",
     "字母传播": "字母文字的传播",
@@ -5149,6 +5283,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 185,
-  "generated": "2026-05-25T13:55:08Z"
+  "page_count": 190,
+  "generated": "2026-05-25T14:00:38Z"
 }
