@@ -82,6 +82,14 @@
       ],
       "path": "ba/班图扩张.md"
     },
+    "beimeizhou": {
+      "type": "place",
+      "label": "北美洲",
+      "aliases": [
+        "North America"
+      ],
+      "path": "be/beimeizhou.md"
+    },
     "兵豆": {
       "type": "species",
       "label": "兵豆",
@@ -538,6 +546,14 @@
         "inventor"
       ],
       "path": "fa/发明家.md"
+    },
+    "feilvbin": {
+      "type": "place",
+      "label": "菲律宾",
+      "aliases": [
+        "Philippines"
+      ],
+      "path": "fe/feilvbin.md"
     },
     "分裂": {
       "type": "concept",
@@ -1200,6 +1216,14 @@
       ],
       "path": "lv/驴.md"
     },
+    "madagascar": {
+      "type": "place",
+      "label": "马达加斯加",
+      "aliases": [
+        "Madagascar"
+      ],
+      "path": "ma/madagascar.md"
+    },
     "牦牛": {
       "type": "species",
       "label": "牦牛",
@@ -1430,6 +1454,14 @@
       "label": "目录",
       "aliases": [],
       "path": "mu/目录.md"
+    },
+    "nanmeizhou": {
+      "type": "place",
+      "label": "南美洲",
+      "aliases": [
+        "South America"
+      ],
+      "path": "na/nanmeizhou.md"
     },
     "南北轴": {
       "type": "concept",
@@ -1866,6 +1898,14 @@
         "鼠疫杆菌"
       ],
       "path": "sh/鼠疫.md"
+    },
+    "taiwan": {
+      "type": "place",
+      "label": "台湾",
+      "aliases": [
+        "Taiwan"
+      ],
+      "path": "ta/taiwan.md"
     },
     "探险": {
       "type": "concept",
@@ -2672,6 +2712,9 @@
     "班图扩张": "班图扩张",
     "Bantu Expansion": "班图扩张",
     "班图族扩张": "班图扩张",
+    "beimeizhou": "beimeizhou",
+    "北美洲": "beimeizhou",
+    "North America": "beimeizhou",
     "兵豆": "兵豆",
     "lentil": "兵豆",
     "扁豆": "兵豆",
@@ -2817,6 +2860,9 @@
     "发明者": "发明家",
     "创新者": "发明家",
     "inventor": "发明家",
+    "feilvbin": "feilvbin",
+    "菲律宾": "feilvbin",
+    "Philippines": "feilvbin",
     "分裂": "分裂",
     "政治分裂": "分裂",
     "碎片化": "分裂",
@@ -3075,6 +3121,9 @@
     "donkey": "驴",
     "ass": "驴",
     "家驴": "驴",
+    "madagascar": "madagascar",
+    "马达加斯加": "madagascar",
+    "Madagascar": "madagascar",
     "牦牛": "牦牛",
     "yak": "牦牛",
     "犛牛": "牦牛",
@@ -3161,6 +3210,9 @@
     "牧民": "牧人",
     "游牧民族": "牧人",
     "目录": "目录",
+    "nanmeizhou": "nanmeizhou",
+    "南美洲": "nanmeizhou",
+    "South America": "nanmeizhou",
     "南北轴": "南北轴",
     "南北走向": "南北轴",
     "大陆轴线南北": "南北轴",
@@ -3316,6 +3368,9 @@
     "social complexity": "社会复杂性",
     "鼠疫": "鼠疫",
     "鼠疫杆菌": "鼠疫",
+    "taiwan": "taiwan",
+    "台湾": "taiwan",
+    "Taiwan": "taiwan",
     "探险": "探险",
     "exploration": "探险",
     "地理探险": "探险",
@@ -3599,6 +3654,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 276,
-  "generated": "2026-05-25T14:59:44Z"
+  "page_count": 281,
+  "generated": "2026-05-25T15:01:26Z"
 }

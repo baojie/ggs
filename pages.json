@@ -90,7 +90,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 2
+      "total_refs": 3
     },
     "澳大利亚": {
       "type": "place",
@@ -207,6 +207,26 @@
       "quality": "featured",
       "quality_score": 56,
       "total_refs": 3
+    },
+    "beimeizhou": {
+      "type": "place",
+      "label": "北美洲",
+      "aliases": [
+        "North America"
+      ],
+      "tags": [
+        "大陆",
+        "地理"
+      ],
+      "path": "be/beimeizhou.md",
+      "description": "美洲大陆的北半部分，人类史前史最短的大陆之一，轴线南北走向",
+      "prose_len": 821,
+      "prose_chars": 766,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 1
     },
     "兵豆": {
       "type": "species",
@@ -330,7 +350,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 13
+      "total_refs": 16
     },
     "玻璃": {
       "type": "concept",
@@ -1308,7 +1328,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 1
+      "total_refs": 2
     },
     "鹅": {
       "type": "species",
@@ -1401,6 +1421,27 @@
       "quality_score": 58,
       "total_refs": 0
     },
+    "feilvbin": {
+      "type": "place",
+      "label": "菲律宾",
+      "aliases": [
+        "Philippines"
+      ],
+      "tags": [
+        "地区",
+        "岛屿",
+        "农业"
+      ],
+      "path": "fe/feilvbin.md",
+      "description": "东南亚群岛国家，南岛语系扩张的重要中间站",
+      "prose_len": 779,
+      "prose_chars": 724,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 2
+    },
     "分裂": {
       "type": "concept",
       "label": "分裂",
@@ -1450,7 +1491,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 10
+      "total_refs": 11
     },
     "Frontispiece": {
       "type": "chapter",
@@ -2014,7 +2055,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 2
+      "total_refs": 3
     },
     "河流": {
       "type": "concept",
@@ -3037,6 +3078,27 @@
       "blockquote_count": 0,
       "total_refs": 0
     },
+    "madagascar": {
+      "type": "place",
+      "label": "马达加斯加",
+      "aliases": [
+        "Madagascar"
+      ],
+      "tags": [
+        "地区",
+        "岛屿",
+        "文明"
+      ],
+      "path": "ma/madagascar.md",
+      "description": "非洲东南部的大岛，南岛人扩张的最西端，具有独特的生物和文明历史",
+      "prose_len": 812,
+      "prose_chars": 757,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
     "牦牛": {
       "type": "species",
       "label": "牦牛",
@@ -3230,7 +3292,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 1
+      "total_refs": 2
     },
     "美洲": {
       "type": "place",
@@ -3256,7 +3318,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 8
+      "total_refs": 10
     },
     "美洲家鸭": {
       "type": "species",
@@ -3544,7 +3606,7 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 1
     },
     "木薯": {
       "type": "species",
@@ -3608,6 +3670,26 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 17,
+      "total_refs": 0
+    },
+    "nanmeizhou": {
+      "type": "place",
+      "label": "南美洲",
+      "aliases": [
+        "South America"
+      ],
+      "tags": [
+        "大陆",
+        "地理"
+      ],
+      "path": "na/nanmeizhou.md",
+      "description": "美洲大陆的南半部分，安第斯文明与独立农业起源地，新大陆最长的大陆",
+      "prose_len": 812,
+      "prose_chars": 757,
+      "h2_count": 4,
+      "pn_count": 6,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
       "total_refs": 0
     },
     "南北轴": {
@@ -3785,7 +3867,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 10
+      "total_refs": 12
     },
     "欧洲殖民非洲": {
       "type": "event",
@@ -4693,6 +4775,27 @@
       "quality": "standard",
       "quality_score": 28,
       "total_refs": 0
+    },
+    "taiwan": {
+      "type": "place",
+      "label": "台湾",
+      "aliases": [
+        "Taiwan"
+      ],
+      "tags": [
+        "地区",
+        "岛屿",
+        "语言"
+      ],
+      "path": "ta/taiwan.md",
+      "description": "东亚沿海岛屿，南岛语系的起源地，农业人口扩张的关键起点",
+      "prose_len": 843,
+      "prose_chars": 788,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 3
     },
     "探险": {
       "type": "concept",
@@ -5698,7 +5801,7 @@
       "pn_count": 5,
       "wikilink_count": 6,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 3
     },
     "一年生植物": {
       "type": "concept",
@@ -5963,7 +6066,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 4
     },
     "语言": {
       "type": "concept",
@@ -6188,7 +6291,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 8
+      "total_refs": 9
     },
     "征服者": {
       "type": "concept",
@@ -6650,6 +6753,9 @@
     "班图扩张": "班图扩张",
     "Bantu Expansion": "班图扩张",
     "班图族扩张": "班图扩张",
+    "beimeizhou": "beimeizhou",
+    "北美洲": "beimeizhou",
+    "North America": "beimeizhou",
     "兵豆": "兵豆",
     "lentil": "兵豆",
     "扁豆": "兵豆",
@@ -6795,6 +6901,9 @@
     "发明者": "发明家",
     "创新者": "发明家",
     "inventor": "发明家",
+    "feilvbin": "feilvbin",
+    "菲律宾": "feilvbin",
+    "Philippines": "feilvbin",
     "分裂": "分裂",
     "政治分裂": "分裂",
     "碎片化": "分裂",
@@ -7053,6 +7162,9 @@
     "donkey": "驴",
     "ass": "驴",
     "家驴": "驴",
+    "madagascar": "madagascar",
+    "马达加斯加": "madagascar",
+    "Madagascar": "madagascar",
     "牦牛": "牦牛",
     "yak": "牦牛",
     "犛牛": "牦牛",
@@ -7139,6 +7251,9 @@
     "牧民": "牧人",
     "游牧民族": "牧人",
     "目录": "目录",
+    "nanmeizhou": "nanmeizhou",
+    "南美洲": "nanmeizhou",
+    "South America": "nanmeizhou",
     "南北轴": "南北轴",
     "南北走向": "南北轴",
     "大陆轴线南北": "南北轴",
@@ -7294,6 +7409,9 @@
     "social complexity": "社会复杂性",
     "鼠疫": "鼠疫",
     "鼠疫杆菌": "鼠疫",
+    "taiwan": "taiwan",
+    "台湾": "taiwan",
+    "Taiwan": "taiwan",
     "探险": "探险",
     "exploration": "探险",
     "地理探险": "探险",
@@ -7577,6 +7695,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 276,
-  "generated": "2026-05-25T14:59:44Z"
+  "page_count": 281,
+  "generated": "2026-05-25T15:01:26Z"
 }
