@@ -1793,7 +1793,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "国家": {
       "type": "concept",
@@ -2937,7 +2937,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 78
+      "total_refs": 80
     },
     "轮子": {
       "type": "concept",
@@ -3032,6 +3032,29 @@
       "prose_len": 429,
       "prose_chars": 382,
       "h2_count": 4,
+      "pn_count": 0,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
+    "猫": {
+      "type": "species",
+      "label": "猫",
+      "aliases": [
+        "家猫",
+        "cat",
+        "驯化猫"
+      ],
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ],
+      "path": "ma/猫.md",
+      "description": "北非和西南亚驯化的小型哺乳动物，用于猎捕啮齿类有害动物",
+      "prose_len": 355,
+      "prose_chars": 322,
+      "h2_count": 3,
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
@@ -3437,6 +3460,27 @@
       "blockquote_count": 0,
       "total_refs": 0
     },
+    "面包果": {
+      "type": "species",
+      "label": "面包果",
+      "aliases": [
+        "breadfruit"
+      ],
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ],
+      "path": "mi/面包果.md",
+      "description": "东南亚和新几内亚驯化的树生作物，富含碳水化合物",
+      "prose_len": 434,
+      "prose_chars": 390,
+      "h2_count": 4,
+      "pn_count": 0,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "牧人": {
       "type": "concept",
       "label": "牧人",
@@ -3526,7 +3570,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 3
+      "total_refs": 4
     },
     "牛": {
       "type": "species",
@@ -4693,6 +4737,28 @@
       "quality_score": 58,
       "total_refs": 0
     },
+    "兔": {
+      "type": "species",
+      "label": "兔",
+      "aliases": [
+        "rabbit",
+        "家兔"
+      ],
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ],
+      "path": "tu/兔.md",
+      "description": "欧洲驯化的小型哺乳动物，为人类提供肉食和毛皮",
+      "prose_len": 325,
+      "prose_chars": 293,
+      "h2_count": 3,
+      "pn_count": 0,
+      "wikilink_count": 2,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "土地": {
       "type": "concept",
       "label": "土地",
@@ -4789,7 +4855,7 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "王国": {
       "type": "concept",
@@ -4965,6 +5031,27 @@
       "quality_score": 27,
       "total_refs": 0
     },
+    "向日葵": {
+      "type": "species",
+      "label": "向日葵",
+      "aliases": [
+        "sunflower"
+      ],
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ],
+      "path": "xi/向日葵.md",
+      "description": "北美东部驯化的油料作物",
+      "prose_len": 383,
+      "prose_chars": 337,
+      "h2_count": 4,
+      "pn_count": 0,
+      "wikilink_count": 2,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "小麦": {
       "type": "species",
       "label": "小麦",
@@ -5064,7 +5151,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 41
+      "total_refs": 42
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -5184,7 +5271,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "驯化": {
       "type": "concept",
@@ -5209,7 +5296,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 59
+      "total_refs": 61
     },
     "驯鹿": {
       "type": "species",
@@ -5276,7 +5363,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 1
     },
     "演化": {
       "type": "concept",
@@ -5493,6 +5580,28 @@
       "quality_score": 27,
       "total_refs": 5
     },
+    "罂粟": {
+      "type": "species",
+      "label": "罂粟",
+      "aliases": [
+        "poppy",
+        "鸦片罂粟"
+      ],
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ],
+      "path": "yi/罂粟.md",
+      "description": "地中海地区驯化的油料和药用植物",
+      "prose_len": 298,
+      "prose_chars": 265,
+      "h2_count": 3,
+      "pn_count": 0,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "遗传": {
       "type": "concept",
       "label": "遗传",
@@ -5592,7 +5701,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 6
+      "total_refs": 7
     },
     "芋艿": {
       "type": "species",
@@ -6726,6 +6835,10 @@
     "牦牛": "牦牛",
     "yak": "牦牛",
     "犛牛": "牦牛",
+    "猫": "猫",
+    "家猫": "猫",
+    "cat": "猫",
+    "驯化猫": "猫",
     "贸易": "贸易",
     "trade": "贸易",
     "商贸": "贸易",
@@ -6789,6 +6902,8 @@
     "蜜蜂": "蜜蜂",
     "honeybee": "蜜蜂",
     "家蜂": "蜜蜂",
+    "面包果": "面包果",
+    "breadfruit": "面包果",
     "牧人": "牧人",
     "牧民": "牧人",
     "游牧民族": "牧人",
@@ -6967,6 +7082,9 @@
     "unification": "统一",
     "政治统一": "统一",
     "文化统一": "统一",
+    "兔": "兔",
+    "rabbit": "兔",
+    "家兔": "兔",
     "土地": "土地",
     "土地资源": "土地",
     "耕地": "土地",
@@ -7006,6 +7124,8 @@
     "纬度效应": "纬度",
     "纬度与气候": "纬度",
     "东西轴纬度": "纬度",
+    "向日葵": "向日葵",
+    "sunflower": "向日葵",
     "小麦": "小麦",
     "二粒小麦": "小麦",
     "单粒小麦": "小麦",
@@ -7083,6 +7203,9 @@
     "人口迁徙": "移民",
     "史前迁徙": "移民",
     "移民浪潮": "移民",
+    "罂粟": "罂粟",
+    "poppy": "罂粟",
+    "鸦片罂粟": "罂粟",
     "遗传": "遗传",
     "遗传学": "遗传",
     "基因": "遗传",
@@ -7207,6 +7330,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 261,
-  "generated": "2026-05-25T14:55:51Z"
+  "page_count": 266,
+  "generated": "2026-05-25T14:56:33Z"
 }
