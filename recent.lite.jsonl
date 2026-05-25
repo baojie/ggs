@@ -514,3 +514,8 @@
 {"page": "贸易", "label": "贸易", "rev_id": "XaYR9l", "timestamp": "2026-05-25T11:11:17+00:00", "author": "grow", "summary": "GROW 2-R49: 新建 贸易，standard 档", "size_before": 0, "size": 3557, "diff_add": 47, "diff_del": 0}
 {"page": "轮子", "label": "轮子", "rev_id": "x6VXha", "timestamp": "2026-05-25T11:12:13+00:00", "author": "grow", "summary": "GROW 2-R49: 新建 轮子，standard 档", "size_before": 0, "size": 3504, "diff_add": 48, "diff_del": 0}
 {"page": "灌溉", "label": "灌溉", "rev_id": "6i16zI", "timestamp": "2026-05-25T11:12:59+00:00", "author": "grow", "summary": "GROW 2-R49: 新建 灌溉，standard 档", "size_before": 0, "size": 3525, "diff_add": 46, "diff_del": 0}
+{"page": "印刷术", "label": "印刷术", "rev_id": "TWCR2n", "timestamp": "2026-05-25T12:39:20+00:00", "author": "grow", "summary": "GROW 2-R50: 新建 印刷术，standard 档", "size_before": 0, "size": 3242, "diff_add": 50, "diff_del": 0}
+{"page": "种族主义", "label": "种族主义", "rev_id": "BlmcCX", "timestamp": "2026-05-25T12:39:52+00:00", "author": "grow", "summary": "GROW 2-R50: 新建 种族主义，standard 档", "size_before": 0, "size": 3104, "diff_add": 47, "diff_del": 0}
+{"page": "人口规模", "label": "人口规模", "rev_id": "fmarEG", "timestamp": "2026-05-25T12:40:18+00:00", "author": "grow", "summary": "GROW 2-R50: 新建 人口规模，standard 档", "size_before": 0, "size": 3075, "diff_add": 47, "diff_del": 0}
+{"page": "军事征服", "label": "军事征服", "rev_id": "tFpL8e", "timestamp": "2026-05-25T12:41:02+00:00", "author": "grow", "summary": "GROW 2-R50: 新建 军事征服，standard 档", "size_before": 0, "size": 3129, "diff_add": 49, "diff_del": 0}
+{"page": "地理因素", "label": "地理因素", "rev_id": "htrTTo", "timestamp": "2026-05-25T12:41:31+00:00", "author": "grow", "summary": "GROW 2-R50: 新建 地理因素，standard 档", "size_before": 0, "size": 3347, "diff_add": 49, "diff_del": 0}
