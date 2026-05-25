@@ -777,7 +777,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 1
+      "total_refs": 2
     },
     "船只": {
       "type": "concept",
@@ -848,7 +848,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 41
+      "total_refs": 43
     },
     "大麦": {
       "type": "species",
@@ -1188,7 +1188,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 7
+      "total_refs": 8
     },
     "Frontispiece": {
       "type": "chapter",
@@ -1462,7 +1462,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 21
+      "total_refs": 22
     },
     "国家的形成": {
       "type": "event",
@@ -1731,7 +1731,7 @@
       "pn_count": 5,
       "wikilink_count": 10,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 1
     },
     "家畜": {
       "type": "concept",
@@ -1829,7 +1829,7 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 6
+      "total_refs": 7
     },
     "继承": {
       "type": "concept",
@@ -2103,6 +2103,28 @@
       "quality": "featured",
       "quality_score": 59,
       "total_refs": 4
+    },
+    "考古遗址": {
+      "type": "concept",
+      "label": "考古遗址",
+      "aliases": [
+        "遗址",
+        "考古发掘"
+      ],
+      "tags": [
+        "考古学",
+        "史前史",
+        "研究方法"
+      ],
+      "path": "ka/考古遗址.md",
+      "description": "保存有人类活动痕迹的地层或地点，是重建史前历史的核心证据来源",
+      "prose_len": 909,
+      "prose_chars": 831,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "科学": {
       "type": "concept",
@@ -2731,7 +2753,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 16
+      "total_refs": 17
     },
     "奴隶": {
       "type": "concept",
@@ -2924,6 +2946,29 @@
       "quality_score": 61,
       "total_refs": 8
     },
+    "栖息地": {
+      "type": "concept",
+      "label": "栖息地",
+      "aliases": [
+        "生境",
+        "自然环境",
+        "生态环境"
+      ],
+      "tags": [
+        "生态学",
+        "物种分布",
+        "动物灭绝"
+      ],
+      "path": "qi/栖息地.md",
+      "description": "物种赖以生存和繁殖的自然环境，其改变直接影响物种的存续",
+      "prose_len": 919,
+      "prose_chars": 837,
+      "h2_count": 4,
+      "pn_count": 7,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "气候": {
       "type": "concept",
       "label": "气候",
@@ -2974,7 +3019,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 27,
-      "total_refs": 11
+      "total_refs": 13
     },
     "人口密度": {
       "type": "concept",
@@ -3244,7 +3289,30 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 27,
-      "total_refs": 10
+      "total_refs": 11
+    },
+    "水利": {
+      "type": "concept",
+      "label": "水利",
+      "aliases": [
+        "灌溉",
+        "水利工程",
+        "灌溉系统"
+      ],
+      "tags": [
+        "农业技术",
+        "政治组织",
+        "国家形成"
+      ],
+      "path": "sh/水利.md",
+      "description": "利用工程手段调配水资源以支持农业生产，与定居化和政治集权密切关联",
+      "prose_len": 877,
+      "prose_chars": 803,
+      "h2_count": 4,
+      "pn_count": 7,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "水稻": {
       "type": "species",
@@ -4455,6 +4523,29 @@
       "quality_score": 61,
       "total_refs": 9
     },
+    "植物": {
+      "type": "concept",
+      "label": "植物",
+      "aliases": [
+        "野生植物",
+        "植物物种",
+        "植物多样性"
+      ],
+      "tags": [
+        "生物学",
+        "作物驯化",
+        "农业起源"
+      ],
+      "path": "zh/植物.md",
+      "description": "光合自养生物，是人类粮食生产的原材料，其物种多样性深刻影响各地区农业潜力",
+      "prose_len": 863,
+      "prose_chars": 780,
+      "h2_count": 4,
+      "pn_count": 8,
+      "wikilink_count": 7,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "植物学": {
       "type": "concept",
       "label": "植物学",
@@ -4683,6 +4774,29 @@
       "quality": "featured",
       "quality_score": 61,
       "total_refs": 2
+    },
+    "作物": {
+      "type": "concept",
+      "label": "作物",
+      "aliases": [
+        "农作物",
+        "驯化植物",
+        "栽培植物"
+      ],
+      "tags": [
+        "农业",
+        "作物驯化",
+        "粮食生产"
+      ],
+      "path": "zu/作物.md",
+      "description": "经人类驯化栽培的植物种类，是农业文明的物质基础",
+      "prose_len": 1000,
+      "prose_chars": 918,
+      "h2_count": 4,
+      "pn_count": 8,
+      "wikilink_count": 1,
+      "blockquote_count": 0,
+      "total_refs": 1
     },
     "作物传播": {
       "type": "concept",
@@ -5002,6 +5116,9 @@
     "archaeology": "考古学",
     "考古学方法": "考古学",
     "考古证据": "考古学",
+    "考古遗址": "考古遗址",
+    "遗址": "考古遗址",
+    "考古发掘": "考古遗址",
     "科学": "科学",
     "science": "科学",
     "科学方法": "科学",
@@ -5131,6 +5248,9 @@
     "firearm": "枪炮",
     "火枪": "枪炮",
     "火炮": "枪炮",
+    "栖息地": "栖息地",
+    "生境": "栖息地",
+    "生态环境": "栖息地",
     "气候": "气候",
     "climate": "气候",
     "气候条件": "气候",
@@ -5179,6 +5299,7 @@
     "粮食剩余": "剩余粮食",
     "农业剩余": "剩余粮食",
     "粮食储备": "剩余粮食",
+    "水利": "水利",
     "水稻": "水稻",
     "稻米": "水稻",
     "大米": "水稻",
@@ -5194,7 +5315,6 @@
     "hunter-gatherer": "狩猎采集",
     "生态": "生态",
     "ecology": "生态",
-    "生态环境": "生态",
     "生态系统": "生态",
     "生态条件": "生态",
     "生态适应": "生态适应",
@@ -5371,6 +5491,10 @@
     "政治结构": "政治组织",
     "political organization": "政治组织",
     "社会组织": "政治组织",
+    "植物": "植物",
+    "野生植物": "植物",
+    "植物物种": "植物",
+    "植物多样性": "植物",
     "植物学": "植物学",
     "botany": "植物学",
     "植物科学": "植物学",
@@ -5412,11 +5536,15 @@
     "religion": "宗教",
     "意识形态": "宗教",
     "神权": "宗教",
+    "作物": "作物",
+    "农作物": "作物",
+    "驯化植物": "作物",
+    "栽培植物": "作物",
     "作物传播": "作物传播",
     "crop diffusion": "作物传播",
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 195,
-  "generated": "2026-05-25T14:07:50Z"
+  "page_count": 200,
+  "generated": "2026-05-25T14:13:53Z"
 }
