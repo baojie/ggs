@@ -2453,9 +2453,474 @@ stub_pct_after: 待填
 ## 分类型 EVV6 汇总
 ## 新类型勘探结论
 ## Wikify 与链接整合
-## Phase 5 启动建议
+## Phase 5：深化与洞察层（Deepening & Insight）
+
+> **目标**：在 Phase 4 质量基线之上，进一步降低新建比例，加强质量深化、结构重组、主题聚合与跨实体洞察。
+> 本 Phase 四条主线并行：① 有选择性地继续建页（NEW1 比例降至 3/10）；
+> ② 深化现有页面质量（超越 RCH1/RCH2，引入 RCH3/RCH4/QUO3 等）；
+> ③ 对最长/最乱的页面执行逻辑重组（RFT2/RFT9，占 2/10）；
+> ④ 基于现有内容反思，系统建设 List 聚合页面。
+> **Phase 结束前先完成精品冲刺**（10–20 页达到 featured/premium），再执行三维深度反思。
+
+> **【Commit 约定】Phase 5 为滚动轮次制，每轮必须 commit，不跨轮积压。**
+> - **每轮 commit 时机**：EXIT-GATE（§5.7）通过后，执行 §5.7 末尾的 commit 步骤
+> - **commit 格式**：`bash wiki/scripts/skill_commit.sh "R{{N}}: {{gene}} {{slug}}"`
+> - **同批原则**：`grow_state.json`、`pages.json`、本轮日志文件必须在同一个 commit 中
+> - **精品冲刺（5.Y）及深度反思（5-Z）各自独立 commit**：
+>   `phase5/5-Y: 精品冲刺完成（featured N 页）`、`phase5/5-Z: 三维深度反思完成`
+
+---
+
+### 5.0 Phase 5 初始化
+
+#### 5.0-A 启动条件
+
+> **分桶结构检查**（Phase 5 启动时执行一次，`LNT16`）：
+> `python3 wiki/scripts/lint_bucket_structure.py --fix`
+
+进入 Phase 5 前，确认：
+- [x] Phase 4 退出条件全部满足（`butler.json` 中 `grow_phase = 5`）
+- [x] Phase 4 总结报告 `local/memory/grow_phase4_summary.md` 存在（next_phase: 5）
+
+#### 5.0-B 初始化 Phase 5 state
+
+```python
+import json
+s = json.load(open('local/state/grow_state.json'))
+
+# Phase 5 独立 state 字段
+s['grow_phase'] = '5'
+s['phase5_start_round'] = s['counters']['current_round'] + 1
+
+# 重置窗口计数器
+s['counters']['new1_count_window']    = 0
+s['counters']['enrich_count_window']  = 0
+s['counters']['qry2_count_window']    = 0
+s['counters']['rft_count_window']     = 0
+s['counters']['rch1_count_window']    = 0
+s['counters']['rch2_count_window']    = 0
+s['counters']['rounds_since_last_w5'] = 0
+s['counters']['discover_streak_low']  = 0
+s['last_10_genes'] = []
+
+s['thresholds']['rolling_new1_max']    = 3
+s['thresholds']['rolling_enrich_max']  = 3
+s['thresholds']['rolling_qry2_max']    = 2
+s['thresholds']['rolling_rft_max']     = 2
+s['thresholds']['rolling_window_size'] = 10
+
+s['phase5_featured_target'] = 15
+s.pop('current_type', None)
+s.pop('type_queue', None)
+s.pop('closed_types', None)
+
+json.dump(s, open('local/state/grow_state.json', 'w'), ensure_ascii=False, indent=2)
+```
+
+- [x] Phase 5 state 已初始化（grow_phase=5, start_round=R94, featured_target=15）
+- [x] 窗口计数器已重置，closed_types 等 Phase 2 字段已清理
+- [x] butler.json grow_phase 已更新为 5
+
+#### 5.0-C Phase 5 参数展示
+
+```
+Phase 5 运行参数（ggs 版）
+
+  ┌────────────────────────────────────────────────────────────┐
+  │ 建页:深化:重组:聚合 = 3:3:2:2（NEW1:ENRICH:RFT:QRY2）      │
+  │ 滚动窗口: 最近 10 轮；NEW1 ≥ 3 时强制 enrich/RFT/QRY2      │
+  │ Enrich 变体: RCH1/RCH2/RCH3/RCH4/QUO3/RCH9（按缺口选）    │
+  │ RFT: 最长/最乱页面逻辑重组（RFT2 章节重排 / RFT9 叙事重组） │
+  │ QRY2: QRY2 query 聚合页（::: query 为主体，动态渲染）      │
+  │ 精品冲刺: 10–20 页达 featured/premium（5.Y 节）            │
+  │ EVV5 间隔: 15 轮  │  W5 反思: 每 29 轮                     │
+  │ 退出: 全局候选枯竭（连续 3 轮 < 5 条），或用户主动触发      │
+  └────────────────────────────────────────────────────────────┘
+```
+
+> 3000 页退出条件不适用于本 wiki（当前 291 词条），改为仅候选枯竭 + 用户主动触发。
+
+---
+
+### 5.1 每轮 pre-flight check（强制，每轮第一步）
+
+> **⚠️ 每轮开始前必读提醒**
+>
+> 1. **Slug 语言**：本 wiki `WIKI_LANG=zh`，使用中文/拼音 slug。
+>
+> 2. **逐页串行写入**：每轮无论新建（NEW1/QRY2）还是 enrich（所有变体），
+>    **每次只处理一个页面**，完成后暂停 1 秒，再处理下一个。禁止并行。
+
+**第一步：读 state 并展示窗口**
+
+```python
+import json
+s = json.load(open('local/state/grow_state.json'))
+print(f'phase={s["grow_phase"]}  round={s["counters"]["current_round"]}')
+print(f'window: NEW1={s["counters"]["new1_count_window"]}  '
+      f'ENRICH={s["counters"]["enrich_count_window"]}  '
+      f'RFT={s["counters"]["rft_count_window"]}  '
+      f'QRY2={s["counters"]["qry2_count_window"]}  '
+      f'(max: NEW1≤{s["thresholds"]["rolling_new1_max"]}, '
+      f'ENRICH≤{s["thresholds"]["rolling_enrich_max"]}, '
+      f'RFT≤{s["thresholds"]["rolling_rft_max"]}, '
+      f'QRY2≤{s["thresholds"]["rolling_qry2_max"]})')
+d = json.load(open('docs/wiki/pages.json'))
+entries = {k: v for k, v in d['pages'].items()
+           if v.get('type') not in ('chapter', 'overview', 'list')}
+featured_n = sum(1 for v in entries.values()
+                 if v.get('quality') in ('featured', 'premium'))
+target = s.get('phase5_featured_target', 15)
+total = len(entries)
+print(f'精品: {featured_n}/{target} 目标  │  页面总数: {total}')
+```
+
+**第二步：GROW.md 同步检查**
+
+```python
+import json, re
+from pathlib import Path
+
+s = json.load(open('local/state/grow_state.json'))
+state_round = s['counters']['current_round']
+
+counter_path = Path('logs/butler/round_counter.txt')
+if counter_path.exists():
+    counter_round = int(counter_path.read_text().strip())
+    diff = abs(state_round - counter_round)
+    if diff > 3:
+        print(f'⚠️ 轮次计数器偏差：round_counter.txt={counter_round}，grow_state.json={state_round}（差异 {diff} 轮，阈值 3）')
+        raise SystemExit('轮次计数器一致性检查不通过 → 中止本轮')
+    elif diff > 0:
+        print(f'⚠️ 轮次计数器小偏差：{counter_round} vs {state_round}（差异 {diff} 轮）')
+    else:
+        print(f'✅ 计数器一致：{counter_round}')
+
+grow_md = Path('GROW.md')
+if grow_md.exists():
+    text = grow_md.read_text()
+    recorded = re.findall(r'(?<=R)\d+', text)
+    if recorded:
+        max_recorded = max(int(r) for r in recorded)
+        if max_recorded < state_round:
+            print(f'⚠️ GROW.md 滞后：追踪节最后记录轮次 R{max_recorded}，当前 state 轮次 R{state_round}')
+            raise SystemExit('GROW.md 同步检查不通过 → 中止本轮')
+        else:
+            print(f'✅ GROW.md 追踪节已同步至最新轮次 R{state_round}')
+    else:
+        print(f'⚠️ GROW.md 中未发现轮次记录，跳过同步检查')
 ```
 
 ---
 
-> **Phase 4 完成后**：进入 Phase 5（扩张层 II，含 List 与洞察页面）。
+### 5.2 每轮决策矩阵
+
+| 优先级 | 条件 | 本轮 gene | 说明 |
+|--------|------|----------|------|
+| 1a | `rounds_since_last_evv5 >= evv5_interval` 且 discover 到期 | `EVV5+SCN28` | 合并执行 |
+| 1b | `rounds_since_last_evv5 >= evv5_interval` | `EVV5` | schema 周期检查 |
+| 2 | discover 到期或 `queue_size < discover_queue_threshold` | `SCN28` | 候选补充 |
+| 3 | `rounds_since_last_w5 >= w5_interval` | `W5-REFLECT` | 强制质量反思 |
+| 4 | `new1_count_window > rolling_new1_max` | 深化 enrich（见 5.3）| 比例纠偏 |
+| 5 | `rft_count_window < rolling_rft_max` 且 有长页候选 | `RFT`（见 5.3-B）| 保证重组比例 |
+| 6 | `qry2_count_window < 1`（本窗口尚无 QRY2 页）| `QRY2` | 保证 QRY2 页面产出 |
+| 7 | `stub% >= 15%` | 深化 enrich（见 5.3）| 强制提质 |
+| 8 | 默认 | `NEW1` | 新建 5 页（basic 档）|
+
+> **gene 枚举**（Phase 5）：`NEW1` / `QRY2` / `RFT2` / `RFT9` / `RCH1` / `RCH2` / `RCH3` / `RCH4`
+> / `QUO3` / `RCH9` / `SCN28` / `EVV5` / `EVV5+SCN28` / `W5-REFLECT` / `BLK3`
+> / `FLD9`（QRY2 前置字段回填）/ `QRY3`（query 语法后置验证）
+
+> **窗口计数**：NEW1 → `new1_count_window`；QRY2 → `qry2_count_window`；
+> RFT2/RFT9 → `rft_count_window`；所有 RCH*/QUO3 → `enrich_count_window`（合并）；其余不计入。
+
+> **终止检查**（每轮 pre-flight 时检查）：
+> - 连续 3 轮 discover 新候选 < 5 条（全局枯竭）→ 进入 5.Y 精品冲刺，然后 5-Z
+
+---
+
+### 5.3 深化 Enrich 子决策（Phase 5 版）
+
+Phase 5 enrich 槽不再只有 RCH1/RCH2，按以下缺口优先级选择：
+
+```
+当前类型页面缺口评估
+  ├── 有 person 页面缺少多视角节（"他人眼中"）          → RCH4-multi-perspective
+  ├── 有 concept 页面无通俗解释节                       → RCH3-add-explanation
+  ├── 有 person/event 页面引文数 < 3（高价值页）         → QUO3-add-section
+  ├── 有页面 quality < basic（stub 存量）               → RCH2-enrich-grade
+  └── 默认：轮流 RCH1（内容追加） / RCH2（质量升档）
+```
+
+约束：
+- `rch1_count_window` 和 `rch2_count_window` 各不超过 2
+- RCH3/RCH4/QUO3/RCH9 共享剩余 enrich 槽（合计不超过 `rolling_enrich_max - rch1 - rch2`）
+- 每 5 轮 enrich 轮中，安排 1 轮 `HKP34`（对全库被引用最多的 N 页集中深化，独立轮次，不计入窗口）
+
+#### 5.3-B RFT 子决策（逻辑重组）
+
+**触发条件**：优先级 5 命中（`rft_count_window < rolling_rft_max` 且有长页候选）
+
+**候选选取**：
+
+```python
+import json, pathlib
+d = json.load(open('docs/wiki/pages.json'))
+pages_dir = pathlib.Path('docs/wiki/pages')
+candidates = []
+for slug, meta in d['pages'].items():
+    if meta.get('type') in ('chapter', 'overview', 'list'):
+        continue
+    p = pages_dir / f'{slug}.md'
+    if not p.exists():
+        continue
+    txt = p.read_text()
+    prose_len = sum(len(l) for l in txt.splitlines()
+                    if l.strip() and not l.startswith(('>', '|', '#', '```')))
+    if prose_len > 1500:
+        candidates.append((slug, prose_len))
+candidates.sort(key=lambda x: -x[1])
+print('Top 10 长页候选:')
+for slug, n in candidates[:10]:
+    print(f'  {slug}: {n} chars')
+```
+
+**RFT2 vs RFT9 选择**：
+
+| 使用 RFT2 | 使用 RFT9 |
+|----------|----------|
+| 页面 H2 节 ≥ 5，节序逻辑混乱 | 页面 H2 节 < 5，但段落重复/叙事跳跃 |
+| 多轮 enrich 后节标题冗余 | prose 中有明显的重复叙述段落 |
+| 章节重排即可解决 | 需要段落级语义合并和重排 |
+
+每轮 RFT 处理 5 页，逐页串行，每页完成后 `sleep 1`。
+RFT 后置检查：运行 `check_size_loss.py` 确认无内容损失（QLT6-size-loss-detection）。
+
+---
+
+### 5.4 QRY2 — Query 聚合页建设
+
+> 完整基因定义见 `skills/gene/QRY2-query-page-create.md`。
+
+**核心原则**：页面主体是 `::: query` 块，动态渲染，无需人工维护词条列表。
+prose 只写引言（1–3 句）和说明节，不在正文中手写词条名。
+
+#### QRY2 执行链：FLD9 → QRY2 → QRY3
+
+| 步骤 | 基因 | 作用 | 触发条件 |
+|------|------|------|---------|
+| 前置 | `FLD9` | 从正文批量提取字段值写入 frontmatter | 目标字段覆盖率 < 30% |
+| 主体 | `QRY2` | 新建以 `::: query` 为主体的 list 页面 | 每轮 QRY2 决策时 |
+| 后置 | `QRY3` | lint 检查：语法/空结果/字段拼写 | 每页写入后立即运行 |
+
+#### 四类聚合模式
+
+| 模式 | 示例（本 wiki）| 关键 query 参数 |
+|------|--------------|---------------|
+| **类型索引** | 全部人物索引（带质量档）| `type: X, sort: label` |
+| **字段筛选** | 有年份记载的事件 | `era: NOT NULL` |
+| **统计排行** | 被引用最多 Top 50 | `sort: total_refs, limit: 50` |
+| **标签分组** | 按主题/地区归组 | 多个 `tags:` 块各一个 H2 节 |
+
+#### 后置检查
+
+- [ ] `QRY3` lint：无 error 级别问题
+- [ ] query 块渲染结果非空
+- [ ] 主体无硬编码词条列表
+- [ ] 引言段不含无据断言
+- [ ] 页面质量档至少 basic
+
+---
+
+### 5.5 每轮执行（决策后的动作）
+
+- `NEW1` → 建 5 页 basic，逐页串行，每页完成后 `sleep 1`
+- `QRY2` → 建 list 页面，逐页串行，每页完成后 `sleep 1`
+- 所有 enrich 变体（RCH1/2/3/4/QUO3/RCH9）→ 处理 5 页，逐页串行
+- `SCN28` / `EVV5` / `W5-REFLECT` → 各自的标准流程
+
+**窗口计数更新**（每轮 gene 确定后）：
+
+```python
+import json
+s = json.load(open('local/state/grow_state.json'))
+gene = "{{本轮 gene}}"
+window_size = s['thresholds']['rolling_window_size']
+
+s['last_10_genes'].append(gene)
+if len(s['last_10_genes']) > window_size:
+    removed = s['last_10_genes'].pop(0)
+    if removed == 'NEW1':
+        s['counters']['new1_count_window'] = max(0, s['counters']['new1_count_window'] - 1)
+    elif removed == 'QRY2':
+        s['counters']['qry2_count_window'] = max(0, s['counters']['qry2_count_window'] - 1)
+    elif removed in ('RCH1', 'RCH2', 'RCH3', 'RCH4', 'QUO3', 'RCH9'):
+        s['counters']['enrich_count_window'] = max(0, s['counters']['enrich_count_window'] - 1)
+    if removed == 'RCH1':
+        s['counters']['rch1_count_window'] = max(0, s['counters']['rch1_count_window'] - 1)
+    elif removed == 'RCH2':
+        s['counters']['rch2_count_window'] = max(0, s['counters']['rch2_count_window'] - 1)
+
+if gene == 'NEW1':
+    s['counters']['new1_count_window'] += 1
+elif gene == 'QRY2':
+    s['counters']['qry2_count_window'] += 1
+elif gene in ('RFT2', 'RFT9'):
+    s['counters']['rft_count_window'] += 1
+elif gene in ('RCH1', 'RCH2', 'RCH3', 'RCH4', 'QUO3', 'RCH9'):
+    s['counters']['enrich_count_window'] += 1
+    if gene == 'RCH1':
+        s['counters']['rch1_count_window'] += 1
+    elif gene == 'RCH2':
+        s['counters']['rch2_count_window'] += 1
+
+json.dump(s, open('local/state/grow_state.json', 'w'), ensure_ascii=False, indent=2)
+```
+
+---
+
+### 5.6 每轮日志
+
+```yaml
+---
+round: {{N}}
+date: {{YYYY-MM-DD}}
+phase: "5"
+gene: {{gene}}
+enrich_variant: {{variant}}
+list_type: {{type}}
+pages: [{{slug1}}, ...]
+result: accept
+window_snapshot: "{{new1}}N/{{enrich}}E/{{qry2}}L/{{rft}}R"
+---
+```
+
+---
+
+### 5.7 EXIT-GATE（每轮必做）
+
+| 检查门 | 说明 |
+|--------|------|
+| E1 | 页面字数无缩减 |
+| E2 | NEW1 档位 basic；QRY2 档位至少 basic |
+| E3 | PN 引注格式合规 |
+| E4 | Frontmatter 完整 |
+| E5 | 无空 wikilink |
+| E6 | 页面渲染正常 |
+| E7 | 日志记录完整 |
+| E8 | 无阻塞性 lint 错误 |
+| E9 | QRY2 后置：query 渲染非空，覆盖率 ≥ 80% |
+
+**EXIT-GATE 通过后：state 更新 + 同批 commit**
+
+```bash
+python3 -c "
+import json
+s = json.load(open('local/state/grow_state.json'))
+s['counters']['current_round'] += 1
+s['last_updated_round'] = s['counters']['current_round']
+json.dump(s, open('local/state/grow_state.json', 'w'), ensure_ascii=False, indent=2)
+"
+
+git add local/state/grow_state.json docs/wiki/pages.json logs/gene-express/{{本轮日志}}
+bash wiki/scripts/skill_commit.sh "R{{N}}: {{gene}} {{slug}}"
+```
+
+---
+
+### 5.8 W5 反思（每 29 轮强制）
+
+在 Phase 3 W5 基础上，额外增加：
+
+- **List 页面回顾**：已建 List 页面是否有遗漏主题？
+- **RCH3/RCH4 效果评估**：解释节/多视角节是否显著提升 EVV1 分？
+- **洞察候选积累**：本窗口内 SCN26 发现了哪些高价值跨实体联系？
+
+---
+
+### 5.X 退出条件
+
+以下任一条件触发，进入 5.Y 精品冲刺，完成后再进入 5-Z 深度反思：
+
+```
+A. 全局候选枯竭：连续 3 轮 discover 新候选 < 5 条
+B. 用户主动触发
+```
+
+退出检查在每轮 pre-flight 时执行：
+
+```python
+import json
+s = json.load(open('local/state/grow_state.json'))
+discover_streak = s['counters'].get('discover_streak_low', 0)
+if discover_streak >= 3:
+    raise SystemExit(f'=== Phase 5 退出：候选枯竭（连续 {discover_streak} 轮 < 5 条）→ 进入 5.Y 精品冲刺')
+```
+
+---
+
+### 5.Y 精品冲刺（进入 5-Z 前必做）
+
+> **目标**：15 个词条达到 featured 或 premium 质量档，作为 wiki 的旗舰展示页面。
+> 当前基线：featured+ = 234/291（80.4%），目标缺口：15 个新增 featured/premium。
+
+**候选选取**：quality=standard 的词条池（当前 29 个），优先选：
+- 引用最多的 standard 页
+- 有丰富语料支撑但未充分提炼的词条
+- 与已有 featured 页构成完整知识链的页面
+
+**冲刺过程**：每页独立 `RCH2-enrich-grade` 从 standard → featured。
+
+**完成条件**：
+- [ ] 至少 15 个词条从 standard 提升至 featured
+- [ ] 每个提升页面有 `record_revision.py` 记录
+- [ ] `pages.json` 质量档已更新
+
+---
+
+### 5-Z Phase 5 三维深度反思
+
+> **目标**：Phase 5 退出前，从以下三个维度对 wiki 整体状态做结构化反思，
+> 产出 `local/memory/grow_phase5_summary.md`。
+
+**维度一：类型体系完整性**
+- 当前五类型（concept/place/species/person/event）是否充分覆盖了全书核心主题？
+- 是否存在跨类型的概念群需要 List 页聚合？
+- 新类型候选（如有）是否值得在 Phase 6 纳入？
+
+**维度二：质量分布健康度**
+- featured+ 比例、stub 比例是否在健康区间？
+- 是否存在长期未被 enrich 的"被遗忘页面"？
+- EVV6 均分最低的类型是否需要系统性的模板修订？
+
+**维度三：链接网络密度**
+- 平均每页 wikilink 数是否增长？
+- 孤立页面（无入链）数量是否下降？
+- backlinks.json 覆盖率是否 > 80%？
+
+**产出文件**：
+
+```markdown
+<!-- local/memory/grow_phase5_summary.md -->
+# Phase 5 深度反思 — 枪炮、病菌与钢铁
+
+生成时间: {{YYYY-MM-DD}}
+Phase 5 轮次范围: R94–R{{N}}
+
+## 维度一：类型体系完整性
+...
+
+## 维度二：质量分布健康度
+...
+
+## 维度三：链接网络密度
+...
+
+## 下一阶段建议
+→ Phase 6（{{建议}}）
+```
+
+- [ ] `local/memory/grow_phase5_summary.md` 已写入
+- [ ] 无 `{{占位符}}` 残留
+- [ ] 下一阶段判断结论清晰
+- [ ] `local/config/butler.json` 中 `grow_phase` 已更新
