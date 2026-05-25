@@ -4,9 +4,8 @@
   "grow_phase": "2.1",
   "phase2_iteration": 1,
   "phase2_closed": false,
-  "current_type": "place",
+  "current_type": "person",
   "type_queue": [
-    "person",
     "event"
   ],
   "closed_types": [
@@ -19,11 +18,16 @@
       "type": "species",
       "final_count": 49,
       "closed_round": 79
+    },
+    {
+      "type": "place",
+      "final_count": 44,
+      "closed_round": 85
     }
   ],
   "counters": {
-    "current_round": 85,
-    "type_round": 5,
+    "current_round": 87,
+    "type_round": 1,
     "rounds_since_last_evv5": 0,
     "rounds_since_last_discover": 0,
     "discover_streak_low": 0
@@ -36,5 +40,5 @@
     "type_close_new_candidate_min": 3
   },
   "pending_new_types": [],
-  "last_updated_round": 85
+  "last_updated_round": 87
 }
