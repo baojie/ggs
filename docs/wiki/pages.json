@@ -285,7 +285,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 3
     },
     "ch01-up-to-the-starting-line": {
       "type": "chapter",
@@ -1015,6 +1015,30 @@
       "book_seq": -1,
       "total_refs": 0
     },
+    "干旱": {
+      "type": "concept",
+      "label": "干旱",
+      "aliases": [
+        "drought",
+        "旱灾",
+        "干燥气候",
+        "ENSO"
+      ],
+      "tags": [
+        "气候",
+        "环境",
+        "澳大利亚"
+      ],
+      "path": "ga/干旱.md",
+      "description": "长期或季节性降水不足，在澳大利亚案例中成为阻碍农业发展的关键气候约束",
+      "prose_len": 895,
+      "prose_chars": 801,
+      "h2_count": 5,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "钢铁": {
       "type": "concept",
       "label": "钢铁",
@@ -1194,6 +1218,30 @@
       "quality_score": 31,
       "total_refs": 1
     },
+    "工程": {
+      "type": "concept",
+      "label": "工程",
+      "aliases": [
+        "engineering",
+        "公共工程",
+        "大型工程",
+        "基础设施"
+      ],
+      "tags": [
+        "政治组织",
+        "技术",
+        "国家"
+      ],
+      "path": "go/工程.md",
+      "description": "社会动员劳动力建造公共基础设施的能力，是衡量国家组织能力的核心指标",
+      "prose_len": 929,
+      "prose_chars": 829,
+      "h2_count": 5,
+      "pn_count": 6,
+      "wikilink_count": 8,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
     "国家": {
       "type": "concept",
       "label": "国家",
@@ -1217,7 +1265,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 17
+      "total_refs": 19
     },
     "国家的形成": {
       "type": "event",
@@ -1345,6 +1393,30 @@
       "quality_score": 25,
       "total_refs": 1
     },
+    "火": {
+      "type": "concept",
+      "label": "火",
+      "aliases": [
+        "fire",
+        "用火",
+        "火耕",
+        "火耕农业"
+      ],
+      "tags": [
+        "技术",
+        "生态",
+        "土著"
+      ],
+      "path": "hu/火.md",
+      "description": "人类最早掌握的核心技术之一，澳大利亚土著的火耕农业揭示了火作为土地管理工具的独特价值",
+      "prose_len": 708,
+      "prose_chars": 640,
+      "h2_count": 4,
+      "pn_count": 4,
+      "wikilink_count": 2,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "环境": {
       "type": "concept",
       "label": "环境",
@@ -1440,7 +1512,31 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 4
+      "total_refs": 5
+    },
+    "继承": {
+      "type": "concept",
+      "label": "继承",
+      "aliases": [
+        "inheritance",
+        "世袭",
+        "权力继承",
+        "世袭制度"
+      ],
+      "tags": [
+        "政治组织",
+        "社会",
+        "酋长"
+      ],
+      "path": "ji/继承.md",
+      "description": "权力、地位和财产的代际传递方式，是区分不同社会复杂程度的重要制度标志",
+      "prose_len": 815,
+      "prose_chars": 736,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 7,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "近端原因与终极原因": {
       "type": "concept",
@@ -1489,7 +1585,7 @@
       "pn_count": 4,
       "wikilink_count": 8,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 1
     },
     "军事征服": {
       "type": "concept",
@@ -1733,7 +1829,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 64
+      "total_refs": 65
     },
     "轮子": {
       "type": "concept",
@@ -2206,7 +2302,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 14
+      "total_refs": 16
     },
     "奴隶": {
       "type": "concept",
@@ -2397,7 +2493,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 5
+      "total_refs": 7
     },
     "人口密度": {
       "type": "concept",
@@ -2593,7 +2689,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 6
+      "total_refs": 8
     },
     "水稻": {
       "type": "species",
@@ -2645,6 +2741,30 @@
       "quality": "standard",
       "quality_score": 31,
       "total_refs": 10
+    },
+    "生态": {
+      "type": "concept",
+      "label": "生态",
+      "aliases": [
+        "ecology",
+        "生态环境",
+        "生态系统",
+        "生态条件"
+      ],
+      "tags": [
+        "地理",
+        "环境",
+        "生物多样性"
+      ],
+      "path": "sh/生态.md",
+      "description": "生物与环境的相互关系体系，决定了可供驯化的物种数量和农业传播的可能性",
+      "prose_len": 753,
+      "prose_chars": 672,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "生态适应": {
       "type": "concept",
@@ -2792,7 +2912,7 @@
       "pn_count": 4,
       "wikilink_count": 9,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 1
     },
     "瓦特": {
       "type": "person",
@@ -3013,7 +3133,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 31
+      "total_refs": 32
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -3062,7 +3182,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 1
     },
     "驯化": {
       "type": "concept",
@@ -3087,7 +3207,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 38
+      "total_refs": 39
     },
     "亚历山大大帝": {
       "type": "person",
@@ -3406,7 +3526,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 4
     },
     "专业化分工": {
       "type": "concept",
@@ -3580,7 +3700,7 @@
       "blockquote_count": 1,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 8
+      "total_refs": 9
     },
     "植物学": {
       "type": "concept",
@@ -3926,6 +4046,11 @@
     "撒哈拉以南非洲": "非洲",
     "非洲大陆": "非洲",
     "Frontispiece": "Frontispiece",
+    "干旱": "干旱",
+    "drought": "干旱",
+    "旱灾": "干旱",
+    "干燥气候": "干旱",
+    "ENSO": "干旱",
     "钢铁": "钢铁",
     "铁器": "钢铁",
     "钢铁技术": "钢铁",
@@ -3953,6 +4078,11 @@
     "技术工具": "工具",
     "石器": "工具",
     "人工制品": "工具",
+    "工程": "工程",
+    "engineering": "工程",
+    "公共工程": "工程",
+    "大型工程": "工程",
+    "基础设施": "工程",
     "国家": "国家",
     "国家社会": "国家",
     "国家形成": "国家",
@@ -3978,6 +4108,11 @@
     "Black Death": "黑死病",
     "腺鼠疫": "黑死病",
     "1346年鼠疫": "黑死病",
+    "火": "火",
+    "fire": "火",
+    "用火": "火",
+    "火耕": "火",
+    "火耕农业": "火",
     "环境": "环境",
     "environment": "环境",
     "自然环境": "环境",
@@ -3994,6 +4129,11 @@
     "累积性技术进步": "技术积累",
     "技术演化": "技术积累",
     "发明的积累性": "技术积累",
+    "继承": "继承",
+    "inheritance": "继承",
+    "世袭": "继承",
+    "权力继承": "继承",
+    "世袭制度": "继承",
     "近端原因与终极原因": "近端原因与终极原因",
     "直接原因与终极原因": "近端原因与终极原因",
     "proximate cause": "近端原因与终极原因",
@@ -4185,6 +4325,11 @@
     "狩猎采集者": "狩猎采集",
     "采集狩猎": "狩猎采集",
     "hunter-gatherer": "狩猎采集",
+    "生态": "生态",
+    "ecology": "生态",
+    "生态环境": "生态",
+    "生态系统": "生态",
+    "生态条件": "生态",
     "生态适应": "生态适应",
     "环境适应": "生态适应",
     "生态位适应": "生态适应",
@@ -4378,6 +4523,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 160,
-  "generated": "2026-05-25T13:24:13Z"
+  "page_count": 165,
+  "generated": "2026-05-25T13:28:57Z"
 }
