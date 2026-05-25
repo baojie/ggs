@@ -653,7 +653,30 @@
       "blockquote_count": 1,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 4
+      "total_refs": 5
+    },
+    "创新": {
+      "type": "concept",
+      "label": "创新",
+      "aliases": [
+        "innovation",
+        "技术创新",
+        "发明创造"
+      ],
+      "tags": [
+        "技术",
+        "发明",
+        "社会因素"
+      ],
+      "path": "ch/创新.md",
+      "description": "技术与知识的创造性更新，受经济激励、意识形态和社会组织因素的综合驱动",
+      "prose_len": 913,
+      "prose_chars": 826,
+      "h2_count": 5,
+      "pn_count": 5,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "城市": {
       "type": "concept",
@@ -1016,7 +1039,7 @@
       "blockquote_count": 1,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 2
+      "total_refs": 3
     },
     "高粱": {
       "type": "species",
@@ -1194,7 +1217,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 16
+      "total_refs": 17
     },
     "国家的形成": {
       "type": "event",
@@ -1295,7 +1318,7 @@
       "blockquote_count": 3,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 0
+      "total_refs": 2
     },
     "黑死病": {
       "type": "event",
@@ -1345,7 +1368,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 13
+      "total_refs": 15
     },
     "技术传播": {
       "type": "concept",
@@ -1370,7 +1393,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 20
+      "total_refs": 21
     },
     "技术积累": {
       "type": "concept",
@@ -1394,7 +1417,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "近端原因与终极原因": {
       "type": "concept",
@@ -1469,7 +1492,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 1
     },
     "卡哈马卡": {
       "type": "place",
@@ -1566,6 +1589,31 @@
       "affiliation": "西班牙王国",
       "total_refs": 1
     },
+    "扩张": {
+      "type": "concept",
+      "label": "扩张",
+      "aliases": [
+        "expansion",
+        "人口扩张",
+        "领土扩张",
+        "农业扩张"
+      ],
+      "tags": [
+        "人口",
+        "农业",
+        "迁徙",
+        "历史"
+      ],
+      "path": "ku/扩张.md",
+      "description": "农业民族取代狩猎采集者的人口与领土扩张过程，是《枪炮》核心叙事主线之一",
+      "prose_len": 904,
+      "prose_chars": 799,
+      "h2_count": 6,
+      "pn_count": 6,
+      "wikilink_count": 7,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
     "莱特兄弟": {
       "type": "person",
       "label": "莱特兄弟",
@@ -1614,7 +1662,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 61
+      "total_refs": 62
     },
     "轮子": {
       "type": "concept",
@@ -1945,6 +1993,29 @@
       "blockquote_count": 0,
       "total_refs": 3
     },
+    "灭绝": {
+      "type": "concept",
+      "label": "灭绝",
+      "aliases": [
+        "extinction",
+        "物种灭绝",
+        "巨型动物灭绝"
+      ],
+      "tags": [
+        "生态",
+        "人类影响",
+        "史前史"
+      ],
+      "path": "mi/灭绝.md",
+      "description": "人类扩张导致大型动物物种消失的历史模式，是理解大陆生物资源差异的关键",
+      "prose_len": 911,
+      "prose_chars": 835,
+      "h2_count": 5,
+      "pn_count": 8,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
     "绵羊": {
       "type": "species",
       "label": "绵羊",
@@ -2064,7 +2135,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 11
+      "total_refs": 13
     },
     "奴隶": {
       "type": "concept",
@@ -2279,7 +2350,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 7
+      "total_refs": 8
     },
     "人口扩张": {
       "type": "concept",
@@ -2427,7 +2498,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 17
+      "total_refs": 18
     },
     "剩余粮食": {
       "type": "concept",
@@ -2451,7 +2522,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 4
+      "total_refs": 5
     },
     "水稻": {
       "type": "species",
@@ -2553,6 +2624,30 @@
       "quality": "standard",
       "quality_score": 31,
       "total_refs": 23
+    },
+    "探险": {
+      "type": "concept",
+      "label": "探险",
+      "aliases": [
+        "exploration",
+        "地理探险",
+        "地理发现",
+        "航海探险"
+      ],
+      "tags": [
+        "航海",
+        "迁徙",
+        "地理发现"
+      ],
+      "path": "ta/探险.md",
+      "description": "人类对未知地域的主动探索与定居，从史前太平洋拓殖到欧洲地理大发现的宏大历史进程",
+      "prose_len": 854,
+      "prose_chars": 766,
+      "h2_count": 5,
+      "pn_count": 4,
+      "wikilink_count": 6,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "陶器": {
       "type": "concept",
@@ -2800,7 +2895,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 29
+      "total_refs": 30
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -2874,7 +2969,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 37
+      "total_refs": 38
     },
     "亚历山大大帝": {
       "type": "person",
@@ -2925,7 +3020,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 5
+      "total_refs": 6
     },
     "耶利": {
       "type": "person",
@@ -3367,7 +3462,7 @@
       "blockquote_count": 1,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 5
+      "total_refs": 7
     },
     "植物学": {
       "type": "concept",
@@ -3519,6 +3614,30 @@
       "blockquote_count": 0,
       "total_refs": 1
     },
+    "资源": {
+      "type": "concept",
+      "label": "资源",
+      "aliases": [
+        "resources",
+        "自然资源",
+        "环境资源",
+        "矿产资源"
+      ],
+      "tags": [
+        "地理",
+        "环境",
+        "社会发展"
+      ],
+      "path": "zi/资源.md",
+      "description": "自然环境提供的可利用物质条件，岛屿间资源差异构成了研究人类社会发展的天然实验室",
+      "prose_len": 922,
+      "prose_chars": 840,
+      "h2_count": 5,
+      "pn_count": 5,
+      "wikilink_count": 8,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "宗教": {
       "type": "concept",
       "label": "宗教",
@@ -3637,6 +3756,10 @@
     "epidemic": "传染病",
     "病菌传播": "传染病",
     "传染性疾病": "传染病",
+    "创新": "创新",
+    "innovation": "创新",
+    "技术创新": "创新",
+    "发明创造": "创新",
     "城市": "城市",
     "city": "城市",
     "城镇": "城市",
@@ -3679,9 +3802,7 @@
     "Epilogue": "Epilogue",
     "发明": "发明",
     "技术发明": "发明",
-    "创新": "发明",
     "invention": "发明",
-    "技术创新": "发明",
     "非洲": "非洲",
     "Africa": "非洲",
     "撒哈拉以南非洲": "非洲",
@@ -3776,6 +3897,11 @@
     "科尔特斯": "科尔特斯",
     "埃尔南·科尔特斯": "科尔特斯",
     "Hernán Cortés": "科尔特斯",
+    "扩张": "扩张",
+    "expansion": "扩张",
+    "人口扩张": "扩张",
+    "领土扩张": "扩张",
+    "农业扩张": "扩张",
     "莱特兄弟": "莱特兄弟",
     "Wright Brothers": "莱特兄弟",
     "奥维尔·莱特": "莱特兄弟",
@@ -3838,6 +3964,9 @@
     "族群": "民族",
     "民族形成": "民族",
     "种族": "民族",
+    "灭绝": "灭绝",
+    "extinction": "灭绝",
+    "物种灭绝": "灭绝",
     "绵羊": "绵羊",
     "羊": "绵羊",
     "家羊": "绵羊",
@@ -3890,7 +4019,6 @@
     "人口密度": "人口密度",
     "人口压力": "人口密度",
     "population density": "人口密度",
-    "人口扩张": "人口扩张",
     "农民扩张": "人口扩张",
     "人口置换": "人口扩张",
     "人口压力扩张": "人口扩张",
@@ -3933,6 +4061,11 @@
     "政治复杂性": "社会复杂性",
     "社会层级": "社会复杂性",
     "social complexity": "社会复杂性",
+    "探险": "探险",
+    "exploration": "探险",
+    "地理探险": "探险",
+    "地理发现": "探险",
+    "航海探险": "探险",
     "陶器": "陶器",
     "陶瓷": "陶器",
     "pottery": "陶器",
@@ -4089,6 +4222,11 @@
     "达尔文自然选择": "自然选择",
     "物种选择": "自然选择",
     "进化选择": "自然选择",
+    "资源": "资源",
+    "resources": "资源",
+    "自然资源": "资源",
+    "环境资源": "资源",
+    "矿产资源": "资源",
     "宗教": "宗教",
     "有组织的宗教": "宗教",
     "religion": "宗教",
@@ -4099,6 +4237,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 150,
-  "generated": "2026-05-25T13:13:01Z"
+  "page_count": 155,
+  "generated": "2026-05-25T13:19:11Z"
 }
