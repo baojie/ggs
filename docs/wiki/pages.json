@@ -307,7 +307,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 11
+      "total_refs": 12
     },
     "玻璃": {
       "type": "concept",
@@ -948,7 +948,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 50
+      "total_refs": 52
     },
     "大麦": {
       "type": "species",
@@ -1384,6 +1384,51 @@
       "quality": "featured",
       "quality_score": 58,
       "total_refs": 0
+    },
+    "橄榄": {
+      "type": "species",
+      "label": "橄榄",
+      "aliases": [
+        "油橄榄",
+        "olive"
+      ],
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ],
+      "path": "ga/橄榄.md",
+      "description": "地中海地区最早驯化的果树之一，其油脂是古代文明重要的食用油来源",
+      "prose_len": 707,
+      "prose_chars": 648,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 2
+    },
+    "甘薯": {
+      "type": "species",
+      "label": "甘薯",
+      "aliases": [
+        "红薯",
+        "番薯",
+        "sweet potato"
+      ],
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ],
+      "path": "ga/甘薯.md",
+      "description": "原产南美洲安第斯山脉的根用作物，传入新几内亚后引发人口激增",
+      "prose_len": 633,
+      "prose_chars": 574,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 2
     },
     "钢铁": {
       "type": "concept",
@@ -2781,7 +2826,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 72
+      "total_refs": 75
     },
     "轮子": {
       "type": "concept",
@@ -2886,7 +2931,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 8
+      "total_refs": 9
     },
     "马的驯化": {
       "type": "event",
@@ -2937,7 +2982,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 2
+      "total_refs": 3
     },
     "麻疹": {
       "type": "species",
@@ -3036,6 +3081,31 @@
       "quality": "featured",
       "quality_score": 56,
       "total_refs": 0
+    },
+    "美洲驼": {
+      "type": "species",
+      "label": "美洲驼",
+      "aliases": [
+        "美洲驼",
+        "大羊驼",
+        "llama",
+        "羊驼",
+        "南美小羊驼"
+      ],
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ],
+      "path": "me/美洲驼.md",
+      "description": "安第斯山脉地区驯化的重要哺乳动物，是哥伦布前美洲唯一的驮畜",
+      "prose_len": 726,
+      "prose_chars": 666,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 1
     },
     "蒙特朱马": {
       "type": "person",
@@ -3279,7 +3349,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 2
+      "total_refs": 3
     },
     "牛": {
       "type": "species",
@@ -3542,7 +3612,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 1
     },
     "亲属关系": {
       "type": "concept",
@@ -4747,7 +4817,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 8
+      "total_refs": 10
     },
     "新月沃地": {
       "type": "concept",
@@ -4773,7 +4843,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 38
+      "total_refs": 39
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -4893,7 +4963,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 1
     },
     "驯化": {
       "type": "concept",
@@ -4918,7 +4988,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 47
+      "total_refs": 48
     },
     "亚历山大大帝": {
       "type": "person",
@@ -5014,6 +5084,28 @@
       "quality": "featured",
       "quality_score": 60,
       "total_refs": 10
+    },
+    "椰子": {
+      "type": "species",
+      "label": "椰子",
+      "aliases": [
+        "椰子",
+        "coconut"
+      ],
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ],
+      "path": "ye/椰子.md",
+      "description": "热带沿海地区广泛分布的棕榈科植物，为太平洋岛屿社会提供食物、饮水和材料",
+      "prose_len": 645,
+      "prose_chars": 587,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "耶利": {
       "type": "person",
@@ -5214,6 +5306,29 @@
       "quality": "featured",
       "quality_score": 60,
       "total_refs": 6
+    },
+    "芋艿": {
+      "type": "species",
+      "label": "芋艿",
+      "aliases": [
+        "芋头",
+        "芋",
+        "taro"
+      ],
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ],
+      "path": "yu/芋艿.md",
+      "description": "东南亚和新几内亚驯化的根用作物，太平洋岛屿地区重要的碳水化合物主食来源",
+      "prose_len": 594,
+      "prose_chars": 535,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 2
     },
     "语系": {
       "type": "concept",
@@ -6042,6 +6157,13 @@
     "旱灾": "干旱",
     "干燥气候": "干旱",
     "ENSO": "干旱",
+    "橄榄": "橄榄",
+    "油橄榄": "橄榄",
+    "olive": "橄榄",
+    "甘薯": "甘薯",
+    "红薯": "甘薯",
+    "番薯": "甘薯",
+    "sweet potato": "甘薯",
     "钢铁": "钢铁",
     "铁器": "钢铁",
     "钢铁技术": "钢铁",
@@ -6303,6 +6425,11 @@
     "美洲独立农业起源": "美洲独立农业起源",
     "Independent Agricultural Origins in the Americas": "美洲独立农业起源",
     "中美洲农业起源": "美洲独立农业起源",
+    "美洲驼": "美洲驼",
+    "大羊驼": "美洲驼",
+    "llama": "美洲驼",
+    "羊驼": "美洲驼",
+    "南美小羊驼": "美洲驼",
     "蒙特朱马": "蒙特朱马",
     "Moctezuma": "蒙特朱马",
     "蒙特苏马": "蒙特朱马",
@@ -6593,6 +6720,8 @@
     "金属加工": "冶金",
     "炼铁": "冶金",
     "青铜冶炼": "冶金",
+    "椰子": "椰子",
+    "coconut": "椰子",
     "耶利": "耶利",
     "Yali": "耶利",
     "一年生植物": "一年生植物",
@@ -6620,6 +6749,10 @@
     "maize": "玉米",
     "corn": "玉米",
     "Zea mays": "玉米",
+    "芋艿": "芋艿",
+    "芋头": "芋艿",
+    "芋": "芋艿",
+    "taro": "芋艿",
     "语系": "语系",
     "语言家族": "语系",
     "语族": "语系",
@@ -6722,6 +6855,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 242,
-  "generated": "2026-05-25T14:52:53Z"
+  "page_count": 247,
+  "generated": "2026-05-25T14:53:53Z"
 }
