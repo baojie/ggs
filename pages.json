@@ -629,7 +629,33 @@
       "blockquote_count": 1,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 1
+      "total_refs": 3
+    },
+    "城市": {
+      "type": "concept",
+      "label": "城市",
+      "aliases": [
+        "city",
+        "城镇",
+        "都市",
+        "城市化"
+      ],
+      "tags": [
+        "社会复杂性",
+        "国家",
+        "传染病"
+      ],
+      "path": "ch/城市.md",
+      "description": "在《枪炮、病菌与钢铁》中，城市是国家社会的物质标志，它集中了不从事粮食生产的专业人口，催生了文字、税收和行政管理，同时也为传染病的演化和爆发提供了人口密集的温床。",
+      "prose_len": 1067,
+      "prose_chars": 838,
+      "h2_count": 5,
+      "pn_count": 6,
+      "wikilink_count": 5,
+      "blockquote_count": 2,
+      "quality": "standard",
+      "quality_score": 30,
+      "total_refs": 0
     },
     "大陆轴线": {
       "type": "concept",
@@ -654,7 +680,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 32
+      "total_refs": 34
     },
     "大麦": {
       "type": "species",
@@ -846,7 +872,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 33,
-      "total_refs": 4
+      "total_refs": 6
     },
     "非洲": {
       "type": "place",
@@ -1044,6 +1070,33 @@
       "affiliation": "斯坦福大学",
       "total_refs": 0
     },
+    "工具": {
+      "type": "concept",
+      "label": "工具",
+      "aliases": [
+        "tools",
+        "技术工具",
+        "石器",
+        "铁器",
+        "人工制品"
+      ],
+      "tags": [
+        "技术传播",
+        "征服",
+        "发明"
+      ],
+      "path": "go/工具.md",
+      "description": "在《枪炮、病菌与钢铁》中，工具（尤其是武器和运输工具）是某些民族用来扩张领域和征服其他民族的直接手段，工具水平的差距在文明碰撞时产生决定性后果。",
+      "prose_len": 1105,
+      "prose_chars": 812,
+      "h2_count": 5,
+      "pn_count": 6,
+      "wikilink_count": 5,
+      "blockquote_count": 3,
+      "quality": "standard",
+      "quality_score": 31,
+      "total_refs": 0
+    },
     "国家": {
       "type": "concept",
       "label": "国家",
@@ -1067,7 +1120,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 5
+      "total_refs": 7
     },
     "国家的形成": {
       "type": "event",
@@ -1092,6 +1145,32 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 26,
+      "total_refs": 0
+    },
+    "灌溉": {
+      "type": "concept",
+      "label": "灌溉",
+      "aliases": [
+        "irrigation",
+        "灌溉农业",
+        "水利工程",
+        "灌溉系统"
+      ],
+      "tags": [
+        "农业",
+        "社会复杂性",
+        "国家"
+      ],
+      "path": "gu/灌溉.md",
+      "description": "在《枪炮、病菌与钢铁》中，大规模灌溉系统是国家级复杂社会才能组织的公共工程，既是农业生产力提升的关键手段，也曾被作为国家形成的\"水利理论\"的核心论据——戴蒙德对后者提出了批判性分析。",
+      "prose_len": 1131,
+      "prose_chars": 986,
+      "h2_count": 5,
+      "pn_count": 5,
+      "wikilink_count": 5,
+      "blockquote_count": 1,
+      "quality": "standard",
+      "quality_score": 31,
       "total_refs": 0
     },
     "谷登堡": {
@@ -1192,7 +1271,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 11
+      "total_refs": 12
     },
     "技术传播": {
       "type": "concept",
@@ -1217,7 +1296,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 15
+      "total_refs": 18
     },
     "近端原因与终极原因": {
       "type": "concept",
@@ -1365,7 +1444,33 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 52
+      "total_refs": 54
+    },
+    "轮子": {
+      "type": "concept",
+      "label": "轮子",
+      "aliases": [
+        "wheel",
+        "车轮",
+        "轮轴",
+        "有轮车"
+      ],
+      "tags": [
+        "技术传播",
+        "发明",
+        "大陆轴线"
+      ],
+      "path": "lu/轮子.md",
+      "description": "在《枪炮、病菌与钢铁》中，轮子是技术传播与发明规律的经典案例：它在旧大陆沿东西轴线迅速扩散，却在新大陆独立发明后因缺乏驮兽而无法实用化，揭示了地理和生态条件如何决定技术的命运。",
+      "prose_len": 1130,
+      "prose_chars": 870,
+      "h2_count": 5,
+      "pn_count": 5,
+      "wikilink_count": 5,
+      "blockquote_count": 2,
+      "quality": "standard",
+      "quality_score": 31,
+      "total_refs": 0
     },
     "骆驼": {
       "type": "species",
@@ -1393,6 +1498,32 @@
       "quality": "standard",
       "quality_score": 31,
       "total_refs": 1
+    },
+    "贸易": {
+      "type": "concept",
+      "label": "贸易",
+      "aliases": [
+        "trade",
+        "商贸",
+        "贸易路线",
+        "交换"
+      ],
+      "tags": [
+        "技术传播",
+        "传染病",
+        "社会复杂性"
+      ],
+      "path": "ma/贸易.md",
+      "description": "在《枪炮、病菌与钢铁》中，贸易是技术和思想传播的主要和平渠道，同时也是传染病跨洲际传播的关键网络。贸易路线的密度与方向决定了文明之间的技术交流速度。",
+      "prose_len": 1156,
+      "prose_chars": 1013,
+      "h2_count": 5,
+      "pn_count": 6,
+      "wikilink_count": 5,
+      "blockquote_count": 1,
+      "quality": "standard",
+      "quality_score": 31,
+      "total_refs": 0
     },
     "马": {
       "type": "species",
@@ -1738,7 +1869,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 0
+      "total_refs": 1
     },
     "欧亚大陆": {
       "type": "place",
@@ -2003,7 +2134,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 12
+      "total_refs": 14
     },
     "水稻": {
       "type": "species",
@@ -2079,7 +2210,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 17
+      "total_refs": 21
     },
     "陶器": {
       "type": "concept",
@@ -2353,7 +2484,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 29
+      "total_refs": 30
     },
     "亚历山大大帝": {
       "type": "person",
@@ -2404,7 +2535,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 2
+      "total_refs": 3
     },
     "耶利": {
       "type": "person",
@@ -2606,7 +2737,7 @@
       "blockquote_count": 1,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 3
+      "total_refs": 4
     },
     "殖民主义": {
       "type": "concept",
@@ -2776,6 +2907,11 @@
     "epidemic": "传染病",
     "病菌传播": "传染病",
     "传染性疾病": "传染病",
+    "城市": "城市",
+    "city": "城市",
+    "城镇": "城市",
+    "都市": "城市",
+    "城市化": "城市",
     "大陆轴线": "大陆轴线",
     "大陆主轴线": "大陆轴线",
     "东西轴线": "大陆轴线",
@@ -2835,6 +2971,11 @@
     "格林伯格": "格林伯格",
     "约瑟夫·格林伯格": "格林伯格",
     "Joseph Greenberg": "格林伯格",
+    "工具": "工具",
+    "tools": "工具",
+    "技术工具": "工具",
+    "石器": "工具",
+    "人工制品": "工具",
     "国家": "国家",
     "国家社会": "国家",
     "国家形成": "国家",
@@ -2843,6 +2984,11 @@
     "State Formation": "国家的形成",
     "最早国家": "国家的形成",
     "国家起源": "国家的形成",
+    "灌溉": "灌溉",
+    "irrigation": "灌溉",
+    "灌溉农业": "灌溉",
+    "水利工程": "灌溉",
+    "灌溉系统": "灌溉",
     "谷登堡": "谷登堡",
     "约翰内斯·谷登堡": "谷登堡",
     "Johannes Gutenberg": "谷登堡",
@@ -2884,11 +3030,21 @@
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
     "农耕": "粮食生产",
+    "轮子": "轮子",
+    "wheel": "轮子",
+    "车轮": "轮子",
+    "轮轴": "轮子",
+    "有轮车": "轮子",
     "骆驼": "骆驼",
     "单峰驼": "骆驼",
     "双峰驼": "骆驼",
     "camel": "骆驼",
     "Camelus dromedarius": "骆驼",
+    "贸易": "贸易",
+    "trade": "贸易",
+    "商贸": "贸易",
+    "贸易路线": "贸易",
+    "交换": "贸易",
     "马": "马",
     "马匹": "马",
     "骏马": "马",
@@ -3098,6 +3254,6 @@
     "意识形态": "宗教",
     "神权": "宗教"
   },
-  "page_count": 115,
-  "generated": "2026-05-25T10:19:44Z"
+  "page_count": 120,
+  "generated": "2026-05-25T11:13:00Z"
 }
