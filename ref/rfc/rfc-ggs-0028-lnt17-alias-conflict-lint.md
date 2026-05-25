@@ -1,6 +1,6 @@
 # RFC-ggs-0028: 新增 LNT17 alias-conflict-lint 基因及配套脚本
 
-- **Status**: proposed
+- **Status**: implemented
 - **Date**: 2026-05-26
 - **Issue**: https://github.com/baojie/memex/issues/173
 - **Source wiki**: ggs
@@ -86,3 +86,10 @@ python3 wiki/scripts/lint_alias_conflict.py --fix
 
 脚本已在 ggs 本地创建并验证（修复了 51 处冲突至 0）。内容见 ggs/wiki/scripts/lint_alias_conflict.py。
 ```
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-26
+**Commits**:
+- baojie/memex@7cf7ac0: feat(gene): 新增 LNT17 alias-conflict-lint 基因
