@@ -433,6 +433,28 @@
       "quality_score": 57,
       "total_refs": 0
     },
+    "蚕": {
+      "type": "species",
+      "label": "蚕",
+      "aliases": [
+        "家蚕",
+        "silkworm",
+        "桑蚕"
+      ],
+      "tags": [
+        "动物",
+        "驯化种"
+      ],
+      "path": "ca/蚕.md",
+      "description": "中国驯化的昆虫，其吐丝结茧产生的蚕丝是重要的纺织原料",
+      "prose_len": 320,
+      "prose_chars": 277,
+      "h2_count": 4,
+      "pn_count": 0,
+      "wikilink_count": 2,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
     "ch01-up-to-the-starting-line": {
       "type": "chapter",
       "label": "第一章　走上起跑线",
@@ -1286,7 +1308,7 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 1
     },
     "Epilogue": {
       "type": "chapter",
@@ -2116,7 +2138,7 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 1
     },
     "环境": {
       "type": "concept",
@@ -2316,7 +2338,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 25
+      "total_refs": 26
     },
     "技术积累": {
       "type": "concept",
@@ -2566,7 +2588,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 4
     },
     "军事征服": {
       "type": "concept",
@@ -2915,7 +2937,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 77
+      "total_refs": 78
     },
     "轮子": {
       "type": "concept",
@@ -3394,6 +3416,27 @@
       "quality_score": 62,
       "total_refs": 5
     },
+    "蜜蜂": {
+      "type": "species",
+      "label": "蜜蜂",
+      "aliases": [
+        "honeybee",
+        "家蜂"
+      ],
+      "tags": [
+        "动物",
+        "驯化种"
+      ],
+      "path": "mi/蜜蜂.md",
+      "description": "被人类驯化的昆虫，为人类提供蜂蜜和蜂蜡",
+      "prose_len": 344,
+      "prose_chars": 298,
+      "h2_count": 4,
+      "pn_count": 0,
+      "wikilink_count": 2,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "牧人": {
       "type": "concept",
       "label": "牧人",
@@ -3510,7 +3553,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 2
+      "total_refs": 3
     },
     "农业": {
       "type": "concept",
@@ -4271,6 +4314,28 @@
       "quality": "featured",
       "quality_score": 58,
       "total_refs": 1
+    },
+    "水牛": {
+      "type": "species",
+      "label": "水牛",
+      "aliases": [
+        "water buffalo",
+        "亚洲水牛"
+      ],
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ],
+      "path": "sh/水牛.md",
+      "description": "亚洲驯化的大型哺乳动物，用于犁地、产奶和运输",
+      "prose_len": 365,
+      "prose_chars": 318,
+      "h2_count": 4,
+      "pn_count": 0,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "水稻": {
       "type": "species",
@@ -5144,7 +5209,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 54
+      "total_refs": 59
     },
     "驯鹿": {
       "type": "species",
@@ -5233,6 +5298,28 @@
       "h2_count": 4,
       "pn_count": 5,
       "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
+    "鸭": {
+      "type": "species",
+      "label": "鸭",
+      "aliases": [
+        "duck",
+        "家鸭"
+      ],
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ],
+      "path": "ya/鸭.md",
+      "description": "欧亚大陆驯化的水禽，因肉蛋和羽毛而被驯化的鸟类之一",
+      "prose_len": 298,
+      "prose_chars": 254,
+      "h2_count": 4,
+      "pn_count": 0,
+      "wikilink_count": 3,
       "blockquote_count": 0,
       "total_refs": 1
     },
@@ -5979,6 +6066,27 @@
       "quality_score": 58,
       "total_refs": 2
     },
+    "珍珠鸡": {
+      "type": "species",
+      "label": "珍珠鸡",
+      "aliases": [
+        "guinea fowl"
+      ],
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ],
+      "path": "zh/珍珠鸡.md",
+      "description": "非洲唯一确切知道的本地驯化鸟类",
+      "prose_len": 398,
+      "prose_chars": 351,
+      "h2_count": 4,
+      "pn_count": 0,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "种族主义": {
       "type": "concept",
       "label": "种族主义",
@@ -6249,6 +6357,10 @@
     "大草原": "草原",
     "欧亚草原": "草原",
     "steppe": "草原",
+    "蚕": "蚕",
+    "家蚕": "蚕",
+    "silkworm": "蚕",
+    "桑蚕": "蚕",
     "ch01-up-to-the-starting-line": "ch01-up-to-the-starting-line",
     "ch02-natural-experiment-of-history": "ch02-natural-experiment-of-history",
     "ch03-collision-at-cajamarca": "ch03-collision-at-cajamarca",
@@ -6674,6 +6786,9 @@
     "家羊": "绵羊",
     "sheep": "绵羊",
     "Ovis aries": "绵羊",
+    "蜜蜂": "蜜蜂",
+    "honeybee": "蜜蜂",
+    "家蜂": "蜜蜂",
     "牧人": "牧人",
     "牧民": "牧人",
     "游牧民族": "牧人",
@@ -6796,6 +6911,9 @@
     "山地": "山脉",
     "山区": "山脉",
     "水利": "水利",
+    "水牛": "水牛",
+    "water buffalo": "水牛",
+    "亚洲水牛": "水牛",
     "水稻": "水稻",
     "稻米": "水稻",
     "大米": "水稻",
@@ -6940,6 +7058,9 @@
     "生物演化": "演化",
     "进化": "演化",
     "自然选择": "演化",
+    "鸭": "鸭",
+    "duck": "鸭",
+    "家鸭": "鸭",
     "冶金": "冶金",
     "冶金技术": "冶金",
     "metallurgy": "冶金",
@@ -7049,6 +7170,8 @@
     "野猪": "猪",
     "pig": "猪",
     "Sus scrofa domesticus": "猪",
+    "珍珠鸡": "珍珠鸡",
+    "guinea fowl": "珍珠鸡",
     "种族主义": "种族主义",
     "racism": "种族主义",
     "种族决定论": "种族主义",
@@ -7084,6 +7207,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 256,
-  "generated": "2026-05-25T14:55:17Z"
+  "page_count": 261,
+  "generated": "2026-05-25T14:55:51Z"
 }
