@@ -1225,6 +1225,15 @@
       ],
       "path": "ka/考古遗址.md"
     },
+    "keluoweiwenhua": {
+      "type": "event",
+      "label": "克罗维文化",
+      "aliases": [
+        "Clovis culture",
+        "克罗维遗址"
+      ],
+      "path": "ke/keluoweiwenhua.md"
+    },
     "科学": {
       "type": "concept",
       "label": "科学",
@@ -1294,6 +1303,14 @@
         "农耕"
       ],
       "path": "li/粮食生产.md"
+    },
+    "luoma-diguo": {
+      "type": "event",
+      "label": "罗马帝国",
+      "aliases": [
+        "Roman Empire"
+      ],
+      "path": "lu/luoma-diguo.md"
     },
     "lusuo": {
       "type": "person",
@@ -1441,6 +1458,14 @@
         "两河流域"
       ],
       "path": "me/meisuobudamiya.md"
+    },
+    "menggu-diguo": {
+      "type": "event",
+      "label": "蒙古帝国",
+      "aliases": [
+        "Mongol Empire"
+      ],
+      "path": "me/menggu-diguo.md"
     },
     "menggu": {
       "type": "place",
@@ -2300,6 +2325,22 @@
         "Hawaii"
       ],
       "path": "xi/xiaweiyi.md"
+    },
+    "xibanya-zhengfu-aziteke": {
+      "type": "event",
+      "label": "西班牙征服阿兹特克帝国",
+      "aliases": [
+        "Spanish conquest of Aztec Empire"
+      ],
+      "path": "xi/xibanya-zhengfu-aziteke.md"
+    },
+    "xibanya-zhengfu-yinjia": {
+      "type": "event",
+      "label": "西班牙征服印加帝国",
+      "aliases": [
+        "Spanish conquest of Inca Empire"
+      ],
+      "path": "xi/xibanya-zhengfu-yinjia.md"
     },
     "xiboliya": {
       "type": "place",
@@ -3373,6 +3414,10 @@
     "考古遗址": "考古遗址",
     "遗址": "考古遗址",
     "考古发掘": "考古遗址",
+    "keluoweiwenhua": "keluoweiwenhua",
+    "克罗维文化": "keluoweiwenhua",
+    "Clovis culture": "keluoweiwenhua",
+    "克罗维遗址": "keluoweiwenhua",
     "科学": "科学",
     "science": "科学",
     "科学方法": "科学",
@@ -3402,6 +3447,9 @@
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
     "农耕": "粮食生产",
+    "luoma-diguo": "luoma-diguo",
+    "罗马帝国": "luoma-diguo",
+    "Roman Empire": "luoma-diguo",
     "lusuo": "lusuo",
     "让-雅克·卢梭": "lusuo",
     "Jean-Jacques Rousseau": "lusuo",
@@ -3462,6 +3510,9 @@
     "美索不达米亚": "meisuobudamiya",
     "Mesopotamia": "meisuobudamiya",
     "两河流域": "meisuobudamiya",
+    "menggu-diguo": "menggu-diguo",
+    "蒙古帝国": "menggu-diguo",
+    "Mongol Empire": "menggu-diguo",
     "menggu": "menggu",
     "蒙古": "menggu",
     "Mongolia": "menggu",
@@ -3771,6 +3822,12 @@
     "xiaweiyi": "xiaweiyi",
     "夏威夷": "xiaweiyi",
     "Hawaii": "xiaweiyi",
+    "xibanya-zhengfu-aziteke": "xibanya-zhengfu-aziteke",
+    "西班牙征服阿兹特克帝国": "xibanya-zhengfu-aziteke",
+    "Spanish conquest of Aztec Empire": "xibanya-zhengfu-aziteke",
+    "xibanya-zhengfu-yinjia": "xibanya-zhengfu-yinjia",
+    "西班牙征服印加帝国": "xibanya-zhengfu-yinjia",
+    "Spanish conquest of Inca Empire": "xibanya-zhengfu-yinjia",
     "xiboliya": "xiboliya",
     "西伯利亚": "xiboliya",
     "Siberia": "xiboliya",
@@ -4005,6 +4062,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 310,
-  "generated": "2026-05-25T15:09:02Z"
+  "page_count": 315,
+  "generated": "2026-05-25T15:10:26Z"
 }
