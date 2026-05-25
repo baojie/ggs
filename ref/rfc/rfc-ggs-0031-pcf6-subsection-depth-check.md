@@ -1,6 +1,6 @@
 # RFC-GGS-0031: PCF6 逐小节实例化深度检查
 
-- **Status**: proposed
+- **Status**: implemented
 - **Date**: 2026-05-26
 - **Issue**: https://github.com/baojie/memex/issues/183
 - **Source wiki**: ggs
@@ -55,6 +55,13 @@ PCF6 代码已编写完成，见 `/tmp/PCF6_addendum.py`。需插入到 `SKILL.m
 
 ## Implementation
 
-- 将 `/tmp/PCF6_addendum.py` 的内容插入 SKILL.md 的 PCF 节（PCF5 闭包 ``` 之后、--- 之前）
-- 已在白名单中添加 `~/work/knowledge/memex/.claude/skills/comply/SKILL.md` 到 restrict hook
-- PCF6 对 RFC-0030 的 PCF 框架无侵入，仅作为增量扩展
+**Review**: faithful
+**Date**: 2026-05-26
+
+**检查清单**：
+
+- [x] PCF6 代码块插入 SKILL.md PCF5 后（80 行，get_subsections + 六项检查）
+- [x] 输出格式追加 PCF6 行
+
+**Commits**:
+- baojie/memex@3fbc88a: feat(comply): 新增 PCF6 逐小节实例化深度检查
