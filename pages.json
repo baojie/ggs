@@ -285,7 +285,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "ch01-up-to-the-starting-line": {
       "type": "chapter",
@@ -830,6 +830,30 @@
       "quality_score": 30,
       "total_refs": 4
     },
+    "定居": {
+      "type": "concept",
+      "label": "定居",
+      "aliases": [
+        "定居生活",
+        "定居化",
+        "定居社会"
+      ],
+      "tags": [
+        "农业",
+        "社会组织",
+        "粮食生产",
+        "人口"
+      ],
+      "path": "di/定居.md",
+      "description": "从游牧狩猎采集转向固定居所的生活方式——粮食储存和社会复杂化的前提",
+      "prose_len": 664,
+      "prose_chars": 567,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
     "帝国": {
       "type": "concept",
       "label": "帝国",
@@ -1170,7 +1194,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 12
+      "total_refs": 14
     },
     "国家的形成": {
       "type": "event",
@@ -1221,7 +1245,7 @@
       "blockquote_count": 1,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 0
+      "total_refs": 1
     },
     "谷登堡": {
       "type": "person",
@@ -1568,7 +1592,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 59
+      "total_refs": 61
     },
     "轮子": {
       "type": "concept",
@@ -2018,7 +2042,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 6
+      "total_refs": 9
     },
     "欧亚大陆": {
       "type": "place",
@@ -2185,7 +2209,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 4
     },
     "人口密度": {
       "type": "concept",
@@ -2381,7 +2405,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 3
     },
     "水稻": {
       "type": "species",
@@ -2432,7 +2456,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 9
+      "total_refs": 10
     },
     "生态适应": {
       "type": "concept",
@@ -2730,7 +2754,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 26
+      "total_refs": 27
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -2757,6 +2781,30 @@
       "quality_score": 26,
       "total_refs": 1
     },
+    "行政": {
+      "type": "concept",
+      "label": "行政",
+      "aliases": [
+        "行政管理",
+        "官僚制",
+        "中央行政"
+      ],
+      "tags": [
+        "政治组织",
+        "国家",
+        "官僚体系",
+        "社会复杂化"
+      ],
+      "path": "xi/行政.md",
+      "description": "协调和管理复杂社会事务的正式组织体系——从酋长管辖地到国家的核心制度演化",
+      "prose_len": 731,
+      "prose_chars": 603,
+      "h2_count": 6,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "驯化": {
       "type": "concept",
       "label": "驯化",
@@ -2780,7 +2828,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 34
+      "total_refs": 35
     },
     "亚历山大大帝": {
       "type": "person",
@@ -2856,6 +2904,29 @@
       "affiliation": "新几内亚",
       "total_refs": 0
     },
+    "一年生植物": {
+      "type": "concept",
+      "label": "一年生植物",
+      "aliases": [
+        "一年生作物",
+        "年生植物"
+      ],
+      "tags": [
+        "植物学",
+        "驯化",
+        "农业",
+        "种子"
+      ],
+      "path": "yi/一年生植物.md",
+      "description": "每年完成一个生命周期的植物——早期农业优先驯化的对象，种子特性决定了驯化难易",
+      "prose_len": 730,
+      "prose_chars": 624,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "印刷术": {
       "type": "concept",
       "label": "印刷术",
@@ -2904,7 +2975,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 4
+      "total_refs": 5
     },
     "遗传": {
       "type": "concept",
@@ -2924,6 +2995,30 @@
       "description": "遗传是《枪炮》明确拒绝用来解释文明差异的因素，而是将其视为人口分化和疾病适应的记录者",
       "prose_len": 687,
       "prose_chars": 573,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
+    "游牧": {
+      "type": "concept",
+      "label": "游牧",
+      "aliases": [
+        "游牧生活",
+        "游牧族群",
+        "游牧民族"
+      ],
+      "tags": [
+        "生活方式",
+        "社会组织",
+        "狩猎采集",
+        "粮食生产"
+      ],
+      "path": "yo/游牧.md",
+      "description": "随季节迁移、不在固定地点永久居住的生活方式——历史上总体上处于竞争劣势",
+      "prose_len": 664,
+      "prose_chars": 551,
       "h2_count": 5,
       "pn_count": 0,
       "wikilink_count": 5,
@@ -3005,6 +3100,31 @@
       "quality": "standard",
       "quality_score": 31,
       "total_refs": 3
+    },
+    "再分配": {
+      "type": "concept",
+      "label": "再分配",
+      "aliases": [
+        "再分配经济",
+        "贡品再分配",
+        "财富再分配"
+      ],
+      "tags": [
+        "经济",
+        "政治组织",
+        "酋长",
+        "国家",
+        "税收"
+      ],
+      "path": "za/再分配.md",
+      "description": "酋长管辖地和国家将集中收取的贡品或税收向下分发的经济制度——权力合法化的核心机制",
+      "prose_len": 648,
+      "prose_chars": 531,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 1
     },
     "专业化分工": {
       "type": "concept",
@@ -3305,7 +3425,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 1
     },
     "宗教": {
       "type": "concept",
@@ -3429,6 +3549,10 @@
     "geography": "地理因素",
     "地理条件": "地理因素",
     "地理环境": "地理因素",
+    "定居": "定居",
+    "定居生活": "定居",
+    "定居化": "定居",
+    "定居社会": "定居",
     "帝国": "帝国",
     "帝国扩张": "帝国",
     "empire": "帝国",
@@ -3728,6 +3852,10 @@
     "新月沃地农业起源": "新月沃地农业起源",
     "Fertile Crescent Agricultural Origins": "新月沃地农业起源",
     "西南亚农业起源": "新月沃地农业起源",
+    "行政": "行政",
+    "行政管理": "行政",
+    "官僚制": "行政",
+    "中央行政": "行政",
     "驯化": "驯化",
     "植物驯化": "驯化",
     "动物驯化": "驯化",
@@ -3743,6 +3871,9 @@
     "青铜冶炼": "冶金",
     "耶利": "耶利",
     "Yali": "耶利",
+    "一年生植物": "一年生植物",
+    "一年生作物": "一年生植物",
+    "年生植物": "一年生植物",
     "印刷术": "印刷术",
     "printing": "印刷术",
     "活字印刷": "印刷术",
@@ -3755,6 +3886,10 @@
     "遗传学": "遗传",
     "基因": "遗传",
     "遗传差异": "遗传",
+    "游牧": "游牧",
+    "游牧生活": "游牧",
+    "游牧族群": "游牧",
+    "游牧民族": "游牧",
     "玉米": "玉米",
     "玉蜀黍": "玉米",
     "墨西哥类蜀黍": "玉米",
@@ -3768,6 +3903,10 @@
     "语言传播": "语言传播",
     "语系扩散": "语言传播",
     "language spread": "语言传播",
+    "再分配": "再分配",
+    "再分配经济": "再分配",
+    "贡品再分配": "再分配",
+    "财富再分配": "再分配",
     "专业化分工": "专业化分工",
     "经济专业化": "专业化分工",
     "分工": "专业化分工",
@@ -3824,6 +3963,6 @@
     "意识形态": "宗教",
     "神权": "宗教"
   },
-  "page_count": 140,
-  "generated": "2026-05-25T13:01:03Z"
+  "page_count": 145,
+  "generated": "2026-05-25T13:05:36Z"
 }
