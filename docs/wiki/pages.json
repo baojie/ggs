@@ -208,6 +208,29 @@
       "quality_score": 56,
       "total_refs": 2
     },
+    "兵豆": {
+      "type": "species",
+      "label": "兵豆",
+      "aliases": [
+        "lentil",
+        "扁豆",
+        "小扁豆"
+      ],
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ],
+      "path": "bi/兵豆.md",
+      "description": "新月沃地最早驯化的豆类之一，与小麦和大麦构成谷物加豆类的经典农业组合",
+      "prose_len": 569,
+      "prose_chars": 510,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
     "病原体": {
       "type": "concept",
       "label": "病原体",
@@ -904,6 +927,28 @@
       "quality_score": 57,
       "total_refs": 1
     },
+    "大豆": {
+      "type": "species",
+      "label": "大豆",
+      "aliases": [
+        "soybean",
+        "黄豆"
+      ],
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ],
+      "path": "da/大豆.md",
+      "description": "中国驯化的豆科作物，富含蛋白质，与稻米和小米共同构成中国农业体系的基础",
+      "prose_len": 495,
+      "prose_chars": 437,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "大陆": {
       "type": "concept",
       "label": "大陆",
@@ -948,7 +993,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 52
+      "total_refs": 53
     },
     "大麦": {
       "type": "species",
@@ -2826,7 +2871,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 75
+      "total_refs": 77
     },
     "轮子": {
       "type": "concept",
@@ -3105,7 +3150,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "蒙特朱马": {
       "type": "person",
@@ -4162,7 +4207,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 2
+      "total_refs": 3
     },
     "沙漠": {
       "type": "concept",
@@ -4570,6 +4615,28 @@
       "quality_score": 57,
       "total_refs": 0
     },
+    "豚鼠": {
+      "type": "species",
+      "label": "豚鼠",
+      "aliases": [
+        "guinea pig",
+        "荷兰猪"
+      ],
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ],
+      "path": "tu/豚鼠.md",
+      "description": "安第斯山脉驯化的小型哺乳动物，为印加帝国提供重要的肉食来源",
+      "prose_len": 511,
+      "prose_chars": 453,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
     "王国": {
       "type": "concept",
       "label": "王国",
@@ -4641,7 +4708,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 2
+      "total_refs": 5
     },
     "文化": {
       "type": "concept",
@@ -4843,7 +4910,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 39
+      "total_refs": 41
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -4988,7 +5055,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 48
+      "total_refs": 49
     },
     "亚历山大大帝": {
       "type": "person",
@@ -5253,6 +5320,28 @@
       "quality": "standard",
       "quality_score": 26,
       "total_refs": 5
+    },
+    "鹰嘴豆": {
+      "type": "species",
+      "label": "鹰嘴豆",
+      "aliases": [
+        "chickpea",
+        "埃及豆"
+      ],
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ],
+      "path": "yi/鹰嘴豆.md",
+      "description": "新月沃地最早驯化的豆类之一，与豌豆和兵豆共同构成早期农业的蛋白质来源",
+      "prose_len": 542,
+      "prose_chars": 483,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 1
     },
     "游牧": {
       "type": "concept",
@@ -6015,6 +6104,10 @@
     "班图扩张": "班图扩张",
     "Bantu Expansion": "班图扩张",
     "班图族扩张": "班图扩张",
+    "兵豆": "兵豆",
+    "lentil": "兵豆",
+    "扁豆": "兵豆",
+    "小扁豆": "兵豆",
     "病原体": "病原体",
     "致病原": "病原体",
     "病菌": "病原体",
@@ -6088,6 +6181,9 @@
     "村庄": "村落",
     "定居点": "村落",
     "settlement": "村落",
+    "大豆": "大豆",
+    "soybean": "大豆",
+    "黄豆": "大豆",
     "大陆": "大陆",
     "洲": "大陆",
     "大洲": "大陆",
@@ -6642,6 +6738,9 @@
     "基因突变": "突变",
     "遗传突变": "突变",
     "mutation": "突变",
+    "豚鼠": "豚鼠",
+    "guinea pig": "豚鼠",
+    "荷兰猪": "豚鼠",
     "王国": "王国",
     "国家雏形": "王国",
     "早期国家": "王国",
@@ -6740,6 +6839,9 @@
     "遗传学": "遗传",
     "基因": "遗传",
     "遗传差异": "遗传",
+    "鹰嘴豆": "鹰嘴豆",
+    "chickpea": "鹰嘴豆",
+    "埃及豆": "鹰嘴豆",
     "游牧": "游牧",
     "游牧生活": "游牧",
     "游牧族群": "游牧",
@@ -6855,6 +6957,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 247,
-  "generated": "2026-05-25T14:53:53Z"
+  "page_count": 251,
+  "generated": "2026-05-25T14:54:35Z"
 }
