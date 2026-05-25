@@ -202,7 +202,7 @@
       "quality": "featured",
       "quality_score": 57,
       "affiliation": "印加帝国",
-      "total_refs": 10
+      "total_refs": 11
     },
     "baergan": {
       "type": "place",
@@ -403,7 +403,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 37
+      "total_refs": 38
     },
     "伯克和威尔斯": {
       "type": "person",
@@ -1323,7 +1323,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 2
+      "total_refs": 3
     },
     "地理决定论": {
       "type": "concept",
@@ -1923,7 +1923,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 2
+      "total_refs": 3
     },
     "格林伯格": {
       "type": "person",
@@ -3055,7 +3055,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 4
+      "total_refs": 6
     },
     "考古学": {
       "type": "concept",
@@ -3103,6 +3103,27 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
+      "total_refs": 0
+    },
+    "keluoweiwenhua": {
+      "type": "event",
+      "label": "克罗维文化",
+      "aliases": [
+        "Clovis culture",
+        "克罗维遗址"
+      ],
+      "tags": [
+        "迁徙",
+        "发现"
+      ],
+      "path": "ke/keluoweiwenhua.md",
+      "description": "美洲最早被广泛认可的人类文化，标志着人类在美洲大陆的首次大规模定居",
+      "prose_len": 760,
+      "prose_chars": 712,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
       "total_refs": 0
     },
     "科学": {
@@ -3153,7 +3174,7 @@
       "quality": "featured",
       "quality_score": 55,
       "affiliation": "西班牙王国",
-      "total_refs": 1
+      "total_refs": 2
     },
     "kuke": {
       "type": "person",
@@ -3275,6 +3296,26 @@
       "quality": "featured",
       "quality_score": 60,
       "total_refs": 81
+    },
+    "luoma-diguo": {
+      "type": "event",
+      "label": "罗马帝国",
+      "aliases": [
+        "Roman Empire"
+      ],
+      "tags": [
+        "征服",
+        "建国"
+      ],
+      "path": "lu/luoma-diguo.md",
+      "description": "古代欧亚大陆西部最大的帝国，戴蒙德以之作为欧亚大陆政治统一的参照基准",
+      "prose_len": 757,
+      "prose_chars": 708,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 1
     },
     "lusuo": {
       "type": "person",
@@ -3628,6 +3669,25 @@
       "blockquote_count": 0,
       "total_refs": 5
     },
+    "menggu-diguo": {
+      "type": "event",
+      "label": "蒙古帝国",
+      "aliases": [
+        "Mongol Empire"
+      ],
+      "tags": [
+        "征服"
+      ],
+      "path": "me/menggu-diguo.md",
+      "description": "13世纪形成的横跨欧亚大陆的最大陆地帝国，游牧文明与农业文明碰撞的典型",
+      "prose_len": 766,
+      "prose_chars": 717,
+      "h2_count": 4,
+      "pn_count": 4,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
     "menggu": {
       "type": "place",
       "label": "蒙古",
@@ -3647,7 +3707,7 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "美国东部": {
       "type": "place",
@@ -3697,7 +3757,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 12
+      "total_refs": 13
     },
     "美洲家鸭": {
       "type": "species",
@@ -3834,7 +3894,7 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "免疫力": {
       "type": "concept",
@@ -4026,7 +4086,7 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 3
     },
     "木薯": {
       "type": "species",
@@ -4350,7 +4410,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 21
+      "total_refs": 23
     },
     "欧洲殖民非洲": {
       "type": "event",
@@ -4445,7 +4505,7 @@
       "quality": "featured",
       "quality_score": 56,
       "affiliation": "西班牙王国",
-      "total_refs": 9
+      "total_refs": 10
     },
     "Preface": {
       "type": "chapter",
@@ -4765,7 +4825,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 0
+      "total_refs": 1
     },
     "热带地区": {
       "type": "concept",
@@ -5767,6 +5827,46 @@
       "wikilink_count": 5,
       "blockquote_count": 0,
       "total_refs": 2
+    },
+    "xibanya-zhengfu-aziteke": {
+      "type": "event",
+      "label": "西班牙征服阿兹特克帝国",
+      "aliases": [
+        "Spanish conquest of Aztec Empire"
+      ],
+      "tags": [
+        "征服",
+        "战役"
+      ],
+      "path": "xi/xibanya-zhengfu-aziteke.md",
+      "description": "1519年科尔特斯率领600名西班牙人征服人口数百万的阿兹特克帝国",
+      "prose_len": 688,
+      "prose_chars": 641,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
+    "xibanya-zhengfu-yinjia": {
+      "type": "event",
+      "label": "西班牙征服印加帝国",
+      "aliases": [
+        "Spanish conquest of Inca Empire"
+      ],
+      "tags": [
+        "征服",
+        "战役"
+      ],
+      "path": "xi/xibanya-zhengfu-yinjia.md",
+      "description": "1532年皮萨罗率领168名西班牙人征服人口数百万的印加帝国",
+      "prose_len": 664,
+      "prose_chars": 617,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "xiboliya": {
       "type": "place",
@@ -6847,7 +6947,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 14
+      "total_refs": 16
     },
     "中国农业起源": {
       "type": "event",
@@ -7773,6 +7873,10 @@
     "考古遗址": "考古遗址",
     "遗址": "考古遗址",
     "考古发掘": "考古遗址",
+    "keluoweiwenhua": "keluoweiwenhua",
+    "克罗维文化": "keluoweiwenhua",
+    "Clovis culture": "keluoweiwenhua",
+    "克罗维遗址": "keluoweiwenhua",
     "科学": "科学",
     "science": "科学",
     "科学方法": "科学",
@@ -7802,6 +7906,9 @@
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
     "农耕": "粮食生产",
+    "luoma-diguo": "luoma-diguo",
+    "罗马帝国": "luoma-diguo",
+    "Roman Empire": "luoma-diguo",
     "lusuo": "lusuo",
     "让-雅克·卢梭": "lusuo",
     "Jean-Jacques Rousseau": "lusuo",
@@ -7862,6 +7969,9 @@
     "美索不达米亚": "meisuobudamiya",
     "Mesopotamia": "meisuobudamiya",
     "两河流域": "meisuobudamiya",
+    "menggu-diguo": "menggu-diguo",
+    "蒙古帝国": "menggu-diguo",
+    "Mongol Empire": "menggu-diguo",
     "menggu": "menggu",
     "蒙古": "menggu",
     "Mongolia": "menggu",
@@ -8171,6 +8281,12 @@
     "xiaweiyi": "xiaweiyi",
     "夏威夷": "xiaweiyi",
     "Hawaii": "xiaweiyi",
+    "xibanya-zhengfu-aziteke": "xibanya-zhengfu-aziteke",
+    "西班牙征服阿兹特克帝国": "xibanya-zhengfu-aziteke",
+    "Spanish conquest of Aztec Empire": "xibanya-zhengfu-aziteke",
+    "xibanya-zhengfu-yinjia": "xibanya-zhengfu-yinjia",
+    "西班牙征服印加帝国": "xibanya-zhengfu-yinjia",
+    "Spanish conquest of Inca Empire": "xibanya-zhengfu-yinjia",
     "xiboliya": "xiboliya",
     "西伯利亚": "xiboliya",
     "Siberia": "xiboliya",
@@ -8405,6 +8521,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 310,
-  "generated": "2026-05-25T15:09:02Z"
+  "page_count": 315,
+  "generated": "2026-05-25T15:10:26Z"
 }
