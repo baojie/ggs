@@ -2,7 +2,7 @@
 id: sahala
 type: place
 label: 撒哈拉
-aliases: [Sahara, 撒哈拉沙漠]
+aliases: [Sahara]
 tags: [地区, 地理]
 region: africa
 latitude_band: tropical
