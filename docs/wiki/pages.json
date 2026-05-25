@@ -163,7 +163,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 2
+      "total_refs": 3
     },
     "班图扩张": {
       "type": "event",
@@ -726,7 +726,7 @@
       "blockquote_count": 1,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 12
+      "total_refs": 14
     },
     "创新": {
       "type": "concept",
@@ -1072,6 +1072,29 @@
       "quality_score": 56,
       "total_refs": 2
     },
+    "动物": {
+      "type": "concept",
+      "label": "动物",
+      "aliases": [
+        "野生动物",
+        "动物物种",
+        "动物多样性"
+      ],
+      "tags": [
+        "生物学",
+        "动物驯化",
+        "物种灭绝"
+      ],
+      "path": "do/动物.md",
+      "description": "异养多细胞生物，其物种多样性与驯化历史深刻影响了人类文明的发展轨迹",
+      "prose_len": 838,
+      "prose_chars": 756,
+      "h2_count": 4,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "Epilogue": {
       "type": "chapter",
       "label": "后记　人类史作为一门科学的未来",
@@ -1258,7 +1281,7 @@
       "blockquote_count": 1,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 4
+      "total_refs": 5
     },
     "高粱": {
       "type": "species",
@@ -1462,7 +1485,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 22
+      "total_refs": 23
     },
     "国家的形成": {
       "type": "event",
@@ -1756,7 +1779,30 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 17
+      "total_refs": 19
+    },
+    "技术": {
+      "type": "concept",
+      "label": "技术",
+      "aliases": [
+        "技术进步",
+        "技术传播",
+        "技术积累"
+      ],
+      "tags": [
+        "文明发展",
+        "创新",
+        "知识积累"
+      ],
+      "path": "ji/技术.md",
+      "description": "改造自然和组织生产的系统性知识与工具，通过积累和传播形成文明的物质基础",
+      "prose_len": 901,
+      "prose_chars": 822,
+      "h2_count": 4,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "技术传播": {
       "type": "concept",
@@ -1981,6 +2027,29 @@
       "quality": "featured",
       "quality_score": 60,
       "total_refs": 10
+    },
+    "军队": {
+      "type": "concept",
+      "label": "军队",
+      "aliases": [
+        "武装力量",
+        "士兵",
+        "军事力量"
+      ],
+      "tags": [
+        "政治组织",
+        "战争",
+        "国家形成"
+      ],
+      "path": "ju/军队.md",
+      "description": "有组织的武装力量，是国家强制权力的核心工具和征服扩张的物质基础",
+      "prose_len": 845,
+      "prose_chars": 770,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "君主": {
       "type": "concept",
@@ -3019,7 +3088,30 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 27,
-      "total_refs": 13
+      "total_refs": 14
+    },
+    "人口": {
+      "type": "concept",
+      "label": "人口",
+      "aliases": [
+        "人口规模",
+        "人口密度",
+        "人口压力"
+      ],
+      "tags": [
+        "社会组织",
+        "国家形成",
+        "农业"
+      ],
+      "path": "re/人口.md",
+      "description": "人口规模与密度是社会复杂性演化和文明竞争力的关键变量",
+      "prose_len": 836,
+      "prose_chars": 759,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 7,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "人口密度": {
       "type": "concept",
@@ -3240,7 +3332,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 22
+      "total_refs": 18
     },
     "伤寒": {
       "type": "concept",
@@ -3289,7 +3381,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 27,
-      "total_refs": 11
+      "total_refs": 12
     },
     "水利": {
       "type": "concept",
@@ -3386,7 +3478,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 15
+      "total_refs": 17
     },
     "生态": {
       "type": "concept",
@@ -3563,7 +3655,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 4
+      "total_refs": 5
     },
     "统一": {
       "type": "concept",
@@ -3735,6 +3827,29 @@
       "quality": "featured",
       "quality_score": 57,
       "total_refs": 0
+    },
+    "文字": {
+      "type": "concept",
+      "label": "文字",
+      "aliases": [
+        "书写系统",
+        "文字系统",
+        "书面语言"
+      ],
+      "tags": [
+        "信息传递",
+        "文明发展",
+        "知识积累"
+      ],
+      "path": "we/文字.md",
+      "description": "记录语言和信息的符号系统，使知识得以跨越时空精确传递",
+      "prose_len": 844,
+      "prose_chars": 772,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 2,
+      "blockquote_count": 0,
+      "total_refs": 6
     },
     "文字的独立发明": {
       "type": "event",
@@ -3988,7 +4103,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 39
+      "total_refs": 41
     },
     "亚历山大大帝": {
       "type": "person",
@@ -4039,7 +4154,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 7
+      "total_refs": 8
     },
     "耶利": {
       "type": "person",
@@ -4669,7 +4784,7 @@
       "pn_count": 5,
       "wikilink_count": 6,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 1
     },
     "字母文字的传播": {
       "type": "event",
@@ -4955,6 +5070,10 @@
     "东南亚": "东南亚",
     "Southeast Asia": "东南亚",
     "热带东南亚": "东南亚",
+    "动物": "动物",
+    "野生动物": "动物",
+    "动物物种": "动物",
+    "动物多样性": "动物",
     "Epilogue": "Epilogue",
     "发明": "发明",
     "技术发明": "发明",
@@ -5062,11 +5181,13 @@
     "驯化动物": "家畜",
     "牲畜": "家畜",
     "domestic animals": "家畜",
-    "技术传播": "技术传播",
+    "技术": "技术",
+    "技术进步": "技术",
+    "技术传播": "技术",
+    "技术积累": "技术",
     "技术扩散": "技术传播",
     "技术交流": "技术传播",
     "technology diffusion": "技术传播",
-    "技术积累": "技术积累",
     "累积性技术进步": "技术积累",
     "技术演化": "技术积累",
     "发明的积累性": "技术积累",
@@ -5100,6 +5221,10 @@
     "武装征服": "军事征服",
     "军事扩张": "军事征服",
     "征服": "军事征服",
+    "军队": "军队",
+    "武装力量": "军队",
+    "士兵": "军队",
+    "军事力量": "军队",
     "君主制": "君主",
     "世袭统治者": "君主",
     "monarch": "君主",
@@ -5260,16 +5385,16 @@
     "酋长制": "酋长",
     "酋长管辖地": "酋长",
     "酋邦": "酋长",
-    "人口密度": "人口密度",
-    "人口压力": "人口密度",
+    "人口": "人口",
+    "人口规模": "人口",
+    "人口密度": "人口",
+    "人口压力": "人口",
     "population density": "人口密度",
     "农民扩张": "人口扩张",
     "人口置换": "人口扩张",
     "人口压力扩张": "人口扩张",
-    "人口规模": "人口规模",
     "population size": "人口规模",
     "人口数量": "人口规模",
-    "人口": "人口规模",
     "人种": "人种",
     "人类种族": "人种",
     "生物性种族": "人种",
@@ -5370,6 +5495,7 @@
     "culture": "文化",
     "文化因素": "文化",
     "文化差异": "文化",
+    "书面语言": "文字",
     "文字的独立发明": "文字的独立发明",
     "Independent Invention of Writing": "文字的独立发明",
     "苏美尔文字": "文字的独立发明",
@@ -5545,6 +5671,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 200,
-  "generated": "2026-05-25T14:13:53Z"
+  "page_count": 205,
+  "generated": "2026-05-25T14:17:47Z"
 }
