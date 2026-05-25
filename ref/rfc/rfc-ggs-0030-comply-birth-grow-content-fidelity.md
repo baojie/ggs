@@ -1,6 +1,6 @@
 # RFC-ggs-0030: `/comply` 对 BIRTH/GROW 的 Phase 检查仅比较标题，未验证内容实例化 fidelity
 
-- **Status**: proposed
+- **Status**: implemented
 - **Date**: 2026-05-26
 - **Issue**: https://github.com/baojie/memex/issues/178
 - **Source wiki**: ggs
@@ -128,7 +128,10 @@ Phase 3 的 GROW.md 实例化事故暴露了 `/comply` 对 BIRTH/GROW 这类 spe
 
 **检查清单**：
 
-- [ ] 在 `/home/baojie/.claude/skills/comply/SKILL.md` 中新增 PCF 检查层规范（代码/复选框/体量/占位符/结构元素五项检查）
-- [ ] 在 `/grow` skill 的 `init phaseN` Step 3a 中追加 PCF1–PCF5 作为 Step 3c
-- [ ] 在 `/boot` skill 的 `init phaseN` 标题树校验中追加同样检查
-- [ ] 定义 PCF 检查通过/不通过的判定标准（单项通过阈值 vs 必须全部通过）
+- [x] 在 `/home/baojie/.claude/skills/comply/SKILL.md` 中新增 PCF 检查层规范（代码/复选框/体量/占位符/结构元素五项检查）
+- [x] 在 `/grow` skill 的 `init phaseN` Step 3a 中追加 PCF1–PCF3 作为 Step 3c，Step 3b 增强 PCF4+PCF5
+- [x] 在 `/boot` skill 的 `init phaseN` Step 3a-2 后追加 Step 3a-3（PCF1–PCF3），Step 3b 增强 PCF4+PCF5
+- [x] 定义 PCF 检查通过/不通过的判定标准（单项通过阈值 vs 必须全部通过）
+
+**Commits**:
+- baojie/memex@fb84c9b: feat(comply,grow,boot): 新增 PCF Phase Content Fidelity 五层检查

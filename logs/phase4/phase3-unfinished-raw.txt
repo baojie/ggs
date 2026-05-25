@@ -1,0 +1,23 @@
+11:R49 pre-flight：EVV5=9（未触发），SCN28 rounds_since=1（跳过，上轮刚运行），直接 NEW1。
+11:R60 pre-flight：EVV5 触发（rounds_since=10）完成质量重算，122精品/23标准/1基础；SCN28 发现10个新候选更新队列。CLOSE 跳过（discover_streak_low=0<3）。NEW1 串行建立5个concept页面，每页间隔1秒。
+11:R64 pre-flight：EVV5=4（未触发），SCN28 在R63已运行（rounds_since=1，跳过），直接 NEW1。
+11:R66 pre-flight：EVV5=6（未触发），SCN28 rounds_since=1（跳过），直接 NEW1。
+11:R68 pre-flight：EVV5=8（未触发），SCN28 rounds_since=1（跳过），直接 NEW1。
+12:新建 4 页 species（豚鼠、大豆、鹰嘴豆、兵豆），棉花已存在故跳过。
+21:- `discover_wanted.py` 将目录.md 中指向已有章节页的 wikilink 报为 "wanted"，疑为脚本对 pages.json 查找逻辑问题，待后续排查
+24:部分近期新建页面（R55–R59）wikilink 数偏低（1–3 个），未达 featured 门槛，建议后续 ENR 基因增强。
+25:**G1 优先检查（失败立即回滚，不继续后续检查）：**
+27:place-schema 无⚠️破折号警告，本轮建页时出现 2 处连接符，已同步修复。建议：在 place-schema.md 引文规范节注入与 species/concept 相同的⚠️警告。
+29:| G1 内容完整性 | PASS | 本轮无页面变更，G1 跳过 |
+31:队列剩余6个（棉花、传教、结核、火器、玻璃、鼠疫），R68 SCN28 rounds_since=1 跳过，直接 NEW1。
+31:队列剩余7个（动物、人口、技术、文字、军队、天花、铁器），R66 SCN28 rounds_since=1 跳过，直接 NEW1。
+31:**G2–G3：** 本轮 gene=SCN28（discover），无 NEW1 建页，G2/G3 跳过。
+37:| G2 补充格式 | 跳过 | 本轮无新建/修改页 |
+37:下一步：SCN28 发现新候选，或切换到 species 类型。
+38:| G3 写作质量 | 跳过 | 同上 |
+38:- concept 类型无 infobox，模板中"Infobox 字段无缺失/undefined"检查项对 concept 不适用，建议 EVV5 在模板中明确标注此检查项对 concept 跳过
+40:| G5 系统集成 | 跳过 | 本轮无新建页 |
+40:- 第20章引文较少，可在后续轮次结合第20章其他概念补充
+43:- 安娜-卡列尼娜原则页面 id（`安娜·卡列尼娜原则`）与 pages.json key（`安娜-卡列尼娜原则`）不一致，wikilink `[[安娜·卡列尼娜原则]]` 能否正确解析？建议 EVV5 检查此类 CJK 特殊字符页面的 wikilink 跳转。
+54:## 下轮建议
+58:- 地理决定论 PN=6，可在 r3-SCN27 后续如有地理决定论延伸概念时进一步充实

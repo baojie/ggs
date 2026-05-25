@@ -12,7 +12,7 @@
     "P02"
   ],
   "wu_quota_per_round": 1000,
-  "grow_phase": 2,
+  "grow_phase": 4,
   "new1_pages_per_round": 5,
   "enrich_pages_per_round": 5,
   "per_round_rules": [

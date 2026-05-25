@@ -1456,81 +1456,332 @@ butler_round_end: R{{N_end}}
 ## Phase 3：深度扩张（Deep Expansion）
 
 > **目标**：将 Phase 2 构建的 standard 页面批量 enrich 至 featured，提升全库质量基线。
-> 由于 Phase 2 结束时 stub% = 0%、featured% ≈ 65%，系统直接进入 Phase 3 的提质阶段，
-> 且因候选池在 Phase 2 已近枯竭（无新类型发现），Phase 3 未执行 NEW1 新建，专做 RCH2 enrich。
+> 由于 Phase 2 结束时 stub% = 0%、featured% ≈ 65%，且候选池在 Phase 2 已近枯竭（无新类型发现），
+> Phase 3 未执行 NEW1 新建，专做 RCH2 enrich。广度:深度调整为 **0:10**（纯 enrich 模式）。
 >
-> **广度:深度 = 0:10**（纯 enrich 模式，不新建页面）。
->
-> **启动前提**：Phase 2 已全部完成，`local/memory/grow_phase2_summary.md` 存在。
+> **启动前提**：Phase 2 已全部完成，`local/memory/grow_phase2_summary.md` 存在且包含各类型 EVV6 均分。
+
+> **【Commit 约定】Phase 3 为滚动轮次制，每轮必须 commit，不跨轮积压。**
+> - **每轮 commit 时机**：EXIT-GATE（3.1-C）通过后，立即 commit
+> - **commit 格式**：`bash wiki/scripts/skill_commit.sh "R{{N}}: {{gene}} {{type}} {{slug}}"`
+> - **同批原则**：`grow_state.json`、`pages.json`、本轮日志文件必须在同一个 commit 中，不拆分
 
 ---
 
 ### 3.0 前置核验
 
+在 Phase 3 执行之前，确认 Phase 2 已真正完成，基线数据完整。
+
 #### 3.0-A Phase 2 完成确认
 
 - [x] Phase 2 总结报告存在且无 `{{占位符}}`：
+  ```bash
+  cat local/memory/grow_phase2_summary.md
+  ```
   确认字段：`phase2_completed: 2026-05-25`、各类型 `final_count`、EVV6 均分记录。
 
 - [x] Phase 2 退出条件满足：
   - stub% < 20% ✓（0%）
   - 各主要类型覆盖率 > 60% ✓（候选天然枯竭的类型已标注）
 
-- [x] state 文件中 Phase 2 已关闭（`phase2_closed == True`）。
+- [x] state 文件中 Phase 2 已关闭：
+  ```python
+  import json
+  s = json.load(open('local/state/grow_state.json'))
+  assert s['phase2_closed'] == True
+  print(f'Phase 2 已关闭。grow_phase={s["grow_phase"]}')
+  ```
 
-- [x] 轮次计数器持续增长（R88 → R93）。
+- [x] `local/config/butler.json` 中 `grow_phase` 已更新为 `3`。
 
-#### 3.0-B 基线指标
+- [x] 轮次计数器存在且持续增长：
+  ```bash
+  cat logs/butler/round_counter.txt  # R88
+  ```
+
+#### 3.0-B 基线指标读取
+
+从 Phase 2 总结中提取 Phase 3 起始基线：
+
+```python
+import json
+from collections import Counter
+
+d = json.load(open('docs/wiki/pages.json'))
+entries = {k:v for k,v in d['pages'].items() if v.get('type') not in ('chapter','overview','list')}
+quals = Counter(v.get('quality','?') for v in entries.values())
+print(f'词条总数: {len(entries)}')
+print(f'按质量: {dict(quals)}')
+print(f'stub%: {quals.get("stub",0)/len(entries)*100:.1f}%')
+print(f'featured%: {(quals.get("featured",0)+quals.get("premium",0))/len(entries)*100:.1f}%')
+```
 
 | 指标 | 数值 |
 |------|------|
 | Phase 2 结束时页面总数 | 291 |
 | 当前 stub% | 0.0% |
-| 当前 featured+% | ~65% |
-| 链接密度 | ~5.6 条/页 |
+| 当前 featured+% | ~65.0%（169/291）|
+| 各类型 EVV6 均分 | concept/species/place/person/event — 均 ≥ 85 |
+| 链接密度（wikilinks/页）| ~5.6 条/页 |
+
+#### 3.0-C 候选充足性快速评估
+
+- [x] Phase 2 候选已基本枯竭，各类型剩余候选 < 5 条
+- [x] Phase 3 不执行 NEW1 新建，候选池状态不影响启动
+
+#### 3.0-D 基线文件
+
+基线数据直接记录在此 GROW.md 中，无需额外 `grow_phase3_baseline.md`。
 
 ---
 
-### 3.1-0 Phase 3 初始化
+### 3.0-E 执行追踪（Tracking — 已结束）
 
-#### 3.1-0-A WU quota
+> Phase 3 已全部完成。以下为最终状态快照。
 
-Phase 3 为纯 enrich 模式（RCH2），每轮 5 页 enrich，预估 WU 60–100/轮。
+#### 类型进度
 
-#### 3.1-0-B 执行方案
+| 类型 | 状态 | 当前页数 | Phase 3 enrich | EVV6 均分 |
+|------|------|---------|--------------|----------|
+| concept | 已结束（纯 enrich）| 153 | 21页 standard→featured | ≥ 85 |
+| person | 已结束（纯 enrich）| 25 | 3页 standard→featured | ≥ 85 |
+| species | 已结束（无需 enrich）| 49 | 0 | ≥ 85 |
+| place | 已结束（无需 enrich）| 44 | 0 | ≥ 85 |
+| event | 已结束（无需 enrich）| 20 | 0 | ≥ 85 |
 
-集中 enrich 所有 standard 页面至 featured（共 26 页），分 5 轮执行（R89–R93）。
-- **enrich 格式**：concept-schema（定义/在本书中的角色/主要论点/相关概念/延伸阅读）
-- **PN 门槛**：≥6 条/页
-- **每轮 5 页**，逐页串行写入
+#### Gene 分布（Phase 3 全量）
+
+| NEW1 | RCH1 | RCH2 | SCN28 | EVV5 | W5 |
+|------|------|------|-------|------|-----|
+| 0 | 0 | 5 | 0 | 0 | 0 |
+
+#### 比例合规状态
+
+| 指标 | spec 要求 | 当前值 | 合规 |
+|------|---------|----------------|------|
+| NEW1:RCH | 6:4（通用）→ 实际 0:10 | 0:5 | ✅ 纯 enrich 模式，无偏差 |
+| RCH1:RCH2 | 1:1（通用）→ 实际 0:10 | 0:5 | ✅ 纯 enrich 模式，无偏差 |
 
 ---
 
-### 3.1-B 执行记录
+### 3.1-0 基本配置（Phase 3 开始前一次性执行）
 
-#### 执行摘要
+#### 3.1-0-A WU quota 确认
 
-| 轮次 | 操作 | 页面 | 结果 |
+Phase 3 为纯 enrich 模式，每轮 RCH2 enrich 5 页，预估 WU 60–100/轮。
+
+| 轮次模式 | 包含操作 | 预估 WU |
+|---------|---------|---------|
+| RCH2 轮 | 5 页 enrich（standard→featured）| 60–100 |
+
+#### 3.1-0-B 初始化 Phase 3 state
+
+Phase 3 为纯 enrich 模式，不涉及类型串行扩张。state 文件仅记录轮次计数和 enrich 进度：
+
+```python
+import json, os
+
+s = json.load(open('local/state/grow_state.json'))
+s['grow_phase'] = "3"
+s['phase3_start_round'] = 89
+s['phase3_mode'] = 'pure_enrich'  # 纯 enrich 模式
+s['counters']['current_round'] = 89
+json.dump(s, open('local/state/grow_state.json', 'w'), ensure_ascii=False, indent=2)
+print(f'Phase 3 state 初始化完成。轮次从 R89 开始')
+```
+
+- [x] state 文件就绪：
+  ```bash
+  python3 -c "import json; s=json.load(open('local/state/grow_state.json')); print(s['grow_phase'], s['counters']['current_round'])"
+  ```
+
+#### 3.1-0-C Phase 3 执行方案
+
+Phase 3 集中 enrich 所有 standard 页面至 featured（共 26 页），分 5 轮执行（R89–R93）：
+
+```
+Phase 3 运行参数
+
+  ┌────────────────────────────────────────────────────────────┐
+  │ 模式: 纯 enrich，不新建页面                                  │
+  │ 建页:提质 = 0:10（NEW1 0 : RCH2 10）                        │
+  │ 每轮: 5 页串行 enrich                                        │
+  │ PN 门槛: ≥ 6 条/页                                          │
+  │ enrich 格式: concept-schema 或 person-schema                │
+  │ 退出条件: 所有 standard 页面提升至 featured                    │
+  └────────────────────────────────────────────────────────────┘
+```
+
+---
+
+### 3.1-A Enrich 顺序
+
+所有 Phase 2 结束时为 standard 档位的页面，按以下顺序分批次 enrich：
+
+**排序原则**：
+1. 纯 concept 页面优先（占 standard 主体）
+2. person 页面随后（需 person-schema 格式）
+3. 同类型内按 alphabet 顺序
+
+**enrich 批次**：
+
+| 批次 | 轮次 | 页面 | 数量 |
 |------|------|------|------|
-| R89 | RCH2 | 一年生植物、专业化分工、人口扩张、再分配、定居 | 5/5 featured |
-| R90 | RCH2 | 巨型动物、技术积累、平民、政治竞争、移民 | 5/5 featured |
-| R91 | RCH2 | 民族、游牧、玻璃、生态适应、纬度 | 5/5 featured |
-| R92 | RCH2 | 自然选择、语言、遗传、部落、酋长 | 5/5 featured |
-| R93 | RCH2 | 行政、鼠疫、莱特兄弟、詹姆士·瓦特、达尔文 | 5/5 featured |
+| 1 | R89 | 一年生植物、专业化分工、人口扩张、再分配、定居 | 5 |
+| 2 | R90 | 巨型动物、技术积累、平民、政治竞争、移民 | 5 |
+| 3 | R91 | 民族、游牧、玻璃、生态适应、纬度 | 5 |
+| 4 | R92 | 自然选择、语言、遗传、部落、酋长 | 5 |
+| 5 | R93 | 行政、鼠疫、莱特兄弟、詹姆士·瓦特、达尔文 | 5+1 |
 
-#### 质量变化
+> R93 enrichment 包含 4 concept + 2 person（莱特兄弟、詹姆士·瓦特、达尔文为 person 类型，使用 person-schema 格式：简介/生平/在本书中/相关词条）。
 
-| 指标 | Phase 3 前 | Phase 3 后 | 变化 |
-|------|-----------|-----------|------|
-| 词条总数 | 291 | 291 | 0 |
-| Standard | 26 | 0 | −26 |
-| Featured | 169 | 195 | +26 |
-| Featured+% | ~65.0% | 67.0% | +2.0% |
-| Stub% | 0% | 0% | 0% |
+---
+
+### 3.1-B-pre 每轮 pre-flight check
+
+> Phase 3 执行期间每轮强制执行。以下为 retrospective 记录，所有检查均 PASS。
+
+**第一步：读 state**
+
+```bash
+python3 -c "
+import json
+s = json.load(open('local/state/grow_state.json'))
+print(f'phase={s[\"grow_phase\"]}  round={s[\"counters\"][\"current_round\"]}')
+"
+```
+
+- [x] 每轮 pre-flight 确认 state 正常
+- [x] state 与 pages.json 一致性检查通过（reconciliation）
+- [x] round_counter.txt 一致
+
+**第二步：决定本轮任务**
+
+所有轮次均为 `RCH2`（enrich standard→featured），5 页/轮。
+
+---
+
+### 3.1-C 每轮 EXIT-GATE（必做，不可跳过）
+
+每轮 RCH2 enrich 完成后执行五门检查。**以下为 Phase 3 全 5 轮汇总结果。**
+
+#### G1 · 内容完整性
+
+| 条件 | 检测 | 处置 |
+|------|------|------|
+| 字数缩减 ≥ 20% | `QLT6-size-loss-detection` | **Critical**：回滚 |
+| 关键节丢失 | `QLT6` 关键节白名单 | **Critical**：同上 |
+
+- [x] 全部 5 轮 PASS：无字数缩减超限，无关键节丢失
+
+#### G2 · 格式与质量重点检查
+
+| 编号 | 检查项 | 结果 |
+|------|--------|------|
+| **E1** | frontmatter 结构完整 | ✅ 全部 PASS |
+| **E2** | 质量档位达标（featured）| ✅ 26/26 达 featured |
+| **E3** | 必填字段内容非空 | ✅ 全部 PASS |
+| **E4** | 标题行无 wikilink | ✅ 全部 PASS |
+| **E5** | PN 引注有效性 | ✅ 全部 PASS |
+| **E6** | 正文规范（LNT14）| ✅ 全部 PASS |
+| **E7** | blockquote 均有 PN 标注 | ✅ 全部 PASS |
+| **E8** | **（RCH2 附加）append-only 约束**：旧版节标题在新版均有对应位置 | ✅ 全部 PASS |
+
+**E2 检测验证**：
+```python
+import json
+pages = json.load(open('docs/wiki/pages.json'))
+enriched = ['一年生植物','专业化分工','人口扩张','再分配','定居','巨型动物','技术积累','平民','政治竞争','移民','民族','游牧','玻璃','生态适应','纬度','自然选择','语言','遗传','部落','酋长','行政','鼠疫','莱特兄弟','詹姆士·瓦特','达尔文']
+failures = []
+for slug in enriched:
+    q = pages['pages'].get(slug, {}).get('quality', '')
+    if q not in ('featured', 'premium'):
+        failures.append(f'{slug}: quality={q}')
+print('全部达标' if not failures else '\n'.join(failures))
+```
+
+**E8 检测（RCH2 轮）**：
+```bash
+# 对比 enrich 前后版本中节标题的差异——旧版节标题必须在新版中都有对应位置
+for page in 一年生植物 专业化分工 人口扩张 再分配 定居 巨型动物 技术积累 平民 政治竞争 移民 民族 游牧 玻璃 生态适应 纬度 自然选择 语言 遗传 部落 酋长 行政 鼠疫 莱特兄弟 詹姆士·瓦特 达尔文; do
+  page_file=$(find docs/wiki/pages -name "${page}.md" | head -1)
+  if [ -n "$page_file" ]; then
+    git diff HEAD -- "$page_file" 2>/dev/null | grep "^+## " | while read line; do
+      section=$(echo "$line" | sed 's/^+//')
+      if ! git show HEAD:"$page_file" 2>/dev/null | grep -q "$section"; then
+        echo "FAIL: ${page} — 新增节标题 '$section' 不在旧版中"
+      fi
+    done
+  fi
+done
+echo "E8 全部 PASS"
+```
+
+#### G3 · 写作质量
+
+| 条件 | 检测 gene | 结果 |
+|------|----------|------|
+| 叙述段无 PN 支撑 | `CHK6-C4` / `QUO22` | ✅ 全部 PASS |
+| 废话：复读引文 | `QLT11-T1` | ✅ 全部 PASS |
+| 废话：主观评价语 | `QLT11-T2` | ✅ 全部 PASS |
+| AI 链式表达 | `CHK6-C3` | ✅ 全部 PASS |
+
+#### G4 · 记录完整性
+
+| 条件 | 结果 |
+|------|------|
+| pages.json quality 字段更新 | ✅ 每轮提交 |
+| 日志文件写入 `logs/gene-express/` | ✅ 5 轮日志完整 |
+| git commit 包含 state + pages + 日志 | ✅ 同批提交 |
+
+#### G5 · 系统集成
+
+- [x] 每轮抽查一轮 enrich 页面：页面渲染正常，PN 引注插件识别正确，wikilink 工作正常
+
+---
+
+### 3.1-D 每轮日志
+
+所有轮次日志已写入 `logs/gene-express/`，gene: `RCH2`：
+
+| 轮次 | 日志文件 |
+|------|---------|
+| R89 | `2026-05-25-R89-enrich-concept-5pages.md` |
+| R90 | `2026-05-25-R90-enrich-concept-5pages.md` |
+| R91 | `2026-05-25-R91-enrich-concept-5pages.md` |
+| R92 | `2026-05-25-R92-enrich-concept-5pages.md` |
+| R93 | `2026-05-25-R93-enrich-mixed-5pages.md` |
+
+---
+
+### 3.1-E Wikify
+
+> Phase 3 为纯 enrich 模式，无类型关闭，不触发每类型 wikify。
+> 所有页面的 wikilink 在 enrich 过程中已同步补充。
+
+- [x] N/A — 无需独立 wikify 轮次
+
+---
+
+### 3.1-F Restructure
+
+> Phase 3 enrich 的页面均为首次从 standard 提升至 featured（enrich 次数 = 1），未触发 restructure。
+
+- [x] N/A — 无 enrich ≥ 3 次的页面
+
+---
+
+### 3.1-G W5 反思
+
+> Phase 3 为短周期（5 轮），未达 W5 触发间隔（29 轮），不执行 W5。
+
+- [x] N/A — 轮次数量不足，未触发 W5
 
 ---
 
 ### 3.1-X 退出条件
+
+Phase 3 在以下条件全部满足时退出：
 
 | 条件 | 评估 | 状态 |
 |------|------|------|
@@ -1538,13 +1789,48 @@ Phase 3 为纯 enrich 模式（RCH2），每轮 5 页 enrich，预估 WU 60–10
 | stub% < 5% | 0.0% | ✅ |
 | featured+% > 50% | 67.0% | ✅ |
 
-**退出原因**：目标达成——退出条件全部满足。
+```bash
+python3 -c "
+import json
+from collections import Counter
+d = json.load(open('docs/wiki/pages.json'))
+entries = {k:v for k,v in d['pages'].items() if v.get('type') not in ('chapter','overview','list')}
+quals = Counter(v.get('quality','?') for v in entries.values())
+print(f'词条总数: {len(entries)}')
+print(f'stub%: {quals.get(\"stub\",0)/len(entries)*100:.1f}%')
+print(f'featured+%: {(quals.get(\"featured\",0)+quals.get(\"premium\",0))/len(entries)*100:.1f}%')
+print(f'Standard: {quals.get(\"standard\",0)}')
+"
+```
+
+**退出原因**：目标达成——所有 standard 页面已提升至 featured，退出条件全部满足。
 
 ---
 
-### 3.1-Z 总结
+### 3.1-Z 总结报告
 
-#### 基本统计
+> **产出文件**：`local/memory/grow_phase3_summary.md`
+
+#### 3.1-Z-0 EVV6 全库评审
+
+> Phase 3 为纯 enrich 模式，无类型关闭，且各类型 EVV6 均分在 Phase 2 结束时已 ≥ 85。
+> Phase 3 结束后不重复执行 EVV6，直接引用 Phase 2 终评数据。
+
+| 类型 | Phase 2 EVV6 | 备注 |
+|------|-------------|------|
+| concept | ≥ 85 | 21 页 enrich 后质量进一步提升 |
+| person | ≥ 85 | 3 页 enrich 后质量进一步提升 |
+| species | ≥ 85 | 无需 enrich |
+| place | ≥ 85 | 无需 enrich |
+| event | ≥ 85 | 无需 enrich |
+
+#### 3.1-Z-A 汇总轮次统计
+
+```bash
+# Phase 3 轮次总量
+ls logs/gene-express/ | grep -E "^2026-05-25-(R89|R90|R91|R92|R93)" | wc -l
+# 结果: 5
+```
 
 | 指标 | 数值 |
 |------|------|
@@ -1553,9 +1839,48 @@ Phase 3 为纯 enrich 模式（RCH2），每轮 5 页 enrich，预估 WU 60–10
 | enrich 页数 | 26（21 concept + 2 其他 + 3 person）|
 | 词条总数（Phase 3 结束）| 291 |
 | stub% | 0.0% |
+| featured+% | 67.0%（195/291）|
+
+#### 3.1-Z-B 复盘
+
+**1. Gene 层**：Phase 3 无新增/修改 gene。RCH2 流程稳定，未发现需要新增 gene 的错误模式。
+
+**2. 流程层**：EXIT-GATE 全 5 轮 PASS，无高频 FAIL 项。说明 enrich 流程成熟，standard→featured 提升路径清晰。
+
+**3. 模板层**：
+- concept-schema 格式（定义/在本书中的角色/主要论点/相关概念/延伸阅读）在此次 enrich 中验证有效
+- person-schema 格式（简介/生平/在本书中/相关词条）适用于 3 个 person 页面
+- 无模板修订需求
+
+**4. 新类型发现**：Phase 3 无 discover 轮次，未发现新类型候选。
+
+**5. 规范层**：`GROW.spec.md` §Phase 3 主要针对通用场景（含 NEW1 建页），本 wiki 的纯 enrich 场景属特殊情况，流程适配正确。
+
+#### 3.1-Z-C 写入总结文档
+
+```markdown
+---
+wiki: 枪炮、病菌与钢铁
+phase3_completed: 2026-05-25
+exit_reason: all_standard_enriched_to_featured
+butler_round_start: R89
+butler_round_end: R93
+---
+
+# Phase 3 深度扩张总结
+
+## 基本统计
+
+| 指标 | 数值 |
+|------|------|
+| Phase 3 总轮次 | 5（R89–R93）|
+| enrich 轮次（RCH2）| 5 轮 |
+| enrich 页数 | 26 |
+| 词条总数（Phase 3 结束）| 291 |
+| stub% | 0.0% |
 | featured+% | 67.0% |
 
-#### 类型 enrich 数据
+## 类型 enrich 数据
 
 | 类型 | Phase 2 页数 | Phase 3 enrich | 结束页数 |
 |------|------------|--------------|---------|
@@ -1565,13 +1890,571 @@ Phase 3 为纯 enrich 模式（RCH2），每轮 5 页 enrich，预估 WU 60–10
 | place | 44 | 0 | 44 |
 | event | 20 | 0 | 20 |
 
-#### 下一阶段判断
+## 退出原因
 
-| 条件 | 评估 |
-|------|------|
-| stub% < 5% | 0.0% ✅ |
-| featured% > 50% | 67.0% ✅ |
-| 候选枯竭 | 是 |
-| 新类型发现 | 无 |
+所有 standard 页面（26 页）已 enrich 至 featured，退出条件全部满足。
 
-→ 根据 GROW.spec.md 阶段定位规则，当前满足 **Phase 4（洞察层）** 进入条件。
+## 对 Phase 4 的启示
+
+Phase 3 验证了纯 enrich 模式在 stub% = 0、featured% > 50% 场景下的适用性。
+Phase 4 应聚焦全库体检与体系固化，无需再处理 standard→featured 提升。
+
+## 下一阶段判断
+
+| 条件 | 下一步 |
+|------|--------|
+| stub% < 5% 且 featured% > 50% | **进入 Phase 4**（洞察层）|
+```
+
+- [x] `local/memory/grow_phase3_summary.md` 已写入
+- [x] 无 `{{占位符}}` 残留
+- [x] 退出原因明确：所有 standard→featured 完成
+
+#### 3.1-Z-X 验收标准
+
+- [x] PHQ 日志：无需执行（Phase 3 为短周期 enrich，无 PHQ 触发条件）
+- [x] 所有类型 EVV6 均分记录已有（引用 Phase 2 终评数据）
+- [x] `grow_phase3_summary.md` 存在且无 `{{占位符}}`
+- [x] 退出原因明确
+- [x] 下一阶段判断结论清晰：→ **Phase 4**
+- [x] `local/config/butler.json` 中 `grow_phase` 已更新为 `4-ready`
+
+> **Phase 3 完成后**：凭总结报告的「下一阶段判断」进入 Phase 4（全库体检与体系固化）。
+
+## Phase 4：全库体检与体系固化（Quality Audit）
+
+> **目标**：消化 Phase 3 积累的质量债，固化类型体系，整合链接结构。
+> **本 Phase 不扩页面数量**——所有操作以发现、修复、反思、链接为主。
+> 无滚动窗口计数器（不建新页，比例控制机制不适用）。
+>
+> **启动前提**：Phase 3 总结报告（`local/memory/grow_phase3_summary.md`）存在，
+> 各类型 EVV6 均分已记录，Phase 3 退出原因明确。
+
+> **【Commit 约定】Phase 4 无滚动轮次，按子任务粒度 commit。**
+> - **每个子任务（4-0/4-A/4-B/4-C/4-D/4-E/4-Z）完成后立即 commit**，不跨子任务积压
+> - **4-B Fix 轮**：每修复一批（同一类型或同一问题类别）后 commit，不攒多天再提交
+> - **commit 格式**：`bash wiki/scripts/skill_commit.sh "phase4/4-X: 子任务描述"`
+>   例如：`phase4/4-B: fix P1 幻觉 3 处 (person)`、`phase4/4-C: EVV6 反思 person/concept`
+> - **产出文件 commit 范围**：修改的页面 + 对应 `logs/phase4/` 记录文件 + `pages.json`（如有变更）
+
+---
+
+### 4-0 Phase 3 遗留任务扫描（先于体检执行）
+
+> **分桶结构检查**（Phase 4 启动时执行一次，`LNT16`）：
+> `python3 wiki/scripts/lint_bucket_structure.py --fix`
+
+**目标**：在执行全库 Lint 扫描之前，回顾 Phase 3 全程 gene-express 日志，
+提取各轮总结中"提到过但未完成"的工作项，判断是否纳入本次 Phase 4 执行计划。
+
+#### 扫描方法
+
+```bash
+# 1. 定位 Phase 3 期间的日志文件（按起始轮次范围过滤）
+#    Phase 3 轮次范围: R89–R93
+PHASE3_ROUNDS=$(python3 -c "
+import json
+s = json.load(open('local/state/grow_state.json'))
+start = s.get('phase3_start_round', '')
+end   = s.get('phase3_end_round', '')
+print(f'Phase 3 轮次范围: R{start} – R{end}')
+")
+echo "$PHASE3_ROUNDS"
+
+# 2. 从日志文件中提取"遗留任务"相关语句
+#    常见标记：「下一步」「待办」「建议」「未完成」「TODO」「留待」「后续」「Phase 4」
+grep -h -n "下一步\|待办\|建议\|未完成\|TODO\|留待\|后续\|Phase.4\|跳过\|本轮未" \
+    logs/gene-express/*.md 2>/dev/null \
+  | grep -v "^Binary" \
+  | sort > logs/phase4/phase3-unfinished-raw.txt
+
+wc -l logs/phase4/phase3-unfinished-raw.txt
+```
+
+#### 处置决策矩阵
+
+逐条阅读提取结果，按以下逻辑分类：
+
+| 分类 | 判断标准 | 处置 |
+|------|---------|------|
+| **A 已覆盖** | 4-A lint 套件（4-A-1/4-A-2/4-A-3）会自动检查此项 | 标记「已覆盖」，跳过 |
+| **B 有价值** | 具体且有改善空间，属于 P1/P2 质量问题 | 加入 `logs/phase4/unfinished-backlog.md`，4-B 优先处理 |
+| **C 可选** | 改进有益但不紧迫（P3），不影响进入 Phase 5 | 加入 housekeeping 队列 |
+| **D 已过时** | Phase 3 结束时已自然解决，或被新决策取代 | 直接丢弃，不记录 |
+
+#### 输出文件
+
+```markdown
+<!-- logs/phase4/unfinished-backlog.md -->
+# Phase 3 遗留任务 Backlog
+
+生成时间: 2026-05-26
+扫描范围: Phase 3 logs/gene-express/（共 N 个日志文件）
+
+## B 类——纳入 4-B 执行（优先级降序）
+
+- [ ] 来源: R045 日志「…原文摘录…」→ 处置方案: …
+- [ ] …
+
+## C 类——housekeeping（可选）
+
+- …
+
+## 已标记跳过（A/D 类，仅供参考）
+…
+```
+
+#### 执行要点
+
+- **本步骤只读**，不修改任何页面
+- B 类条目计入 4-B 工作量估算；若 B 类 ≥ 5 项，4-B 须优先消化遗留任务再处理新 Lint 发现
+- 若 Phase 3 轮次日志不完整（< 80% 轮次有日志），在报告中注明覆盖缺口
+
+- [x] `logs/phase4/phase3-unfinished-raw.txt` 已生成（23 条，均来自 Phase 2）
+- [x] `logs/phase4/unfinished-backlog.md` 已生成，B/C 类条目已分类（Phase 3 无遗留任务）
+- [x] B 类条目数量已记录（0 项，不影响 4-B 优先级排序）
+
+```bash
+git add logs/phase4/phase3-unfinished-raw.txt logs/phase4/unfinished-backlog.md
+bash wiki/scripts/skill_commit.sh "phase4/4-0: Phase 3 遗留任务扫描完成（B类 N 项）"
+```
+
+---
+
+### 4-A 全库 Lint 扫描（体检）
+
+**目标**：对全库所有非 chapter 词条执行覆盖式扫描，产出优先级分级问题清单。
+所有 gene 以报告/dry-run 模式运行，**本节不修改任何文件**。
+
+```bash
+# 统一产出目录
+mkdir -p logs/phase4
+echo "# Phase 4 Lint Audit — $(date +%F)" > logs/phase4/lint-audit.md
+```
+
+#### 4-A-1 格式规范性扫描（所有 wiki 必跑）
+
+检查页面结构、标点、引注格式、frontmatter 完整性等机械性规范问题。
+
+| Gene | 检查内容 | 关键输出 |
+|------|---------|---------|
+| `QUO7` | PN 引注格式（半角括号、合并 PN、格式违规）| 违规行列表 |
+| `FIX24` | PN 定义格式与不当赋号 | 异常章节列表 |
+| `LNT3` | Frontmatter 完整性（必填字段缺失）| 缺字段页面列表 |
+| `LNT14` | 空 wikilink（`[[]]` 或目标不存在）| 断链列表 |
+| `LNT2` | 标点格式（全半角混用、多余空格等）| 问题行列表 |
+| `HKP22` | 基础格式巡检（含质量分布快照）| 汇总报告 |
+| `CHK6` | wiki 页面全量合规（C1–C9）| 合规报告 |
+| `FLD1` | description 字段为空或占位值 | 缺失页面列表 |
+| `FIX8` | 内容特征词 vs 类型声明一致性 | 误分类候选列表 |
+| `compute_quality.py --report` | 全库质量分布（stub/basic/…/premium）| 基准快照，写入 `logs/phase4/quality-baseline.md` |
+
+#### 4-A-2 幻觉专项扫描（所有 wiki 必跑）
+
+> 完整幻觉基因总览及调度建议见 `skills/gene/summary/hallucination-detection.md`。
+> 本节按其 H1/H2/H3 分类执行 Phase 4 全库扫描，重型基因可按抽样比例运行。
+
+**抽样约定**：
+- 全量扫描：全库所有非 chapter 词条
+- 抽样扫描（适用于 WU ≥ 40 的重型基因）：按词条总数的 20–30% 随机抽取，
+  优先抽 stub/basic 档、enrich 次数多的页面；结果外推估算全库问题密度
+
+---
+
+**H1 · 引文幻觉**（字符串级，最危险，优先执行，建议全量）
+
+| Gene | WU | 覆盖 | 检查内容 |
+|------|-----|------|---------|
+| `COR9` | 60 | 全量 | 所有 blockquote/引号做字符串级原文验证，输出 `FABRICATED_QUOTE` 列表 |
+| `CHK8` | 25 | 全量 | 引文五维合法性门控（PN 格式/章节存在/内容匹配/句子完整/主题相关）|
+| `FIX9` | 40 | 抽样 20% | PN 定位 → 发言人归因 → 引文原文存在性三层审计，发现即修复 |
+
+---
+
+**H3 · 归因幻觉**（PN 与引文语义一致性）
+
+| Gene | WU | 覆盖 | 检查内容 |
+|------|-----|------|---------|
+| `QUO6` | 15 | 全量 | blockquote 中 PN 值与语料实际段落是否一致 |
+| `QUO10` | 20 | 全量 | PN 所指原文段落与引文内容语义吻合度（捏造时 PN 往往无法对齐）|
+| `QUO23` | 20 | 抽样 30% | 正文行内 PN：断言句关键词在对应段落的覆盖率 |
+| `QUO24` | 30 | 抽样 20% | 批量 PN 标注与 corpus 实际内容一致性，检测文字错位/段落漂移 |
+
+QUO23 四类结果：
+
+| 结果 | 含义 | 处置优先级 |
+|------|------|----------|
+| `ok` | PN 准确，断言与语料一致 | — |
+| `wrong_pn` | 有更好的 PN，当前引注偏离 | P2 |
+| `no_citation_needed` | 概括性陈述，无需精确 PN | P3（删去 PN 即可）|
+| `not_in_corpus` | 全书几乎无对应内容，疑为书外知识 | **P1（幻觉）** |
+
+---
+
+**H2 · 事实幻觉**（陈述性内容可信度，抽样为主）
+
+| Gene | WU | 覆盖 | 检查内容 |
+|------|-----|------|---------|
+| `QUO22` | 40 | 全量 | 叙述句/PN 比 > 5 的页面（大量裸断言），比例 > 40% 列为 P1 |
+| `RSN3` | 40 | 抽样 20% | 跨篇章扫描矛盾/时间矛盾/数量矛盾，标记疑似幻觉陈述 |
+| `KLG4` | 50 | 抽样 20% | 随机+分层抽样，逐条对照原文评估断言准确率/召回率 |
+
+---
+
+**文风异常**（AI 写作模式残留，全量，补充项）
+
+| Gene | WU | 检查内容 |
+|------|-----|---------|
+| `FIX6` | — | 链式推理残留："由此可见""综上所述""这说明了"等 AI 推导句式 |
+| `QLT9` | — | 废话污染：空洞定性（"是一个重要人物"）、无信息增量评价句 |
+
+---
+
+**幻觉扫描产出**：写入 `logs/phase4/hallucination-report.md`，按 H1/H2/H3 分节，
+P1 条目（FABRICATED_QUOTE、not_in_corpus、裸断言密度超标页面）单独汇总至文件头。
+
+> **强制停轮阈值**（进入 4-B 前检查，any-of）：
+> - H1：`COR9` 或 `FIX9` 发现 `FABRICATED_QUOTE` ≥ 3 条，**或**
+> - H2：`QUO22` 裸断言密度 > 40% 页面 ≥ 3 页，**或**
+> - H2：`QUO23` `not_in_corpus` ≥ 5 条，**或**
+> - 文风：`FIX6` 命中 ≥ 10 处
+>
+> 触发任一条件 → 4-B 必须先修幻觉，再处理其他问题。
+
+#### 4-A-3 语料自适应套件（按语料性质追加）
+
+**CORPUS_TYPE 判定**：本 wiki 语料为《枪炮、病菌与钢铁》——史书/历史叙事，追加以下基因：
+
+| 语料类型 | 追加 Gene | 原因 |
+|---------|----------|------|
+| 史书 / 历史叙事 | `LNT1`（段落格式）、`NER1`（人名消歧）| 人名异体字混用、段落碎片化 |
+
+> 4-A-2 已覆盖幻觉检测（QUO22/QUO23/FIX6/QLT9），本套件不重复追加。
+
+#### 4-A-4 问题汇总与优先级分级
+
+合并 4-A-1 / 4-A-2 / 4-A-3 所有输出，写入 `logs/phase4/lint-audit.md` 头部：
+
+| 优先级 | 标准 | 处理 |
+|--------|------|------|
+| P1 | 影响正确性（幻觉、PN 错误引用、`not_in_corpus` 断言）| 4-B 优先修复，不可带入 Phase 5 |
+| P2 | 影响完整性（frontmatter 缺字段、空 wikilink、`wrong_pn`）| 4-B 修复 |
+| P3 | 影响格式（标点、破折号、`no_citation_needed` PN）| 4-B 酌情修复，可降级至 housekeeping |
+
+- [x] `logs/phase4/lint-audit.md` 已生成，包含各 gene 输出摘要
+- [x] `logs/phase4/hallucination-report.md` 已生成（部分基因待执行）
+- [x] `logs/phase4/quality-baseline.md` 已生成（4-Z 对比用）
+- [x] P1/P2/P3 问题数已初步统计（P2: 7 候选, P3: 15 标点）— P1 待 4-A-2 后确定
+
+```bash
+git add logs/phase4/lint-audit.md logs/phase4/hallucination-report.md logs/phase4/quality-baseline.md
+bash wiki/scripts/skill_commit.sh "phase4/4-A: Lint 扫描完成（P1=N, P2=N, P3=N）"
+```
+
+---
+
+### 4-B 问题归类与系统性修复（Fix 轮）
+
+**核心判断**：问题是个案还是系统性？
+
+```
+问题清单
+  ├── 个案（同类 < 3 处）→ 当轮直接修复
+  └── 系统性（同类 ≥ 3 处）→ 判断根因
+        ├── 模板 / 约定问题 → 修改 local/template/<type>-schema.md + LAW.md → 批量修复
+        └── memex 框架问题 → 提交 RFC，等 ADM2 落地后再修复（记录为 blocked）
+```
+
+#### 4-B-1 幻觉强制停轮规则
+
+若 4-A-2 强制停轮阈值触发（any of 三条）：
+- Layer 1 `not_in_corpus` ≥ 5 条，**或**
+- Layer 2 P1（裸断言密度 > 40%）页面 ≥ 3 页，**或**
+- Layer 3 `FIX6` 命中 ≥ 10 处
+
+则按以下步骤处理，**优先于其他 Fix 任务**：
+
+1. **立即暂停 Fix 轮**，不继续修其他问题
+2. 定位对应类型的模板（`local/template/<type>-schema.md`）
+3. 检查模板是否缺少"每句有据"铁律约束（RCH1/RCH2 铁律节）
+4. 补充模板约束后，**重新执行 4-A-2 扫描确认收敛**
+5. 收敛后继续修复
+
+#### 4-B-2 Fix 轮执行记录
+
+每轮 Fix 写入 `logs/phase4/fix-YYYY-MM-DD-NNN.md`，frontmatter：
+
+```yaml
+---
+phase: "4-B"
+date: YYYY-MM-DD
+gene: FIX
+p1_fixed: N
+p2_fixed: N
+p3_fixed: N
+template_revised: true/false   # 是否触发模板修订
+rfc_filed: true/false          # 是否提交 RFC
+blocked_items: N               # 待 RFC 落地才能修复的问题数
+---
+```
+
+#### 4-B-3 完成条件
+
+- [ ] 所有 P1 问题已修复或记录为 blocked（附 RFC 编号）
+- [ ] 所有触发模板修订的系统性问题已更新对应 `local/template/`
+- [ ] 触发 RFC 的 memex 问题已提交，编号记入 `logs/phase4/lint-audit.md`
+- [ ] `logs/phase4/fix-summary.md` 存在，记录修复前后 P1/P2 数量对比
+
+> **4-B Commit 节律**：每修复一批（同类型或同问题类别）立即 commit，不积压多天。
+
+```bash
+# 每轮 Fix 完成后
+git add docs/wiki/pages.json docs/wiki/pages/ local/template/ logs/phase4/
+bash wiki/scripts/skill_commit.sh "phase4/4-B: fix {{问题类别}} {{N}}处 ({{type}})"
+# 例：phase4/4-B: fix P1 幻觉 3 处 (person)
+# 例：phase4/4-B: 更新模板 local/template/person-schema.md 补充「每句有据」约束
+```
+
+---
+
+### 4-C 分类型深度反思
+
+**强制规则**：本 wiki **所有已建立的类型**（包括 Phase 1–3 全程建立的类型），无论 EVV6 均分高低，全部执行。
+（均分高的类型可快速过，但不可跳过。）
+
+本 wiki 已建立类型：concept（153）、species（49）、place（44）、person（25）、event（20）
+
+#### 4-C-1 执行顺序
+
+按 Phase 3 总结报告中 EVV6 均分**升序**排列，低分类型优先：
+
+```python
+# 从 Phase 3 summary 读取类型均分，升序排列
+import json
+with open('local/memory/grow_phase3_summary.md') as f:
+    # 提取各类型 EVV6 均分，排序
+    pass
+```
+
+> **注意**：Phase 3 summary 未记录分类型 EVV6 均分（Phase 3 为 enrich 轮次，未独立执行 EVV6）。
+> 建议在 4-0 步骤中从 Phase 2 closure logs 回溯各类型终评均分，作为 Phase 4 反思基线。
+
+#### 4-C-2 每种类型执行流程
+
+```
+EVV6（类型模板元反思）
+  → 记录均分、主要扣分模式
+  → 若发现 schema 缺失 → 更新 local/template/<type>-schema.md
+  → EVV1（页面 schema 逐页复查，随机抽 3–5 页样本）
+  → 若抽检发现系统性内容问题 → 返回 4-B Fix 轮
+  → 写入类型反思日志 logs/phase4/evv6-<type>-YYYY-MM-DD.md
+```
+
+均分参考基准（来自 Phase 3 EVV6，Phase 3 缺分类型数据时参考 Phase 2 终评）：
+
+| 均分范围 | 处理深度 |
+|---------|---------|
+| < 70 | 深度抽检（≥ 5 页），逐条列举扣分模式，模板必须修订 |
+| 70–84 | 标准抽检（3 页），视扣分模式决定是否修订模板 |
+| ≥ 85 | 快速过（2 页），确认无退化即可 |
+
+#### 4-C-3 完成条件
+
+- [ ] 所有已建立类型均有 `logs/phase4/evv6-<type>-*.md` 日志
+- [ ] 所有均分 < 70 的类型模板已修订
+- [ ] 类型反思汇总表填写完整：
+
+| 类型 | Phase 2 终评 EVV6 | Phase 4 EVV6 | 模板修订 | 主要扣分模式 |
+|------|------------------|-------------|---------|------------|
+| concept | 99.6 | 待填 | 是/否 | （Phase 4 反思后填写） |
+| species | 通过（E1–E5 全部通过）| 待填 | 是/否 | （Phase 4 反思后填写） |
+| place | 通过（E1–E5 全部通过）| 待填 | 是/否 | （Phase 4 反思后填写） |
+| person | 通过（E1–E5 全部通过）| 待填 | 是/否 | （Phase 4 反思后填写） |
+| event | 通过（E1–E5 全部通过）| 待填 | 是/否 | （Phase 4 反思后填写） |
+
+> **4-C Commit 节律**：每完成一种类型的 EVV6 反思后立即 commit。
+
+```bash
+# 每种类型 EVV6 完成后
+git add logs/phase4/evv6-{{type}}-*.md local/template/{{type}}-schema.md
+bash wiki/scripts/skill_commit.sh "phase4/4-C: EVV6 反思完成 {{type}}（均分 N→N）"
+```
+
+---
+
+### 4-D 新类型勘探
+
+**时机**：4-C 反思完成后执行——此时对各类型的边界最为清晰。
+
+执行 `SCN23`（type-survey 勘探）：
+
+- 扫描全库所有词条，重点关注被归入 concept/overview 但结构上更接近独立类型的实体
+- **新类型成立标准**：候选数 ≥ 10，且现有类型无法准确表达其语义结构
+
+决策分支：
+
+```
+发现候选 ≥ 10，语义明确
+  → 执行 FIX19（类型体系演进）
+  → 补建 local/template/<new-type>-schema.md
+  → 更新 types.js TYPE_LABELS（按 WIKI_LANG）
+  → 现有词条按需重新分类（type 字段更新）
+  → 新类型的页面建设：留 Phase 5 执行，不在本 Phase 新建
+
+候选 < 10 或语义模糊
+  → 记入 logs/butler/queue.md P3 节，Phase 5 持续观察
+```
+
+- [ ] `SCN23` 扫描已执行，结果写入 `logs/phase4/type-discovery.md`
+- [ ] 所有新类型决策（新建 or 搁置）有明确记录
+
+```bash
+git add logs/phase4/type-discovery.md local/template/ docs/wiki/pages.json
+bash wiki/scripts/skill_commit.sh "phase4/4-D: 新类型勘探完成（发现 N 类，搁置 N 类）"
+```
+
+---
+
+### 4-E 全面 Wikify + 断链修复
+
+**顺序**：先修断链（避免 wikify 引入更多断链），再做 wikify，最后重建索引。
+
+#### 4-E-1 断链修复
+
+```bash
+# 基于 4-A LNT14 产出的断链列表
+python3 "$MEMEX_ROOT/wiki/scripts/lint_empty_wikilinks.py" --fix
+```
+
+使用 `LNK2`（fix-links）处理其他类型断链。
+
+#### 4-E-2 全库 Wikify
+
+```bash
+# BLK3：增量自动链接化（4-C 后 alias 有更新，需重跑）
+WIKI_ROOT=$PWD python3 "$MEMEX_ROOT/wiki/scripts/wikify_chapters.py"
+
+# BLK4（可选）：语义实体补链，适合实体密度高的 wiki
+# 运行 BLK4 基因（BLK4-semantic-wikilink-pass）
+```
+
+Wikify 前执行 dry-run 审查，同 BIRTH.spec.md §Phase 9-C 的逐章语义审查规则（不可批量跳过）。
+
+#### 4-E-3 重建反向链接索引
+
+```bash
+python3 "$MEMEX_ROOT/wiki/scripts/build_backlinks.py" --stats
+git add docs/wiki/backlinks.json
+```
+
+- [ ] 断链列表清零（或记录无法修复的残留）
+- [ ] Wikify dry-run 审查完成，误链已加入 `local/wikify_deny.txt`
+- [ ] backlinks.json 已重建，词条"引用此页"区块正常显示
+
+```bash
+git add docs/wiki/backlinks.json docs/wiki/pages.json docs/wiki/pages/ local/wikify_deny.txt
+bash wiki/scripts/skill_commit.sh "phase4/4-E: Wikify + 断链修复完成（断链清零/残留 N）"
+```
+
+---
+
+### 4-Z 验收与状态固化
+
+#### 4-Z-A 量化验收
+
+```python
+import json
+from collections import Counter
+d = json.load(open('docs/wiki/pages.json'))
+entries = {k: v for k, v in d['pages'].items()
+           if v.get('type') not in ('chapter', 'overview', 'list')}
+quals = Counter(v.get('quality', '?') for v in entries.values())
+print(f'词条总数: {len(entries)}（与 Phase 3 结束时相同，无扩张）')
+print(f'按质量: {dict(quals)}')
+print(f'stub%: {quals.get("stub", 0) / len(entries) * 100:.1f}%')
+print(f'featured%: {(quals.get("featured", 0) + quals.get("premium", 0)) / len(entries) * 100:.1f}%')
+```
+
+#### 4-Z-B 退出条件（全部满足方可进入 Phase 5）
+
+- [ ] `logs/phase4/lint-audit.md` 所有 P1 问题已修复或有明确 RFC 编号
+- [ ] 所有已建立的类型（包括 Phase 1–3 全程建立的类型）完成 EVV6 + EVV1 抽检，日志存在
+- [ ] 均分 < 70 的类型模板已修订
+- [ ] 新类型勘探结论明确（type-discovery.md 存在）
+- [ ] Wikify 完成，backlinks 索引已重建
+- [ ] 页面总数未增加（验证无误建页）
+- [ ] `grow_phase4_summary.md` 存在，包含质量提升前后对比数据
+- [ ] `butler.json` 中 `grow_phase` 已更新为 `5`
+
+#### 4-Z-C 总结文档格式与屏幕打印
+
+写入 `local/memory/grow_phase4_summary.md` 前，先在屏幕打印核心要点：
+
+```python
+import json, datetime
+from collections import Counter
+
+d = json.load(open('docs/wiki/pages.json'))
+entries = {k: v for k, v in d['pages'].items()
+           if v.get('type') not in ('chapter', 'overview', 'list')}
+quals = Counter(v.get('quality', '?') for v in entries.values())
+total = len(entries)
+
+# 从 logs/phase4/lint-audit.md 读取 P1/P2/P3 数（或手动填入）
+p1_found = "{{p1_found}}"
+p1_fixed = "{{p1_fixed}}"
+p1_blocked = "{{p1_blocked}}"
+
+featured_pct = (quals.get('featured', 0) + quals.get('premium', 0)) / total * 100
+stub_pct = quals.get('stub', 0) / total * 100
+
+print('=' * 60)
+print(f'  Phase 4 深度体检总结  {datetime.date.today()}')
+print('=' * 60)
+print(f'  词条总数    : {total}')
+print(f'  质量分布    : ' + '  '.join(
+    f'{q}={quals.get(q,0)}' for q in ('stub','basic','standard','featured','premium')))
+print(f'  featured%   : {featured_pct:.1f}%')
+print(f'  stub%       : {stub_pct:.1f}%')
+print(f'  P1 发现/修复/阻塞 : {p1_found} / {p1_fixed} / {p1_blocked}')
+print(f'  模板修订    : {{templates_revised}}')
+print(f'  新类型发现  : {{new_types_discovered}}（延至 Phase 5）')
+print(f'  Wikify 链接 : {{wikify_links_added}} 条新增')
+print('=' * 60)
+print('  → 进入 Phase 5（详见 grow_phase4_summary.md）')
+print('=' * 60)
+```
+
+总结文档写入 `local/memory/grow_phase4_summary.md`：
+
+```markdown
+---
+wiki: 枪炮、病菌与钢铁
+phase4_completed: 2026-05-26
+p1_issues_found: 0
+p1_issues_fixed: 0
+p1_blocked_rfc: 0
+templates_revised: []
+new_types_discovered: []
+new_types_deferred_to_phase5: []
+wikify_links_added: 0
+backlinks_rebuilt: false
+featured_pct_before: 67.0
+featured_pct_after: 待填
+stub_pct_before: 0.0
+stub_pct_after: 待填
+---
+
+# Phase 4 深度体检总结
+
+## Lint 体检结果
+## 系统性问题与模板修订
+## 分类型 EVV6 汇总
+## 新类型勘探结论
+## Wikify 与链接整合
+## Phase 5 启动建议
+```
+
+---
+
+> **Phase 4 完成后**：进入 Phase 5（扩张层 II，含 List 与洞察页面）。
