@@ -80,6 +80,15 @@
       ],
       "path": "at/阿塔瓦尔帕.md"
     },
+    "baergan": {
+      "type": "place",
+      "label": "巴尔干",
+      "aliases": [
+        "Balkans",
+        "巴尔干半岛"
+      ],
+      "path": "ba/baergan.md"
+    },
     "半岛": {
       "type": "concept",
       "label": "半岛",
@@ -1346,6 +1355,14 @@
       ],
       "path": "ma/麻疹.md"
     },
+    "meilaxiniya": {
+      "type": "place",
+      "label": "美拉尼西亚",
+      "aliases": [
+        "Melanesia"
+      ],
+      "path": "me/meilaxiniya.md"
+    },
     "meisuobudamiya": {
       "type": "place",
       "label": "美索不达米亚",
@@ -1421,6 +1438,14 @@
         "蒙特苏马"
       ],
       "path": "me/蒙特朱马.md"
+    },
+    "mikelunixiya": {
+      "type": "place",
+      "label": "密克罗尼西亚",
+      "aliases": [
+        "Micronesia"
+      ],
+      "path": "mi/mikelunixiya.md"
     },
     "milu": {
       "type": "place",
@@ -2213,6 +2238,15 @@
       ],
       "path": "xi/xinyuewodi.md"
     },
+    "xizang": {
+      "type": "place",
+      "label": "西藏",
+      "aliases": [
+        "Tibet",
+        "青藏高原"
+      ],
+      "path": "xi/xizang.md"
+    },
     "向日葵": {
       "type": "species",
       "label": "向日葵",
@@ -2839,6 +2873,10 @@
     "阿塔瓦尔帕": "阿塔瓦尔帕",
     "Atahualpa": "阿塔瓦尔帕",
     "阿塔华帕": "阿塔瓦尔帕",
+    "baergan": "baergan",
+    "巴尔干": "baergan",
+    "Balkans": "baergan",
+    "巴尔干半岛": "baergan",
     "半岛": "半岛",
     "半岛地形": "半岛",
     "斑马": "斑马",
@@ -3299,6 +3337,9 @@
     "麻疹病毒": "麻疹",
     "measles": "麻疹",
     "Measles morbillivirus": "麻疹",
+    "meilaxiniya": "meilaxiniya",
+    "美拉尼西亚": "meilaxiniya",
+    "Melanesia": "meilaxiniya",
     "meisuobudamiya": "meisuobudamiya",
     "美索不达米亚": "meisuobudamiya",
     "Mesopotamia": "meisuobudamiya",
@@ -3328,6 +3369,9 @@
     "蒙特朱马": "蒙特朱马",
     "Moctezuma": "蒙特朱马",
     "蒙特苏马": "蒙特朱马",
+    "mikelunixiya": "mikelunixiya",
+    "密克罗尼西亚": "mikelunixiya",
+    "Micronesia": "mikelunixiya",
     "milu": "milu",
     "秘鲁": "milu",
     "Peru": "milu",
@@ -3611,6 +3655,10 @@
     "新月沃地": "xinyuewodi",
     "Fertile Crescent": "xinyuewodi",
     "肥沃月弯": "xinyuewodi",
+    "xizang": "xizang",
+    "西藏": "xizang",
+    "Tibet": "xizang",
+    "青藏高原": "xizang",
     "向日葵": "向日葵",
     "sunflower": "向日葵",
     "小麦": "小麦",
@@ -3831,6 +3879,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 296,
-  "generated": "2026-05-25T15:04:35Z"
+  "page_count": 300,
+  "generated": "2026-05-25T15:05:21Z"
 }

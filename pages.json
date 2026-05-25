@@ -204,6 +204,27 @@
       "affiliation": "印加帝国",
       "total_refs": 9
     },
+    "baergan": {
+      "type": "place",
+      "label": "巴尔干",
+      "aliases": [
+        "Balkans",
+        "巴尔干半岛"
+      ],
+      "tags": [
+        "地区",
+        "路线"
+      ],
+      "path": "ba/baergan.md",
+      "description": "欧洲东南部的半岛，新月沃地农业传播进入欧洲的重要门户",
+      "prose_len": 745,
+      "prose_chars": 691,
+      "h2_count": 4,
+      "pn_count": 4,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "半岛": {
       "type": "concept",
       "label": "半岛",
@@ -413,7 +434,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 18
+      "total_refs": 20
     },
     "玻璃": {
       "type": "concept",
@@ -1238,7 +1259,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 1
+      "total_refs": 2
     },
     "地理决定论": {
       "type": "concept",
@@ -1413,7 +1434,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 5
+      "total_refs": 6
     },
     "鹅": {
       "type": "species",
@@ -2161,7 +2182,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 4
+      "total_refs": 5
     },
     "河流": {
       "type": "concept",
@@ -3396,6 +3417,26 @@
       "quality_score": 60,
       "total_refs": 5
     },
+    "meilaxiniya": {
+      "type": "place",
+      "label": "美拉尼西亚",
+      "aliases": [
+        "Melanesia"
+      ],
+      "tags": [
+        "地区",
+        "岛屿"
+      ],
+      "path": "me/meilaxiniya.md",
+      "description": "太平洋西南部的岛屿群，南岛人与原住民交融的地区",
+      "prose_len": 752,
+      "prose_chars": 698,
+      "h2_count": 4,
+      "pn_count": 4,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
     "meisuobudamiya": {
       "type": "place",
       "label": "美索不达米亚",
@@ -3416,7 +3457,7 @@
       "pn_count": 7,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 4
+      "total_refs": 5
     },
     "menggu": {
       "type": "place",
@@ -3583,6 +3624,26 @@
       "quality": "featured",
       "quality_score": 55,
       "affiliation": "阿兹特克帝国",
+      "total_refs": 0
+    },
+    "mikelunixiya": {
+      "type": "place",
+      "label": "密克罗尼西亚",
+      "aliases": [
+        "Micronesia"
+      ],
+      "tags": [
+        "地区",
+        "岛屿"
+      ],
+      "path": "mi/mikelunixiya.md",
+      "description": "太平洋西部的群岛区域，南岛人扩张的北线路径",
+      "prose_len": 765,
+      "prose_chars": 711,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
       "total_refs": 0
     },
     "milu": {
@@ -4077,7 +4138,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 18
+      "total_refs": 20
     },
     "欧洲殖民非洲": {
       "type": "event",
@@ -5005,7 +5066,7 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 3
+      "total_refs": 5
     },
     "探险": {
       "type": "concept",
@@ -5533,7 +5594,7 @@
       "pn_count": 3,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 1
     },
     "xinyuewodi": {
       "type": "place",
@@ -5554,6 +5615,27 @@
       "h2_count": 4,
       "pn_count": 6,
       "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
+    "xizang": {
+      "type": "place",
+      "label": "西藏",
+      "aliases": [
+        "Tibet",
+        "青藏高原"
+      ],
+      "tags": [
+        "高原",
+        "地区"
+      ],
+      "path": "xi/xizang.md",
+      "description": "青藏高原的核心区域，汉藏语系的发源地之一，高海拔文明的典型代表",
+      "prose_len": 743,
+      "prose_chars": 689,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "total_refs": 0
     },
@@ -5651,7 +5733,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 12
+      "total_refs": 13
     },
     "新月沃地": {
       "type": "concept",
@@ -5677,7 +5759,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 50
+      "total_refs": 51
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -6094,7 +6176,7 @@
       "pn_count": 5,
       "wikilink_count": 6,
       "blockquote_count": 0,
-      "total_refs": 3
+      "total_refs": 4
     },
     "一年生植物": {
       "type": "concept",
@@ -6553,7 +6635,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 12
+      "total_refs": 13
     },
     "中国农业起源": {
       "type": "event",
@@ -7067,6 +7149,10 @@
     "阿塔瓦尔帕": "阿塔瓦尔帕",
     "Atahualpa": "阿塔瓦尔帕",
     "阿塔华帕": "阿塔瓦尔帕",
+    "baergan": "baergan",
+    "巴尔干": "baergan",
+    "Balkans": "baergan",
+    "巴尔干半岛": "baergan",
     "半岛": "半岛",
     "半岛地形": "半岛",
     "斑马": "斑马",
@@ -7527,6 +7613,9 @@
     "麻疹病毒": "麻疹",
     "measles": "麻疹",
     "Measles morbillivirus": "麻疹",
+    "meilaxiniya": "meilaxiniya",
+    "美拉尼西亚": "meilaxiniya",
+    "Melanesia": "meilaxiniya",
     "meisuobudamiya": "meisuobudamiya",
     "美索不达米亚": "meisuobudamiya",
     "Mesopotamia": "meisuobudamiya",
@@ -7556,6 +7645,9 @@
     "蒙特朱马": "蒙特朱马",
     "Moctezuma": "蒙特朱马",
     "蒙特苏马": "蒙特朱马",
+    "mikelunixiya": "mikelunixiya",
+    "密克罗尼西亚": "mikelunixiya",
+    "Micronesia": "mikelunixiya",
     "milu": "milu",
     "秘鲁": "milu",
     "Peru": "milu",
@@ -7839,6 +7931,10 @@
     "新月沃地": "xinyuewodi",
     "Fertile Crescent": "xinyuewodi",
     "肥沃月弯": "xinyuewodi",
+    "xizang": "xizang",
+    "西藏": "xizang",
+    "Tibet": "xizang",
+    "青藏高原": "xizang",
     "向日葵": "向日葵",
     "sunflower": "向日葵",
     "小麦": "小麦",
@@ -8059,6 +8155,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 296,
-  "generated": "2026-05-25T15:04:35Z"
+  "page_count": 300,
+  "generated": "2026-05-25T15:05:21Z"
 }
