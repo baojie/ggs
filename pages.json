@@ -307,7 +307,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 9
+      "total_refs": 11
     },
     "玻璃": {
       "type": "concept",
@@ -948,7 +948,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 49
+      "total_refs": 50
     },
     "大麦": {
       "type": "species",
@@ -1637,6 +1637,29 @@
       "quality": "featured",
       "quality_score": 58,
       "total_refs": 0
+    },
+    "狗": {
+      "type": "species",
+      "label": "狗",
+      "aliases": [
+        "家犬",
+        "犬",
+        "dog"
+      ],
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ],
+      "path": "go/狗.md",
+      "description": "最早被人类驯化的动物，源自狼，在狩猎、看门和交通运输中发挥重要作用",
+      "prose_len": 625,
+      "prose_chars": 566,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 1
     },
     "国家": {
       "type": "concept",
@@ -2388,6 +2411,29 @@
       "quality_score": 57,
       "total_refs": 5
     },
+    "鸡": {
+      "type": "species",
+      "label": "鸡",
+      "aliases": [
+        "家鸡",
+        "chicken",
+        "原鸡"
+      ],
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ],
+      "path": "ji/鸡.md",
+      "description": "最早被驯化的鸟类之一，原产于中国和东南亚，为人类提供肉食和蛋类",
+      "prose_len": 638,
+      "prose_chars": 579,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "军事征服": {
       "type": "concept",
       "label": "军事征服",
@@ -2735,7 +2781,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 71
+      "total_refs": 72
     },
     "轮子": {
       "type": "concept",
@@ -2840,7 +2886,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 7
+      "total_refs": 8
     },
     "马的驯化": {
       "type": "event",
@@ -3142,7 +3188,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 62,
-      "total_refs": 4
+      "total_refs": 5
     },
     "牧人": {
       "type": "concept",
@@ -3260,7 +3306,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 0
+      "total_refs": 1
     },
     "农业": {
       "type": "concept",
@@ -3474,6 +3520,29 @@
       "chapter": 0,
       "book_seq": 0,
       "total_refs": 1
+    },
+    "葡萄": {
+      "type": "species",
+      "label": "葡萄",
+      "aliases": [
+        "葡萄藤",
+        "grape",
+        "栽培葡萄"
+      ],
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ],
+      "path": "pu/葡萄.md",
+      "description": "地中海地区最早驯化的水果之一，与橄榄、无花果和枣椰并称最早驯化的4种水果",
+      "prose_len": 660,
+      "prose_chars": 601,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "亲属关系": {
       "type": "concept",
@@ -3925,6 +3994,29 @@
       "h2_count": 4,
       "pn_count": 3,
       "wikilink_count": 1,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
+    "山羊": {
+      "type": "species",
+      "label": "山羊",
+      "aliases": [
+        "家山羊",
+        "goat",
+        "野山羊"
+      ],
+      "tags": [
+        "动物",
+        "家畜",
+        "驯化种"
+      ],
+      "path": "sh/山羊.md",
+      "description": "最早被驯化的反刍哺乳动物之一，为人类提供肉、奶、毛皮和骨料",
+      "prose_len": 673,
+      "prose_chars": 614,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "total_refs": 0
     },
@@ -4655,7 +4747,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 7
+      "total_refs": 8
     },
     "新月沃地": {
       "type": "concept",
@@ -4681,7 +4773,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 36
+      "total_refs": 38
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -4780,6 +4872,29 @@
       "blockquote_count": 0,
       "total_refs": 0
     },
+    "香蕉": {
+      "type": "species",
+      "label": "香蕉",
+      "aliases": [
+        "大蕉",
+        "banana",
+        "plantain"
+      ],
+      "tags": [
+        "植物",
+        "农作物",
+        "驯化种"
+      ],
+      "path": "xi/香蕉.md",
+      "description": "热带地区的重要碳水化合物作物，在东南亚和新几内亚独立驯化",
+      "prose_len": 656,
+      "prose_chars": 597,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "驯化": {
       "type": "concept",
       "label": "驯化",
@@ -4803,7 +4918,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 44
+      "total_refs": 47
     },
     "亚历山大大帝": {
       "type": "person",
@@ -5547,7 +5662,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 1
+      "total_refs": 2
     },
     "种族主义": {
       "type": "concept",
@@ -5967,6 +6082,10 @@
     "弓矢": "弓箭",
     "弓与箭": "弓箭",
     "复合弓": "弓箭",
+    "狗": "狗",
+    "家犬": "狗",
+    "犬": "狗",
+    "dog": "狗",
     "国家": "国家",
     "国家社会": "国家",
     "国家形成": "国家",
@@ -6086,6 +6205,10 @@
     "权力集中": "集中",
     "集权": "集中",
     "中央集权": "集中",
+    "鸡": "鸡",
+    "家鸡": "鸡",
+    "chicken": "鸡",
+    "原鸡": "鸡",
     "军事征服": "军事征服",
     "military conquest": "军事征服",
     "武装征服": "军事征服",
@@ -6250,6 +6373,10 @@
     "弗朗西斯科·皮萨罗": "皮萨罗",
     "Francisco Pizarro": "皮萨罗",
     "Preface": "Preface",
+    "葡萄": "葡萄",
+    "葡萄藤": "葡萄",
+    "grape": "葡萄",
+    "栽培葡萄": "葡萄",
     "亲属关系": "亲属关系",
     "kinship": "亲属关系",
     "血缘": "亲属关系",
@@ -6313,6 +6440,10 @@
     "贸易商": "商人",
     "商贾": "商人",
     "长途贸易者": "商人",
+    "山羊": "山羊",
+    "家山羊": "山羊",
+    "goat": "山羊",
+    "野山羊": "山羊",
     "山脉": "山脉",
     "山系": "山脉",
     "山地": "山脉",
@@ -6438,6 +6569,10 @@
     "中央行政": "行政",
     "锡": "锡",
     "锡金属": "锡",
+    "香蕉": "香蕉",
+    "大蕉": "香蕉",
+    "banana": "香蕉",
+    "plantain": "香蕉",
     "驯化": "驯化",
     "植物驯化": "驯化",
     "动物驯化": "驯化",
@@ -6587,6 +6722,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 237,
-  "generated": "2026-05-25T14:51:19Z"
+  "page_count": 242,
+  "generated": "2026-05-25T14:52:53Z"
 }
