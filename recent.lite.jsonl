@@ -589,3 +589,8 @@
 {"page": "村落", "label": "村落", "rev_id": "A7TQ19", "timestamp": "2026-05-25T14:04:08+00:00", "author": "grow", "summary": "GROW 2-R64: 新建 村落，standard 档", "size_before": 0, "size": 2362, "diff_add": 38, "diff_del": 0}
 {"page": "部族", "label": "部族", "rev_id": "Bh3VkQ", "timestamp": "2026-05-25T14:07:00+00:00", "author": "grow", "summary": "GROW 2-R64: 新建 部族，standard 档", "size_before": 0, "size": 2226, "diff_add": 31, "diff_del": 0}
 {"page": "季节性", "label": "季节性", "rev_id": "8yHeOy", "timestamp": "2026-05-25T14:07:50+00:00", "author": "grow", "summary": "GROW 2-R64: 新建 季节性，standard 档", "size_before": 0, "size": 2393, "diff_add": 31, "diff_del": 0}
+{"page": "考古遗址", "label": "考古遗址", "rev_id": "xLquzP", "timestamp": "2026-05-25T14:11:02+00:00", "author": "grow", "summary": "GROW 2-R65: 新建 考古遗址，standard 档", "size_before": 0, "size": 2657, "diff_add": 31, "diff_del": 0}
+{"page": "栖息地", "label": "栖息地", "rev_id": "OcCfmZ", "timestamp": "2026-05-25T14:11:34+00:00", "author": "grow", "summary": "GROW 2-R65: 新建 栖息地，standard 档", "size_before": 0, "size": 2697, "diff_add": 31, "diff_del": 0}
+{"page": "水利", "label": "水利", "rev_id": "XiFVAF", "timestamp": "2026-05-25T14:12:28+00:00", "author": "grow", "summary": "GROW 2-R65: 新建 水利，standard 档", "size_before": 0, "size": 2595, "diff_add": 31, "diff_del": 0}
+{"page": "植物", "label": "植物", "rev_id": "aMW4sf", "timestamp": "2026-05-25T14:13:13+00:00", "author": "grow", "summary": "GROW 2-R65: 新建 植物，standard 档", "size_before": 0, "size": 2551, "diff_add": 31, "diff_del": 0}
+{"page": "作物", "label": "作物", "rev_id": "qOluIp", "timestamp": "2026-05-25T14:13:53+00:00", "author": "grow", "summary": "GROW 2-R65: 新建 作物，standard 档", "size_before": 0, "size": 2918, "diff_add": 31, "diff_del": 0}
