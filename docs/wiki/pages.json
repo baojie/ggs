@@ -210,7 +210,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 30
+      "total_refs": 31
     },
     "伯克和威尔斯": {
       "type": "person",
@@ -728,6 +728,32 @@
       "quality_score": 29,
       "total_refs": 6
     },
+    "帝国": {
+      "type": "concept",
+      "label": "帝国",
+      "aliases": [
+        "帝国扩张",
+        "empire",
+        "征服帝国"
+      ],
+      "tags": [
+        "政治组织",
+        "社会复杂性",
+        "征服",
+        "扩张"
+      ],
+      "path": "di/帝国.md",
+      "description": "由多个国家通过征服或兼并形成的最大规模政治单元，通常跨越不同族裔和语言群体；在《枪炮、病菌与钢铁》中是分析欧洲征服优势链条的重要环节。",
+      "prose_len": 1263,
+      "prose_chars": 1059,
+      "h2_count": 5,
+      "pn_count": 11,
+      "wikilink_count": 6,
+      "blockquote_count": 2,
+      "quality": "standard",
+      "quality_score": 32,
+      "total_refs": 0
+    },
     "东南亚": {
       "type": "place",
       "label": "东南亚",
@@ -989,7 +1015,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 0
+      "total_refs": 1
     },
     "国家的形成": {
       "type": "event",
@@ -1261,7 +1287,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 44
+      "total_refs": 45
     },
     "骆驼": {
       "type": "species",
@@ -1897,7 +1923,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 12
+      "total_refs": 13
     },
     "天花病毒": {
       "type": "species",
@@ -2455,6 +2481,10 @@
     "地理决定论": "地理决定论",
     "环境决定论": "地理决定论",
     "geographic determinism": "地理决定论",
+    "帝国": "帝国",
+    "帝国扩张": "帝国",
+    "empire": "帝国",
+    "征服帝国": "帝国",
     "东南亚": "东南亚",
     "Southeast Asia": "东南亚",
     "热带东南亚": "东南亚",
@@ -2702,6 +2732,6 @@
     "字母传播": "字母文字的传播",
     "腓尼基字母传播": "字母文字的传播"
   },
-  "page_count": 102,
-  "generated": "2026-05-25T09:18:40Z"
+  "page_count": 103,
+  "generated": "2026-05-25T09:20:54Z"
 }
