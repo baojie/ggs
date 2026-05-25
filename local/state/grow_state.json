@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "wiki": "枪炮、病菌与钢铁",
-  "grow_phase": "3-exit",
+  "grow_phase": "4-ready",
   "phase2_iteration": 1,
   "phase2_closed": true,
   "current_type": "enrich",
