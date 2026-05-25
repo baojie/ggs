@@ -1,4 +1,4 @@
-# RFC-ggs-0026: `/grow` 执行未实例化 Phase 节到 GROW.md
+# RFC-ggs-0026: `/grow phase N` / `/boot phase N` 跳过了 `/comply N` 前置质检
 
 - **Status**: proposed
 - **Date**: 2026-05-25
@@ -8,35 +8,49 @@
 
 ## Problem
 
-GROW.md 遵循"做一步写一步"原则（3 行）：未执行的 Phase 待启动时从 `GROW.spec.md` 复制模板，填写实际参数后写入 GROW.md。
+`/grow phase 3` 直接执行了 Phase 3 内容，跳过了两个前置步骤：
 
-Phase 3（R89–R93，共 5 轮 enrich 26 页）已完整执行并 commit，但 Phase 3 节从未从 `GROW.spec.md` 实例化到 GROW.md 中。当前 GROW.md 以 Phase 2 的结尾 `---` 行截断，Phase 3 内容完全缺失。
+1. **实例化缺失**：`GROW.spec.md` 的 Phase 3 节未被实例化到 `GROW.md`（"做一步写一步"原则要求 Phase 启动前先复制模板、填写参数）
+2. **`/comply` 质检缺失**：`/grow phase N` 执行前应先经过 `/comply grow N` 质检（对照 spec 检查实例化内容完整、占位符替换、参数正确），质检合格后方可执行
 
-用户通过 `/open grow` 查看 GROW.md 时，看不到任何 Phase 3 执行记录，造成"连 Phase 3 都没有"的观感。
+后果：GROW.md 中 Phase 3 节完全不存在，用户查看时"连 Phase 3 都没有"。
 
 ## Root cause
 
-`/grow` skill 的 Phase 3 执行流程直接从 `$MEMEX_ROOT/GROW.spec.md` 读取步骤内容执行，跳过了「将 Phase N 节写入 GROW.md」的步骤。具体来说，标准 init/执行流程（`init phaseN`）包含 Step 2 实例化，但"自动继续"模式下的 Phase 3 执行未走 init 初始化流程，直接进入了执行循环。
+`/grow phase N` 和 `/boot phase N` 的执行入口没有强制前置条件检查：
 
-Phase 2 之所以有记录，是因为 `init phase2` 在 Phase 2 开始时执行过一次实例化。Phase 3 由 `grow phase 3` 参数直接启动，未走 `init phase3`，因此没有触发实例化。
+- 没有检查 Phase N 是否已在本地文件中实例化
+- 没有检查 `/comply phase N` 是否已完成且质检合格
+- `/comply` 被设计为可选的手动检查步骤，而非嵌入执行流程的强制门控
+
+Phase 2 之所以有实例化记录，是因为显式执行了 `/grow init phase2`（含 Step 2 实例化），但 `/grow init phase3` 从未执行。`/grow phase 3` 直接从 spec 读取步骤执行，绕过了实例化和质检。
 
 ## Proposed change
 
 ### A. 修复存量（立即执行）
 
-将 `GROW.spec.md §Phase 3`（1468–2445）的内容实例化到 GROW.md，填入实际执行数据（R89–R93、26 页、featured+ 67.0%），标记所有检查项 [x]，写入 `local/memory/grow_phase3_summary.md` 作为总结文件。
+将 `GROW.spec.md §Phase 3` 实例化到 GROW.md，填入实际执行数据，标记所有检查项 [x]。
 
-### B. 修复流程（防止复发）
+### B. 修复流程（强制门控）
 
-在 `/grow` skill 的 Phase 执行逻辑中，加入以下步骤：
+`/boot phase N` 和 `/grow phase N` 的执行入口必须增加两道门控检查，任一不通过则报错中止：
 
-1. **Phase 启动前核验**：检查 GROW.md 中是否已包含目标 Phase 的对应节（以 `^## Phase N：` 标题为准）
-2. **缺失则实例化**：从 `GROW.spec.md` 复制对应 Phase 内容，填写当前已知参数，写入 GROW.md，commit 后再进入执行循环
-3. **强制校验**：若 GROW.md 中不存在当前 Phase 节，pre-flight 检查报错阻止执行，提示用户先执行 `/grow init phaseN`
+**门控 1 — 实例化检查**：
+```
+检查本地 BIRTH.md / GROW.md 中是否存在 `^## Phase N` 节
+缺失 → 报错并提示：请先执行 `/boot init phaseN` 或 `/grow init phaseN`
+```
 
-### C. 适用性检查
+**门控 2 — `/comply` 质检检查**：
+```
+检查是否存在 `/comply boot N` 或 `/comply grow N` 的质检通过记录
+（例如在 phase 文件中标记 `comply: pass`，或独立的质检日志文件）
+未通过 → 报错并提示：请先执行 `/comply boot N` 或 `/comply grow N`
+```
 
-此规则同样适用于 Phase 4 及后续阶段——任何 Phase 首次启动前必须确认 GROW.md 中已有实例化内容。
+### C. 适用性
+
+此规则适用于所有 Phase（boot 和 grow 两侧），以及所有 N（0/1/2/3/4...）。
 
 ## Implementation
 
@@ -45,6 +59,7 @@ Phase 2 之所以有记录，是因为 `init phase2` 在 Phase 2 开始时执行
 
 **检查清单**：
 
-- [ ] 将上述修复写入 `/grow` skill 的 Phase 启动逻辑
-- [ ] 在 `pre-flight check` 中加入 GROW.md 节存在性检查
-- [ ] 文档化：在 GROW.spec.md 的 Phase 3/4 入口处加入`⚠️ 启动前确认 GROW.md 中已实例化本节`
+- [ ] 在 `/grow` skill 的 `phase N` 和 `init phaseN` 入口加入门控 1（实例化检查）和门控 2（comply 质检检查）
+- [ ] 在 `/boot` skill 的 `phase N` 和 `init phaseN` 入口加入同样的门控
+- [ ] 定义 comply 质检通过的记录方式（frontmatter field / 独立日志文件 / state 字段）
+- [ ] 更新 GROW.spec.md 和 boot spec 的执行流程图，标明 `/comply` 门控位置
