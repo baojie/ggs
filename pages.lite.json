@@ -9,6 +9,14 @@
       ],
       "path": "ab/About.md"
     },
+    "aisaobiya": {
+      "type": "place",
+      "label": "埃塞俄比亚",
+      "aliases": [
+        "Ethiopia"
+      ],
+      "path": "ai/aisaobiya.md"
+    },
     "爱迪生": {
       "type": "person",
       "label": "托马斯·爱迪生",
@@ -893,6 +901,14 @@
       ],
       "path": "hu/霍乱.md"
     },
+    "jialifuniya": {
+      "type": "place",
+      "label": "加利福尼亚",
+      "aliases": [
+        "California"
+      ],
+      "path": "ji/jialifuniya.md"
+    },
     "交换": {
       "type": "concept",
       "label": "交换",
@@ -1295,6 +1311,15 @@
       ],
       "path": "ma/麻疹.md"
     },
+    "meisuobudamiya": {
+      "type": "place",
+      "label": "美索不达米亚",
+      "aliases": [
+        "Mesopotamia",
+        "两河流域"
+      ],
+      "path": "me/meisuobudamiya.md"
+    },
     "美国东部": {
       "type": "place",
       "label": "美国东部",
@@ -1352,6 +1377,14 @@
         "蒙特苏马"
       ],
       "path": "me/蒙特朱马.md"
+    },
+    "milu": {
+      "type": "place",
+      "label": "秘鲁",
+      "aliases": [
+        "Peru"
+      ],
+      "path": "mi/milu.md"
     },
     "免疫力": {
       "type": "concept",
@@ -2304,6 +2337,15 @@
       ],
       "path": "yi/yindu.md"
     },
+    "yinduhe": {
+      "type": "place",
+      "label": "印度河",
+      "aliases": [
+        "Indus River",
+        "印度河流域"
+      ],
+      "path": "yi/yinduhe.md"
+    },
     "yindunixiya": {
       "type": "place",
       "label": "印度尼西亚",
@@ -2686,6 +2728,9 @@
     "About": "About",
     "关于本 Wiki": "About",
     "关于": "About",
+    "aisaobiya": "aisaobiya",
+    "埃塞俄比亚": "aisaobiya",
+    "Ethiopia": "aisaobiya",
     "爱迪生": "爱迪生",
     "托马斯·爱迪生": "爱迪生",
     "Thomas Edison": "爱迪生",
@@ -2995,6 +3040,9 @@
     "霍乱": "霍乱",
     "cholera": "霍乱",
     "霍乱弧菌": "霍乱",
+    "jialifuniya": "jialifuniya",
+    "加利福尼亚": "jialifuniya",
+    "California": "jialifuniya",
     "交换": "交换",
     "物物交换": "交换",
     "贸易交换": "交换",
@@ -3152,6 +3200,10 @@
     "麻疹病毒": "麻疹",
     "measles": "麻疹",
     "Measles morbillivirus": "麻疹",
+    "meisuobudamiya": "meisuobudamiya",
+    "美索不达米亚": "meisuobudamiya",
+    "Mesopotamia": "meisuobudamiya",
+    "两河流域": "meisuobudamiya",
     "美国东部": "美国东部",
     "北美东部": "美国东部",
     "Eastern North America": "美国东部",
@@ -3173,6 +3225,9 @@
     "蒙特朱马": "蒙特朱马",
     "Moctezuma": "蒙特朱马",
     "蒙特苏马": "蒙特朱马",
+    "milu": "milu",
+    "秘鲁": "milu",
+    "Peru": "milu",
     "免疫力": "免疫力",
     "免疫": "免疫力",
     "抵抗力": "免疫力",
@@ -3512,6 +3567,10 @@
     "印度": "yindu",
     "India": "yindu",
     "印度次大陆": "yindu",
+    "yinduhe": "yinduhe",
+    "印度河": "yinduhe",
+    "Indus River": "yinduhe",
+    "印度河流域": "yinduhe",
     "yindunixiya": "yindunixiya",
     "印度尼西亚": "yindunixiya",
     "Indonesia": "yindunixiya",
@@ -3654,6 +3713,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 281,
-  "generated": "2026-05-25T15:01:26Z"
+  "page_count": 286,
+  "generated": "2026-05-25T15:02:29Z"
 }

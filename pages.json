@@ -20,6 +20,27 @@
       "quality_score": 13,
       "total_refs": 0
     },
+    "aisaobiya": {
+      "type": "place",
+      "label": "埃塞俄比亚",
+      "aliases": [
+        "Ethiopia"
+      ],
+      "tags": [
+        "地区",
+        "农业",
+        "文明"
+      ],
+      "path": "ai/aisaobiya.md",
+      "description": "东非高原国家，独立农业起源地，新月沃地作物传播的最南端",
+      "prose_len": 851,
+      "prose_chars": 797,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "爱迪生": {
       "type": "person",
       "label": "托马斯·爱迪生",
@@ -90,7 +111,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 3
+      "total_refs": 4
     },
     "澳大利亚": {
       "type": "place",
@@ -139,7 +160,7 @@
       "quality": "featured",
       "quality_score": 57,
       "affiliation": "印加帝国",
-      "total_refs": 8
+      "total_refs": 9
     },
     "半岛": {
       "type": "concept",
@@ -226,7 +247,7 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "兵豆": {
       "type": "species",
@@ -426,7 +447,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 26,
-      "total_refs": 3
+      "total_refs": 4
     },
     "草原": {
       "type": "concept",
@@ -1328,7 +1349,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 2
+      "total_refs": 3
     },
     "鹅": {
       "type": "species",
@@ -1491,7 +1512,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 11
+      "total_refs": 12
     },
     "Frontispiece": {
       "type": "chapter",
@@ -2277,6 +2298,26 @@
       "quality_score": 57,
       "total_refs": 0
     },
+    "jialifuniya": {
+      "type": "place",
+      "label": "加利福尼亚",
+      "aliases": [
+        "California"
+      ],
+      "tags": [
+        "地区",
+        "地理"
+      ],
+      "path": "ji/jialifuniya.md",
+      "description": "北美西部沿海地区，狩猎采集社会密度与复杂性研究的经典案例",
+      "prose_len": 868,
+      "prose_chars": 814,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "交换": {
       "type": "concept",
       "label": "交换",
@@ -2778,7 +2819,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 5
+      "total_refs": 6
     },
     "卡哈马卡之战": {
       "type": "event",
@@ -3270,6 +3311,28 @@
       "quality_score": 60,
       "total_refs": 5
     },
+    "meisuobudamiya": {
+      "type": "place",
+      "label": "美索不达米亚",
+      "aliases": [
+        "Mesopotamia",
+        "两河流域"
+      ],
+      "tags": [
+        "地区",
+        "文明",
+        "河流"
+      ],
+      "path": "me/meisuobudamiya.md",
+      "description": "底格里斯河和幼发拉底河之间的地区，世界上最早的城市和文字发源地",
+      "prose_len": 959,
+      "prose_chars": 902,
+      "h2_count": 4,
+      "pn_count": 7,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 3
+    },
     "美国东部": {
       "type": "place",
       "label": "美国东部",
@@ -3292,7 +3355,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 2
+      "total_refs": 3
     },
     "美洲": {
       "type": "place",
@@ -3415,6 +3478,27 @@
       "quality_score": 55,
       "affiliation": "阿兹特克帝国",
       "total_refs": 0
+    },
+    "milu": {
+      "type": "place",
+      "label": "秘鲁",
+      "aliases": [
+        "Peru"
+      ],
+      "tags": [
+        "地区",
+        "文明",
+        "农业"
+      ],
+      "path": "mi/milu.md",
+      "description": "南美西部沿海国家，安第斯文明的核心区域，印加帝国所在地",
+      "prose_len": 903,
+      "prose_chars": 848,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 1
     },
     "免疫力": {
       "type": "concept",
@@ -3606,7 +3690,7 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "木薯": {
       "type": "species",
@@ -3867,7 +3951,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 12
+      "total_refs": 13
     },
     "欧洲殖民非洲": {
       "type": "event",
@@ -3913,7 +3997,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "平民": {
       "type": "concept",
@@ -4353,7 +4437,7 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 1
     },
     "萨赫勒地带": {
       "type": "place",
@@ -4378,7 +4462,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 3
+      "total_refs": 4
     },
     "书写系统": {
       "type": "concept",
@@ -4646,7 +4730,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 19
+      "total_refs": 20
     },
     "生态": {
       "type": "concept",
@@ -5406,7 +5490,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 44
+      "total_refs": 47
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -5779,7 +5863,29 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 1
+    },
+    "yinduhe": {
+      "type": "place",
+      "label": "印度河",
+      "aliases": [
+        "Indus River",
+        "印度河流域"
+      ],
+      "tags": [
+        "河流",
+        "文明",
+        "农业"
+      ],
+      "path": "yi/yinduhe.md",
+      "description": "南亚的主要河流，印度河文明的发源地，东西轴线粮食传播的东端",
+      "prose_len": 793,
+      "prose_chars": 739,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 2
     },
     "yindunixiya": {
       "type": "place",
@@ -6727,6 +6833,9 @@
     "About": "About",
     "关于本 Wiki": "About",
     "关于": "About",
+    "aisaobiya": "aisaobiya",
+    "埃塞俄比亚": "aisaobiya",
+    "Ethiopia": "aisaobiya",
     "爱迪生": "爱迪生",
     "托马斯·爱迪生": "爱迪生",
     "Thomas Edison": "爱迪生",
@@ -7036,6 +7145,9 @@
     "霍乱": "霍乱",
     "cholera": "霍乱",
     "霍乱弧菌": "霍乱",
+    "jialifuniya": "jialifuniya",
+    "加利福尼亚": "jialifuniya",
+    "California": "jialifuniya",
     "交换": "交换",
     "物物交换": "交换",
     "贸易交换": "交换",
@@ -7193,6 +7305,10 @@
     "麻疹病毒": "麻疹",
     "measles": "麻疹",
     "Measles morbillivirus": "麻疹",
+    "meisuobudamiya": "meisuobudamiya",
+    "美索不达米亚": "meisuobudamiya",
+    "Mesopotamia": "meisuobudamiya",
+    "两河流域": "meisuobudamiya",
     "美国东部": "美国东部",
     "北美东部": "美国东部",
     "Eastern North America": "美国东部",
@@ -7214,6 +7330,9 @@
     "蒙特朱马": "蒙特朱马",
     "Moctezuma": "蒙特朱马",
     "蒙特苏马": "蒙特朱马",
+    "milu": "milu",
+    "秘鲁": "milu",
+    "Peru": "milu",
     "免疫力": "免疫力",
     "免疫": "免疫力",
     "抵抗力": "免疫力",
@@ -7553,6 +7672,10 @@
     "印度": "yindu",
     "India": "yindu",
     "印度次大陆": "yindu",
+    "yinduhe": "yinduhe",
+    "印度河": "yinduhe",
+    "Indus River": "yinduhe",
+    "印度河流域": "yinduhe",
     "yindunixiya": "yindunixiya",
     "印度尼西亚": "yindunixiya",
     "Indonesia": "yindunixiya",
@@ -7695,6 +7818,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 281,
-  "generated": "2026-05-25T15:01:26Z"
+  "page_count": 286,
+  "generated": "2026-05-25T15:02:29Z"
 }
