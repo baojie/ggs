@@ -39,7 +39,7 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 2
     },
     "爱迪生": {
       "type": "person",
@@ -63,6 +63,48 @@
       "quality_score": 56,
       "affiliation": "美国",
       "total_refs": 3
+    },
+    "alabobandao": {
+      "type": "place",
+      "label": "阿拉伯半岛",
+      "aliases": [
+        "Arabian Peninsula"
+      ],
+      "tags": [
+        "地区",
+        "帝国",
+        "路线"
+      ],
+      "path": "al/alabobandao.md",
+      "description": "西亚的沙漠半岛，单峰驼的驯化地，文字传播的中转站",
+      "prose_len": 782,
+      "prose_chars": 726,
+      "h2_count": 4,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
+    "annatuoliya": {
+      "type": "place",
+      "label": "安纳托利亚",
+      "aliases": [
+        "Anatolia",
+        "小亚细亚"
+      ],
+      "tags": [
+        "地区",
+        "文明"
+      ],
+      "path": "an/annatuoliya.md",
+      "description": "土耳其的亚洲部分，早期农业驯化的关键地区，印欧语系起源地之一",
+      "prose_len": 751,
+      "prose_chars": 697,
+      "h2_count": 4,
+      "pn_count": 4,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 1
     },
     "安娜-卡列尼娜原则": {
       "type": "concept",
@@ -111,7 +153,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 4
+      "total_refs": 5
     },
     "澳大利亚": {
       "type": "place",
@@ -1349,7 +1391,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 3
+      "total_refs": 4
     },
     "鹅": {
       "type": "species",
@@ -2417,7 +2459,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 5
+      "total_refs": 6
     },
     "技术传播": {
       "type": "concept",
@@ -3209,7 +3251,7 @@
       "blockquote_count": 1,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 1
+      "total_refs": 2
     },
     "马": {
       "type": "species",
@@ -3331,7 +3373,7 @@
       "pn_count": 7,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 3
+      "total_refs": 4
     },
     "美国东部": {
       "type": "place",
@@ -3381,7 +3423,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 10
+      "total_refs": 11
     },
     "美洲家鸭": {
       "type": "species",
@@ -3774,7 +3816,7 @@
       "pn_count": 6,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 1
     },
     "南北轴": {
       "type": "concept",
@@ -3825,6 +3867,26 @@
       "quality": "featured",
       "quality_score": 56,
       "total_refs": 4
+    },
+    "niluohe": {
+      "type": "place",
+      "label": "尼罗河",
+      "aliases": [
+        "Nile River"
+      ],
+      "tags": [
+        "河流",
+        "文明"
+      ],
+      "path": "ni/niluohe.md",
+      "description": "非洲东北部的世界最长河流，埃及文明的摇篮",
+      "prose_len": 795,
+      "prose_chars": 741,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 2
     },
     "牛": {
       "type": "species",
@@ -3951,7 +4013,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 13
+      "total_refs": 15
     },
     "欧洲殖民非洲": {
       "type": "event",
@@ -4437,7 +4499,7 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "萨赫勒地带": {
       "type": "place",
@@ -5348,6 +5410,26 @@
       "blockquote_count": 0,
       "total_refs": 2
     },
+    "ximalaya": {
+      "type": "place",
+      "label": "喜马拉雅",
+      "aliases": [
+        "Himalayas"
+      ],
+      "tags": [
+        "地区",
+        "地理"
+      ],
+      "path": "xi/ximalaya.md",
+      "description": "亚洲的巨大山脉，重要的地理屏障，阻隔了东西方农业传播",
+      "prose_len": 793,
+      "prose_chars": 739,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "xinyuewodi": {
       "type": "place",
       "label": "新月沃地",
@@ -5490,7 +5572,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 47
+      "total_refs": 50
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -5863,7 +5945,7 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "yinduhe": {
       "type": "place",
@@ -6172,7 +6254,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 4
+      "total_refs": 5
     },
     "语言": {
       "type": "concept",
@@ -6298,6 +6380,26 @@
       "quality_score": 26,
       "total_refs": 5
     },
+    "zhili": {
+      "type": "place",
+      "label": "智利",
+      "aliases": [
+        "Chile"
+      ],
+      "tags": [
+        "地区",
+        "地理"
+      ],
+      "path": "zh/zhili.md",
+      "description": "南美洲西南部国家，地中海气候带与人类定居研究的典型案例",
+      "prose_len": 737,
+      "prose_chars": 683,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "专业化分工": {
       "type": "concept",
       "label": "专业化分工",
@@ -6346,7 +6448,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 9
+      "total_refs": 10
     },
     "中国农业起源": {
       "type": "event",
@@ -6839,6 +6941,13 @@
     "爱迪生": "爱迪生",
     "托马斯·爱迪生": "爱迪生",
     "Thomas Edison": "爱迪生",
+    "alabobandao": "alabobandao",
+    "阿拉伯半岛": "alabobandao",
+    "Arabian Peninsula": "alabobandao",
+    "annatuoliya": "annatuoliya",
+    "安纳托利亚": "annatuoliya",
+    "Anatolia": "annatuoliya",
+    "小亚细亚": "annatuoliya",
     "安娜-卡列尼娜原则": "安娜-卡列尼娜原则",
     "安娜·卡列尼娜原则": "安娜-卡列尼娜原则",
     "安娜卡列尼娜原则": "安娜-卡列尼娜原则",
@@ -7380,6 +7489,9 @@
     "Austronesian Expansion": "南岛语族扩张",
     "波利尼西亚扩张": "南岛语族扩张",
     "南岛人扩张": "南岛语族扩张",
+    "niluohe": "niluohe",
+    "尼罗河": "niluohe",
+    "Nile River": "niluohe",
     "牛": "牛",
     "家牛": "牛",
     "黄牛": "牛",
@@ -7597,6 +7709,9 @@
     "东西轴纬度": "纬度",
     "无花果": "无花果",
     "fig": "无花果",
+    "ximalaya": "ximalaya",
+    "喜马拉雅": "ximalaya",
+    "Himalayas": "ximalaya",
     "xinyuewodi": "xinyuewodi",
     "新月沃地": "xinyuewodi",
     "Fertile Crescent": "xinyuewodi",
@@ -7735,6 +7850,9 @@
     "再分配经济": "再分配",
     "贡品再分配": "再分配",
     "财富再分配": "再分配",
+    "zhili": "zhili",
+    "智利": "zhili",
+    "Chile": "zhili",
     "专业化分工": "专业化分工",
     "经济专业化": "专业化分工",
     "分工": "专业化分工",
@@ -7818,6 +7936,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 286,
-  "generated": "2026-05-25T15:02:29Z"
+  "page_count": 291,
+  "generated": "2026-05-25T15:03:26Z"
 }
