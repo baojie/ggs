@@ -141,6 +141,25 @@
       "affiliation": "印加帝国",
       "total_refs": 8
     },
+    "半岛": {
+      "type": "concept",
+      "label": "半岛",
+      "aliases": [
+        "半岛地形"
+      ],
+      "tags": [
+        "地理"
+      ],
+      "path": "ba/半岛.md",
+      "description": "三面环水、一面连接大陆的陆地，其地理位置在粮食生产传播和文明交流中起重要桥梁作用",
+      "prose_len": 963,
+      "prose_chars": 904,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "斑马": {
       "type": "species",
       "label": "斑马",
@@ -288,7 +307,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 8
+      "total_refs": 9
     },
     "玻璃": {
       "type": "concept",
@@ -885,6 +904,27 @@
       "quality_score": 57,
       "total_refs": 1
     },
+    "大陆": {
+      "type": "concept",
+      "label": "大陆",
+      "aliases": [
+        "洲",
+        "大洲"
+      ],
+      "tags": [
+        "地理",
+        "历史"
+      ],
+      "path": "da/大陆.md",
+      "description": "地球上面积广大的连续陆地板块，其形状、轴线方向和生态条件是决定人类社会发展轨迹的关键地理因素",
+      "prose_len": 1031,
+      "prose_chars": 970,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 2
+    },
     "大陆轴线": {
       "type": "concept",
       "label": "大陆轴线",
@@ -908,7 +948,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 45
+      "total_refs": 48
     },
     "大麦": {
       "type": "species",
@@ -934,6 +974,28 @@
       "quality": "featured",
       "quality_score": 61,
       "total_refs": 5
+    },
+    "岛屿": {
+      "type": "concept",
+      "label": "岛屿",
+      "aliases": [
+        "岛",
+        "海岛"
+      ],
+      "tags": [
+        "地理",
+        "生物",
+        "演化"
+      ],
+      "path": "da/岛屿.md",
+      "description": "四面环水的陆地，其孤立性创造了天然的演化实验环境，用于研究人类社会因环境差异而产生的辐射性演化",
+      "prose_len": 1082,
+      "prose_chars": 1022,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "达尔文": {
       "type": "person",
@@ -1006,7 +1068,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 10
+      "total_refs": 11
     },
     "地理因素": {
       "type": "concept",
@@ -1348,6 +1410,29 @@
       "quality": "featured",
       "quality_score": 60,
       "total_refs": 7
+    },
+    "高原": {
+      "type": "concept",
+      "label": "高原",
+      "aliases": [
+        "高地",
+        "高原地区",
+        "高原地带"
+      ],
+      "tags": [
+        "地理",
+        "农业",
+        "生态"
+      ],
+      "path": "ga/高原.md",
+      "description": "海拔较高且地势相对平坦的大面积陆地地形，是理解农业扩散限制和人口分布的关键地理要素",
+      "prose_len": 855,
+      "prose_chars": 777,
+      "h2_count": 4,
+      "pn_count": 7,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "高粱": {
       "type": "species",
@@ -2049,7 +2134,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 3
+      "total_refs": 5
     },
     "技术传播": {
       "type": "concept",
@@ -2650,7 +2735,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 66
+      "total_refs": 69
     },
     "轮子": {
       "type": "concept",
@@ -2879,7 +2964,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 7
+      "total_refs": 8
     },
     "美洲独立农业起源": {
       "type": "event",
@@ -3126,7 +3211,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 1
+      "total_refs": 2
     },
     "牛": {
       "type": "species",
@@ -3253,7 +3338,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 7
+      "total_refs": 8
     },
     "欧洲殖民非洲": {
       "type": "event",
@@ -3278,6 +3363,27 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
+      "total_refs": 0
+    },
+    "平原": {
+      "type": "concept",
+      "label": "平原",
+      "aliases": [
+        "大平原",
+        "冲积平原"
+      ],
+      "tags": [
+        "地理",
+        "农业"
+      ],
+      "path": "pi/平原.md",
+      "description": "地势平坦开阔的陆地，历史上农业文明和大规模人类社会组织的摇篮",
+      "prose_len": 1050,
+      "prose_chars": 990,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
       "total_refs": 0
     },
     "平民": {
@@ -3499,7 +3605,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 1
+      "total_refs": 2
     },
     "人口密度": {
       "type": "concept",
@@ -3797,6 +3903,29 @@
       "h2_count": 4,
       "pn_count": 3,
       "wikilink_count": 1,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
+    "山脉": {
+      "type": "concept",
+      "label": "山脉",
+      "aliases": [
+        "山系",
+        "山地",
+        "山区"
+      ],
+      "tags": [
+        "地理",
+        "农业",
+        "技术传播"
+      ],
+      "path": "sh/山脉.md",
+      "description": "连续延伸的高山地形，是农业扩散、物种传播和文化交流的重要地理屏障",
+      "prose_len": 943,
+      "prose_chars": 866,
+      "h2_count": 4,
+      "pn_count": 8,
+      "wikilink_count": 3,
       "blockquote_count": 0,
       "total_refs": 0
     },
@@ -4632,7 +4761,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 41
+      "total_refs": 43
     },
     "亚历山大大帝": {
       "type": "person",
@@ -4887,6 +5016,27 @@
       "quality_score": 60,
       "total_refs": 6
     },
+    "语系": {
+      "type": "concept",
+      "label": "语系",
+      "aliases": [
+        "语言家族",
+        "语族"
+      ],
+      "tags": [
+        "语言",
+        "历史"
+      ],
+      "path": "yu/语系.md",
+      "description": "具有共同祖先语言的一组语言的分类，用于追溯人类迁徙和族群扩张的历史",
+      "prose_len": 1021,
+      "prose_chars": 961,
+      "h2_count": 5,
+      "pn_count": 0,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "语言": {
       "type": "concept",
       "label": "语言",
@@ -4911,7 +5061,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 27,
-      "total_refs": 2
+      "total_refs": 3
     },
     "语言传播": {
       "type": "concept",
@@ -5521,6 +5671,8 @@
     "阿塔瓦尔帕": "阿塔瓦尔帕",
     "Atahualpa": "阿塔瓦尔帕",
     "阿塔华帕": "阿塔瓦尔帕",
+    "半岛": "半岛",
+    "半岛地形": "半岛",
     "斑马": "斑马",
     "非洲斑马": "斑马",
     "zebra": "斑马",
@@ -5601,6 +5753,9 @@
     "村庄": "村落",
     "定居点": "村落",
     "settlement": "村落",
+    "大陆": "大陆",
+    "洲": "大陆",
+    "大洲": "大陆",
     "大陆轴线": "大陆轴线",
     "大陆主轴线": "大陆轴线",
     "东西轴线": "大陆轴线",
@@ -5610,6 +5765,9 @@
     "大麦草": "大麦",
     "barley": "大麦",
     "Hordeum vulgare": "大麦",
+    "岛屿": "岛屿",
+    "岛": "岛屿",
+    "海岛": "岛屿",
     "达尔文": "达尔文",
     "查尔斯·达尔文": "达尔文",
     "Charles Darwin": "达尔文",
@@ -5669,6 +5827,10 @@
     "钢铁技术": "钢铁",
     "steel": "钢铁",
     "iron": "钢铁",
+    "高原": "高原",
+    "高地": "高原",
+    "高原地区": "高原",
+    "高原地带": "高原",
     "高粱": "高粱",
     "sorghum": "高粱",
     "Sorghum bicolor": "高粱",
@@ -5969,6 +6131,9 @@
     "European Colonization of Africa": "欧洲殖民非洲",
     "非洲殖民": "欧洲殖民非洲",
     "欧洲征服非洲": "欧洲殖民非洲",
+    "平原": "平原",
+    "大平原": "平原",
+    "冲积平原": "平原",
     "平民": "平民",
     "庶民": "平民",
     "普通人": "平民",
@@ -6040,6 +6205,10 @@
     "贸易商": "商人",
     "商贾": "商人",
     "长途贸易者": "商人",
+    "山脉": "山脉",
+    "山系": "山脉",
+    "山地": "山脉",
+    "山区": "山脉",
     "水利": "水利",
     "水稻": "水稻",
     "稻米": "水稻",
@@ -6203,8 +6372,10 @@
     "maize": "玉米",
     "corn": "玉米",
     "Zea mays": "玉米",
+    "语系": "语系",
+    "语言家族": "语系",
+    "语族": "语系",
     "语言": "语言",
-    "语系": "语言",
     "语言扩张": "语言",
     "语言多样性": "语言",
     "语言传播": "语言传播",
@@ -6300,6 +6471,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 225,
-  "generated": "2026-05-25T14:35:57Z"
+  "page_count": 232,
+  "generated": "2026-05-25T14:45:04Z"
 }
