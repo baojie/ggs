@@ -676,7 +676,7 @@
       "pn_count": 5,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 3
     },
     "城市": {
       "type": "concept",
@@ -970,6 +970,29 @@
       "quality": "standard",
       "quality_score": 33,
       "total_refs": 7
+    },
+    "分裂": {
+      "type": "concept",
+      "label": "分裂",
+      "aliases": [
+        "政治分裂",
+        "碎片化",
+        "欧洲分裂"
+      ],
+      "tags": [
+        "政治组织",
+        "地理决定论",
+        "国家形成"
+      ],
+      "path": "fe/分裂.md",
+      "description": "政治权威分散于多个独立单位的格局，以欧洲长期多国并立为典型",
+      "prose_len": 831,
+      "prose_chars": 742,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 8,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "非洲": {
       "type": "place",
@@ -1536,7 +1559,7 @@
       "pn_count": 3,
       "wikilink_count": 7,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 1
     },
     "近端原因与终极原因": {
       "type": "concept",
@@ -1587,6 +1610,29 @@
       "blockquote_count": 0,
       "total_refs": 1
     },
+    "集中": {
+      "type": "concept",
+      "label": "集中",
+      "aliases": [
+        "权力集中",
+        "集权",
+        "中央集权"
+      ],
+      "tags": [
+        "政治组织",
+        "社会复杂化",
+        "国家形成"
+      ],
+      "path": "ji/集中.md",
+      "description": "权力与资源向中央聚拢的社会组织原则，是国家形成和文明扩张的核心机制",
+      "prose_len": 786,
+      "prose_chars": 708,
+      "h2_count": 4,
+      "pn_count": 4,
+      "wikilink_count": 7,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
     "军事征服": {
       "type": "concept",
       "label": "军事征服",
@@ -1611,7 +1657,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 9
+      "total_refs": 10
     },
     "巨型动物": {
       "type": "concept",
@@ -1706,7 +1752,7 @@
       "pn_count": 5,
       "wikilink_count": 6,
       "blockquote_count": 0,
-      "total_refs": 3
+      "total_refs": 4
     },
     "科学": {
       "type": "concept",
@@ -2419,6 +2465,30 @@
       "book_seq": 0,
       "total_refs": 1
     },
+    "亲属关系": {
+      "type": "concept",
+      "label": "亲属关系",
+      "aliases": [
+        "kinship",
+        "血缘",
+        "亲族",
+        "亲属网络"
+      ],
+      "tags": [
+        "社会",
+        "族群",
+        "政治组织"
+      ],
+      "path": "qi/亲属关系.md",
+      "description": "血缘与婚姻构成的社会纽带，是小规模社会维持秩序的核心机制，规模扩大时则无法独立支撑社会整合",
+      "prose_len": 790,
+      "prose_chars": 717,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "枪炮": {
       "type": "concept",
       "label": "枪炮",
@@ -2890,6 +2960,30 @@
       "quality_score": 28,
       "total_refs": 4
     },
+    "统一": {
+      "type": "concept",
+      "label": "统一",
+      "aliases": [
+        "unification",
+        "政治统一",
+        "文化统一"
+      ],
+      "tags": [
+        "政治",
+        "国家",
+        "中国",
+        "欧洲"
+      ],
+      "path": "to/统一.md",
+      "description": "政治与文化的整合过程，中国长期统一与欧洲长期分裂的对比揭示地理对历史命运的深远影响",
+      "prose_len": 812,
+      "prose_chars": 741,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 1,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "土壤": {
       "type": "concept",
       "label": "土壤",
@@ -3160,6 +3254,30 @@
       "quality_score": 26,
       "total_refs": 1
     },
+    "现代人": {
+      "type": "concept",
+      "label": "现代人",
+      "aliases": [
+        "modern humans",
+        "解剖学现代人",
+        "智人",
+        "大跃进"
+      ],
+      "tags": [
+        "人类进化",
+        "认知",
+        "史前史"
+      ],
+      "path": "xi/现代人.md",
+      "description": "在行为和生物学上完全现代化的人类，约5万年前的\"大跃进\"标志着人类历史的真正开始",
+      "prose_len": 871,
+      "prose_chars": 770,
+      "h2_count": 5,
+      "pn_count": 7,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "行政": {
       "type": "concept",
       "label": "行政",
@@ -3182,7 +3300,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "驯化": {
       "type": "concept",
@@ -3378,7 +3496,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 4
+      "total_refs": 5
     },
     "游牧": {
       "type": "concept",
@@ -3526,7 +3644,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 4
+      "total_refs": 5
     },
     "专业化分工": {
       "type": "concept",
@@ -3574,7 +3692,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 5
+      "total_refs": 7
     },
     "中国农业起源": {
       "type": "event",
@@ -4041,6 +4159,10 @@
     "发明": "发明",
     "技术发明": "发明",
     "invention": "发明",
+    "分裂": "分裂",
+    "政治分裂": "分裂",
+    "碎片化": "分裂",
+    "欧洲分裂": "分裂",
     "非洲": "非洲",
     "Africa": "非洲",
     "撒哈拉以南非洲": "非洲",
@@ -4143,6 +4265,10 @@
     "金属材料": "金属",
     "铜铁": "金属",
     "金属工具": "金属",
+    "集中": "集中",
+    "权力集中": "集中",
+    "集权": "集中",
+    "中央集权": "集中",
     "军事征服": "军事征服",
     "military conquest": "军事征服",
     "武装征服": "军事征服",
@@ -4274,6 +4400,11 @@
     "弗朗西斯科·皮萨罗": "皮萨罗",
     "Francisco Pizarro": "皮萨罗",
     "Preface": "Preface",
+    "亲属关系": "亲属关系",
+    "kinship": "亲属关系",
+    "血缘": "亲属关系",
+    "亲族": "亲属关系",
+    "亲属网络": "亲属关系",
     "枪炮": "枪炮",
     "火器": "枪炮",
     "firearm": "枪炮",
@@ -4352,6 +4483,10 @@
     "痘病毒": "天花病毒",
     "smallpox": "天花病毒",
     "Variola virus": "天花病毒",
+    "统一": "统一",
+    "unification": "统一",
+    "政治统一": "统一",
+    "文化统一": "统一",
     "土壤": "土壤",
     "soil": "土壤",
     "土壤条件": "土壤",
@@ -4395,6 +4530,11 @@
     "新月沃地农业起源": "新月沃地农业起源",
     "Fertile Crescent Agricultural Origins": "新月沃地农业起源",
     "西南亚农业起源": "新月沃地农业起源",
+    "现代人": "现代人",
+    "modern humans": "现代人",
+    "解剖学现代人": "现代人",
+    "智人": "现代人",
+    "大跃进": "现代人",
     "行政": "行政",
     "行政管理": "行政",
     "官僚制": "行政",
@@ -4474,7 +4614,6 @@
     "武装冲突": "战争",
     "warfare": "战争",
     "政治竞争": "政治竞争",
-    "政治分裂": "政治竞争",
     "竞争性国家体系": "政治竞争",
     "分裂促竞争": "政治竞争",
     "政治组织": "政治组织",
@@ -4523,6 +4662,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 165,
-  "generated": "2026-05-25T13:28:57Z"
+  "page_count": 170,
+  "generated": "2026-05-25T13:36:08Z"
 }
