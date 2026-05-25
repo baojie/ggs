@@ -102,7 +102,7 @@
     },
     "玻璃": {
       "type": "concept",
-      "quality": "standard",
+      "quality": "featured",
       "label": "玻璃"
     },
     "部族": {
@@ -852,7 +852,7 @@
     },
     "民族": {
       "type": "concept",
-      "quality": "standard",
+      "quality": "featured",
       "label": "民族"
     },
     "灭绝": {
@@ -1117,7 +1117,7 @@
     },
     "生态适应": {
       "type": "concept",
-      "quality": "standard",
+      "quality": "featured",
       "label": "生态适应"
     },
     "石器时代": {
@@ -1227,7 +1227,7 @@
     },
     "纬度": {
       "type": "concept",
-      "quality": "standard",
+      "quality": "featured",
       "label": "纬度"
     },
     "无花果": {
@@ -1422,7 +1422,7 @@
     },
     "游牧": {
       "type": "concept",
-      "quality": "standard",
+      "quality": "featured",
       "label": "游牧"
     },
     "玉米": {
