@@ -628,7 +628,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 26
+      "total_refs": 27
     },
     "大麦": {
       "type": "species",
@@ -769,6 +769,32 @@
       "chapter": 20,
       "book_seq": 20,
       "total_refs": 1
+    },
+    "发明": {
+      "type": "concept",
+      "label": "发明",
+      "aliases": [
+        "技术发明",
+        "创新",
+        "invention",
+        "技术创新"
+      ],
+      "tags": [
+        "技术传播",
+        "社会复杂性",
+        "竞争优势"
+      ],
+      "path": "fa/发明.md",
+      "description": "新技术或工具的产生与扩散机制，戴蒙德认为发明受人口规模、社会竞争和地理连通性驱动，而非天才个体的偶然灵感；\"发明是需要之母\"而非相反。",
+      "prose_len": 1316,
+      "prose_chars": 1151,
+      "h2_count": 5,
+      "pn_count": 11,
+      "wikilink_count": 5,
+      "blockquote_count": 2,
+      "quality": "standard",
+      "quality_score": 33,
+      "total_refs": 0
     },
     "非洲": {
       "type": "place",
@@ -1087,7 +1113,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 10
+      "total_refs": 11
     },
     "近端原因与终极原因": {
       "type": "concept",
@@ -1235,7 +1261,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 43
+      "total_refs": 44
     },
     "骆驼": {
       "type": "species",
@@ -1795,7 +1821,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 10
+      "total_refs": 11
     },
     "水稻": {
       "type": "species",
@@ -2433,6 +2459,11 @@
     "Southeast Asia": "东南亚",
     "热带东南亚": "东南亚",
     "Epilogue": "Epilogue",
+    "发明": "发明",
+    "技术发明": "发明",
+    "创新": "发明",
+    "invention": "发明",
+    "技术创新": "发明",
     "非洲": "非洲",
     "Africa": "非洲",
     "撒哈拉以南非洲": "非洲",
@@ -2671,6 +2702,6 @@
     "字母传播": "字母文字的传播",
     "腓尼基字母传播": "字母文字的传播"
   },
-  "page_count": 101,
-  "generated": "2026-05-25T09:12:04Z"
+  "page_count": 102,
+  "generated": "2026-05-25T09:18:40Z"
 }
