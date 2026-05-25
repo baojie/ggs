@@ -14,5 +14,11 @@
   "wu_quota_per_round": 1000,
   "grow_phase": 2,
   "new1_pages_per_round": 5,
-  "enrich_pages_per_round": 5
+  "enrich_pages_per_round": 5,
+  "per_round_rules": [
+    "每轮必须建 5 页（new1_pages_per_round）",
+    "每次只建 1 页，建完再建下一页（严禁并行 add_page 调用）",
+    "每页之间停留 1 秒",
+    "页面 slug 必须使用 wiki 默认语言（zh），即中文名"
+  ]
 }

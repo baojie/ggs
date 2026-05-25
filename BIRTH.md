@@ -166,49 +166,70 @@
 
 ## Phase 3：语料准备（选择与校对）
 
-> **目标**：Phase 3 结束后，`corpus/raw/枪炮病菌与钢铁_校勘底稿.md` 作为语料终稿，可作为 Phase 4 章节导入的唯一输入。
+> **目标**：Phase 3 结束后，`corpus/raw/doc_final.md` 存在且内容已通过质检，可作为 Phase 4 章节导入的唯一输入。
+> 本 Phase 所有语料处理步骤必须全部完成，才能进入 Phase 4。
 >
-> **⚠️ corpus/ 写入授权**：Phase 3 是唯一允许向 `corpus/` 写入内容的阶段。LAW.md §五 corpus 只读声明在 Phase 3 完成后生效，3-E 提交后 corpus/ 进入只读。
+> **⚠️ corpus/ 写入授权**：Phase 3 是唯一允许向 `corpus/` 写入内容的阶段。
+> epub 转换产物、校对中间文件、终稿 `doc_final.md` 均存放于 `corpus/raw/`。
+> Phase 3 最后一次提交（3-E）完成后，`corpus/` 进入只读——后续阶段（Phase 4 起）禁止修改语料文件。
 >
-> **提交规则**：3-C / 3-C2 / 3-E 各自结束时提交一次。
+> **提交规则**：3-B / 3-C / 3-E 各自结束时提交一次，**只 `git add corpus/`**。
 
 ---
 
 ### 3-A 确认语料结构
 
-- [x] 确认语料存在：`corpus/raw/枪炮病菌与钢铁_校勘底稿.md`（1005K）
-- [x] 列出 `corpus/raw/` 和 `corpus/archive/` 下所有文件供用户确认
-- [x] **用户确认**：导入版本为 `corpus/raw/枪炮病菌与钢铁_校勘底稿.md`
+- [x] 确认 `corpus/raw/doc_final.md` 存在（校对流水线已完成的标志）：
+  ```bash
+  ls corpus/raw/doc_final.md 2>/dev/null || echo "NOT FOUND"
+  ```
+- [x] 列出 `corpus/raw/` 下所有文件：
+  ```bash
+  find corpus/raw -type f | sort
+  ```
+- [x] **用户确认**：导入版本为 `corpus/raw/枪炮病菌与钢铁_校勘底稿.md`（复制为 `doc_final.md`）
 - [x] 确认导入范围：前言 + 20 章正文 + 后记，全部 type=chapter
 - [x] 确认页面 ID 命名规则：`chNN-章节名slug`（如 `ch01-introduction`、`Epilogue`）
 
 
-### 3-B epub 转换与校验
+### 3-B epub 转换与校验（epub 来源专属，其他来源跳过）
 
-> **已跳过**：语料来源为已转换 MD（`corpus/raw/枪炮病菌与钢铁_校勘底稿.md`），非 epub 来源。
+> **已跳过**：语料来源为已转换 MD（`corpus/raw/枪炮病菌与钢铁_校勘底稿.md`），非 epub 来源。直接进入 3-C。
 
 
 ### 3-C 文本质检
 
-> **语料来源**：已转换 MD（epub→MD 校勘底稿），非扫描 PDF。
->
-> **执行前先判断语料来源类型**：已转换 MD。按 PRE9 语料来源适配表：
-> - 扫描版 PDF 相关步骤：跳过
+> 目标：修复"非作者意图的错误"——OCR 错字、PDF 伪换行、图像质量缺陷。这类问题若带入 PN 赋号会导致 PN 锚定错误位置。
+
+> **基因（gene）**：`skills/gene/` 下的每个 `.md` 文件是一个"基因"——可复用的操作规范单元（法源体系 L5）。基因通过 BIRTH（启动流程）和 skill（执行脚本）在具体 wiki 中**表达**（gene expression）为实际内容操作。`local/` 子目录存放本 wiki 的差异化覆盖。
+
+> **执行前先判断语料来源类型**：已转换 MD（epub→MD 校勘底稿），非扫描 PDF。按 PRE9 语料来源适配表：
+> - 扫描版 PDF 相关步骤（PRE15、PRE16、形近字检查）：跳过
 > - 数字版 PDF / epub 相关步骤：公式配对 + 标题层级 + 格式问题
->
-> 校勘底稿已在 human-in-the-loop 流程中完成文字校对，3-C 仅做脚本层面的格式验证。
+
+**图像处理（epub/PDF 来源）：**
+
+- [x] **PRE15**（[corpus-image-qa]($MEMEX_ROOT/skills/gene/PRE15-image-qa.md)）：epub 来源跳过——语料无独立图片文件
+- [x] **PRE16**（[image-table-transcription]($MEMEX_ROOT/skills/gene/PRE16-image-table-transcription.md)）：epub 来源跳过
 
 **文字质检：**
 
-- [x] **PRE9**（corpus-ocr-qa）：标题层级完整（L1 书名+4 部分标题，L2 前言+19 章+后记，无跳跃）；公式检查通过（无 LaTeX）；工具残留物扫描通过（无孤立数字行、无目录混入）
-- [x] **PRE6**（corpus-linebreak-repair）：epub 来源跳过详细检查；快速扫描通过——无逗号假分段、无括号跨段、无跨页假分段
-- [x] **提交文本质检结果**
+- [x] **PRE9**（[corpus-ocr-qa]($MEMEX_ROOT/skills/gene/PRE9-corpus-ocr-qa.md)）：标题层级完整（L1 书名+4 部分标题，L2 前言+19 章+后记，无跳跃）；公式检查通过（无 LaTeX）；工具残留物扫描通过（无孤立数字行、无目录混入）
+- [x] **PRE6**（[corpus-linebreak-repair]($MEMEX_ROOT/skills/gene/PRE6-corpus-linebreak-repair.md)）：epub 来源跳过详细检查；快速扫描通过——无逗号假分段、无括号跨段、无跨页假分段
+- [x] **提交文本质检结果**：
+  ```bash
+  git add corpus/
+  bash wiki/scripts/skill_commit.sh "corpus: 3-C 文本质检完成"
+  ```
 
 
 ### 3-C2 重建章节结构（文字校勘完成后必做）
 
-- [x] **PRE18**（heading-structure-rebuild）：跳过——epub→MD 来源，标题层级原生保留（L1 书名+4 部分标题，L2 前言+19 章+后记），无 PDF 扁平化问题
-- [x] 验证重建结果：章节数量与 `ref/chapter-order.md` 一致（前言+19 章+后记 = 21 个 L2 标题）
+- [x] **PRE18**（[corpus-rebuild-chapter-structure]($MEMEX_ROOT/skills/gene/PRE18-corpus-rebuild-chapter-structure.md)）：跳过——epub→MD 来源，标题层级原生保留（L1 书名+4 部分标题，L2 前言+19 章+后记），无 PDF 扁平化问题
+- [x] 验证重建结果：章节数量与 `ref/chapter-order.md` 一致（前言+19 章+后记 = 21 个 L2 标题）：
+  ```bash
+  python3 "$MEMEX_ROOT/wiki/scripts/build_chapter_map.py" --dry-run
+  ```
 - [x] 提交：
   ```bash
   git add corpus/
@@ -218,21 +239,39 @@
 
 ### 3-D Pre-PN Lint 检查
 
-- [x] 执行 `$MEMEX_ROOT/ref/spec/workflow-pre-pn-lint.md` 完整流程：epub 来源跳过 PRE13/PRE14；LNT7/LNT2/LNT10 涉及 `docs/wiki/pages/` 的脚本留待 Phase 4 页面生成后执行
-- [x] **LNT11**（footnote-completeness）：跳过——语料无脚注（0 定义，0 引用）
-- [x] **LNT12**（non-latin-ocr）：通过——扫描到 4 处希腊字母（αηι，希腊字母表讨论）和 7 处西里尔文（четыре/Ружьё，语言学示例），均属原文故意内容，非 OCR 错误
-- [x] **`:::` 块语法扫描**（CONSTITUTION §13.2）：通过——corpus/raw/ 下无 `:::` 块语法问题
+- [x] 执行 `$MEMEX_ROOT/ref/spec/workflow-pre-pn-lint.md` 定义的完整流程，全部步骤通过后进入 Phase 4。
+- [x] **LNT11**（[footnote-completeness]($MEMEX_ROOT/skills/gene/LNT11-footnote-completeness.md)）：跳过——语料无脚注（0 定义，0 引用）
+- [x] **LNT12**（[non-latin-ocr]($MEMEX_ROOT/skills/gene/LNT12-non-latin-ocr.md)）：通过——扫描到 4 处希腊字母（αηι，希腊字母表讨论）和 7 处西里尔文（четыре/Ружьё，语言学示例），均属原文故意内容，非 OCR 错误
+- [x] **`:::` 块语法扫描**（CONSTITUTION §13.2）：通过——corpus/raw/ 下无 `:::` 块语法问题：
+  ```bash
+  grep -rn "^:::[a-z]" docs/wiki/pages/ --include="*.md"
+  ```
 
 
-### 3-E 生成语料终稿
+### 3-E 生成语料终稿（流水线完成后必做）
 
-> 校勘底稿 `枪炮病菌与钢铁_校勘底稿.md` 即为最终校勘版本，3-E 将其复制为 `doc_final.md` 作为下游入口。
+> **语料处理终稿约定**：语料处理流水线（PRE、COR、LNT 等基因）的**最后一步完成后**，须将产出文件复制为统一终稿：
+>
+> ```bash
+> cp corpus/raw/<最后阶段输出>.md corpus/raw/doc_final.md
+> ```
+>
+> **`doc_final.md` 是语料处理流水线对下游的唯一承诺**：
+> - Phase 4（章节导入）及所有后续工序统一以 `doc_final.md` 为输入
+> - 在 `doc_final.md` 生成之前，Phase 4 不得启动
+> - 每次重新校对或补充处理完成后，须重新生成 `doc_final.md`
+>
+> **中间文件**（`doc_pre9.md`、`doc_footnotes.md` 等）保留用于追溯，但不作为下游入口。
 
 - [x] 流水线全部步骤完成后，执行终稿复制：`cp corpus/raw/枪炮病菌与钢铁_校勘底稿.md corpus/raw/doc_final.md`
 - [x] 确认 `doc_final.md` 存在且内容完整（3575 行，1005K，首末 5 行与校勘底稿一致）
 - [x] **PRE21**（corpus-final-format-qa）：对 `doc_final.md` 执行 9 维终稿格式扫描（标题内嵌空格、编码完整性、括号配对、中英边界、断行异常、数字异常、工具残留、序号跳跃、标题层级），逐项确认无残留问题后方可提交
   - 结果：4 处部分标题双空格（epub 格式风格，非错误）；括号计数均为中英混用 `(text）` 风格误报；译者署名短行属正常。**无实质性内容问题**
-- [x] **提交语料终稿**
+- [x] **提交语料终稿**：
+  ```bash
+  git add corpus/
+  bash wiki/scripts/skill_commit.sh "corpus: 3-E 语料终稿 doc_final.md"
+  ```
 
 ---
 
