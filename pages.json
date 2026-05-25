@@ -1,4 +1,5 @@
 {
+  "_schema_version": 2,
   "pages": {
     "About": {
       "type": "overview",
@@ -39,8 +40,7 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2,
-      "quality": "standard"
+      "total_refs": 2
     },
     "爱迪生": {
       "type": "person",
@@ -63,7 +63,7 @@
       "quality": "featured",
       "quality_score": 56,
       "affiliation": "美国",
-      "total_refs": 3
+      "total_refs": 2
     },
     "alabobandao": {
       "type": "place",
@@ -84,8 +84,7 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "annatuoliya": {
       "type": "place",
@@ -106,8 +105,7 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1,
-      "quality": "standard"
+      "total_refs": 1
     },
     "安娜-卡列尼娜原则": {
       "type": "concept",
@@ -131,7 +129,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 7
+      "total_refs": 8
     },
     "安第斯山脉": {
       "type": "place",
@@ -226,8 +224,7 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "bailatu": {
       "type": "person",
@@ -247,8 +244,7 @@
       "wikilink_count": 3,
       "blockquote_count": 0,
       "affiliation": "古希腊",
-      "total_refs": 2,
-      "quality": "standard"
+      "total_refs": 2
     },
     "半岛": {
       "type": "concept",
@@ -267,8 +263,7 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "斑马": {
       "type": "species",
@@ -316,7 +311,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 3
+      "total_refs": 4
     },
     "beimeizhou": {
       "type": "place",
@@ -336,8 +331,7 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 4,
-      "quality": "standard"
+      "total_refs": 4
     },
     "兵豆": {
       "type": "species",
@@ -360,8 +354,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1,
-      "quality": "standard"
+      "total_refs": 1
     },
     "病原体": {
       "type": "concept",
@@ -462,7 +455,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 21
+      "total_refs": 20
     },
     "玻璃": {
       "type": "concept",
@@ -478,15 +471,15 @@
         "科学仪器"
       ],
       "path": "bo/玻璃.md",
-      "description": "由沙子和石灰岩等硅酸盐材料高温熔制而成的非晶态固体，是人类长期偶然积累发现的技术成果",
-      "prose_len": 879,
-      "prose_chars": 803,
-      "h2_count": 4,
-      "pn_count": 2,
+      "description": "由沙子和石灰岩等硅酸盐材料高温熔制而成的非晶态固体，是技术积累和传播的典型案例",
+      "prose_len": 982,
+      "prose_chars": 920,
+      "h2_count": 5,
+      "pn_count": 5,
       "wikilink_count": 3,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 28,
+      "quality_score": 59,
       "total_refs": 1
     },
     "部族": {
@@ -529,16 +522,16 @@
         "平等主义"
       ],
       "path": "bu/部落.md",
-      "description": "以亲属关系为纽带、规模数百至数千人的平等主义社会组织形式",
-      "prose_len": 697,
-      "prose_chars": 595,
+      "description": "以亲属关系为纽带、规模数百至数千人的平等主义社会组织形式——介于族群与酋长管辖地之间",
+      "prose_len": 1031,
+      "prose_chars": 967,
       "h2_count": 5,
-      "pn_count": 0,
+      "pn_count": 8,
       "wikilink_count": 5,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 26,
-      "total_refs": 7
+      "quality_score": 60,
+      "total_refs": 8
     },
     "草原": {
       "type": "concept",
@@ -585,8 +578,7 @@
       "pn_count": 0,
       "wikilink_count": 2,
       "blockquote_count": 0,
-      "total_refs": 1,
-      "quality": "standard"
+      "total_refs": 1
     },
     "ch01-up-to-the-starting-line": {
       "type": "chapter",
@@ -950,8 +942,7 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "传教": {
       "type": "concept",
@@ -1053,7 +1044,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 2
+      "total_refs": 1
     },
     "船只": {
       "type": "concept",
@@ -1103,7 +1094,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 2
+      "total_refs": 3
     },
     "dagama": {
       "type": "person",
@@ -1124,8 +1115,7 @@
       "wikilink_count": 3,
       "blockquote_count": 0,
       "affiliation": "葡萄牙",
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "daimengde": {
       "type": "person",
@@ -1148,8 +1138,7 @@
       "wikilink_count": 3,
       "blockquote_count": 0,
       "affiliation": "美国",
-      "total_refs": 4,
-      "quality": "standard"
+      "total_refs": 4
     },
     "大豆": {
       "type": "species",
@@ -1171,8 +1160,7 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "大陆": {
       "type": "concept",
@@ -1193,8 +1181,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2,
-      "quality": "standard"
+      "total_refs": 2
     },
     "大陆轴线": {
       "type": "concept",
@@ -1219,7 +1206,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 53
+      "total_refs": 54
     },
     "大麦": {
       "type": "species",
@@ -1266,8 +1253,7 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "岛屿": {
       "type": "concept",
@@ -1289,8 +1275,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "达尔文": {
       "type": "person",
@@ -1304,15 +1289,15 @@
         "学者"
       ],
       "path": "da/达尔文.md",
-      "description": "英国博物学家，自然选择理论的提出者；戴蒙德在讨论植物驯化时援引达尔文对人工选育（人为选择）与自然选择的区分，用以解释农民如何在无意识中选育出驯化作物。",
-      "prose_len": 522,
-      "prose_chars": 488,
+      "description": "英国博物学家，自然选择理论的提出者；戴蒙德援引达尔文对无意识人工选择的分析，为理解早期植物驯化提供理论框架",
+      "prose_len": 830,
+      "prose_chars": 791,
       "h2_count": 3,
-      "pn_count": 3,
-      "wikilink_count": 4,
+      "pn_count": 7,
+      "wikilink_count": 5,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 25,
+      "quality_score": 58,
       "affiliation": "英国",
       "total_refs": 0
     },
@@ -1389,7 +1374,7 @@
       "blockquote_count": 3,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 4
+      "total_refs": 3
     },
     "定居": {
       "type": "concept",
@@ -1400,22 +1385,21 @@
         "定居社会"
       ],
       "tags": [
+        "地理",
         "农业",
-        "社会组织",
-        "粮食生产",
-        "人口"
+        "社会组织"
       ],
       "path": "di/定居.md",
       "description": "从游牧狩猎采集转向固定居所的生活方式——粮食储存和社会复杂化的前提",
-      "prose_len": 664,
-      "prose_chars": 567,
+      "prose_len": 889,
+      "prose_chars": 826,
       "h2_count": 5,
-      "pn_count": 0,
-      "wikilink_count": 5,
+      "pn_count": 7,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 26,
-      "total_refs": 3
+      "quality_score": 58,
+      "total_refs": 5
     },
     "帝国": {
       "type": "concept",
@@ -1514,7 +1498,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 7
+      "total_refs": 9
     },
     "鹅": {
       "type": "species",
@@ -1536,8 +1520,7 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 1,
-      "quality": "standard"
+      "total_refs": 1
     },
     "Epilogue": {
       "type": "chapter",
@@ -1606,7 +1589,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 0
+      "total_refs": 4
     },
     "feilvbin": {
       "type": "place",
@@ -1627,8 +1610,7 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2,
-      "quality": "standard"
+      "total_refs": 2
     },
     "分裂": {
       "type": "concept",
@@ -1718,8 +1700,7 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1,
-      "quality": "standard"
+      "total_refs": 1
     },
     "干旱": {
       "type": "concept",
@@ -1767,8 +1748,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 3,
-      "quality": "standard"
+      "total_refs": 3
     },
     "甘薯": {
       "type": "species",
@@ -1791,8 +1771,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 3,
-      "quality": "standard"
+      "total_refs": 3
     },
     "钢铁": {
       "type": "concept",
@@ -1841,8 +1820,7 @@
       "pn_count": 7,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "高粱": {
       "type": "species",
@@ -1995,7 +1973,7 @@
       "blockquote_count": 3,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 2
+      "total_refs": 0
     },
     "工程": {
       "type": "concept",
@@ -2069,8 +2047,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2,
-      "quality": "standard"
+      "total_refs": 2
     },
     "国家": {
       "type": "concept",
@@ -2095,7 +2072,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 29
+      "total_refs": 25
     },
     "国家的形成": {
       "type": "event",
@@ -2143,8 +2120,7 @@
       "pn_count": 2,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "官员": {
       "type": "concept",
@@ -2169,7 +2145,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 2
+      "total_refs": 1
     },
     "灌溉": {
       "type": "concept",
@@ -2241,8 +2217,7 @@
       "wikilink_count": 3,
       "blockquote_count": 0,
       "affiliation": "迦太基",
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "航海": {
       "type": "concept",
@@ -2363,8 +2338,7 @@
       "wikilink_count": 3,
       "blockquote_count": 0,
       "affiliation": "美国",
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "火": {
       "type": "concept",
@@ -2438,8 +2412,7 @@
       "pn_count": 1,
       "wikilink_count": 6,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "火鸡": {
       "type": "species",
@@ -2461,8 +2434,7 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 2,
-      "quality": "standard"
+      "total_refs": 2
     },
     "环境": {
       "type": "concept",
@@ -2556,8 +2528,7 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "交换": {
       "type": "concept",
@@ -2633,7 +2604,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 20
+      "total_refs": 19
     },
     "技术": {
       "type": "concept",
@@ -2658,7 +2629,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 7
+      "total_refs": 8
     },
     "技术传播": {
       "type": "concept",
@@ -2683,7 +2654,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 26
+      "total_refs": 25
     },
     "技术积累": {
       "type": "concept",
@@ -2695,21 +2666,19 @@
       ],
       "tags": [
         "技术",
-        "创新",
-        "历史",
-        "发明"
+        "历史"
       ],
       "path": "ji/技术积累.md",
       "description": "技术进步是长期积累的历史过程，而非孤立天才的单次跳跃",
-      "prose_len": 798,
-      "prose_chars": 680,
-      "h2_count": 6,
-      "pn_count": 0,
-      "wikilink_count": 5,
+      "prose_len": 905,
+      "prose_chars": 843,
+      "h2_count": 5,
+      "pn_count": 5,
+      "wikilink_count": 3,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 27,
-      "total_refs": 7
+      "quality_score": 59,
+      "total_refs": 10
     },
     "旧大陆": {
       "type": "concept",
@@ -2834,7 +2803,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 32
+      "total_refs": 31
     },
     "金属": {
       "type": "concept",
@@ -2933,8 +2902,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 4,
-      "quality": "standard"
+      "total_refs": 4
     },
     "军事征服": {
       "type": "concept",
@@ -3016,26 +2984,25 @@
       "type": "concept",
       "label": "巨型动物",
       "aliases": [
-        "巨型动物灭绝",
+        "megafauna",
         "大型哺乳动物",
         "史前动物灭绝"
       ],
       "tags": [
-        "生态",
-        "史前史",
-        "人类扩散",
-        "动物驯化"
+        "生物",
+        "演化",
+        "历史"
       ],
       "path": "ju/巨型动物.md",
       "description": "史前大型动物在人类到达后的灭绝浪潮——对随后人类历史格局产生深远影响",
-      "prose_len": 712,
-      "prose_chars": 599,
+      "prose_len": 917,
+      "prose_chars": 857,
       "h2_count": 5,
-      "pn_count": 0,
-      "wikilink_count": 5,
+      "pn_count": 6,
+      "wikilink_count": 3,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 27,
+      "quality_score": 59,
       "total_refs": 1
     },
     "卡哈马卡": {
@@ -3154,8 +3121,7 @@
       "pn_count": 5,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 1
     },
     "科学": {
       "type": "concept",
@@ -3226,8 +3192,7 @@
       "wikilink_count": 3,
       "blockquote_count": 0,
       "affiliation": "英国",
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "扩张": {
       "type": "concept",
@@ -3277,8 +3242,7 @@
       "pn_count": 2,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "莱特兄弟": {
       "type": "person",
@@ -3292,17 +3256,17 @@
         "发明家"
       ],
       "path": "la/莱特兄弟.md",
-      "description": "美国航空先驱；戴蒙德将莱特兄弟与谷登堡、瓦特、爱迪生并列为\"稀有天才\"发明家的典型，同时指出莱特兄弟的有动力载人飞机是在既有发明基础上的渐进改进，而非凭空创造。",
-      "prose_len": 406,
-      "prose_chars": 374,
+      "description": "美国航空先驱；戴蒙德以莱特兄弟为例，说明\"稀有天才\"的发明实为对既有成果的渐进改进，并非凭空创造",
+      "prose_len": 614,
+      "prose_chars": 577,
       "h2_count": 3,
-      "pn_count": 2,
-      "wikilink_count": 4,
+      "pn_count": 4,
+      "wikilink_count": 5,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 24,
+      "quality_score": 56,
       "affiliation": "美国",
-      "total_refs": 1
+      "total_refs": 2
     },
     "粮食生产": {
       "type": "concept",
@@ -3328,7 +3292,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 81
+      "total_refs": 79
     },
     "luoma-diguo": {
       "type": "event",
@@ -3348,8 +3312,7 @@
       "pn_count": 3,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1,
-      "quality": "standard"
+      "total_refs": 1
     },
     "lusuo": {
       "type": "person",
@@ -3370,8 +3333,7 @@
       "wikilink_count": 3,
       "blockquote_count": 0,
       "affiliation": "法国",
-      "total_refs": 1,
-      "quality": "standard"
+      "total_refs": 1
     },
     "轮子": {
       "type": "concept",
@@ -3447,8 +3409,7 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "madagascar": {
       "type": "place",
@@ -3469,8 +3430,7 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 1,
-      "quality": "standard"
+      "total_refs": 1
     },
     "makesi": {
       "type": "person",
@@ -3491,8 +3451,7 @@
       "wikilink_count": 3,
       "blockquote_count": 0,
       "affiliation": "德国",
-      "total_refs": 2,
-      "quality": "standard"
+      "total_refs": 2
     },
     "牦牛": {
       "type": "species",
@@ -3514,8 +3473,7 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "猫": {
       "type": "species",
@@ -3538,8 +3496,7 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "贸易": {
       "type": "concept",
@@ -3685,8 +3642,7 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1,
-      "quality": "standard"
+      "total_refs": 1
     },
     "meisuobudamiya": {
       "type": "place",
@@ -3708,8 +3664,7 @@
       "pn_count": 7,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 5,
-      "quality": "standard"
+      "total_refs": 5
     },
     "menggu-diguo": {
       "type": "event",
@@ -3728,8 +3683,7 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1,
-      "quality": "standard"
+      "total_refs": 1
     },
     "menggu": {
       "type": "place",
@@ -3750,8 +3704,7 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2,
-      "quality": "standard"
+      "total_refs": 2
     },
     "美国东部": {
       "type": "place",
@@ -3823,8 +3776,7 @@
       "pn_count": 0,
       "wikilink_count": 2,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "美洲独立农业起源": {
       "type": "event",
@@ -3874,8 +3826,7 @@
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 3,
-      "quality": "standard"
+      "total_refs": 3
     },
     "蒙特朱马": {
       "type": "person",
@@ -3919,8 +3870,7 @@
       "pn_count": 3,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "milu": {
       "type": "place",
@@ -3941,8 +3891,7 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2,
-      "quality": "standard"
+      "total_refs": 2
     },
     "免疫力": {
       "type": "concept",
@@ -4011,16 +3960,16 @@
         "迁徙"
       ],
       "path": "mi/民族.md",
-      "description": "共享语言、文化和起源的人群集合；其分布格局是人口扩张和历史征服的结果",
-      "prose_len": 720,
-      "prose_chars": 611,
+      "description": "共享语言、文化和起源的人群集合；戴蒙德将其分布格局解释为地理和历史进程的产物，而非生物差异的结果",
+      "prose_len": 1141,
+      "prose_chars": 1077,
       "h2_count": 5,
-      "pn_count": 0,
+      "pn_count": 10,
       "wikilink_count": 5,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 27,
-      "total_refs": 3
+      "quality_score": 61,
+      "total_refs": 2
     },
     "灭绝": {
       "type": "concept",
@@ -4092,8 +4041,7 @@
       "pn_count": 0,
       "wikilink_count": 2,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "面包果": {
       "type": "species",
@@ -4114,8 +4062,7 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "moxige": {
       "type": "place",
@@ -4136,8 +4083,7 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 3,
-      "quality": "standard"
+      "total_refs": 3
     },
     "木薯": {
       "type": "species",
@@ -4160,8 +4106,7 @@
       "pn_count": 0,
       "wikilink_count": 2,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "牧人": {
       "type": "concept",
@@ -4183,8 +4128,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "目录": {
       "type": "overview",
@@ -4223,8 +4167,7 @@
       "pn_count": 6,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 1,
-      "quality": "standard"
+      "total_refs": 1
     },
     "napolun": {
       "type": "person",
@@ -4246,8 +4189,7 @@
       "wikilink_count": 3,
       "blockquote_count": 0,
       "affiliation": "法国",
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "南北轴": {
       "type": "concept",
@@ -4297,7 +4239,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 4
+      "total_refs": 5
     },
     "niandetelian": {
       "type": "person",
@@ -4318,8 +4260,7 @@
       "wikilink_count": 3,
       "blockquote_count": 0,
       "affiliation": "欧亚大陆",
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "niluohe": {
       "type": "place",
@@ -4339,8 +4280,7 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2,
-      "quality": "standard"
+      "total_refs": 2
     },
     "牛": {
       "type": "species",
@@ -4393,7 +4333,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 17
+      "total_refs": 13
     },
     "奴隶": {
       "type": "concept",
@@ -4513,8 +4453,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2,
-      "quality": "standard"
+      "total_refs": 2
     },
     "平民": {
       "type": "concept",
@@ -4525,20 +4464,19 @@
         "非精英阶层"
       ],
       "tags": [
-        "社会分层",
-        "政治组织",
-        "剩余征用"
+        "社会组织",
+        "历史"
       ],
       "path": "pi/平民.md",
       "description": "社会分层体系中的非精英大多数，是农业剩余的主要生产者和政治动员的对象",
-      "prose_len": 821,
-      "prose_chars": 747,
-      "h2_count": 4,
-      "pn_count": 2,
-      "wikilink_count": 6,
+      "prose_len": 874,
+      "prose_chars": 812,
+      "h2_count": 5,
+      "pn_count": 3,
+      "wikilink_count": 3,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 28,
+      "quality_score": 58,
       "total_refs": 1
     },
     "皮萨罗": {
@@ -4604,8 +4542,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2,
-      "quality": "standard"
+      "total_refs": 2
     },
     "亲属关系": {
       "type": "concept",
@@ -4725,15 +4662,15 @@
         "国家起源"
       ],
       "path": "qi/酋长.md",
-      "description": "介于部落与国家之间的政治形态，以世袭权威为核心，人口从数千到数万",
-      "prose_len": 723,
-      "prose_chars": 626,
+      "description": "介于部落与国家之间的政治形态，以世袭权威和再分配制度为核心特征——国家起源的直接前身",
+      "prose_len": 1017,
+      "prose_chars": 953,
       "h2_count": 5,
-      "pn_count": 0,
+      "pn_count": 6,
       "wikilink_count": 5,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 27,
+      "quality_score": 60,
       "total_refs": 18
     },
     "人口": {
@@ -4794,22 +4731,21 @@
         "人口压力扩张"
       ],
       "tags": [
-        "人口",
+        "历史",
         "农业",
-        "民族迁移",
-        "狩猎采集"
+        "迁徙"
       ],
       "path": "re/人口扩张.md",
       "description": "粮食生产群体凭借人口数量优势取代狩猎采集族群的历史模式",
-      "prose_len": 793,
-      "prose_chars": 681,
-      "h2_count": 6,
-      "pn_count": 0,
-      "wikilink_count": 5,
+      "prose_len": 877,
+      "prose_chars": 814,
+      "h2_count": 5,
+      "pn_count": 7,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 27,
-      "total_refs": 3
+      "quality_score": 58,
+      "total_refs": 1
     },
     "人口规模": {
       "type": "concept",
@@ -4955,8 +4891,7 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2,
-      "quality": "standard"
+      "total_refs": 2
     },
     "萨赫勒地带": {
       "type": "place",
@@ -5043,21 +4978,20 @@
       ],
       "tags": [
         "农业",
-        "社会复杂化",
-        "专业化分工",
-        "政治组织"
+        "社会组织",
+        "经济"
       ],
       "path": "sh/剩余粮食.md",
       "description": "农业生产的粮食超出直接消费所需的部分——文明所有非农业活动的物质前提",
-      "prose_len": 703,
-      "prose_chars": 590,
+      "prose_len": 843,
+      "prose_chars": 780,
       "h2_count": 5,
-      "pn_count": 0,
-      "wikilink_count": 5,
+      "pn_count": 6,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 27,
-      "total_refs": 12
+      "quality_score": 58,
+      "total_refs": 13
     },
     "商人": {
       "type": "concept",
@@ -5080,8 +5014,7 @@
       "pn_count": 3,
       "wikilink_count": 1,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "山羊": {
       "type": "species",
@@ -5104,8 +5037,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "山脉": {
       "type": "concept",
@@ -5128,8 +5060,7 @@
       "pn_count": 8,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "水利": {
       "type": "concept",
@@ -5176,8 +5107,7 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "水稻": {
       "type": "species",
@@ -5253,7 +5183,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 20
+      "total_refs": 19
     },
     "生态": {
       "type": "concept",
@@ -5297,16 +5227,16 @@
         "地理"
       ],
       "path": "sh/生态适应.md",
-      "description": "生物体（包括人类及其驯化的动植物）对特定环境条件的遗传与行为性调整",
-      "prose_len": 991,
-      "prose_chars": 847,
-      "h2_count": 7,
-      "pn_count": 0,
+      "description": "生物体（包括人类及其驯化的动植物）对特定环境条件的遗传与行为性调整——理解物种分布、驯化和文明传播格局的关键机制",
+      "prose_len": 1113,
+      "prose_chars": 1049,
+      "h2_count": 5,
+      "pn_count": 8,
       "wikilink_count": 5,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 29,
-      "total_refs": 6
+      "quality_score": 61,
+      "total_refs": 5
     },
     "石器时代": {
       "type": "concept",
@@ -5356,7 +5286,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 24
+      "total_refs": 23
     },
     "鼠疫": {
       "type": "concept",
@@ -5372,15 +5302,15 @@
         "人口"
       ],
       "path": "sh/鼠疫.md",
-      "description": "由鼠疫杆菌引起的烈性传染病，历史上曾多次造成欧亚大陆大规模人口死亡",
-      "prose_len": 810,
-      "prose_chars": 728,
-      "h2_count": 4,
-      "pn_count": 2,
-      "wikilink_count": 3,
+      "description": "由鼠疫杆菌引起的烈性传染病，历史上曾多次造成欧亚大陆大规模人口死亡——源自动物宿主的流行病的典型案例",
+      "prose_len": 1009,
+      "prose_chars": 945,
+      "h2_count": 5,
+      "pn_count": 8,
+      "wikilink_count": 5,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 28,
+      "quality_score": 60,
       "total_refs": 0
     },
     "taiwan": {
@@ -5402,8 +5332,7 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 5,
-      "quality": "standard"
+      "total_refs": 5
     },
     "探险": {
       "type": "concept",
@@ -5479,7 +5408,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 3
+      "total_refs": 2
     },
     "天花病毒": {
       "type": "species",
@@ -5577,8 +5506,7 @@
       "pn_count": 0,
       "wikilink_count": 2,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "土地": {
       "type": "concept",
@@ -5676,8 +5604,7 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 2,
-      "quality": "standard"
+      "total_refs": 2
     },
     "王国": {
       "type": "concept",
@@ -5715,15 +5642,15 @@
         "科学家"
       ],
       "path": "wa/瓦特.md",
-      "description": "英国工程师，1769年发明蒸汽机以解决煤矿排水问题；戴蒙德以瓦特蒸汽机为例，论证技术发明往往源于对当时社会需求的回应，而发明的扩散则需要前置技术（冶金、采矿）的积累。",
-      "prose_len": 452,
-      "prose_chars": 420,
-      "h2_count": 3,
-      "pn_count": 3,
-      "wikilink_count": 4,
+      "description": "英国工程师；戴蒙德以瓦特蒸汽机为例，论证技术发明源于对社会需求的回应，且发明的传播往往超出最初设计目的",
+      "prose_len": 797,
+      "prose_chars": 749,
+      "h2_count": 4,
+      "pn_count": 7,
+      "wikilink_count": 5,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 24,
+      "quality_score": 57,
       "affiliation": "英国",
       "total_refs": 2
     },
@@ -5800,7 +5727,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 10
+      "total_refs": 8
     },
     "文字的独立发明": {
       "type": "event",
@@ -5842,16 +5769,16 @@
         "大陆轴线"
       ],
       "path": "we/纬度.md",
-      "description": "纬度决定白天长度和季节变化，是影响作物传播速度和方向的关键地理因素",
-      "prose_len": 725,
-      "prose_chars": 624,
+      "description": "纬度决定白天长度和季节变化，是影响作物传播速度和方向的核心地理变量——欧亚大陆东西轴线优势的根本原因",
+      "prose_len": 1011,
+      "prose_chars": 947,
       "h2_count": 5,
-      "pn_count": 0,
+      "pn_count": 8,
       "wikilink_count": 5,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 27,
-      "total_refs": 0
+      "quality_score": 60,
+      "total_refs": 1
     },
     "无花果": {
       "type": "species",
@@ -5872,8 +5799,7 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 2,
-      "quality": "standard"
+      "total_refs": 2
     },
     "xiaweiyi": {
       "type": "place",
@@ -5894,8 +5820,7 @@
       "pn_count": 4,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2,
-      "quality": "standard"
+      "total_refs": 2
     },
     "xibanya-zhengfu-aziteke": {
       "type": "event",
@@ -5915,8 +5840,7 @@
       "pn_count": 3,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "xibanya-zhengfu-yinjia": {
       "type": "event",
@@ -5936,8 +5860,7 @@
       "pn_count": 3,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "xiboliya": {
       "type": "place",
@@ -5957,8 +5880,7 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1,
-      "quality": "standard"
+      "total_refs": 1
     },
     "ximalaya": {
       "type": "place",
@@ -5978,8 +5900,7 @@
       "pn_count": 3,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1,
-      "quality": "standard"
+      "total_refs": 1
     },
     "xinyuewodi": {
       "type": "place",
@@ -6001,8 +5922,7 @@
       "pn_count": 6,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "xizang": {
       "type": "place",
@@ -6023,8 +5943,7 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "向日葵": {
       "type": "species",
@@ -6045,8 +5964,7 @@
       "pn_count": 0,
       "wikilink_count": 2,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "小麦": {
       "type": "species",
@@ -6072,7 +5990,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 6
+      "total_refs": 5
     },
     "希特勒": {
       "type": "person",
@@ -6216,14 +6134,14 @@
       ],
       "path": "xi/行政.md",
       "description": "协调和管理复杂社会事务的正式组织体系——从酋长管辖地到国家的核心制度演化",
-      "prose_len": 731,
-      "prose_chars": 603,
-      "h2_count": 6,
-      "pn_count": 0,
+      "prose_len": 1026,
+      "prose_chars": 962,
+      "h2_count": 5,
+      "pn_count": 9,
       "wikilink_count": 5,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 27,
+      "quality_score": 60,
       "total_refs": 2
     },
     "锡": {
@@ -6244,8 +6162,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "香蕉": {
       "type": "species",
@@ -6268,8 +6185,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2,
-      "quality": "standard"
+      "total_refs": 2
     },
     "驯化": {
       "type": "concept",
@@ -6294,7 +6210,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 63
+      "total_refs": 61
     },
     "驯鹿": {
       "type": "species",
@@ -6316,8 +6232,7 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "亚历山大大帝": {
       "type": "person",
@@ -6362,8 +6277,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2,
-      "quality": "standard"
+      "total_refs": 2
     },
     "演化": {
       "type": "concept",
@@ -6386,8 +6300,7 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2,
-      "quality": "standard"
+      "total_refs": 2
     },
     "羊驼": {
       "type": "species",
@@ -6409,8 +6322,7 @@
       "pn_count": 0,
       "wikilink_count": 2,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "鸭": {
       "type": "species",
@@ -6432,8 +6344,7 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 1,
-      "quality": "standard"
+      "total_refs": 1
     },
     "冶金": {
       "type": "concept",
@@ -6460,7 +6371,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 10
+      "total_refs": 9
     },
     "椰子": {
       "type": "species",
@@ -6482,8 +6393,7 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "耶利": {
       "type": "person",
@@ -6528,8 +6438,7 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 3,
-      "quality": "standard"
+      "total_refs": 3
     },
     "yinduhe": {
       "type": "place",
@@ -6551,8 +6460,7 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2,
-      "quality": "standard"
+      "total_refs": 2
     },
     "yindunixiya": {
       "type": "place",
@@ -6574,8 +6482,7 @@
       "pn_count": 5,
       "wikilink_count": 6,
       "blockquote_count": 0,
-      "total_refs": 4,
-      "quality": "standard"
+      "total_refs": 4
     },
     "一年生植物": {
       "type": "concept",
@@ -6585,21 +6492,19 @@
         "年生植物"
       ],
       "tags": [
-        "植物学",
-        "驯化",
         "农业",
-        "种子"
+        "生物"
       ],
       "path": "yi/一年生植物.md",
       "description": "每年完成一个生命周期的植物——早期农业优先驯化的对象，种子特性决定了驯化难易",
-      "prose_len": 730,
-      "prose_chars": 624,
+      "prose_len": 908,
+      "prose_chars": 845,
       "h2_count": 5,
-      "pn_count": 0,
-      "wikilink_count": 5,
+      "pn_count": 6,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 27,
+      "quality_score": 59,
       "total_refs": 0
     },
     "印刷": {
@@ -6621,8 +6526,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "印刷术": {
       "type": "concept",
@@ -6648,7 +6552,7 @@
       "blockquote_count": 3,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 3
+      "total_refs": 2
     },
     "移民": {
       "type": "concept",
@@ -6659,21 +6563,20 @@
         "移民浪潮"
       ],
       "tags": [
-        "人口",
+        "历史",
         "迁徙",
-        "史前史",
-        "文明传播"
+        "人口"
       ],
       "path": "yi/移民.md",
       "description": "人类从原住地向新地区的大规模迁徙，是物种、技术和文化传播的核心驱动力",
-      "prose_len": 762,
-      "prose_chars": 665,
+      "prose_len": 840,
+      "prose_chars": 778,
       "h2_count": 5,
-      "pn_count": 0,
-      "wikilink_count": 5,
+      "pn_count": 6,
+      "wikilink_count": 3,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 27,
+      "quality_score": 58,
       "total_refs": 5
     },
     "罂粟": {
@@ -6696,8 +6599,7 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "遗传": {
       "type": "concept",
@@ -6714,16 +6616,16 @@
         "驯化"
       ],
       "path": "yi/遗传.md",
-      "description": "遗传是《枪炮》明确拒绝用来解释文明差异的因素，而是将其视为人口分化和疾病适应的记录者",
-      "prose_len": 687,
-      "prose_chars": 573,
+      "description": "遗传学在书中扮演双重角色——拒绝用遗传差异解释文明差异，同时将其作为追溯人口迁徙和疾病适应历史的关键证据",
+      "prose_len": 1023,
+      "prose_chars": 959,
       "h2_count": 5,
-      "pn_count": 0,
+      "pn_count": 7,
       "wikilink_count": 5,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 26,
-      "total_refs": 5
+      "quality_score": 60,
+      "total_refs": 6
     },
     "鹰嘴豆": {
       "type": "species",
@@ -6745,8 +6647,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1,
-      "quality": "standard"
+      "total_refs": 1
     },
     "游牧": {
       "type": "concept",
@@ -6763,15 +6664,15 @@
         "粮食生产"
       ],
       "path": "yo/游牧.md",
-      "description": "随季节迁移、不在固定地点永久居住的生活方式——历史上总体上处于竞争劣势",
-      "prose_len": 664,
-      "prose_chars": 551,
+      "description": "随季节迁移、不在固定地点永久居住的生活方式——历史上总体上在与定居农业社会的竞争中处于劣势",
+      "prose_len": 1003,
+      "prose_chars": 939,
       "h2_count": 5,
-      "pn_count": 0,
+      "pn_count": 6,
       "wikilink_count": 5,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 26,
+      "quality_score": 60,
       "total_refs": 1
     },
     "玉米": {
@@ -6822,8 +6723,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 2,
-      "quality": "standard"
+      "total_refs": 2
     },
     "语系": {
       "type": "concept",
@@ -6844,8 +6744,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 5,
-      "quality": "standard"
+      "total_refs": 5
     },
     "语言": {
       "type": "concept",
@@ -6862,16 +6761,16 @@
         "农业扩张"
       ],
       "path": "yu/语言.md",
-      "description": "语言的地理分布格局记录了人口迁移和文化扩张的历史轨迹",
-      "prose_len": 735,
-      "prose_chars": 615,
+      "description": "语言的地理分布格局记录了人口迁移和文化扩张的历史轨迹——是重建史前史的可靠证据",
+      "prose_len": 1010,
+      "prose_chars": 946,
       "h2_count": 5,
-      "pn_count": 0,
+      "pn_count": 7,
       "wikilink_count": 5,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 27,
-      "total_refs": 3
+      "quality_score": 60,
+      "total_refs": 2
     },
     "语言传播": {
       "type": "concept",
@@ -6942,8 +6841,7 @@
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "再分配": {
       "type": "concept",
@@ -6954,23 +6852,20 @@
         "财富再分配"
       ],
       "tags": [
-        "经济",
-        "政治组织",
-        "酋长",
-        "国家",
-        "税收"
+        "社会组织",
+        "经济"
       ],
       "path": "za/再分配.md",
       "description": "酋长管辖地和国家将集中收取的贡品或税收向下分发的经济制度——权力合法化的核心机制",
-      "prose_len": 648,
-      "prose_chars": 531,
+      "prose_len": 878,
+      "prose_chars": 815,
       "h2_count": 5,
-      "pn_count": 0,
-      "wikilink_count": 5,
+      "pn_count": 5,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 26,
-      "total_refs": 5
+      "quality_score": 58,
+      "total_refs": 8
     },
     "zhili": {
       "type": "place",
@@ -6990,8 +6885,7 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "专业化分工": {
       "type": "concept",
@@ -7003,20 +6897,19 @@
       ],
       "tags": [
         "社会组织",
-        "粮食生产",
-        "波利尼西亚"
+        "农业"
       ],
       "path": "zh/专业化分工.md",
       "description": "粮食剩余驱动的社会分工现象——人口密度越高，技术组织越复杂，专业化程度越深",
-      "prose_len": 875,
-      "prose_chars": 771,
-      "h2_count": 6,
-      "pn_count": 0,
-      "wikilink_count": 5,
+      "prose_len": 1039,
+      "prose_chars": 976,
+      "h2_count": 5,
+      "pn_count": 5,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 28,
-      "total_refs": 5
+      "quality_score": 60,
+      "total_refs": 6
     },
     "中国": {
       "type": "place",
@@ -7153,21 +7046,20 @@
         "分裂促竞争"
       ],
       "tags": [
-        "政治组织",
-        "技术创新",
-        "欧洲",
-        "中国"
+        "社会组织",
+        "历史",
+        "技术"
       ],
       "path": "zh/政治竞争.md",
       "description": "分裂的政治格局通过竞争压力促进技术采纳与创新，统一则可能导致停滞",
-      "prose_len": 859,
-      "prose_chars": 749,
-      "h2_count": 6,
-      "pn_count": 0,
-      "wikilink_count": 5,
+      "prose_len": 935,
+      "prose_chars": 873,
+      "h2_count": 5,
+      "pn_count": 5,
+      "wikilink_count": 3,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 28,
+      "quality_score": 59,
       "total_refs": 1
     },
     "政治组织": {
@@ -7316,8 +7208,7 @@
       "pn_count": 0,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "total_refs": 0,
-      "quality": "standard"
+      "total_refs": 0
     },
     "种族主义": {
       "type": "concept",
@@ -7410,16 +7301,16 @@
         "达尔文"
       ],
       "path": "zi/自然选择.md",
-      "description": "达尔文提出的进化机制——适应环境的个体存活率更高；农业耕作逆转了这一方向",
-      "prose_len": 687,
-      "prose_chars": 572,
+      "description": "达尔文提出的进化核心机制——农业耕作通过人工选择彻底颠覆了自然选择的方向",
+      "prose_len": 912,
+      "prose_chars": 850,
       "h2_count": 5,
-      "pn_count": 0,
+      "pn_count": 6,
       "wikilink_count": 5,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 26,
-      "total_refs": 2
+      "quality_score": 59,
+      "total_refs": 4
     },
     "资源": {
       "type": "concept",
@@ -7496,7 +7387,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 4
+      "total_refs": 3
     },
     "作物传播": {
       "type": "concept",
@@ -7953,6 +7844,7 @@
     "世袭统治者": "君主",
     "monarch": "君主",
     "巨型动物": "巨型动物",
+    "megafauna": "巨型动物",
     "大型哺乳动物": "巨型动物",
     "史前动物灭绝": "巨型动物",
     "卡哈马卡": "卡哈马卡",
@@ -8617,5 +8509,5 @@
     "农业传播": "作物传播"
   },
   "page_count": 315,
-  "generated": "2026-05-25T15:10:26Z"
+  "generated": "2026-05-25T18:01:15Z"
 }

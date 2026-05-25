@@ -1,8 +1,10 @@
-// hero.config.js — 枪炮、病菌与钢铁 Wiki hero background
-// 矢量世界地图（CC0，Wikimedia Commons）：呼应书中"大陆轴线"主题。
-// 地图缓慢东西向漂移，强化纬度轴线优势的视觉隐喻。
+// plugins.config.js — 枪炮、病菌与钢铁统一插件配置
+// 引擎自动加载此文件，所有插件配置集中于此。
+// 旧版单文件（config/*.config.js）保留做降级回退。
 
-export function buildHeroBackground() {
+// ── hero 动画函数 ──────────────────────────────────────
+
+function buildHeroBackground() {
   // hero-cosmos div 撑开 hero 高度（CSS clamp(260px,36vw,460px)）
   // hero-map-wrap 绝对定位铺满，承载世界地图
   return `
@@ -15,7 +17,7 @@ export function buildHeroBackground() {
     </div>`;
 }
 
-export function startHeroAnimation(setStop) {
+function startHeroAnimation(setStop) {
   const el = document.getElementById('hero-worldmap');
   if (!el) return;
 
@@ -39,3 +41,24 @@ export function startHeroAnimation(setStop) {
     if (el) el.style.animation = '';
   });
 }
+
+// ── 统一配置表 ──────────────────────────────────────────
+
+export const configs = {
+
+  // ── 引擎加载型（engine → plugin.init(core, localConfig)）──
+
+  i18n: {
+    defaultLang: 'zh',
+  },
+
+  chapter: {
+    TOC_PAGE_ID: '目录',
+  },
+
+  hero: {
+    buildHeroBackground,
+    startHeroAnimation,
+  },
+
+};
