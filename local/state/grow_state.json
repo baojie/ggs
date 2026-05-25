@@ -13,10 +13,10 @@
   ],
   "closed_types": [],
   "counters": {
-    "current_round": 67,
-    "type_round": 27,
-    "rounds_since_last_evv5": 7,
-    "rounds_since_last_discover": 2,
+    "current_round": 68,
+    "type_round": 28,
+    "rounds_since_last_evv5": 8,
+    "rounds_since_last_discover": 1,
     "discover_streak_low": 0
   },
   "thresholds": {
@@ -27,5 +27,5 @@
     "type_close_new_candidate_min": 3
   },
   "pending_new_types": [],
-  "last_updated_round": 66
+  "last_updated_round": 67
 }
