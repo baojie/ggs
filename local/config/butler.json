@@ -7,5 +7,10 @@
   "epilogue_pattern": "^## 后记",
   "epilogue_nnn": "020",
   "chapter_order_file": "ref/chapter-order.md",
-  "chapter_order_skip": ["P01", "P02"]
+  "chapter_order_skip": [
+    "P01",
+    "P02"
+  ],
+  "wu_quota_per_round": 1000,
+  "grow_phase": 2
 }

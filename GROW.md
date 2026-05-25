@@ -504,8 +504,949 @@ Phase 1 完成的标志（全部满足方可进入 Phase 2）：
 
 ---
 
-## Phase 2：广度扩张
+## Phase 2：广度扩张（Phase 2.1 起）（Expansion，R~50–500）
 
-> 状态：未开始
+> **目标**：按类型顺序逐一扩张，每种类型的主要候选耗尽后再推进下一种，
+> 最终 stub% < 20%，主要类型覆盖率 > 60%。
+>
+> **广度:深度 = 7:3**。建页为主，每类完成后立即提质一批，不让 stub 积压。
+> 参考 `$MEMEX_ROOT/ref/spec/butler-phased-strategy-seed.md §Phase 2` 和 `§每轮质量门`。
+
+---
+
+### 2.1-0 基本配置（Phase 2 开始前一次性执行）
+
+在进入批量建设前，与用户确认每轮工作量上限，写入 `local/config/butler.json`。
+
+#### 2.1-0-A 展示常用任务 WU 参考表
+
+向用户打印以下参考值（来源：`$MEMEX_ROOT/skills/SKILL_W2_Butler基因表达.md §WU计费概览`）：
+
+| 任务类型 | 代表 gene | WU | 说明 |
+|---------|----------|-----|------|
+| 新建词条（standard 档）| NEW1-create-page | **100** | 包含 corpus_search + 写作 + frontmatter |
+| 质量提升（basic→standard）| RCH2-enrich-grade | **50** | 补引文 + 扩散文 |
+| 发现候选 | SCN28-wanted-discover | **30** | 扫描红链 + LLM 候选发现 |
+| wikilink 注入（单页）| BLK3-wikilink-pass | **50** | 全页 plain text → `[[...]]` |
+| schema 反思 | EVV5-schema-reflect | **80** | 扫描全类型 + 输出反思报告 |
+| frontmatter 字段补全 | FLD1-update-description | **5** | 单字段批量写入 |
+| 格式修复（PN/wikilink）| FIX10/FIX11 | **2–10** | 逐条修复 |
+
+**典型轮次 WU 消耗**：
+
+| 轮次模式 | 包含操作 | 预估 WU |
+|---------|---------|---------|
+| 轻量轮 | 1 页 NEW1 新建 | ~100–130 |
+| 标准轮 | 1 页 NEW1 新建 + 1 页 enrich | ~150–180 |
+| 重型轮 | 2 页 NEW1 新建 | ~200–230 |
+| 发现轮 | discover + 队列整理 | ~50–80 |
+| wikify 轮 | 10 页 wikilink pass | ~200–300 |
+
+#### 2.1-0-B 与用户确认 WU quota
+
+询问用户：
+
+```
+每轮 WU 上限建议设为多少？
+
+  推荐选项：
+  A — 200 WU/轮（标准轮 × 1，适合稳健推进）
+  B — 300 WU/轮（可容纳重型轮，速度更快）
+  C — 500 WU/轮（批量建设模式，适合集中建站期）
+  D — 自定义
+
+  说明：WU 上限只是软约束，butler 在单轮内不会因为 WU 超限而中断；
+  超限时 W3 自评会记录超支，下轮优先选轻量任务补偿。
+```
+
+用户确认后，记录：`wu_quota_per_round = 1000`
+
+#### 2.1-0-C 写入 butler.json
+
+在现有 `local/config/butler.json` 中追加 `wu_quota_per_round` 字段：
+
+```json
+{
+  "corpus_file": "...",
+  "chapter_pattern": "...",
+  "wu_quota_per_round": 1000,
+  "grow_phase": 2
+}
+```
+
+> `grow_phase` 字段供 butler 和 /grow skill 读取当前阶段，无需每次重新做 Phase 0 摸底。
+
+- [ ] 确认字段已写入且 JSON 合法：
+  ```bash
+  python3 -c "import json; print(json.load(open('local/config/butler.json')))"
+  ```
+- [ ] 提交配置变更：
+  ```bash
+  git add local/config/butler.json
+  bash wiki/scripts/skill_commit.sh "config: Phase 2 WU quota 配置（1000 WU/轮）"
+  ```
+
+---
+
+### 2.1-A 新类型 Mini-Pilot（如有）
+
+若 Phase 1 发现了尚无模板的新类型（type-survey 中有但未 Pilot）：
+
+**对每个新类型，在扩张该类型前执行 Mini-Pilot（2–3 页 + 1 轮 EVV5）**：
+
+- [ ] 参考最相近类型的 `*-schema.md`，起草 `local/template/{type}-schema.md`
+- [ ] 手选 2–3 个语料最丰富的候选，使用 NEW1 建页至 standard（走完整写作流程）
+- [ ] 执行 EVV5：扫描这 2–3 页，识别系统性问题，更新模板
+- [ ] 均分 ≥ 75 → 模板可用，**将该类型加入 2.1-B 串行扩张队列，后续使用 NEW1 建页全部走 2.1-B 标准流程**
+- [ ] 均分 < 75 → 分析根因后决定是否继续（接受 stub 档 / 暂不纳入 Phase 2 / 补语料后重测）
+
+> Mini-Pilot 同样须执行每轮 EXIT-GATE（见 §2.1-C），并写入日志（见 §2.1-D）。
+> Mini-Pilot 的 2–3 页计入 2.1-B 的建页总数，无需另行统计。
+
+- [ ] mini-pilot 完成后，初始化 state 文件：
+  ```python
+  import json, os
+  os.makedirs('local/state', exist_ok=True)
+  state = {
+    "schema_version": 1,
+    "wiki": "枪炮、病菌与钢铁",
+    "grow_phase": "2.1",
+    "phase2_iteration": 1,
+    "phase2_closed": False,
+    "current_type": "concept",
+    "type_queue": ["species", "place", "person", "event"],  # 按 2.1-B 确认的顺序
+    "closed_types": [  # Pilot 已饱和类型（如 strategy）若存在，预登记到此列表
+    ],
+    "counters": {
+      "current_round": 40,
+      "type_round": 0,
+      "rounds_since_last_evv5": 0,
+      "rounds_since_last_discover": 0,
+      "discover_streak_low": 0
+    },
+    "thresholds": {
+      "evv5_interval": 10,
+      "discover_queue_threshold": 10,
+      "discover_periodic_interval": 10,
+      "type_close_streak": 3,
+      "type_close_new_candidate_min": 3
+    },
+    "pending_new_types": [],
+    "last_updated_round": 40
+  }
+  json.dump(state, open('local/state/grow_state.json', 'w'), ensure_ascii=False, indent=2)
+  print('state 初始化完成')
+  ```
+
+- [ ] 验证文件合法：
+  ```bash
+  python3 -c "import json; s=json.load(open('local/state/grow_state.json')); print(s['grow_phase'], s['current_type'])"
+  ```
+
+- [ ] 提交（与 mini-pilot 同批或单独提交）：
+  ```bash
+  git add local/state/grow_state.json
+  bash wiki/scripts/skill_commit.sh "config: 初始化 GROW state 文件（Phase 2.1 起点）"
+  ```
+
+---
+
+### 2.1-B 类型扩张顺序
+
+类型扩张采用**串行模式**：一种类型的主要候选耗尽后，再开始下一种。不同类型不混合建页。
+
+**顺序由以下原则决定（在具体 wiki 的 GROW.md 中记录实际顺序）**：
+
+1. **新类型优先**：Mini-Pilot 未做的类型先做，建立质量基准后再批量
+2. **基础实体在前**：对其他类型有高引用价值的类型先建（概念 > 人物 > 公司 > 事件）
+3. **候选充足优先**：剩余候选 < 5 条的类型跳到队列末尾，避免强行扩张枯竭类型
+
+**候选耗尽判断**：
+
+> 当某类型连续 3 轮 discover 发现的新候选 < 3 条时，判定该类型候选基本耗尽，
+> 停止扩张，转入下一类型。不要强行凑数。
+> 耗尽后的类型在 GROW.md 中标记「候选耗尽，已关闭」。
+
+**discover 轮次调度规则**：
+
+> discover 本身消耗一个完整轮次（`SCN28-wanted-discover`，约 30–50 WU），
+> 应在以下时机主动安排，而非等候选池见底才发现：
+>
+> - **触发条件 A**：当前类型队列有效候选 < 10 条（近三轮建页速率下此数量约够 5 轮）
+> - **触发条件 B**：每完成 10 轮建页轮次（定期刷新），不论候选是否充足
+>
+> discover 轮次同样须写日志（格式同 2.1-D），EXIT-GATE 只需执行 G4（记录完整性），
+> 跳过 G1/G2/G3/G5（本轮无 NEW1 新建/修改页）。
+
+**EVV5 周期检查节奏**：每完成 10 轮建页轮次，安排一次 EVV5（`EVV5-schema-reflect`，约 80 WU）。
+
+> - 对当前正在扩张的类型执行：扫描该类型全部已建页面，反思模板是否需要调整
+> - EXIT-GATE：仅执行 G4（记录完整性），跳过 G1/G2/G3/G5（本轮无 NEW1 新建/修改页）
+> - **若发现结构性问题**（某节约束不清、字段普遍缺失等）→ 更新 `local/template/{type}-schema.md`，对存量页执行 backfill，写 RFC
+> - **若无结构变动** → 日志记录「模板稳定，无需更新」，继续建页节奏
+> - EVV5 轮次写日志（格式同 2.1-D，`gene: EVV5`，`type: 当前类型`）
+>
+> EVV5 与 discover 可合并为同一轮（约 110–130 WU），避免两个轻量轮占据两个日志。
+
+---
+
+### 2.1-B-pre · 每轮 pre-flight check（强制，每轮第一步）
+
+> **每句有据**：本轮建页时须遵守"每句有据"铁律——正文每一句断言必须来自 corpus_search 命中段落，逐句标注 PN，禁止以训练数据常识替代原文依据（详见 NEW1-create-page.md Step 3）。
+
+butler 启动每一轮前，必须先读 state，决定本轮任务类型，再执行任何操作。
+
+**第一步：读 state**
+
+```bash
+python3 -c "
+import json
+s = json.load(open('local/state/grow_state.json'))
+print(f'phase={s[\"grow_phase\"]}  type={s[\"current_type\"]}  type_round={s[\"counters\"][\"type_round\"]}')
+print(f'evv5_due_in={s[\"thresholds\"][\"evv5_interval\"]-s[\"counters\"][\"rounds_since_last_evv5\"]} 轮')
+print(f'discover_streak_low={s[\"counters\"][\"discover_streak_low\"]}')
+print(f'pending_new_types={s[\"pending_new_types\"]}')
+"
+```
+
+同时检查 state 与 pages.json 一致性（reconciliation，完整规则见 `grow-state-machine.md §7`）：
+```python
+import json
+from collections import Counter
+s = json.load(open('local/state/grow_state.json'))
+d = json.load(open('docs/wiki/pages.json'))
+entries = {k: v for k, v in d['pages'].items()
+           if v.get('type') not in ('chapter', 'overview', 'list')}
+
+actual_types = set(v['type'] for v in entries.values())
+known_types = (
+    set(s['type_queue'])
+    | ({s['current_type']} if s['current_type'] else set())
+    | {e['type'] for e in s['closed_types']}
+)
+untracked = actual_types - known_types
+missing   = known_types - actual_types
+if untracked:
+    print(f"WARN: pages.json 中有 state 未跟踪的类型: {untracked}")
+if missing:
+    print(f"WARN: state 中有 pages.json 无对应页面的类型: {missing}")
+# current_type 页数核验
+if s['current_type']:
+    actual_count = Counter(v['type'] for v in entries.values()).get(s['current_type'], 0)
+    for entry in s['closed_types']:
+        if entry['type'] == s['current_type'] and entry['final_count'] != actual_count:
+            print(f"WARN: state reconciled — {s['current_type']} "
+                  f"final_count {entry['final_count']} → {actual_count}")
+            entry['final_count'] = actual_count
+```
+
+**第二步：null-guard**
+
+```python
+if s['current_type'] is None:
+    # 类型队列已空，进入 Phase 2.N-Z 处理流程，本轮停止决策
+    raise SystemExit("current_type is None → 执行 2.N-Z 总结流程")
+```
+
+**第三步：决定本轮任务类型**（按优先级，第一个命中即决定；完整算法见 `grow-state-machine.md §3`）
+
+| 优先级 | 条件 | 本轮 gene |
+|--------|------|---------|
+| 1a | `rounds_since_last_evv5 >= evv5_interval` 且 `rounds_since_last_discover >= discover_periodic_interval` | `EVV5+SCN28`（两者同时到期，合并执行）|
+| 1b | `rounds_since_last_evv5 >= evv5_interval` | `EVV5` |
+| 2 | `discover_streak_low >= type_close_streak` | `CLOSE+SCN28`（关闭当前类型 + discover） |
+| 3 | `queue_size < discover_queue_threshold` 或 `rounds_since_last_discover >= discover_periodic_interval` | `SCN28` |
+| 4 | `stub% >= 20%` | `RCH2`（强制 enrich 2–3 页，暂停 NEW1 新建）|
+| 5 | `stub% in [15%, 20%)` | `NEW1+RCH2`（标准轮：1 新建 + 1 enrich）|
+| 6 | 默认 | `NEW1` |
+
+> **gene 枚举**：`NEW1` / `RCH2` / `SCN28` / `EVV5` / `EVV5+SCN28` / `CLOSE+SCN28` / `NEW1+RCH2` / `BLK3` / `EVV6`。
+> 日志 frontmatter 的 `gene` 字段必须是以上枚举值之一，不得随意命名。
+>
+> **优先级 2 说明**：关闭动作（写 closed_types、更新 current_type、重置计数器）先于 discover 执行，确保 discover 结果进入新类型的候选队列。
+
+**第四步：本轮日志 frontmatter 扩展**（在 2.1-D 格式基础上新增字段）
+
+```yaml
+---
+round: 47
+date: 2026-05-22
+type_round: 12               # 该类型内第几轮
+phase: "2.1"
+current_type: concept
+gene: EVV5+SCN28             # 必须是 gene 枚举值
+new_candidates: 5            # 仅含 SCN28 的轮必填，其余省略
+pages: [...]
+result: accept
+---
+```
+
+**第五步：EXIT-GATE 通过后更新 state**
+
+```python
+import json
+
+s = json.load(open('local/state/grow_state.json'))
+gene = "{{本轮 gene}}"           # 必须是 gene 枚举值之一
+new_candidates = None            # SCN28 / CLOSE+SCN28 / EVV5+SCN28 轮填实际数值，其余填 None
+
+s['counters']['current_round'] += 1
+s['counters']['type_round'] += 1
+
+# 使用 'in' 子串匹配支持复合 gene（EVV5+SCN28 / CLOSE+SCN28）
+if 'EVV5' in gene:
+    s['counters']['rounds_since_last_evv5'] = 0
+else:
+    s['counters']['rounds_since_last_evv5'] += 1
+
+if 'SCN28' in gene or 'CLOSE' in gene:
+    s['counters']['rounds_since_last_discover'] = 0
+    if new_candidates is not None:
+        if new_candidates < s['thresholds']['type_close_new_candidate_min']:
+            s['counters']['discover_streak_low'] += 1
+        else:
+            s['counters']['discover_streak_low'] = 0
+
+s['last_updated_round'] = s['counters']['current_round']
+json.dump(s, open('local/state/grow_state.json', 'w'), ensure_ascii=False, indent=2)
+```
+
+**第六步：state 与页面文件同批 commit**
+
+```bash
+git add local/state/grow_state.json docs/wiki/pages.json logs/gene-express/{{本轮日志}}
+bash wiki/scripts/skill_commit.sh "R{{N}}: {{gene}} {{type}} {{slug}}"
+```
+
+> state 更新必须与页面变更同批 commit，不拆分两步，避免 session 中断导致 state 滞后。
+
+---
+
+### 2.1-C 每轮 EXIT-GATE（必做，不可跳过）
+
+每轮使用 NEW1 建页完成后、写日志和 commit 之前，按以下顺序执行五道检查门。
+**G1 失败立即回滚，不继续后续检查。任一门未通过，当轮阻塞，修复后才能开启下一轮。**
+
+来源：`$MEMEX_ROOT/ref/spec/butler-phased-strategy-seed.md §每轮质量门`，
+以及 butler W2 执行框架（`$MEMEX_ROOT/skills/SKILL_W2_Butler基因表达.md`）。
+
+#### G1 · 内容完整性（对本轮所有修改页）
+
+| 条件 | 检测 | 处置 |
+|------|------|------|
+| 字数缩减 ≥ 20% | `QLT6-size-loss-detection` | **Critical**：`git checkout` 回滚，重新执行 |
+| 关键节丢失 | `QLT6` 关键节白名单 | **Critical**：同上 |
+| 字数缩减 10–20% | `QLT6` Warning | 人工确认合理后放行，否则回滚 |
+
+#### G2 · 格式与质量重点检查（对本轮 NEW1 新建/修改页）
+
+> 以下 **E1–E7** 直接来自 BIRTH Phase 9 EXIT-GATE，是每轮必须过的核心关卡。
+> 任一项未通过，当轮阻塞，修复后方可写日志和 commit。
+
+| 编号 | 检查项 | 检测 gene | 修复 gene |
+|------|--------|----------|----------|
+| **E1** | frontmatter 结构完整（所有 key 存在，无缺失字段）| `CHK9` | 补全所有字段；quality 按实际档位填写 |
+| **E2** | 质量档位达到本轮目标档 | `QLT6` | 补散文/引文/节直至达标 |
+| **E3** | 必填字段内容非空（id/type/label/description/quality 均有实际值）| `CHK6-N3` | `FLD1-update-description` |
+| **E4** | 标题行无 wikilink（`## [[...]]` 非法）| `CHK6-N5` | 移除标题内 `[[]]`，保留纯文字 |
+| **E5** | PN 引注有效性（引用的段落真实存在）| `QUO23` | 修正 PN 编号或删除无效引注 |
+| **E6** | 正文规范通过 | `LNT14` | 按 LNT14 逐项修复 |
+| **E7** | blockquote 均有 PN 标注 | 人工扫描 `^>` 行 / `QUO23` | 补 `[NNN-PPP]` 或确认来源 |
+
+**补充检查项**（E 项全部通过后执行）：
+
+| 条件 | 检测 gene | 修复 gene |
+|------|----------|----------|
+| PN 引注格式错误（括号类型/多PN合并）| `CHK6-N1` / `QUO7` | `FIX10-pn-format-repair` |
+| wikilink 截断或格式错误 | `CHK6-N2` / `LNT9` | `FIX11/15-wikilink-repair` |
+| label 与已有页面重名 | `CHK6-N4` | `NEW19-homonym-disambig` |
+| 段落超长（> 200 字无换行）| `LNT1` | `PRE2-split-long-paragraph` |
+| 破折号密度超标 | `LNT2` | `HKP31-fix-dash-density` |
+
+#### G3 · 写作质量（对本轮 NEW1 新建/修改页）
+
+| 条件 | 检测 gene | 修复 gene |
+|------|----------|----------|
+| 叙述段无 PN 支撑 | `CHK6-C4` / `QUO22` | 补引文或删无据叙述 |
+| 废话：复读引文 | `QLT11-T1` | 删叙述，留引文 |
+| 废话：主观评价语（"最X之一"）| `QLT11-T2` | 加 PN 或删除 |
+| AI 链式表达（"此外…不仅…还…"）| `CHK6-C3` | `FIX6-cot-text-repair` |
+
+#### G4 · 记录完整性（每轮必查）
+
+| 条件 | 说明 | 处置 |
+|------|------|------|
+| recent.jsonl 未更新 | 本轮 NEW1 新建/修改页未写入 | 补写 recent 条目（含时间戳和摘要）|
+| history 记录缺失 | NEW1 新建页无首次修订记录 | `FIX12-backfill-revision-history` |
+| 账本未记账 | actions.jsonl 本轮行动未写入 | 补写（动作类型/WU/slug）|
+| 队列未更新 | 本轮消费的任务仍留在队列 | 移除已处理条目 |
+
+#### G5 · 系统集成（NEW1 新建页首次必查，或每 5 页抽查 1 页）
+
+对应 `CHK7-new-page-system-check` S1–S7：
+
+| 检查项 | 通过条件 |
+|--------|---------|
+| S1 页面渲染 | 能正常加载，无空白/崩溃 |
+| S2 PN 引注插件 | `[NNN-PPP]` 被插件识别并渲染 |
+| S3 Infobox | 字段无 undefined/null/空行 |
+| S4 Wikilink | `[[...]]` 渲染为可点击链接，已有目标无 404 |
+| S5 History 入口 | 有 History 入口且本次修订可见 |
+| S6 Recent 收录 | `Special:Recent` 中本页可见 |
+| S7 交叉验证 | Recent 与 History 时间戳一致 |
+
+**执行顺序**：G1 → G2 → G3 → G4 → G5（按频率）。G1 失败直接回滚，不继续。
+
+**stub% 控制规则（与 EXIT-GATE 并行执行）**：
+
+每轮 EXIT-GATE 通过后，检查当前 stub%：
+
+```python
+python3 -c "
+import json
+from collections import Counter
+d = json.load(open('docs/wiki/pages.json'))
+entries = {k:v for k,v in d['pages'].items() if v.get('type') not in ('chapter','overview','list')}
+q = Counter(v.get('quality','?') for v in entries.values())
+stub_pct = q.get('stub',0) / max(len(entries),1) * 100
+print(f'stub%: {stub_pct:.1f}%  ({q.get(\"stub\",0)}/{len(entries)})')
+"
+```
+
+| stub% 触发条件 | 动作 |
+|--------------|------|
+| stub% ≥ 20% | ⚠️ 下一轮强制安排 enrich 批次（RCH2，2–3 页），暂停 NEW1 新建 |
+| stub% 15–20% | 下一轮安排 1 页 enrich + 1 页 NEW1 新建（标准轮）|
+| stub% < 15% | 正常建页节奏，无需特殊处置 |
+
+> **目的**：将 stub% 控制在 20% 以内是 Phase 2 退出条件之一。
+> 每轮轮次日志中记录当前 stub%，形成可追踪的趋势曲线。
+
+---
+
+### 2.1-D 每轮日志（必做，与 BIRTH Pilot 格式一致）
+
+每轮完成 EXIT-GATE 后，写入 `logs/gene-express/` 一个日志文件。
+
+**文件命名**：`{YYYY-MM-DD}-R{N}-{gene}-{type}-{slug或摘要}.md`
+
+例：`2026-05-22-R35-NEW1-{{type}}-{{slug}}.md`、`2026-05-22-R40-RCH2-{{type}}-batch-enrich.md`
+
+**日志格式**：
+
+```markdown
+---
+round: {{N}}
+date: {{YYYY-MM-DD}}
+gene: {{gene-id}}
+pages: [{{slug1}}, {{slug2}}]
+type: {{type}}
+result: accept / reject / defer
+---
+
+## 执行摘要
+
+一段话描述本轮做了什么（建页/enrich/discover），输入是什么，产出是什么。
+
+## 页面处理记录
+
+| 页面 | 操作 | 结果 | 备注 |
+|------|------|------|------|
+| {{slug}} | create / enrich | accept | {{简短说明}} |
+
+## EXIT-GATE 检查
+
+**G1 优先检查（失败立即回滚，不继续后续检查）：**
+
+| 门 | 结果 | 问题与处置 |
+|----|------|---------|
+| G1 内容完整性 | PASS / FAIL | {{如 FAIL 说明回滚原因}} |
+
+**G2 核心格式检查（E1–E7，来自 BIRTH Phase 9 EXIT-GATE）：**
+
+| 编号 | 检查项 | 结果 | 问题与处置 |
+|------|--------|------|---------|
+| E1 | frontmatter 结构完整（所有 key 存在）| PASS / FAIL | |
+| E2 | 质量档位达标 | PASS / FAIL | |
+| E3 | 必填字段内容非空 | PASS / FAIL | |
+| E4 | 标题无 wikilink | PASS / 修复 N 处 | |
+| E5 | PN 引注有效性 | PASS / 修复 N 处 | |
+| E6 | 正文规范（LNT14）| PASS / 修复 N 处 | |
+| E7 | blockquote 有 PN | PASS / 修复 N 处 | |
+
+**G2 补充格式 / G3 写作质量 / G4 记录 / G5 系统集成：**
+
+| 门 | 结果 | 问题与处置 |
+|----|------|---------|
+| G2 补充格式检查 | PASS / 修复 N 处 | {{问题类型}} |
+| G3 写作质量 | PASS / 修复 N 处 | {{问题类型}} |
+| G4 记录完整性 | PASS | — |
+| G5 系统集成 | PASS / 抽查 {{slug}} | — |
+
+## 遗留问题
+
+{{本轮发现但未处理的问题，写入下轮待处理队列}}
+```
+
+> **日志是问责机制**：EXIT-GATE 结果必须如实记录，不得只写 PASS 略过检查。
+> 如某门发现问题并修复，在「问题与处置」栏写清楚修了什么。
+
+---
+
+### 2.1-E 类型完成后 Wikify
+
+每种类型的候选耗尽（扩张关闭）后，**立即执行一次该类型的 wikify pass**，不积压到最后。
+
+> 时机依据：`$MEMEX_ROOT/ref/spec/butler-phased-strategy-seed.md §Wikify 与断链补全的时机`
+> —— 首次 wikify 在每类批次建完后，命中率高；积压越久，后续修复代价越大。
+
+执行步骤：
+
+```bash
+# 1. 对该类型所有页面执行 wikilink 注入（BLK3-wikilink-pass）
+python3 wiki/scripts/butler/bulk_wikilink.py --type {{type}}
+
+# wikify 完成后立即补录历史（bulk_wikilink.py 绕过了 record_revision.py）
+git diff --name-only HEAD -- ':(glob)docs/wiki/pages/**/*.md' | while read f; do
+  slug=$(basename "$f" .md)
+  python3 wiki/scripts/record_revision.py "$slug" \
+    --summary "wikify: BLK3 wikilink 注入（{{type}}）" --author butler
+done
+
+# 2. 扫描断链（断链 = gap 候选，直接入队）
+python3 "$MEMEX_ROOT/wiki/scripts/scan_broken_links.py" \
+  --pages-dir docs/wiki/pages >> logs/butler/queue.md
+
+# 3. 重建 backlinks
+python3 "$MEMEX_ROOT/wiki/scripts/build_backlinks.py" --stats
+git add docs/wiki/backlinks.json
+
+# 4. 写入日志（格式同 2.1-D，gene: BLK3）
+```
+
+> ⚠️ `bulk_wikilink.py` 内置跳过标题行的保护，但执行后**必须补录 record_revision.py**，否则 recent / history 界面不显示本次变更（见 `BLK3-wikilink-pass.md §写入铁律`）。
+> 断链条目入队前执行 SCN6 质量门（过滤通用词/过短词）。
+
+- [ ] wikify 完成后，关闭该类型并更新 state：
+  ```python
+  import json
+  s = json.load(open('local/state/grow_state.json'))
+  closed_type = s['current_type']
+  d = json.load(open('docs/wiki/pages.json'))
+  final_count = sum(1 for v in d['pages'].values() if v.get('type') == closed_type)
+
+  s['closed_types'].append({
+      'type': closed_type,
+      'closed_at_round': s['counters']['current_round'],
+      'final_count': final_count,
+      'evv6_score': None   # Phase 2.N-Z-0 时填写
+  })
+  s['type_queue'] = [t for t in s['type_queue'] if t != closed_type]
+  s['current_type'] = s['type_queue'][0] if s['type_queue'] else None
+  # 重置所有类型级计数器；EVV5 间隔从新类型第 0 轮开始计
+  s['counters']['type_round'] = 0
+  s['counters']['discover_streak_low'] = 0
+  s['counters']['rounds_since_last_evv5'] = 0
+  json.dump(s, open('local/state/grow_state.json', 'w'), ensure_ascii=False, indent=2)
+  print(f'{closed_type} 已关闭，下一类型：{s["current_type"]}，剩余队列：{s["type_queue"]}')
+  ```
+
+- [ ] 若 `type_queue` 已空（`current_type == None`）→ 触发 Phase 2.N 全局退出检查（见 2.1-X），不再启动新的类型轮次
+
+---
+
+### 2.1-X 退出条件
+
+以下全部满足，Phase 2.1 完成，进入 2.1-Z 总结报告（由 2.1-Z 决定下一步进入 Phase 2.2 还是 Phase 3）：
+
+- [ ] 所有主要类型的候选均已耗尽或标记「关闭」
+- [ ] stub% < 20%（create:enrich 至少 2:1 保证）
+- [ ] 各主要类型覆盖率 > 60%（候选天然枯竭的类型除外）
+- [ ] 新类型（如有）Mini-Pilot 均分 ≥ 75，模板可用
+- [ ] 每种已关闭类型均已执行 wikify pass + 断链入队
+- [ ] backlinks.json 已重建，链接密度 > 5 条/词条
+- [ ] 所有轮次日志完整写入 `logs/gene-express/`
+
+**关键判断点**：
+
+> **外层提前退出触发器**（与 2.1-B 的单类型耗尽判断互补）：
+> 当连续 3 轮 discover 全类型新候选合计 < 5 条时，
+> 不等候选彻底归零，立即关闭 Phase 2.1，直接进入 2.1-Z 总结。
+> （对比：2.1-B 的「某类型连续 3 轮 < 3 条」是关闭单个类型；此处是所有类型同时枯竭的全局信号。）
+> 经验：强行等候选彻底归零往往导致 stub 积压成巨额维护债务；提前转比强行铺面代价小得多。
+
+---
+
+### 2.1-Z Phase 2.1 总结报告
+
+> 类比 BIRTH Phase 10（boot_summary），在 2.1-X 验收通过后立即执行。
+> **产出文件**：`local/memory/grow_phase2_summary.md`
+> 此文件是下一阶段（Phase 2.N+1 或 Phase 3）启动的前置依据，butler `/grow` skill 读取它确认本轮广度扩张已结案。
+
+---
+
+#### 2.1-Z-PHQ Phase 级综合质检（分析开始前必须完成）
+
+> 执行 Phase 级综合质检：`$MEMEX_ROOT/ref/spec/workflow-phase-quality-check.md`
+> 产出：`logs/phase-quality-check/{YYYY-MM-DD}-phase2-phq.md`
+
+PHQ-A FAIL（注册不一致）→ 先修复，再继续后续步骤。
+PHQ 高优先级问题须在 2.1-Z-0 EVV6 之前修复完毕；中/低优先级记录后可继续。
+
+---
+
+#### 2.1-Z-0 EVV6 全库评审（Phase 2.1 关闭前唯一一次）
+
+在汇总日志和写总结之前，对 Phase 2.1 期间扩张的每种类型执行一次 `EVV6-schema-close`。
+这是 Phase 2.1 的质量基线封存，为下一阶段的 enrich 优先级提供数据依据。
+
+- 对每种已关闭类型（含 Mini-Pilot 新类型）各执行一轮 EVV6：
+
+  ```
+  EVV6-schema-close → type: {{type}}
+  输入：该类型全部页面
+  输出：综合质量均分（0–100）+ 主要扣分模式（1–3 条）
+  ```
+
+- 每种类型写独立日志（`gene: EVV6`，`type: {{type}}`），EXIT-GATE 只需 G4
+- 记录结果：
+
+  | 类型 | EVV6 均分 | 主要扣分模式 | Phase 3 优先级 |
+  |------|---------|-----------|-------------|
+  | {{type}} | {{score}} | {{模式描述}} | 高（< 75）/ 中（75–85）/ 低（> 85）|
+
+- 均分 < 75 → 该类型列为 Phase 3 最高 enrich 优先级，Phase 3 开始前先批量 enrich 至 75+
+- 均分 ≥ 75 且 < 85 → 正常进入 Phase 3 enrich 队列
+- 均分 ≥ 85 → Phase 3 可降低优先级，资源优先分配给低分类型
+
+> EVV6 是 Phase 2.1 的质量封存点，相当于 BIRTH Phase 9 EVV6 的角色。
+> Phase 2.1 期间每 10 轮的 EVV5 是「过程检查」，2.1-Z-0 EVV6 是「阶段关闭评审」，两者互补。
+
+- [ ] 每种类型 EVV6 完成后，将均分回填至 state：
+  ```python
+  import json
+  s = json.load(open('local/state/grow_state.json'))
+  evv6_results = {
+      "{{type1}}": {{score1}},
+      "{{type2}}": {{score2}},
+  }
+  for entry in s['closed_types']:
+      if entry['type'] in evv6_results:
+          entry['evv6_score'] = evv6_results[entry['type']]
+  json.dump(s, open('local/state/grow_state.json', 'w'), ensure_ascii=False, indent=2)
+  ```
+
+---
+
+#### 2.1-Z-A 汇总轮次日志与 RFC
+
+从 `logs/gene-express/` 汇总 Phase 2.1 期间的所有轮次数据：
+
+```bash
+# 统计 Phase 2.1 期间的轮次日志数量（将 N_start 替换为实际起始轮次）
+ls logs/gene-express/ | grep -E "^[0-9]{4}-[0-9]{2}-[0-9]{2}-R[0-9]+" | \
+  awk -F'-R' '{n=$2+0; if(n>=N_start) print}' | wc -l  # N_start = Phase 2.1 实际起始轮
+
+# 统计各类型建页数（从日志 frontmatter 中 gene: NEW1 的条目）
+grep -l "gene: NEW1" logs/gene-express/*.md 2>/dev/null | wc -l
+
+# 统计 enrich 轮次
+grep -l "gene: RCH2" logs/gene-express/*.md 2>/dev/null | wc -l
+```
+
+汇总 Phase 2.1 期间的 RFC：
+```bash
+# 列出 Phase 2.1 期间提交的 RFC（按日期过滤）
+ls ref/rfc/ | xargs -I{} head -5 ref/rfc/{} 2>/dev/null | grep -A4 "status:"
+```
+
+提取每轮日志中 EXIT-GATE 发现的问题（跨轮统计高频错误类型）：
+```bash
+grep -h "FAIL\|修复" logs/gene-express/*.md 2>/dev/null | sort | uniq -c | sort -rn | head -20
+```
+
+---
+
+#### 2.1-Z-B Phase 2 过程复盘
+
+回顾五个层面，判断是否需要提 RFC 或更新文档：
+
+**1. Gene 层**：Phase 2.1 期间新增或修改了哪些 gene？
+
+```bash
+# 列出 Phase 2.1 期间新增的 gene 文件（按 git log 过滤）
+git log --since="2026-05-25" --name-only --diff-filter=A -- 'local/gene/**' 'ref/spec/**' \
+  | grep -E "\.(md|json)$"
+```
+
+对每个新增 gene：确认触发来源（哪轮 EXIT-GATE）、覆盖的错误模式、是否已在 W4 门控中注册。
+
+---
+
+**2. 流程层**：EXIT-GATE 高频 FAIL 分析
+
+从 2.1-Z-A 的汇总结果中，找出触发次数 ≥ 3 的检查项，逐一回答：
+- 该项频繁 FAIL 的根本原因是什么？（写作习惯？模板约束不够清晰？）
+- 现有 gene 是否足够覆盖这个错误？还是需要新增或加强？
+
+---
+
+**3. 模板层**：各类型 schema 是否需要修订？
+
+从所有 Phase 2 轮次日志中提取模板相关的反馈：
+```bash
+# 搜索日志中出现"模板""schema""结构""节"相关讨论
+grep -h -i "模板\|schema\|节结构\|新增节\|删除节\|字段" logs/gene-express/*.md 2>/dev/null \
+  | grep -v "^|" | sort -u
+```
+
+对每种类型逐一判断：
+- 有无词条反复在同一节扣分（说明该节约束描述不清）
+- 有无词条因某节「可选」但实际上每个 standard 词条都有（说明应改为「建议」甚至「必选」）
+- 有无词条某节内容持续偏薄（说明模板的写作示例或字数下限不够指导）
+
+结论之一的格式：`{{type}}-schema.md：{{建议改动}} → 是否提 RFC`
+
+---
+
+**4. 新类型发现**：Phase 2 discover 轮次中有无新类型候选？
+
+```bash
+# 从 discover 轮次日志中提取「新类型」相关记录
+grep -h "新类型\|未知类型\|type.*未知\|建议新增.*type" logs/gene-express/*.md 2>/dev/null
+```
+
+同时检查 Phase 2.1 期间 discover 发现的候选中，是否有不属于现有任何 type 的词条（若某类候选词条反复出现但无对应 type，可能是新 type 信号）：
+- 发现 ≥ 3 个同类未归类候选 → 考虑新类型，写入 `logs/butler/type-survey.md`，Phase 3 建立 Mini-Pilot
+- 发现 1–2 个 → 暂归入最近似类型，在候选备注中标记
+
+- [ ] 将本节发现的新类型写入 state（无新类型则写空数组）：
+  ```python
+  import json
+  s = json.load(open('local/state/grow_state.json'))
+  s['pending_new_types'] = [
+      # 示例：{'type': '{{new_type}}', 'candidate_count': {{N}}, 'corpus_check': 'ok'}
+      # 无新类型时留空数组 []
+  ]
+  json.dump(s, open('local/state/grow_state.json', 'w'), ensure_ascii=False, indent=2)
+  ```
+
+---
+
+**5. 规范层**：`GROW.spec.md` 有无歧义或缺失？
+
+执行 Phase 2 过程中遇到的规范不明确之处（如 discover 节奏边界、stub% 控制阈值合理性、wikify 时机判断），
+整理后判断是否需要提 RFC 更新 spec。
+
+---
+
+#### 2.1-Z-C 提交复盘 RFC（按需）
+
+基于 2.1-Z-B 五层分析，汇总需要提 RFC 的变更：
+
+| 变更来源 | 目标文件 | 变更描述 | 优先级 |
+|---------|---------|---------|--------|
+| 模板层 | `local/template/{{type}}-schema.md` | {{改动描述}} | 高/中/低 |
+| Gene 层 | `local/gene/{{gene-id}}.md` | {{改动描述}} | 高/中/低 |
+| 规范层 | `$MEMEX_ROOT/GROW.spec.md` | {{改动描述}} | 高/中/低 |
+| 新类型 | `logs/butler/type-survey.md` | {{新类型名称及候选数}} | 中/低 |
+
+- 高优先级：Phase 3 启动前必须处理（阻塞正确执行）
+- 中优先级：Phase 3 期间处理（影响质量但不阻塞）
+- 低优先级：写入 housekeeping 队列，不阻塞 Phase 3
+
+对每个高/中优先级变更，用 `/rfc` 提交并记录 issue URL。
+
+---
+
+#### 2.1-Z-D 写入总结文档
+
+将以下内容写入 `local/memory/grow_phase2_summary.md`：
+
+```markdown
+---
+wiki: 枪炮、病菌与钢铁
+phase2_completed: {{YYYY-MM-DD}}
+butler_round_start: R{{N_start}}
+butler_round_end: R{{N_end}}
+---
+
+# Phase 2.1 广度扩张总结
+
+## 基本统计
+
+| 指标 | 数值 |
+|------|------|
+| Phase 2.1 总轮次 | {{N}} 轮（R{{start}}–R{{end}}）|
+| 新建词条数 | {{N}} 页 |
+| enrich 轮次 | {{N}} 轮（{{N}} 页提质）|
+| discover 轮次 | {{N}} 轮 |
+| wikify 轮次 | {{N}} 轮（覆盖 {{N}} 页）|
+| 提交 RFC（Phase 2.1 期间）| {{N}} 个 |
+| 词条总数（Phase 2.1 结束）| {{N}} 页（含 Pilot {{N_pilot}} 页）|
+| stub% 变化 | {{start%}} → {{end%}} |
+
+## 类型扩张数据
+
+| 类型 | 起始页数 | 新建页数 | 结束页数 | enrich 页 | wikify 状态 | 关闭日期 |
+|------|---------|---------|---------|----------|-----------|---------|
+| {{type}} | {{n}} | {{n}} | {{n}} | {{n}} | ✓/✗ | {{date}} |
+
+## EVV6 全库评审结果（Phase 2 关闭评审）
+
+| 类型 | 页数 | EVV6 均分 | 主要扣分模式 | Phase 3 优先级 |
+|------|------|---------|-----------|-------------|
+| {{type}} | {{n}} | {{score}} | {{模式}} | 高/中/低 |
+
+## 质量演化（stub% 趋势）
+
+| 时间节点 | 词条总数 | stub 数 | stub% |
+|---------|---------|--------|-------|
+| Phase 2.1 开始（R{{N}}）| {{n}} | {{n}} | {{%}} |
+| 中期检查（R{{N}}）| {{n}} | {{n}} | {{%}} |
+| Phase 2.1 结束（R{{N}}）| {{n}} | {{n}} | {{%}} |
+
+## EXIT-GATE 高频问题汇总
+
+> 跨 Phase 2 所有轮次，哪些检查项最常 FAIL，说明写作流程中的系统性弱点。
+
+| 检查项 | 触发次数 | 处置模式 | 是否新增 gene |
+|--------|---------|---------|------------|
+| {{E/G 编号}} | {{N}} 次 | {{修复方式}} | ✓/✗ |
+
+**纠错 gene 演化（Phase 2.1 期间新增）**：
+
+| gene 文件 | 触发来源 | 归档状态 |
+|----------|---------|---------|
+| {{gene-id}} | {{错误模式}} | ✓ 已归档 |
+
+## 链接网络成效
+
+| 指标 | Phase 2.1 开始 | Phase 2.1 结束 | 变化 |
+|------|-----------|-----------|------|
+| wikilink 总数 | {{N_start}} 条 | {{N_end}} 条 | +{{N}} |
+| 平均每词条链接数 | {{avg_start}} 条 | {{avg_end}} 条 | +{{N}} |
+| backlinks 覆盖率 | {{%_start}} | {{%_end}} | +{{%}} |
+
+## 模板修订意见（来自日志分析）
+
+> 对每种类型的 schema 文件，记录 Phase 2 实践中发现的改进点。
+
+| 类型 | schema 文件 | 问题描述 | 建议改动 | 优先级 | RFC 编号 |
+|------|-----------|---------|---------|--------|---------|
+| {{type}} | `{{type}}-schema.md` | {{频繁扣分的节/字段}} | {{具体改动}} | 高/中/低 | {{RFC-N 或 —}} |
+
+## 新类型发现（Phase 2 discover 产出）
+
+> discover 轮次中发现的、不属于现有 type 的候选词条归纳。
+
+| 候选词条群 | 建议新 type 名 | 候选数 | 语料充足性 | 处理决策 |
+|----------|-------------|--------|---------|---------|
+| {{词条1/词条2/词条3}} | {{type-name}} | {{N}} | ✓/△/✗ | Phase 3 Mini-Pilot / 暂归入 {{existing-type}} / 搁置 |
+
+> 无新类型候选 → 本节填「Phase 2 discover 未发现新类型，现有 type 体系完整」。
+
+## RFC 清单（Phase 2.1 期间）
+
+| 编号 | slug | status | 目标文件 | 描述 |
+|------|------|--------|---------|------|
+| {{RFC-N}} | {{slug}} | proposed/implemented | {{file}} | {{一句话}} |
+
+## 对 Phase 3 的启示
+
+**质量偏低词条**（优先 enrich 目标）：
+- {{slug}}（{{原因：语料薄/引文少/节不完整}}）
+
+**类型间质量差异**：
+- {{type1}} 词条整体偏弱，原因：{{}}
+- {{type2}} 词条质量稳定，Phase 3 可降低优先级
+
+**高频 EXIT-GATE 问题的根因**：
+- {{问题}} → Phase 3 开始前先修复存量，再制定预防 gene
+
+**butler 使用 NEW1 建页建议（对 Phase 3）**：
+- {{1–3 条最有价值的操作建议，来自 Phase 2 实践}}
+
+## 下一阶段判断
+
+> **规则**：Phase 2.1 结束后，下一步取决于是否发现了新类型。
+
+| 条件 | 下一步 |
+|------|--------|
+| 2.1-Z-B 发现新类型（候选 ≥ 3 条）| **启动 Phase 2.N**（N = 上一轮序号 + 1，从 2.2 开始）|
+| 无新类型，2.1-X 全部满足 | **进入 Phase 3**（深度提升）|
+| 无新类型，2.1-X 部分未满足 | **修复后进入 Phase 3** |
+
+- [ ] 按判断结论更新 state 的 `grow_phase`：
+  ```python
+  import json
+  s = json.load(open('local/state/grow_state.json'))
+  if s['pending_new_types']:                        # 有新类型
+      s['phase2_iteration'] += 1
+      s['grow_phase'] = f"2.{s['phase2_iteration']}"
+      s['type_queue'] = [t['type'] for t in s['pending_new_types']]
+      s['current_type'] = s['type_queue'][0]
+      s['pending_new_types'] = []
+      s['counters']['type_round'] = 0
+      s['counters']['discover_streak_low'] = 0
+  else:                                             # 无新类型 → Phase 3
+      s['grow_phase'] = "3"
+      s['phase2_closed'] = True
+  json.dump(s, open('local/state/grow_state.json', 'w'), ensure_ascii=False, indent=2)
+  ```
+  同步更新 `local/config/butler.json` 的 `grow_phase` 字段。
+
+**Phase 2.N 命名规则与结构**：
+
+> Phase 2 是广度扩张系列。首次扩张为 Phase 2.1（子节 2.1-A / 2.1-B / … / 2.1-X / 2.1-Z）。
+> 每发现一批新类型，启动下一个子阶段：Phase 2.2 / Phase 2.3 / …，各自拥有独立的子节编号：
+>
+> ```
+> Phase 2.2：
+>   2.2-A  新类型 Mini-Pilot
+>   2.2-B  扩张顺序
+>   2.2-C  每轮 EXIT-GATE
+>   2.2-D  每轮日志
+>   2.2-E  类型完成后 Wikify
+>   2.2-X  退出条件
+>   2.2-Z  总结报告（PHQ + EVV6 + 汇总 + 分析）
+>         └ 2.2-Z 的「下一阶段判断」：
+>             有新类型 → Phase 2.3
+>             无新类型 → Phase 3
+> ```
+>
+> 所有 Phase 2.N 复用 Phase 2 的所有规范（2-C EXIT-GATE、2-D 日志格式、2-E Wikify、PHQ workflow），
+> 子节编号只是加了版本前缀，执行逻辑完全相同。
+> GROW.md 中为每个 Phase 2.N 新增独立章节，参数速查表的「当前阶段」字段同步更新。
+
+**结论**：{{进入 Phase 3 / 发现新类型 N 种，启动 Phase 2.2（新类型：{{type-list}}）}}
+```
+
+- [ ] 写入完成，提交：
+  ```bash
+  git add local/memory/grow_phase2_summary.md
+  bash wiki/scripts/skill_commit.sh "docs: GROW Phase 2 总结报告完成"
+  ```
+
+---
+
+### 2.1-Z-X 验收标准
+
+- [ ] PHQ 日志存在（`logs/phase-quality-check/{date}-phase2-phq.md`），高优先级问题已修复
+- [ ] 所有类型均有 EVV6 均分记录（2-Z-0 完成）
+- [ ] `local/memory/grow_phase2_summary.md` 存在且无 `{{占位符}}`
+- [ ] 所有类型在文件中均标记「已关闭」且有关闭日期
+- [ ] EXIT-GATE 高频问题已分析根因（非简单列举）
+- [ ] 各类型 schema 修订意见已填写（无需修改则明确注明「无」）
+- [ ] 新类型发现已填写（无发现则明确注明「无」）
+- [ ] 高/中优先级 RFC 均已提交或记录到 housekeeping
+- [ ] 下一阶段判断结论明确（进入 Phase 3 / 启动 Phase 2.2）
+- [ ] `local/config/butler.json` 中 `grow_phase` 已按判断结论更新
+
+> **2.1-Z 完成后**：凭总结报告的「下一阶段判断」结论：
+> - 无新类型 → 正式启动 Phase 3，`butler.json` 中 `grow_phase` 更新为 `3`
+> - 发现新类型 → 启动 Phase 2.2，GROW.md 新增 Phase 2.2 章节，`grow_phase` 保持 `2`
+>
+> 每个 Phase 2.N 完成后重复此判断，直到无新类型为止，再进入 Phase 3。
 
 ---
