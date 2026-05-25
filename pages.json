@@ -261,7 +261,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 4
+      "total_refs": 5
     },
     "ch01-up-to-the-starting-line": {
       "type": "chapter",
@@ -655,7 +655,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 0
+      "total_refs": 1
     },
     "大陆轴线": {
       "type": "concept",
@@ -804,7 +804,7 @@
       "blockquote_count": 3,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 0
+      "total_refs": 2
     },
     "帝国": {
       "type": "concept",
@@ -1121,7 +1121,7 @@
       "blockquote_count": 3,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 0
+      "total_refs": 1
     },
     "国家": {
       "type": "concept",
@@ -1146,7 +1146,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 8
+      "total_refs": 9
     },
     "国家的形成": {
       "type": "event",
@@ -1324,6 +1324,30 @@
       "quality_score": 30,
       "total_refs": 20
     },
+    "技术积累": {
+      "type": "concept",
+      "label": "技术积累",
+      "aliases": [
+        "累积性技术进步",
+        "技术演化",
+        "发明的积累性"
+      ],
+      "tags": [
+        "技术",
+        "创新",
+        "历史",
+        "发明"
+      ],
+      "path": "ji/技术积累.md",
+      "description": "技术进步是长期积累的历史过程，而非孤立天才的单次跳跃",
+      "prose_len": 798,
+      "prose_chars": 680,
+      "h2_count": 6,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
     "近端原因与终极原因": {
       "type": "concept",
       "label": "近端原因与终极原因",
@@ -1496,7 +1520,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 57
+      "total_refs": 58
     },
     "轮子": {
       "type": "concept",
@@ -1921,7 +1945,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 1
+      "total_refs": 3
     },
     "欧亚大陆": {
       "type": "place",
@@ -2064,7 +2088,7 @@
       "blockquote_count": 1,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 1
+      "total_refs": 2
     },
     "人口密度": {
       "type": "concept",
@@ -2089,6 +2113,30 @@
       "quality": "standard",
       "quality_score": 31,
       "total_refs": 7
+    },
+    "人口扩张": {
+      "type": "concept",
+      "label": "人口扩张",
+      "aliases": [
+        "农民扩张",
+        "人口置换",
+        "人口压力扩张"
+      ],
+      "tags": [
+        "人口",
+        "农业",
+        "民族迁移",
+        "狩猎采集"
+      ],
+      "path": "re/人口扩张.md",
+      "description": "粮食生产群体凭借人口数量优势取代狩猎采集族群的历史模式",
+      "prose_len": 793,
+      "prose_chars": 681,
+      "h2_count": 6,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 1
     },
     "人口规模": {
       "type": "concept",
@@ -2263,7 +2311,32 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 7
+      "total_refs": 8
+    },
+    "生态适应": {
+      "type": "concept",
+      "label": "生态适应",
+      "aliases": [
+        "环境适应",
+        "生态位适应",
+        "气候适应"
+      ],
+      "tags": [
+        "生态",
+        "进化",
+        "驯化",
+        "气候",
+        "地理"
+      ],
+      "path": "sh/生态适应.md",
+      "description": "生物体（包括人类及其驯化的动植物）对特定环境条件的遗传与行为性调整",
+      "prose_len": 991,
+      "prose_chars": 847,
+      "h2_count": 7,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 1
     },
     "社会复杂性": {
       "type": "concept",
@@ -2562,7 +2635,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 30
+      "total_refs": 31
     },
     "亚历山大大帝": {
       "type": "person",
@@ -2613,7 +2686,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 4
+      "total_refs": 5
     },
     "耶利": {
       "type": "person",
@@ -2662,7 +2735,7 @@
       "blockquote_count": 3,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 0
+      "total_refs": 1
     },
     "玉米": {
       "type": "species",
@@ -2716,6 +2789,29 @@
       "quality_score": 31,
       "total_refs": 3
     },
+    "专业化分工": {
+      "type": "concept",
+      "label": "专业化分工",
+      "aliases": [
+        "经济专业化",
+        "分工",
+        "专业手艺人"
+      ],
+      "tags": [
+        "社会组织",
+        "粮食生产",
+        "波利尼西亚"
+      ],
+      "path": "zh/专业化分工.md",
+      "description": "粮食剩余驱动的社会分工现象——人口密度越高，技术组织越复杂，专业化程度越深",
+      "prose_len": 875,
+      "prose_chars": 771,
+      "h2_count": 6,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "中国": {
       "type": "place",
       "label": "中国",
@@ -2739,7 +2835,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 3
+      "total_refs": 4
     },
     "中国农业起源": {
       "type": "event",
@@ -2818,6 +2914,30 @@
       "quality_score": 32,
       "total_refs": 3
     },
+    "政治竞争": {
+      "type": "concept",
+      "label": "政治竞争",
+      "aliases": [
+        "政治分裂",
+        "竞争性国家体系",
+        "分裂促竞争"
+      ],
+      "tags": [
+        "政治组织",
+        "技术创新",
+        "欧洲",
+        "中国"
+      ],
+      "path": "zh/政治竞争.md",
+      "description": "分裂的政治格局通过竞争压力促进技术采纳与创新，统一则可能导致停滞",
+      "prose_len": 859,
+      "prose_chars": 749,
+      "h2_count": 6,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
     "政治组织": {
       "type": "concept",
       "label": "政治组织",
@@ -2867,7 +2987,7 @@
       "blockquote_count": 1,
       "quality": "standard",
       "quality_score": 32,
-      "total_refs": 1
+      "total_refs": 2
     },
     "猪": {
       "type": "species",
@@ -3142,6 +3262,10 @@
     "技术扩散": "技术传播",
     "技术交流": "技术传播",
     "technology diffusion": "技术传播",
+    "技术积累": "技术积累",
+    "累积性技术进步": "技术积累",
+    "技术演化": "技术积累",
+    "发明的积累性": "技术积累",
     "近端原因与终极原因": "近端原因与终极原因",
     "直接原因与终极原因": "近端原因与终极原因",
     "proximate cause": "近端原因与终极原因",
@@ -3262,6 +3386,10 @@
     "人口密度": "人口密度",
     "人口压力": "人口密度",
     "population density": "人口密度",
+    "人口扩张": "人口扩张",
+    "农民扩张": "人口扩张",
+    "人口置换": "人口扩张",
+    "人口压力扩张": "人口扩张",
     "人口规模": "人口规模",
     "population size": "人口规模",
     "人口数量": "人口规模",
@@ -3289,6 +3417,10 @@
     "狩猎采集者": "狩猎采集",
     "采集狩猎": "狩猎采集",
     "hunter-gatherer": "狩猎采集",
+    "生态适应": "生态适应",
+    "环境适应": "生态适应",
+    "生态位适应": "生态适应",
+    "气候适应": "生态适应",
     "社会复杂性": "社会复杂性",
     "政治复杂性": "社会复杂性",
     "社会层级": "社会复杂性",
@@ -3361,6 +3493,10 @@
     "语系扩散": "语言传播",
     "语言扩张": "语言传播",
     "language spread": "语言传播",
+    "专业化分工": "专业化分工",
+    "经济专业化": "专业化分工",
+    "分工": "专业化分工",
+    "专业手艺人": "专业化分工",
     "中国": "中国",
     "China": "中国",
     "华夏": "中国",
@@ -3376,6 +3512,10 @@
     "征服战争": "战争",
     "武装冲突": "战争",
     "warfare": "战争",
+    "政治竞争": "政治竞争",
+    "政治分裂": "政治竞争",
+    "竞争性国家体系": "政治竞争",
+    "分裂促竞争": "政治竞争",
     "政治组织": "政治组织",
     "政治结构": "政治组织",
     "political organization": "政治组织",
@@ -3405,6 +3545,6 @@
     "意识形态": "宗教",
     "神权": "宗教"
   },
-  "page_count": 125,
-  "generated": "2026-05-25T12:41:31Z"
+  "page_count": 130,
+  "generated": "2026-05-25T12:51:10Z"
 }
