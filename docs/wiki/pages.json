@@ -210,7 +210,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 34
+      "total_refs": 35
     },
     "伯克和威尔斯": {
       "type": "person",
@@ -629,7 +629,7 @@
       "blockquote_count": 1,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 3
+      "total_refs": 4
     },
     "城市": {
       "type": "concept",
@@ -680,7 +680,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 34
+      "total_refs": 35
     },
     "大麦": {
       "type": "species",
@@ -778,7 +778,33 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 7
+      "total_refs": 9
+    },
+    "地理因素": {
+      "type": "concept",
+      "label": "地理因素",
+      "aliases": [
+        "geography",
+        "地理条件",
+        "地理环境",
+        "环境决定论"
+      ],
+      "tags": [
+        "地理决定论",
+        "近端原因与终极原因",
+        "大陆轴线"
+      ],
+      "path": "di/地理因素.md",
+      "description": "在《枪炮、病菌与钢铁》中，地理因素是解释文明发展差距的终极原因——不同大陆的地理条件决定了哪些地区能最早发展农业、积累驯化物种和技术，进而决定了文明的相对优势。",
+      "prose_len": 1059,
+      "prose_chars": 807,
+      "h2_count": 5,
+      "pn_count": 4,
+      "wikilink_count": 5,
+      "blockquote_count": 3,
+      "quality": "standard",
+      "quality_score": 30,
+      "total_refs": 0
     },
     "帝国": {
       "type": "concept",
@@ -872,7 +898,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 33,
-      "total_refs": 6
+      "total_refs": 7
     },
     "非洲": {
       "type": "place",
@@ -1120,7 +1146,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 7
+      "total_refs": 8
     },
     "国家的形成": {
       "type": "event",
@@ -1296,7 +1322,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 18
+      "total_refs": 20
     },
     "近端原因与终极原因": {
       "type": "concept",
@@ -1321,7 +1347,33 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 30
+      "total_refs": 32
+    },
+    "军事征服": {
+      "type": "concept",
+      "label": "军事征服",
+      "aliases": [
+        "military conquest",
+        "武装征服",
+        "军事扩张",
+        "征服"
+      ],
+      "tags": [
+        "战争",
+        "技术传播",
+        "殖民主义"
+      ],
+      "path": "ju/军事征服.md",
+      "description": "在《枪炮、病菌与钢铁》中，军事征服是欧洲扩张的直接机制，但戴蒙德指出真正决定征服成败的往往不是将帅才能，而是病菌、技术、组织和文字等系统性优势。",
+      "prose_len": 1016,
+      "prose_chars": 790,
+      "h2_count": 5,
+      "pn_count": 6,
+      "wikilink_count": 5,
+      "blockquote_count": 2,
+      "quality": "standard",
+      "quality_score": 30,
+      "total_refs": 9
     },
     "卡哈马卡": {
       "type": "place",
@@ -1444,7 +1496,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 54
+      "total_refs": 57
     },
     "轮子": {
       "type": "concept",
@@ -1986,7 +2038,7 @@
       "blockquote_count": 1,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 5
+      "total_refs": 6
     },
     "气候": {
       "type": "concept",
@@ -2012,7 +2064,7 @@
       "blockquote_count": 1,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 0
+      "total_refs": 1
     },
     "人口密度": {
       "type": "concept",
@@ -2037,6 +2089,32 @@
       "quality": "standard",
       "quality_score": 31,
       "total_refs": 7
+    },
+    "人口规模": {
+      "type": "concept",
+      "label": "人口规模",
+      "aliases": [
+        "population size",
+        "人口密度",
+        "人口数量",
+        "人口"
+      ],
+      "tags": [
+        "社会复杂性",
+        "技术传播",
+        "粮食生产"
+      ],
+      "path": "re/人口规模.md",
+      "description": "在《枪炮、病菌与钢铁》中，人口规模是预测社会复杂程度的最有力单一指标——人口越多，技术和组织越复杂，专业化越高；人口规模还决定了传染病能否演化为流行病，以及技术创新能否在足够大的网络中得到保存和积累。",
+      "prose_len": 951,
+      "prose_chars": 767,
+      "h2_count": 5,
+      "pn_count": 4,
+      "wikilink_count": 5,
+      "blockquote_count": 2,
+      "quality": "standard",
+      "quality_score": 29,
+      "total_refs": 0
     },
     "人类首次定居澳大利亚": {
       "type": "event",
@@ -2134,7 +2212,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 14
+      "total_refs": 15
     },
     "水稻": {
       "type": "species",
@@ -2210,7 +2288,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 21
+      "total_refs": 23
     },
     "陶器": {
       "type": "concept",
@@ -2535,7 +2613,7 @@
       "blockquote_count": 2,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 3
+      "total_refs": 4
     },
     "耶利": {
       "type": "person",
@@ -2558,6 +2636,32 @@
       "quality": "standard",
       "quality_score": 26,
       "affiliation": "新几内亚",
+      "total_refs": 0
+    },
+    "印刷术": {
+      "type": "concept",
+      "label": "印刷术",
+      "aliases": [
+        "printing",
+        "活字印刷",
+        "印刷机",
+        "谷登堡"
+      ],
+      "tags": [
+        "技术传播",
+        "书写系统",
+        "发明"
+      ],
+      "path": "yi/印刷术.md",
+      "description": "在《枪炮、病菌与钢铁》中，印刷术是知识积累和传播速度的倍增器，也是技术发明如何依赖前序技术积累的经典案例——谷登堡的金属活字印刷需要以2000年的冶金技术为基础。",
+      "prose_len": 1055,
+      "prose_chars": 750,
+      "h2_count": 5,
+      "pn_count": 6,
+      "wikilink_count": 5,
+      "blockquote_count": 3,
+      "quality": "standard",
+      "quality_score": 30,
       "total_refs": 0
     },
     "玉米": {
@@ -2712,7 +2816,7 @@
       "blockquote_count": 1,
       "quality": "standard",
       "quality_score": 32,
-      "total_refs": 2
+      "total_refs": 3
     },
     "政治组织": {
       "type": "concept",
@@ -2737,7 +2841,7 @@
       "blockquote_count": 1,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 4
+      "total_refs": 5
     },
     "殖民主义": {
       "type": "concept",
@@ -2763,7 +2867,7 @@
       "blockquote_count": 1,
       "quality": "standard",
       "quality_score": 32,
-      "total_refs": 0
+      "total_refs": 1
     },
     "猪": {
       "type": "species",
@@ -2790,6 +2894,31 @@
       "quality": "standard",
       "quality_score": 28,
       "total_refs": 1
+    },
+    "种族主义": {
+      "type": "concept",
+      "label": "种族主义",
+      "aliases": [
+        "racism",
+        "种族决定论",
+        "种族优越论",
+        "智力差异"
+      ],
+      "tags": [
+        "地理决定论",
+        "近端原因与终极原因"
+      ],
+      "path": "zh/种族主义.md",
+      "description": "《枪炮、病菌与钢铁》的核心任务之一，是用地理和生态因素替代种族决定论来解释文明差距——戴蒙德明确批判\"欧亚大陆人在创造性和智力方面高出一筹\"这一流行偏见，并以新几内亚人的认知能力为反证。",
+      "prose_len": 977,
+      "prose_chars": 842,
+      "h2_count": 5,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 1,
+      "quality": "standard",
+      "quality_score": 29,
+      "total_refs": 0
     },
     "字母文字的传播": {
       "type": "event",
@@ -2931,6 +3060,10 @@
     "地理决定论": "地理决定论",
     "环境决定论": "地理决定论",
     "geographic determinism": "地理决定论",
+    "地理因素": "地理因素",
+    "geography": "地理因素",
+    "地理条件": "地理因素",
+    "地理环境": "地理因素",
     "帝国": "帝国",
     "帝国扩张": "帝国",
     "empire": "帝国",
@@ -3013,6 +3146,11 @@
     "直接原因与终极原因": "近端原因与终极原因",
     "proximate cause": "近端原因与终极原因",
     "ultimate cause": "近端原因与终极原因",
+    "军事征服": "军事征服",
+    "military conquest": "军事征服",
+    "武装征服": "军事征服",
+    "军事扩张": "军事征服",
+    "征服": "军事征服",
     "卡哈马卡": "卡哈马卡",
     "Cajamarca": "卡哈马卡",
     "卡哈马卡战役": "卡哈马卡",
@@ -3124,6 +3262,10 @@
     "人口密度": "人口密度",
     "人口压力": "人口密度",
     "population density": "人口密度",
+    "人口规模": "人口规模",
+    "population size": "人口规模",
+    "人口数量": "人口规模",
+    "人口": "人口规模",
     "人类首次定居澳大利亚": "人类首次定居澳大利亚",
     "First Human Settlement of Australia": "人类首次定居澳大利亚",
     "澳大利亚最早定居": "人类首次定居澳大利亚",
@@ -3205,6 +3347,10 @@
     "青铜冶炼": "冶金",
     "耶利": "耶利",
     "Yali": "耶利",
+    "印刷术": "印刷术",
+    "printing": "印刷术",
+    "活字印刷": "印刷术",
+    "印刷机": "印刷术",
     "玉米": "玉米",
     "玉蜀黍": "玉米",
     "墨西哥类蜀黍": "玉米",
@@ -3244,6 +3390,11 @@
     "野猪": "猪",
     "pig": "猪",
     "Sus scrofa domesticus": "猪",
+    "种族主义": "种族主义",
+    "racism": "种族主义",
+    "种族决定论": "种族主义",
+    "种族优越论": "种族主义",
+    "智力差异": "种族主义",
     "字母文字的传播": "字母文字的传播",
     "Spread of Alphabetic Writing": "字母文字的传播",
     "字母传播": "字母文字的传播",
@@ -3254,6 +3405,6 @@
     "意识形态": "宗教",
     "神权": "宗教"
   },
-  "page_count": 120,
-  "generated": "2026-05-25T11:13:00Z"
+  "page_count": 125,
+  "generated": "2026-05-25T12:41:31Z"
 }
