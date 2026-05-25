@@ -4,8 +4,8 @@ type: overview
 label: 关于本 Wiki
 aliases: [关于, About]
 description: 枪炮、病菌与钢铁 Wiki——围绕贾雷德·戴蒙德著作构建的知识库
+quality: basic
 ---
-
 # 关于本 Wiki
 
 ## 语料来源

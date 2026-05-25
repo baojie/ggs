@@ -564,3 +564,8 @@
 {"page": "亲属关系", "label": "亲属关系", "rev_id": "xsmTag", "timestamp": "2026-05-25T13:33:04+00:00", "author": "grow", "summary": "GROW 2-R59: 新建 亲属关系，standard 档", "size_before": 0, "size": 2476, "diff_add": 32, "diff_del": 0}
 {"page": "集中", "label": "集中", "rev_id": "98C53r", "timestamp": "2026-05-25T13:35:16+00:00", "author": "grow", "summary": "GROW 2-R59: 新建 集中，standard 档", "size_before": 0, "size": 2330, "diff_add": 40, "diff_del": 0}
 {"page": "分裂", "label": "分裂", "rev_id": "G43hxG", "timestamp": "2026-05-25T13:36:08+00:00", "author": "grow", "summary": "GROW 2-R59: 新建 分裂，standard 档", "size_before": 0, "size": 2414, "diff_add": 38, "diff_del": 0}
+{"page": "旧大陆", "label": "旧大陆", "rev_id": "JeBlN3", "timestamp": "2026-05-25T13:43:06+00:00", "author": "grow", "summary": "GROW 2-R60: 新建 旧大陆，standard 档", "size_before": 0, "size": 2024, "diff_add": 34, "diff_del": 0}
+{"page": "抵抗", "label": "抵抗", "rev_id": "hGZkza", "timestamp": "2026-05-25T13:43:36+00:00", "author": "grow", "summary": "GROW 2-R60: 新建 抵抗，standard 档", "size_before": 0, "size": 2046, "diff_add": 38, "diff_del": 0}
+{"page": "石器时代", "label": "石器时代", "rev_id": "WJMcB4", "timestamp": "2026-05-25T13:44:10+00:00", "author": "grow", "summary": "GROW 2-R60: 新建 石器时代，standard 档", "size_before": 0, "size": 2414, "diff_add": 40, "diff_del": 0}
+{"page": "阶级", "label": "阶级", "rev_id": "1WyMWh", "timestamp": "2026-05-25T13:44:46+00:00", "author": "grow", "summary": "GROW 2-R60: 新建 阶级，standard 档", "size_before": 0, "size": 2232, "diff_add": 38, "diff_del": 0}
+{"page": "热带地区", "label": "热带地区", "rev_id": "KRfj2P", "timestamp": "2026-05-25T13:45:45+00:00", "author": "grow", "summary": "GROW 2-R60: 新建 热带地区，standard 档", "size_before": 0, "size": 2491, "diff_add": 38, "diff_del": 0}
