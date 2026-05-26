@@ -465,7 +465,7 @@
 - [x] P1 create | 非洲象 | species | SCN28 发现，多章（ch09/ch19），非洲象，被驯服但从未被驯化的大型哺乳动物，汉尼拔率领翻越阿尔卑斯山的战象
 - [x] P1 create | 单峰骆驼 | species | SCN28 发现，多章（ch04/ch09），阿拉伯单峰骆驼，沙漠地区驯化的重要大型哺乳动物，次要9种之一
 - [x] P1 create | 双峰骆驼 | species | SCN28 发现，多章（ch04/ch09），中亚双峰骆驼，驯化的大型哺乳动物，次要9种之一
-- [ ] P1 create | 野马 | species | SCN28 发现，多章（ch01/ch09），普尔热瓦尔斯基马，最后幸存的真正野马，马的野生祖先近亲
+- [x] P1 create | 野马 | species | SCN28 发现，多章（ch01/ch09），普尔热瓦尔斯基马，最后幸存的真正野马，马的野生祖先近亲
 - [x] P1 create | 阿尔卑斯山 | place | SCN28 发现，多章（ch09/ch15/ch20），欧洲最大山脉，汉尼拔率战象翻越的历史地理场景
 
 ### P2 stub（单章重要实体）
@@ -483,10 +483,10 @@
 
 ### P1 create（多章出现）
 
-- [ ] P1 create | 痢疾 | disease | SCN28 发现，多章（ch11/ch15），痢疾（dysentery），肠道传染病，在人口密集和卫生条件差的环境中流行，殖民扩张中的重要疾病
-- [ ] P1 create | 百日咳 | disease | SCN28 发现，多章（ch11/ch15），百日咳（whooping cough），通过飞沫传播的细菌性呼吸道传染病，在密集人群中暴发
+- [x] P1 create | 痢疾 | disease | SCN28 发现，多章（ch11/ch15），痢疾（dysentery），肠道传染病，在人口密集和卫生条件差的环境中流行，殖民扩张中的重要疾病
+- [x] P1 create | 百日咳 | disease | SCN28 发现，多章（ch11/ch15），百日咳（whooping cough），通过飞沫传播的细菌性呼吸道传染病，在密集人群中暴发
 - [x] P1 create | 亚马孙 | place | SCN28 发现，多章（ch01/ch05/ch07/ch08/ch11/ch13/ch14/ch18），南美洲最大的热带雨林和河流流域，疾病环境阻碍了欧洲殖民者深入
-- [ ] P1 create | 奴隶贸易 | event | SCN28 发现，多章（ch11/ch19），从非洲向美洲强制运送黑奴的跨大西洋贸易，传染病和殖民体系的重要组成部分
+- [x] P1 create | 奴隶贸易 | event | SCN28 发现，多章（ch11/ch19），从非洲向美洲强制运送黑奴的跨大西洋贸易，传染病和殖民体系的重要组成部分
 
 ### P2 stub（单章重要实体）
 
@@ -499,7 +499,7 @@
 
 ### P1 create（多章出现）
 
-- [ ] P1 create | 蒸汽机 | concept | SCN28 发现，多章（ch13/ch15），蒸汽机（steam engine），工业革命的核心动力技术，改变了交通运输和生产方式
+- [x] P1 create | 蒸汽机 | concept | SCN28 发现，多章（ch13/ch15），蒸汽机（steam engine），工业革命的核心动力技术，改变了交通运输和生产方式
 - [ ] P1 create | 铁路 | concept | SCN28 发现，多章（ch04/ch11/ch13/ch15/ch20），铁路（railway），19世纪最重要的陆上运输技术，推动殖民扩张和工业化
 - [ ] P1 create | 运河 | concept | SCN28 发现，多章（ch11/ch13/ch16/ch18/ch20），运河（canal），内陆水路运输的关键基础设施，在早期工业化中发挥重要作用
 - [ ] P1 create | 专利 | concept | SCN28 发现，多章（ch13/ch20），专利（patent），保护发明者权益的制度，戴蒙德用以讨论创新激励与技术发展
