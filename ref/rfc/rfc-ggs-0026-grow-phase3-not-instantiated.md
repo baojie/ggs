@@ -1,8 +1,9 @@
 # RFC-ggs-0026: `/grow phase N` / `/boot phase N` 跳过了 `/comply N` 前置质检
 
-- **Status**: proposed
+- **Status**: accepted
 - **Date**: 2026-05-25
 - **Source wiki**: ggs
+- **Issue**: https://github.com/baojie/memex/issues/204
 
 ---
 
@@ -57,9 +58,21 @@ Phase 2 之所以有实例化记录，是因为显式执行了 `/grow init phase
 **Review**: faithful
 **Date**: 2026-05-25
 
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-27
+
+**调整说明**：
+- `init phaseN` 入口不加门控（其职责是创建实例，实例化前无法通过实例化检查，质检在 init 之后执行）
+- GROW.spec.md 流程图未更新（spec 文件在 `$MEMEX_ROOT` 只读目录中，不直接修改）
+
 **检查清单**：
 
-- [ ] 在 `/grow` skill 的 `phase N` 和 `init phaseN` 入口加入门控 1（实例化检查）和门控 2（comply 质检检查）
-- [ ] 在 `/boot` skill 的 `phase N` 和 `init phaseN` 入口加入同样的门控
-- [ ] 定义 comply 质检通过的记录方式（frontmatter field / 独立日志文件 / state 字段）
-- [ ] 更新 GROW.spec.md 和 boot spec 的执行流程图，标明 `/comply` 门控位置
+- [x] 在 `/grow` skill 的 `phase N` 入口加入门控 1（实例化检查）+ 门控 2（comply 质检检查）
+- [x] 在 `/boot` skill 的 `phase N` 入口（`phaseN` 模式）加入同样的双门控
+- [x] 定义 comply 质检通过的记录方式：Phase 节中标注 `> **comply**: pass`
+- [ ] ~~更新 GROW.spec.md 和 boot spec 的执行流程图~~（$MEMEX_ROOT 只读，跳过）
+
+**Commits**:
+- 0481795: feat(gates): GROW/Boot phaseN 入口加入实例化+comply 质检双门控
