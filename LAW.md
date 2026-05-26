@@ -51,6 +51,23 @@
 
 ---
 
+## 四-A、页面 slug 命名规范
+
+本 wiki 的 `WIKI_LANG = zh`，所有页面 slug（文件名、`id` 字段）**必须使用汉字**。
+
+| 规则 | 说明 |
+|------|------|
+| ✅ 汉字 slug | `粮食生产`、`新月沃地`、`贾雷德·戴蒙德` |
+| ❌ 拼音 slug | `liangshi-shengchan`、`xinyuewodi`、`aodaliya` — 禁止 |
+| ❌ 英文 slug | `food-production`、`fertile-crescent` — 禁止 |
+| ❌ 拼音首字母 | `lssc`、`xywkd` — 禁止 |
+
+**例外**：`overview` 类型的特殊页面（`目录`、`About` 等系统页）由 memex 框架定义，不受此约束。
+
+**理由**：汉字 slug 与 wikilink `[[词条名]]` 直接对应，避免拼音/汉字双轨并存导致的 alias 冲突和重复词条问题。本次 GROW Phase 2 清理中共删除 35 个因此产生的重复页面。
+
+---
+
 ## 五、corpus 只读声明
 
 任何 skill、脚本、Claude 操作，均**禁止修改** `corpus/` 目录下的任何文件。
