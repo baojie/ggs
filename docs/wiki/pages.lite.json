@@ -44,6 +44,15 @@
       ],
       "path": "ai/爱迪生.md"
     },
+    "阿基米德": {
+      "type": "person",
+      "label": "阿基米德",
+      "aliases": [
+        "Archimedes",
+        "阿基米德·叙拉古"
+      ],
+      "path": "aj/阿基米德.md"
+    },
     "alabobandao": {
       "type": "place",
       "label": "阿拉伯半岛",
@@ -1137,6 +1146,15 @@
         "Philippines"
       ],
       "path": "fe/菲律宾.md"
+    },
+    "菲斯托斯圆盘": {
+      "type": "concept",
+      "label": "菲斯托斯圆盘",
+      "aliases": [
+        "Phaistos Disc",
+        "菲斯托斯盘"
+      ],
+      "path": "fe/菲斯托斯圆盘.md"
     },
     "非洲": {
       "type": "place",
@@ -2552,6 +2570,16 @@
       ],
       "path": "mi/密克罗尼西亚.md"
     },
+    "弥诺斯文明": {
+      "type": "event",
+      "label": "弥诺斯文明",
+      "aliases": [
+        "Minoan civilization",
+        "米诺斯文明",
+        "克里特文明"
+      ],
+      "path": "mi/弥诺斯文明.md"
+    },
     "棉花": {
       "type": "concept",
       "label": "棉花",
@@ -3412,6 +3440,15 @@
       ],
       "path": "sh/水牛.md"
     },
+    "水磨": {
+      "type": "concept",
+      "label": "水磨",
+      "aliases": [
+        "water mill",
+        "水力磨坊"
+      ],
+      "path": "sh/水磨.md"
+    },
     "水稻": {
       "type": "species",
       "label": "水稻",
@@ -3599,6 +3636,15 @@
         "台湾岛"
       ],
       "path": "ta/台湾.md"
+    },
+    "塔斯马尼亚": {
+      "type": "place",
+      "label": "塔斯马尼亚",
+      "aliases": [
+        "Tasmania",
+        "塔斯马尼亚岛"
+      ],
+      "path": "ta/塔斯马尼亚.md"
     },
     "探险": {
       "type": "concept",
@@ -4930,6 +4976,9 @@
     "爱迪生": "爱迪生",
     "托马斯·爱迪生": "爱迪生",
     "Thomas Edison": "爱迪生",
+    "阿基米德": "阿基米德",
+    "Archimedes": "阿基米德",
+    "阿基米德·叙拉古": "阿基米德",
     "alabobandao": "alabobandao",
     "阿拉伯半岛": "alabobandao",
     "Arabian Peninsula": "alabobandao",
@@ -5306,6 +5355,9 @@
     "腓尼基人": "腓尼基人",
     "Phoenicians": "腓尼基人",
     "腓尼基": "腓尼基人",
+    "菲斯托斯圆盘": "菲斯托斯圆盘",
+    "Phaistos Disc": "菲斯托斯圆盘",
+    "菲斯托斯盘": "菲斯托斯圆盘",
     "非洲": "非洲",
     "Africa": "非洲",
     "撒哈拉以南非洲": "非洲",
@@ -5817,6 +5869,10 @@
     "Micronesia": "mikelunixiya",
     "milu": "milu",
     "病菌免疫": "免疫力",
+    "弥诺斯文明": "弥诺斯文明",
+    "Minoan civilization": "弥诺斯文明",
+    "米诺斯文明": "弥诺斯文明",
+    "克里特文明": "弥诺斯文明",
     "棉花": "棉花",
     "棉": "棉花",
     "棉纤维": "棉花",
@@ -6099,6 +6155,9 @@
     "水牛": "水牛",
     "water buffalo": "水牛",
     "亚洲水牛": "水牛",
+    "水磨": "水磨",
+    "water mill": "水磨",
+    "水力磨坊": "水磨",
     "水稻": "水稻",
     "稻米": "水稻",
     "大米": "水稻",
@@ -6162,6 +6221,9 @@
     "Tonga": "tang-jia",
     "汤加群岛": "tang-jia",
     "台湾岛": "台湾",
+    "塔斯马尼亚": "塔斯马尼亚",
+    "Tasmania": "塔斯马尼亚",
+    "塔斯马尼亚岛": "塔斯马尼亚",
     "探险": "探险",
     "exploration": "探险",
     "地理探险": "探险",
@@ -6615,6 +6677,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 538,
-  "generated": "2026-05-26T12:42:09Z"
+  "page_count": 543,
+  "generated": "2026-05-26T12:45:32Z"
 }

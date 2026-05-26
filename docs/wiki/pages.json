@@ -112,7 +112,29 @@
       "quality": "featured",
       "quality_score": 60,
       "affiliation": "美国",
-      "total_refs": 2
+      "total_refs": 3
+    },
+    "阿基米德": {
+      "type": "person",
+      "label": "阿基米德",
+      "aliases": [
+        "Archimedes",
+        "阿基米德·叙拉古"
+      ],
+      "tags": [
+        "人物",
+        "科学",
+        "发明"
+      ],
+      "path": "aj/阿基米德.md",
+      "description": "古希腊数学家、物理学家和发明家，被戴蒙德引证为\"稀有天才\"的典型代表",
+      "prose_len": 348,
+      "prose_chars": 333,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "alabobandao": {
       "type": "place",
@@ -328,7 +350,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 12
+      "total_refs": 13
     },
     "阿塔瓦尔帕": {
       "type": "person",
@@ -3007,6 +3029,29 @@
       "quality_score": 9,
       "total_refs": 2
     },
+    "菲斯托斯圆盘": {
+      "type": "concept",
+      "label": "菲斯托斯圆盘",
+      "aliases": [
+        "Phaistos Disc",
+        "菲斯托斯盘"
+      ],
+      "tags": [
+        "技术",
+        "发明",
+        "文字",
+        "考古"
+      ],
+      "path": "fe/菲斯托斯圆盘.md",
+      "description": "公元前1700年在克里特岛制造的黏土圆盘，用印章在黏土上压印文字，被认为是世界上最早的印刷文件",
+      "prose_len": 497,
+      "prose_chars": 467,
+      "h2_count": 2,
+      "pn_count": 2,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
     "非洲": {
       "type": "place",
       "label": "非洲",
@@ -3714,7 +3759,7 @@
       "quality": "featured",
       "quality_score": 59,
       "affiliation": "神圣罗马帝国",
-      "total_refs": 5
+      "total_refs": 6
     },
     "hanniba": {
       "type": "person",
@@ -4509,7 +4554,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 34
+      "total_refs": 35
     },
     "技术积累": {
       "type": "concept",
@@ -4533,7 +4578,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 9
+      "total_refs": 11
     },
     "旧大陆": {
       "type": "concept",
@@ -5198,7 +5243,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 0
+      "total_refs": 2
     },
     "克里特": {
       "type": "place",
@@ -5222,7 +5267,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 0
+      "total_refs": 1
     },
     "科学": {
       "type": "concept",
@@ -6672,6 +6717,29 @@
       "quality_score": 9,
       "total_refs": 3
     },
+    "弥诺斯文明": {
+      "type": "event",
+      "label": "弥诺斯文明",
+      "aliases": [
+        "Minoan civilization",
+        "米诺斯文明",
+        "克里特文明"
+      ],
+      "tags": [
+        "文明",
+        "欧洲",
+        "考古"
+      ],
+      "path": "mi/弥诺斯文明.md",
+      "description": "存在于克里特岛的青铜时代文明，以线形文字A和克诺索斯宫殿闻名，是欧洲最早的文明之一",
+      "prose_len": 379,
+      "prose_chars": 363,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
     "棉花": {
       "type": "concept",
       "label": "棉花",
@@ -7571,7 +7639,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 4
+      "total_refs": 5
     },
     "欧洲殖民非洲": {
       "type": "event",
@@ -8939,6 +9007,28 @@
       "quality_score": 8,
       "total_refs": 0
     },
+    "水磨": {
+      "type": "concept",
+      "label": "水磨",
+      "aliases": [
+        "water mill",
+        "水力磨坊"
+      ],
+      "tags": [
+        "技术",
+        "发明",
+        "能源"
+      ],
+      "path": "sh/水磨.md",
+      "description": "利用水力驱动的碾磨装置，戴蒙德以其说明技术发明的环境资源决定因素",
+      "prose_len": 349,
+      "prose_chars": 334,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "水稻": {
       "type": "species",
       "label": "水稻",
@@ -9426,6 +9516,28 @@
       "quality_score": 9,
       "total_refs": 9
     },
+    "塔斯马尼亚": {
+      "type": "place",
+      "label": "塔斯马尼亚",
+      "aliases": [
+        "Tasmania",
+        "塔斯马尼亚岛"
+      ],
+      "tags": [
+        "地理",
+        "大洋洲",
+        "岛屿"
+      ],
+      "path": "ta/塔斯马尼亚.md",
+      "description": "澳大利亚南部的岛屿，在戴蒙德的论述中是技术倒退和孤立的典型案例",
+      "prose_len": 341,
+      "prose_chars": 326,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "探险": {
       "type": "concept",
       "label": "探险",
@@ -9792,7 +9904,7 @@
       "quality": "featured",
       "quality_score": 57,
       "affiliation": "英国",
-      "total_refs": 2
+      "total_refs": 3
     },
     "豌豆": {
       "type": "species",
@@ -10595,7 +10707,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 16
+      "total_refs": 17
     },
     "新月沃地": {
       "type": "concept",
@@ -11354,7 +11466,7 @@
       "blockquote_count": 3,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 1
+      "total_refs": 2
     },
     "印加帝国": {
       "type": "concept",
@@ -12862,6 +12974,9 @@
     "爱迪生": "爱迪生",
     "托马斯·爱迪生": "爱迪生",
     "Thomas Edison": "爱迪生",
+    "阿基米德": "阿基米德",
+    "Archimedes": "阿基米德",
+    "阿基米德·叙拉古": "阿基米德",
     "alabobandao": "alabobandao",
     "阿拉伯半岛": "alabobandao",
     "Arabian Peninsula": "alabobandao",
@@ -13238,6 +13353,9 @@
     "腓尼基人": "腓尼基人",
     "Phoenicians": "腓尼基人",
     "腓尼基": "腓尼基人",
+    "菲斯托斯圆盘": "菲斯托斯圆盘",
+    "Phaistos Disc": "菲斯托斯圆盘",
+    "菲斯托斯盘": "菲斯托斯圆盘",
     "非洲": "非洲",
     "Africa": "非洲",
     "撒哈拉以南非洲": "非洲",
@@ -13749,6 +13867,10 @@
     "Micronesia": "mikelunixiya",
     "milu": "milu",
     "病菌免疫": "免疫力",
+    "弥诺斯文明": "弥诺斯文明",
+    "Minoan civilization": "弥诺斯文明",
+    "米诺斯文明": "弥诺斯文明",
+    "克里特文明": "弥诺斯文明",
     "棉花": "棉花",
     "棉": "棉花",
     "棉纤维": "棉花",
@@ -14031,6 +14153,9 @@
     "水牛": "水牛",
     "water buffalo": "水牛",
     "亚洲水牛": "水牛",
+    "水磨": "水磨",
+    "water mill": "水磨",
+    "水力磨坊": "水磨",
     "水稻": "水稻",
     "稻米": "水稻",
     "大米": "水稻",
@@ -14094,6 +14219,9 @@
     "Tonga": "tang-jia",
     "汤加群岛": "tang-jia",
     "台湾岛": "台湾",
+    "塔斯马尼亚": "塔斯马尼亚",
+    "Tasmania": "塔斯马尼亚",
+    "塔斯马尼亚岛": "塔斯马尼亚",
     "探险": "探险",
     "exploration": "探险",
     "地理探险": "探险",
@@ -14547,6 +14675,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 538,
-  "generated": "2026-05-26T12:42:09Z"
+  "page_count": 543,
+  "generated": "2026-05-26T12:45:32Z"
 }
