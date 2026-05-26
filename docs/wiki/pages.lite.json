@@ -19,6 +19,15 @@
       ],
       "path": "ab/About.md"
     },
+    "a-er-bei-si-shan": {
+      "type": "place",
+      "label": "阿尔卑斯山",
+      "aliases": [
+        "Alps",
+        "阿尔卑斯山脉"
+      ],
+      "path": "ae/a-er-bei-si-shan.md"
+    },
     "a-fei-luo-ya-xi-ya-yu-xi": {
       "type": "concept",
       "label": "阿非罗-亚细亚语系",
@@ -1362,6 +1371,15 @@
         "Dioscorea rotundata"
       ],
       "path": "fe/fei-zhou-shu-yu.md"
+    },
+    "fei-zhou-xiang": {
+      "type": "species",
+      "label": "非洲象",
+      "aliases": [
+        "African elephant",
+        "Loxodonta africana"
+      ],
+      "path": "fe/fei-zhou-xiang.md"
     },
     "feilvbin": {
       "type": "place",
@@ -4921,6 +4939,15 @@
       ],
       "path": "xi/xinyuewodi.md"
     },
+    "xiong-nu": {
+      "type": "person",
+      "label": "匈奴",
+      "aliases": [
+        "Xiongnu",
+        "匈奴人"
+      ],
+      "path": "xi/xiong-nu.md"
+    },
     "xizang": {
       "type": "place",
       "label": "西藏",
@@ -5615,6 +5642,15 @@
       ],
       "path": "zh/zheng-he.md"
     },
+    "zheng-zhi-fen-lie": {
+      "type": "concept",
+      "label": "政治分裂",
+      "aliases": [
+        "political fragmentation",
+        "政治割据"
+      ],
+      "path": "zh/zheng-zhi-fen-lie.md"
+    },
     "zhengfu": {
       "type": "concept",
       "label": "征服",
@@ -5677,6 +5713,16 @@
         "周代"
       ],
       "path": "zh/zhou-chao.md"
+    },
+    "zhuan-zhi-jie-ceng": {
+      "type": "concept",
+      "label": "专职阶层",
+      "aliases": [
+        "specialists",
+        "专职人员",
+        "非农业人口"
+      ],
+      "path": "zh/zhuan-zhi-jie-ceng.md"
     },
     "专业化分工": {
       "type": "concept",
@@ -6012,6 +6058,10 @@
     "About": "About",
     "关于本 Wiki": "About",
     "关于": "About",
+    "a-er-bei-si-shan": "a-er-bei-si-shan",
+    "阿尔卑斯山": "a-er-bei-si-shan",
+    "Alps": "a-er-bei-si-shan",
+    "阿尔卑斯山脉": "a-er-bei-si-shan",
     "a-fei-luo-ya-xi-ya-yu-xi": "a-fei-luo-ya-xi-ya-yu-xi",
     "阿非罗-亚细亚语系": "a-fei-luo-ya-xi-ya-yu-xi",
     "Afroasiatic": "a-fei-luo-ya-xi-ya-yu-xi",
@@ -6496,6 +6546,10 @@
     "非洲薯蓣": "fei-zhou-shu-yu",
     "African yam": "fei-zhou-shu-yu",
     "Dioscorea rotundata": "fei-zhou-shu-yu",
+    "fei-zhou-xiang": "fei-zhou-xiang",
+    "非洲象": "fei-zhou-xiang",
+    "African elephant": "fei-zhou-xiang",
+    "Loxodonta africana": "fei-zhou-xiang",
     "feilvbin": "feilvbin",
     "菲律宾": "feilvbin",
     "Philippines": "feilvbin",
@@ -7801,6 +7855,10 @@
     "xinyuewodi": "xinyuewodi",
     "新月沃地（地理）": "xinyuewodi",
     "肥沃月弯": "xinyuewodi",
+    "xiong-nu": "xiong-nu",
+    "匈奴": "xiong-nu",
+    "Xiongnu": "xiong-nu",
+    "匈奴人": "xiong-nu",
     "xizang": "xizang",
     "西藏": "xizang",
     "Tibet": "xizang",
@@ -8042,6 +8100,10 @@
     "Zheng He": "zheng-he",
     "马和": "zheng-he",
     "三宝太监": "zheng-he",
+    "zheng-zhi-fen-lie": "zheng-zhi-fen-lie",
+    "政治分裂": "zheng-zhi-fen-lie",
+    "political fragmentation": "zheng-zhi-fen-lie",
+    "政治割据": "zheng-zhi-fen-lie",
     "zhengfu": "zhengfu",
     "conquest": "zhengfu",
     "zhi-li-ren": "zhi-li-ren",
@@ -8067,6 +8129,11 @@
     "周朝": "zhou-chao",
     "Zhou dynasty": "zhou-chao",
     "周代": "zhou-chao",
+    "zhuan-zhi-jie-ceng": "zhuan-zhi-jie-ceng",
+    "专职阶层": "zhuan-zhi-jie-ceng",
+    "specialists": "zhuan-zhi-jie-ceng",
+    "专职人员": "zhuan-zhi-jie-ceng",
+    "非农业人口": "zhuan-zhi-jie-ceng",
     "专业化分工": "专业化分工",
     "经济专业化": "专业化分工",
     "专业手艺人": "专业化分工",
@@ -8092,7 +8159,6 @@
     "compass": "指南针",
     "罗盘": "指南针",
     "政治竞争": "政治竞争",
-    "政治分裂": "政治竞争",
     "竞争性国家体系": "政治竞争",
     "分裂促竞争": "政治竞争",
     "政治组织": "政治组织",
@@ -8176,6 +8242,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 654,
-  "generated": "2026-05-26T17:26:02Z"
+  "page_count": 659,
+  "generated": "2026-05-26T17:27:08Z"
 }

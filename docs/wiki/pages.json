@@ -45,6 +45,30 @@
       "quality_score": 13,
       "total_refs": 0
     },
+    "a-er-bei-si-shan": {
+      "type": "place",
+      "label": "阿尔卑斯山",
+      "aliases": [
+        "Alps",
+        "阿尔卑斯山脉"
+      ],
+      "tags": [
+        "地点",
+        "欧洲",
+        "地理"
+      ],
+      "path": "ae/a-er-bei-si-shan.md",
+      "description": "欧洲最大山脉，汉尼拔率战象翻越的历史地理场景",
+      "prose_len": 477,
+      "prose_chars": 441,
+      "h2_count": 3,
+      "pn_count": 3,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
+    },
     "a-fei-luo-ya-xi-ya-yu-xi": {
       "type": "concept",
       "label": "阿非罗-亚细亚语系",
@@ -403,7 +427,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 24
+      "total_refs": 25
     },
     "安娜卡列尼娜原则": {
       "type": "concept",
@@ -1500,7 +1524,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 6
+      "total_refs": 7
     },
     "草原": {
       "type": "concept",
@@ -2030,7 +2054,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 11,
-      "total_refs": 0
+      "total_refs": 1
     },
     "chaoxian": {
       "type": "place",
@@ -3256,7 +3280,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 9
+      "total_refs": 10
     },
     "动物": {
       "type": "concept",
@@ -3587,6 +3611,30 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 8,
+      "total_refs": 0
+    },
+    "fei-zhou-xiang": {
+      "type": "species",
+      "label": "非洲象",
+      "aliases": [
+        "African elephant",
+        "Loxodonta africana"
+      ],
+      "tags": [
+        "物种",
+        "动物",
+        "非洲"
+      ],
+      "path": "fe/fei-zhou-xiang.md",
+      "description": "非洲象，被驯服但从未被驯化的大型哺乳动物，汉尼拔率领翻越阿尔卑斯山的战象",
+      "prose_len": 410,
+      "prose_chars": 371,
+      "h2_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
       "total_refs": 0
     },
     "feilvbin": {
@@ -4166,7 +4214,7 @@
       "quality": "featured",
       "quality_score": 58,
       "affiliation": "西班牙王国",
-      "total_refs": 6
+      "total_refs": 7
     },
     "哥伦布航行与两个半球的碰撞": {
       "type": "event",
@@ -4417,7 +4465,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 11,
-      "total_refs": 3
+      "total_refs": 4
     },
     "国家": {
       "type": "concept",
@@ -4613,7 +4661,7 @@
       "quality": "standard",
       "quality_score": 29,
       "affiliation": "迦太基",
-      "total_refs": 0
+      "total_refs": 2
     },
     "汉藏语系": {
       "type": "concept",
@@ -6990,7 +7038,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 108
+      "total_refs": 109
     },
     "lun-na-er-dao": {
       "type": "place",
@@ -7665,7 +7713,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 2
+      "total_refs": 3
     },
     "menggu": {
       "type": "place",
@@ -12858,6 +12906,30 @@
       "quality_score": 60,
       "total_refs": 0
     },
+    "xiong-nu": {
+      "type": "person",
+      "label": "匈奴",
+      "aliases": [
+        "Xiongnu",
+        "匈奴人"
+      ],
+      "tags": [
+        "人物",
+        "游牧",
+        "亚洲"
+      ],
+      "path": "xi/xiong-nu.md",
+      "description": "欧亚草原游牧民族，与中国定居文明的长期冲突，戴蒙德用以说明游牧-农民冲突",
+      "prose_len": 423,
+      "prose_chars": 387,
+      "h2_count": 3,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
+    },
     "xizang": {
       "type": "place",
       "label": "西藏",
@@ -14659,7 +14731,31 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 1
+      "total_refs": 2
+    },
+    "zheng-zhi-fen-lie": {
+      "type": "concept",
+      "label": "政治分裂",
+      "aliases": [
+        "political fragmentation",
+        "政治割据"
+      ],
+      "tags": [
+        "概念",
+        "政治",
+        "欧洲"
+      ],
+      "path": "zh/zheng-zhi-fen-lie.md",
+      "description": "欧洲政治分裂促进创新竞争的机制，戴蒙德用以解释欧洲崛起的关键因素",
+      "prose_len": 420,
+      "prose_chars": 384,
+      "h2_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 2
     },
     "zhengfu": {
       "type": "concept",
@@ -14823,6 +14919,31 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
+      "total_refs": 1
+    },
+    "zhuan-zhi-jie-ceng": {
+      "type": "concept",
+      "label": "专职阶层",
+      "aliases": [
+        "specialists",
+        "专职人员",
+        "非农业人口"
+      ],
+      "tags": [
+        "概念",
+        "社会",
+        "经济"
+      ],
+      "path": "zh/zhuan-zhi-jie-ceng.md",
+      "description": "粮食盈余供养的非农业人口（工匠、官员、祭司、士兵），社会复杂化的标志",
+      "prose_len": 397,
+      "prose_chars": 361,
+      "h2_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
       "total_refs": 1
     },
     "专业化分工": {
@@ -15092,7 +15213,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 3
+      "total_refs": 1
     },
     "政治组织": {
       "type": "concept",
@@ -15671,6 +15792,10 @@
     "About": "About",
     "关于本 Wiki": "About",
     "关于": "About",
+    "a-er-bei-si-shan": "a-er-bei-si-shan",
+    "阿尔卑斯山": "a-er-bei-si-shan",
+    "Alps": "a-er-bei-si-shan",
+    "阿尔卑斯山脉": "a-er-bei-si-shan",
     "a-fei-luo-ya-xi-ya-yu-xi": "a-fei-luo-ya-xi-ya-yu-xi",
     "阿非罗-亚细亚语系": "a-fei-luo-ya-xi-ya-yu-xi",
     "Afroasiatic": "a-fei-luo-ya-xi-ya-yu-xi",
@@ -16155,6 +16280,10 @@
     "非洲薯蓣": "fei-zhou-shu-yu",
     "African yam": "fei-zhou-shu-yu",
     "Dioscorea rotundata": "fei-zhou-shu-yu",
+    "fei-zhou-xiang": "fei-zhou-xiang",
+    "非洲象": "fei-zhou-xiang",
+    "African elephant": "fei-zhou-xiang",
+    "Loxodonta africana": "fei-zhou-xiang",
     "feilvbin": "feilvbin",
     "菲律宾": "feilvbin",
     "Philippines": "feilvbin",
@@ -17460,6 +17589,10 @@
     "xinyuewodi": "xinyuewodi",
     "新月沃地（地理）": "xinyuewodi",
     "肥沃月弯": "xinyuewodi",
+    "xiong-nu": "xiong-nu",
+    "匈奴": "xiong-nu",
+    "Xiongnu": "xiong-nu",
+    "匈奴人": "xiong-nu",
     "xizang": "xizang",
     "西藏": "xizang",
     "Tibet": "xizang",
@@ -17701,6 +17834,10 @@
     "Zheng He": "zheng-he",
     "马和": "zheng-he",
     "三宝太监": "zheng-he",
+    "zheng-zhi-fen-lie": "zheng-zhi-fen-lie",
+    "政治分裂": "zheng-zhi-fen-lie",
+    "political fragmentation": "zheng-zhi-fen-lie",
+    "政治割据": "zheng-zhi-fen-lie",
     "zhengfu": "zhengfu",
     "conquest": "zhengfu",
     "zhi-li-ren": "zhi-li-ren",
@@ -17726,6 +17863,11 @@
     "周朝": "zhou-chao",
     "Zhou dynasty": "zhou-chao",
     "周代": "zhou-chao",
+    "zhuan-zhi-jie-ceng": "zhuan-zhi-jie-ceng",
+    "专职阶层": "zhuan-zhi-jie-ceng",
+    "specialists": "zhuan-zhi-jie-ceng",
+    "专职人员": "zhuan-zhi-jie-ceng",
+    "非农业人口": "zhuan-zhi-jie-ceng",
     "专业化分工": "专业化分工",
     "经济专业化": "专业化分工",
     "专业手艺人": "专业化分工",
@@ -17751,7 +17893,6 @@
     "compass": "指南针",
     "罗盘": "指南针",
     "政治竞争": "政治竞争",
-    "政治分裂": "政治竞争",
     "竞争性国家体系": "政治竞争",
     "分裂促竞争": "政治竞争",
     "政治组织": "政治组织",
@@ -17835,6 +17976,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 654,
-  "generated": "2026-05-26T17:26:02Z"
+  "page_count": 659,
+  "generated": "2026-05-26T17:27:08Z"
 }
