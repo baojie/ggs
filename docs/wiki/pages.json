@@ -1525,6 +1525,27 @@
       "quality_score": 58,
       "total_refs": 9
     },
+    "动物驯化": {
+      "type": "concept",
+      "label": "动物驯化",
+      "aliases": [],
+      "tags": [
+        "农业",
+        "驯化",
+        "经济"
+      ],
+      "path": "do/动物驯化.md",
+      "description": "人类将野生动物驯化为家畜的过程及其对文明发展的影响",
+      "prose_len": 249,
+      "prose_chars": 247,
+      "h2_count": 0,
+      "pn_count": 4,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 24
+    },
     "鹅": {
       "type": "species",
       "label": "鹅",
@@ -3315,6 +3336,29 @@
       "affiliation": "美国",
       "total_refs": 2
     },
+    "流行病": {
+      "type": "concept",
+      "label": "流行病",
+      "aliases": [
+        "瘟疫"
+      ],
+      "tags": [
+        "医学",
+        "历史",
+        "人口"
+      ],
+      "path": "li/流行病.md",
+      "description": "大规模传染性疾病对人类历史进程的影响",
+      "prose_len": 288,
+      "prose_chars": 286,
+      "h2_count": 0,
+      "pn_count": 4,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "粮食生产": {
       "type": "concept",
       "label": "粮食生产",
@@ -4901,6 +4945,30 @@
       "quality_score": 58,
       "total_refs": 0
     },
+    "人类进化": {
+      "type": "concept",
+      "label": "人类进化",
+      "aliases": [
+        "人类演化",
+        "人科进化"
+      ],
+      "tags": [
+        "生物",
+        "演化",
+        "史前"
+      ],
+      "path": "re/人类进化.md",
+      "description": "现代智人从灵长类祖先分化并扩散至全球的演化历程",
+      "prose_len": 266,
+      "prose_chars": 264,
+      "h2_count": 0,
+      "pn_count": 3,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "人类首次定居澳大利亚": {
       "type": "event",
       "label": "人类首次定居澳大利亚",
@@ -5394,6 +5462,30 @@
       "quality": "featured",
       "quality_score": 61,
       "total_refs": 23
+    },
+    "社会组织": {
+      "type": "concept",
+      "label": "社会组织",
+      "aliases": [
+        "社会结构",
+        "社会形态"
+      ],
+      "tags": [
+        "政治",
+        "社会",
+        "制度"
+      ],
+      "path": "sh/社会组织.md",
+      "description": "人类群体从游群到国家的社会组织形态演化序列",
+      "prose_len": 281,
+      "prose_chars": 279,
+      "h2_count": 0,
+      "pn_count": 3,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
     },
     "鼠疫": {
       "type": "concept",
@@ -6337,7 +6429,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 61
+      "total_refs": 37
     },
     "驯鹿": {
       "type": "species",
@@ -7764,6 +7856,7 @@
     "野生动物": "动物",
     "动物物种": "动物",
     "动物多样性": "动物",
+    "动物驯化": "动物驯化",
     "鹅": "鹅",
     "goose": "鹅",
     "家鹅": "鹅",
@@ -8036,6 +8129,7 @@
     "Wright Brothers": "莱特兄弟",
     "奥维尔·莱特": "莱特兄弟",
     "威尔伯·莱特": "莱特兄弟",
+    "瘟疫": "流行病",
     "粮食生产": "粮食生产",
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
@@ -8267,6 +8361,9 @@
     "种族": "人种",
     "人类种族": "人种",
     "生物性种族": "人种",
+    "人类进化": "人类进化",
+    "人类演化": "人类进化",
+    "人科进化": "人类进化",
     "人类首次定居澳大利亚": "人类首次定居澳大利亚",
     "First Human Settlement of Australia": "人类首次定居澳大利亚",
     "澳大利亚最早定居": "人类首次定居澳大利亚",
@@ -8341,6 +8438,9 @@
     "政治复杂性": "社会复杂性",
     "社会层级": "社会复杂性",
     "social complexity": "社会复杂性",
+    "社会组织": "社会组织",
+    "社会结构": "社会组织",
+    "社会形态": "社会组织",
     "鼠疫": "鼠疫",
     "鼠疫杆菌": "鼠疫",
     "taiwan": "taiwan",
@@ -8475,7 +8575,6 @@
     "plantain": "香蕉",
     "驯化": "驯化",
     "植物驯化": "驯化",
-    "动物驯化": "驯化",
     "domestication": "驯化",
     "驯鹿": "驯鹿",
     "reindeer": "驯鹿",
@@ -8604,7 +8703,6 @@
     "政治组织": "政治组织",
     "政治结构": "政治组织",
     "political organization": "政治组织",
-    "社会组织": "政治组织",
     "植物": "植物",
     "野生植物": "植物",
     "植物物种": "植物",
@@ -8661,6 +8759,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 316,
-  "generated": "2026-05-26T01:09:17Z"
+  "page_count": 320,
+  "generated": "2026-05-26T01:13:13Z"
 }
