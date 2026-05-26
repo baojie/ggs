@@ -326,3 +326,13 @@
 - [ ] P2 stub | 文化特质 | concept | LLM 发现，ch20，与环境无关、但可能对社会选择产生深远影响的文化因素
 - [ ] P2 stub | 历史科学 | concept | LLM 发现，ch20，用比较法和自然实验将人类史发展为可科学研究的学科
 - [ ] P2 stub | 回溯试验法 | concept | LLM 发现，ch20，历史学家通过考察已知案例验证假说的方法
+
+## Phase 2 — 新建候选（SCN28 R220 发现 — 红链扫描）
+
+### P2 stub（红链 1–2）
+
+- [ ] P2 stub | 所罗门群岛 | place | 红链 ×1
+- [ ] P2 stub | 乌鲁克 | place | 红链 ×1
+- [ ] P2 stub | 周朝 | event | 红链 ×1
+- [ ] P2 stub | 苹果 | species | 红链 ×1
+- [ ] P2 stub | 杏仁 | species | 红链 ×1
