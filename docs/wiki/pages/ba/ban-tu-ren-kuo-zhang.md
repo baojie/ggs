@@ -2,7 +2,7 @@
 id: ban-tu-ren-kuo-zhang
 type: event
 label: 班图人扩张
-aliases: [Bantu expansion, 班图族扩张]
+aliases: [Bantu expansion]
 tags: [迁徙, 非洲]
 description: 约3000年前开始的原班图语人群从西非向非洲赤道以南的大规模人口迁移
 quality: featured

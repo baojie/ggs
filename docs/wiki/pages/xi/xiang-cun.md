@@ -2,7 +2,7 @@
 id: xiang-cun
 type: concept
 label: 乡村
-aliases: [village, 村落, 定居点]
+aliases: [village]
 tags: [社会, 地理]
 description: 以农业为基础的永久性聚居地，戴蒙德将其视为从狩猎采集向复杂社会过渡的关键聚落形态
 quality: basic

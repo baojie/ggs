@@ -2,12 +2,11 @@
 id: nan-dao-yu-xi
 type: concept
 label: 南岛语系
-aliases: [Austronesian, 南岛语族, 马来-波利尼西亚语系]
+aliases: [马来-波利尼西亚语系]
 tags: [语言, 人类迁徙, 太平洋]
 description: 世界上分布范围最广的语系之一，从台湾到复活节岛再到马达加斯加，南岛人扩张的语言基础
-quality: basic
+quality: featured
 ---
-
 ## 简介
 
 南岛语系是分布范围最广的语系之一，覆盖从台湾到复活节岛、从夏威夷到马达加斯加的广阔区域。戴蒙德在书中将其作为语言学和考古学相互印证以重建史前迁徙历史的关键案例。

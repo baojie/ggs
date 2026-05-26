@@ -2,7 +2,7 @@
 id: yi-chuan-xue
 type: concept
 label: 遗传学
-aliases: [genetics, 基因学, 基因]
+aliases: [基因学]
 tags: [生物, 演化]
 description: 研究基因和遗传变异的学科，戴蒙德用以追溯人类迁徙和作物驯化的历史
 quality: featured

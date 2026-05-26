@@ -2,13 +2,12 @@
 id: xing
 type: species
 label: 杏
-aliases: [apricot, Prunus armeniaca, 杏仁, 巴旦杏,  apricot]
+aliases: [apricot, Prunus armeniaca, apricot]
 tags: [物种, 作物, 中国, 果树]
 region: asia
-quality: basic
 description: 中国原产的重要核果类果树，与桃同为东亚驯化成果，经中亚向西传播
+quality: basic
 ---
-
 ## 在本书中的角色
 
 杏（apricot，*Prunus armeniaca*）原产中国，是东亚驯化的重要果树之一。戴蒙德在第七章中以杏仁为例提出了一个引人深思的问题：许多作物的祖先不是吃了叫人送命就是味道差得难以入口（007-002），早期人类是怎样在不知道自己在做什么的情况下把有毒的杏仁变成了无毒的杏仁的呢（007-005）？

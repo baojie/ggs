@@ -2,7 +2,7 @@
 id: pi-sa-luo
 type: person
 label: 弗朗西斯科·皮萨罗
-aliases: [Francisco Pizarro, 皮萨罗]
+aliases: []
 tags: [人物, 探险家, 征服者]
 birth: 1478
 death: 1541

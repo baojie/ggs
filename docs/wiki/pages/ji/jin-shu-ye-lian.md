@@ -2,7 +2,7 @@
 id: jin-shu-ye-lian
 type: concept
 label: 金属冶炼
-aliases: [metallurgy, 冶金, 炼铁, 炼钢]
+aliases: [炼钢]
 tags: [技术, 历史]
 description: 从矿石中提取金属的技术，戴蒙德将其视为欧亚大陆技术优势的关键组成部分
 quality: standard

@@ -7,7 +7,7 @@ tags: [演化, 历史]
 domain: biology
 description: 约4万年前进入欧洲的解剖学和行为学意义上的现代人，以精湛的工具制造和洞穴艺术为标志
 related_chapters: [ch01]
-quality: standard
+quality: featured
 ---
 ## 定义
 

@@ -2,7 +2,7 @@
 id: nong-ye-qi-yuan
 type: concept
 label: 农业起源
-aliases: [origins of agriculture, 农业革命, 新石器时代革命]
+aliases: [origins of agriculture]
 tags: [农业, 历史]
 description: 人类从狩猎采集向粮食生产转变的过程，是戴蒙德解释文明差异的最关键历史事件
 quality: standard

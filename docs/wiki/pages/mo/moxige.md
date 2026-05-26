@@ -2,7 +2,7 @@
 id: moxige
 type: place
 label: 墨西哥
-aliases: [Mexico]
+aliases: []
 tags: [地区, 文明, 农业]
 region: americas
 axis: north-south

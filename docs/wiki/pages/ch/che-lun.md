@@ -2,7 +2,7 @@
 id: che-lun
 type: concept
 label: 车轮
-aliases: [wheel, 轮子]
+aliases: []
 tags: [技术, 发明]
 related_chapters: [ch13]
 domain: technology

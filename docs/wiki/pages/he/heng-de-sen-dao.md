@@ -4,10 +4,9 @@ type: place
 label: 亨德森岛
 aliases: [Henderson Island]
 tags: [地点, 太平洋, 波利尼西亚]
-quality: basic
 description: 波利尼西亚最贫瘠的岛屿之一，与夏威夷、新西兰构成资源禀赋对比的自然实验案例
+quality: basic
 ---
-
 ## 在本书中的角色
 
 亨德森岛是位于太平洋中南部的环状珊瑚岛，属于波利尼西亚范围。戴蒙德将其作为波利尼西亚社会多样性自然实验的极端案例。

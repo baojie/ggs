@@ -2,7 +2,7 @@
 id: yindunixiya
 type: place
 label: 印度尼西亚
-aliases: [Indonesia, 马来群岛]
+aliases: [马来群岛]
 tags: [地区, 岛屿, 农业]
 region: oceania
 axis: east-west

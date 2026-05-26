@@ -4,10 +4,9 @@ type: species
 label: 利马豆
 aliases: [lima bean, Phaseolus lunatus]
 tags: [物种, 植物, 美洲]
-quality: basic
 description: 美洲驯化的豆类作物，与菜豆同为新大陆豆类驯化的代表
+quality: basic
 ---
-
 ## 在本书中的角色
 
 利马豆是美洲驯化的重要豆类作物，与菜豆同属新大陆豆类驯化的代表物种。戴蒙德在第七章和第十章中提及利马豆，将其作为美洲独立驯化并在新大陆内部传播的作物之一。利马豆的驯化历史反映了美洲农业独立起源的特点，也展示了新大陆作物种类少于欧亚大陆的事实。

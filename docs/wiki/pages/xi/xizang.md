@@ -2,7 +2,7 @@
 id: xizang
 type: place
 label: 西藏
-aliases: [Tibet, 青藏高原]
+aliases: [Tibet]
 tags: [高原, 地区]
 region: eurasia
 latitude_band: temperate

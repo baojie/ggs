@@ -2,7 +2,7 @@
 id: liang-shi-chu-bei
 type: concept
 label: 粮食储备
-aliases: [food storage, 余粮, 粮食剩余]
+aliases: [food storage, 余粮]
 tags: [农业, 经济, 社会]
 description: 粮食生产超过即时消费需求的剩余部分，是文明发展和社会分层的前提条件
 quality: standard

@@ -2,7 +2,7 @@
 id: feilvbin
 type: place
 label: 菲律宾
-aliases: [Philippines]
+aliases: []
 tags: [地区, 岛屿, 农业]
 region: oceania
 latitude_band: tropical

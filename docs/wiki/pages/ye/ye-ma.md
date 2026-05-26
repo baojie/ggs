@@ -4,10 +4,9 @@ type: species
 label: 野马
 aliases: [Przewalski's horse, Equus ferus przewalskii, 普尔热瓦尔斯基马]
 tags: [物种, 动物, 中亚]
-quality: basic
 description: 最后幸存的真正野马，马的野生祖先近亲，分布于中亚草原
+quality: basic
 ---
-
 ## 在本书中的角色
 
 野马（普尔热瓦尔斯基马）是戴蒙德在第九章讨论动物驯化时提及的重要物种。它是目前唯一幸存的真正野马种群，与家马的共同祖先在大约16万年前分化（009-012）。戴蒙德以野马为例说明驯化物种与其野生祖先之间的关系——野马虽然在遗传上与家马密切相关，但从未被成功驯化。

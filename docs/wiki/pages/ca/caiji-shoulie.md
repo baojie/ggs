@@ -2,7 +2,7 @@
 id: cai-ji-shou-lie
 type: concept
 label: 采集狩猎
-aliases: [hunter-gatherer, 狩猎采集, 渔猎采集]
+aliases: [渔猎采集]
 tags: [社会组织, 农业]
 related_chapters: [ch01, ch05, ch06]
 domain: sociology

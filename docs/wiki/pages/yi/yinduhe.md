@@ -2,7 +2,7 @@
 id: yinduhe
 type: place
 label: 印度河
-aliases: [Indus River, 印度河流域]
+aliases: [印度河流域]
 tags: [河流, 文明, 农业]
 region: eurasia
 latitude_band: tropical

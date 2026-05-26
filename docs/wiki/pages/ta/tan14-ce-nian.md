@@ -2,7 +2,7 @@
 id: tan14-ce-nian
 type: concept
 label: 碳14测年
-aliases: [radiocarbon dating, 放射性碳定年, C14测年]
+aliases: [放射性碳定年, C14测年]
 tags: [技术, 科学, 考古学]
 description: 利用碳-14同位素衰变测定有机文物年代的技术，戴蒙德在论证中广泛依赖的考古学证据来源
 quality: standard

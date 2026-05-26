@@ -1,1 +1,2 @@
 {"v": 2, "t": "snap", "id": "G1ypqR", "ts": 1779815724, "au": "grow", "su": "aQk6P6", "sz": 1382, "lc": 24, "ln": "Mcb6if 5zlHqO MsrWwF KkWgng lnOXHi Q1B6uH 34B4nU Hx1uf8 kVMcYQ Mcb6if RZwTDm 13INuf RZwTDm vrvqBP RZwTDm JpgM29 RZwTDm itdsGc RZwTDm zMKSKT RZwTDm 64Q2nh xIu5Zj LxKpw1"}
+{"v": 2, "t": "delta", "id": "PoELv2", "ts": 1779825987, "au": "butler", "su": "fmVAqT", "sz": 1381, "lc": 23, "parent": "G1ypqR", "szb": 1382, "la": 1, "lr": 2, "dl": [["del", 10], ["del", 8], ["ins", 7, "kVMcYQ"]]}

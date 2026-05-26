@@ -5,10 +5,9 @@ label: 桃
 aliases: [peach, Prunus persica, 桃子]
 tags: [物种, 作物, 中国, 果树]
 region: asia
-quality: basic
 description: 中国原产的核果类果树，在欧亚大陆传播的典型案例
+quality: basic
 ---
-
 ## 在本书中的角色
 
 桃（peach，*Prunus persica*）原产中国，是最早在东亚驯化的果树之一。戴蒙德在第七章中讨论果树驯化的困难时，将桃列入通过突变获得自花受精能力的果树之一——李、桃、苹果、杏和樱桃都是这一过程的例证（007-034）。果树的驯化通常比谷物更加复杂，需要经历更长时间的选育过程。

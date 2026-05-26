@@ -4,10 +4,9 @@ type: concept
 label: 爪哇人
 aliases: [Java Man, 爪哇直立人]
 tags: [概念, 人类演化, 化石]
-quality: standard
 description: 东南亚发现的早期直立人化石，走出非洲的最早证据之一
+quality: featured
 ---
-
 ## 在本书中的角色
 
 爪哇人（Java Man）是在印度尼西亚爪哇岛发现的直立人（*Homo erectus*）化石，为"走出非洲"假说提供了最早的关键证据之一（001-005）。戴蒙德指出，爪哇人化石证明人类至少在印度尼西亚西部居住了100万年之久（017-008）。

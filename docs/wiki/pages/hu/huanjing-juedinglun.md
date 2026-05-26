@@ -2,7 +2,7 @@
 id: huan-jing-jue-ding-lun
 type: concept
 label: 环境决定论
-aliases: [environmental determinism, 地理决定论, 地理环境决定论]
+aliases: [地理环境决定论]
 tags: [地理, 历史]
 related_chapters: [ch01, ch10]
 domain: geography

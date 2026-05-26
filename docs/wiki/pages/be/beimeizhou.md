@@ -2,7 +2,7 @@
 id: beimeizhou
 type: place
 label: 北美洲
-aliases: [North America]
+aliases: []
 tags: [大陆, 地理]
 region: americas
 axis: north-south

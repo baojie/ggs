@@ -2,7 +2,7 @@
 id: bo-li-ni-xi-ya-ren
 type: person
 label: 波利尼西亚人
-aliases: [Polynesians, 波利尼西亚]
+aliases: [Polynesians]
 tags: [人物, 历史, 航海]
 description: 太平洋波利尼西亚群岛的原住民，戴蒙德将其社会差异作为环境决定论的"自然实验"案例
 quality: standard

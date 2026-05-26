@@ -7,7 +7,7 @@ tags: [地区]
 region: eurasia
 latitude_band: polar
 description: 冰河时期白令海峡因海平面下降而暴露的大陆桥，人类首次从亚洲迁徙到美洲的必经之路
-quality: standard
+quality: featured
 ---
 ## 地理特征
 

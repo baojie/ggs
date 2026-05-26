@@ -2,7 +2,7 @@
 id: meilaxiniya
 type: place
 label: 美拉尼西亚
-aliases: [Melanesia]
+aliases: []
 tags: [地区, 岛屿]
 region: oceania
 latitude_band: tropical

@@ -4,10 +4,9 @@ type: species
 label: 双峰骆驼
 aliases: [Bactrian camel, Camelus bactrianus]
 tags: [物种, 动物, 亚洲]
-quality: basic
 description: 中亚双峰骆驼，驯化的大型哺乳动物，次要9种之一
+quality: basic
 ---
-
 ## 在本书中的角色
 
 双峰骆驼（中亚双峰骆驼）是在中亚驯化的大型哺乳动物，被戴蒙德列为"次要的9种"驯化动物之一。他在第四章和第九章中提及双峰骆驼，与单峰骆驼一同作为驯化大型动物的案例。双峰骆驼原产中亚干旱和寒冷地区，其两个驼峰储存脂肪，厚密的皮毛使其能够抵御极端低温。

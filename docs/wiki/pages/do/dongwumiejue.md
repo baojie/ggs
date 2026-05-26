@@ -2,7 +2,7 @@
 id: dong-wu-mie-jue
 type: concept
 label: 动物灭绝
-aliases: [extinction, 物种灭绝, 大型动物灭绝]
+aliases: [大型动物灭绝]
 tags: [环境, 历史]
 description: 人类活动导致的大型动物灭绝事件，戴蒙德用以解释各大洲可驯化动物资源的差异
 quality: standard

@@ -2,7 +2,7 @@
 id: taiwan
 type: place
 label: 台湾
-aliases: [Taiwan]
+aliases: []
 tags: [地区, 岛屿, 语言]
 region: eurasia
 latitude_band: tropical

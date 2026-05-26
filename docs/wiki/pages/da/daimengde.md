@@ -2,7 +2,7 @@
 id: daimengde
 type: person
 label: 贾雷德·戴蒙德
-aliases: [Jared Diamond, 戴蒙德]
+aliases: []
 tags: [学者, 作者, 科学家]
 birth: 1937
 affiliation: 美国

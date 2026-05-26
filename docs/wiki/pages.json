@@ -148,9 +148,7 @@
     "aisaobiya": {
       "type": "place",
       "label": "埃塞俄比亚",
-      "aliases": [
-        "Ethiopia"
-      ],
+      "aliases": [],
       "tags": [
         "地区",
         "农业",
@@ -191,29 +189,6 @@
       "quality": "basic",
       "quality_score": 9,
       "total_refs": 5
-    },
-    "埃塞俄比亚": {
-      "type": "place",
-      "label": "埃塞俄比亚",
-      "aliases": [
-        "Ethiopia"
-      ],
-      "tags": [
-        "非洲",
-        "农业",
-        "文明"
-      ],
-      "path": "ai/埃塞俄比亚.md",
-      "description": "东非古国，多种作物的独立驯化中心之一",
-      "prose_len": 461,
-      "prose_chars": 447,
-      "h2_count": 1,
-      "pn_count": 2,
-      "wikilink_count": 4,
-      "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 9,
-      "total_refs": 2
     },
     "爱迪生": {
       "type": "person",
@@ -282,8 +257,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 10,
+      "quality": "featured",
+      "quality_score": 55,
       "total_refs": 0
     },
     "alabobandao": {
@@ -381,6 +356,31 @@
       "quality_score": 9,
       "total_refs": 1
     },
+    "an-da-man-ren": {
+      "type": "person",
+      "label": "安达曼人",
+      "aliases": [
+        "Andamanese",
+        "安达曼群岛岛民"
+      ],
+      "tags": [
+        "人物",
+        "东南亚",
+        "原住民",
+        "矮小黑人"
+      ],
+      "path": "an/an-da-man-ren.md",
+      "description": "安达曼群岛的原住民，东南亚矮小黑人的孑遗群体，其语言是数百种已灭绝的东南亚土著语言中的最后幸存者",
+      "prose_len": 505,
+      "prose_chars": 464,
+      "h2_count": 3,
+      "pn_count": 4,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 10,
+      "total_refs": 0
+    },
     "an-dong-ni-wen-yi": {
       "type": "event",
       "label": "安东尼瘟疫",
@@ -427,30 +427,6 @@
       "quality": "featured",
       "quality_score": 57,
       "total_refs": 1
-    },
-    "安娜-卡列尼娜原则": {
-      "type": "concept",
-      "label": "安娜·卡列尼娜原则",
-      "aliases": [
-        "安娜卡列尼娜原则",
-        "驯化失败原则"
-      ],
-      "tags": [
-        "生物",
-        "农业",
-        "演化"
-      ],
-      "path": "an/安娜-卡列尼娜原则.md",
-      "description": "戴蒙德借用托尔斯泰小说首句提出的方法论原则：动物驯化须同时满足多项条件，任一条件的失败即导致驯化失败。",
-      "prose_len": 964,
-      "prose_chars": 857,
-      "h2_count": 5,
-      "pn_count": 7,
-      "wikilink_count": 3,
-      "blockquote_count": 0,
-      "quality": "featured",
-      "quality_score": 59,
-      "total_refs": 33
     },
     "安娜卡列尼娜原则": {
       "type": "concept",
@@ -501,6 +477,31 @@
       "quality_score": 61,
       "total_refs": 6
     },
+    "ao-si-man-di-guo": {
+      "type": "event",
+      "label": "奥斯曼帝国",
+      "aliases": [
+        "Ottoman Empire",
+        "土耳其帝国"
+      ],
+      "tags": [
+        "事件",
+        "帝国",
+        "欧亚",
+        "伊斯兰"
+      ],
+      "path": "ao/ao-si-man-di-guo.md",
+      "description": "横跨欧亚非的伊斯兰帝国，戴蒙德列举的多语言帝国案例之一",
+      "prose_len": 476,
+      "prose_chars": 436,
+      "h2_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
+    },
     "ao-zhou-ye-quan": {
       "type": "species",
       "label": "澳洲野犬",
@@ -523,28 +524,6 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
-      "total_refs": 0
-    },
-    "aodaliya": {
-      "type": "place",
-      "label": "澳大利亚",
-      "aliases": [
-        "Australia"
-      ],
-      "tags": [
-        "大陆",
-        "地区"
-      ],
-      "path": "ao/aodaliya.md",
-      "description": "大洋洲大陆，戴蒙德用以分析孤立大陆的人类社会发展轨迹和欧洲殖民的影响",
-      "prose_len": 635,
-      "prose_chars": 574,
-      "h2_count": 5,
-      "pn_count": 3,
-      "wikilink_count": 4,
-      "blockquote_count": 0,
-      "quality": "featured",
-      "quality_score": 56,
       "total_refs": 0
     },
     "澳大利亚": {
@@ -782,8 +761,8 @@
       "pn_count": 4,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 25,
+      "quality": "featured",
+      "quality_score": 55,
       "total_refs": 2
     },
     "bai-ri-ke": {
@@ -836,8 +815,7 @@
       "type": "event",
       "label": "班图人扩张",
       "aliases": [
-        "Bantu expansion",
-        "班图族扩张"
+        "Bantu expansion"
       ],
       "tags": [
         "迁徙",
@@ -1089,16 +1067,14 @@
       "pn_count": 3,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 12,
+      "quality": "featured",
+      "quality_score": 57,
       "total_refs": 2
     },
     "beimeizhou": {
       "type": "place",
       "label": "北美洲",
-      "aliases": [
-        "North America"
-      ],
+      "aliases": [],
       "tags": [
         "大陆",
         "地理"
@@ -1113,28 +1089,6 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 0
-    },
-    "beimizhou": {
-      "type": "place",
-      "label": "北美洲",
-      "aliases": [
-        "North America"
-      ],
-      "tags": [
-        "大陆",
-        "地区"
-      ],
-      "path": "be/beimizhou.md",
-      "description": "美洲北部大陆，戴蒙德用以分析南北走向轴线对粮食生产和文明传播的阻碍",
-      "prose_len": 587,
-      "prose_chars": 526,
-      "h2_count": 5,
-      "pn_count": 3,
-      "wikilink_count": 4,
-      "blockquote_count": 0,
-      "quality": "featured",
-      "quality_score": 55,
       "total_refs": 0
     },
     "北极": {
@@ -1157,39 +1111,14 @@
       "pn_count": 3,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 11,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 1
-    },
-    "北美洲": {
-      "type": "place",
-      "label": "北美洲",
-      "aliases": [
-        "North America",
-        "北美"
-      ],
-      "tags": [
-        "地理",
-        "大陆",
-        "美洲"
-      ],
-      "path": "be/北美洲.md",
-      "description": "美洲大陆北部，从北极延伸到中美洲地峡，是多种土著文明的发源地",
-      "prose_len": 466,
-      "prose_chars": 452,
-      "h2_count": 1,
-      "pn_count": 2,
-      "wikilink_count": 4,
-      "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 9,
-      "total_refs": 7
     },
     "被引用最多页面": {
       "type": "list",
       "label": "被引用最多页面",
       "aliases": [
-        "引用排行",
         "热门页面",
         "高引用页面"
       ],
@@ -1232,28 +1161,6 @@
       "quality_score": 57,
       "total_refs": 1
     },
-    "bilu": {
-      "type": "place",
-      "label": "秘鲁",
-      "aliases": [
-        "Peru"
-      ],
-      "tags": [
-        "地区",
-        "文明"
-      ],
-      "path": "bi/bilu.md",
-      "description": "南美洲西部国家，印加帝国中心，戴蒙德以卡哈马卡战役的发生地分析欧亚优势",
-      "prose_len": 709,
-      "prose_chars": 647,
-      "h2_count": 5,
-      "pn_count": 3,
-      "wikilink_count": 4,
-      "blockquote_count": 0,
-      "quality": "featured",
-      "quality_score": 57,
-      "total_refs": 0
-    },
     "bing-chuan": {
       "type": "place",
       "label": "冰川",
@@ -1274,32 +1181,8 @@
       "pn_count": 2,
       "wikilink_count": 0,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 10,
-      "total_refs": 0
-    },
-    "bing-dou": {
-      "type": "species",
-      "label": "兵豆",
-      "aliases": [
-        "lentil",
-        "Lens culinaris"
-      ],
-      "tags": [
-        "作物",
-        "豆类",
-        "新月沃地"
-      ],
-      "path": "bi/bing-dou.md",
-      "description": "新月沃地最早驯化的豆类之一，与小麦、大麦构成谷物-豆类组合的始祖作物，是人类最早种植的作物之一",
-      "prose_len": 424,
-      "prose_chars": 350,
-      "h2_count": 4,
-      "pn_count": 3,
-      "wikilink_count": 5,
-      "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 9,
+      "quality": "standard",
+      "quality_score": 25,
       "total_refs": 0
     },
     "兵豆": {
@@ -1317,14 +1200,14 @@
       ],
       "path": "bi/兵豆.md",
       "description": "新月沃地最早驯化的豆类之一，与小麦和大麦构成谷物加豆类的经典农业组合",
-      "prose_len": 573,
-      "prose_chars": 514,
-      "h2_count": 5,
-      "pn_count": 4,
+      "prose_len": 926,
+      "prose_chars": 849,
+      "h2_count": 6,
+      "pn_count": 10,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 10,
+      "quality": "featured",
+      "quality_score": 59,
       "total_refs": 3
     },
     "冰岛": {
@@ -1403,7 +1286,6 @@
       "type": "concept",
       "label": "病菌",
       "aliases": [
-        "流行病",
         "germs"
       ],
       "tags": [
@@ -1427,8 +1309,7 @@
       "type": "person",
       "label": "波利尼西亚人",
       "aliases": [
-        "Polynesians",
-        "波利尼西亚"
+        "Polynesians"
       ],
       "tags": [
         "人物",
@@ -1625,8 +1506,6 @@
       "type": "concept",
       "label": "采集狩猎",
       "aliases": [
-        "hunter-gatherer",
-        "狩猎采集",
         "渔猎采集"
       ],
       "tags": [
@@ -1644,6 +1523,30 @@
       "quality": "featured",
       "quality_score": 56,
       "total_refs": 10
+    },
+    "仓鼠": {
+      "type": "species",
+      "label": "仓鼠",
+      "aliases": [
+        "hamster",
+        "Cricetinae"
+      ],
+      "tags": [
+        "动物",
+        "驯化",
+        "宠物"
+      ],
+      "path": "ca/仓鼠.md",
+      "description": "近代被驯化为宠物的啮齿目小动物，反映了人类驯化动机从生存到陪伴的扩展",
+      "prose_len": 271,
+      "prose_chars": 269,
+      "h2_count": 0,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
     },
     "草原": {
       "type": "concept",
@@ -2195,8 +2098,8 @@
       "pn_count": 7,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 11,
+      "quality": "featured",
+      "quality_score": 56,
       "total_refs": 1
     },
     "chaoxian": {
@@ -2226,10 +2129,7 @@
     "che-lun": {
       "type": "concept",
       "label": "车轮",
-      "aliases": [
-        "wheel",
-        "轮子"
-      ],
+      "aliases": [],
       "tags": [
         "技术",
         "发明"
@@ -2266,8 +2166,8 @@
       "pn_count": 2,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 11,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 1
     },
     "传教": {
@@ -2373,7 +2273,6 @@
       "label": "城市",
       "aliases": [
         "city",
-        "城镇",
         "都市",
         "城市化"
       ],
@@ -2397,9 +2296,7 @@
     "城镇": {
       "type": "concept",
       "label": "城镇",
-      "aliases": [
-        "城市"
-      ],
+      "aliases": [],
       "tags": [
         "社会",
         "经济",
@@ -2618,7 +2515,6 @@
       "type": "species",
       "label": "大麻",
       "aliases": [
-        "hemp",
         "Cannabis sativa"
       ],
       "tags": [
@@ -2664,6 +2560,31 @@
       "quality_score": 56,
       "total_refs": 0
     },
+    "da-yun-he": {
+      "type": "place",
+      "label": "大运河",
+      "aliases": [
+        "Grand Canal",
+        "京杭大运河"
+      ],
+      "tags": [
+        "地点",
+        "中国",
+        "基础设施",
+        "运河"
+      ],
+      "path": "da/da-yun-he.md",
+      "description": "世界最长的人工运河，连接黄河与长江水系，戴蒙德引为中国技术发明和统一地理条件的例证",
+      "prose_len": 427,
+      "prose_chars": 387,
+      "h2_count": 3,
+      "pn_count": 3,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
+    },
     "dagama": {
       "type": "person",
       "label": "瓦斯科·达·伽马",
@@ -2685,6 +2606,33 @@
       "quality": "featured",
       "quality_score": 63,
       "affiliation": "葡萄牙",
+      "total_refs": 0
+    },
+    "dai-jia-dai-yu-xi": {
+      "type": "concept",
+      "label": "傣-加岱语系",
+      "aliases": [
+        "Tai-Kadai",
+        "侗台语系",
+        "壮侗语系"
+      ],
+      "tags": [
+        "概念",
+        "语言",
+        "语系",
+        "东亚",
+        "东南亚"
+      ],
+      "path": "da/dai-jia-dai-yu-xi.md",
+      "description": "东亚四大语系之一，包括泰语和老挝语，约5000万人使用，戴蒙德引为语言替代的案例",
+      "prose_len": 483,
+      "prose_chars": 439,
+      "h2_count": 3,
+      "pn_count": 3,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
       "total_refs": 0
     },
     "dai-shu": {
@@ -2713,10 +2661,7 @@
     "daimengde": {
       "type": "person",
       "label": "贾雷德·戴蒙德",
-      "aliases": [
-        "Jared Diamond",
-        "戴蒙德"
-      ],
+      "aliases": [],
       "tags": [
         "学者",
         "作者",
@@ -2750,14 +2695,14 @@
       ],
       "path": "da/dan-feng-luo-tuo.md",
       "description": "阿拉伯单峰骆驼，沙漠地区驯化的重要大型哺乳动物，次要9种之一",
-      "prose_len": 465,
-      "prose_chars": 428,
+      "prose_len": 639,
+      "prose_chars": 600,
       "h2_count": 3,
-      "pn_count": 1,
+      "pn_count": 4,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 9,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 1
     },
     "dan-li-xiao-mai": {
@@ -2822,14 +2767,14 @@
       ],
       "path": "da/大豆.md",
       "description": "中国驯化的豆科作物，富含蛋白质，与稻米和小米共同构成中国农业体系的基础",
-      "prose_len": 499,
-      "prose_chars": 441,
+      "prose_len": 696,
+      "prose_chars": 638,
       "h2_count": 5,
-      "pn_count": 4,
+      "pn_count": 8,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 9,
+      "quality": "featured",
+      "quality_score": 56,
       "total_refs": 0
     },
     "大陆": {
@@ -2860,7 +2805,6 @@
       "label": "大陆轴线",
       "aliases": [
         "大陆主轴线",
-        "东西轴线",
         "南北轴线",
         "continental axis"
       ],
@@ -2904,30 +2848,6 @@
       "quality": "featured",
       "quality_score": 61,
       "total_refs": 10
-    },
-    "大麻": {
-      "type": "species",
-      "label": "大麻",
-      "aliases": [
-        "hemp",
-        "工业大麻"
-      ],
-      "tags": [
-        "植物",
-        "农作物",
-        "驯化种"
-      ],
-      "path": "da/大麻.md",
-      "description": "古老的纤维作物，与亚麻和棉花并列为重要的天然纤维来源",
-      "prose_len": 262,
-      "prose_chars": 229,
-      "h2_count": 3,
-      "pn_count": 2,
-      "wikilink_count": 3,
-      "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 7,
-      "total_refs": 0
     },
     "岛屿": {
       "type": "concept",
@@ -2978,8 +2898,7 @@
       "type": "person",
       "label": "戴蒙德",
       "aliases": [
-        "Jared Diamond",
-        "贾雷德·戴蒙德"
+        "Jared Diamond"
       ],
       "tags": [
         "作者",
@@ -3105,15 +3024,38 @@
       ],
       "path": "di/di-li-ping-zhang.md",
       "description": "阻碍人类、作物、技术和文化交流的地理障碍，戴蒙德用以解释各大陆文明发展速度差异的关键因素",
-      "prose_len": 706,
-      "prose_chars": 689,
-      "h2_count": 1,
-      "pn_count": 1,
+      "prose_len": 785,
+      "prose_chars": 698,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "featured",
+      "quality_score": 57,
+      "total_refs": 1
+    },
+    "ding-ji-si-wei-yue": {
+      "type": "person",
+      "label": "丁吉斯韦约",
+      "aliases": [
+        "Dingiswayo"
+      ],
+      "tags": [
+        "人物",
+        "非洲",
+        "酋长制"
+      ],
+      "path": "di/ding-ji-si-wei-yue.md",
+      "description": "姆特特瓦酋长管辖地首领，通过军事改革和中央集权政治整合祖鲁各酋长管辖地",
+      "prose_len": 373,
+      "prose_chars": 347,
+      "h2_count": 2,
+      "pn_count": 4,
       "wikilink_count": 0,
       "blockquote_count": 0,
       "quality": "basic",
-      "quality_score": 12,
-      "total_refs": 1
+      "quality_score": 8,
+      "total_refs": 0
     },
     "地中海地区": {
       "type": "place",
@@ -3164,7 +3106,6 @@
       "type": "place",
       "label": "地理",
       "aliases": [
-        "地理环境",
         "地理学"
       ],
       "tags": [
@@ -3187,7 +3128,6 @@
       "type": "concept",
       "label": "地理决定论",
       "aliases": [
-        "环境决定论",
         "geographic determinism"
       ],
       "tags": [
@@ -3333,8 +3273,6 @@
       "type": "concept",
       "label": "动物灭绝",
       "aliases": [
-        "extinction",
-        "物种灭绝",
         "大型动物灭绝"
       ],
       "tags": [
@@ -3352,31 +3290,6 @@
       "quality": "standard",
       "quality_score": 28,
       "total_refs": 6
-    },
-    "dongxizhouxian": {
-      "type": "concept",
-      "label": "东西轴线",
-      "aliases": [
-        "east-west axis",
-        "大陆轴线",
-        "欧亚大陆轴向"
-      ],
-      "tags": [
-        "地理",
-        "理论",
-        "农业"
-      ],
-      "path": "do/dongxizhouxian.md",
-      "description": "欧亚大陆东西走向的主轴线，戴蒙德用以解释为何欧亚大陆的作物和技术传播速度远快于美洲和非洲",
-      "prose_len": 492,
-      "prose_chars": 486,
-      "h2_count": 0,
-      "pn_count": 3,
-      "wikilink_count": 0,
-      "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 9,
-      "total_refs": 0
     },
     "dou-lei": {
       "type": "concept",
@@ -3446,8 +3359,8 @@
       "pn_count": 2,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 11,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 10
     },
     "动物": {
@@ -3522,6 +3435,54 @@
       "quality": "basic",
       "quality_score": 9,
       "total_refs": 3
+    },
+    "du-lun-che": {
+      "type": "concept",
+      "label": "独轮车",
+      "aliases": [
+        "wheelbarrow",
+        "手推车"
+      ],
+      "tags": [
+        "概念",
+        "技术",
+        "中国发明"
+      ],
+      "path": "du/du-lun-che.md",
+      "description": "中国最早发明的运输工具之一，戴蒙德列举的中国在公元1400年前领先欧洲的多项技术之一",
+      "prose_len": 325,
+      "prose_chars": 295,
+      "h2_count": 2,
+      "pn_count": 4,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
+    },
+    "dui-deng-jiao-huan": {
+      "type": "concept",
+      "label": "对等交换",
+      "aliases": [
+        "reciprocal exchange",
+        "互惠交换"
+      ],
+      "tags": [
+        "概念",
+        "经济",
+        "社会"
+      ],
+      "path": "du/dui-deng-jiao-huan.md",
+      "description": "族群和部落社会的经济交换方式，A赠予B礼物，B在将来回赠类似价值的礼物",
+      "prose_len": 365,
+      "prose_chars": 337,
+      "h2_count": 2,
+      "pn_count": 4,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
     },
     "独木舟": {
       "type": "concept",
@@ -3636,6 +3597,30 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
+      "total_refs": 0
+    },
+    "fa-you-ren": {
+      "type": "person",
+      "label": "法尤人",
+      "aliases": [
+        "Fayu",
+        "法尤族"
+      ],
+      "tags": [
+        "人物",
+        "新几内亚",
+        "族群"
+      ],
+      "path": "fa/fa-you-ren.md",
+      "description": "新几内亚湖泊平原的狩猎采集族群，戴蒙德用作族群社会类型的典型案例，约400人分为4个族群",
+      "prose_len": 351,
+      "prose_chars": 324,
+      "h2_count": 2,
+      "pn_count": 5,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
       "total_refs": 0
     },
     "fang-she-xing-tan-ding-nian-fa": {
@@ -3778,9 +3763,32 @@
       "pn_count": 8,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 56,
       "total_refs": 1
+    },
+    "fei-yan": {
+      "type": "concept",
+      "label": "肺炎",
+      "aliases": [
+        "pneumonia"
+      ],
+      "tags": [
+        "概念",
+        "疾病",
+        "传染病"
+      ],
+      "path": "fe/fei-yan.md",
+      "description": "一种呼吸道感染疾病，戴蒙德在讨论人群病时提及的传染病之一",
+      "prose_len": 404,
+      "prose_chars": 366,
+      "h2_count": 3,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
     },
     "fei-zhou-shu-yu": {
       "type": "species",
@@ -3820,22 +3828,20 @@
       ],
       "path": "fe/fei-zhou-xiang.md",
       "description": "非洲象，被驯服但从未被驯化的大型哺乳动物，汉尼拔率领翻越阿尔卑斯山的战象",
-      "prose_len": 410,
-      "prose_chars": 371,
+      "prose_len": 598,
+      "prose_chars": 555,
       "h2_count": 3,
-      "pn_count": 2,
+      "pn_count": 4,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 9,
+      "quality": "standard",
+      "quality_score": 25,
       "total_refs": 1
     },
     "feilvbin": {
       "type": "place",
       "label": "菲律宾",
-      "aliases": [
-        "Philippines"
-      ],
+      "aliases": [],
       "tags": [
         "地区",
         "岛屿",
@@ -3949,29 +3955,6 @@
       "quality": "basic",
       "quality_score": 8,
       "total_refs": 1
-    },
-    "菲律宾": {
-      "type": "place",
-      "label": "菲律宾",
-      "aliases": [
-        "Philippines"
-      ],
-      "tags": [
-        "亚洲",
-        "太平洋",
-        "岛屿"
-      ],
-      "path": "fe/菲律宾.md",
-      "description": "东南亚的群岛国家，在南岛人扩张中扮演了重要的中转站角色",
-      "prose_len": 447,
-      "prose_chars": 433,
-      "h2_count": 1,
-      "pn_count": 2,
-      "wikilink_count": 4,
-      "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 9,
-      "total_refs": 2
     },
     "菲斯托斯圆盘": {
       "type": "concept",
@@ -4140,6 +4123,30 @@
       "quality": "basic",
       "quality_score": 9,
       "total_refs": 1
+    },
+    "gan-zhe": {
+      "type": "species",
+      "label": "甘蔗",
+      "aliases": [
+        "sugarcane",
+        "Saccharum officinarum"
+      ],
+      "tags": [
+        "物种",
+        "作物",
+        "经济作物"
+      ],
+      "path": "ga/gan-zhe.md",
+      "description": "新几内亚驯化的禾本科糖料作物，戴蒙德用作新几内亚农业贡献的例证",
+      "prose_len": 447,
+      "prose_chars": 413,
+      "h2_count": 3,
+      "pn_count": 3,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
     },
     "干旱": {
       "type": "concept",
@@ -4333,8 +4340,8 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 10,
+      "quality": "featured",
+      "quality_score": 55,
       "total_refs": 4
     },
     "ge-ren-yu-li-shi-jie-gou": {
@@ -4381,8 +4388,8 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 11,
+      "quality": "featured",
+      "quality_score": 56,
       "total_refs": 3
     },
     "哥伦布": {
@@ -4407,7 +4414,7 @@
       "quality": "featured",
       "quality_score": 58,
       "affiliation": "西班牙王国",
-      "total_refs": 7
+      "total_refs": 6
     },
     "哥伦布航行与两个半球的碰撞": {
       "type": "event",
@@ -4530,8 +4537,8 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 11,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 7
     },
     "工具": {
@@ -4540,7 +4547,6 @@
       "aliases": [
         "tools",
         "技术工具",
-        "石器",
         "人工制品"
       ],
       "tags": [
@@ -4680,8 +4686,8 @@
       "pn_count": 7,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 11,
+      "quality": "featured",
+      "quality_score": 56,
       "total_refs": 6
     },
     "国家": {
@@ -4787,7 +4793,6 @@
       "type": "concept",
       "label": "官员",
       "aliases": [
-        "官僚",
         "行政官员",
         "文官"
       ],
@@ -5045,6 +5050,32 @@
       "quality_score": 10,
       "total_refs": 0
     },
+    "he-ti": {
+      "type": "concept",
+      "label": "赫梯",
+      "aliases": [
+        "Hittite",
+        "赫梯人",
+        "赫梯帝国"
+      ],
+      "tags": [
+        "概念",
+        "文明",
+        "安纳托利亚",
+        "文字"
+      ],
+      "path": "he/he-ti.md",
+      "description": "安纳托利亚的古印欧语文明，赫梯象形文字是地中海东部独立发展的书写系统之一",
+      "prose_len": 437,
+      "prose_chars": 403,
+      "h2_count": 3,
+      "pn_count": 4,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
+    },
     "he-tuo": {
       "type": "species",
       "label": "鹤鸵",
@@ -5215,6 +5246,30 @@
       "quality_score": 24,
       "total_refs": 0
     },
+    "hua-mei-cao": {
+      "type": "species",
+      "label": "画眉草",
+      "aliases": [
+        "teff",
+        "Eragrostis tef"
+      ],
+      "tags": [
+        "物种",
+        "作物",
+        "埃塞俄比亚"
+      ],
+      "path": "hu/hua-mei-cao.md",
+      "description": "埃塞俄比亚特有的谷类作物，籽粒极小，戴蒙德用作埃塞俄比亚驯化中心的例证",
+      "prose_len": 426,
+      "prose_chars": 392,
+      "h2_count": 3,
+      "pn_count": 4,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
+    },
     "huang-re-bing": {
       "type": "concept",
       "label": "黄热病",
@@ -5243,8 +5298,6 @@
       "type": "concept",
       "label": "环境决定论",
       "aliases": [
-        "environmental determinism",
-        "地理决定论",
         "地理环境决定论"
       ],
       "tags": [
@@ -5387,9 +5440,7 @@
       "label": "火",
       "aliases": [
         "fire",
-        "用火",
-        "火耕",
-        "火耕农业"
+        "用火"
       ],
       "tags": [
         "技术",
@@ -5506,30 +5557,6 @@
       "quality": "featured",
       "quality_score": 58,
       "total_refs": 1
-    },
-    "环境决定论": {
-      "type": "concept",
-      "label": "环境决定论",
-      "aliases": [
-        "environmental determinism",
-        "地理决定论"
-      ],
-      "tags": [
-        "理论",
-        "方法论",
-        "地理"
-      ],
-      "path": "hu/环境决定论.md",
-      "description": "认为自然环境对人类社会发展具有决定性影响的理论立场",
-      "prose_len": 502,
-      "prose_chars": 488,
-      "h2_count": 1,
-      "pn_count": 2,
-      "wikilink_count": 4,
-      "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 10,
-      "total_refs": 4
     },
     "画谜原则": {
       "type": "concept",
@@ -5722,6 +5749,31 @@
       "quality_score": 12,
       "total_refs": 0
     },
+    "jia-gu-wen": {
+      "type": "concept",
+      "label": "甲骨文",
+      "aliases": [
+        "oracle bone script",
+        "甲骨文文字"
+      ],
+      "tags": [
+        "概念",
+        "文字",
+        "中国",
+        "商朝"
+      ],
+      "path": "ji/jia-gu-wen.md",
+      "description": "中国商代晚期刻写在龟甲兽骨上的最早成体系文字，戴蒙德引为早期文字用于占卜的例证",
+      "prose_len": 409,
+      "prose_chars": 375,
+      "h2_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
+    },
     "jia-jie": {
       "type": "concept",
       "label": "嫁接",
@@ -5745,6 +5797,31 @@
       "quality": "featured",
       "quality_score": 60,
       "total_refs": 1
+    },
+    "jia-tai-ji": {
+      "type": "place",
+      "label": "迦太基",
+      "aliases": [
+        "Carthage",
+        "卡尔塔热"
+      ],
+      "tags": [
+        "地点",
+        "文明",
+        "非洲",
+        "地中海"
+      ],
+      "path": "ji/jia-tai-ji.md",
+      "description": "北非地中海沿岸的腓尼基殖民城邦，字母文字和技术传播的重要节点",
+      "prose_len": 326,
+      "prose_chars": 303,
+      "h2_count": 2,
+      "pn_count": 3,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
     },
     "jialifuniya": {
       "type": "place",
@@ -5772,9 +5849,6 @@
       "type": "concept",
       "label": "金属冶炼",
       "aliases": [
-        "metallurgy",
-        "冶金",
-        "炼铁",
         "炼钢"
       ],
       "tags": [
@@ -6016,10 +6090,7 @@
     "疾病": {
       "type": "concept",
       "label": "疾病",
-      "aliases": [
-        "传染病",
-        "瘟疫"
-      ],
+      "aliases": [],
       "tags": [
         "健康",
         "历史",
@@ -6136,6 +6207,31 @@
       "quality_score": 58,
       "total_refs": 1
     },
+    "脊髓灰质炎": {
+      "type": "disease",
+      "label": "脊髓灰质炎",
+      "aliases": [
+        "polio",
+        "小儿麻痹症",
+        "poliomyelitis"
+      ],
+      "tags": [
+        "疾病",
+        "病毒",
+        "传染病"
+      ],
+      "path": "ji/脊髓灰质炎.md",
+      "description": "病毒性传染病，可导致永久性瘫痪，戴蒙德引用其最早出现年代作为传染病史的证据",
+      "prose_len": 284,
+      "prose_chars": 282,
+      "h2_count": 0,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "近端原因与终极原因": {
       "type": "concept",
       "label": "近端原因与终极原因",
@@ -6216,9 +6312,7 @@
       "type": "concept",
       "label": "集中",
       "aliases": [
-        "权力集中",
-        "集权",
-        "中央集权"
+        "权力集中"
       ],
       "tags": [
         "政治组织",
@@ -6269,8 +6363,7 @@
       "aliases": [
         "military conquest",
         "武装征服",
-        "军事扩张",
-        "征服"
+        "军事扩张"
       ],
       "tags": [
         "战争",
@@ -6309,8 +6402,8 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 11,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 0
     },
     "军队": {
@@ -6412,36 +6505,35 @@
       "quality_score": 8,
       "total_refs": 0
     },
-    "kahamakazhanyi": {
-      "type": "event",
-      "label": "卡哈马卡战役",
+    "ka-fei": {
+      "type": "species",
+      "label": "咖啡",
       "aliases": [
-        "Battle of Cajamarca",
-        "卡哈马卡之战"
+        "coffee",
+        "Coffea"
       ],
       "tags": [
-        "历史",
-        "军事",
-        "美洲"
+        "物种",
+        "作物",
+        "经济作物"
       ],
-      "path": "ka/kahamakazhanyi.md",
-      "description": "皮萨罗俘虏印加皇帝阿塔瓦尔帕的关键战役，戴蒙德用以作为全书开篇的核心案例",
-      "prose_len": 532,
-      "prose_chars": 526,
-      "h2_count": 0,
+      "path": "ka/ka-fei.md",
+      "description": "埃塞俄比亚驯化的提神饮料作物，戴蒙德用作驯化中心的例证",
+      "prose_len": 489,
+      "prose_chars": 454,
+      "h2_count": 3,
       "pn_count": 5,
       "wikilink_count": 0,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 25,
+      "quality": "basic",
+      "quality_score": 9,
       "total_refs": 0
     },
     "卡哈马卡": {
       "type": "place",
       "label": "卡哈马卡",
       "aliases": [
-        "Cajamarca",
-        "卡哈马卡战役"
+        "Cajamarca"
       ],
       "tags": [
         "地理",
@@ -6465,7 +6557,6 @@
       "type": "event",
       "label": "卡哈马卡之战",
       "aliases": [
-        "Battle of Cajamarca",
         "1532年卡哈马卡战役"
       ],
       "tags": [
@@ -6504,8 +6595,8 @@
       "pn_count": 3,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 12,
+      "quality": "standard",
+      "quality_score": 27,
       "total_refs": 12
     },
     "考古学": {
@@ -6598,9 +6689,33 @@
       "pn_count": 4,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 56,
       "total_refs": 0
+    },
+    "ke-sa-ren": {
+      "type": "person",
+      "label": "科萨人",
+      "aliases": [
+        "Xhosa"
+      ],
+      "tags": [
+        "人物",
+        "族群",
+        "非洲南部",
+        "班图人"
+      ],
+      "path": "ke/ke-sa-ren.md",
+      "description": "非洲南部最南端的班图语族群，在菲什河与欧洲殖民者进行了长达175年的战争",
+      "prose_len": 522,
+      "prose_chars": 483,
+      "h2_count": 3,
+      "pn_count": 4,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 10,
+      "total_refs": 1
     },
     "ke-yi-sang-ren": {
       "type": "concept",
@@ -6630,10 +6745,7 @@
     "keertesi": {
       "type": "person",
       "label": "埃尔南·科尔特斯",
-      "aliases": [
-        "Hernán Cortés",
-        "科尔特斯"
-      ],
+      "aliases": [],
       "tags": [
         "人物",
         "探险家",
@@ -6730,8 +6842,7 @@
       "aliases": [
         "science",
         "科学方法",
-        "科学观点",
-        "历史科学"
+        "科学观点"
       ],
       "tags": [
         "方法论",
@@ -6748,13 +6859,12 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 4
+      "total_refs": 1
     },
     "科尔特斯": {
       "type": "person",
       "label": "科尔特斯",
       "aliases": [
-        "埃尔南·科尔特斯",
         "Hernán Cortés"
       ],
       "tags": [
@@ -6966,6 +7076,29 @@
       "quality_score": 7,
       "total_refs": 0
     },
+    "la-bu-la-duo": {
+      "type": "place",
+      "label": "拉布拉多",
+      "aliases": [
+        "Labrador"
+      ],
+      "tags": [
+        "地理",
+        "美洲",
+        "北欧"
+      ],
+      "path": "la/la-bu-la-duo.md",
+      "description": "古挪威人从格陵兰前往美洲途中登陆地，格陵兰殖民地获取木材的来源",
+      "prose_len": 402,
+      "prose_chars": 368,
+      "h2_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
+    },
     "la-jiao": {
       "type": "species",
       "label": "辣椒",
@@ -7135,6 +7268,31 @@
       "quality_score": 56,
       "total_refs": 0
     },
+    "li-chenopodium": {
+      "type": "species",
+      "label": "藜",
+      "aliases": [
+        "chenopodium",
+        "藜属植物",
+        "lamb's quarters"
+      ],
+      "tags": [
+        "物种",
+        "作物",
+        "美洲"
+      ],
+      "path": "li/li-chenopodium.md",
+      "description": "美国东部独立驯化的种子作物，美洲东部农业始祖作物之一",
+      "prose_len": 380,
+      "prose_chars": 346,
+      "h2_count": 3,
+      "pn_count": 3,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
+    },
     "li-ji": {
       "type": "disease",
       "label": "痢疾",
@@ -7228,7 +7386,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 0
+      "total_refs": 3
     },
     "li": {
       "type": "concept",
@@ -7251,8 +7409,8 @@
       "pn_count": 7,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 10,
+      "quality": "featured",
+      "quality_score": 55,
       "total_refs": 0
     },
     "liang-shi-chu-bei": {
@@ -7260,8 +7418,7 @@
       "label": "粮食储备",
       "aliases": [
         "food storage",
-        "余粮",
-        "粮食剩余"
+        "余粮"
       ],
       "tags": [
         "农业",
@@ -7278,31 +7435,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 25,
-      "total_refs": 3
-    },
-    "liangshi-chubei": {
-      "type": "concept",
-      "label": "粮食储备",
-      "aliases": [
-        "food storage",
-        "粮食储存",
-        "余粮储备"
-      ],
-      "tags": [
-        "农业",
-        "社会组织"
-      ],
-      "path": "li/liangshi-chubei.md",
-      "description": "剩余粮食的存储和管理，戴蒙德将其视为人口增长、社会分层和国家形成的基础条件",
-      "prose_len": 605,
-      "prose_chars": 548,
-      "h2_count": 5,
-      "pn_count": 3,
-      "wikilink_count": 4,
-      "blockquote_count": 0,
-      "quality": "featured",
-      "quality_score": 56,
-      "total_refs": 0
+      "total_refs": 2
     },
     "lie-bao": {
       "type": "species",
@@ -7501,7 +7634,6 @@
       "label": "轮子",
       "aliases": [
         "wheel",
-        "车轮",
         "轮轴",
         "有轮车"
       ],
@@ -7554,8 +7686,7 @@
         "单峰驼",
         "双峰驼",
         "骆驼",
-        "camel",
-        "Camelus dromedarius"
+        "camel"
       ],
       "tags": [
         "动物",
@@ -7627,8 +7758,7 @@
       "type": "person",
       "label": "马克思",
       "aliases": [
-        "Karl Marx",
-        "卡尔·马克思"
+        "Karl Marx"
       ],
       "tags": [
         "人物",
@@ -7643,9 +7773,33 @@
       "pn_count": 5,
       "wikilink_count": 0,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 16,
+      "quality": "standard",
+      "quality_score": 31,
       "total_refs": 2
+    },
+    "ma-ya-wen-zi": {
+      "type": "concept",
+      "label": "马雅文字",
+      "aliases": [
+        "Maya script",
+        "马雅象形文字"
+      ],
+      "tags": [
+        "概念",
+        "文字",
+        "中美洲"
+      ],
+      "path": "ma/ma-ya-wen-zi.md",
+      "description": "中美洲印第安人独立发明的书写系统，戴蒙德引为文字独立发明的例证",
+      "prose_len": 477,
+      "prose_chars": 443,
+      "h2_count": 3,
+      "pn_count": 4,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
     },
     "madagascar": {
       "type": "place",
@@ -7673,10 +7827,7 @@
     "makesi": {
       "type": "person",
       "label": "卡尔·马克思",
-      "aliases": [
-        "Karl Marx",
-        "马克思"
-      ],
+      "aliases": [],
       "tags": [
         "学者"
       ],
@@ -7818,8 +7969,7 @@
       "label": "贸易",
       "aliases": [
         "trade",
-        "商贸",
-        "贸易路线"
+        "商贸"
       ],
       "tags": [
         "技术传播",
@@ -8062,9 +8212,7 @@
     "meilaxiniya": {
       "type": "place",
       "label": "美拉尼西亚",
-      "aliases": [
-        "Melanesia"
-      ],
+      "aliases": [],
       "tags": [
         "地区",
         "岛屿"
@@ -8079,30 +8227,6 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 0
-    },
-    "meisuobudamiya": {
-      "type": "place",
-      "label": "美索不达米亚",
-      "aliases": [
-        "Mesopotamia",
-        "两河流域"
-      ],
-      "tags": [
-        "地区",
-        "文明",
-        "河流"
-      ],
-      "path": "me/meisuobudamiya.md",
-      "description": "底格里斯河和幼发拉底河之间的地区，世界上最早的城市和文字发源地",
-      "prose_len": 959,
-      "prose_chars": 902,
-      "h2_count": 4,
-      "pn_count": 7,
-      "wikilink_count": 5,
-      "blockquote_count": 0,
-      "quality": "featured",
-      "quality_score": 59,
       "total_refs": 0
     },
     "meizhoudulifazhan": {
@@ -8197,35 +8321,11 @@
       "quality_score": 57,
       "total_refs": 6
     },
-    "美拉尼西亚": {
-      "type": "place",
-      "label": "美拉尼西亚",
-      "aliases": [
-        "Melanesia"
-      ],
-      "tags": [
-        "太平洋",
-        "岛屿",
-        "地区"
-      ],
-      "path": "me/美拉尼西亚.md",
-      "description": "太平洋西南部的岛屿群，戴蒙德田野工作的重要区域",
-      "prose_len": 346,
-      "prose_chars": 331,
-      "h2_count": 1,
-      "pn_count": 2,
-      "wikilink_count": 3,
-      "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 8,
-      "total_refs": 2
-    },
     "美洲": {
       "type": "place",
       "label": "美洲",
       "aliases": [
         "Americas",
-        "新大陆",
         "the Americas"
       ],
       "tags": [
@@ -8244,7 +8344,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 18
+      "total_refs": 17
     },
     "美洲家鸭": {
       "type": "species",
@@ -8417,36 +8517,37 @@
       "quality_score": 57,
       "total_refs": 2
     },
-    "mianyi": {
+    "miao-yao-yu-xi": {
       "type": "concept",
-      "label": "免疫",
+      "label": "苗瑶语系",
       "aliases": [
-        "immunity",
-        "免疫力",
-        "抵抗力"
+        "Hmong-Mien",
+        "曼-勉语族",
+        "苗瑶语族"
       ],
       "tags": [
-        "生物",
-        "疾病"
+        "概念",
+        "语言",
+        "语系",
+        "东亚",
+        "中国"
       ],
-      "path": "mi/mianyi.md",
-      "description": "人类对传染病的抵抗能力，戴蒙德用以分析欧亚大陆密集人口产生免疫优势的历史后果",
-      "prose_len": 621,
-      "prose_chars": 564,
-      "h2_count": 5,
-      "pn_count": 3,
-      "wikilink_count": 4,
+      "path": "mi/miao-yao-yu-xi.md",
+      "description": "东亚四大语系之一，分布零碎分散于华南至泰国，戴蒙德用以说明语言替代的典型案例",
+      "prose_len": 527,
+      "prose_chars": 485,
+      "h2_count": 3,
+      "pn_count": 5,
+      "wikilink_count": 0,
       "blockquote_count": 0,
-      "quality": "featured",
-      "quality_score": 56,
+      "quality": "basic",
+      "quality_score": 10,
       "total_refs": 0
     },
     "mikelunixiya": {
       "type": "place",
       "label": "密克罗尼西亚",
-      "aliases": [
-        "Micronesia"
-      ],
+      "aliases": [],
       "tags": [
         "地区",
         "岛屿"
@@ -8466,9 +8567,7 @@
     "milu": {
       "type": "place",
       "label": "秘鲁",
-      "aliases": [
-        "Peru"
-      ],
+      "aliases": [],
       "tags": [
         "地区",
         "文明",
@@ -8490,8 +8589,7 @@
       "type": "concept",
       "label": "免疫",
       "aliases": [
-        "immunity",
-        "免疫力"
+        "immunity"
       ],
       "tags": [
         "医学",
@@ -8514,10 +8612,8 @@
       "type": "concept",
       "label": "免疫力",
       "aliases": [
-        "免疫",
         "抵抗力",
-        "病菌免疫",
-        "immunity"
+        "病菌免疫"
       ],
       "tags": [
         "疾病",
@@ -8535,29 +8631,6 @@
       "quality": "featured",
       "quality_score": 60,
       "total_refs": 6
-    },
-    "密克罗尼西亚": {
-      "type": "place",
-      "label": "密克罗尼西亚",
-      "aliases": [
-        "Micronesia"
-      ],
-      "tags": [
-        "太平洋",
-        "岛屿",
-        "地区"
-      ],
-      "path": "mi/密克罗尼西亚.md",
-      "description": "太平洋西北部的小岛群，主要包括关岛、帕劳和密克罗尼西亚联邦等",
-      "prose_len": 445,
-      "prose_chars": 431,
-      "h2_count": 1,
-      "pn_count": 2,
-      "wikilink_count": 4,
-      "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 9,
-      "total_refs": 3
     },
     "弥诺斯文明": {
       "type": "event",
@@ -8659,29 +8732,6 @@
       "quality_score": 59,
       "total_refs": 1
     },
-    "秘鲁": {
-      "type": "place",
-      "label": "秘鲁",
-      "aliases": [
-        "Peru"
-      ],
-      "tags": [
-        "南美洲",
-        "文明",
-        "地理"
-      ],
-      "path": "mi/秘鲁.md",
-      "description": "南美洲西部国家，印加帝国所在地，安第斯文明的发源地",
-      "prose_len": 483,
-      "prose_chars": 469,
-      "h2_count": 1,
-      "pn_count": 2,
-      "wikilink_count": 4,
-      "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 9,
-      "total_refs": 2
-    },
     "绵羊": {
       "type": "species",
       "label": "绵羊",
@@ -8777,6 +8827,31 @@
       "affiliation": "查塔姆群岛",
       "total_refs": 6
     },
+    "mo-wo-er-di-guo": {
+      "type": "event",
+      "label": "莫卧儿帝国",
+      "aliases": [
+        "Mughal Empire",
+        "莫卧儿"
+      ],
+      "tags": [
+        "事件",
+        "帝国",
+        "印度",
+        "伊斯兰"
+      ],
+      "path": "mo/mo-wo-er-di-guo.md",
+      "description": "印度次大陆的伊斯兰帝国，戴蒙德引为通过征服形成的多语言民族大融合的帝国案例",
+      "prose_len": 439,
+      "prose_chars": 399,
+      "h2_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
+    },
     "moerzibigang": {
       "type": "place",
       "label": "莫尔兹比港",
@@ -8796,16 +8871,14 @@
       "pn_count": 2,
       "wikilink_count": 0,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 10,
+      "quality": "standard",
+      "quality_score": 25,
       "total_refs": 1
     },
     "moxige": {
       "type": "place",
       "label": "墨西哥",
-      "aliases": [
-        "Mexico"
-      ],
+      "aliases": [],
       "tags": [
         "地区",
         "文明",
@@ -8822,29 +8895,6 @@
       "quality": "featured",
       "quality_score": 59,
       "total_refs": 0
-    },
-    "墨西哥": {
-      "type": "place",
-      "label": "墨西哥",
-      "aliases": [
-        "Mexico"
-      ],
-      "tags": [
-        "北美洲",
-        "文明",
-        "殖民"
-      ],
-      "path": "mo/墨西哥.md",
-      "description": "北美洲南部国家，阿兹特克帝国所在地，西班牙殖民的重要目标",
-      "prose_len": 445,
-      "prose_chars": 431,
-      "h2_count": 1,
-      "pn_count": 2,
-      "wikilink_count": 4,
-      "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 9,
-      "total_refs": 5
     },
     "木薯": {
       "type": "species",
@@ -8876,7 +8926,6 @@
       "label": "牧人",
       "aliases": [
         "牧民",
-        "游牧民族",
         "游牧者"
       ],
       "tags": [
@@ -8920,8 +8969,6 @@
       "type": "concept",
       "label": "南岛语系",
       "aliases": [
-        "Austronesian",
-        "南岛语族",
         "马来-波利尼西亚语系"
       ],
       "tags": [
@@ -8937,8 +8984,8 @@
       "pn_count": 5,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 11,
+      "quality": "featured",
+      "quality_score": 56,
       "total_refs": 3
     },
     "nan-gua": {
@@ -8966,28 +9013,28 @@
       "quality_score": 9,
       "total_refs": 2
     },
-    "nandaoren-kuozhang": {
-      "type": "event",
-      "label": "南岛人扩张",
+    "nan-ya-yu-xi": {
+      "type": "concept",
+      "label": "南亚语系",
       "aliases": [
-        "Austronesian expansion",
-        "南岛语系扩张",
-        "南岛人大迁徙"
+        "Austroasiatic",
+        "南亚语系"
       ],
       "tags": [
-        "迁徙",
-        "征服"
+        "概念",
+        "语言",
+        "亚洲"
       ],
-      "path": "na/nandaoren-kuozhang.md",
-      "description": "南岛语系民族从台湾出发向整个太平洋和印度洋的大规模迁徙，戴蒙德用以分析粮食生产与人口扩张的关系",
-      "prose_len": 618,
-      "prose_chars": 562,
-      "h2_count": 5,
-      "pn_count": 4,
-      "wikilink_count": 4,
+      "path": "na/nan-ya-yu-xi.md",
+      "description": "东亚四大语系之一，包括越南语和高棉语，分布从越南经马来半岛到印度",
+      "prose_len": 319,
+      "prose_chars": 293,
+      "h2_count": 2,
+      "pn_count": 3,
+      "wikilink_count": 0,
       "blockquote_count": 0,
-      "quality": "featured",
-      "quality_score": 56,
+      "quality": "basic",
+      "quality_score": 8,
       "total_refs": 0
     },
     "nanmeizhou": {
@@ -9064,7 +9111,6 @@
       "type": "concept",
       "label": "南北轴线与东西轴线",
       "aliases": [
-        "大陆轴线",
         "轴线方向"
       ],
       "tags": [
@@ -9136,8 +9182,7 @@
       "label": "南岛语族扩张",
       "aliases": [
         "Austronesian Expansion",
-        "波利尼西亚扩张",
-        "南岛人扩张"
+        "波利尼西亚扩张"
       ],
       "tags": [
         "人口迁移",
@@ -9271,6 +9316,29 @@
       "quality_score": 57,
       "total_refs": 0
     },
+    "niu-fen-lan": {
+      "type": "place",
+      "label": "纽芬兰",
+      "aliases": [
+        "Newfoundland"
+      ],
+      "tags": [
+        "地理",
+        "美洲",
+        "北欧"
+      ],
+      "path": "ni/niu-fen-lan.md",
+      "description": "古挪威人在美洲唯一的考古遗址所在地，戴蒙德用作北欧殖民极限的例证",
+      "prose_len": 439,
+      "prose_chars": 405,
+      "h2_count": 3,
+      "pn_count": 4,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
+    },
     "niu-wen": {
       "type": "concept",
       "label": "牛瘟",
@@ -9293,30 +9361,6 @@
       "quality": "basic",
       "quality_score": 10,
       "total_refs": 0
-    },
-    "尼罗河": {
-      "type": "place",
-      "label": "尼罗河",
-      "aliases": [
-        "Nile",
-        "尼罗河"
-      ],
-      "tags": [
-        "河流",
-        "非洲",
-        "地理"
-      ],
-      "path": "ni/尼罗河.md",
-      "description": "非洲最长的河流，古埃及文明的命脉，在人类文明史中具有重要地位",
-      "prose_len": 423,
-      "prose_chars": 409,
-      "h2_count": 1,
-      "pn_count": 2,
-      "wikilink_count": 4,
-      "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 9,
-      "total_refs": 4
     },
     "牛": {
       "type": "species",
@@ -9420,9 +9464,7 @@
       "type": "concept",
       "label": "农业起源",
       "aliases": [
-        "origins of agriculture",
-        "农业革命",
-        "新石器时代革命"
+        "origins of agriculture"
       ],
       "tags": [
         "农业",
@@ -9484,8 +9526,8 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 11,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 3
     },
     "nu-li-mao-yi": {
@@ -9518,7 +9560,6 @@
       "type": "concept",
       "label": "奴隶",
       "aliases": [
-        "奴隶制",
         "奴隶劳动",
         "奴役"
       ],
@@ -9530,14 +9571,14 @@
       ],
       "path": "nu/奴隶.md",
       "description": "被强制剥夺人身自由、被他人占有的劳动者——伴随经济专业化而出现的社会制度",
-      "prose_len": 613,
-      "prose_chars": 502,
-      "h2_count": 5,
-      "pn_count": 5,
+      "prose_len": 1262,
+      "prose_chars": 1139,
+      "h2_count": 6,
+      "pn_count": 10,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 11,
+      "quality": "featured",
+      "quality_score": 62,
       "total_refs": 0
     },
     "奴隶制": {
@@ -9707,10 +9748,7 @@
     "pisaluo": {
       "type": "person",
       "label": "弗朗西斯科·皮萨罗",
-      "aliases": [
-        "Francisco Pizarro",
-        "皮萨罗"
-      ],
+      "aliases": [],
       "tags": [
         "人物",
         "探险家",
@@ -9782,7 +9820,6 @@
       "type": "person",
       "label": "皮萨罗",
       "aliases": [
-        "弗朗西斯科·皮萨罗",
         "Francisco Pizarro"
       ],
       "tags": [
@@ -9847,6 +9884,30 @@
       "quality_score": 61,
       "total_refs": 3
     },
+    "qie-luo-ji-ren": {
+      "type": "person",
+      "label": "切罗基人",
+      "aliases": [
+        "Cherokee",
+        "切罗基族"
+      ],
+      "tags": [
+        "人物",
+        "北美印第安人",
+        "酋长制"
+      ],
+      "path": "qi/qie-luo-ji-ren.md",
+      "description": "北美东南部印第安人，发明切罗基音节文字，在外力威胁下从酋长管辖地走向国家形成的典型案例",
+      "prose_len": 442,
+      "prose_chars": 417,
+      "h2_count": 2,
+      "pn_count": 4,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
+    },
     "qin-chao": {
       "type": "event",
       "label": "秦朝",
@@ -9872,28 +9933,28 @@
       "quality_score": 10,
       "total_refs": 1
     },
-    "qiuzhangzhi": {
-      "type": "concept",
-      "label": "酋长制",
+    "qin-shi-huang": {
+      "type": "person",
+      "label": "秦始皇",
       "aliases": [
-        "chiefdom",
-        "酋邦",
-        "酋长社会"
+        "Qin Shi Huang",
+        "嬴政"
       ],
       "tags": [
-        "社会组织",
-        "演化"
+        "人物",
+        "中国历史",
+        "皇帝"
       ],
-      "path": "qi/qiuzhangzhi.md",
-      "description": "介于部落与国家之间的社会形态，戴蒙德用以论证社会组织复杂化的演进路径",
-      "prose_len": 575,
-      "prose_chars": 519,
-      "h2_count": 5,
-      "pn_count": 4,
-      "wikilink_count": 3,
+      "path": "qi/qin-shi-huang.md",
+      "description": "中国第一位皇帝，公元前221年统一中国，推行书同文、车同轨，引为政治统一推动文化统一的典型案例",
+      "prose_len": 318,
+      "prose_chars": 294,
+      "h2_count": 2,
+      "pn_count": 2,
+      "wikilink_count": 0,
       "blockquote_count": 0,
-      "quality": "featured",
-      "quality_score": 55,
+      "quality": "basic",
+      "quality_score": 8,
       "total_refs": 0
     },
     "亲属关系": {
@@ -10000,8 +10061,7 @@
       "aliases": [
         "climate",
         "气候条件",
-        "地中海气候",
-        "气候变化"
+        "地中海气候"
       ],
       "tags": [
         "地理决定论",
@@ -10048,9 +10108,7 @@
       "type": "concept",
       "label": "酋长",
       "aliases": [
-        "酋长制",
-        "酋长管辖地",
-        "酋邦"
+        "酋长管辖地"
       ],
       "tags": [
         "社会组织",
@@ -10090,8 +10148,8 @@
       "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 11,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 13
     },
     "青铜": {
@@ -10188,29 +10246,6 @@
       "quality_score": 9,
       "total_refs": 0
     },
-    "renkou-midu": {
-      "type": "concept",
-      "label": "人口密度",
-      "aliases": [
-        "population density"
-      ],
-      "tags": [
-        "社会组织",
-        "农业",
-        "地理"
-      ],
-      "path": "re/renkou-midu.md",
-      "description": "单位面积的人口数量，戴蒙德用以说明粮食生产与社会复杂化、传染病传播之间的关联",
-      "prose_len": 642,
-      "prose_chars": 585,
-      "h2_count": 5,
-      "pn_count": 3,
-      "wikilink_count": 4,
-      "blockquote_count": 0,
-      "quality": "featured",
-      "quality_score": 56,
-      "total_refs": 0
-    },
     "人口": {
       "type": "concept",
       "label": "人口",
@@ -10249,15 +10284,14 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 11,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 0
     },
     "人口密度": {
       "type": "concept",
       "label": "人口密度",
       "aliases": [
-        "人口压力",
         "population density"
       ],
       "tags": [
@@ -10306,7 +10340,6 @@
       "type": "concept",
       "label": "人口稠密",
       "aliases": [
-        "人口密度",
         "人口密集"
       ],
       "tags": [
@@ -10439,8 +10472,8 @@
       "pn_count": 8,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 12,
+      "quality": "standard",
+      "quality_score": 27,
       "total_refs": 4
     },
     "人类进化": {
@@ -10463,8 +10496,8 @@
       "pn_count": 5,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 10,
+      "quality": "standard",
+      "quality_score": 25,
       "total_refs": 2
     },
     "人类首次定居澳大利亚": {
@@ -10541,6 +10574,30 @@
       "quality_score": 55,
       "total_refs": 6
     },
+    "绒鼠": {
+      "type": "species",
+      "label": "绒鼠",
+      "aliases": [
+        "chinchilla",
+        "Chinchilla"
+      ],
+      "tags": [
+        "动物",
+        "驯化",
+        "毛皮"
+      ],
+      "path": "ro/绒鼠.md",
+      "description": "南美洲为毛皮而驯养的小型啮齿目哺乳动物，近代驯化的代表",
+      "prose_len": 234,
+      "prose_chars": 232,
+      "h2_count": 0,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "如尼文": {
       "type": "concept",
       "label": "如尼文",
@@ -10566,31 +10623,6 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 8,
-      "total_refs": 0
-    },
-    "sa-he-le-di-dai": {
-      "type": "place",
-      "label": "萨赫勒地带",
-      "aliases": [
-        "Sahel",
-        "萨赫勒",
-        "萨赫勒地区"
-      ],
-      "tags": [
-        "地理",
-        "非洲",
-        "农业"
-      ],
-      "path": "sa/sa-he-le-di-dai.md",
-      "description": "撒哈拉沙漠南沿的半干旱地带，横跨非洲大陆的过渡区域，是非洲早期农业独立起源地之一",
-      "prose_len": 986,
-      "prose_chars": 921,
-      "h2_count": 5,
-      "pn_count": 7,
-      "wikilink_count": 4,
-      "blockquote_count": 0,
-      "quality": "featured",
-      "quality_score": 59,
       "total_refs": 0
     },
     "sa-mo-ya": {
@@ -10658,8 +10690,33 @@
       "pn_count": 4,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 56,
+      "total_refs": 0
+    },
+    "sai-pu-lu-si": {
+      "type": "place",
+      "label": "塞浦路斯",
+      "aliases": [
+        "Cyprus",
+        "塞浦路斯岛"
+      ],
+      "tags": [
+        "地点",
+        "岛屿",
+        "欧洲",
+        "地中海"
+      ],
+      "path": "sa/sai-pu-lu-si.md",
+      "description": "地中海第三大岛，新月沃地作物最早向外传播至的地中海岛屿之一",
+      "prose_len": 295,
+      "prose_chars": 272,
+      "h2_count": 2,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
       "total_refs": 0
     },
     "塞阔雅": {
@@ -10811,8 +10868,7 @@
       "type": "concept",
       "label": "闪语族",
       "aliases": [
-        "Semitic",
-        "闪米特语族"
+        "Semitic"
       ],
       "tags": [
         "语言",
@@ -10831,11 +10887,35 @@
       "quality_score": 9,
       "total_refs": 1
     },
+    "shang-chao": {
+      "type": "event",
+      "label": "商朝",
+      "aliases": [
+        "Shang dynasty",
+        "商代",
+        "殷商"
+      ],
+      "tags": [
+        "事件",
+        "中国历史",
+        "王朝"
+      ],
+      "path": "sh/shang-chao.md",
+      "description": "中国最早有文字记载的王朝，青铜文明鼎盛期，甲骨文的创造者",
+      "prose_len": 320,
+      "prose_chars": 292,
+      "h2_count": 2,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
+    },
     "she-hui-fu-za-hua": {
       "type": "concept",
       "label": "社会复杂化",
       "aliases": [
-        "social complexity",
         "社会演化"
       ],
       "tags": [
@@ -10851,9 +10931,34 @@
       "pn_count": 2,
       "wikilink_count": 0,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 10,
+      "quality": "standard",
+      "quality_score": 25,
       "total_refs": 1
+    },
+    "she-niu": {
+      "type": "species",
+      "label": "麝牛",
+      "aliases": [
+        "musk ox",
+        "Ovibos moschatus"
+      ],
+      "tags": [
+        "物种",
+        "动物",
+        "哺乳动物",
+        "北美洲"
+      ],
+      "path": "sh/she-niu.md",
+      "description": "北极地区的大型哺乳动物，19至20世纪驯化实验取得了有限成功的案例",
+      "prose_len": 301,
+      "prose_chars": 278,
+      "h2_count": 2,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
     },
     "sheng-tai-zi-sha": {
       "type": "concept",
@@ -11104,8 +11209,6 @@
       "type": "concept",
       "label": "伤寒",
       "aliases": [
-        "斑疹伤寒",
-        "typhus",
         "typhoid"
       ],
       "tags": [
@@ -11130,8 +11233,7 @@
       "label": "剩余粮食",
       "aliases": [
         "粮食剩余",
-        "农业剩余",
-        "粮食储备"
+        "农业剩余"
       ],
       "tags": [
         "农业",
@@ -11148,7 +11250,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 13
+      "total_refs": 14
     },
     "商人": {
       "type": "concept",
@@ -11398,8 +11500,6 @@
       "type": "concept",
       "label": "牲口",
       "aliases": [
-        "牲畜",
-        "家畜",
         "役畜"
       ],
       "tags": [
@@ -11422,8 +11522,7 @@
       "type": "concept",
       "label": "狩猎",
       "aliases": [
-        "打猎",
-        "狩猎采集"
+        "打猎"
       ],
       "tags": [
         "经济",
@@ -11447,7 +11546,6 @@
       "label": "狩猎采集",
       "aliases": [
         "狩猎采集者",
-        "采集狩猎",
         "hunter-gatherer"
       ],
       "tags": [
@@ -11613,8 +11711,8 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 10,
+      "quality": "standard",
+      "quality_score": 25,
       "total_refs": 8
     },
     "税收": {
@@ -11811,9 +11909,7 @@
     "taiwan": {
       "type": "place",
       "label": "台湾",
-      "aliases": [
-        "Taiwan"
-      ],
+      "aliases": [],
       "tags": [
         "地区",
         "岛屿",
@@ -11835,7 +11931,6 @@
       "type": "concept",
       "label": "碳14测年",
       "aliases": [
-        "radiocarbon dating",
         "放射性碳定年",
         "C14测年"
       ],
@@ -11904,30 +11999,6 @@
       "quality": "basic",
       "quality_score": 9,
       "total_refs": 1
-    },
-    "台湾": {
-      "type": "place",
-      "label": "台湾",
-      "aliases": [
-        "Taiwan",
-        "台湾岛"
-      ],
-      "tags": [
-        "亚洲",
-        "岛屿",
-        "太平洋"
-      ],
-      "path": "ta/台湾.md",
-      "description": "东亚西太平洋上的岛屿，在南岛人扩张的史前迁徙中具有关键地位",
-      "prose_len": 444,
-      "prose_chars": 430,
-      "h2_count": 1,
-      "pn_count": 2,
-      "wikilink_count": 4,
-      "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 9,
-      "total_refs": 11
     },
     "塔斯马尼亚": {
       "type": "place",
@@ -12220,6 +12291,33 @@
       "quality": "featured",
       "quality_score": 57,
       "total_refs": 1
+    },
+    "tuo-lu": {
+      "type": "species",
+      "label": "驼鹿",
+      "aliases": [
+        "moose",
+        "麋",
+        "elk",
+        "Alces alces"
+      ],
+      "tags": [
+        "物种",
+        "动物",
+        "哺乳动物",
+        "欧亚大陆"
+      ],
+      "path": "tu/tuo-lu.md",
+      "description": "欧亚大陆大型鹿科动物，戴蒙德列举的现代驯化实验对象之一",
+      "prose_len": 352,
+      "prose_chars": 329,
+      "h2_count": 2,
+      "pn_count": 3,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
     },
     "tuo-niao": {
       "type": "species",
@@ -12708,6 +12806,30 @@
       "quality_score": 60,
       "total_refs": 1
     },
+    "wu-er-fei-la-si": {
+      "type": "person",
+      "label": "乌尔斐拉斯",
+      "aliases": [
+        "Ulfilas",
+        "乌尔斐拉斯主教"
+      ],
+      "tags": [
+        "人物",
+        "文字",
+        "欧洲"
+      ],
+      "path": "wu/wu-er-fei-la-si.md",
+      "description": "西哥特人传教士，创造了哥特字母，戴蒙德用作字母借用与改造的例证",
+      "prose_len": 425,
+      "prose_chars": 391,
+      "h2_count": 3,
+      "pn_count": 4,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
+    },
     "wu-fan-shu": {
       "type": "species",
       "label": "乌饭树",
@@ -12890,6 +13012,31 @@
       "quality_score": 56,
       "total_refs": 0
     },
+    "xi-gua": {
+      "type": "species",
+      "label": "西瓜",
+      "aliases": [
+        "watermelon",
+        "Citrullus lanatus"
+      ],
+      "tags": [
+        "物种",
+        "植物",
+        "作物",
+        "水果"
+      ],
+      "path": "xi/xi-gua.md",
+      "description": "非洲驯化的葫芦科水果，戴蒙德列举的多用途栽培作物之一",
+      "prose_len": 269,
+      "prose_chars": 246,
+      "h2_count": 2,
+      "pn_count": 4,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "xi-ke-suo-si": {
       "type": "event",
       "label": "希克索斯",
@@ -13005,8 +13152,8 @@
       "pn_count": 2,
       "wikilink_count": 0,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 10,
+      "quality": "standard",
+      "quality_score": 25,
       "total_refs": 1
     },
     "xia-chao": {
@@ -13086,9 +13233,7 @@
       "type": "concept",
       "label": "乡村",
       "aliases": [
-        "village",
-        "村落",
-        "定居点"
+        "village"
       ],
       "tags": [
         "社会",
@@ -13178,30 +13323,6 @@
       "quality": "featured",
       "quality_score": 58,
       "total_refs": 3
-    },
-    "xiangxing-wenzi": {
-      "type": "concept",
-      "label": "象形文字",
-      "aliases": [
-        "hieroglyphics",
-        "埃及象形文字",
-        "hieroglyphs"
-      ],
-      "tags": [
-        "语言",
-        "技术"
-      ],
-      "path": "xi/xiangxing-wenzi.md",
-      "description": "古埃及使用的文字系统，戴蒙德用以论证农业社会对文字的催生和文字的独立起源",
-      "prose_len": 584,
-      "prose_chars": 527,
-      "h2_count": 5,
-      "pn_count": 3,
-      "wikilink_count": 4,
-      "blockquote_count": 0,
-      "quality": "featured",
-      "quality_score": 55,
-      "total_refs": 0
     },
     "xiao-bing-chuan-qi": {
       "type": "event",
@@ -13343,29 +13464,6 @@
       "quality_score": 60,
       "total_refs": 6
     },
-    "xiexing-wenzi": {
-      "type": "concept",
-      "label": "楔形文字",
-      "aliases": [
-        "cuneiform",
-        "苏美尔楔形文字"
-      ],
-      "tags": [
-        "语言",
-        "技术"
-      ],
-      "path": "xi/xiexing-wenzi.md",
-      "description": "最早的文字系统之一，由苏美尔人发明，戴蒙德用以论证文字与粮食生产之间的衍生关系",
-      "prose_len": 584,
-      "prose_chars": 527,
-      "h2_count": 5,
-      "pn_count": 3,
-      "wikilink_count": 4,
-      "blockquote_count": 0,
-      "quality": "featured",
-      "quality_score": 55,
-      "total_refs": 0
-    },
     "ximalaya": {
       "type": "place",
       "label": "喜马拉雅",
@@ -13411,7 +13509,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 26,
-      "total_refs": 0
+      "total_refs": 2
     },
     "xin-xi-lan": {
       "type": "place",
@@ -13433,8 +13531,8 @@
       "pn_count": 6,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 11,
+      "quality": "featured",
+      "quality_score": 56,
       "total_refs": 0
     },
     "xing-ren": {
@@ -13467,8 +13565,6 @@
       "aliases": [
         "apricot",
         "Prunus armeniaca",
-        "杏仁",
-        "巴旦杏",
         "apricot"
       ],
       "tags": [
@@ -13540,8 +13636,7 @@
       "type": "place",
       "label": "西藏",
       "aliases": [
-        "Tibet",
-        "青藏高原"
+        "Tibet"
       ],
       "tags": [
         "高原",
@@ -13586,8 +13681,6 @@
       "type": "species",
       "label": "小麦",
       "aliases": [
-        "二粒小麦",
-        "单粒小麦",
         "wheat",
         "Triticum"
       ],
@@ -13765,7 +13858,6 @@
       "label": "行政",
       "aliases": [
         "行政管理",
-        "官僚制",
         "中央行政"
       ],
       "tags": [
@@ -13891,8 +13983,6 @@
       "type": "concept",
       "label": "驯化",
       "aliases": [
-        "植物驯化",
-        "动物驯化",
         "domestication"
       ],
       "tags": [
@@ -13910,7 +14000,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 61
+      "total_refs": 59
     },
     "驯鹿": {
       "type": "species",
@@ -14279,9 +14369,7 @@
     "冶炼": {
       "type": "concept",
       "label": "冶炼",
-      "aliases": [
-        "冶金"
-      ],
+      "aliases": [],
       "tags": [
         "技术",
         "工业",
@@ -14295,8 +14383,8 @@
       "pn_count": 4,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 11,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 0
     },
     "冶金": {
@@ -14523,9 +14611,7 @@
       "type": "concept",
       "label": "遗传学",
       "aliases": [
-        "genetics",
-        "基因学",
-        "基因"
+        "基因学"
       ],
       "tags": [
         "生物",
@@ -14572,7 +14658,6 @@
       "type": "place",
       "label": "印度",
       "aliases": [
-        "India",
         "印度次大陆"
       ],
       "tags": [
@@ -14596,7 +14681,6 @@
       "type": "place",
       "label": "印度河",
       "aliases": [
-        "Indus River",
         "印度河流域"
       ],
       "tags": [
@@ -14620,7 +14704,6 @@
       "type": "place",
       "label": "印度尼西亚",
       "aliases": [
-        "Indonesia",
         "马来群岛"
       ],
       "tags": [
@@ -14687,30 +14770,6 @@
       "quality_score": 10,
       "total_refs": 0
     },
-    "ying-zui-dou": {
-      "type": "species",
-      "label": "鹰嘴豆",
-      "aliases": [
-        "chickpea",
-        "Cicer arietinum"
-      ],
-      "tags": [
-        "作物",
-        "豆类",
-        "新月沃地"
-      ],
-      "path": "yi/ying-zui-dou.md",
-      "description": "新月沃地驯化的重要豆类，是人类最早种植的8大始祖作物之一，与小麦和大麦构成早期农业体系的关键组合",
-      "prose_len": 423,
-      "prose_chars": 350,
-      "h2_count": 4,
-      "pn_count": 3,
-      "wikilink_count": 5,
-      "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 9,
-      "total_refs": 0
-    },
     "一年生植物": {
       "type": "concept",
       "label": "一年生植物",
@@ -14753,17 +14812,14 @@
       "pn_count": 4,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 10,
+      "quality": "standard",
+      "quality_score": 25,
       "total_refs": 0
     },
     "印刷": {
       "type": "concept",
       "label": "印刷",
-      "aliases": [
-        "印刷术",
-        "活字印刷"
-      ],
+      "aliases": [],
       "tags": [
         "技术",
         "文化",
@@ -14831,76 +14887,29 @@
       "quality_score": 26,
       "total_refs": 8
     },
-    "印度": {
-      "type": "place",
-      "label": "印度",
+    "印度野牛": {
+      "type": "species",
+      "label": "印度野牛",
       "aliases": [
-        "India"
+        "gaur",
+        "Bos gaurus"
       ],
       "tags": [
-        "亚洲",
-        "文明",
+        "动物",
+        "驯化",
         "南亚"
       ],
-      "path": "yi/印度.md",
-      "description": "南亚次大陆的古老文明，在作物传播和人类迁徙中具有重要地位",
-      "prose_len": 686,
-      "prose_chars": 657,
-      "h2_count": 2,
-      "pn_count": 5,
-      "wikilink_count": 4,
-      "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 11,
-      "total_refs": 7
-    },
-    "印度尼西亚": {
-      "type": "place",
-      "label": "印度尼西亚",
-      "aliases": [
-        "Indonesia",
-        "印尼"
-      ],
-      "tags": [
-        "亚洲",
-        "太平洋",
-        "岛屿"
-      ],
-      "path": "yi/印度尼西亚.md",
-      "description": "东南亚和太平洋之间的群岛国家，在南岛人扩张中扮演重要角色",
-      "prose_len": 434,
-      "prose_chars": 420,
-      "h2_count": 1,
+      "path": "yi/印度野牛.md",
+      "description": "南亚驯化的大型牛科哺乳动物，戴蒙德列出的九种次要驯化动物之一",
+      "prose_len": 244,
+      "prose_chars": 242,
+      "h2_count": 0,
       "pn_count": 2,
-      "wikilink_count": 4,
+      "wikilink_count": 0,
       "blockquote_count": 0,
       "quality": "basic",
-      "quality_score": 9,
-      "total_refs": 6
-    },
-    "印度河": {
-      "type": "place",
-      "label": "印度河",
-      "aliases": [
-        "Indus River",
-        "印度河谷"
-      ],
-      "tags": [
-        "河流",
-        "亚洲",
-        "文明"
-      ],
-      "path": "yi/印度河.md",
-      "description": "南亚重要河流，印度河流域孕育了哈拉帕文明，也是作物传播的通道",
-      "prose_len": 480,
-      "prose_chars": 466,
-      "h2_count": 1,
-      "pn_count": 2,
-      "wikilink_count": 4,
-      "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 9,
-      "total_refs": 3
+      "quality_score": 7,
+      "total_refs": 0
     },
     "印欧语系": {
       "type": "concept",
@@ -14924,11 +14933,34 @@
       "quality_score": 26,
       "total_refs": 3
     },
+    "硬毛鼠": {
+      "type": "species",
+      "label": "硬毛鼠",
+      "aliases": [
+        "hutia",
+        "Capromyidae"
+      ],
+      "tags": [
+        "动物",
+        "驯化",
+        "加勒比海"
+      ],
+      "path": "yi/硬毛鼠.md",
+      "description": "加勒比海岛屿上的啮齿目动物，曾被当地原住民驯化作为食物来源",
+      "prose_len": 217,
+      "prose_chars": 215,
+      "h2_count": 0,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "移民": {
       "type": "concept",
       "label": "移民",
       "aliases": [
-        "人口迁徙",
         "史前迁徙",
         "移民浪潮"
       ],
@@ -14949,36 +14981,10 @@
       "quality_score": 58,
       "total_refs": 5
     },
-    "罂粟": {
-      "type": "species",
-      "label": "罂粟",
-      "aliases": [
-        "poppy",
-        "鸦片罂粟"
-      ],
-      "tags": [
-        "植物",
-        "农作物",
-        "驯化种"
-      ],
-      "path": "yi/罂粟.md",
-      "description": "地中海地区驯化的油料和药用植物",
-      "prose_len": 300,
-      "prose_chars": 267,
-      "h2_count": 3,
-      "pn_count": 2,
-      "wikilink_count": 3,
-      "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 8,
-      "total_refs": 0
-    },
     "遗传": {
       "type": "concept",
       "label": "遗传",
       "aliases": [
-        "遗传学",
-        "基因",
         "遗传差异"
       ],
       "tags": [
@@ -14999,30 +15005,6 @@
       "quality_score": 60,
       "total_refs": 4
     },
-    "遗传学": {
-      "type": "concept",
-      "label": "遗传学",
-      "aliases": [
-        "genetics",
-        "基因"
-      ],
-      "tags": [
-        "科学",
-        "生物学",
-        "方法"
-      ],
-      "path": "yi/遗传学.md",
-      "description": "研究基因和遗传变异的生物学分支，在人类迁徙和历史研究中提供关键证据",
-      "prose_len": 482,
-      "prose_chars": 468,
-      "h2_count": 1,
-      "pn_count": 4,
-      "wikilink_count": 4,
-      "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 9,
-      "total_refs": 3
-    },
     "鹰嘴豆": {
       "type": "species",
       "label": "鹰嘴豆",
@@ -15037,14 +15019,14 @@
       ],
       "path": "yi/鹰嘴豆.md",
       "description": "新月沃地最早驯化的豆类之一，与豌豆和兵豆共同构成早期农业的蛋白质来源",
-      "prose_len": 545,
-      "prose_chars": 486,
-      "h2_count": 5,
-      "pn_count": 4,
+      "prose_len": 872,
+      "prose_chars": 796,
+      "h2_count": 6,
+      "pn_count": 7,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 10,
+      "quality": "featured",
+      "quality_score": 58,
       "total_refs": 3
     },
     "you-dai-dong-wu": {
@@ -15286,8 +15268,8 @@
       "pn_count": 4,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 10,
+      "quality": "featured",
+      "quality_score": 55,
       "total_refs": 2
     },
     "语系": {
@@ -15368,7 +15350,6 @@
       "label": "语言学",
       "aliases": [
         "linguistics",
-        "历史语言学",
         "语言分类"
       ],
       "tags": [
@@ -15513,8 +15494,7 @@
       "label": "战马",
       "aliases": [
         "warhorse",
-        "军马",
-        "骑兵"
+        "军马"
       ],
       "tags": [
         "军事",
@@ -15553,8 +15533,8 @@
       "pn_count": 4,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 25,
+      "quality": "featured",
+      "quality_score": 55,
       "total_refs": 0
     },
     "zheng-he": {
@@ -15581,7 +15561,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 2
+      "total_refs": 1
     },
     "zheng-qi-ji": {
       "type": "concept",
@@ -15621,40 +15601,15 @@
       ],
       "path": "zh/zheng-zhi-fen-lie.md",
       "description": "欧洲政治分裂促进创新竞争的机制，戴蒙德用以解释欧洲崛起的关键因素",
-      "prose_len": 420,
-      "prose_chars": 384,
-      "h2_count": 3,
-      "pn_count": 2,
-      "wikilink_count": 3,
-      "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 9,
-      "total_refs": 2
-    },
-    "zhengfu": {
-      "type": "concept",
-      "label": "征服",
-      "aliases": [
-        "conquest",
-        "军事征服",
-        "扩张"
-      ],
-      "tags": [
-        "历史",
-        "政治",
-        "军事"
-      ],
-      "path": "zh/zhengfu.md",
-      "description": "通过军事力量征服其他社会的过程，戴蒙德用以分析文明碰撞中技术差距的放大效应",
-      "prose_len": 501,
-      "prose_chars": 495,
-      "h2_count": 0,
-      "pn_count": 5,
+      "prose_len": 1088,
+      "prose_chars": 1010,
+      "h2_count": 5,
+      "pn_count": 11,
       "wikilink_count": 0,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 10,
-      "total_refs": 0
+      "quality": "featured",
+      "quality_score": 60,
+      "total_refs": 2
     },
     "zhi-li-ren": {
       "type": "concept",
@@ -15678,28 +15633,6 @@
       "quality": "featured",
       "quality_score": 56,
       "total_refs": 4
-    },
-    "zhi-liang-suo-yin": {
-      "type": "overview",
-      "label": "质量索引",
-      "aliases": [
-        "quality index"
-      ],
-      "tags": [
-        "索引",
-        "质量评估"
-      ],
-      "path": "zh/zhi-liang-suo-yin.md",
-      "description": "按质量档位分组的页面索引，用于追踪内容建设进度",
-      "prose_len": 407,
-      "prose_chars": 292,
-      "h2_count": 5,
-      "pn_count": 0,
-      "wikilink_count": 0,
-      "blockquote_count": 0,
-      "quality": "featured",
-      "quality_score": 54,
-      "total_refs": 0
     },
     "zhi-ma": {
       "type": "species",
@@ -15795,6 +15728,30 @@
       "quality_score": 9,
       "total_refs": 1
     },
+    "zhu-tie": {
+      "type": "concept",
+      "label": "铸铁",
+      "aliases": [
+        "cast iron",
+        "生铁"
+      ],
+      "tags": [
+        "概念",
+        "技术",
+        "中国发明"
+      ],
+      "path": "zh/zhu-tie.md",
+      "description": "中国在公元前500年左右发明的冶金技术，在西方直到14世纪才掌握",
+      "prose_len": 271,
+      "prose_chars": 259,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "zhuan-li": {
       "type": "concept",
       "label": "专利",
@@ -15840,16 +15797,41 @@
       "pn_count": 4,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 11,
+      "quality": "featured",
+      "quality_score": 56,
       "total_refs": 3
+    },
+    "zhui-chong-bing": {
+      "type": "concept",
+      "label": "锥虫病",
+      "aliases": [
+        "trypanosomiasis",
+        "非洲锥虫病",
+        "昏睡病"
+      ],
+      "tags": [
+        "概念",
+        "疾病",
+        "非洲",
+        "地理障碍"
+      ],
+      "path": "zh/zhui-chong-bing.md",
+      "description": "由采采蝇传播的寄生虫病，对欧亚大陆引入非洲的家畜造成灾难性影响，是重要的地理障碍因素",
+      "prose_len": 493,
+      "prose_chars": 454,
+      "h2_count": 3,
+      "pn_count": 3,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
     },
     "专业化分工": {
       "type": "concept",
       "label": "专业化分工",
       "aliases": [
         "经济专业化",
-        "分工",
         "专业手艺人"
       ],
       "tags": [
@@ -15922,8 +15904,7 @@
       "type": "concept",
       "label": "中央集权",
       "aliases": [
-        "集权",
-        "统一"
+        "集权"
       ],
       "tags": [
         "政治",
@@ -15938,8 +15919,8 @@
       "pn_count": 5,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 11,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 4
     },
     "中美洲": {
@@ -15970,9 +15951,7 @@
     "制陶": {
       "type": "concept",
       "label": "制陶",
-      "aliases": [
-        "陶器"
-      ],
+      "aliases": [],
       "tags": [
         "技术",
         "手工艺",
@@ -15994,8 +15973,7 @@
       "type": "concept",
       "label": "征服",
       "aliases": [
-        "conquest",
-        "军事征服"
+        "conquest"
       ],
       "tags": [
         "政治",
@@ -16092,7 +16070,6 @@
       "type": "concept",
       "label": "政治竞争",
       "aliases": [
-        "政治分裂",
         "竞争性国家体系",
         "分裂促竞争"
       ],
@@ -16118,8 +16095,7 @@
       "label": "政治组织",
       "aliases": [
         "政治结构",
-        "political organization",
-        "社会组织"
+        "political organization"
       ],
       "tags": [
         "社会复杂性",
@@ -16142,7 +16118,6 @@
       "type": "concept",
       "label": "植物",
       "aliases": [
-        "野生植物",
         "植物物种",
         "植物多样性"
       ],
@@ -16191,10 +16166,7 @@
     "殖民": {
       "type": "concept",
       "label": "殖民",
-      "aliases": [
-        "殖民扩张",
-        "殖民主义"
-      ],
+      "aliases": [],
       "tags": [
         "历史",
         "政治",
@@ -16252,8 +16224,8 @@
       ],
       "path": "zh/爪哇野牛.md",
       "description": "东南亚驯化的大型哺乳动物，戴蒙德列出的九种次要驯化动物之一",
-      "prose_len": 258,
-      "prose_chars": 256,
+      "prose_len": 256,
+      "prose_chars": 254,
       "h2_count": 0,
       "pn_count": 2,
       "wikilink_count": 0,
@@ -16608,6 +16580,31 @@
       "quality_score": 61,
       "total_refs": 2
     },
+    "zu-lu-ren": {
+      "type": "person",
+      "label": "祖鲁人",
+      "aliases": [
+        "Zulu",
+        "祖鲁族"
+      ],
+      "tags": [
+        "人物",
+        "非洲",
+        "酋长制",
+        "国家形成"
+      ],
+      "path": "zu/zu-lu-ren.md",
+      "description": "南非班图语族群，丁吉斯韦约和恰卡通过军事改革与政治整合建立的祖鲁王国",
+      "prose_len": 441,
+      "prose_chars": 416,
+      "h2_count": 2,
+      "pn_count": 6,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
+    },
     "作坊": {
       "type": "concept",
       "label": "作坊",
@@ -16702,9 +16699,9 @@
       "pn_count": 3,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 11,
-      "total_refs": 17
+      "quality": "featured",
+      "quality_score": 56,
+      "total_refs": 19
     }
   },
   "alias_index": {
@@ -16735,10 +16732,10 @@
     "德索托": "aier-nan-duo-suotuo",
     "aisaobiya": "aisaobiya",
     "埃塞俄比亚": "aisaobiya",
-    "Ethiopia": "aisaobiya",
     "埃及": "埃及",
     "Egypt": "埃及",
     "古埃及": "埃及",
+    "Ethiopia": "埃塞俄比亚",
     "爱迪生": "爱迪生",
     "托马斯·爱迪生": "爱迪生",
     "Thomas Edison": "爱迪生",
@@ -16761,6 +16758,10 @@
     "an-da-man-qun-dao": "an-da-man-qun-dao",
     "安达曼群岛": "an-da-man-qun-dao",
     "Andaman Islands": "an-da-man-qun-dao",
+    "an-da-man-ren": "an-da-man-ren",
+    "安达曼人": "an-da-man-ren",
+    "Andamanese": "an-da-man-ren",
+    "安达曼群岛岛民": "an-da-man-ren",
     "an-dong-ni-wen-yi": "an-dong-ni-wen-yi",
     "安东尼瘟疫": "an-dong-ni-wen-yi",
     "Antonine Plague": "an-dong-ni-wen-yi",
@@ -16771,19 +16772,23 @@
     "小亚细亚": "annatuoliya",
     "安娜-卡列尼娜原则": "安娜-卡列尼娜原则",
     "安娜·卡列尼娜原则": "安娜-卡列尼娜原则",
-    "安娜卡列尼娜原则": "安娜-卡列尼娜原则",
-    "驯化失败原则": "安娜-卡列尼娜原则",
+    "安娜卡列尼娜原则": "安娜卡列尼娜原则",
+    "驯化失败原则": "安娜卡列尼娜原则",
     "安第斯山脉": "安第斯山脉",
     "安第斯": "安第斯山脉",
     "Andes": "安第斯山脉",
     "南美安第斯": "安第斯山脉",
+    "ao-si-man-di-guo": "ao-si-man-di-guo",
+    "奥斯曼帝国": "ao-si-man-di-guo",
+    "Ottoman Empire": "ao-si-man-di-guo",
+    "土耳其帝国": "ao-si-man-di-guo",
     "ao-zhou-ye-quan": "ao-zhou-ye-quan",
     "澳洲野犬": "ao-zhou-ye-quan",
     "dingo": "ao-zhou-ye-quan",
     "丁格犬": "ao-zhou-ye-quan",
     "aodaliya": "aodaliya",
     "澳大利亚": "aodaliya",
-    "Australia": "aodaliya",
+    "Australia": "澳大利亚",
     "澳洲": "澳大利亚",
     "a-pa-qie-zu": "a-pa-qie-zu",
     "阿帕切族": "a-pa-qie-zu",
@@ -16828,10 +16833,12 @@
     "bailatu": "bailatu",
     "柏拉图": "bailatu",
     "Plato": "bailatu",
+    "ban-ma": "ban-ma",
+    "斑马": "ban-ma",
+    "斑马属": "ban-ma",
     "ban-tu-ren-kuo-zhang": "ban-tu-ren-kuo-zhang",
     "班图人扩张": "ban-tu-ren-kuo-zhang",
     "Bantu expansion": "ban-tu-ren-kuo-zhang",
-    "班图族扩张": "ban-tu-ren-kuo-zhang",
     "ban-zhen-shang-han": "ban-zhen-shang-han",
     "斑疹伤寒": "ban-zhen-shang-han",
     "typhus": "ban-zhen-shang-han",
@@ -16845,7 +16852,6 @@
     "巴拿马地峡": "巴拿马地峡",
     "Panama": "巴拿马地峡",
     "巴拿马": "巴拿马地峡",
-    "斑马": "斑马",
     "非洲斑马": "斑马",
     "zebra": "斑马",
     "Equus quagga": "斑马",
@@ -16855,6 +16861,7 @@
     "班图尼格罗人": "班图人",
     "班图扩张": "班图扩张",
     "Bantu Expansion": "班图扩张",
+    "班图族扩张": "班图扩张",
     "白鼬": "白鼬",
     "ferret": "白鼬",
     "Mustela putorius furo": "白鼬",
@@ -16868,14 +16875,13 @@
     "Great Plains": "bei-mei-da-ping-yuan",
     "beimeizhou": "beimeizhou",
     "北美洲": "beimeizhou",
-    "North America": "beimeizhou",
     "beimizhou": "beimizhou",
     "北极": "北极",
     "Arctic": "北极",
     "北极地区": "北极",
+    "North America": "北美洲",
     "北美": "北美洲",
     "被引用最多页面": "被引用最多页面",
-    "引用排行": "被引用最多页面",
     "热门页面": "被引用最多页面",
     "高引用页面": "被引用最多页面",
     "bi-si-mai-qun-dao": "bi-si-mai-qun-dao",
@@ -16883,7 +16889,6 @@
     "Bismarck Archipelago": "bi-si-mai-qun-dao",
     "bilu": "bilu",
     "秘鲁": "bilu",
-    "Peru": "bilu",
     "bing-chuan": "bing-chuan",
     "冰川": "bing-chuan",
     "glacier": "bing-chuan",
@@ -16891,8 +16896,8 @@
     "冰川作用": "bing-chuan",
     "bing-dou": "bing-dou",
     "兵豆": "bing-dou",
-    "lentil": "bing-dou",
     "Lens culinaris": "bing-dou",
+    "lentil": "兵豆",
     "扁豆": "兵豆",
     "小扁豆": "兵豆",
     "冰岛": "冰岛",
@@ -16904,17 +16909,16 @@
     "致病原": "病原体",
     "pathogen": "病原体",
     "病菌": "病菌",
-    "流行病": "病菌",
     "germs": "病菌",
     "bo-li-ni-xi-ya-ren": "bo-li-ni-xi-ya-ren",
     "波利尼西亚人": "bo-li-ni-xi-ya-ren",
     "Polynesians": "bo-li-ni-xi-ya-ren",
-    "波利尼西亚": "bo-li-ni-xi-ya-ren",
     "伯克和威尔斯": "伯克和威尔斯",
     "Robert Burke": "伯克和威尔斯",
     "William Wills": "伯克和威尔斯",
     "罗伯特·伯克": "伯克和威尔斯",
     "威廉·威尔斯": "伯克和威尔斯",
+    "波利尼西亚": "波利尼西亚",
     "Polynesia": "波利尼西亚",
     "太平洋诸岛": "波利尼西亚",
     "南岛人": "波利尼西亚",
@@ -16939,9 +16943,10 @@
     "Phaseolus vulgaris": "cai-dou",
     "caiji-shoulie": "caiji-shoulie",
     "采集狩猎": "caiji-shoulie",
-    "hunter-gatherer": "caiji-shoulie",
-    "狩猎采集": "caiji-shoulie",
     "渔猎采集": "caiji-shoulie",
+    "仓鼠": "仓鼠",
+    "hamster": "仓鼠",
+    "Cricetinae": "仓鼠",
     "草原": "草原",
     "大草原": "草原",
     "欧亚草原": "草原",
@@ -16999,8 +17004,6 @@
     "朝鲜半岛": "chaoxian",
     "che-lun": "che-lun",
     "车轮": "che-lun",
-    "wheel": "che-lun",
-    "轮子": "che-lun",
     "传播": "传播",
     "扩散": "传播",
     "文化传播": "传播",
@@ -17021,9 +17024,9 @@
     "地点列表": "场所索引",
     "城市": "城市",
     "city": "城市",
-    "城镇": "城市",
     "都市": "城市",
     "城市化": "城市",
+    "城镇": "城镇",
     "畜牧业": "畜牧业",
     "畜牧": "畜牧业",
     "牲畜饲养": "畜牧业",
@@ -17061,25 +17064,31 @@
     "大羚羊": "da-jiao-ban-ling",
     "da-ma": "da-ma",
     "大麻": "da-ma",
-    "hemp": "da-ma",
     "Cannabis sativa": "da-ma",
     "da-ren-wu": "da-ren-wu",
     "大人物": "da-ren-wu",
     "Big Man": "da-ren-wu",
     "大人物制度": "da-ren-wu",
     "大人物体制": "da-ren-wu",
+    "da-yun-he": "da-yun-he",
+    "大运河": "da-yun-he",
+    "Grand Canal": "da-yun-he",
+    "京杭大运河": "da-yun-he",
     "dagama": "dagama",
     "瓦斯科·达·伽马": "dagama",
     "Vasco da Gama": "dagama",
     "达·伽马": "dagama",
+    "dai-jia-dai-yu-xi": "dai-jia-dai-yu-xi",
+    "傣-加岱语系": "dai-jia-dai-yu-xi",
+    "Tai-Kadai": "dai-jia-dai-yu-xi",
+    "侗台语系": "dai-jia-dai-yu-xi",
+    "壮侗语系": "dai-jia-dai-yu-xi",
     "dai-shu": "dai-shu",
     "袋鼠": "dai-shu",
     "kangaroo": "dai-shu",
     "大袋鼠": "dai-shu",
     "daimengde": "daimengde",
     "贾雷德·戴蒙德": "daimengde",
-    "Jared Diamond": "daimengde",
-    "戴蒙德": "daimengde",
     "dan-feng-luo-tuo": "dan-feng-luo-tuo",
     "单峰骆驼": "dan-feng-luo-tuo",
     "dromedary": "dan-feng-luo-tuo",
@@ -17102,18 +17111,20 @@
     "大洲": "大陆",
     "大陆轴线": "大陆轴线",
     "大陆主轴线": "大陆轴线",
-    "东西轴线": "大陆轴线",
     "南北轴线": "大陆轴线",
     "continental axis": "大陆轴线",
     "大麦": "大麦",
     "大麦草": "大麦",
     "barley": "大麦",
     "Hordeum vulgare": "大麦",
+    "hemp": "大麻",
     "工业大麻": "大麻",
     "岛屿": "岛屿",
     "岛": "岛屿",
     "海岛": "岛屿",
     "岛屿生物地理学": "岛屿生物地理学",
+    "戴蒙德": "戴蒙德",
+    "Jared Diamond": "戴蒙德",
     "达尔文": "达尔文",
     "查尔斯·达尔文": "达尔文",
     "Charles Darwin": "达尔文",
@@ -17131,20 +17142,22 @@
     "geographic barrier": "di-li-ping-zhang",
     "地理障碍": "di-li-ping-zhang",
     "隔离": "di-li-ping-zhang",
+    "ding-ji-si-wei-yue": "ding-ji-si-wei-yue",
+    "丁吉斯韦约": "ding-ji-si-wei-yue",
+    "Dingiswayo": "ding-ji-si-wei-yue",
     "地中海地区": "地中海地区",
     "地中海气候带": "地中海地区",
     "Mediterranean": "地中海地区",
     "欧亚大陆西部地中海气候带": "地中海地区",
     "地点索引": "地点索引",
     "地理": "地理",
-    "地理环境": "地理",
     "地理学": "地理",
     "地理决定论": "地理决定论",
-    "环境决定论": "地理决定论",
     "geographic determinism": "地理决定论",
     "地理因素": "地理因素",
     "geography": "地理因素",
     "地理条件": "地理因素",
+    "地理环境": "地理因素",
     "地轴": "地轴",
     "地轴线": "地轴",
     "定居": "定居",
@@ -17160,11 +17173,9 @@
     "武装抵抗": "抵抗",
     "dongwumiejue": "dongwumiejue",
     "动物灭绝": "dongwumiejue",
-    "extinction": "dongwumiejue",
-    "物种灭绝": "dongwumiejue",
     "大型动物灭绝": "dongwumiejue",
     "dongxizhouxian": "dongxizhouxian",
-    "east-west axis": "dongxizhouxian",
+    "东西轴线": "dongxizhouxian",
     "欧亚大陆轴向": "dongxizhouxian",
     "dou-lei": "dou-lei",
     "豆类": "dou-lei",
@@ -17174,6 +17185,7 @@
     "东南亚": "东南亚",
     "Southeast Asia": "东南亚",
     "热带东南亚": "东南亚",
+    "east-west axis": "东西轴线",
     "东西轴": "东西轴线",
     "动物": "动物",
     "野生动物": "动物",
@@ -17187,6 +17199,14 @@
     "Raphus cucullatus": "du-du-niao",
     "dodo": "du-du-niao",
     "多多鸟": "du-du-niao",
+    "du-lun-che": "du-lun-che",
+    "独轮车": "du-lun-che",
+    "wheelbarrow": "du-lun-che",
+    "手推车": "du-lun-che",
+    "dui-deng-jiao-huan": "dui-deng-jiao-huan",
+    "对等交换": "dui-deng-jiao-huan",
+    "reciprocal exchange": "dui-deng-jiao-huan",
+    "互惠交换": "dui-deng-jiao-huan",
     "独木舟": "独木舟",
     "dugout canoe": "独木舟",
     "canoe": "独木舟",
@@ -17203,6 +17223,10 @@
     "法罗群岛": "fa-luo-qun-dao",
     "Faroe Islands": "fa-luo-qun-dao",
     "法罗": "fa-luo-qun-dao",
+    "fa-you-ren": "fa-you-ren",
+    "法尤人": "fa-you-ren",
+    "Fayu": "fa-you-ren",
+    "法尤族": "fa-you-ren",
     "fang-she-xing-tan-ding-nian-fa": "fang-she-xing-tan-ding-nian-fa",
     "放射性碳定年法": "fang-she-xing-tan-ding-nian-fa",
     "碳-14年代测定法": "fang-she-xing-tan-ding-nian-fa",
@@ -17225,6 +17249,9 @@
     "fei-shi-he": "fei-shi-he",
     "菲什河": "fei-shi-he",
     "Fish River": "fei-shi-he",
+    "fei-yan": "fei-yan",
+    "肺炎": "fei-yan",
+    "pneumonia": "fei-yan",
     "fei-zhou-shu-yu": "fei-zhou-shu-yu",
     "非洲薯蓣": "fei-zhou-shu-yu",
     "African yam": "fei-zhou-shu-yu",
@@ -17235,7 +17262,6 @@
     "Loxodonta africana": "fei-zhou-xiang",
     "feilvbin": "feilvbin",
     "菲律宾": "feilvbin",
-    "Philippines": "feilvbin",
     "feng-jian-zhi-du": "feng-jian-zhi-du",
     "封建制度": "feng-jian-zhi-du",
     "feudalism": "feng-jian-zhi-du",
@@ -17249,6 +17275,7 @@
     "腓尼基人": "腓尼基人",
     "Phoenicians": "腓尼基人",
     "腓尼基": "腓尼基人",
+    "Philippines": "菲律宾",
     "菲斯托斯圆盘": "菲斯托斯圆盘",
     "Phaistos Disc": "菲斯托斯圆盘",
     "菲斯托斯盘": "菲斯托斯圆盘",
@@ -17275,6 +17302,10 @@
     "citrus": "gan-ju",
     "柑橘类": "gan-ju",
     "柑橘属": "gan-ju",
+    "gan-zhe": "gan-zhe",
+    "甘蔗": "gan-zhe",
+    "sugarcane": "gan-zhe",
+    "Saccharum officinarum": "gan-zhe",
     "干旱": "干旱",
     "drought": "干旱",
     "旱灾": "干旱",
@@ -17334,7 +17365,6 @@
     "工具": "工具",
     "tools": "工具",
     "技术工具": "工具",
-    "石器": "工具",
     "人工制品": "工具",
     "工匠": "工匠",
     "手艺人": "工匠",
@@ -17406,6 +17436,11 @@
     "和平文化": "he-ping-wen-hua",
     "Hoabinhian": "he-ping-wen-hua",
     "和平文化传统": "he-ping-wen-hua",
+    "he-ti": "he-ti",
+    "赫梯": "he-ti",
+    "Hittite": "he-ti",
+    "赫梯人": "he-ti",
+    "赫梯帝国": "he-ti",
     "he-tuo": "he-tuo",
     "鹤鸵": "he-tuo",
     "cassowary": "he-tuo",
@@ -17432,11 +17467,15 @@
     "calabash": "hu-lu",
     "瓠瓜": "hu-lu",
     "Lagenaria": "hu-lu",
+    "hua-mei-cao": "hua-mei-cao",
+    "画眉草": "hua-mei-cao",
+    "teff": "hua-mei-cao",
+    "Eragrostis tef": "hua-mei-cao",
     "huang-re-bing": "huang-re-bing",
     "黄热病": "huang-re-bing",
     "yellow fever": "huang-re-bing",
     "huanjing-juedinglun": "huanjing-juedinglun",
-    "environmental determinism": "huanjing-juedinglun",
+    "环境决定论": "huanjing-juedinglun",
     "地理环境决定论": "huanjing-juedinglun",
     "huashengdun": "huashengdun",
     "乔治·华盛顿": "huashengdun",
@@ -17476,6 +17515,7 @@
     "environment": "环境",
     "自然环境": "环境",
     "环境条件": "环境",
+    "environmental determinism": "环境决定论",
     "画谜原则": "画谜原则",
     "rebus principle": "画谜原则",
     "画谜": "画谜原则",
@@ -17501,19 +17541,24 @@
     "ji-shu-yu-jing-ji-suo-yin": "ji-shu-yu-jing-ji-suo-yin",
     "技术与经济索引": "ji-shu-yu-jing-ji-suo-yin",
     "Technology and Economy Index": "ji-shu-yu-jing-ji-suo-yin",
+    "jia-gu-wen": "jia-gu-wen",
+    "甲骨文": "jia-gu-wen",
+    "oracle bone script": "jia-gu-wen",
+    "甲骨文文字": "jia-gu-wen",
     "jia-jie": "jia-jie",
     "嫁接": "jia-jie",
     "grafting": "jia-jie",
     "嫁接技术": "jia-jie",
     "果树嫁接": "jia-jie",
+    "jia-tai-ji": "jia-tai-ji",
+    "迦太基": "jia-tai-ji",
+    "Carthage": "jia-tai-ji",
+    "卡尔塔热": "jia-tai-ji",
     "jialifuniya": "jialifuniya",
     "加利福尼亚": "jialifuniya",
     "California": "jialifuniya",
     "jin-shu-ye-lian": "jin-shu-ye-lian",
     "金属冶炼": "jin-shu-ye-lian",
-    "metallurgy": "jin-shu-ye-lian",
-    "冶金": "jin-shu-ye-lian",
-    "炼铁": "jin-shu-ye-lian",
     "炼钢": "jin-shu-ye-lian",
     "交换": "交换",
     "物物交换": "交换",
@@ -17547,7 +17592,6 @@
     "machinery": "机械",
     "机器": "机械",
     "疾病": "疾病",
-    "瘟疫": "疾病",
     "竞争": "竞争",
     "社会竞争": "竞争",
     "竞争压力": "竞争",
@@ -17563,6 +17607,10 @@
     "世袭": "继承",
     "权力继承": "继承",
     "世袭制度": "继承",
+    "脊髓灰质炎": "脊髓灰质炎",
+    "polio": "脊髓灰质炎",
+    "小儿麻痹症": "脊髓灰质炎",
+    "poliomyelitis": "脊髓灰质炎",
     "近端原因与终极原因": "近端原因与终极原因",
     "直接原因与终极原因": "近端原因与终极原因",
     "proximate cause": "近端原因与终极原因",
@@ -17578,8 +17626,6 @@
     "社会分层": "阶级",
     "集中": "集中",
     "权力集中": "集中",
-    "集权": "集中",
-    "中央集权": "集中",
     "鸡": "鸡",
     "家鸡": "鸡",
     "chicken": "鸡",
@@ -17588,7 +17634,6 @@
     "military conquest": "军事征服",
     "武装征服": "军事征服",
     "军事扩张": "军事征服",
-    "征服": "军事征服",
     "军事技术": "军事技术",
     "武器技术": "军事技术",
     "兵器": "军事技术",
@@ -17607,13 +17652,17 @@
     "菊草": "菊草",
     "sumpweed": "菊草",
     "Iva annua": "菊草",
+    "ka-fei": "ka-fei",
+    "咖啡": "ka-fei",
+    "coffee": "ka-fei",
+    "Coffea": "ka-fei",
     "kahamakazhanyi": "kahamakazhanyi",
     "卡哈马卡战役": "kahamakazhanyi",
-    "Battle of Cajamarca": "kahamakazhanyi",
-    "卡哈马卡之战": "kahamakazhanyi",
     "卡哈马卡": "卡哈马卡",
     "Cajamarca": "卡哈马卡",
+    "卡哈马卡之战": "卡哈马卡之战",
     "1532年卡哈马卡战役": "卡哈马卡之战",
+    "Battle of Cajamarca": "卡哈马卡战役",
     "考古学": "考古学",
     "archaeology": "考古学",
     "考古学方法": "考古学",
@@ -17629,6 +17678,9 @@
     "Cro-Magnon": "ke-luo-ma-nu-ren",
     "克罗马农人": "ke-luo-ma-nu-ren",
     "晚期智人": "ke-luo-ma-nu-ren",
+    "ke-sa-ren": "ke-sa-ren",
+    "科萨人": "ke-sa-ren",
+    "Xhosa": "ke-sa-ren",
     "ke-yi-sang-ren": "ke-yi-sang-ren",
     "科伊桑人": "ke-yi-sang-ren",
     "Khoisan": "ke-yi-sang-ren",
@@ -17636,8 +17688,6 @@
     "科伊桑民族": "ke-yi-sang-ren",
     "keertesi": "keertesi",
     "埃尔南·科尔特斯": "keertesi",
-    "Hernán Cortés": "keertesi",
-    "科尔特斯": "keertesi",
     "keluoweiwenhua": "keluoweiwenhua",
     "克罗维文化": "keluoweiwenhua",
     "Clovis culture": "keluoweiwenhua",
@@ -17652,7 +17702,8 @@
     "science": "科学",
     "科学方法": "科学",
     "科学观点": "科学",
-    "历史科学": "科学",
+    "科尔特斯": "科尔特斯",
+    "Hernán Cortés": "科尔特斯",
     "kong-niao": "kong-niao",
     "恐鸟": "kong-niao",
     "moa": "kong-niao",
@@ -17683,6 +17734,9 @@
     "狂犬病": "狂犬病",
     "rabies": "狂犬病",
     "恐水症": "狂犬病",
+    "la-bu-la-duo": "la-bu-la-duo",
+    "拉布拉多": "la-bu-la-duo",
+    "Labrador": "la-bu-la-duo",
     "la-jiao": "la-jiao",
     "辣椒": "la-jiao",
     "chili pepper": "la-jiao",
@@ -17712,6 +17766,11 @@
     "type index": "lei-xing-suo-yin",
     "分类索引": "lei-xing-suo-yin",
     "词条类型索引": "lei-xing-suo-yin",
+    "li-chenopodium": "li-chenopodium",
+    "藜": "li-chenopodium",
+    "chenopodium": "li-chenopodium",
+    "藜属植物": "li-chenopodium",
+    "lamb's quarters": "li-chenopodium",
     "li-ji": "li-ji",
     "痢疾": "li-ji",
     "dysentery": "li-ji",
@@ -17726,6 +17785,7 @@
     "Linearbandkeramik": "li-ni-er-ban-ke-la-mi-ke-wen-hua",
     "线纹陶文化": "li-ni-er-ban-ke-la-mi-ke-wen-hua",
     "li-shi-ke-xue": "li-shi-ke-xue",
+    "历史科学": "li-shi-ke-xue",
     "historical science": "li-shi-ke-xue",
     "历史学作为科学": "li-shi-ke-xue",
     "li": "li",
@@ -17737,7 +17797,6 @@
     "粮食储备": "liang-shi-chu-bei",
     "food storage": "liang-shi-chu-bei",
     "余粮": "liang-shi-chu-bei",
-    "粮食剩余": "liang-shi-chu-bei",
     "liangshi-chubei": "liangshi-chubei",
     "粮食储存": "liangshi-chubei",
     "余粮储备": "liangshi-chubei",
@@ -17753,6 +17812,8 @@
     "流行性感冒": "liu-xing-xing-gan-mao",
     "流感": "liu-xing-xing-gan-mao",
     "influenza": "liu-xing-xing-gan-mao",
+    "流行病": "流行病",
+    "瘟疫": "流行病",
     "粮食生产": "粮食生产",
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
@@ -17769,6 +17830,8 @@
     "让-雅克·卢梭": "lusuo",
     "Jean-Jacques Rousseau": "lusuo",
     "卢梭": "lusuo",
+    "轮子": "轮子",
+    "wheel": "轮子",
     "轮轴": "轮子",
     "有轮车": "轮子",
     "轮船": "轮船",
@@ -17790,11 +17853,15 @@
     "ma-ke-si": "ma-ke-si",
     "马克思": "ma-ke-si",
     "Karl Marx": "ma-ke-si",
-    "卡尔·马克思": "ma-ke-si",
+    "ma-ya-wen-zi": "ma-ya-wen-zi",
+    "马雅文字": "ma-ya-wen-zi",
+    "Maya script": "ma-ya-wen-zi",
+    "马雅象形文字": "ma-ya-wen-zi",
     "madagascar": "madagascar",
     "马达加斯加": "madagascar",
     "Madagascar": "madagascar",
     "makesi": "makesi",
+    "卡尔·马克思": "makesi",
     "man-dan-zu": "man-dan-zu",
     "曼丹族": "man-dan-zu",
     "曼丹人": "man-dan-zu",
@@ -17818,7 +17885,7 @@
     "贸易": "贸易",
     "trade": "贸易",
     "商贸": "贸易",
-    "贸易路线": "贸易",
+    "贸易路线": "贸易路线",
     "商路": "贸易路线",
     "商道": "贸易路线",
     "马": "马",
@@ -17856,11 +17923,8 @@
     "buffalo": "mei-zhou-ye-niu",
     "meilaxiniya": "meilaxiniya",
     "美拉尼西亚": "meilaxiniya",
-    "Melanesia": "meilaxiniya",
     "meisuobudamiya": "meisuobudamiya",
     "美索不达米亚": "meisuobudamiya",
-    "Mesopotamia": "meisuobudamiya",
-    "两河流域": "meisuobudamiya",
     "meizhoudulifazhan": "meizhoudulifazhan",
     "美洲独立发展": "meizhoudulifazhan",
     "independent development in Americas": "meizhoudulifazhan",
@@ -17875,9 +17939,9 @@
     "美国东部": "美国东部",
     "北美东部": "美国东部",
     "Eastern North America": "美国东部",
+    "Melanesia": "美拉尼西亚",
     "美洲": "美洲",
     "Americas": "美洲",
-    "新大陆": "美洲",
     "the Americas": "美洲",
     "美洲家鸭": "美洲家鸭",
     "Muscovy duck": "美洲家鸭",
@@ -17888,6 +17952,8 @@
     "美洲驼": "美洲驼",
     "大羊驼": "美洲驼",
     "llama": "美洲驼",
+    "Mesopotamia": "美索不达米亚",
+    "两河流域": "美索不达米亚",
     "蒙特朱马": "蒙特朱马",
     "Moctezuma": "蒙特朱马",
     "蒙特苏马": "蒙特朱马",
@@ -17901,14 +17967,19 @@
     "土墩建造者文化": "mi-xi-xi-bi-wen-hua",
     "mianyi": "mianyi",
     "免疫": "mianyi",
-    "immunity": "mianyi",
-    "免疫力": "mianyi",
-    "抵抗力": "mianyi",
+    "miao-yao-yu-xi": "miao-yao-yu-xi",
+    "苗瑶语系": "miao-yao-yu-xi",
+    "Hmong-Mien": "miao-yao-yu-xi",
+    "曼-勉语族": "miao-yao-yu-xi",
+    "苗瑶语族": "miao-yao-yu-xi",
     "mikelunixiya": "mikelunixiya",
     "密克罗尼西亚": "mikelunixiya",
-    "Micronesia": "mikelunixiya",
     "milu": "milu",
+    "immunity": "免疫",
+    "免疫力": "免疫力",
+    "抵抗力": "免疫力",
     "病菌免疫": "免疫力",
+    "Micronesia": "密克罗尼西亚",
     "弥诺斯文明": "弥诺斯文明",
     "Minoan civilization": "弥诺斯文明",
     "米诺斯文明": "弥诺斯文明",
@@ -17921,6 +17992,9 @@
     "族群": "民族",
     "民族形成": "民族",
     "灭绝": "灭绝",
+    "extinction": "灭绝",
+    "物种灭绝": "灭绝",
+    "Peru": "秘鲁",
     "绵羊": "绵羊",
     "羊": "绵羊",
     "家羊": "绵羊",
@@ -17935,35 +18009,38 @@
     "莫里奥里人": "mo-li-ao-li-ren",
     "Moriori": "mo-li-ao-li-ren",
     "莫里奥里族": "mo-li-ao-li-ren",
+    "mo-wo-er-di-guo": "mo-wo-er-di-guo",
+    "莫卧儿帝国": "mo-wo-er-di-guo",
+    "Mughal Empire": "mo-wo-er-di-guo",
+    "莫卧儿": "mo-wo-er-di-guo",
     "moerzibigang": "moerzibigang",
     "莫尔兹比港": "moerzibigang",
     "Port Moresby": "moerzibigang",
     "巴布亚新几内亚首都": "moerzibigang",
     "moxige": "moxige",
     "墨西哥": "moxige",
-    "Mexico": "moxige",
+    "Mexico": "墨西哥",
     "木薯": "木薯",
     "cassava": "木薯",
     "manioc": "木薯",
     "树薯": "木薯",
     "牧人": "牧人",
     "牧民": "牧人",
-    "游牧民族": "牧人",
     "游牧者": "牧人",
     "目录": "目录",
     "nan-dao-yu-xi": "nan-dao-yu-xi",
     "南岛语系": "nan-dao-yu-xi",
-    "Austronesian": "nan-dao-yu-xi",
-    "南岛语族": "nan-dao-yu-xi",
     "马来-波利尼西亚语系": "nan-dao-yu-xi",
     "nan-gua": "nan-gua",
     "南瓜": "nan-gua",
     "squash": "nan-gua",
     "pumpkin": "nan-gua",
     "Cucurbita": "nan-gua",
+    "nan-ya-yu-xi": "nan-ya-yu-xi",
+    "南亚语系": "nan-ya-yu-xi",
+    "Austroasiatic": "nan-ya-yu-xi",
     "nandaoren-kuozhang": "nandaoren-kuozhang",
     "南岛人扩张": "nandaoren-kuozhang",
-    "Austronesian expansion": "nandaoren-kuozhang",
     "南岛语系扩张": "nandaoren-kuozhang",
     "南岛人大迁徙": "nandaoren-kuozhang",
     "nanmeizhou": "nanmeizhou",
@@ -17978,7 +18055,10 @@
     "大陆轴线南北": "南北轴",
     "南北轴线与东西轴线": "南北轴线与东西轴线",
     "轴线方向": "南北轴线与东西轴线",
+    "Austronesian expansion": "南岛人扩张",
     "南岛人迁徙": "南岛人扩张",
+    "南岛语族": "南岛语族",
+    "Austronesian": "南岛语族",
     "南岛语族扩张": "南岛语族扩张",
     "Austronesian Expansion": "南岛语族扩张",
     "波利尼西亚扩张": "南岛语族扩张",
@@ -18000,6 +18080,9 @@
     "niluohe": "niluohe",
     "尼罗河": "niluohe",
     "Nile River": "niluohe",
+    "niu-fen-lan": "niu-fen-lan",
+    "纽芬兰": "niu-fen-lan",
+    "Newfoundland": "niu-fen-lan",
     "niu-wen": "niu-wen",
     "牛瘟": "niu-wen",
     "rinderpest": "niu-wen",
@@ -18022,21 +18105,21 @@
     "nongyeqiyuan": "nongyeqiyuan",
     "农业起源": "nongyeqiyuan",
     "origins of agriculture": "nongyeqiyuan",
-    "农业革命": "nongyeqiyuan",
-    "新石器时代革命": "nongyeqiyuan",
     "农业": "农业",
     "agriculture": "农业",
     "作物栽培": "农业",
     "种植业": "农业",
+    "农业革命": "农业革命",
+    "新石器时代革命": "农业革命",
     "nu-li-mao-yi": "nu-li-mao-yi",
     "奴隶贸易": "nu-li-mao-yi",
     "slave trade": "nu-li-mao-yi",
     "跨大西洋奴隶贸易": "nu-li-mao-yi",
     "黑奴贸易": "nu-li-mao-yi",
     "奴隶": "奴隶",
-    "奴隶制": "奴隶",
     "奴隶劳动": "奴隶",
     "奴役": "奴隶",
+    "奴隶制": "奴隶制",
     "疟疾": "疟疾",
     "malaria": "疟疾",
     "疟原虫感染": "疟疾",
@@ -18058,8 +18141,6 @@
     "Malus domestica": "ping-guo",
     "pisaluo": "pisaluo",
     "弗朗西斯科·皮萨罗": "pisaluo",
-    "Francisco Pizarro": "pisaluo",
-    "皮萨罗": "pisaluo",
     "平原": "平原",
     "大平原": "平原",
     "冲积平原": "平原",
@@ -18068,22 +18149,30 @@
     "庶民": "平民",
     "普通人": "平民",
     "非精英阶层": "平民",
+    "皮萨罗": "皮萨罗",
+    "Francisco Pizarro": "皮萨罗",
     "Preface": "Preface",
     "葡萄": "葡萄",
     "葡萄藤": "葡萄",
     "grape": "葡萄",
     "栽培葡萄": "葡萄",
     "酿酒葡萄": "葡萄",
+    "qie-luo-ji-ren": "qie-luo-ji-ren",
+    "切罗基人": "qie-luo-ji-ren",
+    "Cherokee": "qie-luo-ji-ren",
+    "切罗基族": "qie-luo-ji-ren",
     "qin-chao": "qin-chao",
     "秦朝": "qin-chao",
     "Qin dynasty": "qin-chao",
     "秦帝国": "qin-chao",
     "秦国": "qin-chao",
+    "qin-shi-huang": "qin-shi-huang",
+    "秦始皇": "qin-shi-huang",
+    "Qin Shi Huang": "qin-shi-huang",
+    "嬴政": "qin-shi-huang",
     "qiuzhangzhi": "qiuzhangzhi",
     "酋长制": "qiuzhangzhi",
-    "chiefdom": "qiuzhangzhi",
     "酋邦": "qiuzhangzhi",
-    "酋长社会": "qiuzhangzhi",
     "亲属关系": "亲属关系",
     "kinship": "亲属关系",
     "血缘": "亲属关系",
@@ -18103,12 +18192,13 @@
     "climate": "气候",
     "气候条件": "气候",
     "地中海气候": "气候",
-    "气候变化": "气候",
     "气候带": "气候带",
     "气候区": "气候带",
     "气候类型": "气候带",
     "酋长": "酋长",
     "酋长管辖地": "酋长",
+    "chiefdom": "酋长制",
+    "酋长社会": "酋长制",
     "青铜": "青铜",
     "青铜器": "青铜",
     "青铜时代": "青铜时代",
@@ -18119,12 +18209,13 @@
     "quan-qiu-bian-nuan": "quan-qiu-bian-nuan",
     "全球变暖": "quan-qiu-bian-nuan",
     "global warming": "quan-qiu-bian-nuan",
+    "气候变化": "quan-qiu-bian-nuan",
     "全新世暖期": "quan-qiu-bian-nuan",
     "renkou-midu": "renkou-midu",
     "人口密度": "renkou-midu",
-    "population density": "renkou-midu",
     "人口": "人口",
     "人口压力": "人口压力",
+    "population density": "人口密度",
     "人口扩张": "人口扩张",
     "农民扩张": "人口扩张",
     "人口置换": "人口扩张",
@@ -18159,6 +18250,9 @@
     "日本": "日本",
     "Japan": "日本",
     "日本列岛": "日本",
+    "绒鼠": "绒鼠",
+    "chinchilla": "绒鼠",
+    "Chinchilla": "绒鼠",
     "如尼文": "如尼文",
     "runic": "如尼文",
     "如尼字母": "如尼文",
@@ -18166,8 +18260,6 @@
     "符文": "如尼文",
     "sa-he-le-di-dai": "sa-he-le-di-dai",
     "萨赫勒地带": "sa-he-le-di-dai",
-    "Sahel": "sa-he-le-di-dai",
-    "萨赫勒": "sa-he-le-di-dai",
     "萨赫勒地区": "sa-he-le-di-dai",
     "sa-mo-ya": "sa-mo-ya",
     "萨摩亚": "sa-mo-ya",
@@ -18181,6 +18273,10 @@
     "塞伦格蒂大草原": "sai-lun-ge-di",
     "塞伦格蒂大平原": "sai-lun-ge-di",
     "Serengeti": "sai-lun-ge-di",
+    "sai-pu-lu-si": "sai-pu-lu-si",
+    "塞浦路斯": "sai-pu-lu-si",
+    "Cyprus": "sai-pu-lu-si",
+    "塞浦路斯岛": "sai-pu-lu-si",
     "塞阔雅": "塞阔雅",
     "Sequoyah": "塞阔雅",
     "斯奎亚": "塞阔雅",
@@ -18188,6 +18284,8 @@
     "Zapotec": "萨波特克",
     "萨波特克人": "萨波特克",
     "萨波特克文明": "萨波特克",
+    "萨赫勒": "萨赫勒地带",
+    "Sahel": "萨赫勒地带",
     "非洲萨赫勒": "萨赫勒地带",
     "森林": "森林",
     "树林": "森林",
@@ -18203,11 +18301,18 @@
     "shan-yu-zu": "shan-yu-zu",
     "闪语族": "shan-yu-zu",
     "Semitic": "shan-yu-zu",
-    "闪米特语族": "shan-yu-zu",
+    "shang-chao": "shang-chao",
+    "商朝": "shang-chao",
+    "Shang dynasty": "shang-chao",
+    "商代": "shang-chao",
+    "殷商": "shang-chao",
     "she-hui-fu-za-hua": "she-hui-fu-za-hua",
     "社会复杂化": "she-hui-fu-za-hua",
-    "social complexity": "she-hui-fu-za-hua",
     "社会演化": "she-hui-fu-za-hua",
+    "she-niu": "she-niu",
+    "麝牛": "she-niu",
+    "musk ox": "she-niu",
+    "Ovibos moschatus": "she-niu",
     "sheng-tai-zi-sha": "sheng-tai-zi-sha",
     "生态自杀": "sheng-tai-zi-sha",
     "ecocide": "sheng-tai-zi-sha",
@@ -18253,6 +18358,7 @@
     "伤寒": "伤寒",
     "typhoid": "伤寒",
     "剩余粮食": "剩余粮食",
+    "粮食剩余": "剩余粮食",
     "农业剩余": "剩余粮食",
     "商人": "商人",
     "贸易商": "商人",
@@ -18293,7 +18399,9 @@
     "役畜": "牲口",
     "狩猎": "狩猎",
     "打猎": "狩猎",
+    "狩猎采集": "狩猎采集",
     "狩猎采集者": "狩猎采集",
+    "hunter-gatherer": "狩猎采集",
     "生态": "生态",
     "ecology": "生态",
     "生态环境": "生态",
@@ -18303,6 +18411,7 @@
     "环境适应": "生态适应",
     "生态位适应": "生态适应",
     "气候适应": "生态适应",
+    "石器": "石器",
     "stone tools": "石器",
     "石器时代": "石器时代",
     "旧石器时代": "石器时代",
@@ -18311,6 +18420,7 @@
     "社会复杂性": "社会复杂性",
     "政治复杂性": "社会复杂性",
     "社会层级": "社会复杂性",
+    "social complexity": "社会复杂性",
     "社会组织": "社会组织",
     "社会结构": "社会组织",
     "社会形态": "社会组织",
@@ -18319,6 +18429,7 @@
     "税赋": "税收",
     "闪米特人": "闪米特人",
     "Semites": "闪米特人",
+    "闪米特语族": "闪米特人",
     "鼠疫": "鼠疫",
     "鼠疫杆菌": "鼠疫",
     "si-ke-li-lin-ren": "si-ke-li-lin-ren",
@@ -18345,7 +18456,6 @@
     "太平洋海域": "tai-ping-yang",
     "taiwan": "taiwan",
     "台湾": "taiwan",
-    "Taiwan": "taiwan",
     "tan14-ce-nian": "tan14-ce-nian",
     "碳14测年": "tan14-ce-nian",
     "放射性碳定年": "tan14-ce-nian",
@@ -18359,6 +18469,7 @@
     "peach": "tao",
     "Prunus persica": "tao",
     "桃子": "tao",
+    "Taiwan": "台湾",
     "台湾岛": "台湾",
     "塔斯马尼亚": "塔斯马尼亚",
     "Tasmania": "塔斯马尼亚",
@@ -18402,6 +18513,12 @@
     "tuo-lei-si-hai-xia": "tuo-lei-si-hai-xia",
     "托雷斯海峡": "tuo-lei-si-hai-xia",
     "Torres Strait": "tuo-lei-si-hai-xia",
+    "tuo-lu": "tuo-lu",
+    "驼鹿": "tuo-lu",
+    "moose": "tuo-lu",
+    "麋": "tuo-lu",
+    "elk": "tuo-lu",
+    "Alces alces": "tuo-lu",
     "tuo-niao": "tuo-niao",
     "鸵鸟": "tuo-niao",
     "ostrich": "tuo-niao",
@@ -18473,6 +18590,10 @@
     "纬度效应": "纬度",
     "纬度与气候": "纬度",
     "东西轴纬度": "纬度",
+    "wu-er-fei-la-si": "wu-er-fei-la-si",
+    "乌尔斐拉斯": "wu-er-fei-la-si",
+    "Ulfilas": "wu-er-fei-la-si",
+    "乌尔斐拉斯主教": "wu-er-fei-la-si",
     "wu-fan-shu": "wu-fan-shu",
     "乌饭树": "wu-fan-shu",
     "blueberry": "wu-fan-shu",
@@ -18498,6 +18619,10 @@
     "西谷椰子": "xi-gu-ye-zi",
     "sago": "xi-gu-ye-zi",
     "西谷椰子树": "xi-gu-ye-zi",
+    "xi-gua": "xi-gua",
+    "西瓜": "xi-gua",
+    "watermelon": "xi-gua",
+    "Citrullus lanatus": "xi-gua",
     "xi-ke-suo-si": "xi-ke-suo-si",
     "希克索斯": "xi-ke-suo-si",
     "Hyksos": "xi-ke-suo-si",
@@ -18578,6 +18703,7 @@
     "喜马拉雅": "ximalaya",
     "Himalayas": "ximalaya",
     "xin-da-lu": "xin-da-lu",
+    "新大陆": "xin-da-lu",
     "New World": "xin-da-lu",
     "美洲大陆": "xin-da-lu",
     "西半球": "xin-da-lu",
@@ -18653,7 +18779,6 @@
     "独立驯化中心": "xun-hua-zhong-xin",
     "农业起源中心": "xun-hua-zhong-xin",
     "驯化": "驯化",
-    "植物驯化": "驯化",
     "domestication": "驯化",
     "驯鹿": "驯鹿",
     "reindeer": "驯鹿",
@@ -18712,8 +18837,11 @@
     "页面内容排行": "ye-mian-da-xiao-pai-hang",
     "page size ranking": "ye-mian-da-xiao-pai-hang",
     "冶炼": "冶炼",
+    "冶金": "冶金",
     "冶金技术": "冶金",
+    "metallurgy": "冶金",
     "金属加工": "冶金",
+    "炼铁": "冶金",
     "青铜冶炼": "冶金",
     "椰子": "椰子",
     "coconut": "椰子",
@@ -18743,23 +18871,20 @@
     "西班牙岛": "yi-si-pa-ni-ao-la-dao",
     "yichuanxue": "yichuanxue",
     "遗传学": "yichuanxue",
-    "genetics": "yichuanxue",
     "基因学": "yichuanxue",
     "yin-yong-pai-hang": "yin-yong-pai-hang",
+    "引用排行": "yin-yong-pai-hang",
     "引用索引": "yin-yong-pai-hang",
     "词条引用排行": "yin-yong-pai-hang",
     "ref ranking": "yin-yong-pai-hang",
     "yindu": "yindu",
     "印度": "yindu",
-    "India": "yindu",
     "印度次大陆": "yindu",
     "yinduhe": "yinduhe",
     "印度河": "yinduhe",
-    "Indus River": "yinduhe",
     "印度河流域": "yinduhe",
     "yindunixiya": "yindunixiya",
     "印度尼西亚": "yindunixiya",
-    "Indonesia": "yindunixiya",
     "马来群岛": "yindunixiya",
     "ying-ge-lan": "ying-ge-lan",
     "英格兰": "ying-ge-lan",
@@ -18771,7 +18896,6 @@
     "Papaver somniferum": "ying-su",
     "ying-zui-dou": "ying-zui-dou",
     "鹰嘴豆": "ying-zui-dou",
-    "chickpea": "ying-zui-dou",
     "Cicer arietinum": "ying-zui-dou",
     "一年生植物": "一年生植物",
     "一年生作物": "一年生植物",
@@ -18779,17 +18903,26 @@
     "医学": "医学",
     "医疗": "医学",
     "印刷": "印刷",
-    "印刷术": "印刷",
-    "活字印刷": "印刷",
+    "印刷术": "印刷术",
     "printing": "印刷术",
+    "活字印刷": "印刷术",
     "印刷机": "印刷术",
     "印加帝国": "印加帝国",
     "Inca Empire": "印加帝国",
     "印加": "印加帝国",
+    "India": "印度",
+    "Indonesia": "印度尼西亚",
     "印尼": "印度尼西亚",
+    "Indus River": "印度河",
     "印度河谷": "印度河",
+    "印度野牛": "印度野牛",
+    "gaur": "印度野牛",
+    "Bos gaurus": "印度野牛",
     "印欧语系": "印欧语系",
     "Indo-European": "印欧语系",
+    "硬毛鼠": "硬毛鼠",
+    "hutia": "硬毛鼠",
+    "Capromyidae": "硬毛鼠",
     "移民": "移民",
     "史前迁徙": "移民",
     "移民浪潮": "移民",
@@ -18797,6 +18930,8 @@
     "鸦片罂粟": "罂粟",
     "遗传": "遗传",
     "遗传差异": "遗传",
+    "genetics": "遗传学",
+    "chickpea": "鹰嘴豆",
     "埃及豆": "鹰嘴豆",
     "you-dai-dong-wu": "you-dai-dong-wu",
     "有袋动物": "you-dai-dong-wu",
@@ -18809,6 +18944,7 @@
     "游牧": "游牧",
     "游牧生活": "游牧",
     "游牧族群": "游牧",
+    "游牧民族": "游牧",
     "yu-yan-wen-zi-suo-yin": "yu-yan-wen-zi-suo-yin",
     "语言与文字索引": "yu-yan-wen-zi-suo-yin",
     "Language and Writing Index": "yu-yan-wen-zi-suo-yin",
@@ -18848,10 +18984,10 @@
     "language spread": "语言传播",
     "语言学": "语言学",
     "linguistics": "语言学",
-    "历史语言学": "语言学",
     "语言分类": "语言学",
     "语言学证据": "语言学证据",
     "语言证据": "语言学证据",
+    "历史语言学": "语言学证据",
     "运输": "运输",
     "交通运输": "运输",
     "物资运输": "运输",
@@ -18889,14 +19025,13 @@
     "political fragmentation": "zheng-zhi-fen-lie",
     "政治割据": "zheng-zhi-fen-lie",
     "zhengfu": "zhengfu",
-    "conquest": "zhengfu",
+    "征服": "zhengfu",
     "zhi-li-ren": "zhi-li-ren",
     "直立人": "zhi-li-ren",
     "Homo erectus": "zhi-li-ren",
     "直立猿人": "zhi-li-ren",
     "zhi-liang-suo-yin": "zhi-liang-suo-yin",
     "质量索引": "zhi-liang-suo-yin",
-    "quality index": "zhi-liang-suo-yin",
     "zhi-ma": "zhi-ma",
     "芝麻": "zhi-ma",
     "sesame": "zhi-ma",
@@ -18913,6 +19048,10 @@
     "周朝": "zhou-chao",
     "Zhou dynasty": "zhou-chao",
     "周代": "zhou-chao",
+    "zhu-tie": "zhu-tie",
+    "铸铁": "zhu-tie",
+    "cast iron": "zhu-tie",
+    "生铁": "zhu-tie",
     "zhuan-li": "zhuan-li",
     "专利": "zhuan-li",
     "patent": "zhuan-li",
@@ -18922,6 +19061,11 @@
     "specialists": "zhuan-zhi-jie-ceng",
     "专职人员": "zhuan-zhi-jie-ceng",
     "非农业人口": "zhuan-zhi-jie-ceng",
+    "zhui-chong-bing": "zhui-chong-bing",
+    "锥虫病": "zhui-chong-bing",
+    "trypanosomiasis": "zhui-chong-bing",
+    "非洲锥虫病": "zhui-chong-bing",
+    "昏睡病": "zhui-chong-bing",
     "专业化分工": "专业化分工",
     "经济专业化": "专业化分工",
     "专业手艺人": "专业化分工",
@@ -18932,10 +19076,13 @@
     "中国农业起源": "中国农业起源",
     "Chinese Agricultural Origins": "中国农业起源",
     "中国粮食生产起源": "中国农业起源",
+    "中央集权": "中央集权",
+    "集权": "中央集权",
     "中美洲": "中美洲",
     "Mesoamerica": "中美洲",
     "美索美洲": "中美洲",
     "制陶": "制陶",
+    "conquest": "征服",
     "征服者": "征服者",
     "conquistador": "征服者",
     "军事征服者": "征服者",
@@ -18960,10 +19107,10 @@
     "植物科学": "植物学",
     "作物植物学": "植物学",
     "殖民": "殖民",
-    "殖民扩张": "殖民",
-    "殖民主义": "殖民",
+    "殖民主义": "殖民主义",
     "colonialism": "殖民主义",
     "欧洲殖民": "殖民主义",
+    "殖民扩张": "殖民主义",
     "殖民地": "殖民主义",
     "爪哇野牛": "爪哇野牛",
     "banteng": "爪哇野牛",
@@ -18987,6 +19134,7 @@
     "paper": "纸张",
     "质量分布": "质量索引",
     "质量统计": "质量索引",
+    "quality index": "质量索引",
     "长江": "长江",
     "Yangtze": "长江",
     "扬子江": "长江",
@@ -19020,6 +19168,10 @@
     "religion": "宗教",
     "意识形态": "宗教",
     "神权": "宗教",
+    "zu-lu-ren": "zu-lu-ren",
+    "祖鲁人": "zu-lu-ren",
+    "Zulu": "zu-lu-ren",
+    "祖鲁族": "zu-lu-ren",
     "作坊": "作坊",
     "工坊": "作坊",
     "作物": "作物",
@@ -19031,8 +19183,9 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播",
     "作物驯化": "作物驯化",
+    "植物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 697,
-  "generated": "2026-05-26T19:21:51Z"
+  "page_count": 737,
+  "generated": "2026-05-26T20:13:52Z"
 }

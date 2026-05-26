@@ -2,7 +2,7 @@
 id: shan-yu-zu
 type: concept
 label: 闪语族
-aliases: [Semitic, 闪米特语族]
+aliases: [Semitic]
 tags: [语言, 西亚, 字母]
 description: 阿非罗-亚细亚语系的主要分支之一，包括希伯来语、阿拉伯语、阿拉姆语和腓尼基语等历史语言
 quality: basic

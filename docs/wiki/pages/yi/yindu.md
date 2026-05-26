@@ -2,7 +2,7 @@
 id: yindu
 type: place
 label: 印度
-aliases: [India, 印度次大陆]
+aliases: [印度次大陆]
 tags: [地区, 文明, 农业]
 region: eurasia
 axis: east-west

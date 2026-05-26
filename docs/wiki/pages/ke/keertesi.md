@@ -2,7 +2,7 @@
 id: ke-er-te-si
 type: person
 label: 埃尔南·科尔特斯
-aliases: [Hernán Cortés, 科尔特斯]
+aliases: []
 tags: [人物, 探险家, 征服者]
 birth: 1485
 death: 1547

@@ -2,7 +2,7 @@
 id: makesi
 type: person
 label: 卡尔·马克思
-aliases: [Karl Marx, 马克思]
+aliases: []
 tags: [学者]
 birth: 1818
 death: 1883

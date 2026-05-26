@@ -2,7 +2,7 @@
 id: aisaobiya
 type: place
 label: 埃塞俄比亚
-aliases: [Ethiopia]
+aliases: []
 tags: [地区, 农业, 文明]
 region: africa
 latitude_band: tropical

@@ -5,10 +5,9 @@ label: 粟
 aliases: [foxtail millet, Setaria italica, 小米, 谷子, 粟米]
 tags: [物种, 作物, 中国]
 region: asia
-quality: basic
 description: 中国最早驯化的谷物之一（Setaria italica），戴蒙德多处提及为东亚农业基石
+quality: basic
 ---
-
 ## 在本书中的角色
 
 粟（foxtail millet，*Setaria italica*）是中国最早驯化的谷物之一，与黍（ broomcorn millet）共同构成了中国北方新石器时代农业的基础。戴蒙德在第五章中将其列入世界上最早的粮食生产中心之一——中国（华北）的核心作物（005-021）。在第七章中，粟作为中国独立驯化的重要作物出现在新月沃地以外的驯化中心列表中。

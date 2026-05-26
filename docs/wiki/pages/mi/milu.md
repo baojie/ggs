@@ -2,7 +2,7 @@
 id: milu
 type: place
 label: 秘鲁
-aliases: [Peru]
+aliases: []
 tags: [地区, 文明, 农业]
 region: americas
 axis: north-south

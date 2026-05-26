@@ -2,7 +2,7 @@
 id: zhan-ma
 type: concept
 label: 战马
-aliases: [warhorse, 军马, 骑兵]
+aliases: [warhorse, 军马]
 tags: [军事, 技术, 动物]
 description: 经驯化用于军事用途的马匹，是欧亚大陆军事优势的重要来源，其使用受地理环境制约
 quality: basic

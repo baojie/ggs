@@ -2,7 +2,7 @@
 id: da-ma
 type: species
 label: 大麻
-aliases: [hemp, Cannabis sativa]
+aliases: [Cannabis sativa]
 tags: [作物, 纤维, 驯化]
 category: plant
 domesticated: true

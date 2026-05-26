@@ -2,7 +2,7 @@
 id: mikelunixiya
 type: place
 label: 密克罗尼西亚
-aliases: [Micronesia]
+aliases: []
 tags: [地区, 岛屿]
 region: oceania
 latitude_band: tropical
