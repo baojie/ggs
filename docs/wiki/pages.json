@@ -547,7 +547,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 1
+      "total_refs": 3
     },
     "阿塔瓦尔帕": {
       "type": "person",
@@ -832,7 +832,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 0
+      "total_refs": 1
     },
     "半岛": {
       "type": "concept",
@@ -2396,7 +2396,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 0
+      "total_refs": 1
     },
     "da-hu-hou": {
       "type": "species",
@@ -4166,7 +4166,7 @@
       "quality": "featured",
       "quality_score": 58,
       "affiliation": "西班牙王国",
-      "total_refs": 5
+      "total_refs": 6
     },
     "哥伦布航行与两个半球的碰撞": {
       "type": "event",
@@ -4417,7 +4417,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 11,
-      "total_refs": 2
+      "total_refs": 3
     },
     "国家": {
       "type": "concept",
@@ -5453,7 +5453,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 2
+      "total_refs": 3
     },
     "jin-shu-ye-lian": {
       "type": "concept",
@@ -6627,7 +6627,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 8,
-      "total_refs": 5
+      "total_refs": 6
     },
     "劳动分工": {
       "type": "concept",
@@ -8623,7 +8623,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 20
+      "total_refs": 21
     },
     "南岛语族": {
       "type": "concept",
@@ -10389,14 +10389,14 @@
       ],
       "path": "sh/shu-pi-bu.md",
       "description": "太平洋岛屿传统上用舂捣树皮制成的布料，南岛人扩张中传播的重要文化特征",
-      "prose_len": 163,
-      "prose_chars": 163,
-      "h2_count": 0,
+      "prose_len": 423,
+      "prose_chars": 387,
+      "h2_count": 3,
       "pn_count": 1,
-      "wikilink_count": 0,
+      "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "stub",
-      "quality_score": 1,
+      "quality": "basic",
+      "quality_score": 9,
       "total_refs": 2
     },
     "shu": {
@@ -11122,14 +11122,14 @@
       ],
       "path": "si/si-ke-li-lin-ren.md",
       "description": "古挪威人传说中对北美土著的称呼",
-      "prose_len": 154,
-      "prose_chars": 154,
-      "h2_count": 0,
-      "pn_count": 0,
-      "wikilink_count": 0,
+      "prose_len": 445,
+      "prose_chars": 409,
+      "h2_count": 3,
+      "pn_count": 1,
+      "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "stub",
-      "quality_score": 1,
+      "quality": "basic",
+      "quality_score": 9,
       "total_refs": 1
     },
     "su-mei-er-ren": {
@@ -11907,7 +11907,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
-      "total_refs": 3
+      "total_refs": 4
     },
     "文化": {
       "type": "concept",
@@ -12571,7 +12571,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 25,
-      "total_refs": 2
+      "total_refs": 3
     },
     "xiaweiyi": {
       "type": "place",
@@ -13240,21 +13240,21 @@
         "亚诺马米人"
       ],
       "tags": [
+        "人物",
         "亚马孙",
-        "原住民",
-        "南美洲"
+        "原住民"
       ],
       "path": "ya/ya-nuo-ma-ma-ren.md",
       "description": "亚马孙雨林中至今保持独立的原住民族群，戴蒙德用以例证美洲原住民社会在殖民挤压下生存的多样性",
-      "prose_len": 172,
-      "prose_chars": 172,
-      "h2_count": 0,
+      "prose_len": 438,
+      "prose_chars": 401,
+      "h2_count": 3,
       "pn_count": 1,
-      "wikilink_count": 0,
+      "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "stub",
-      "quality_score": 1,
-      "total_refs": 0
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 1
     },
     "ya-xi-ren": {
       "type": "person",
@@ -13270,15 +13270,15 @@
       ],
       "path": "ya/ya-xi-ren.md",
       "description": "加利福尼亚北部的小型土著部落，在19世纪被白人移民消灭",
-      "prose_len": 166,
-      "prose_chars": 166,
-      "h2_count": 0,
-      "pn_count": 0,
-      "wikilink_count": 0,
+      "prose_len": 452,
+      "prose_chars": 414,
+      "h2_count": 3,
+      "pn_count": 1,
+      "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "stub",
-      "quality_score": 1,
-      "total_refs": 0
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 1
     },
     "yan-mai": {
       "type": "species",
@@ -14644,20 +14644,21 @@
         "三宝太监"
       ],
       "tags": [
+        "人物",
         "航海",
         "中国",
         "探险"
       ],
       "path": "zh/zheng-he.md",
       "description": "明代航海家，率领宝船队七次远航印度洋，最远到达非洲东海岸",
-      "prose_len": 196,
-      "prose_chars": 196,
-      "h2_count": 0,
-      "pn_count": 1,
-      "wikilink_count": 0,
+      "prose_len": 455,
+      "prose_chars": 419,
+      "h2_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "stub",
-      "quality_score": 1,
+      "quality": "basic",
+      "quality_score": 9,
       "total_refs": 1
     },
     "zhengfu": {
@@ -15091,7 +15092,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 2
+      "total_refs": 3
     },
     "政治组织": {
       "type": "concept",
@@ -17835,5 +17836,5 @@
     "驯化作物": "作物驯化"
   },
   "page_count": 654,
-  "generated": "2026-05-26T17:23:17Z"
+  "generated": "2026-05-26T17:26:02Z"
 }
