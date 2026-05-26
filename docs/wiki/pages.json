@@ -401,6 +401,30 @@
       "quality_score": 61,
       "total_refs": 6
     },
+    "ao-zhou-ye-quan": {
+      "type": "species",
+      "label": "澳洲野犬",
+      "aliases": [
+        "dingo",
+        "丁格犬"
+      ],
+      "tags": [
+        "动物",
+        "澳大利亚",
+        "驯化"
+      ],
+      "path": "ao/ao-zhou-ye-quan.md",
+      "description": "澳大利亚的野生犬科动物，约4000年前随南岛人到达澳大利亚，后恢复野生状态",
+      "prose_len": 192,
+      "prose_chars": 192,
+      "h2_count": 0,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "stub",
+      "quality_score": 1,
+      "total_refs": 0
+    },
     "aodaliya": {
       "type": "place",
       "label": "澳大利亚",
@@ -2052,6 +2076,30 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 8,
+      "total_refs": 0
+    },
+    "da-ben-keng-wen-hua": {
+      "type": "concept",
+      "label": "大坌坑文化",
+      "aliases": [
+        "Tapenkeng",
+        "大坌坑"
+      ],
+      "tags": [
+        "考古",
+        "台湾",
+        "新石器时代"
+      ],
+      "path": "da/da-ben-keng-wen-hua.md",
+      "description": "台湾最早的新石器时代文化，约公元前3000年出现，是南岛人起源的考古证据",
+      "prose_len": 183,
+      "prose_chars": 183,
+      "h2_count": 0,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "stub",
+      "quality_score": 1,
       "total_refs": 0
     },
     "da-hu-hou": {
@@ -5826,6 +5874,30 @@
       "quality_score": 59,
       "total_refs": 1
     },
+    "la-pi-ta-ren": {
+      "type": "person",
+      "label": "拉皮塔人",
+      "aliases": [
+        "Lapita people",
+        "拉皮塔文化人群"
+      ],
+      "tags": [
+        "历史",
+        "太平洋",
+        "考古"
+      ],
+      "path": "la/la-pi-ta-ren.md",
+      "description": "制作拉皮塔陶器的南岛航海者，约公元前1500年出现在俾斯麦群岛并向太平洋深处扩张",
+      "prose_len": 194,
+      "prose_chars": 194,
+      "h2_count": 0,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "stub",
+      "quality_score": 1,
+      "total_refs": 0
+    },
     "la-pi-ta-wen-hua": {
       "type": "concept",
       "label": "拉皮塔文化",
@@ -9322,6 +9394,31 @@
       "quality_score": 11,
       "total_refs": 1
     },
+    "shu-pi-bu": {
+      "type": "concept",
+      "label": "树皮布",
+      "aliases": [
+        "tapa",
+        "barkcloth",
+        "塔帕"
+      ],
+      "tags": [
+        "技术",
+        "太平洋",
+        "纺织"
+      ],
+      "path": "sh/shu-pi-bu.md",
+      "description": "太平洋岛屿传统上用舂捣树皮制成的布料，南岛人扩张中传播的重要文化特征",
+      "prose_len": 163,
+      "prose_chars": 163,
+      "h2_count": 0,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "stub",
+      "quality_score": 1,
+      "total_refs": 0
+    },
     "shu": {
       "type": "species",
       "label": "黍",
@@ -12634,6 +12731,30 @@
       "quality_score": 60,
       "total_refs": 1
     },
+    "yuan-shi-nan-dao-yu": {
+      "type": "concept",
+      "label": "原始南岛语",
+      "aliases": [
+        "Proto-Austronesian",
+        "PAN"
+      ],
+      "tags": [
+        "语言",
+        "南岛语系",
+        "重构"
+      ],
+      "path": "yu/yuan-shi-nan-dao-yu.md",
+      "description": "通过比较现代南岛语言重构的祖代语言，为南岛人的起源和迁徙提供语言学证据",
+      "prose_len": 177,
+      "prose_chars": 177,
+      "h2_count": 0,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "stub",
+      "quality_score": 1,
+      "total_refs": 0
+    },
     "yue-dan-he-gu": {
       "type": "place",
       "label": "约旦河谷",
@@ -13964,6 +14085,10 @@
     "安第斯": "安第斯山脉",
     "Andes": "安第斯山脉",
     "南美安第斯": "安第斯山脉",
+    "ao-zhou-ye-quan": "ao-zhou-ye-quan",
+    "澳洲野犬": "ao-zhou-ye-quan",
+    "dingo": "ao-zhou-ye-quan",
+    "丁格犬": "ao-zhou-ye-quan",
     "aodaliya": "aodaliya",
     "澳大利亚": "aodaliya",
     "Australia": "aodaliya",
@@ -14173,6 +14298,10 @@
     "Sahul": "da-ao-da-li-ya",
     "萨胡尔大陆架": "da-ao-da-li-ya",
     "大澳洲": "da-ao-da-li-ya",
+    "da-ben-keng-wen-hua": "da-ben-keng-wen-hua",
+    "大坌坑文化": "da-ben-keng-wen-hua",
+    "Tapenkeng": "da-ben-keng-wen-hua",
+    "大坌坑": "da-ben-keng-wen-hua",
     "da-hu-hou": "da-hu-hou",
     "大狐猴": "da-hu-hou",
     "Indri": "da-hu-hou",
@@ -14710,6 +14839,10 @@
     "expansion": "扩张",
     "领土扩张": "扩张",
     "农业扩张": "扩张",
+    "la-pi-ta-ren": "la-pi-ta-ren",
+    "拉皮塔人": "la-pi-ta-ren",
+    "Lapita people": "la-pi-ta-ren",
+    "拉皮塔文化人群": "la-pi-ta-ren",
     "la-pi-ta-wen-hua": "la-pi-ta-wen-hua",
     "拉皮塔文化": "la-pi-ta-wen-hua",
     "拉皮塔陶器": "la-pi-ta-wen-hua",
@@ -15170,6 +15303,11 @@
     "clan": "shi-zu",
     "宗族": "shi-zu",
     "氏族制度": "shi-zu",
+    "shu-pi-bu": "shu-pi-bu",
+    "树皮布": "shu-pi-bu",
+    "tapa": "shu-pi-bu",
+    "barkcloth": "shu-pi-bu",
+    "塔帕": "shu-pi-bu",
     "shu": "shu",
     "黍": "shu",
     "proso millet": "shu",
@@ -15612,6 +15750,10 @@
     "游牧": "游牧",
     "游牧生活": "游牧",
     "游牧族群": "游牧",
+    "yuan-shi-nan-dao-yu": "yuan-shi-nan-dao-yu",
+    "原始南岛语": "yuan-shi-nan-dao-yu",
+    "Proto-Austronesian": "yuan-shi-nan-dao-yu",
+    "PAN": "yuan-shi-nan-dao-yu",
     "yue-dan-he-gu": "yue-dan-he-gu",
     "约旦河谷": "yue-dan-he-gu",
     "Jordan Valley": "yue-dan-he-gu",
@@ -15785,6 +15927,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 582,
-  "generated": "2026-05-26T13:33:12Z"
+  "page_count": 587,
+  "generated": "2026-05-26T13:34:20Z"
 }

@@ -155,6 +155,15 @@
       ],
       "path": "an/安第斯山脉.md"
     },
+    "ao-zhou-ye-quan": {
+      "type": "species",
+      "label": "澳洲野犬",
+      "aliases": [
+        "dingo",
+        "丁格犬"
+      ],
+      "path": "ao/ao-zhou-ye-quan.md"
+    },
     "aodaliya": {
       "type": "place",
       "label": "澳大利亚",
@@ -775,6 +784,15 @@
         "大澳洲"
       ],
       "path": "da/da-ao-da-li-ya.md"
+    },
+    "da-ben-keng-wen-hua": {
+      "type": "concept",
+      "label": "大坌坑文化",
+      "aliases": [
+        "Tapenkeng",
+        "大坌坑"
+      ],
+      "path": "da/da-ben-keng-wen-hua.md"
     },
     "da-hu-hou": {
       "type": "species",
@@ -2229,6 +2247,15 @@
       ],
       "path": "ku/扩张.md"
     },
+    "la-pi-ta-ren": {
+      "type": "person",
+      "label": "拉皮塔人",
+      "aliases": [
+        "Lapita people",
+        "拉皮塔文化人群"
+      ],
+      "path": "la/la-pi-ta-ren.md"
+    },
     "la-pi-ta-wen-hua": {
       "type": "concept",
       "label": "拉皮塔文化",
@@ -3568,6 +3595,16 @@
       ],
       "path": "sh/shi-zu.md"
     },
+    "shu-pi-bu": {
+      "type": "concept",
+      "label": "树皮布",
+      "aliases": [
+        "tapa",
+        "barkcloth",
+        "塔帕"
+      ],
+      "path": "sh/shu-pi-bu.md"
+    },
     "shu": {
       "type": "species",
       "label": "黍",
@@ -4838,6 +4875,15 @@
       ],
       "path": "yo/游牧.md"
     },
+    "yuan-shi-nan-dao-yu": {
+      "type": "concept",
+      "label": "原始南岛语",
+      "aliases": [
+        "Proto-Austronesian",
+        "PAN"
+      ],
+      "path": "yu/yuan-shi-nan-dao-yu.md"
+    },
     "yue-dan-he-gu": {
       "type": "place",
       "label": "约旦河谷",
@@ -5391,6 +5437,10 @@
     "安第斯": "安第斯山脉",
     "Andes": "安第斯山脉",
     "南美安第斯": "安第斯山脉",
+    "ao-zhou-ye-quan": "ao-zhou-ye-quan",
+    "澳洲野犬": "ao-zhou-ye-quan",
+    "dingo": "ao-zhou-ye-quan",
+    "丁格犬": "ao-zhou-ye-quan",
     "aodaliya": "aodaliya",
     "澳大利亚": "aodaliya",
     "Australia": "aodaliya",
@@ -5600,6 +5650,10 @@
     "Sahul": "da-ao-da-li-ya",
     "萨胡尔大陆架": "da-ao-da-li-ya",
     "大澳洲": "da-ao-da-li-ya",
+    "da-ben-keng-wen-hua": "da-ben-keng-wen-hua",
+    "大坌坑文化": "da-ben-keng-wen-hua",
+    "Tapenkeng": "da-ben-keng-wen-hua",
+    "大坌坑": "da-ben-keng-wen-hua",
     "da-hu-hou": "da-hu-hou",
     "大狐猴": "da-hu-hou",
     "Indri": "da-hu-hou",
@@ -6137,6 +6191,10 @@
     "expansion": "扩张",
     "领土扩张": "扩张",
     "农业扩张": "扩张",
+    "la-pi-ta-ren": "la-pi-ta-ren",
+    "拉皮塔人": "la-pi-ta-ren",
+    "Lapita people": "la-pi-ta-ren",
+    "拉皮塔文化人群": "la-pi-ta-ren",
     "la-pi-ta-wen-hua": "la-pi-ta-wen-hua",
     "拉皮塔文化": "la-pi-ta-wen-hua",
     "拉皮塔陶器": "la-pi-ta-wen-hua",
@@ -6597,6 +6655,11 @@
     "clan": "shi-zu",
     "宗族": "shi-zu",
     "氏族制度": "shi-zu",
+    "shu-pi-bu": "shu-pi-bu",
+    "树皮布": "shu-pi-bu",
+    "tapa": "shu-pi-bu",
+    "barkcloth": "shu-pi-bu",
+    "塔帕": "shu-pi-bu",
     "shu": "shu",
     "黍": "shu",
     "proso millet": "shu",
@@ -7039,6 +7102,10 @@
     "游牧": "游牧",
     "游牧生活": "游牧",
     "游牧族群": "游牧",
+    "yuan-shi-nan-dao-yu": "yuan-shi-nan-dao-yu",
+    "原始南岛语": "yuan-shi-nan-dao-yu",
+    "Proto-Austronesian": "yuan-shi-nan-dao-yu",
+    "PAN": "yuan-shi-nan-dao-yu",
     "yue-dan-he-gu": "yue-dan-he-gu",
     "约旦河谷": "yue-dan-he-gu",
     "Jordan Valley": "yue-dan-he-gu",
@@ -7212,6 +7279,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 582,
-  "generated": "2026-05-26T13:33:12Z"
+  "page_count": 587,
+  "generated": "2026-05-26T13:34:20Z"
 }

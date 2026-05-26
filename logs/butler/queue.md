@@ -41,10 +41,10 @@
 
 ### P2 stub（单章重要实体）
 
-- [ ] P2 stub | 大坌坑文化 | concept | LLM 发现，ch17，台湾最早新石器时代文化，南岛人起源的考古证据
-- [ ] P2 stub | 原始南岛语 | concept | LLM 发现，ch17，通过比较现代南岛语言重构的祖代语言
-- [ ] P2 stub | 树皮布 | concept | LLM 发现，ch17，太平洋岛屿传统上用舂捣树皮制成的布料
-- [ ] P2 stub | 拉皮塔人 | person | LLM 发现，ch17，制作拉皮塔陶器的南岛航海者
+- [x] P2 stub | 大坌坑文化 | concept | LLM 发现，ch17，台湾最早新石器时代文化，南岛人起源的考古证据
+- [x] P2 stub | 原始南岛语 | concept | LLM 发现，ch17，通过比较现代南岛语言重构的祖代语言
+- [x] P2 stub | 树皮布 | concept | LLM 发现，ch17，太平洋岛屿传统上用舂捣树皮制成的布料
+- [x] P2 stub | 拉皮塔人 | person | LLM 发现，ch17，制作拉皮塔陶器的南岛航海者
 
 ## Phase 2 — 新建候选（SCN28 R199 发现 — ch16 中国怎样成为中国人的中国）
 
@@ -309,5 +309,5 @@
 ### P2 stub（单章重要实体）
 
 - [x] P2 stub | 大澳大利亚 | concept | LLM 发现，ch15，更新世连接澳大利亚和新几内亚的大陆块
-- [ ] P2 stub | 澳洲野犬 | species | LLM 发现，ch15，澳大利亚的野生犬科动物
+- [x] P2 stub | 澳洲野犬 | species | LLM 发现，ch15，澳大利亚的野生犬科动物
 - [x] P2 stub | 火耕农业 | concept | LLM 发现，ch15，澳大利亚土著用火管理土地的方法

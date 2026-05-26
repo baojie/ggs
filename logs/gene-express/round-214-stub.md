@@ -1,0 +1,50 @@
+# Round 214 — STUB
+
+- **Date**: 2026-05-26
+- **Grow phase**: 5
+- **Decision**: P7 STUB（继续清理队列，evv5 即将达阈值）
+
+---
+
+## 新建存根页（5 stub）
+
+| 页面 | slug | type | size |
+|------|------|------|------|
+| 大坌坑文化 | da-ben-keng-wen-hua | concept | 798B |
+| 原始南岛语 | yuan-shi-nan-dao-yu | concept | 793B |
+| 树皮布 | shu-pi-bu | concept | 725B |
+| 拉皮塔人 | la-pi-ta-ren | person | 842B |
+| 澳洲野犬 | ao-zhou-ye-quan | species | 814B |
+
+---
+
+## 决策矩阵
+
+- P1a EVV5+SCN28: rounds_since_last_evv5=9 < 10 → skip（即将触发）
+- P1b EVV5: 同上 → skip
+- P2 SCN28: queue ~10 ≥ 10 → skip
+- P3 W5: rounds_since_last_w5=27 < 29 → skip
+- P4 ENRICH: enrich_count=3 ≥ 3 → 饱和
+- P6 QRY2: qry2_count=2 ≥ 2 → 饱和
+- P7 STUB: 无上限 → **已执行**
+- P8 NEW1: new1_count=2 < 3 → 可用（stub 优先）
+
+---
+
+## 状态更新
+
+- current_round: 214→215
+- rounds_since_last_evv5: 9→10
+- rounds_since_last_discover: 4→5
+- rounds_since_last_w5: 27→28
+- last_10_genes: pop "ENRICH" → push "STUB"
+- enrich_count_window: 3→2（旧 ENRICH 出窗）
+- 队列减少5项，pending约5项
+
+---
+
+## 下轮预测
+
+R215 决策：
+- P1a EVV5+SCN28: rounds_since_last_evv5=10 ≥ 10 → **触发！**
+- 执行质量评估 + 章节发掘
