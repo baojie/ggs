@@ -1022,6 +1022,30 @@
       "quality_score": 56,
       "total_refs": 5
     },
+    "白鼬": {
+      "type": "species",
+      "label": "白鼬",
+      "aliases": [
+        "ferret",
+        "Mustela putorius furo"
+      ],
+      "tags": [
+        "动物",
+        "驯化",
+        "欧洲"
+      ],
+      "path": "ba/白鼬.md",
+      "description": "欧洲驯化来猎兔的小型哺乳动物，少数被驯化的独居地盘性动物之一",
+      "prose_len": 275,
+      "prose_chars": 273,
+      "h2_count": 0,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "bei-ge-mi-ren": {
       "type": "person",
       "label": "俾格米人",
@@ -6364,6 +6388,30 @@
       "quality_score": 59,
       "total_refs": 3
     },
+    "菊草": {
+      "type": "species",
+      "label": "菊草",
+      "aliases": [
+        "sumpweed",
+        "Iva annua"
+      ],
+      "tags": [
+        "植物",
+        "作物",
+        "美洲"
+      ],
+      "path": "ju/菊草.md",
+      "description": "美洲东部早期驯化的油料菊科植物，始祖作物之一，在现代农业中已消失",
+      "prose_len": 306,
+      "prose_chars": 304,
+      "h2_count": 0,
+      "pn_count": 4,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
+    },
     "kahamakazhanyi": {
       "type": "event",
       "label": "卡哈马卡战役",
@@ -6892,6 +6940,31 @@
       "quality": "featured",
       "quality_score": 59,
       "total_refs": 1
+    },
+    "狂犬病": {
+      "type": "disease",
+      "label": "狂犬病",
+      "aliases": [
+        "rabies",
+        "恐水症"
+      ],
+      "tags": [
+        "疾病",
+        "病毒",
+        "传染病",
+        "人畜共患"
+      ],
+      "path": "ku/狂犬病.md",
+      "description": "病毒性人畜共患传染病，戴蒙德在讨论病菌传播策略时的典型案例",
+      "prose_len": 265,
+      "prose_chars": 263,
+      "h2_count": 0,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
     },
     "la-jiao": {
       "type": "species",
@@ -14372,6 +14445,30 @@
       "quality_score": 9,
       "total_refs": 0
     },
+    "野葡萄": {
+      "type": "species",
+      "label": "野葡萄",
+      "aliases": [
+        "wild grape",
+        "Vitis"
+      ],
+      "tags": [
+        "植物",
+        "水果",
+        "驯化"
+      ],
+      "path": "ye/野葡萄.md",
+      "description": "在欧亚大陆被驯化的野生葡萄，其驯化历史是戴蒙德分析大陆间农业差异的案例之一",
+      "prose_len": 262,
+      "prose_chars": 260,
+      "h2_count": 0,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "yi-nu-te-ren": {
       "type": "person",
       "label": "伊努特人",
@@ -16141,6 +16238,30 @@
       "quality_score": 62,
       "total_refs": 5
     },
+    "爪哇野牛": {
+      "type": "species",
+      "label": "爪哇野牛",
+      "aliases": [
+        "banteng",
+        "Bos javanicus"
+      ],
+      "tags": [
+        "动物",
+        "驯化",
+        "东南亚"
+      ],
+      "path": "zh/爪哇野牛.md",
+      "description": "东南亚驯化的大型哺乳动物，戴蒙德列出的九种次要驯化动物之一",
+      "prose_len": 258,
+      "prose_chars": 256,
+      "h2_count": 0,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "猪": {
       "type": "species",
       "label": "猪",
@@ -16734,6 +16855,9 @@
     "班图尼格罗人": "班图人",
     "班图扩张": "班图扩张",
     "Bantu Expansion": "班图扩张",
+    "白鼬": "白鼬",
+    "ferret": "白鼬",
+    "Mustela putorius furo": "白鼬",
     "bei-ge-mi-ren": "bei-ge-mi-ren",
     "俾格米人": "bei-ge-mi-ren",
     "Pygmies": "bei-ge-mi-ren",
@@ -17480,6 +17604,9 @@
     "megafauna": "巨型动物",
     "大型哺乳动物": "巨型动物",
     "史前动物灭绝": "巨型动物",
+    "菊草": "菊草",
+    "sumpweed": "菊草",
+    "Iva annua": "菊草",
     "kahamakazhanyi": "kahamakazhanyi",
     "卡哈马卡战役": "kahamakazhanyi",
     "Battle of Cajamarca": "kahamakazhanyi",
@@ -17553,6 +17680,9 @@
     "expansion": "扩张",
     "领土扩张": "扩张",
     "农业扩张": "扩张",
+    "狂犬病": "狂犬病",
+    "rabies": "狂犬病",
+    "恐水症": "狂犬病",
     "la-jiao": "la-jiao",
     "辣椒": "la-jiao",
     "chili pepper": "la-jiao",
@@ -18598,6 +18728,9 @@
     "wild apple": "野苹果",
     "Malus sylvestris": "野苹果",
     "野生苹果": "野苹果",
+    "野葡萄": "野葡萄",
+    "wild grape": "野葡萄",
+    "Vitis": "野葡萄",
     "yi-nu-te-ren": "yi-nu-te-ren",
     "伊努特人": "yi-nu-te-ren",
     "Inuit": "yi-nu-te-ren",
@@ -18832,6 +18965,9 @@
     "colonialism": "殖民主义",
     "欧洲殖民": "殖民主义",
     "殖民地": "殖民主义",
+    "爪哇野牛": "爪哇野牛",
+    "banteng": "爪哇野牛",
+    "Bos javanicus": "爪哇野牛",
     "猪": "猪",
     "家猪": "猪",
     "野猪": "猪",
@@ -18897,6 +19033,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 692,
-  "generated": "2026-05-26T19:19:30Z"
+  "page_count": 697,
+  "generated": "2026-05-26T19:21:51Z"
 }

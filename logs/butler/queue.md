@@ -453,9 +453,9 @@
 
 ### P2 stub（单章重要实体）
 
-- [ ] P2 stub | 菊草 | species | SCN28 发现，ch08，美洲东部驯化的菊科油料植物（sumpweed / Iva annua），始祖作物之一，在现代已消失
+- [x] P2 stub | 菊草 | species | SCN28 发现，ch08，美洲东部驯化的菊科油料植物（sumpweed / Iva annua），始祖作物之一，在现代已消失
 - [x] P2 stub | 野苹果 | species | SCN28 发现，ch08，北美野生苹果种，戴蒙德用以讨论美洲驯化潜力的典型案例
-- [ ] P2 stub | 野葡萄 | species | SCN28 发现，ch08，北美野生葡萄种，与欧亚大陆驯化葡萄形成对比
+- [x] P2 stub | 野葡萄 | species | SCN28 发现，ch08，北美野生葡萄种，与欧亚大陆驯化葡萄形成对比
 - [x] P2 stub | 苋菜 | species | SCN28 发现，ch14，阿兹特克帝国的重要贡物作物（amaranth），高营养价值的古代作物
 
 ## Phase 2 — 新建候选（SCN28 R253 发现 — ch09 斑马与安娜·卡列尼娜原则）
@@ -472,10 +472,10 @@
 
 - [x] P2 stub | 亚洲象 | species | SCN28 发现，ch09，亚洲象，被驯服但未驯化，今天东南亚仍用作役畜
 - [x] P2 stub | 托尔斯泰 | person | SCN28 发现，ch09，列夫·托尔斯泰，俄国作家，《安娜·卡列尼娜》作者，其名言是安娜-卡列尼娜原则的来源
-- [ ] P2 stub | 爪哇野牛 | species | SCN28 发现，ch09，东南亚驯化的大型哺乳动物，次要9种之一
+- [x] P2 stub | 爪哇野牛 | species | SCN28 发现，ch09，东南亚驯化的大型哺乳动物，次要9种之一
 - [ ] P2 stub | 印度野牛 | species | SCN28 发现，ch09，南亚驯化的大型哺乳动物，次要9种之一
 - [ ] P2 stub | 硬毛鼠 | species | SCN28 发现，ch09，加勒比海诸岛的一种啮齿目动物，被驯化作食物
-- [ ] P2 stub | 白鼬 | species | SCN28 发现，ch09，欧洲驯化来猎兔的小型哺乳动物
+- [x] P2 stub | 白鼬 | species | SCN28 发现，ch09，欧洲驯化来猎兔的小型哺乳动物
 - [ ] P2 stub | 绒鼠 | species | SCN28 发现，ch09，为毛皮而饲养的驯化小型哺乳动物
 - [ ] P2 stub | 仓鼠 | species | SCN28 发现，ch09，近代驯化的宠物啮齿动物
 
@@ -492,7 +492,7 @@
 
 - [x] P2 stub | 麻风 | disease | SCN28 发现，ch11，麻风（leprosy），慢性传染病，历史上被污名化的疾病，在欧亚大陆长期存在
 - [ ] P2 stub | 脊髓灰质炎 | disease | SCN28 发现，ch11，脊髓灰质炎（polio），病毒性传染病，可导致永久性瘫痪，20世纪主要的儿童传染病之一
-- [ ] P2 stub | 狂犬病 | disease | SCN28 发现，ch11，狂犬病（rabies），病毒性人畜共患传染病，一旦发病几乎100%致死
+- [x] P2 stub | 狂犬病 | disease | SCN28 发现，ch11，狂犬病（rabies），病毒性人畜共患传染病，一旦发病几乎100%致死
 - [ ] P2 stub | 肺炎 | disease | SCN28 发现，ch11，肺炎（pneumonia），呼吸道感染疾病，在拥挤和不卫生条件下高发
 
 ## Phase 2 — 新建候选（SCN28 R257 发现 — ch13 技术与发明）

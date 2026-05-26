@@ -5,18 +5,18 @@
   "phase2_iteration": 1,
   "phase2_closed": true,
   "counters": {
-    "current_round": 275,
+    "current_round": 276,
     "type_round": 0,
-    "rounds_since_last_evv5": 5,
-    "rounds_since_last_discover": 5,
+    "rounds_since_last_evv5": 6,
+    "rounds_since_last_discover": 6,
     "discover_streak_low": 0,
-    "new1_count_window": 3,
+    "new1_count_window": 4,
     "enrich_count_window": 7,
     "qry2_count_window": 1,
     "rft_count_window": 0,
     "rch1_count_window": 4,
     "rch2_count_window": 0,
-    "rounds_since_last_w5": 28
+    "rounds_since_last_w5": 29
   },
   "thresholds": {
     "evv5_interval": 10,
@@ -32,10 +32,9 @@
     "rolling_window_size": 10
   },
   "pending_new_types": [],
-  "last_updated_round": 275,
+  "last_updated_round": 276,
   "phase5_start_round": 94,
   "last_10_genes": [
-    "ENRICH",
     "ENRICH",
     "ENRICH",
     "ENRICH",
@@ -44,7 +43,8 @@
     "NEW1",
     "NEW1",
     "NEW1",
-    "ENRICH"
+    "ENRICH",
+    "NEW1"
   ],
   "phase5_featured_target": 15
 }

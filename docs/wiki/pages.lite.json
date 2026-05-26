@@ -389,6 +389,15 @@
       ],
       "path": "ba/班图扩张.md"
     },
+    "白鼬": {
+      "type": "species",
+      "label": "白鼬",
+      "aliases": [
+        "ferret",
+        "Mustela putorius furo"
+      ],
+      "path": "ba/白鼬.md"
+    },
     "bei-ge-mi-ren": {
       "type": "person",
       "label": "俾格米人",
@@ -2426,6 +2435,15 @@
       ],
       "path": "ju/巨型动物.md"
     },
+    "菊草": {
+      "type": "species",
+      "label": "菊草",
+      "aliases": [
+        "sumpweed",
+        "Iva annua"
+      ],
+      "path": "ju/菊草.md"
+    },
     "kahamakazhanyi": {
       "type": "event",
       "label": "卡哈马卡战役",
@@ -2628,6 +2646,15 @@
         "农业扩张"
       ],
       "path": "ku/扩张.md"
+    },
+    "狂犬病": {
+      "type": "disease",
+      "label": "狂犬病",
+      "aliases": [
+        "rabies",
+        "恐水症"
+      ],
+      "path": "ku/狂犬病.md"
     },
     "la-jiao": {
       "type": "species",
@@ -5498,6 +5525,15 @@
       ],
       "path": "ye/野苹果.md"
     },
+    "野葡萄": {
+      "type": "species",
+      "label": "野葡萄",
+      "aliases": [
+        "wild grape",
+        "Vitis"
+      ],
+      "path": "ye/野葡萄.md"
+    },
     "yi-nu-te-ren": {
       "type": "person",
       "label": "伊努特人",
@@ -6177,6 +6213,15 @@
       ],
       "path": "zh/殖民主义.md"
     },
+    "爪哇野牛": {
+      "type": "species",
+      "label": "爪哇野牛",
+      "aliases": [
+        "banteng",
+        "Bos javanicus"
+      ],
+      "path": "zh/爪哇野牛.md"
+    },
     "猪": {
       "type": "species",
       "label": "猪",
@@ -6500,6 +6545,9 @@
     "班图尼格罗人": "班图人",
     "班图扩张": "班图扩张",
     "Bantu Expansion": "班图扩张",
+    "白鼬": "白鼬",
+    "ferret": "白鼬",
+    "Mustela putorius furo": "白鼬",
     "bei-ge-mi-ren": "bei-ge-mi-ren",
     "俾格米人": "bei-ge-mi-ren",
     "Pygmies": "bei-ge-mi-ren",
@@ -7246,6 +7294,9 @@
     "megafauna": "巨型动物",
     "大型哺乳动物": "巨型动物",
     "史前动物灭绝": "巨型动物",
+    "菊草": "菊草",
+    "sumpweed": "菊草",
+    "Iva annua": "菊草",
     "kahamakazhanyi": "kahamakazhanyi",
     "卡哈马卡战役": "kahamakazhanyi",
     "Battle of Cajamarca": "kahamakazhanyi",
@@ -7319,6 +7370,9 @@
     "expansion": "扩张",
     "领土扩张": "扩张",
     "农业扩张": "扩张",
+    "狂犬病": "狂犬病",
+    "rabies": "狂犬病",
+    "恐水症": "狂犬病",
     "la-jiao": "la-jiao",
     "辣椒": "la-jiao",
     "chili pepper": "la-jiao",
@@ -8364,6 +8418,9 @@
     "wild apple": "野苹果",
     "Malus sylvestris": "野苹果",
     "野生苹果": "野苹果",
+    "野葡萄": "野葡萄",
+    "wild grape": "野葡萄",
+    "Vitis": "野葡萄",
     "yi-nu-te-ren": "yi-nu-te-ren",
     "伊努特人": "yi-nu-te-ren",
     "Inuit": "yi-nu-te-ren",
@@ -8598,6 +8655,9 @@
     "colonialism": "殖民主义",
     "欧洲殖民": "殖民主义",
     "殖民地": "殖民主义",
+    "爪哇野牛": "爪哇野牛",
+    "banteng": "爪哇野牛",
+    "Bos javanicus": "爪哇野牛",
     "猪": "猪",
     "家猪": "猪",
     "野猪": "猪",
@@ -8663,6 +8723,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 692,
-  "generated": "2026-05-26T19:19:30Z"
+  "page_count": 697,
+  "generated": "2026-05-26T19:21:51Z"
 }
