@@ -236,6 +236,14 @@
       ],
       "path": "pages/ca/蚕.md"
     },
+    "采矿": {
+      "type": "concept",
+      "label": "采矿",
+      "aliases": [
+        "采矿业"
+      ],
+      "path": "pages/ca/采矿.md"
+    },
     "ch01-up-to-the-starting-line": {
       "type": "chapter",
       "label": "第一章　走上起跑线",
@@ -657,6 +665,15 @@
         "欧洲分裂"
       ],
       "path": "pages/fe/分裂.md"
+    },
+    "肥料": {
+      "type": "concept",
+      "label": "肥料",
+      "aliases": [
+        "施肥",
+        "粪肥"
+      ],
+      "path": "pages/fe/肥料.md"
     },
     "非洲": {
       "type": "place",
@@ -2379,6 +2396,14 @@
       ],
       "path": "pages/ti/天花病毒.md"
     },
+    "梯田": {
+      "type": "concept",
+      "label": "梯田",
+      "aliases": [
+        "梯田农业"
+      ],
+      "path": "pages/ti/梯田.md"
+    },
     "铁器": {
       "type": "concept",
       "label": "铁器",
@@ -2763,6 +2788,14 @@
       ],
       "path": "pages/ya/鸭.md"
     },
+    "冶炼": {
+      "type": "concept",
+      "label": "冶炼",
+      "aliases": [
+        "冶金"
+      ],
+      "path": "pages/ye/冶炼.md"
+    },
     "冶金": {
       "type": "concept",
       "label": "冶金",
@@ -2908,6 +2941,15 @@
         "游牧民族"
       ],
       "path": "pages/yo/游牧.md"
+    },
+    "渔业": {
+      "type": "concept",
+      "label": "渔业",
+      "aliases": [
+        "捕鱼",
+        "渔猎"
+      ],
+      "path": "pages/yu/渔业.md"
     },
     "玉米": {
       "type": "species",
@@ -3337,6 +3379,8 @@
     "家蚕": "蚕",
     "silkworm": "蚕",
     "桑蚕": "蚕",
+    "采矿": "采矿",
+    "采矿业": "采矿",
     "ch01-up-to-the-starting-line": "ch01-up-to-the-starting-line",
     "ch02-natural-experiment-of-history": "ch02-natural-experiment-of-history",
     "ch03-collision-at-cajamarca": "ch03-collision-at-cajamarca",
@@ -3468,6 +3512,9 @@
     "分裂": "分裂",
     "碎片化": "分裂",
     "欧洲分裂": "分裂",
+    "肥料": "肥料",
+    "施肥": "肥料",
+    "粪肥": "肥料",
     "非洲": "非洲",
     "Africa": "非洲",
     "撒哈拉以南非洲": "非洲",
@@ -4096,6 +4143,8 @@
     "天花病毒": "天花病毒",
     "痘病毒": "天花病毒",
     "Variola virus": "天花病毒",
+    "梯田": "梯田",
+    "梯田农业": "梯田",
     "铁器": "铁器",
     "铁制工具": "铁器",
     "铁器时代": "铁器",
@@ -4233,7 +4282,8 @@
     "鸭": "鸭",
     "duck": "鸭",
     "家鸭": "鸭",
-    "冶金": "冶金",
+    "冶炼": "冶炼",
+    "冶金": "冶炼",
     "冶金技术": "冶金",
     "metallurgy": "冶金",
     "金属加工": "冶金",
@@ -4283,6 +4333,9 @@
     "游牧生活": "游牧",
     "游牧族群": "游牧",
     "游牧民族": "游牧",
+    "渔业": "渔业",
+    "捕鱼": "渔业",
+    "渔猎": "渔业",
     "玉米": "玉米",
     "玉蜀黍": "玉米",
     "墨西哥类蜀黍": "玉米",
@@ -4406,6 +4459,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 357,
-  "generated": "2026-05-26T01:30:51Z"
+  "page_count": 362,
+  "generated": "2026-05-26T01:31:35Z"
 }

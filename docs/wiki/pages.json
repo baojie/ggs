@@ -608,6 +608,29 @@
       "quality_score": 8,
       "total_refs": 1
     },
+    "采矿": {
+      "type": "concept",
+      "label": "采矿",
+      "aliases": [
+        "采矿业"
+      ],
+      "tags": [
+        "技术",
+        "经济",
+        "资源"
+      ],
+      "path": "pages/ca/采矿.md",
+      "description": "从地下提取矿物资源的活动，是冶金技术的基础环节",
+      "prose_len": 260,
+      "prose_chars": 247,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "ch01-up-to-the-starting-line": {
       "type": "chapter",
       "label": "第一章　走上起跑线",
@@ -1599,7 +1622,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 25
+      "total_refs": 26
     },
     "鹅": {
       "type": "species",
@@ -1761,6 +1784,30 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
+      "total_refs": 0
+    },
+    "肥料": {
+      "type": "concept",
+      "label": "肥料",
+      "aliases": [
+        "施肥",
+        "粪肥"
+      ],
+      "tags": [
+        "农业",
+        "技术",
+        "土壤"
+      ],
+      "path": "pages/fe/肥料.md",
+      "description": "施用于土壤以提供植物营养的物质，是维持农业产量的关键投入",
+      "prose_len": 253,
+      "prose_chars": 240,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
       "total_refs": 0
     },
     "非洲": {
@@ -2131,7 +2178,7 @@
       "blockquote_count": 3,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 1
+      "total_refs": 2
     },
     "工程": {
       "type": "concept",
@@ -2474,7 +2521,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 8
+      "total_refs": 9
     },
     "河流": {
       "type": "concept",
@@ -2888,7 +2935,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 14
+      "total_refs": 15
     },
     "技术传播": {
       "type": "concept",
@@ -2913,7 +2960,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 26
+      "total_refs": 27
     },
     "技术积累": {
       "type": "concept",
@@ -3629,7 +3676,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 84
+      "total_refs": 87
     },
     "luoma-diguo": {
       "type": "event",
@@ -4805,7 +4852,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 13
+      "total_refs": 15
     },
     "农业革命": {
       "type": "concept",
@@ -5235,7 +5282,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 1
+      "total_refs": 2
     },
     "青铜时代": {
       "type": "concept",
@@ -6248,6 +6295,29 @@
       "quality_score": 58,
       "total_refs": 4
     },
+    "梯田": {
+      "type": "concept",
+      "label": "梯田",
+      "aliases": [
+        "梯田农业"
+      ],
+      "tags": [
+        "农业",
+        "技术",
+        "土地"
+      ],
+      "path": "pages/ti/梯田.md",
+      "description": "在坡地上建造的阶梯式农田，是山区农业的重要土地利用方式",
+      "prose_len": 292,
+      "prose_chars": 279,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "铁器": {
       "type": "concept",
       "label": "铁器",
@@ -6271,7 +6341,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 3
+      "total_refs": 4
     },
     "统一": {
       "type": "concept",
@@ -6915,7 +6985,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 14
+      "total_refs": 15
     },
     "新月沃地": {
       "type": "concept",
@@ -7257,6 +7327,29 @@
       "quality": "basic",
       "quality_score": 7,
       "total_refs": 1
+    },
+    "冶炼": {
+      "type": "concept",
+      "label": "冶炼",
+      "aliases": [
+        "冶金"
+      ],
+      "tags": [
+        "技术",
+        "工业",
+        "材料"
+      ],
+      "path": "pages/ye/冶炼.md",
+      "description": "从矿石中提取金属的技术，是文明发展的重要技术里程碑",
+      "prose_len": 302,
+      "prose_chars": 289,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
     },
     "冶金": {
       "type": "concept",
@@ -7645,6 +7738,30 @@
       "quality": "featured",
       "quality_score": 60,
       "total_refs": 1
+    },
+    "渔业": {
+      "type": "concept",
+      "label": "渔业",
+      "aliases": [
+        "捕鱼",
+        "渔猎"
+      ],
+      "tags": [
+        "经济",
+        "食物",
+        "技术"
+      ],
+      "path": "pages/yu/渔业.md",
+      "description": "从河流和海洋中捕捞鱼类的生产活动，在沿海和岛屿社会具有重要经济地位",
+      "prose_len": 299,
+      "prose_chars": 286,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
     },
     "玉米": {
       "type": "species",
@@ -8433,7 +8550,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 2
+      "total_refs": 4
     },
     "宗教": {
       "type": "concept",
@@ -8601,6 +8718,8 @@
     "家蚕": "蚕",
     "silkworm": "蚕",
     "桑蚕": "蚕",
+    "采矿": "采矿",
+    "采矿业": "采矿",
     "ch01-up-to-the-starting-line": "ch01-up-to-the-starting-line",
     "ch02-natural-experiment-of-history": "ch02-natural-experiment-of-history",
     "ch03-collision-at-cajamarca": "ch03-collision-at-cajamarca",
@@ -8732,6 +8851,9 @@
     "分裂": "分裂",
     "碎片化": "分裂",
     "欧洲分裂": "分裂",
+    "肥料": "肥料",
+    "施肥": "肥料",
+    "粪肥": "肥料",
     "非洲": "非洲",
     "Africa": "非洲",
     "撒哈拉以南非洲": "非洲",
@@ -9360,6 +9482,8 @@
     "天花病毒": "天花病毒",
     "痘病毒": "天花病毒",
     "Variola virus": "天花病毒",
+    "梯田": "梯田",
+    "梯田农业": "梯田",
     "铁器": "铁器",
     "铁制工具": "铁器",
     "铁器时代": "铁器",
@@ -9497,7 +9621,8 @@
     "鸭": "鸭",
     "duck": "鸭",
     "家鸭": "鸭",
-    "冶金": "冶金",
+    "冶炼": "冶炼",
+    "冶金": "冶炼",
     "冶金技术": "冶金",
     "metallurgy": "冶金",
     "金属加工": "冶金",
@@ -9547,6 +9672,9 @@
     "游牧生活": "游牧",
     "游牧族群": "游牧",
     "游牧民族": "游牧",
+    "渔业": "渔业",
+    "捕鱼": "渔业",
+    "渔猎": "渔业",
     "玉米": "玉米",
     "玉蜀黍": "玉米",
     "墨西哥类蜀黍": "玉米",
@@ -9670,6 +9798,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 357,
-  "generated": "2026-05-26T01:30:51Z"
+  "page_count": 362,
+  "generated": "2026-05-26T01:31:35Z"
 }
