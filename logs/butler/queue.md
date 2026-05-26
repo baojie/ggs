@@ -201,11 +201,11 @@
 - [x] P2 stub | 阿拉姆语 | concept | LLM 发现，ch12/ch19
 - [ ] P2 stub | B类线形文字 | concept | LLM 发现，ch12
 - [ ] P2 stub | A类线形文字 | concept | LLM 发现，ch12
-- [ ] P2 stub | 圣西里尔 | person | LLM 发现，ch12
-- [ ] P2 stub | 谚文 | concept | LLM 发现，ch12
-- [ ] P2 stub | 欧甘字母 | concept | LLM 发现，ch12
-- [ ] P2 stub | 如尼文 | concept | LLM 发现，ch12
+- [x] P2 stub | 圣西里尔 | person | LLM 发现，ch12
+- [x] P2 stub | 谚文 | concept | LLM 发现，ch12
+- [x] P2 stub | 欧甘字母 | concept | LLM 发现，ch12
+- [x] P2 stub | 如尼文 | concept | LLM 发现，ch12
 - [x] P2 stub | 画谜原则 | concept | LLM 发现，ch12
-- [ ] P2 stub | 克诺索斯 | place | LLM 发现，ch12
+- [x] P2 stub | 克诺索斯 | place | LLM 发现，ch12
 - [ ] P2 stub | 萨波特克 | place | LLM 发现，ch12
 - [ ] P2 stub | 人种生物学 | concept | 红链 ×2

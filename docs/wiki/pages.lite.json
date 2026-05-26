@@ -1962,6 +1962,15 @@
       ],
       "path": "ke/keluoweiwenhua.md"
     },
+    "克诺索斯": {
+      "type": "place",
+      "label": "克诺索斯",
+      "aliases": [
+        "Knossos",
+        "克诺索斯王宫"
+      ],
+      "path": "ke/克诺索斯.md"
+    },
     "克里特": {
       "type": "place",
       "label": "克里特",
@@ -2879,6 +2888,15 @@
       ],
       "path": "ou/欧洲殖民非洲.md"
     },
+    "欧甘字母": {
+      "type": "concept",
+      "label": "欧甘字母",
+      "aliases": [
+        "Ogham",
+        "欧甘文"
+      ],
+      "path": "ou/欧甘字母.md"
+    },
     "pisaluo": {
       "type": "person",
       "label": "弗朗西斯科·皮萨罗",
@@ -3176,6 +3194,17 @@
       ],
       "path": "ri/日本.md"
     },
+    "如尼文": {
+      "type": "concept",
+      "label": "如尼文",
+      "aliases": [
+        "runic",
+        "如尼字母",
+        "鲁尼文",
+        "符文"
+      ],
+      "path": "ru/如尼文.md"
+    },
     "sa-he-le-di-dai": {
       "type": "place",
       "label": "萨赫勒地带",
@@ -3315,6 +3344,16 @@
         "长途贸易者"
       ],
       "path": "sh/商人.md"
+    },
+    "圣西里尔": {
+      "type": "person",
+      "label": "圣西里尔",
+      "aliases": [
+        "Saint Cyril",
+        "西里尔",
+        "西里尔字母"
+      ],
+      "path": "sh/圣西里尔.md"
     },
     "山羊": {
       "type": "species",
@@ -4130,6 +4169,16 @@
         "美洲羊驼"
       ],
       "path": "ya/羊驼.md"
+    },
+    "谚文": {
+      "type": "concept",
+      "label": "谚文",
+      "aliases": [
+        "Hangul",
+        "训民正音",
+        "朝鲜谚文"
+      ],
+      "path": "ya/谚文.md"
     },
     "鸭": {
       "type": "species",
@@ -5547,6 +5596,9 @@
     "克罗维文化": "keluoweiwenhua",
     "Clovis culture": "keluoweiwenhua",
     "克罗维遗址": "keluoweiwenhua",
+    "克诺索斯": "克诺索斯",
+    "Knossos": "克诺索斯",
+    "克诺索斯王宫": "克诺索斯",
     "克里特": "克里特",
     "Crete": "克里特",
     "克里特岛": "克里特",
@@ -5859,6 +5911,9 @@
     "European Colonization of Africa": "欧洲殖民非洲",
     "非洲殖民": "欧洲殖民非洲",
     "欧洲征服非洲": "欧洲殖民非洲",
+    "欧甘字母": "欧甘字母",
+    "Ogham": "欧甘字母",
+    "欧甘文": "欧甘字母",
     "pisaluo": "pisaluo",
     "弗朗西斯科·皮萨罗": "pisaluo",
     "Francisco Pizarro": "pisaluo",
@@ -5953,6 +6008,11 @@
     "日本": "日本",
     "Japan": "日本",
     "日本列岛": "日本",
+    "如尼文": "如尼文",
+    "runic": "如尼文",
+    "如尼字母": "如尼文",
+    "鲁尼文": "如尼文",
+    "符文": "如尼文",
     "sa-he-le-di-dai": "sa-he-le-di-dai",
     "萨赫勒地带": "sa-he-le-di-dai",
     "Sahel": "sa-he-le-di-dai",
@@ -6001,6 +6061,10 @@
     "贸易商": "商人",
     "商贾": "商人",
     "长途贸易者": "商人",
+    "圣西里尔": "圣西里尔",
+    "Saint Cyril": "圣西里尔",
+    "西里尔": "圣西里尔",
+    "西里尔字母": "圣西里尔",
     "山羊": "山羊",
     "家山羊": "山羊",
     "goat": "山羊",
@@ -6292,6 +6356,10 @@
     "羊驼": "羊驼",
     "alpaca": "羊驼",
     "美洲羊驼": "羊驼",
+    "谚文": "谚文",
+    "Hangul": "谚文",
+    "训民正音": "谚文",
+    "朝鲜谚文": "谚文",
     "鸭": "鸭",
     "duck": "鸭",
     "家鸭": "鸭",
@@ -6528,6 +6596,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 532,
-  "generated": "2026-05-26T12:31:14Z"
+  "page_count": 537,
+  "generated": "2026-05-26T12:32:33Z"
 }

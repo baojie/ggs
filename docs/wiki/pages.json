@@ -5148,6 +5148,31 @@
       "quality_score": 57,
       "total_refs": 3
     },
+    "克诺索斯": {
+      "type": "place",
+      "label": "克诺索斯",
+      "aliases": [
+        "Knossos",
+        "克诺索斯王宫"
+      ],
+      "tags": [
+        "文明",
+        "文字",
+        "考古",
+        "欧洲"
+      ],
+      "path": "ke/克诺索斯.md",
+      "description": "克里特岛弥诺斯王的首都，出土了大量B类线形文字刻写板，是研究早期文字行政功能的关键考古遗址",
+      "prose_len": 408,
+      "prose_chars": 402,
+      "h2_count": 0,
+      "pn_count": 3,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
+    },
     "克里特": {
       "type": "place",
       "label": "克里特",
@@ -7546,6 +7571,31 @@
       "quality_score": 56,
       "total_refs": 0
     },
+    "欧甘字母": {
+      "type": "concept",
+      "label": "欧甘字母",
+      "aliases": [
+        "Ogham",
+        "欧甘文"
+      ],
+      "tags": [
+        "文字",
+        "语言",
+        "字母",
+        "凯尔特"
+      ],
+      "path": "ou/欧甘字母.md",
+      "description": "公元4世纪左右在爱尔兰和说凯尔特语的不列颠部分地区使用的字母系统，其独特的字母形式以手势语的五指法为基础",
+      "prose_len": 371,
+      "prose_chars": 367,
+      "h2_count": 0,
+      "pn_count": 3,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
+    },
     "pisaluo": {
       "type": "person",
       "label": "弗朗西斯科·皮萨罗",
@@ -8333,6 +8383,33 @@
       "quality_score": 55,
       "total_refs": 6
     },
+    "如尼文": {
+      "type": "concept",
+      "label": "如尼文",
+      "aliases": [
+        "runic",
+        "如尼字母",
+        "鲁尼文",
+        "符文"
+      ],
+      "tags": [
+        "文字",
+        "语言",
+        "字母",
+        "日耳曼"
+      ],
+      "path": "ru/如尼文.md",
+      "description": "古代日耳曼民族使用的字母系统，影响了乌尔斐拉斯哥特字母的创造，是字母传播与改造的案例",
+      "prose_len": 331,
+      "prose_chars": 327,
+      "h2_count": 0,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
+    },
     "sa-he-le-di-dai": {
       "type": "place",
       "label": "萨赫勒地带",
@@ -8689,6 +8766,31 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
+      "total_refs": 0
+    },
+    "圣西里尔": {
+      "type": "person",
+      "label": "圣西里尔",
+      "aliases": [
+        "Saint Cyril",
+        "西里尔",
+        "西里尔字母"
+      ],
+      "tags": [
+        "人物",
+        "文字",
+        "字母"
+      ],
+      "path": "sh/圣西里尔.md",
+      "description": "公元9世纪的希腊传教士，为斯拉夫人设计了西里尔字母，奠定了俄语等东斯拉夫语言的书写基础",
+      "prose_len": 346,
+      "prose_chars": 342,
+      "h2_count": 0,
+      "pn_count": 3,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
       "total_refs": 0
     },
     "山羊": {
@@ -10815,6 +10917,31 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
+      "total_refs": 0
+    },
+    "谚文": {
+      "type": "concept",
+      "label": "谚文",
+      "aliases": [
+        "Hangul",
+        "训民正音",
+        "朝鲜谚文"
+      ],
+      "tags": [
+        "文字",
+        "语言",
+        "字母"
+      ],
+      "path": "ya/谚文.md",
+      "description": "公元1446年朝鲜李朝国王世宗为朝鲜语设计的字母系统，以独特的音节方块组合形式和字母形状的生理学特征而闻名",
+      "prose_len": 356,
+      "prose_chars": 352,
+      "h2_count": 0,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
       "total_refs": 0
     },
     "鸭": {
@@ -13387,6 +13514,9 @@
     "克罗维文化": "keluoweiwenhua",
     "Clovis culture": "keluoweiwenhua",
     "克罗维遗址": "keluoweiwenhua",
+    "克诺索斯": "克诺索斯",
+    "Knossos": "克诺索斯",
+    "克诺索斯王宫": "克诺索斯",
     "克里特": "克里特",
     "Crete": "克里特",
     "克里特岛": "克里特",
@@ -13699,6 +13829,9 @@
     "European Colonization of Africa": "欧洲殖民非洲",
     "非洲殖民": "欧洲殖民非洲",
     "欧洲征服非洲": "欧洲殖民非洲",
+    "欧甘字母": "欧甘字母",
+    "Ogham": "欧甘字母",
+    "欧甘文": "欧甘字母",
     "pisaluo": "pisaluo",
     "弗朗西斯科·皮萨罗": "pisaluo",
     "Francisco Pizarro": "pisaluo",
@@ -13793,6 +13926,11 @@
     "日本": "日本",
     "Japan": "日本",
     "日本列岛": "日本",
+    "如尼文": "如尼文",
+    "runic": "如尼文",
+    "如尼字母": "如尼文",
+    "鲁尼文": "如尼文",
+    "符文": "如尼文",
     "sa-he-le-di-dai": "sa-he-le-di-dai",
     "萨赫勒地带": "sa-he-le-di-dai",
     "Sahel": "sa-he-le-di-dai",
@@ -13841,6 +13979,10 @@
     "贸易商": "商人",
     "商贾": "商人",
     "长途贸易者": "商人",
+    "圣西里尔": "圣西里尔",
+    "Saint Cyril": "圣西里尔",
+    "西里尔": "圣西里尔",
+    "西里尔字母": "圣西里尔",
     "山羊": "山羊",
     "家山羊": "山羊",
     "goat": "山羊",
@@ -14132,6 +14274,10 @@
     "羊驼": "羊驼",
     "alpaca": "羊驼",
     "美洲羊驼": "羊驼",
+    "谚文": "谚文",
+    "Hangul": "谚文",
+    "训民正音": "谚文",
+    "朝鲜谚文": "谚文",
     "鸭": "鸭",
     "duck": "鸭",
     "家鸭": "鸭",
@@ -14368,6 +14514,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 532,
-  "generated": "2026-05-26T12:31:14Z"
+  "page_count": 537,
+  "generated": "2026-05-26T12:32:33Z"
 }
