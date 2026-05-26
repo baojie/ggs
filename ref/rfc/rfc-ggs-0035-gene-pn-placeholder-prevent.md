@@ -1,6 +1,6 @@
 # RFC-ggs-0035: 在 NEW1/RCH2 gene 提示词中明确禁止 PN 占位符
 
-- **Status**: proposed
+- **Status**: accepted
 - **Date**: 2026-05-27
 - **Issue**: https://github.com/baojie/memex/issues/203
 - **Source wiki**: ggs
