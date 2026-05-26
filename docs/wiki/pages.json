@@ -350,7 +350,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 19
+      "total_refs": 20
     },
     "安娜卡列尼娜原则": {
       "type": "concept",
@@ -470,7 +470,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 13
+      "total_refs": 14
     },
     "阿塔瓦尔帕": {
       "type": "person",
@@ -519,7 +519,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 11,
-      "total_refs": 0
+      "total_refs": 1
     },
     "aziteke": {
       "type": "concept",
@@ -1028,7 +1028,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 8,
-      "total_refs": 0
+      "total_refs": 1
     },
     "bilu": {
       "type": "place",
@@ -2022,7 +2022,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 1
+      "total_refs": 2
     },
     "城镇": {
       "type": "concept",
@@ -2266,6 +2266,27 @@
       "quality": "featured",
       "quality_score": 63,
       "affiliation": "葡萄牙",
+      "total_refs": 0
+    },
+    "dai-shu": {
+      "type": "species",
+      "label": "袋鼠",
+      "aliases": [
+        "kangaroo",
+        "大袋鼠"
+      ],
+      "tags": [
+        "动物",
+        "澳大利亚"
+      ],
+      "path": "da/dai-shu.md",
+      "description": "澳大利亚特有的有袋类动物，新几内亚人和澳大利亚土著饲养作为宠物和食物",
+      "prose_len": 311,
+      "prose_chars": 266,
+      "h2_count": 3,
+      "pn_count": 1,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
       "total_refs": 0
     },
     "daimengde": {
@@ -3030,7 +3051,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 48
+      "total_refs": 49
     },
     "du-du-niao": {
       "type": "species",
@@ -3240,7 +3261,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
-      "total_refs": 1
+      "total_refs": 2
     },
     "feilvbin": {
       "type": "place",
@@ -4449,6 +4470,27 @@
       "quality": "featured",
       "quality_score": 62,
       "affiliation": "美国",
+      "total_refs": 0
+    },
+    "hui-xiong": {
+      "type": "species",
+      "label": "灰熊",
+      "aliases": [
+        "grizzly bear",
+        "Ursus arctos horribilis"
+      ],
+      "tags": [
+        "动物",
+        "野生"
+      ],
+      "path": "hu/hui-xiong.md",
+      "description": "北美大型食肉哺乳动物，戴蒙德用以例证因凶险性情而失去驯化候补资格的动物",
+      "prose_len": 337,
+      "prose_chars": 292,
+      "h2_count": 3,
+      "pn_count": 1,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
       "total_refs": 0
     },
     "huo-geng-nong-ye": {
@@ -6131,7 +6173,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
-      "total_refs": 2
+      "total_refs": 3
     },
     "liangshi-chubei": {
       "type": "concept",
@@ -7100,7 +7142,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 32,
-      "total_refs": 9
+      "total_refs": 10
     },
     "蒙特朱马": {
       "type": "person",
@@ -7836,7 +7878,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 13
+      "total_refs": 14
     },
     "南岛语族": {
       "type": "concept",
@@ -8547,7 +8589,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
-      "total_refs": 0
+      "total_refs": 1
     },
     "qiuzhangzhi": {
       "type": "concept",
@@ -10308,7 +10350,27 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 2
+      "total_refs": 3
+    },
+    "suo-luo-men-qun-dao": {
+      "type": "place",
+      "label": "所罗门群岛",
+      "aliases": [
+        "Solomon Islands"
+      ],
+      "tags": [
+        "太平洋",
+        "大洋洲"
+      ],
+      "path": "su/suo-luo-men-qun-dao.md",
+      "description": "太平洋西南部的岛群，南岛人扩张的东部边界之一，戴蒙德用以例证早期远洋移民的极限",
+      "prose_len": 332,
+      "prose_chars": 279,
+      "h2_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 1
     },
     "tai-ping-yang": {
       "type": "place",
@@ -10331,7 +10393,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
-      "total_refs": 1
+      "total_refs": 2
     },
     "taiwan": {
       "type": "place",
@@ -10937,7 +10999,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 16
+      "total_refs": 17
     },
     "文字的独立发明": {
       "type": "event",
@@ -11034,6 +11096,27 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
+      "total_refs": 1
+    },
+    "wu-lu-ke": {
+      "type": "place",
+      "label": "乌鲁克",
+      "aliases": [
+        "Uruk",
+        "以力"
+      ],
+      "tags": [
+        "美索不达米亚",
+        "考古"
+      ],
+      "path": "wu/wu-lu-ke.md",
+      "description": "苏美尔人最重要的城邦之一，世界上最早的城市，文字的起源地之一",
+      "prose_len": 276,
+      "prose_chars": 232,
+      "h2_count": 3,
+      "pn_count": 0,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
       "total_refs": 1
     },
     "wu-zhong-bao-hu": {
@@ -11267,7 +11350,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 8,
-      "total_refs": 1
+      "total_refs": 2
     },
     "xian-wai-fu-cai": {
       "type": "concept",
@@ -11552,7 +11635,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 4
+      "total_refs": 5
     },
     "xiexing-wenzi": {
       "type": "concept",
@@ -11788,7 +11871,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 20
+      "total_refs": 22
     },
     "新月沃地": {
       "type": "concept",
@@ -11992,7 +12075,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 46
+      "total_refs": 48
     },
     "驯鹿": {
       "type": "species",
@@ -13130,7 +13213,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 4
+      "total_refs": 5
     },
     "语言传播": {
       "type": "concept",
@@ -13445,6 +13528,27 @@
       "quality_score": 57,
       "total_refs": 0
     },
+    "zhou-chao": {
+      "type": "event",
+      "label": "周朝",
+      "aliases": [
+        "Zhou dynasty",
+        "周代"
+      ],
+      "tags": [
+        "中国",
+        "帝国"
+      ],
+      "path": "zh/zhou-chao.md",
+      "description": "中国第三个王朝（约前1046—前256），戴蒙德用以例证中国早期统一文字和同化周边族群的过程",
+      "prose_len": 335,
+      "prose_chars": 268,
+      "h2_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 1
+    },
     "专业化分工": {
       "type": "concept",
       "label": "专业化分工",
@@ -13517,7 +13621,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 2
+      "total_refs": 3
     },
     "中央集权": {
       "type": "concept",
@@ -14588,6 +14692,10 @@
     "瓦斯科·达·伽马": "dagama",
     "Vasco da Gama": "dagama",
     "达·伽马": "dagama",
+    "dai-shu": "dai-shu",
+    "袋鼠": "dai-shu",
+    "kangaroo": "dai-shu",
+    "大袋鼠": "dai-shu",
     "daimengde": "daimengde",
     "贾雷德·戴蒙德": "daimengde",
     "Jared Diamond": "daimengde",
@@ -14891,6 +14999,10 @@
     "huashengdun": "huashengdun",
     "乔治·华盛顿": "huashengdun",
     "George Washington": "huashengdun",
+    "hui-xiong": "hui-xiong",
+    "灰熊": "hui-xiong",
+    "grizzly bear": "hui-xiong",
+    "Ursus arctos horribilis": "hui-xiong",
     "huo-geng-nong-ye": "huo-geng-nong-ye",
     "火耕农业": "huo-geng-nong-ye",
     "火耕": "huo-geng-nong-ye",
@@ -15685,6 +15797,9 @@
     "苏美尔人": "su-mei-er-ren",
     "Sumerians": "su-mei-er-ren",
     "苏美人": "su-mei-er-ren",
+    "suo-luo-men-qun-dao": "suo-luo-men-qun-dao",
+    "所罗门群岛": "suo-luo-men-qun-dao",
+    "Solomon Islands": "suo-luo-men-qun-dao",
     "tai-ping-yang": "tai-ping-yang",
     "太平洋": "tai-ping-yang",
     "Pacific Ocean": "tai-ping-yang",
@@ -15788,6 +15903,10 @@
     "纬度效应": "纬度",
     "纬度与气候": "纬度",
     "东西轴纬度": "纬度",
+    "wu-lu-ke": "wu-lu-ke",
+    "乌鲁克": "wu-lu-ke",
+    "Uruk": "wu-lu-ke",
+    "以力": "wu-lu-ke",
     "wu-zhong-bao-hu": "wu-zhong-bao-hu",
     "物种保护": "wu-zhong-bao-hu",
     "species conservation": "wu-zhong-bao-hu",
@@ -16120,6 +16239,10 @@
     "zhili": "zhili",
     "智利": "zhili",
     "Chile": "zhili",
+    "zhou-chao": "zhou-chao",
+    "周朝": "zhou-chao",
+    "Zhou dynasty": "zhou-chao",
+    "周代": "zhou-chao",
     "专业化分工": "专业化分工",
     "经济专业化": "专业化分工",
     "专业手艺人": "专业化分工",
@@ -16229,6 +16352,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 598,
-  "generated": "2026-05-26T16:17:43Z"
+  "page_count": 603,
+  "generated": "2026-05-26T16:20:37Z"
 }

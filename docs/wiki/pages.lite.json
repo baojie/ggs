@@ -861,6 +861,15 @@
       ],
       "path": "da/dagama.md"
     },
+    "dai-shu": {
+      "type": "species",
+      "label": "袋鼠",
+      "aliases": [
+        "kangaroo",
+        "大袋鼠"
+      ],
+      "path": "da/dai-shu.md"
+    },
     "daimengde": {
       "type": "person",
       "label": "贾雷德·戴蒙德",
@@ -1693,6 +1702,15 @@
         "George Washington"
       ],
       "path": "hu/huashengdun.md"
+    },
+    "hui-xiong": {
+      "type": "species",
+      "label": "灰熊",
+      "aliases": [
+        "grizzly bear",
+        "Ursus arctos horribilis"
+      ],
+      "path": "hu/hui-xiong.md"
     },
     "huo-geng-nong-ye": {
       "type": "concept",
@@ -3954,6 +3972,14 @@
       ],
       "path": "su/su-mei-er-ren.md"
     },
+    "suo-luo-men-qun-dao": {
+      "type": "place",
+      "label": "所罗门群岛",
+      "aliases": [
+        "Solomon Islands"
+      ],
+      "path": "su/suo-luo-men-qun-dao.md"
+    },
     "tai-ping-yang": {
       "type": "place",
       "label": "太平洋",
@@ -4232,6 +4258,15 @@
         "东西轴纬度"
       ],
       "path": "we/纬度.md"
+    },
+    "wu-lu-ke": {
+      "type": "place",
+      "label": "乌鲁克",
+      "aliases": [
+        "Uruk",
+        "以力"
+      ],
+      "path": "wu/wu-lu-ke.md"
     },
     "wu-zhong-bao-hu": {
       "type": "concept",
@@ -5158,6 +5193,15 @@
       ],
       "path": "zh/zhili.md"
     },
+    "zhou-chao": {
+      "type": "event",
+      "label": "周朝",
+      "aliases": [
+        "Zhou dynasty",
+        "周代"
+      ],
+      "path": "zh/zhou-chao.md"
+    },
     "专业化分工": {
       "type": "concept",
       "label": "专业化分工",
@@ -5789,6 +5833,10 @@
     "瓦斯科·达·伽马": "dagama",
     "Vasco da Gama": "dagama",
     "达·伽马": "dagama",
+    "dai-shu": "dai-shu",
+    "袋鼠": "dai-shu",
+    "kangaroo": "dai-shu",
+    "大袋鼠": "dai-shu",
     "daimengde": "daimengde",
     "贾雷德·戴蒙德": "daimengde",
     "Jared Diamond": "daimengde",
@@ -6092,6 +6140,10 @@
     "huashengdun": "huashengdun",
     "乔治·华盛顿": "huashengdun",
     "George Washington": "huashengdun",
+    "hui-xiong": "hui-xiong",
+    "灰熊": "hui-xiong",
+    "grizzly bear": "hui-xiong",
+    "Ursus arctos horribilis": "hui-xiong",
     "huo-geng-nong-ye": "huo-geng-nong-ye",
     "火耕农业": "huo-geng-nong-ye",
     "火耕": "huo-geng-nong-ye",
@@ -6886,6 +6938,9 @@
     "苏美尔人": "su-mei-er-ren",
     "Sumerians": "su-mei-er-ren",
     "苏美人": "su-mei-er-ren",
+    "suo-luo-men-qun-dao": "suo-luo-men-qun-dao",
+    "所罗门群岛": "suo-luo-men-qun-dao",
+    "Solomon Islands": "suo-luo-men-qun-dao",
     "tai-ping-yang": "tai-ping-yang",
     "太平洋": "tai-ping-yang",
     "Pacific Ocean": "tai-ping-yang",
@@ -6989,6 +7044,10 @@
     "纬度效应": "纬度",
     "纬度与气候": "纬度",
     "东西轴纬度": "纬度",
+    "wu-lu-ke": "wu-lu-ke",
+    "乌鲁克": "wu-lu-ke",
+    "Uruk": "wu-lu-ke",
+    "以力": "wu-lu-ke",
     "wu-zhong-bao-hu": "wu-zhong-bao-hu",
     "物种保护": "wu-zhong-bao-hu",
     "species conservation": "wu-zhong-bao-hu",
@@ -7321,6 +7380,10 @@
     "zhili": "zhili",
     "智利": "zhili",
     "Chile": "zhili",
+    "zhou-chao": "zhou-chao",
+    "周朝": "zhou-chao",
+    "Zhou dynasty": "zhou-chao",
+    "周代": "zhou-chao",
     "专业化分工": "专业化分工",
     "经济专业化": "专业化分工",
     "专业手艺人": "专业化分工",
@@ -7430,6 +7493,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 598,
-  "generated": "2026-05-26T16:17:43Z"
+  "page_count": 603,
+  "generated": "2026-05-26T16:20:37Z"
 }

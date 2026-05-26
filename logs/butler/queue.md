@@ -331,16 +331,16 @@
 
 ### P2 stub（红链 1–2）
 
-- [ ] P2 stub | 所罗门群岛 | place | 红链 ×1
-- [ ] P2 stub | 乌鲁克 | place | 红链 ×1
-- [ ] P2 stub | 周朝 | event | 红链 ×1
+- [x] P2 stub | 所罗门群岛 | place | 红链 ×1
+- [x] P2 stub | 乌鲁克 | place | 红链 ×1
+- [x] P2 stub | 周朝 | event | 红链 ×1
 
 ## Phase 2 — 新建候选（SCN28 R222 发现 — ch09 斑马与安娜·卡列尼娜原则）
 
 ### P2 stub（单章重要实体）
 
-- [ ] P2 stub | 灰熊 | species | LLM 发现，ch09，驯化不成功的危险大型动物案例，灰熊因凶险性情失去驯化候补资格
-- [ ] P2 stub | 袋鼠 | species | LLM 发现，ch09，新几内亚人驯养作为宠物的有袋类动物
+- [x] P2 stub | 灰熊 | species | LLM 发现，ch09，驯化不成功的危险大型动物案例，灰熊因凶险性情失去驯化候补资格
+- [x] P2 stub | 袋鼠 | species | LLM 发现，ch09，新几内亚人驯养作为宠物的有袋类动物
 - [ ] P2 stub | 鸵鸟 | species | LLM 发现，ch09，非洲大型鸟类，在各地作为宠物被驯养
 - [ ] P2 stub | 西貒 | species | LLM 发现，ch09，美洲偶蹄目动物，近于驯化但从未成功的大型哺乳动物候补
 - [ ] P2 stub | 鹤鸵 | species | LLM 发现，ch09，新几内亚大型不会飞的鸟类，当地人会捕捉幼鸟喂养
