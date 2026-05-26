@@ -1264,6 +1264,15 @@
       ],
       "path": "hu/黄河.md"
     },
+    "ji-shu-ting-zhi": {
+      "type": "concept",
+      "label": "技术停滞",
+      "aliases": [
+        "技术停滞",
+        "technological stagnation"
+      ],
+      "path": "ji/ji-shu-ting-zhi.md"
+    },
     "jialifuniya": {
       "type": "place",
       "label": "加利福尼亚",
@@ -2798,6 +2807,15 @@
       ],
       "path": "sh/鼠疫.md"
     },
+    "tai-ping-yang": {
+      "type": "place",
+      "label": "太平洋",
+      "aliases": [
+        "Pacific Ocean",
+        "太平洋海域"
+      ],
+      "path": "ta/tai-ping-yang.md"
+    },
     "taiwan": {
       "type": "place",
       "label": "台湾",
@@ -2805,6 +2823,16 @@
         "Taiwan"
       ],
       "path": "ta/taiwan.md"
+    },
+    "tan14-ce-nian": {
+      "type": "concept",
+      "label": "碳14测年",
+      "aliases": [
+        "radiocarbon dating",
+        "放射性碳定年",
+        "C14测年"
+      ],
+      "path": "ta/tan14-ce-nian.md"
     },
     "台湾": {
       "type": "place",
@@ -3043,6 +3071,15 @@
       "aliases": [],
       "path": "wu/物种索引.md"
     },
+    "xi-zang-gao-yuan": {
+      "type": "place",
+      "label": "西藏高原",
+      "aliases": [
+        "Tibetan Plateau",
+        "青藏高原"
+      ],
+      "path": "xi/xi-zang-gao-yuan.md"
+    },
     "xiang-xing-wen-zi": {
       "type": "concept",
       "label": "象形文字",
@@ -3084,6 +3121,15 @@
         "Siberia"
       ],
       "path": "xi/xiboliya.md"
+    },
+    "xie-xing-wen-zi": {
+      "type": "concept",
+      "label": "楔形文字",
+      "aliases": [
+        "cuneiform",
+        "两河流域文字"
+      ],
+      "path": "xi/xie-xing-wen-zi.md"
     },
     "ximalaya": {
       "type": "place",
@@ -4357,6 +4403,9 @@
     "霍乱弧菌": "霍乱",
     "黄河": "黄河",
     "Yellow River": "黄河",
+    "ji-shu-ting-zhi": "ji-shu-ting-zhi",
+    "技术停滞": "ji-shu-ting-zhi",
+    "technological stagnation": "ji-shu-ting-zhi",
     "jialifuniya": "jialifuniya",
     "加利福尼亚": "jialifuniya",
     "California": "jialifuniya",
@@ -4885,9 +4934,18 @@
     "税赋": "税收",
     "鼠疫": "鼠疫",
     "鼠疫杆菌": "鼠疫",
+    "tai-ping-yang": "tai-ping-yang",
+    "太平洋": "tai-ping-yang",
+    "Pacific Ocean": "tai-ping-yang",
+    "太平洋海域": "tai-ping-yang",
     "taiwan": "taiwan",
     "台湾": "taiwan",
     "Taiwan": "taiwan",
+    "tan14-ce-nian": "tan14-ce-nian",
+    "碳14测年": "tan14-ce-nian",
+    "radiocarbon dating": "tan14-ce-nian",
+    "放射性碳定年": "tan14-ce-nian",
+    "C14测年": "tan14-ce-nian",
     "台湾岛": "台湾",
     "探险": "探险",
     "exploration": "探险",
@@ -4968,6 +5026,10 @@
     "生物物种": "物种",
     "species": "物种",
     "物种索引": "物种索引",
+    "xi-zang-gao-yuan": "xi-zang-gao-yuan",
+    "西藏高原": "xi-zang-gao-yuan",
+    "Tibetan Plateau": "xi-zang-gao-yuan",
+    "青藏高原": "xi-zang-gao-yuan",
     "xiang-xing-wen-zi": "xiang-xing-wen-zi",
     "象形文字": "xiang-xing-wen-zi",
     "hieroglyph": "xiang-xing-wen-zi",
@@ -4984,6 +5046,9 @@
     "xiboliya": "xiboliya",
     "西伯利亚": "xiboliya",
     "Siberia": "xiboliya",
+    "xie-xing-wen-zi": "xie-xing-wen-zi",
+    "cuneiform": "xie-xing-wen-zi",
+    "两河流域文字": "xie-xing-wen-zi",
     "ximalaya": "ximalaya",
     "喜马拉雅": "ximalaya",
     "Himalayas": "ximalaya",
@@ -4997,7 +5062,6 @@
     "xizang": "xizang",
     "西藏": "xizang",
     "Tibet": "xizang",
-    "青藏高原": "xizang",
     "向日葵": "向日葵",
     "sunflower": "向日葵",
     "小麦": "小麦",
@@ -5269,6 +5333,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 434,
-  "generated": "2026-05-26T10:40:13Z"
+  "page_count": 439,
+  "generated": "2026-05-26T10:41:10Z"
 }
