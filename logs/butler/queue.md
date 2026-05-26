@@ -199,16 +199,16 @@
 
 - [x] P2 stub | 腓尼基人 | person | LLM 发现，ch12
 - [x] P2 stub | 阿拉姆语 | concept | LLM 发现，ch12/ch19
-- [ ] P2 stub | B类线形文字 | concept | LLM 发现，ch12
-- [ ] P2 stub | A类线形文字 | concept | LLM 发现，ch12
+- [x] P2 stub | B类线形文字 | concept | LLM 发现，ch12
+- [x] P2 stub | A类线形文字 | concept | LLM 发现，ch12
 - [x] P2 stub | 圣西里尔 | person | LLM 发现，ch12
 - [x] P2 stub | 谚文 | concept | LLM 发现，ch12
 - [x] P2 stub | 欧甘字母 | concept | LLM 发现，ch12
 - [x] P2 stub | 如尼文 | concept | LLM 发现，ch12
 - [x] P2 stub | 画谜原则 | concept | LLM 发现，ch12
 - [x] P2 stub | 克诺索斯 | place | LLM 发现，ch12
-- [ ] P2 stub | 萨波特克 | place | LLM 发现，ch12
-- [ ] P2 stub | 人种生物学 | concept | 红链 ×2
+- [x] P2 stub | 萨波特克 | place | LLM 发现，ch12
+- [x] P2 stub | 人种生物学 | concept | 红链 ×2
 
 ## Phase 2 — 新建候选（SCN28 R190 发现 — ch13 技术与发明）
 
@@ -217,7 +217,7 @@
 - [x] P1 create | 弥诺斯文明 | event | LLM 发现，多章（ch12/ch13/ch16）
 - [x] P1 create | 塔斯马尼亚 | place | LLM 发现，多章（ch09/ch13/ch15/ch18/ch20）
 - [x] P1 create | 水磨 | concept | LLM 发现，多章（ch13/ch20）
-- [ ] P1 create | 纳瓦霍人 | person | LLM 发现，多章（ch09/ch13/ch18）
+- [x] P1 create | 纳瓦霍人 | person | LLM 发现，多章（ch09/ch13/ch18）
 
 ### P2 stub（单章重要实体）
 

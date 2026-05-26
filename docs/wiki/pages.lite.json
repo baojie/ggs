@@ -1,6 +1,15 @@
 {
   "_schema_version": 2,
   "pages": {
+    "A类线形文字": {
+      "type": "concept",
+      "label": "A类线形文字",
+      "aliases": [
+        "Linear A",
+        "线形文字A"
+      ],
+      "path": "a0/A类线形文字.md"
+    },
     "About": {
       "type": "overview",
       "label": "关于本 Wiki",
@@ -162,6 +171,15 @@
         "墨西加"
       ],
       "path": "az/aziteke.md"
+    },
+    "B类线形文字": {
+      "type": "concept",
+      "label": "B类线形文字",
+      "aliases": [
+        "Linear B",
+        "线形文字B"
+      ],
+      "path": "b0/B类线形文字.md"
     },
     "ba-ta-ge-ni-ya": {
       "type": "place",
@@ -2776,6 +2794,15 @@
       ],
       "path": "na/南岛语族扩张.md"
     },
+    "纳瓦霍人": {
+      "type": "person",
+      "label": "纳瓦霍人",
+      "aliases": [
+        "Navajo",
+        "纳瓦霍族"
+      ],
+      "path": "na/纳瓦霍人.md"
+    },
     "neng-ren": {
       "type": "concept",
       "label": "能人",
@@ -3189,6 +3216,16 @@
       ],
       "path": "re/人种.md"
     },
+    "人种生物学": {
+      "type": "concept",
+      "label": "人种生物学",
+      "aliases": [
+        "ethnobiology",
+        "民族生物学",
+        "传统生物学知识"
+      ],
+      "path": "re/人种生物学.md"
+    },
     "人类迁徙": {
       "type": "concept",
       "label": "人类迁徙",
@@ -3281,6 +3318,16 @@
         "斯奎亚"
       ],
       "path": "sa/塞阔雅.md"
+    },
+    "萨波特克": {
+      "type": "place",
+      "label": "萨波特克",
+      "aliases": [
+        "Zapotec",
+        "萨波特克人",
+        "萨波特克文明"
+      ],
+      "path": "sa/萨波特克.md"
     },
     "萨赫勒地带": {
       "type": "place",
@@ -4964,6 +5011,9 @@
     }
   },
   "alias_index": {
+    "A类线形文字": "A类线形文字",
+    "Linear A": "A类线形文字",
+    "线形文字A": "A类线形文字",
     "About": "About",
     "关于本 Wiki": "About",
     "关于": "About",
@@ -5019,6 +5069,9 @@
     "Aztec": "aziteke",
     "阿兹特克帝国": "aziteke",
     "墨西加": "aziteke",
+    "B类线形文字": "B类线形文字",
+    "Linear B": "B类线形文字",
+    "线形文字B": "B类线形文字",
     "ba-ta-ge-ni-ya": "ba-ta-ge-ni-ya",
     "巴塔哥尼亚": "ba-ta-ge-ni-ya",
     "Patagonia": "ba-ta-ge-ni-ya",
@@ -5934,6 +5987,9 @@
     "南岛语族扩张": "南岛语族扩张",
     "Austronesian Expansion": "南岛语族扩张",
     "波利尼西亚扩张": "南岛语族扩张",
+    "纳瓦霍人": "纳瓦霍人",
+    "Navajo": "纳瓦霍人",
+    "纳瓦霍族": "纳瓦霍人",
     "neng-ren": "neng-ren",
     "能人": "neng-ren",
     "Homo habilis": "neng-ren",
@@ -6067,6 +6123,10 @@
     "种族": "人种",
     "人类种族": "人种",
     "生物性种族": "人种",
+    "人种生物学": "人种生物学",
+    "ethnobiology": "人种生物学",
+    "民族生物学": "人种生物学",
+    "传统生物学知识": "人种生物学",
     "人类迁徙": "人类迁徙",
     "迁移": "人类迁徙",
     "人口迁徙": "人类迁徙",
@@ -6103,6 +6163,10 @@
     "塞阔雅": "塞阔雅",
     "Sequoyah": "塞阔雅",
     "斯奎亚": "塞阔雅",
+    "萨波特克": "萨波特克",
+    "Zapotec": "萨波特克",
+    "萨波特克人": "萨波特克",
+    "萨波特克文明": "萨波特克",
     "非洲萨赫勒": "萨赫勒地带",
     "森林": "森林",
     "树林": "森林",
@@ -6677,6 +6741,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 543,
-  "generated": "2026-05-26T12:45:32Z"
+  "page_count": 548,
+  "generated": "2026-05-26T12:46:40Z"
 }

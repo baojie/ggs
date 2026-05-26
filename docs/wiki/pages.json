@@ -1,6 +1,28 @@
 {
   "_schema_version": 2,
   "pages": {
+    "A类线形文字": {
+      "type": "concept",
+      "label": "A类线形文字",
+      "aliases": [
+        "Linear A",
+        "线形文字A"
+      ],
+      "tags": [
+        "文字",
+        "语言",
+        "考古"
+      ],
+      "path": "a0/A类线形文字.md",
+      "description": "弥诺斯文明使用的音节文字，至今尚未被破译",
+      "prose_len": 355,
+      "prose_chars": 340,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 3
+    },
     "About": {
       "type": "overview",
       "label": "关于本 Wiki",
@@ -425,6 +447,28 @@
       "quality": "basic",
       "quality_score": 13,
       "total_refs": 0
+    },
+    "B类线形文字": {
+      "type": "concept",
+      "label": "B类线形文字",
+      "aliases": [
+        "Linear B",
+        "线形文字B"
+      ],
+      "tags": [
+        "文字",
+        "语言",
+        "考古"
+      ],
+      "path": "b0/B类线形文字.md",
+      "description": "迈锡尼人使用的音节文字，已被成功破译，记录了古希腊语的最早形式",
+      "prose_len": 363,
+      "prose_chars": 348,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 1
     },
     "ba-ta-ge-ni-ya": {
       "type": "place",
@@ -2173,7 +2217,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 12,
-      "total_refs": 5
+      "total_refs": 6
     },
     "达尔文": {
       "type": "person",
@@ -3050,7 +3094,7 @@
       "pn_count": 2,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 3
     },
     "非洲": {
       "type": "place",
@@ -4554,7 +4598,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 35
+      "total_refs": 36
     },
     "技术积累": {
       "type": "concept",
@@ -6738,7 +6782,7 @@
       "pn_count": 2,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 3
     },
     "棉花": {
       "type": "concept",
@@ -7261,6 +7305,28 @@
       "quality": "featured",
       "quality_score": 56,
       "total_refs": 2
+    },
+    "纳瓦霍人": {
+      "type": "person",
+      "label": "纳瓦霍人",
+      "aliases": [
+        "Navajo",
+        "纳瓦霍族"
+      ],
+      "tags": [
+        "民族",
+        "美洲",
+        "文化"
+      ],
+      "path": "na/纳瓦霍人.md",
+      "description": "美洲最大的印第安部落之一，戴蒙德以其为技术接受力的正面案例",
+      "prose_len": 320,
+      "prose_chars": 305,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "neng-ren": {
       "type": "concept",
@@ -8357,6 +8423,29 @@
       "quality_score": 58,
       "total_refs": 2
     },
+    "人种生物学": {
+      "type": "concept",
+      "label": "人种生物学",
+      "aliases": [
+        "ethnobiology",
+        "民族生物学",
+        "传统生物学知识"
+      ],
+      "tags": [
+        "科学",
+        "文化",
+        "知识"
+      ],
+      "path": "re/人种生物学.md",
+      "description": "研究不同文化对生物世界的认知和分类的学科，戴蒙德的田野研究背景学科之一",
+      "prose_len": 365,
+      "prose_chars": 350,
+      "h2_count": 1,
+      "pn_count": 0,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 2
+    },
     "人类迁徙": {
       "type": "concept",
       "label": "人类迁徙",
@@ -8597,6 +8686,29 @@
       "quality_score": 14,
       "total_refs": 1
     },
+    "萨波特克": {
+      "type": "place",
+      "label": "萨波特克",
+      "aliases": [
+        "Zapotec",
+        "萨波特克人",
+        "萨波特克文明"
+      ],
+      "tags": [
+        "文明",
+        "美洲",
+        "文字"
+      ],
+      "path": "sa/萨波特克.md",
+      "description": "墨西哥瓦哈卡地区的古代文明，独立发明了美洲最早的书写系统之一",
+      "prose_len": 311,
+      "prose_chars": 296,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "萨赫勒地带": {
       "type": "place",
       "label": "萨赫勒地带",
@@ -8740,7 +8852,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 20
+      "total_refs": 21
     },
     "书籍": {
       "type": "concept",
@@ -9396,7 +9508,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 33,
-      "total_refs": 1
+      "total_refs": 2
     },
     "tai-ping-yang": {
       "type": "place",
@@ -10707,7 +10819,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 17
+      "total_refs": 19
     },
     "新月沃地": {
       "type": "concept",
@@ -11204,7 +11316,7 @@
       "quality": "featured",
       "quality_score": 56,
       "affiliation": "新几内亚",
-      "total_refs": 1
+      "total_refs": 2
     },
     "野生植物": {
       "type": "concept",
@@ -12268,7 +12380,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 11
+      "total_refs": 12
     },
     "制陶": {
       "type": "concept",
@@ -12962,6 +13074,9 @@
     }
   },
   "alias_index": {
+    "A类线形文字": "A类线形文字",
+    "Linear A": "A类线形文字",
+    "线形文字A": "A类线形文字",
     "About": "About",
     "关于本 Wiki": "About",
     "关于": "About",
@@ -13017,6 +13132,9 @@
     "Aztec": "aziteke",
     "阿兹特克帝国": "aziteke",
     "墨西加": "aziteke",
+    "B类线形文字": "B类线形文字",
+    "Linear B": "B类线形文字",
+    "线形文字B": "B类线形文字",
     "ba-ta-ge-ni-ya": "ba-ta-ge-ni-ya",
     "巴塔哥尼亚": "ba-ta-ge-ni-ya",
     "Patagonia": "ba-ta-ge-ni-ya",
@@ -13932,6 +14050,9 @@
     "南岛语族扩张": "南岛语族扩张",
     "Austronesian Expansion": "南岛语族扩张",
     "波利尼西亚扩张": "南岛语族扩张",
+    "纳瓦霍人": "纳瓦霍人",
+    "Navajo": "纳瓦霍人",
+    "纳瓦霍族": "纳瓦霍人",
     "neng-ren": "neng-ren",
     "能人": "neng-ren",
     "Homo habilis": "neng-ren",
@@ -14065,6 +14186,10 @@
     "种族": "人种",
     "人类种族": "人种",
     "生物性种族": "人种",
+    "人种生物学": "人种生物学",
+    "ethnobiology": "人种生物学",
+    "民族生物学": "人种生物学",
+    "传统生物学知识": "人种生物学",
     "人类迁徙": "人类迁徙",
     "迁移": "人类迁徙",
     "人口迁徙": "人类迁徙",
@@ -14101,6 +14226,10 @@
     "塞阔雅": "塞阔雅",
     "Sequoyah": "塞阔雅",
     "斯奎亚": "塞阔雅",
+    "萨波特克": "萨波特克",
+    "Zapotec": "萨波特克",
+    "萨波特克人": "萨波特克",
+    "萨波特克文明": "萨波特克",
     "非洲萨赫勒": "萨赫勒地带",
     "森林": "森林",
     "树林": "森林",
@@ -14675,6 +14804,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 543,
-  "generated": "2026-05-26T12:45:32Z"
+  "page_count": 548,
+  "generated": "2026-05-26T12:46:40Z"
 }
