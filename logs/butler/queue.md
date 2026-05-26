@@ -97,7 +97,7 @@
 
 ### P1 create（红链引用 ≥ 3）
 
-- [ ] P1 create | 安娜-卡列尼娜原则 | concept | 红链 ×6（页面已存在，可深度链接）
+- [x] P1 create | 安娜-卡列尼娜原则 | concept | 红链 ×6（页面已存在，可深度链接）
 
 ### P2 stub（红链 1–2）
 
@@ -223,3 +223,17 @@
 
 - [x] P2 stub | 菲斯托斯圆盘 | concept | LLM 发现，ch13
 - [x] P2 stub | 阿基米德 | person | LLM 发现，ch13
+
+## Phase 2 — 新建候选（SCN28 R193 发现 — ch14 从平等主义到盗贼统治）
+
+### P1 create（多章出现）
+
+- [ ] P1 create | 大人物 | concept | LLM 发现，多章（ch03/ch14/ch15），新几内亚部落"大人物"制度，政治人类学概念
+- [ ] P1 create | 福雷人 | person | LLM 发现，多章（ch08/ch11/ch14），新几内亚高原族群，库鲁病相关
+- [ ] P1 create | 伦纳尔岛 | place | LLM 发现，多章（ch02/ch14/ch17），波利尼西亚岛屿，酋长制案例
+
+### P2 stub（单章重要实体）
+
+- [ ] P2 stub | 氏族 | concept | LLM 发现，ch14，基于共同祖先的社会组织单位
+- [ ] P2 stub | 盗贼统治 | concept | LLM 发现，ch14，集中社会财富的上层统治
+- [ ] P2 stub | 伊努特人 | person | LLM 发现，ch14，北极狩猎采集族群（爱斯基摩人）

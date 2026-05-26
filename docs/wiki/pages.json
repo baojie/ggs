@@ -291,15 +291,15 @@
         "农业"
       ],
       "path": "an/安娜卡列尼娜原则.md",
-      "description": "根据托尔斯泰的\\\"幸福的家庭都是相似的，不幸的家庭各有各的不幸\\\"类比，解释为何可驯化动物如此稀少",
-      "prose_len": 231,
-      "prose_chars": 231,
-      "h2_count": 0,
-      "pn_count": 0,
-      "wikilink_count": 0,
+      "description": "根据托尔斯泰的\"幸福的家庭都是相似的，不幸的家庭各有各的不幸\"类比，解释为何可驯化动物如此稀少",
+      "prose_len": 679,
+      "prose_chars": 638,
+      "h2_count": 3,
+      "pn_count": 4,
+      "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 7,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 0
     },
     "安第斯山脉": {
@@ -651,7 +651,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 3
+      "total_refs": 4
     },
     "班图人": {
       "type": "event",
@@ -1010,7 +1010,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 24
+      "total_refs": 25
     },
     "玻璃": {
       "type": "concept",
@@ -1736,7 +1736,7 @@
       "blockquote_count": 1,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 28
+      "total_refs": 30
     },
     "创新": {
       "type": "concept",
@@ -1849,14 +1849,14 @@
       ],
       "path": "ch/畜牧业.md",
       "description": "驯养和繁殖牲畜的生产活动，是粮食生产的重要组成部分，从动物驯化开始并深刻影响了人类社会的军事和健康史",
-      "prose_len": 711,
-      "prose_chars": 707,
-      "h2_count": 0,
-      "pn_count": 5,
-      "wikilink_count": 0,
+      "prose_len": 642,
+      "prose_chars": 600,
+      "h2_count": 3,
+      "pn_count": 6,
+      "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 12,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 3
     },
     "船只": {
@@ -2099,7 +2099,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 57
+      "total_refs": 58
     },
     "大麦": {
       "type": "species",
@@ -2382,7 +2382,7 @@
       "total_refs": 0
     },
     "地理": {
-      "type": "concept",
+      "type": "place",
       "label": "地理",
       "aliases": [
         "地理环境",
@@ -2394,14 +2394,14 @@
       ],
       "path": "di/地理.md",
       "description": "研究地球表面自然环境和人文现象的空间分布及其相互关系的学科，是理解《枪炮、病菌与钢铁》核心论题的基础视角",
-      "prose_len": 486,
-      "prose_chars": 484,
-      "h2_count": 0,
-      "pn_count": 2,
-      "wikilink_count": 0,
+      "prose_len": 648,
+      "prose_chars": 602,
+      "h2_count": 3,
+      "pn_count": 3,
+      "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 9,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 2
     },
     "地理决定论": {
@@ -2718,7 +2718,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 46
+      "total_refs": 48
     },
     "du-du-niao": {
       "type": "species",
@@ -3048,7 +3048,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 8,
-      "total_refs": 0
+      "total_refs": 1
     },
     "菲律宾": {
       "type": "place",
@@ -4550,7 +4550,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 20
+      "total_refs": 21
     },
     "技术": {
       "type": "concept",
@@ -5117,7 +5117,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 9
+      "total_refs": 10
     },
     "考古学": {
       "type": "concept",
@@ -5724,7 +5724,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 102
+      "total_refs": 103
     },
     "luoma-diguo": {
       "type": "event",
@@ -6136,7 +6136,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 14
+      "total_refs": 15
     },
     "马的驯化": {
       "type": "event",
@@ -7683,7 +7683,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 23
+      "total_refs": 24
     },
     "欧洲": {
       "type": "place",
@@ -7697,14 +7697,14 @@
       ],
       "path": "ou/欧洲.md",
       "description": "欧亚大陆西端的半岛，因粮食生产自新月沃地传入并沿东西轴线快速传播，成为最早获得先进技术和政治组织的地区之一",
-      "prose_len": 216,
-      "prose_chars": 216,
-      "h2_count": 0,
-      "pn_count": 0,
-      "wikilink_count": 0,
+      "prose_len": 655,
+      "prose_chars": 613,
+      "h2_count": 3,
+      "pn_count": 4,
+      "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 7,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 5
     },
     "欧洲殖民非洲": {
@@ -9453,14 +9453,14 @@
       ],
       "path": "sh/闪米特人.md",
       "description": "说闪米特语的古代民族群体，公元前1700年左右精通埃及象形文字的闪米特人首次尝试用辅音符号书写闪语，为字母文字的诞生奠定了基础",
-      "prose_len": 350,
-      "prose_chars": 346,
-      "h2_count": 0,
-      "pn_count": 2,
-      "wikilink_count": 0,
+      "prose_len": 761,
+      "prose_chars": 713,
+      "h2_count": 3,
+      "pn_count": 4,
+      "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 8,
+      "quality": "standard",
+      "quality_score": 27,
       "total_refs": 0
     },
     "鼠疫": {
@@ -10089,7 +10089,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 15
+      "total_refs": 16
     },
     "文字的独立发明": {
       "type": "event",
@@ -10845,7 +10845,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 66
+      "total_refs": 67
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -11023,7 +11023,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 43
+      "total_refs": 44
     },
     "驯鹿": {
       "type": "species",
@@ -12870,7 +12870,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 2
+      "total_refs": 3
     },
     "自然选择": {
       "type": "concept",
@@ -14805,5 +14805,5 @@
     "驯化作物": "作物驯化"
   },
   "page_count": 548,
-  "generated": "2026-05-26T12:46:40Z"
+  "generated": "2026-05-26T12:51:57Z"
 }

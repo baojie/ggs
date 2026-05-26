@@ -901,7 +901,7 @@
       "path": "di/地点索引.md"
     },
     "地理": {
-      "type": "concept",
+      "type": "place",
       "label": "地理",
       "aliases": [
         "地理环境",
@@ -6742,5 +6742,5 @@
     "驯化作物": "作物驯化"
   },
   "page_count": 548,
-  "generated": "2026-05-26T12:46:40Z"
+  "generated": "2026-05-26T12:51:57Z"
 }
