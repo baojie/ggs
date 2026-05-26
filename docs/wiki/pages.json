@@ -1076,6 +1076,28 @@
       "quality_score": 10,
       "total_refs": 0
     },
+    "bing-dou": {
+      "type": "species",
+      "label": "兵豆",
+      "aliases": [
+        "lentil",
+        "Lens culinaris"
+      ],
+      "tags": [
+        "作物",
+        "豆类",
+        "新月沃地"
+      ],
+      "path": "bi/bing-dou.md",
+      "description": "新月沃地最早驯化的豆类之一，与小麦、大麦构成谷物-豆类组合的始祖作物，是人类最早种植的作物之一",
+      "prose_len": 424,
+      "prose_chars": 350,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "兵豆": {
       "type": "species",
       "label": "兵豆",
@@ -1099,7 +1121,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
-      "total_refs": 2
+      "total_refs": 3
     },
     "病原体": {
       "type": "concept",
@@ -2237,6 +2259,28 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
+      "total_refs": 0
+    },
+    "da-ma": {
+      "type": "species",
+      "label": "大麻",
+      "aliases": [
+        "hemp",
+        "Cannabis sativa"
+      ],
+      "tags": [
+        "作物",
+        "纤维",
+        "驯化"
+      ],
+      "path": "da/da-ma.md",
+      "description": "人类历史上重要的纤维作物之一，茎纤维用于制绳和织布，在古代全球纺织原料体系中占有重要地位",
+      "prose_len": 407,
+      "prose_chars": 342,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
       "total_refs": 0
     },
     "da-ren-wu": {
@@ -7509,7 +7553,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 3
+      "total_refs": 4
     },
     "民族": {
       "type": "concept",
@@ -8290,7 +8334,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 13,
-      "total_refs": 3
+      "total_refs": 4
     },
     "农业": {
       "type": "concept",
@@ -11051,7 +11095,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 5
+      "total_refs": 7
     },
     "wen-lan": {
       "type": "place",
@@ -11564,7 +11608,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 1
+      "total_refs": 2
     },
     "xiang-cun": {
       "type": "concept",
@@ -11613,6 +11657,28 @@
       "quality": "basic",
       "quality_score": 11,
       "total_refs": 1
+    },
+    "xiang-shu": {
+      "type": "species",
+      "label": "橡树",
+      "aliases": [
+        "oak",
+        "Quercus"
+      ],
+      "tags": [
+        "植物",
+        "野生",
+        "坚果"
+      ],
+      "path": "xi/xiang-shu.md",
+      "description": "北温带广泛分布的坚果树种，戴蒙德用以例证因生长缓慢等缺陷而从未被驯化的野生植物",
+      "prose_len": 393,
+      "prose_chars": 327,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "xiang-xing-wen-zi": {
       "type": "concept",
@@ -11893,7 +11959,7 @@
       "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 3
     },
     "xinyuewodi": {
       "type": "place",
@@ -12063,7 +12129,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 74
+      "total_refs": 76
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -12241,7 +12307,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 57
+      "total_refs": 58
     },
     "驯鹿": {
       "type": "species",
@@ -12363,7 +12429,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 63,
-      "total_refs": 4
+      "total_refs": 7
     },
     "演化": {
       "type": "concept",
@@ -12627,7 +12693,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 0
+      "total_refs": 1
     },
     "野生谷物": {
       "type": "concept",
@@ -12845,6 +12911,28 @@
       "blockquote_count": 0,
       "total_refs": 0
     },
+    "ying-zui-dou": {
+      "type": "species",
+      "label": "鹰嘴豆",
+      "aliases": [
+        "chickpea",
+        "Cicer arietinum"
+      ],
+      "tags": [
+        "作物",
+        "豆类",
+        "新月沃地"
+      ],
+      "path": "yi/ying-zui-dou.md",
+      "description": "新月沃地驯化的重要豆类，是人类最早种植的8大始祖作物之一，与小麦和大麦构成早期农业体系的关键组合",
+      "prose_len": 423,
+      "prose_chars": 350,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "一年生植物": {
       "type": "concept",
       "label": "一年生植物",
@@ -12986,7 +13074,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 5
+      "total_refs": 6
     },
     "印度尼西亚": {
       "type": "place",
@@ -13179,7 +13267,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
-      "total_refs": 2
+      "total_refs": 3
     },
     "you-dai-dong-wu": {
       "type": "concept",
@@ -13689,6 +13777,28 @@
       "quality_score": 54,
       "total_refs": 0
     },
+    "zhi-ma": {
+      "type": "species",
+      "label": "芝麻",
+      "aliases": [
+        "sesame",
+        "Sesamum indicum"
+      ],
+      "tags": [
+        "作物",
+        "驯化",
+        "印度"
+      ],
+      "path": "zh/zhi-ma.md",
+      "description": "印度次大陆驯化的古老油料作物，后传播至地中海和世界其他地区",
+      "prose_len": 364,
+      "prose_chars": 300,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "zhi-shi-ji-lei": {
       "type": "concept",
       "label": "知识积累",
@@ -13829,7 +13939,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 3
+      "total_refs": 4
     },
     "中央集权": {
       "type": "concept",
@@ -14593,7 +14703,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 7
+      "total_refs": 11
     }
   },
   "alias_index": {
@@ -14749,8 +14859,10 @@
     "glacier": "bing-chuan",
     "冰河": "bing-chuan",
     "冰川作用": "bing-chuan",
-    "兵豆": "兵豆",
-    "lentil": "兵豆",
+    "bing-dou": "bing-dou",
+    "兵豆": "bing-dou",
+    "lentil": "bing-dou",
+    "Lens culinaris": "bing-dou",
     "扁豆": "兵豆",
     "小扁豆": "兵豆",
     "病原体": "病原体",
@@ -14894,6 +15006,10 @@
     "eland": "da-jiao-ban-ling",
     "非洲大羚羊": "da-jiao-ban-ling",
     "大羚羊": "da-jiao-ban-ling",
+    "da-ma": "da-ma",
+    "大麻": "da-ma",
+    "hemp": "da-ma",
+    "Cannabis sativa": "da-ma",
     "da-ren-wu": "da-ren-wu",
     "大人物": "da-ren-wu",
     "Big Man": "da-ren-wu",
@@ -14935,8 +15051,6 @@
     "大麦草": "大麦",
     "barley": "大麦",
     "Hordeum vulgare": "大麦",
-    "大麻": "大麻",
-    "hemp": "大麻",
     "工业大麻": "大麻",
     "岛屿": "岛屿",
     "岛": "岛屿",
@@ -16196,6 +16310,10 @@
     "acorn": "xiang-shi",
     "橡子": "xiang-shi",
     "橡果": "xiang-shi",
+    "xiang-shu": "xiang-shu",
+    "橡树": "xiang-shu",
+    "oak": "xiang-shu",
+    "Quercus": "xiang-shu",
     "xiang-xing-wen-zi": "xiang-xing-wen-zi",
     "象形文字": "xiang-xing-wen-zi",
     "hieroglyph": "xiang-xing-wen-zi",
@@ -16372,6 +16490,10 @@
     "罂粟": "ying-su",
     "opium poppy": "ying-su",
     "Papaver somniferum": "ying-su",
+    "ying-zui-dou": "ying-zui-dou",
+    "鹰嘴豆": "ying-zui-dou",
+    "chickpea": "ying-zui-dou",
+    "Cicer arietinum": "ying-zui-dou",
     "一年生植物": "一年生植物",
     "一年生作物": "一年生植物",
     "年生植物": "一年生植物",
@@ -16396,8 +16518,6 @@
     "鸦片罂粟": "罂粟",
     "遗传": "遗传",
     "遗传差异": "遗传",
-    "鹰嘴豆": "鹰嘴豆",
-    "chickpea": "鹰嘴豆",
     "埃及豆": "鹰嘴豆",
     "you-dai-dong-wu": "you-dai-dong-wu",
     "有袋动物": "you-dai-dong-wu",
@@ -16475,6 +16595,10 @@
     "zhi-liang-suo-yin": "zhi-liang-suo-yin",
     "质量索引": "zhi-liang-suo-yin",
     "quality index": "zhi-liang-suo-yin",
+    "zhi-ma": "zhi-ma",
+    "芝麻": "zhi-ma",
+    "sesame": "zhi-ma",
+    "Sesamum indicum": "zhi-ma",
     "zhi-shi-ji-lei": "zhi-shi-ji-lei",
     "知识积累": "zhi-shi-ji-lei",
     "knowledge accumulation": "zhi-shi-ji-lei",
@@ -16596,6 +16720,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 613,
-  "generated": "2026-05-26T16:35:24Z"
+  "page_count": 618,
+  "generated": "2026-05-26T16:37:36Z"
 }

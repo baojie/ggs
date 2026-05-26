@@ -415,6 +415,15 @@
       ],
       "path": "bi/bing-chuan.md"
     },
+    "bing-dou": {
+      "type": "species",
+      "label": "兵豆",
+      "aliases": [
+        "lentil",
+        "Lens culinaris"
+      ],
+      "path": "bi/bing-dou.md"
+    },
     "兵豆": {
       "type": "species",
       "label": "兵豆",
@@ -849,6 +858,15 @@
         "大羚羊"
       ],
       "path": "da/da-jiao-ban-ling.md"
+    },
+    "da-ma": {
+      "type": "species",
+      "label": "大麻",
+      "aliases": [
+        "hemp",
+        "Cannabis sativa"
+      ],
+      "path": "da/da-ma.md"
     },
     "da-ren-wu": {
       "type": "concept",
@@ -4464,6 +4482,15 @@
       ],
       "path": "xi/xiang-shi.md"
     },
+    "xiang-shu": {
+      "type": "species",
+      "label": "橡树",
+      "aliases": [
+        "oak",
+        "Quercus"
+      ],
+      "path": "xi/xiang-shu.md"
+    },
     "xiang-xing-wen-zi": {
       "type": "concept",
       "label": "象形文字",
@@ -4938,6 +4965,15 @@
       ],
       "path": "yi/ying-su.md"
     },
+    "ying-zui-dou": {
+      "type": "species",
+      "label": "鹰嘴豆",
+      "aliases": [
+        "chickpea",
+        "Cicer arietinum"
+      ],
+      "path": "yi/ying-zui-dou.md"
+    },
     "一年生植物": {
       "type": "concept",
       "label": "一年生植物",
@@ -5262,6 +5298,15 @@
         "quality index"
       ],
       "path": "zh/zhi-liang-suo-yin.md"
+    },
+    "zhi-ma": {
+      "type": "species",
+      "label": "芝麻",
+      "aliases": [
+        "sesame",
+        "Sesamum indicum"
+      ],
+      "path": "zh/zhi-ma.md"
     },
     "zhi-shi-ji-lei": {
       "type": "concept",
@@ -5770,8 +5815,10 @@
     "glacier": "bing-chuan",
     "冰河": "bing-chuan",
     "冰川作用": "bing-chuan",
-    "兵豆": "兵豆",
-    "lentil": "兵豆",
+    "bing-dou": "bing-dou",
+    "兵豆": "bing-dou",
+    "lentil": "bing-dou",
+    "Lens culinaris": "bing-dou",
     "扁豆": "兵豆",
     "小扁豆": "兵豆",
     "病原体": "病原体",
@@ -5915,6 +5962,10 @@
     "eland": "da-jiao-ban-ling",
     "非洲大羚羊": "da-jiao-ban-ling",
     "大羚羊": "da-jiao-ban-ling",
+    "da-ma": "da-ma",
+    "大麻": "da-ma",
+    "hemp": "da-ma",
+    "Cannabis sativa": "da-ma",
     "da-ren-wu": "da-ren-wu",
     "大人物": "da-ren-wu",
     "Big Man": "da-ren-wu",
@@ -5956,8 +6007,6 @@
     "大麦草": "大麦",
     "barley": "大麦",
     "Hordeum vulgare": "大麦",
-    "大麻": "大麻",
-    "hemp": "大麻",
     "工业大麻": "大麻",
     "岛屿": "岛屿",
     "岛": "岛屿",
@@ -7217,6 +7266,10 @@
     "acorn": "xiang-shi",
     "橡子": "xiang-shi",
     "橡果": "xiang-shi",
+    "xiang-shu": "xiang-shu",
+    "橡树": "xiang-shu",
+    "oak": "xiang-shu",
+    "Quercus": "xiang-shu",
     "xiang-xing-wen-zi": "xiang-xing-wen-zi",
     "象形文字": "xiang-xing-wen-zi",
     "hieroglyph": "xiang-xing-wen-zi",
@@ -7393,6 +7446,10 @@
     "罂粟": "ying-su",
     "opium poppy": "ying-su",
     "Papaver somniferum": "ying-su",
+    "ying-zui-dou": "ying-zui-dou",
+    "鹰嘴豆": "ying-zui-dou",
+    "chickpea": "ying-zui-dou",
+    "Cicer arietinum": "ying-zui-dou",
     "一年生植物": "一年生植物",
     "一年生作物": "一年生植物",
     "年生植物": "一年生植物",
@@ -7417,8 +7474,6 @@
     "鸦片罂粟": "罂粟",
     "遗传": "遗传",
     "遗传差异": "遗传",
-    "鹰嘴豆": "鹰嘴豆",
-    "chickpea": "鹰嘴豆",
     "埃及豆": "鹰嘴豆",
     "you-dai-dong-wu": "you-dai-dong-wu",
     "有袋动物": "you-dai-dong-wu",
@@ -7496,6 +7551,10 @@
     "zhi-liang-suo-yin": "zhi-liang-suo-yin",
     "质量索引": "zhi-liang-suo-yin",
     "quality index": "zhi-liang-suo-yin",
+    "zhi-ma": "zhi-ma",
+    "芝麻": "zhi-ma",
+    "sesame": "zhi-ma",
+    "Sesamum indicum": "zhi-ma",
     "zhi-shi-ji-lei": "zhi-shi-ji-lei",
     "知识积累": "zhi-shi-ji-lei",
     "knowledge accumulation": "zhi-shi-ji-lei",
@@ -7617,6 +7676,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 613,
-  "generated": "2026-05-26T16:35:24Z"
+  "page_count": 618,
+  "generated": "2026-05-26T16:37:36Z"
 }
