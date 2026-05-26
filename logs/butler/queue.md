@@ -11,10 +11,10 @@
 - [x] P2 stub | 基普 | concept | LLM 发现，ch18，印加帝国的结绳会计与记忆系统，印加权力集中化的行政基础
 - [ ] P2 stub | 尤他-阿兹特克诸语言 | concept | LLM 发现，ch18，北美西南部至中美洲的印第安语言语系
 - [x] P2 stub | 文兰 | place | LLM 发现，ch18，古挪威人在纽芬兰的殖民据点名称
-- [ ] P2 stub | 斯克里林人 | person | LLM 发现，ch18，古挪威人传说中对美洲土著的称呼
-- [ ] P2 stub | 亚希人 | person | LLM 发现，ch18，加利福尼亚北部被白人移民消灭的小部落案例
+- [x] P2 stub | 斯克里林人 | person | LLM 发现，ch18，古挪威人传说中对美洲土著的称呼
+- [x] P2 stub | 亚希人 | person | LLM 发现，ch18，加利福尼亚北部被白人移民消灭的小部落案例
 - [ ] P2 stub | 雅诺马马人 | person | LLM 发现，ch18，亚马孙地区至今保持独立的原住民族群
-- [ ] P2 stub | 小冰川期 | event | LLM 发现，ch18，13世纪开始的气候变冷，导致格陵兰古挪威殖民地崩溃
+- [x] P2 stub | 小冰川期 | event | LLM 发现，ch18，13世纪开始的气候变冷，导致格陵兰古挪威殖民地崩溃
 
 ## Phase 2 — 新建候选（SCN28 R203 发现 — ch17 驶向波利尼西亚的快艇）
 
@@ -44,7 +44,7 @@
 - [x] P2 stub | 和平文化 | concept | LLM 发现，ch16，东南亚新石器时代考古文化
 - [x] P2 stub | 秦朝 | event | LLM 发现，ch16，中国第一个帝国
 - [x] P2 stub | 夏朝 | event | LLM 发现，ch16，中国第一个传统王朝
-- [ ] P2 stub | 安达曼群岛 | place | LLM 发现，多章（ch15/ch16），保留原始语言的岛屿
+- [x] P2 stub | 安达曼群岛 | place | LLM 发现，多章（ch15/ch16），保留原始语言的岛屿
 
 ## Phase 2 — 新建候选（SCN28 R175 发现 — ch11 章节发掘）
 
@@ -282,7 +282,7 @@
 
 - [x] P2 stub | 氏族 | concept | LLM 发现，ch14，基于共同祖先的社会组织单位
 - [x] P2 stub | 盗贼统治 | concept | LLM 发现，ch14，集中社会财富的上层统治
-- [ ] P2 stub | 伊努特人 | person | LLM 发现，ch14，北极狩猎采集族群（爱斯基摩人）
+- [x] P2 stub | 伊努特人 | person | LLM 发现，ch14，北极狩猎采集族群（爱斯基摩人）
 
 ## Phase 2 — 新建候选（SCN28 R197 发现 — ch15 耶利的族人）
 

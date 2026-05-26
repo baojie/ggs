@@ -233,6 +233,29 @@
       "quality_score": 8,
       "total_refs": 0
     },
+    "an-da-man-qun-dao": {
+      "type": "place",
+      "label": "安达曼群岛",
+      "aliases": [
+        "Andaman Islands"
+      ],
+      "tags": [
+        "地理",
+        "印度洋",
+        "岛屿"
+      ],
+      "path": "an/an-da-man-qun-dao.md",
+      "description": "孟加拉湾中的群岛，以保留古老语言和文化的原住民而闻名",
+      "prose_len": 166,
+      "prose_chars": 166,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "stub",
+      "quality_score": 1,
+      "total_refs": 1
+    },
     "an-dong-ni-wen-yi": {
       "type": "event",
       "label": "安东尼瘟疫",
@@ -9910,6 +9933,30 @@
       "quality_score": 60,
       "total_refs": 0
     },
+    "si-ke-li-lin-ren": {
+      "type": "person",
+      "label": "斯克里林人",
+      "aliases": [
+        "Skraelings",
+        "Skræling"
+      ],
+      "tags": [
+        "人物",
+        "美洲土著",
+        "北欧"
+      ],
+      "path": "si/si-ke-li-lin-ren.md",
+      "description": "古挪威人传说中对北美土著的称呼",
+      "prose_len": 154,
+      "prose_chars": 154,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "stub",
+      "quality_score": 1,
+      "total_refs": 0
+    },
     "su-mei-er-ren": {
       "type": "person",
       "label": "苏美尔人",
@@ -11013,6 +11060,30 @@
       "quality_score": 10,
       "total_refs": 0
     },
+    "xiao-bing-chuan-qi": {
+      "type": "event",
+      "label": "小冰川期",
+      "aliases": [
+        "小冰期",
+        "Little Ice Age"
+      ],
+      "tags": [
+        "气候",
+        "历史",
+        "北欧"
+      ],
+      "path": "xi/xiao-bing-chuan-qi.md",
+      "description": "13世纪开始至19世纪的气候变冷期，对欧洲和北大西洋地区产生了深远影响",
+      "prose_len": 170,
+      "prose_chars": 170,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "stub",
+      "quality_score": 1,
+      "total_refs": 0
+    },
     "xiaweiyi": {
       "type": "place",
       "label": "夏威夷",
@@ -11571,6 +11642,30 @@
       "quality_score": 9,
       "total_refs": 0
     },
+    "ya-xi-ren": {
+      "type": "person",
+      "label": "亚希人",
+      "aliases": [
+        "Yahi",
+        "亚希部落"
+      ],
+      "tags": [
+        "人物",
+        "美洲土著",
+        "加利福尼亚"
+      ],
+      "path": "ya/ya-xi-ren.md",
+      "description": "加利福尼亚北部的小型土著部落，在19世纪被白人移民消灭",
+      "prose_len": 166,
+      "prose_chars": 166,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "stub",
+      "quality_score": 1,
+      "total_refs": 0
+    },
     "亚历山大大帝": {
       "type": "person",
       "label": "亚历山大大帝",
@@ -11884,6 +11979,31 @@
       "quality": "basic",
       "quality_score": 9,
       "total_refs": 3
+    },
+    "yi-nu-te-ren": {
+      "type": "person",
+      "label": "伊努特人",
+      "aliases": [
+        "Inuit",
+        "爱斯基摩人",
+        "Eskimo"
+      ],
+      "tags": [
+        "人物",
+        "北极",
+        "美洲土著"
+      ],
+      "path": "yi/yi-nu-te-ren.md",
+      "description": "北极地区的原住民族群，以其在极端环境中的适应能力而著称",
+      "prose_len": 205,
+      "prose_chars": 205,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "stub",
+      "quality_score": 2,
+      "total_refs": 0
     },
     "yi-si-pa-ni-ao-la-dao": {
       "type": "place",
@@ -13674,6 +13794,9 @@
     "Aramaic": "阿拉姆语",
     "阿拉姆语字母": "阿拉姆语",
     "阿拉姆字母": "阿拉姆语",
+    "an-da-man-qun-dao": "an-da-man-qun-dao",
+    "安达曼群岛": "an-da-man-qun-dao",
+    "Andaman Islands": "an-da-man-qun-dao",
     "an-dong-ni-wen-yi": "an-dong-ni-wen-yi",
     "安东尼瘟疫": "an-dong-ni-wen-yi",
     "Antonine Plague": "an-dong-ni-wen-yi",
@@ -14975,6 +15098,10 @@
     "闪米特语族": "闪米特人",
     "鼠疫": "鼠疫",
     "鼠疫杆菌": "鼠疫",
+    "si-ke-li-lin-ren": "si-ke-li-lin-ren",
+    "斯克里林人": "si-ke-li-lin-ren",
+    "Skraelings": "si-ke-li-lin-ren",
+    "Skræling": "si-ke-li-lin-ren",
     "su-mei-er-ren": "su-mei-er-ren",
     "苏美尔人": "su-mei-er-ren",
     "Sumerians": "su-mei-er-ren",
@@ -15136,6 +15263,10 @@
     "xiangxing-wenzi": "xiangxing-wenzi",
     "hieroglyphics": "xiangxing-wenzi",
     "hieroglyphs": "xiangxing-wenzi",
+    "xiao-bing-chuan-qi": "xiao-bing-chuan-qi",
+    "小冰川期": "xiao-bing-chuan-qi",
+    "小冰期": "xiao-bing-chuan-qi",
+    "Little Ice Age": "xiao-bing-chuan-qi",
     "xiaweiyi": "xiaweiyi",
     "夏威夷": "xiaweiyi",
     "Hawaii": "xiaweiyi",
@@ -15213,6 +15344,10 @@
     "驯鹿": "驯鹿",
     "reindeer": "驯鹿",
     "caribou": "驯鹿",
+    "ya-xi-ren": "ya-xi-ren",
+    "亚希人": "ya-xi-ren",
+    "Yahi": "ya-xi-ren",
+    "亚希部落": "ya-xi-ren",
     "亚历山大大帝": "亚历山大大帝",
     "Alexander the Great": "亚历山大大帝",
     "亚历山大": "亚历山大大帝",
@@ -15249,6 +15384,11 @@
     "野生谷物": "野生谷物",
     "野生禾本科": "野生谷物",
     "野生小麦": "野生谷物",
+    "yi-nu-te-ren": "yi-nu-te-ren",
+    "伊努特人": "yi-nu-te-ren",
+    "Inuit": "yi-nu-te-ren",
+    "爱斯基摩人": "yi-nu-te-ren",
+    "Eskimo": "yi-nu-te-ren",
     "yi-si-pa-ni-ao-la-dao": "yi-si-pa-ni-ao-la-dao",
     "伊斯帕尼奥拉岛": "yi-si-pa-ni-ao-la-dao",
     "Hispaniola": "yi-si-pa-ni-ao-la-dao",
@@ -15474,6 +15614,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 571,
-  "generated": "2026-05-26T13:20:23Z"
+  "page_count": 576,
+  "generated": "2026-05-26T13:21:44Z"
 }

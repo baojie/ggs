@@ -91,6 +91,14 @@
       ],
       "path": "al/阿拉姆语.md"
     },
+    "an-da-man-qun-dao": {
+      "type": "place",
+      "label": "安达曼群岛",
+      "aliases": [
+        "Andaman Islands"
+      ],
+      "path": "an/an-da-man-qun-dao.md"
+    },
     "an-dong-ni-wen-yi": {
       "type": "event",
       "label": "安东尼瘟疫",
@@ -3798,6 +3806,15 @@
       ],
       "path": "sh/鼠疫.md"
     },
+    "si-ke-li-lin-ren": {
+      "type": "person",
+      "label": "斯克里林人",
+      "aliases": [
+        "Skraelings",
+        "Skræling"
+      ],
+      "path": "si/si-ke-li-lin-ren.md"
+    },
     "su-mei-er-ren": {
       "type": "person",
       "label": "苏美尔人",
@@ -4221,6 +4238,15 @@
       ],
       "path": "xi/xiangxing-wenzi.md"
     },
+    "xiao-bing-chuan-qi": {
+      "type": "event",
+      "label": "小冰川期",
+      "aliases": [
+        "小冰期",
+        "Little Ice Age"
+      ],
+      "path": "xi/xiao-bing-chuan-qi.md"
+    },
     "xiaweiyi": {
       "type": "place",
       "label": "夏威夷",
@@ -4435,6 +4461,15 @@
       ],
       "path": "xu/驯鹿.md"
     },
+    "ya-xi-ren": {
+      "type": "person",
+      "label": "亚希人",
+      "aliases": [
+        "Yahi",
+        "亚希部落"
+      ],
+      "path": "ya/ya-xi-ren.md"
+    },
     "亚历山大大帝": {
       "type": "person",
       "label": "亚历山大大帝",
@@ -4552,6 +4587,16 @@
         "野生小麦"
       ],
       "path": "ye/野生谷物.md"
+    },
+    "yi-nu-te-ren": {
+      "type": "person",
+      "label": "伊努特人",
+      "aliases": [
+        "Inuit",
+        "爱斯基摩人",
+        "Eskimo"
+      ],
+      "path": "yi/yi-nu-te-ren.md"
     },
     "yi-si-pa-ni-ao-la-dao": {
       "type": "place",
@@ -5265,6 +5310,9 @@
     "Aramaic": "阿拉姆语",
     "阿拉姆语字母": "阿拉姆语",
     "阿拉姆字母": "阿拉姆语",
+    "an-da-man-qun-dao": "an-da-man-qun-dao",
+    "安达曼群岛": "an-da-man-qun-dao",
+    "Andaman Islands": "an-da-man-qun-dao",
     "an-dong-ni-wen-yi": "an-dong-ni-wen-yi",
     "安东尼瘟疫": "an-dong-ni-wen-yi",
     "Antonine Plague": "an-dong-ni-wen-yi",
@@ -6566,6 +6614,10 @@
     "闪米特语族": "闪米特人",
     "鼠疫": "鼠疫",
     "鼠疫杆菌": "鼠疫",
+    "si-ke-li-lin-ren": "si-ke-li-lin-ren",
+    "斯克里林人": "si-ke-li-lin-ren",
+    "Skraelings": "si-ke-li-lin-ren",
+    "Skræling": "si-ke-li-lin-ren",
     "su-mei-er-ren": "su-mei-er-ren",
     "苏美尔人": "su-mei-er-ren",
     "Sumerians": "su-mei-er-ren",
@@ -6727,6 +6779,10 @@
     "xiangxing-wenzi": "xiangxing-wenzi",
     "hieroglyphics": "xiangxing-wenzi",
     "hieroglyphs": "xiangxing-wenzi",
+    "xiao-bing-chuan-qi": "xiao-bing-chuan-qi",
+    "小冰川期": "xiao-bing-chuan-qi",
+    "小冰期": "xiao-bing-chuan-qi",
+    "Little Ice Age": "xiao-bing-chuan-qi",
     "xiaweiyi": "xiaweiyi",
     "夏威夷": "xiaweiyi",
     "Hawaii": "xiaweiyi",
@@ -6804,6 +6860,10 @@
     "驯鹿": "驯鹿",
     "reindeer": "驯鹿",
     "caribou": "驯鹿",
+    "ya-xi-ren": "ya-xi-ren",
+    "亚希人": "ya-xi-ren",
+    "Yahi": "ya-xi-ren",
+    "亚希部落": "ya-xi-ren",
     "亚历山大大帝": "亚历山大大帝",
     "Alexander the Great": "亚历山大大帝",
     "亚历山大": "亚历山大大帝",
@@ -6840,6 +6900,11 @@
     "野生谷物": "野生谷物",
     "野生禾本科": "野生谷物",
     "野生小麦": "野生谷物",
+    "yi-nu-te-ren": "yi-nu-te-ren",
+    "伊努特人": "yi-nu-te-ren",
+    "Inuit": "yi-nu-te-ren",
+    "爱斯基摩人": "yi-nu-te-ren",
+    "Eskimo": "yi-nu-te-ren",
     "yi-si-pa-ni-ao-la-dao": "yi-si-pa-ni-ao-la-dao",
     "伊斯帕尼奥拉岛": "yi-si-pa-ni-ao-la-dao",
     "Hispaniola": "yi-si-pa-ni-ao-la-dao",
@@ -7065,6 +7130,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 571,
-  "generated": "2026-05-26T13:20:23Z"
+  "page_count": 576,
+  "generated": "2026-05-26T13:21:44Z"
 }
