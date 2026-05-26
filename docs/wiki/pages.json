@@ -3968,7 +3968,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
-      "total_refs": 2
+      "total_refs": 3
     },
     "ge-ren-yu-li-shi-jie-gou": {
       "type": "concept",
@@ -4291,7 +4291,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 11,
-      "total_refs": 1
+      "total_refs": 2
     },
     "国家": {
       "type": "concept",
@@ -4713,14 +4713,14 @@
       ],
       "path": "he/heng-he-ping-yuan.md",
       "description": "印度东北部冲积平原，戴蒙德用以说明降雨模式差异如何延缓新月沃地农业向东传播",
-      "prose_len": 206,
-      "prose_chars": 182,
-      "h2_count": 2,
+      "prose_len": 452,
+      "prose_chars": 408,
+      "h2_count": 3,
       "pn_count": 1,
-      "wikilink_count": 2,
+      "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "stub",
-      "quality_score": 2,
+      "quality": "standard",
+      "quality_score": 24,
       "total_refs": 0
     },
     "河流": {
@@ -4789,14 +4789,14 @@
       ],
       "path": "hu/hu-lu.md",
       "description": "美洲最早栽培的非食用植物之一，用作容器，戴蒙德引用为\"抢先驯化\"的案例",
-      "prose_len": 152,
-      "prose_chars": 129,
-      "h2_count": 2,
-      "pn_count": 1,
-      "wikilink_count": 1,
+      "prose_len": 408,
+      "prose_chars": 367,
+      "h2_count": 3,
+      "pn_count": 3,
+      "wikilink_count": 2,
       "blockquote_count": 0,
-      "quality": "stub",
-      "quality_score": 1,
+      "quality": "standard",
+      "quality_score": 24,
       "total_refs": 0
     },
     "huang-re-bing": {
@@ -4892,7 +4892,7 @@
       "blockquote_count": 0,
       "quality": "stub",
       "quality_score": 2,
-      "total_refs": 1
+      "total_refs": 2
     },
     "hui-xiong": {
       "type": "species",
@@ -6468,14 +6468,14 @@
       ],
       "path": "la/la-pi-ta-ren.md",
       "description": "制作拉皮塔陶器的南岛航海者，约公元前1500年出现在俾斯麦群岛并向太平洋深处扩张",
-      "prose_len": 194,
-      "prose_chars": 194,
-      "h2_count": 0,
-      "pn_count": 1,
-      "wikilink_count": 0,
+      "prose_len": 520,
+      "prose_chars": 478,
+      "h2_count": 3,
+      "pn_count": 3,
+      "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "stub",
-      "quality_score": 1,
+      "quality": "standard",
+      "quality_score": 25,
       "total_refs": 0
     },
     "la-pi-ta-wen-hua": {
@@ -6501,7 +6501,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 8,
-      "total_refs": 4
+      "total_refs": 5
     },
     "劳动分工": {
       "type": "concept",
@@ -8424,7 +8424,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 19
+      "total_refs": 20
     },
     "南岛语族": {
       "type": "concept",
@@ -10174,7 +10174,7 @@
       "blockquote_count": 0,
       "quality": "stub",
       "quality_score": 1,
-      "total_refs": 1
+      "total_refs": 2
     },
     "shu": {
       "type": "species",
@@ -11549,14 +11549,14 @@
       ],
       "path": "we/wen-hua-te-zhi.md",
       "description": "与环境无关的文化因素，戴蒙德讨论其可能对社会选择产生深远而持久的影响",
-      "prose_len": 206,
-      "prose_chars": 182,
-      "h2_count": 2,
+      "prose_len": 461,
+      "prose_chars": 419,
+      "h2_count": 3,
       "pn_count": 1,
-      "wikilink_count": 2,
+      "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "stub",
-      "quality_score": 2,
+      "quality": "standard",
+      "quality_score": 24,
       "total_refs": 1
     },
     "wen-lan": {
@@ -11582,7 +11582,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
-      "total_refs": 2
+      "total_refs": 3
     },
     "文化": {
       "type": "concept",
@@ -12053,7 +12053,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
-      "total_refs": 0
+      "total_refs": 1
     },
     "xian-wei-zuo-wu": {
       "type": "concept",
@@ -12213,14 +12213,14 @@
       ],
       "path": "xi/xiao-bing-chuan-qi.md",
       "description": "13世纪开始至19世纪的气候变冷期，对欧洲和北大西洋地区产生了深远影响",
-      "prose_len": 170,
-      "prose_chars": 170,
-      "h2_count": 0,
-      "pn_count": 0,
-      "wikilink_count": 0,
+      "prose_len": 518,
+      "prose_chars": 476,
+      "h2_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "stub",
-      "quality_score": 1,
+      "quality": "standard",
+      "quality_score": 25,
       "total_refs": 2
     },
     "xiaweiyi": {
@@ -12625,7 +12625,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 76
+      "total_refs": 77
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -15257,7 +15257,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 12
+      "total_refs": 13
     }
   },
   "alias_index": {
@@ -17357,5 +17357,5 @@
     "驯化作物": "作物驯化"
   },
   "page_count": 638,
-  "generated": "2026-05-26T17:04:13Z"
+  "generated": "2026-05-26T17:05:49Z"
 }
