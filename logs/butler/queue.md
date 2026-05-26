@@ -209,3 +209,17 @@
 - [x] P2 stub | 克诺索斯 | place | LLM 发现，ch12
 - [ ] P2 stub | 萨波特克 | place | LLM 发现，ch12
 - [ ] P2 stub | 人种生物学 | concept | 红链 ×2
+
+## Phase 2 — 新建候选（SCN28 R190 发现 — ch13 技术与发明）
+
+### P1 create（多章出现）
+
+- [ ] P1 create | 弥诺斯文明 | event | LLM 发现，多章（ch12/ch13/ch16）
+- [ ] P1 create | 塔斯马尼亚 | place | LLM 发现，多章（ch09/ch13/ch15/ch18/ch20）
+- [ ] P1 create | 水磨 | concept | LLM 发现，多章（ch13/ch20）
+- [ ] P1 create | 纳瓦霍人 | person | LLM 发现，多章（ch09/ch13/ch18）
+
+### P2 stub（单章重要实体）
+
+- [ ] P2 stub | 菲斯托斯圆盘 | concept | LLM 发现，ch13
+- [ ] P2 stub | 阿基米德 | person | LLM 发现，ch13
