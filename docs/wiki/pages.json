@@ -12054,6 +12054,31 @@
       "quality_score": 11,
       "total_refs": 0
     },
+    "yin-yong-pai-hang": {
+      "type": "list",
+      "label": "引用排行",
+      "aliases": [
+        "引用索引",
+        "词条引用排行",
+        "ref ranking"
+      ],
+      "tags": [
+        "索引",
+        "引用",
+        "统计"
+      ],
+      "path": "yi/yin-yong-pai-hang.md",
+      "description": "按引用数统计的本 wiki 词条排行，反映词条间的链接密度和核心度",
+      "prose_len": 1366,
+      "prose_chars": 953,
+      "h2_count": 7,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 18,
+      "total_refs": 0
+    },
     "yindu": {
       "type": "place",
       "label": "印度",
@@ -15398,6 +15423,10 @@
     "遗传学": "yichuanxue",
     "genetics": "yichuanxue",
     "基因学": "yichuanxue",
+    "yin-yong-pai-hang": "yin-yong-pai-hang",
+    "引用索引": "yin-yong-pai-hang",
+    "词条引用排行": "yin-yong-pai-hang",
+    "ref ranking": "yin-yong-pai-hang",
     "yindu": "yindu",
     "印度": "yindu",
     "India": "yindu",
@@ -15614,6 +15643,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 576,
-  "generated": "2026-05-26T13:30:46Z"
+  "page_count": 577,
+  "generated": "2026-05-26T13:32:15Z"
 }
