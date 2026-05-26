@@ -1,6 +1,6 @@
 # RFC-ggs-0032: pn_verify.py 使用未定义变量 ROOT 导致 --fix 模式崩溃
 
-- **Status**: proposed
+- **Status**: implemented
 - **Date**: 2026-05-26
 - **Issue**: https://github.com/baojie/memex/issues/186
 - **Source wiki**: ggs
@@ -30,3 +30,17 @@
 ## 连带发现
 
 同次审计中还发现 `record_revision.py`（第 215、226 行）和 `backfill_recent.py`（第 240 行）存在类似的 KeyError `'dl'` bug——v0 格式的历史条目没有 `"dl"` 键，而代码直接使用 `entries[j]["dl"]`。这两项已在 ggs wiki 本地修复（改用 `.get("dl", [])`），建议合并入 memex 主库以避免下游 revivor 工具受影响。
+
+## Implementation
+
+**Review**: faithful
+**Date**: 2026-05-26
+
+**检查清单**：
+
+- [x] `pn_verify.py` 第 265 行 `cwd=ROOT` → `cwd=WIKI_ROOT`
+- [x] `record_revision.py` `'dl'` KeyError — 主库已修复
+- [x] `backfill_recent.py` `'dl'` KeyError — 主库已修复
+
+**Commits**:
+- baojie/memex@4f62710: fix(pn_verify): ROOT → WIKI_ROOT 修复 --fix 模式 NameError
