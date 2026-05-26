@@ -19,51 +19,6 @@
       ],
       "path": "ab/About.md"
     },
-    "a-er-bei-si-shan": {
-      "type": "place",
-      "label": "阿尔卑斯山",
-      "aliases": [
-        "Alps",
-        "阿尔卑斯山脉"
-      ],
-      "path": "ae/a-er-bei-si-shan.md"
-    },
-    "a-fei-luo-ya-xi-ya-yu-xi": {
-      "type": "concept",
-      "label": "阿非罗-亚细亚语系",
-      "aliases": [
-        "Afroasiatic",
-        "亚非语系",
-        "含闪语系"
-      ],
-      "path": "af/a-fei-luo-ya-xi-ya-yu-xi.md"
-    },
-    "ai-xiao-hei-ren": {
-      "type": "person",
-      "label": "矮小黑人",
-      "aliases": [
-        "Negrito",
-        "尼格利陀人",
-        "塞芒人",
-        "Semang"
-      ],
-      "path": "ai/ai-xiao-hei-ren.md"
-    },
-    "aier-nan-duo-suotuo": {
-      "type": "person",
-      "label": "埃尔南多·德索托",
-      "aliases": [
-        "Hernando de Soto",
-        "德索托"
-      ],
-      "path": "ai/aier-nan-duo-suotuo.md"
-    },
-    "aisaobiya": {
-      "type": "place",
-      "label": "埃塞俄比亚",
-      "aliases": [],
-      "path": "ai/aisaobiya.md"
-    },
     "埃及": {
       "type": "place",
       "label": "埃及",
@@ -91,23 +46,6 @@
       ],
       "path": "aj/阿基米德.md"
     },
-    "a-la-si-jia": {
-      "type": "place",
-      "label": "阿拉斯加",
-      "aliases": [
-        "Alaska",
-        "阿拉斯加州"
-      ],
-      "path": "al/a-la-si-jia.md"
-    },
-    "alabobandao": {
-      "type": "place",
-      "label": "阿拉伯半岛",
-      "aliases": [
-        "Arabian Peninsula"
-      ],
-      "path": "al/alabobandao.md"
-    },
     "阿拉姆语": {
       "type": "concept",
       "label": "阿拉姆语",
@@ -125,41 +63,6 @@
         "Arafura Sea"
       ],
       "path": "al/阿拉弗拉海.md"
-    },
-    "an-da-man-qun-dao": {
-      "type": "place",
-      "label": "安达曼群岛",
-      "aliases": [
-        "Andaman Islands"
-      ],
-      "path": "an/an-da-man-qun-dao.md"
-    },
-    "an-da-man-ren": {
-      "type": "person",
-      "label": "安达曼人",
-      "aliases": [
-        "Andamanese",
-        "安达曼群岛岛民"
-      ],
-      "path": "an/an-da-man-ren.md"
-    },
-    "an-dong-ni-wen-yi": {
-      "type": "event",
-      "label": "安东尼瘟疫",
-      "aliases": [
-        "Antonine Plague",
-        "安东尼大瘟疫"
-      ],
-      "path": "an/an-dong-ni-wen-yi.md"
-    },
-    "annatuoliya": {
-      "type": "place",
-      "label": "安纳托利亚",
-      "aliases": [
-        "Anatolia",
-        "小亚细亚"
-      ],
-      "path": "an/annatuoliya.md"
     },
     "安娜卡列尼娜原则": {
       "type": "concept",
@@ -180,33 +83,6 @@
       ],
       "path": "an/安第斯山脉.md"
     },
-    "ao-er-mei-ke": {
-      "type": "person",
-      "label": "奥尔梅克",
-      "aliases": [
-        "Olmec",
-        "奥尔梅克人"
-      ],
-      "path": "ao/ao-er-mei-ke.md"
-    },
-    "ao-si-man-di-guo": {
-      "type": "event",
-      "label": "奥斯曼帝国",
-      "aliases": [
-        "Ottoman Empire",
-        "土耳其帝国"
-      ],
-      "path": "ao/ao-si-man-di-guo.md"
-    },
-    "ao-zhou-ye-quan": {
-      "type": "species",
-      "label": "澳洲野犬",
-      "aliases": [
-        "dingo",
-        "丁格犬"
-      ],
-      "path": "ao/ao-zhou-ye-quan.md"
-    },
     "澳大利亚": {
       "type": "place",
       "label": "澳大利亚",
@@ -215,15 +91,6 @@
         "澳洲"
       ],
       "path": "ao/澳大利亚.md"
-    },
-    "a-pa-qie-zu": {
-      "type": "person",
-      "label": "阿帕切族",
-      "aliases": [
-        "Apache",
-        "阿帕奇"
-      ],
-      "path": "ap/a-pa-qie-zu.md"
     },
     "阿塔瓦尔帕": {
       "type": "person",
@@ -234,26 +101,6 @@
       ],
       "path": "at/阿塔瓦尔帕.md"
     },
-    "a-yi-nu-ren": {
-      "type": "person",
-      "label": "阿伊努人",
-      "aliases": [
-        "Ainu",
-        "阿伊努族",
-        "爱努人"
-      ],
-      "path": "ay/a-yi-nu-ren.md"
-    },
-    "aziteke": {
-      "type": "concept",
-      "label": "阿兹特克",
-      "aliases": [
-        "Aztec",
-        "阿兹特克帝国",
-        "墨西加"
-      ],
-      "path": "az/aziteke.md"
-    },
     "B类线形文字": {
       "type": "concept",
       "label": "B类线形文字",
@@ -262,85 +109,6 @@
         "线形文字B"
       ],
       "path": "b0/B类线形文字.md"
-    },
-    "ba-bu-ya-zhu-yu-yan": {
-      "type": "concept",
-      "label": "巴布亚诸语言",
-      "aliases": [
-        "巴布亚语系",
-        "Papuan languages"
-      ],
-      "path": "ba/ba-bu-ya-zhu-yu-yan.md"
-    },
-    "ba-ta-ge-ni-ya": {
-      "type": "place",
-      "label": "巴塔哥尼亚",
-      "aliases": [
-        "Patagonia",
-        "巴塔哥尼亚高原"
-      ],
-      "path": "ba/ba-ta-ge-ni-ya.md"
-    },
-    "baergan": {
-      "type": "place",
-      "label": "巴尔干",
-      "aliases": [
-        "Balkans",
-        "巴尔干半岛"
-      ],
-      "path": "ba/baergan.md"
-    },
-    "bai-ling-lu-qiao": {
-      "type": "place",
-      "label": "白令陆桥",
-      "aliases": [
-        "Bering Land Bridge",
-        "白令吉亚"
-      ],
-      "path": "ba/bai-ling-lu-qiao.md"
-    },
-    "bai-ri-ke": {
-      "type": "disease",
-      "label": "百日咳",
-      "aliases": [
-        "whooping cough",
-        "pertussis"
-      ],
-      "path": "ba/bai-ri-ke.md"
-    },
-    "bailatu": {
-      "type": "person",
-      "label": "柏拉图",
-      "aliases": [
-        "Plato"
-      ],
-      "path": "ba/bailatu.md"
-    },
-    "ban-tu-ren-kuo-zhang": {
-      "type": "event",
-      "label": "班图人扩张",
-      "aliases": [
-        "Bantu expansion"
-      ],
-      "path": "ba/ban-tu-ren-kuo-zhang.md"
-    },
-    "ban-zhen-shang-han": {
-      "type": "concept",
-      "label": "斑疹伤寒",
-      "aliases": [
-        "typhus"
-      ],
-      "path": "ba/ban-zhen-shang-han.md"
-    },
-    "bao-chuan-dui": {
-      "type": "event",
-      "label": "宝船队",
-      "aliases": [
-        "treasure fleet",
-        "郑和船队",
-        "大明宝船"
-      ],
-      "path": "ba/bao-chuan-dui.md"
     },
     "半岛": {
       "type": "concept",
@@ -397,30 +165,6 @@
       ],
       "path": "ba/白鼬.md"
     },
-    "bei-ge-mi-ren": {
-      "type": "person",
-      "label": "俾格米人",
-      "aliases": [
-        "Pygmies",
-        "非洲俾格米人"
-      ],
-      "path": "be/bei-ge-mi-ren.md"
-    },
-    "bei-mei-da-ping-yuan": {
-      "type": "place",
-      "label": "北美大平原",
-      "aliases": [
-        "北美大草原",
-        "Great Plains"
-      ],
-      "path": "be/bei-mei-da-ping-yuan.md"
-    },
-    "beimeizhou": {
-      "type": "place",
-      "label": "北美洲",
-      "aliases": [],
-      "path": "be/beimeizhou.md"
-    },
     "北极": {
       "type": "place",
       "label": "北极",
@@ -438,24 +182,6 @@
         "高引用页面"
       ],
       "path": "be/被引用最多页面.md"
-    },
-    "bi-si-mai-qun-dao": {
-      "type": "place",
-      "label": "俾斯麦群岛",
-      "aliases": [
-        "Bismarck Archipelago"
-      ],
-      "path": "bi/bi-si-mai-qun-dao.md"
-    },
-    "bing-chuan": {
-      "type": "place",
-      "label": "冰川",
-      "aliases": [
-        "glacier",
-        "冰河",
-        "冰川作用"
-      ],
-      "path": "bi/bing-chuan.md"
     },
     "兵豆": {
       "type": "species",
@@ -500,14 +226,6 @@
         "germs"
       ],
       "path": "bi/病菌.md"
-    },
-    "bo-li-ni-xi-ya-ren": {
-      "type": "person",
-      "label": "波利尼西亚人",
-      "aliases": [
-        "Polynesians"
-      ],
-      "path": "bo/bo-li-ni-xi-ya-ren.md"
     },
     "伯克和威尔斯": {
       "type": "person",
@@ -557,33 +275,6 @@
         "氏族部落"
       ],
       "path": "bu/部落.md"
-    },
-    "cai-cai-ying": {
-      "type": "species",
-      "label": "采采蝇",
-      "aliases": [
-        "tsetse fly",
-        "舌蝇",
-        "萃萃蝇"
-      ],
-      "path": "ca/cai-cai-ying.md"
-    },
-    "cai-dou": {
-      "type": "species",
-      "label": "菜豆",
-      "aliases": [
-        "common bean",
-        "Phaseolus vulgaris"
-      ],
-      "path": "ca/cai-dou.md"
-    },
-    "caiji-shoulie": {
-      "type": "concept",
-      "label": "采集狩猎",
-      "aliases": [
-        "渔猎采集"
-      ],
-      "path": "ca/caiji-shoulie.md"
     },
     "仓鼠": {
       "type": "species",
@@ -736,74 +427,6 @@
       "aliases": [],
       "path": "ch/ch19-how-africa-became-black.md"
     },
-    "cha-er-ku-qi-ma": {
-      "type": "person",
-      "label": "查尔库奇马",
-      "aliases": [
-        "Chalcuchima",
-        "查尔库奇马"
-      ],
-      "path": "ch/cha-er-ku-qi-ma.md"
-    },
-    "cha-shi-ding-ni-wen-yi": {
-      "type": "event",
-      "label": "查士丁尼瘟疫",
-      "aliases": [
-        "Plague of Justinian"
-      ],
-      "path": "ch/cha-shi-ding-ni-wen-yi.md"
-    },
-    "cha-ta-mu-qun-dao": {
-      "type": "place",
-      "label": "查塔姆群岛",
-      "aliases": [
-        "Chatham Islands",
-        "查塔姆"
-      ],
-      "path": "ch/cha-ta-mu-qun-dao.md"
-    },
-    "chang-bei-jun": {
-      "type": "concept",
-      "label": "常备军",
-      "aliases": [
-        "standing army",
-        "职业军队"
-      ],
-      "path": "ch/chang-bei-jun.md"
-    },
-    "chang-jing-lu": {
-      "type": "species",
-      "label": "长颈鹿",
-      "aliases": [
-        "giraffe"
-      ],
-      "path": "ch/chang-jing-lu.md"
-    },
-    "chao-xie-yuan": {
-      "type": "person",
-      "label": "抄写员",
-      "aliases": [
-        "scribe",
-        "专职抄写员",
-        "书吏"
-      ],
-      "path": "ch/chao-xie-yuan.md"
-    },
-    "chaoxian": {
-      "type": "place",
-      "label": "朝鲜",
-      "aliases": [
-        "Korea",
-        "朝鲜半岛"
-      ],
-      "path": "ch/chaoxian.md"
-    },
-    "che-lun": {
-      "type": "concept",
-      "label": "车轮",
-      "aliases": [],
-      "path": "ch/che-lun.md"
-    },
     "传播": {
       "type": "concept",
       "label": "传播",
@@ -887,16 +510,6 @@
       ],
       "path": "ch/船只.md"
     },
-    "ci-tiao-jian-she-zhuang-tai": {
-      "type": "list",
-      "label": "词条建设状态",
-      "aliases": [
-        "build status",
-        "建设状态",
-        "条目状态"
-      ],
-      "path": "ci/ci-tiao-jian-she-zhuang-tai.md"
-    },
     "村落": {
       "type": "concept",
       "label": "村落",
@@ -906,135 +519,6 @@
         "settlement"
       ],
       "path": "cu/村落.md"
-    },
-    "da-ao-da-li-ya": {
-      "type": "concept",
-      "label": "大澳大利亚",
-      "aliases": [
-        "Sahul",
-        "萨胡尔大陆架",
-        "大澳洲"
-      ],
-      "path": "da/da-ao-da-li-ya.md"
-    },
-    "da-ben-keng-wen-hua": {
-      "type": "concept",
-      "label": "大坌坑文化",
-      "aliases": [
-        "Tapenkeng",
-        "大坌坑"
-      ],
-      "path": "da/da-ben-keng-wen-hua.md"
-    },
-    "da-hu-hou": {
-      "type": "species",
-      "label": "大狐猴",
-      "aliases": [
-        "Indri",
-        "indri",
-        "马达加斯加大狐猴"
-      ],
-      "path": "da/da-hu-hou.md"
-    },
-    "da-jiao-ban-ling": {
-      "type": "species",
-      "label": "大角斑羚",
-      "aliases": [
-        "eland",
-        "非洲大羚羊",
-        "大羚羊"
-      ],
-      "path": "da/da-jiao-ban-ling.md"
-    },
-    "da-ma": {
-      "type": "species",
-      "label": "大麻",
-      "aliases": [
-        "Cannabis sativa"
-      ],
-      "path": "da/da-ma.md"
-    },
-    "da-ren-wu": {
-      "type": "concept",
-      "label": "大人物",
-      "aliases": [
-        "Big Man",
-        "大人物制度",
-        "大人物体制"
-      ],
-      "path": "da/da-ren-wu.md"
-    },
-    "da-yun-he": {
-      "type": "place",
-      "label": "大运河",
-      "aliases": [
-        "Grand Canal",
-        "京杭大运河"
-      ],
-      "path": "da/da-yun-he.md"
-    },
-    "dagama": {
-      "type": "person",
-      "label": "瓦斯科·达·伽马",
-      "aliases": [
-        "Vasco da Gama",
-        "达·伽马"
-      ],
-      "path": "da/dagama.md"
-    },
-    "dai-jia-dai-yu-xi": {
-      "type": "concept",
-      "label": "傣-加岱语系",
-      "aliases": [
-        "Tai-Kadai",
-        "侗台语系",
-        "壮侗语系"
-      ],
-      "path": "da/dai-jia-dai-yu-xi.md"
-    },
-    "dai-shu": {
-      "type": "species",
-      "label": "袋鼠",
-      "aliases": [
-        "kangaroo",
-        "大袋鼠"
-      ],
-      "path": "da/dai-shu.md"
-    },
-    "daimengde": {
-      "type": "person",
-      "label": "贾雷德·戴蒙德",
-      "aliases": [],
-      "path": "da/daimengde.md"
-    },
-    "dan-feng-luo-tuo": {
-      "type": "species",
-      "label": "单峰骆驼",
-      "aliases": [
-        "dromedary",
-        "阿拉伯单峰骆驼",
-        "Camelus dromedarius"
-      ],
-      "path": "da/dan-feng-luo-tuo.md"
-    },
-    "dan-li-xiao-mai": {
-      "type": "species",
-      "label": "单粒小麦",
-      "aliases": [
-        "einkorn wheat",
-        "一粒小麦"
-      ],
-      "path": "da/dan-li-xiao-mai.md"
-    },
-    "dao-zei-tong-zhi": {
-      "type": "concept",
-      "label": "盗贼统治",
-      "aliases": [
-        "kleptocracy",
-        "盗贼统治制度",
-        "盗贼政治"
-      ],
-      "path": "da/dao-zei-tong-zhi.md"
     },
     "大豆": {
       "type": "species",
@@ -1114,15 +598,6 @@
       ],
       "path": "da/道路.md"
     },
-    "deng-ling": {
-      "type": "species",
-      "label": "瞪羚",
-      "aliases": [
-        "gazelle",
-        "瞪羚属"
-      ],
-      "path": "de/deng-ling.md"
-    },
     "德国": {
       "type": "place",
       "label": "德国",
@@ -1131,33 +606,6 @@
         "德意志"
       ],
       "path": "de/德国.md"
-    },
-    "di-li-ping-zhang": {
-      "type": "concept",
-      "label": "地理屏障",
-      "aliases": [
-        "geographic barrier",
-        "地理障碍",
-        "隔离"
-      ],
-      "path": "di/di-li-ping-zhang.md"
-    },
-    "di-wen": {
-      "type": "place",
-      "label": "帝汶",
-      "aliases": [
-        "Timor",
-        "帝汶岛"
-      ],
-      "path": "di/di-wen.md"
-    },
-    "ding-ji-si-wei-yue": {
-      "type": "person",
-      "label": "丁吉斯韦约",
-      "aliases": [
-        "Dingiswayo"
-      ],
-      "path": "di/ding-ji-si-wei-yue.md"
     },
     "地中海地区": {
       "type": "place",
@@ -1238,24 +686,6 @@
       ],
       "path": "di/抵抗.md"
     },
-    "dongwumiejue": {
-      "type": "concept",
-      "label": "动物灭绝",
-      "aliases": [
-        "大型动物灭绝"
-      ],
-      "path": "do/dongwumiejue.md"
-    },
-    "dou-lei": {
-      "type": "concept",
-      "label": "豆类",
-      "aliases": [
-        "legumes",
-        "pulses",
-        "豆科作物"
-      ],
-      "path": "do/dou-lei.md"
-    },
     "东南亚": {
       "type": "place",
       "label": "东南亚",
@@ -1293,33 +723,16 @@
       ],
       "path": "do/动物驯化.md"
     },
-    "du-du-niao": {
-      "type": "species",
-      "label": "渡渡鸟",
+    "多西特人": {
+      "type": "person",
+      "label": "多西特人",
       "aliases": [
-        "Raphus cucullatus",
-        "dodo",
-        "多多鸟"
+        "Dorset people",
+        "Dorset",
+        "多西特爱斯基摩人",
+        "多塞特人"
       ],
-      "path": "du/du-du-niao.md"
-    },
-    "du-lun-che": {
-      "type": "concept",
-      "label": "独轮车",
-      "aliases": [
-        "wheelbarrow",
-        "手推车"
-      ],
-      "path": "du/du-lun-che.md"
-    },
-    "dui-deng-jiao-huan": {
-      "type": "concept",
-      "label": "对等交换",
-      "aliases": [
-        "reciprocal exchange",
-        "互惠交换"
-      ],
-      "path": "du/dui-deng-jiao-huan.md"
+      "path": "du/多西特人.md"
     },
     "独木舟": {
       "type": "concept",
@@ -1345,44 +758,6 @@
       "label": "后记　人类史作为一门科学的未来",
       "aliases": [],
       "path": "ep/Epilogue.md"
-    },
-    "er-li-xiao-mai": {
-      "type": "species",
-      "label": "二粒小麦",
-      "aliases": [
-        "emmer wheat",
-        "埃默尔小麦",
-        "二粒小麦"
-      ],
-      "path": "er/er-li-xiao-mai.md"
-    },
-    "fa-luo-qun-dao": {
-      "type": "place",
-      "label": "法罗群岛",
-      "aliases": [
-        "Faroe Islands",
-        "法罗"
-      ],
-      "path": "fa/fa-luo-qun-dao.md"
-    },
-    "fa-you-ren": {
-      "type": "person",
-      "label": "法尤人",
-      "aliases": [
-        "Fayu",
-        "法尤族"
-      ],
-      "path": "fa/fa-you-ren.md"
-    },
-    "fang-she-xing-tan-ding-nian-fa": {
-      "type": "concept",
-      "label": "放射性碳定年法",
-      "aliases": [
-        "碳-14年代测定法",
-        "radiocarbon dating",
-        "碳-14测年"
-      ],
-      "path": "fa/fang-she-xing-tan-ding-nian-fa.md"
     },
     "发明": {
       "type": "concept",
@@ -1411,65 +786,6 @@
         "纺织技术"
       ],
       "path": "fa/纺织.md"
-    },
-    "fei-ji": {
-      "type": "place",
-      "label": "斐济",
-      "aliases": [
-        "Fiji",
-        "斐济群岛"
-      ],
-      "path": "fe/fei-ji.md"
-    },
-    "fei-shi-he": {
-      "type": "place",
-      "label": "菲什河",
-      "aliases": [
-        "Fish River",
-        "菲什河"
-      ],
-      "path": "fe/fei-shi-he.md"
-    },
-    "fei-yan": {
-      "type": "concept",
-      "label": "肺炎",
-      "aliases": [
-        "pneumonia"
-      ],
-      "path": "fe/fei-yan.md"
-    },
-    "fei-zhou-shu-yu": {
-      "type": "species",
-      "label": "非洲薯蓣",
-      "aliases": [
-        "African yam",
-        "Dioscorea rotundata"
-      ],
-      "path": "fe/fei-zhou-shu-yu.md"
-    },
-    "fei-zhou-xiang": {
-      "type": "species",
-      "label": "非洲象",
-      "aliases": [
-        "African elephant",
-        "Loxodonta africana"
-      ],
-      "path": "fe/fei-zhou-xiang.md"
-    },
-    "feilvbin": {
-      "type": "place",
-      "label": "菲律宾",
-      "aliases": [],
-      "path": "fe/feilvbin.md"
-    },
-    "feng-jian-zhi-du": {
-      "type": "concept",
-      "label": "封建制度",
-      "aliases": [
-        "feudalism",
-        "封建"
-      ],
-      "path": "fe/feng-jian-zhi-du.md"
     },
     "分裂": {
       "type": "concept",
@@ -1522,53 +838,6 @@
       "label": "书前彩插",
       "aliases": [],
       "path": "fr/Frontispiece.md"
-    },
-    "fu-lang-xi-si-gao-er-dun": {
-      "type": "person",
-      "label": "弗朗西斯·高尔顿",
-      "aliases": [
-        "Francis Galton",
-        "高尔顿",
-        "法兰西斯·高尔顿"
-      ],
-      "path": "fu/fu-lang-xi-si-gao-er-dun.md"
-    },
-    "fu-lei-ren": {
-      "type": "person",
-      "label": "福雷人",
-      "aliases": [
-        "Fore",
-        "福雷族"
-      ],
-      "path": "fu/fu-lei-ren.md"
-    },
-    "fuhuojiedao": {
-      "type": "place",
-      "label": "复活节岛",
-      "aliases": [
-        "Easter Island",
-        "拉帕努伊"
-      ],
-      "path": "fu/fuhuojiedao.md"
-    },
-    "gan-ju": {
-      "type": "species",
-      "label": "柑橘",
-      "aliases": [
-        "citrus",
-        "柑橘类",
-        "柑橘属"
-      ],
-      "path": "ga/gan-ju.md"
-    },
-    "gan-zhe": {
-      "type": "species",
-      "label": "甘蔗",
-      "aliases": [
-        "sugarcane",
-        "Saccharum officinarum"
-      ],
-      "path": "ga/gan-zhe.md"
     },
     "干旱": {
       "type": "concept",
@@ -1635,34 +904,6 @@
         "Sorghum bicolor"
       ],
       "path": "ga/高粱.md"
-    },
-    "ge-ling-lan": {
-      "type": "place",
-      "label": "格陵兰",
-      "aliases": [
-        "Greenland",
-        "格陵兰岛"
-      ],
-      "path": "ge/ge-ling-lan.md"
-    },
-    "ge-ren-yu-li-shi-jie-gou": {
-      "type": "concept",
-      "label": "个人与历史结构",
-      "aliases": [
-        "individuals vs historical structures",
-        "个人作用与历史规律"
-      ],
-      "path": "ge/ge-ren-yu-li-shi-jie-gou.md"
-    },
-    "geng-xin-shi": {
-      "type": "concept",
-      "label": "更新世",
-      "aliases": [
-        "Pleistocene",
-        "冰河时代",
-        "更新世冰期"
-      ],
-      "path": "ge/geng-xin-shi.md"
     },
     "哥伦布": {
       "type": "person",
@@ -1767,16 +1008,6 @@
       ],
       "path": "go/狗.md"
     },
-    "gu-nuo-wei-ren": {
-      "type": "person",
-      "label": "古挪威人",
-      "aliases": [
-        "Norse",
-        "古斯堪的纳维亚人",
-        "维京人"
-      ],
-      "path": "gu/gu-nuo-wei-ren.md"
-    },
     "国家": {
       "type": "concept",
       "label": "国家",
@@ -1843,14 +1074,23 @@
       ],
       "path": "gu/谷登堡.md"
     },
-    "hanniba": {
-      "type": "person",
-      "label": "汉尼拔",
+    "哈尔马赫拉岛": {
+      "type": "place",
+      "label": "哈尔马赫拉岛",
       "aliases": [
-        "Hannibal",
-        "汉尼拔·巴卡"
+        "Halmahera",
+        "哈尔马赫拉"
       ],
-      "path": "ha/hanniba.md"
+      "path": "ha/哈尔马赫拉岛.md"
+    },
+    "哈布斯堡王朝": {
+      "type": "concept",
+      "label": "哈布斯堡王朝",
+      "aliases": [
+        "Habsburg dynasty",
+        "House of Habsburg"
+      ],
+      "path": "ha/哈布斯堡王朝.md"
     },
     "汉藏语系": {
       "type": "concept",
@@ -1886,68 +1126,6 @@
       ],
       "path": "ha/航行.md"
     },
-    "he-lei-luo-ren": {
-      "type": "person",
-      "label": "赫雷罗人",
-      "aliases": [
-        "Herero",
-        "赫雷罗族"
-      ],
-      "path": "he/he-lei-luo-ren.md"
-    },
-    "he-ma": {
-      "type": "species",
-      "label": "河马",
-      "aliases": [
-        "hippopotamus",
-        "河马属"
-      ],
-      "path": "he/he-ma.md"
-    },
-    "he-ping-wen-hua": {
-      "type": "concept",
-      "label": "和平文化",
-      "aliases": [
-        "Hoabinhian",
-        "和平文化传统"
-      ],
-      "path": "he/he-ping-wen-hua.md"
-    },
-    "he-ti": {
-      "type": "concept",
-      "label": "赫梯",
-      "aliases": [
-        "Hittite",
-        "赫梯人",
-        "赫梯帝国"
-      ],
-      "path": "he/he-ti.md"
-    },
-    "he-tuo": {
-      "type": "species",
-      "label": "鹤鸵",
-      "aliases": [
-        "cassowary"
-      ],
-      "path": "he/he-tuo.md"
-    },
-    "heng-de-sen-dao": {
-      "type": "place",
-      "label": "亨德森岛",
-      "aliases": [
-        "Henderson Island"
-      ],
-      "path": "he/heng-de-sen-dao.md"
-    },
-    "heng-he-ping-yuan": {
-      "type": "place",
-      "label": "恒河平原",
-      "aliases": [
-        "Ganges Plain",
-        "恒河平原"
-      ],
-      "path": "he/heng-he-ping-yuan.md"
-    },
     "河流": {
       "type": "concept",
       "label": "河流",
@@ -1957,6 +1135,15 @@
         "内陆水系"
       ],
       "path": "he/河流.md"
+    },
+    "黑曜石": {
+      "type": "concept",
+      "label": "黑曜石",
+      "aliases": [
+        "obsidian",
+        "火山玻璃"
+      ],
+      "path": "he/黑曜石.md"
     },
     "黑死病": {
       "type": "event",
@@ -1976,89 +1163,6 @@
         "Blackfeet"
       ],
       "path": "he/黑脚族.md"
-    },
-    "hu-lu": {
-      "type": "species",
-      "label": "葫芦",
-      "aliases": [
-        "bottle gourd",
-        "calabash",
-        "瓠瓜",
-        "Lagenaria"
-      ],
-      "path": "hu/hu-lu.md"
-    },
-    "hua-mei-cao": {
-      "type": "species",
-      "label": "画眉草",
-      "aliases": [
-        "teff",
-        "Eragrostis tef"
-      ],
-      "path": "hu/hua-mei-cao.md"
-    },
-    "huang-re-bing": {
-      "type": "concept",
-      "label": "黄热病",
-      "aliases": [
-        "yellow fever"
-      ],
-      "path": "hu/huang-re-bing.md"
-    },
-    "huanjing-juedinglun": {
-      "type": "concept",
-      "label": "环境决定论",
-      "aliases": [
-        "地理环境决定论"
-      ],
-      "path": "hu/huanjing-juedinglun.md"
-    },
-    "huashengdun": {
-      "type": "person",
-      "label": "乔治·华盛顿",
-      "aliases": [
-        "George Washington"
-      ],
-      "path": "hu/huashengdun.md"
-    },
-    "hui-su-shi-yan-fa": {
-      "type": "concept",
-      "label": "回溯试验法",
-      "aliases": [
-        "retrospective test",
-        "回溯检验法",
-        "历史比较法"
-      ],
-      "path": "hu/hui-su-shi-yan-fa.md"
-    },
-    "hui-xiong": {
-      "type": "species",
-      "label": "灰熊",
-      "aliases": [
-        "grizzly bear",
-        "Ursus arctos horribilis"
-      ],
-      "path": "hu/hui-xiong.md"
-    },
-    "huo-geng-nong-ye": {
-      "type": "concept",
-      "label": "火耕农业",
-      "aliases": [
-        "火耕",
-        "刀耕火种",
-        "火耕法",
-        "fire-stick farming"
-      ],
-      "path": "hu/huo-geng-nong-ye.md"
-    },
-    "huo-pu-wei-er-wen-hua": {
-      "type": "event",
-      "label": "huo-pu-wei-er-wen-hua",
-      "aliases": [
-        "Hopewell culture",
-        "霍普韦尔"
-      ],
-      "path": "hu/huo-pu-wei-er-wen-hua.md"
     },
     "火": {
       "type": "concept",
@@ -2150,77 +1254,6 @@
         "Yellow River"
       ],
       "path": "hu/黄河.md"
-    },
-    "ji-pu": {
-      "type": "concept",
-      "label": "基普",
-      "aliases": [
-        "Quipu",
-        "结绳",
-        "khipu"
-      ],
-      "path": "ji/ji-pu.md"
-    },
-    "ji-shu-ting-zhi": {
-      "type": "concept",
-      "label": "技术停滞",
-      "aliases": [
-        "技术停滞",
-        "technological stagnation"
-      ],
-      "path": "ji/ji-shu-ting-zhi.md"
-    },
-    "ji-shu-yu-jing-ji-suo-yin": {
-      "type": "list",
-      "label": "技术与经济索引",
-      "aliases": [
-        "Technology and Economy Index"
-      ],
-      "path": "ji/ji-shu-yu-jing-ji-suo-yin.md"
-    },
-    "jia-gu-wen": {
-      "type": "concept",
-      "label": "甲骨文",
-      "aliases": [
-        "oracle bone script",
-        "甲骨文文字"
-      ],
-      "path": "ji/jia-gu-wen.md"
-    },
-    "jia-jie": {
-      "type": "concept",
-      "label": "嫁接",
-      "aliases": [
-        "grafting",
-        "嫁接技术",
-        "果树嫁接"
-      ],
-      "path": "ji/jia-jie.md"
-    },
-    "jia-tai-ji": {
-      "type": "place",
-      "label": "迦太基",
-      "aliases": [
-        "Carthage",
-        "卡尔塔热"
-      ],
-      "path": "ji/jia-tai-ji.md"
-    },
-    "jialifuniya": {
-      "type": "place",
-      "label": "加利福尼亚",
-      "aliases": [
-        "California"
-      ],
-      "path": "ji/jialifuniya.md"
-    },
-    "jin-shu-ye-lian": {
-      "type": "concept",
-      "label": "金属冶炼",
-      "aliases": [
-        "炼钢"
-      ],
-      "path": "ji/jin-shu-ye-lian.md"
     },
     "交换": {
       "type": "concept",
@@ -2469,15 +1502,6 @@
       ],
       "path": "ju/菊草.md"
     },
-    "ka-fei": {
-      "type": "species",
-      "label": "咖啡",
-      "aliases": [
-        "coffee",
-        "Coffea"
-      ],
-      "path": "ka/ka-fei.md"
-    },
     "卡哈马卡": {
       "type": "place",
       "label": "卡哈马卡",
@@ -2521,57 +1545,6 @@
       ],
       "path": "ka/考古遗址.md"
     },
-    "ke-luo-la-duo-he": {
-      "type": "place",
-      "label": "科罗拉多河",
-      "aliases": [
-        "Colorado River"
-      ],
-      "path": "ke/ke-luo-la-duo-he.md"
-    },
-    "ke-luo-ma-nu-ren": {
-      "type": "concept",
-      "label": "克罗马努人",
-      "aliases": [
-        "Cro-Magnon",
-        "克罗马农人",
-        "晚期智人"
-      ],
-      "path": "ke/ke-luo-ma-nu-ren.md"
-    },
-    "ke-sa-ren": {
-      "type": "person",
-      "label": "科萨人",
-      "aliases": [
-        "Xhosa"
-      ],
-      "path": "ke/ke-sa-ren.md"
-    },
-    "ke-yi-sang-ren": {
-      "type": "concept",
-      "label": "科伊桑人",
-      "aliases": [
-        "Khoisan",
-        "科伊桑",
-        "科伊桑民族"
-      ],
-      "path": "ke/ke-yi-sang-ren.md"
-    },
-    "keertesi": {
-      "type": "person",
-      "label": "埃尔南·科尔特斯",
-      "aliases": [],
-      "path": "ke/keertesi.md"
-    },
-    "keluoweiwenhua": {
-      "type": "event",
-      "label": "克罗维文化",
-      "aliases": [
-        "Clovis culture",
-        "克罗维遗址"
-      ],
-      "path": "ke/keluoweiwenhua.md"
-    },
     "克诺索斯": {
       "type": "place",
       "label": "克诺索斯",
@@ -2608,52 +1581,6 @@
       ],
       "path": "ke/科尔特斯.md"
     },
-    "kong-niao": {
-      "type": "species",
-      "label": "恐鸟",
-      "aliases": [
-        "moa",
-        "恐鸟属"
-      ],
-      "path": "ko/kong-niao.md"
-    },
-    "ku-chao-cai": {
-      "type": "species",
-      "label": "ku-chao-cai",
-      "aliases": [
-        "bitter vetch",
-        "苦野豌豆",
-        "苦草"
-      ],
-      "path": "ku/ku-chao-cai.md"
-    },
-    "ku-lu-bing": {
-      "type": "concept",
-      "label": "库鲁病",
-      "aliases": [
-        "kuru",
-        "强笑病"
-      ],
-      "path": "ku/ku-lu-bing.md"
-    },
-    "kua-xue-ke-fang-fa": {
-      "type": "concept",
-      "label": "跨学科方法",
-      "aliases": [
-        "interdisciplinary approach",
-        "多学科方法"
-      ],
-      "path": "ku/kua-xue-ke-fang-fa.md"
-    },
-    "kuke": {
-      "type": "person",
-      "label": "詹姆斯·库克",
-      "aliases": [
-        "James Cook",
-        "库克船长"
-      ],
-      "path": "ku/kuke.md"
-    },
     "库斯科": {
       "type": "place",
       "label": "库斯科",
@@ -2681,42 +1608,6 @@
         "恐水症"
       ],
       "path": "ku/狂犬病.md"
-    },
-    "la-bu-la-duo": {
-      "type": "place",
-      "label": "拉布拉多",
-      "aliases": [
-        "Labrador"
-      ],
-      "path": "la/la-bu-la-duo.md"
-    },
-    "la-jiao": {
-      "type": "species",
-      "label": "辣椒",
-      "aliases": [
-        "chili pepper",
-        "Capsicum"
-      ],
-      "path": "la/la-jiao.md"
-    },
-    "la-pi-ta-ren": {
-      "type": "person",
-      "label": "拉皮塔人",
-      "aliases": [
-        "Lapita people",
-        "拉皮塔文化人群"
-      ],
-      "path": "la/la-pi-ta-ren.md"
-    },
-    "la-pi-ta-wen-hua": {
-      "type": "concept",
-      "label": "拉皮塔文化",
-      "aliases": [
-        "拉皮塔陶器",
-        "Lapita文化",
-        "Lapita"
-      ],
-      "path": "la/la-pi-ta-wen-hua.md"
     },
     "劳动分工": {
       "type": "concept",
@@ -2747,109 +1638,6 @@
       ],
       "path": "la/莱特兄弟.md"
     },
-    "lei-xing-suo-yin": {
-      "type": "overview",
-      "label": "类型索引",
-      "aliases": [
-        "type index",
-        "分类索引",
-        "词条类型索引"
-      ],
-      "path": "le/lei-xing-suo-yin.md"
-    },
-    "li-chenopodium": {
-      "type": "species",
-      "label": "藜",
-      "aliases": [
-        "chenopodium",
-        "藜属植物",
-        "lamb's quarters"
-      ],
-      "path": "li/li-chenopodium.md"
-    },
-    "li-ji": {
-      "type": "disease",
-      "label": "痢疾",
-      "aliases": [
-        "dysentery",
-        "细菌性痢疾"
-      ],
-      "path": "li/li-ji.md"
-    },
-    "li-ma-dou": {
-      "type": "species",
-      "label": "利马豆",
-      "aliases": [
-        "lima bean",
-        "Phaseolus lunatus"
-      ],
-      "path": "li/li-ma-dou.md"
-    },
-    "li-ni-er-ban-ke-la-mi-ke-wen-hua": {
-      "type": "concept",
-      "label": "利尼尔班克拉米克文化",
-      "aliases": [
-        "LBK文化",
-        "Linearbandkeramik",
-        "线纹陶文化"
-      ],
-      "path": "li/li-ni-er-ban-ke-la-mi-ke-wen-hua.md"
-    },
-    "li-shi-ke-xue": {
-      "type": "concept",
-      "label": "历史科学",
-      "aliases": [
-        "historical science",
-        "历史学作为科学"
-      ],
-      "path": "li/li-shi-ke-xue.md"
-    },
-    "li": {
-      "type": "concept",
-      "label": "犁",
-      "aliases": [
-        "犁耕",
-        "畜力犁",
-        "plow"
-      ],
-      "path": "li/li.md"
-    },
-    "liang-shi-chu-bei": {
-      "type": "concept",
-      "label": "粮食储备",
-      "aliases": [
-        "food storage",
-        "余粮"
-      ],
-      "path": "li/liang-shi-chu-bei.md"
-    },
-    "lie-bao": {
-      "type": "species",
-      "label": "猎豹",
-      "aliases": [
-        "cheetah",
-        "印度猎豹"
-      ],
-      "path": "li/lie-bao.md"
-    },
-    "liu-niu": {
-      "type": "species",
-      "label": "瘤牛",
-      "aliases": [
-        "zebu",
-        "Bos indicus"
-      ],
-      "path": "li/liu-niu.md"
-    },
-    "liu-xing-xing-gan-mao": {
-      "type": "concept",
-      "label": "流行性感冒",
-      "aliases": [
-        "流感",
-        "influenza"
-      ],
-      "path": "li/liu-xing-xing-gan-mao.md"
-    },
     "流行病": {
       "type": "concept",
       "label": "流行病",
@@ -2867,33 +1655,6 @@
         "农耕"
       ],
       "path": "li/粮食生产.md"
-    },
-    "lun-na-er-dao": {
-      "type": "place",
-      "label": "伦纳尔岛",
-      "aliases": [
-        "Rennell Island",
-        "伦内尔岛",
-        "穆基基"
-      ],
-      "path": "lu/lun-na-er-dao.md"
-    },
-    "luoma-diguo": {
-      "type": "event",
-      "label": "罗马帝国",
-      "aliases": [
-        "Roman Empire"
-      ],
-      "path": "lu/luoma-diguo.md"
-    },
-    "lusuo": {
-      "type": "person",
-      "label": "让-雅克·卢梭",
-      "aliases": [
-        "Jean-Jacques Rousseau",
-        "卢梭"
-      ],
-      "path": "lu/lusuo.md"
     },
     "轮子": {
       "type": "concept",
@@ -2935,74 +1696,6 @@
         "家驴"
       ],
       "path": "lv/驴.md"
-    },
-    "ma-ke-bu-lu-mu-le": {
-      "type": "person",
-      "label": "马克·布卢姆勒",
-      "aliases": [
-        "Mark Blumler",
-        "Mark A. Blumler"
-      ],
-      "path": "ma/ma-ke-bu-lu-mu-le.md"
-    },
-    "ma-ke-si": {
-      "type": "person",
-      "label": "马克思",
-      "aliases": [
-        "Karl Marx"
-      ],
-      "path": "ma/ma-ke-si.md"
-    },
-    "ma-ya-wen-zi": {
-      "type": "concept",
-      "label": "马雅文字",
-      "aliases": [
-        "Maya script",
-        "马雅象形文字"
-      ],
-      "path": "ma/ma-ya-wen-zi.md"
-    },
-    "madagascar": {
-      "type": "place",
-      "label": "马达加斯加",
-      "aliases": [
-        "Madagascar"
-      ],
-      "path": "ma/madagascar.md"
-    },
-    "makesi": {
-      "type": "person",
-      "label": "卡尔·马克思",
-      "aliases": [],
-      "path": "ma/makesi.md"
-    },
-    "man-dan-zu": {
-      "type": "concept",
-      "label": "曼丹族",
-      "aliases": [
-        "曼丹人",
-        "Mandan"
-      ],
-      "path": "ma/man-dan-zu.md"
-    },
-    "man-ke": {
-      "type": "person",
-      "label": "曼科",
-      "aliases": [
-        "Manco Inca",
-        "曼科·印卡",
-        "Manco Capac"
-      ],
-      "path": "ma/man-ke.md"
-    },
-    "mao-li-ren": {
-      "type": "person",
-      "label": "毛利人",
-      "aliases": [
-        "Maori",
-        "毛利"
-      ],
-      "path": "ma/mao-li-ren.md"
     },
     "牦牛": {
       "type": "species",
@@ -3092,64 +1785,15 @@
       ],
       "path": "ma/麻风.md"
     },
-    "mei-du": {
+    "美印语系": {
       "type": "concept",
-      "label": "梅毒",
+      "label": "美印语系",
       "aliases": [
-        "syphilis"
+        "Amerind languages",
+        "Amerind",
+        "美印第安语系"
       ],
-      "path": "me/mei-du.md"
-    },
-    "mei-guo-xi-nan-bu": {
-      "type": "place",
-      "label": "美国西南部",
-      "aliases": [
-        "American Southwest",
-        "北美西南部"
-      ],
-      "path": "me/mei-guo-xi-nan-bu.md"
-    },
-    "mei-zhou-ye-niu": {
-      "type": "species",
-      "label": "美洲野牛",
-      "aliases": [
-        "American bison",
-        "北美野牛",
-        "buffalo"
-      ],
-      "path": "me/mei-zhou-ye-niu.md"
-    },
-    "meilaxiniya": {
-      "type": "place",
-      "label": "美拉尼西亚",
-      "aliases": [],
-      "path": "me/meilaxiniya.md"
-    },
-    "meizhoudulifazhan": {
-      "type": "concept",
-      "label": "美洲独立发展",
-      "aliases": [
-        "independent development in Americas",
-        "美洲独立农业"
-      ],
-      "path": "me/meizhoudulifazhan.md"
-    },
-    "menggu-diguo": {
-      "type": "event",
-      "label": "蒙古帝国",
-      "aliases": [
-        "Mongol Empire"
-      ],
-      "path": "me/menggu-diguo.md"
-    },
-    "menggu": {
-      "type": "place",
-      "label": "蒙古",
-      "aliases": [
-        "Mongolia",
-        "蒙古草原"
-      ],
-      "path": "me/menggu.md"
+      "path": "me/美印语系.md"
     },
     "美国东部": {
       "type": "place",
@@ -3214,46 +1858,6 @@
         "蒙特苏马"
       ],
       "path": "me/蒙特朱马.md"
-    },
-    "mi-xi-xi-bi-he": {
-      "type": "place",
-      "label": "密西西比河",
-      "aliases": [
-        "Mississippi River"
-      ],
-      "path": "mi/mi-xi-xi-bi-he.md"
-    },
-    "mi-xi-xi-bi-wen-hua": {
-      "type": "event",
-      "label": "密西西比文化",
-      "aliases": [
-        "Mississippian culture",
-        "密西西比河流域文化",
-        "土墩建造者文化"
-      ],
-      "path": "mi/mi-xi-xi-bi-wen-hua.md"
-    },
-    "miao-yao-yu-xi": {
-      "type": "concept",
-      "label": "苗瑶语系",
-      "aliases": [
-        "Hmong-Mien",
-        "曼-勉语族",
-        "苗瑶语族"
-      ],
-      "path": "mi/miao-yao-yu-xi.md"
-    },
-    "mikelunixiya": {
-      "type": "place",
-      "label": "密克罗尼西亚",
-      "aliases": [],
-      "path": "mi/mikelunixiya.md"
-    },
-    "milu": {
-      "type": "place",
-      "label": "秘鲁",
-      "aliases": [],
-      "path": "mi/milu.md"
     },
     "免疫": {
       "type": "concept",
@@ -3338,39 +1942,6 @@
       ],
       "path": "mi/面包果.md"
     },
-    "mo-li-ao-li-ren": {
-      "type": "person",
-      "label": "莫里奥里人",
-      "aliases": [
-        "Moriori",
-        "莫里奥里族"
-      ],
-      "path": "mo/mo-li-ao-li-ren.md"
-    },
-    "mo-wo-er-di-guo": {
-      "type": "event",
-      "label": "莫卧儿帝国",
-      "aliases": [
-        "Mughal Empire",
-        "莫卧儿"
-      ],
-      "path": "mo/mo-wo-er-di-guo.md"
-    },
-    "moerzibigang": {
-      "type": "place",
-      "label": "莫尔兹比港",
-      "aliases": [
-        "Port Moresby",
-        "巴布亚新几内亚首都"
-      ],
-      "path": "mo/moerzibigang.md"
-    },
-    "moxige": {
-      "type": "place",
-      "label": "墨西哥",
-      "aliases": [],
-      "path": "mo/moxige.md"
-    },
     "木薯": {
       "type": "species",
       "label": "木薯",
@@ -3395,50 +1966,6 @@
       "label": "目录",
       "aliases": [],
       "path": "mu/目录.md"
-    },
-    "nan-dao-yu-xi": {
-      "type": "concept",
-      "label": "南岛语系",
-      "aliases": [
-        "马来-波利尼西亚语系"
-      ],
-      "path": "na/nan-dao-yu-xi.md"
-    },
-    "nan-gua": {
-      "type": "species",
-      "label": "南瓜",
-      "aliases": [
-        "squash",
-        "pumpkin",
-        "Cucurbita"
-      ],
-      "path": "na/nan-gua.md"
-    },
-    "nan-ya-yu-xi": {
-      "type": "concept",
-      "label": "南亚语系",
-      "aliases": [
-        "Austroasiatic",
-        "南亚语系"
-      ],
-      "path": "na/nan-ya-yu-xi.md"
-    },
-    "nanmeizhou": {
-      "type": "place",
-      "label": "南美洲",
-      "aliases": [
-        "South America"
-      ],
-      "path": "na/nanmeizhou.md"
-    },
-    "napolun": {
-      "type": "person",
-      "label": "拿破仑",
-      "aliases": [
-        "Napoleon Bonaparte",
-        "拿破仑·波拿巴"
-      ],
-      "path": "na/napolun.md"
     },
     "南北轴": {
       "type": "concept",
@@ -3483,6 +2010,16 @@
       ],
       "path": "na/南岛语族扩张.md"
     },
+    "纳巴泰人": {
+      "type": "person",
+      "label": "纳巴泰人",
+      "aliases": [
+        "Nabataeans",
+        "纳巴泰",
+        "纳巴泰族"
+      ],
+      "path": "na/纳巴泰人.md"
+    },
     "纳瓦霍人": {
       "type": "person",
       "label": "纳瓦霍人",
@@ -3491,66 +2028,6 @@
         "纳瓦霍族"
       ],
       "path": "na/纳瓦霍人.md"
-    },
-    "nei-ran-ji": {
-      "type": "concept",
-      "label": "内燃机",
-      "aliases": [
-        "internal combustion engine",
-        "内燃发动机"
-      ],
-      "path": "ne/nei-ran-ji.md"
-    },
-    "neng-ren": {
-      "type": "concept",
-      "label": "能人",
-      "aliases": [
-        "Homo habilis",
-        "巧人"
-      ],
-      "path": "ne/neng-ren.md"
-    },
-    "ni-ri-er-gang-guo-yu-xi": {
-      "type": "concept",
-      "label": "尼日尔-刚果语系",
-      "aliases": [
-        "Niger-Congo",
-        "尼日尔刚果语系"
-      ],
-      "path": "ni/ni-ri-er-gang-guo-yu-xi.md"
-    },
-    "niandetelian": {
-      "type": "person",
-      "label": "尼安德特人",
-      "aliases": [
-        "Neanderthal",
-        "Homo neanderthalensis"
-      ],
-      "path": "ni/niandetelian.md"
-    },
-    "niluohe": {
-      "type": "place",
-      "label": "尼罗河",
-      "aliases": [
-        "Nile River"
-      ],
-      "path": "ni/niluohe.md"
-    },
-    "niu-fen-lan": {
-      "type": "place",
-      "label": "纽芬兰",
-      "aliases": [
-        "Newfoundland"
-      ],
-      "path": "ni/niu-fen-lan.md"
-    },
-    "niu-wen": {
-      "type": "concept",
-      "label": "牛瘟",
-      "aliases": [
-        "rinderpest"
-      ],
-      "path": "ni/niu-wen.md"
     },
     "牛": {
       "type": "species",
@@ -3582,22 +2059,6 @@
       ],
       "path": "ni/酿酒.md"
     },
-    "nong-ye-yu-xun-hua-suo-yin": {
-      "type": "list",
-      "label": "农业与驯化索引",
-      "aliases": [
-        "Agriculture and Domestication Index"
-      ],
-      "path": "no/nong-ye-yu-xun-hua-suo-yin.md"
-    },
-    "nongyeqiyuan": {
-      "type": "concept",
-      "label": "农业起源",
-      "aliases": [
-        "origins of agriculture"
-      ],
-      "path": "no/nongyeqiyuan.md"
-    },
     "农业": {
       "type": "concept",
       "label": "农业",
@@ -3615,16 +2076,6 @@
         "新石器时代革命"
       ],
       "path": "no/农业革命.md"
-    },
-    "nu-li-mao-yi": {
-      "type": "event",
-      "label": "奴隶贸易",
-      "aliases": [
-        "slave trade",
-        "跨大西洋奴隶贸易",
-        "黑奴贸易"
-      ],
-      "path": "nu/nu-li-mao-yi.md"
     },
     "奴隶": {
       "type": "concept",
@@ -3686,21 +2137,6 @@
       ],
       "path": "ou/欧甘字母.md"
     },
-    "ping-guo": {
-      "type": "species",
-      "label": "苹果",
-      "aliases": [
-        "apple",
-        "Malus domestica"
-      ],
-      "path": "pi/ping-guo.md"
-    },
-    "pisaluo": {
-      "type": "person",
-      "label": "弗朗西斯科·皮萨罗",
-      "aliases": [],
-      "path": "pi/pisaluo.md"
-    },
     "平原": {
       "type": "concept",
       "label": "平原",
@@ -3721,6 +2157,24 @@
       ],
       "path": "pi/平民.md"
     },
+    "皮特凯恩岛": {
+      "type": "place",
+      "label": "皮特凯恩岛",
+      "aliases": [
+        "Pitcairn Island",
+        "皮特凯恩"
+      ],
+      "path": "pi/皮特凯恩岛.md"
+    },
+    "皮特拉": {
+      "type": "place",
+      "label": "皮特拉",
+      "aliases": [
+        "Petra",
+        "佩特拉"
+      ],
+      "path": "pi/皮特拉.md"
+    },
     "皮萨罗": {
       "type": "person",
       "label": "皮萨罗",
@@ -3735,6 +2189,16 @@
       "aliases": [],
       "path": "pr/Preface.md"
     },
+    "普南人": {
+      "type": "person",
+      "label": "普南人",
+      "aliases": [
+        "Punan",
+        "Penan",
+        "普南族"
+      ],
+      "path": "pu/普南人.md"
+    },
     "葡萄": {
       "type": "species",
       "label": "葡萄",
@@ -3745,34 +2209,6 @@
         "酿酒葡萄"
       ],
       "path": "pu/葡萄.md"
-    },
-    "qie-luo-ji-ren": {
-      "type": "person",
-      "label": "切罗基人",
-      "aliases": [
-        "Cherokee",
-        "切罗基族"
-      ],
-      "path": "qi/qie-luo-ji-ren.md"
-    },
-    "qin-chao": {
-      "type": "event",
-      "label": "秦朝",
-      "aliases": [
-        "Qin dynasty",
-        "秦帝国",
-        "秦国"
-      ],
-      "path": "qi/qin-chao.md"
-    },
-    "qin-shi-huang": {
-      "type": "person",
-      "label": "秦始皇",
-      "aliases": [
-        "Qin Shi Huang",
-        "嬴政"
-      ],
-      "path": "qi/qin-shi-huang.md"
     },
     "亲属关系": {
       "type": "concept",
@@ -3873,16 +2309,6 @@
         "骑军"
       ],
       "path": "qi/骑兵.md"
-    },
-    "quan-qiu-bian-nuan": {
-      "type": "concept",
-      "label": "全球变暖",
-      "aliases": [
-        "global warming",
-        "气候变化",
-        "全新世暖期"
-      ],
-      "path": "qu/quan-qiu-bian-nuan.md"
     },
     "人口": {
       "type": "concept",
@@ -4023,42 +2449,6 @@
       ],
       "path": "ru/如尼文.md"
     },
-    "sa-mo-ya": {
-      "type": "place",
-      "label": "萨摩亚",
-      "aliases": [
-        "Samoa",
-        "萨摩亚群岛"
-      ],
-      "path": "sa/sa-mo-ya.md"
-    },
-    "sahala": {
-      "type": "place",
-      "label": "撒哈拉",
-      "aliases": [
-        "Sahara"
-      ],
-      "path": "sa/sahala.md"
-    },
-    "sai-lun-ge-di": {
-      "type": "place",
-      "label": "塞伦格蒂",
-      "aliases": [
-        "塞伦格蒂大草原",
-        "塞伦格蒂大平原",
-        "Serengeti"
-      ],
-      "path": "sa/sai-lun-ge-di.md"
-    },
-    "sai-pu-lu-si": {
-      "type": "place",
-      "label": "塞浦路斯",
-      "aliases": [
-        "Cyprus",
-        "塞浦路斯岛"
-      ],
-      "path": "sa/sai-pu-lu-si.md"
-    },
     "塞阔雅": {
       "type": "person",
       "label": "塞阔雅",
@@ -4095,129 +2485,6 @@
         "树林"
       ],
       "path": "se/森林.md"
-    },
-    "sha-ba-la-qun-luo": {
-      "type": "concept",
-      "label": "沙巴拉群落",
-      "aliases": [
-        "chaparral",
-        "查帕拉尔群落",
-        "灌木丛林"
-      ],
-      "path": "sh/sha-ba-la-qun-luo.md"
-    },
-    "shan-he-tao": {
-      "type": "species",
-      "label": "山核桃",
-      "aliases": [
-        "pecan",
-        "Carya illinoinensis"
-      ],
-      "path": "sh/shan-he-tao.md"
-    },
-    "shan-yu-zu": {
-      "type": "concept",
-      "label": "闪语族",
-      "aliases": [
-        "Semitic"
-      ],
-      "path": "sh/shan-yu-zu.md"
-    },
-    "shang-chao": {
-      "type": "event",
-      "label": "商朝",
-      "aliases": [
-        "Shang dynasty",
-        "商代",
-        "殷商"
-      ],
-      "path": "sh/shang-chao.md"
-    },
-    "she-hui-fu-za-hua": {
-      "type": "concept",
-      "label": "社会复杂化",
-      "aliases": [
-        "社会演化"
-      ],
-      "path": "sh/she-hui-fu-za-hua.md"
-    },
-    "she-niu": {
-      "type": "species",
-      "label": "麝牛",
-      "aliases": [
-        "musk ox",
-        "Ovibos moschatus"
-      ],
-      "path": "sh/she-niu.md"
-    },
-    "sheng-tai-zi-sha": {
-      "type": "concept",
-      "label": "生态自杀",
-      "aliases": [
-        "ecocide",
-        "环境自杀",
-        "ecological suicide"
-      ],
-      "path": "sh/sheng-tai-zi-sha.md"
-    },
-    "sheng-yu-jian-ge": {
-      "type": "concept",
-      "label": "生育间隔",
-      "aliases": [
-        "birth spacing",
-        "生育间隔机制"
-      ],
-      "path": "sh/sheng-yu-jian-ge.md"
-    },
-    "shi-luo": {
-      "type": "species",
-      "label": "莳萝",
-      "aliases": [
-        "dill",
-        "Anethum graveolens",
-        "土茴香"
-      ],
-      "path": "sh/shi-luo.md"
-    },
-    "shi-zu": {
-      "type": "concept",
-      "label": "氏族",
-      "aliases": [
-        "clan",
-        "宗族",
-        "氏族制度"
-      ],
-      "path": "sh/shi-zu.md"
-    },
-    "shu-pi-bu": {
-      "type": "concept",
-      "label": "树皮布",
-      "aliases": [
-        "tapa",
-        "barkcloth",
-        "塔帕"
-      ],
-      "path": "sh/shu-pi-bu.md"
-    },
-    "shu": {
-      "type": "species",
-      "label": "黍",
-      "aliases": [
-        "proso millet",
-        "Panicum miliaceum",
-        "黍子",
-        "糜子"
-      ],
-      "path": "sh/shu.md"
-    },
-    "shuang-feng-luo-tuo": {
-      "type": "species",
-      "label": "双峰骆驼",
-      "aliases": [
-        "Bactrian camel",
-        "Camelus bactrianus"
-      ],
-      "path": "sh/shuang-feng-luo-tuo.md"
     },
     "书写": {
       "type": "concept",
@@ -4476,87 +2743,6 @@
       ],
       "path": "sh/鼠疫.md"
     },
-    "si-ke-li-lin-ren": {
-      "type": "person",
-      "label": "斯克里林人",
-      "aliases": [
-        "Skraelings",
-        "Skræling"
-      ],
-      "path": "si/si-ke-li-lin-ren.md"
-    },
-    "su-mei-er-ren": {
-      "type": "person",
-      "label": "苏美尔人",
-      "aliases": [
-        "Sumerians",
-        "苏美人"
-      ],
-      "path": "su/su-mei-er-ren.md"
-    },
-    "su": {
-      "type": "species",
-      "label": "粟",
-      "aliases": [
-        "foxtail millet",
-        "Setaria italica",
-        "小米",
-        "谷子",
-        "粟米"
-      ],
-      "path": "su/su.md"
-    },
-    "suo-luo-men-qun-dao": {
-      "type": "place",
-      "label": "所罗门群岛",
-      "aliases": [
-        "Solomon Islands"
-      ],
-      "path": "su/suo-luo-men-qun-dao.md"
-    },
-    "tai-ping-yang": {
-      "type": "place",
-      "label": "太平洋",
-      "aliases": [
-        "Pacific Ocean",
-        "太平洋海域"
-      ],
-      "path": "ta/tai-ping-yang.md"
-    },
-    "taiwan": {
-      "type": "place",
-      "label": "台湾",
-      "aliases": [],
-      "path": "ta/taiwan.md"
-    },
-    "tan14-ce-nian": {
-      "type": "concept",
-      "label": "碳14测年",
-      "aliases": [
-        "放射性碳定年",
-        "C14测年"
-      ],
-      "path": "ta/tan14-ce-nian.md"
-    },
-    "tang-jia": {
-      "type": "place",
-      "label": "汤加",
-      "aliases": [
-        "Tonga",
-        "汤加群岛"
-      ],
-      "path": "ta/tang-jia.md"
-    },
-    "tao": {
-      "type": "species",
-      "label": "桃",
-      "aliases": [
-        "peach",
-        "Prunus persica",
-        "桃子"
-      ],
-      "path": "ta/tao.md"
-    },
     "塔斯马尼亚": {
       "type": "place",
       "label": "塔斯马尼亚",
@@ -4587,15 +2773,6 @@
       ],
       "path": "ta/陶器.md"
     },
-    "te-le-a-bu-hu-rui-la": {
-      "type": "place",
-      "label": "特勒阿布胡瑞拉",
-      "aliases": [
-        "Tell Abu Hureyra",
-        "阿布胡瑞拉遗址"
-      ],
-      "path": "te/te-le-a-bu-hu-rui-la.md"
-    },
     "特诺奇蒂特兰": {
       "type": "place",
       "label": "特诺奇蒂特兰",
@@ -4604,15 +2781,6 @@
         "Tenochtitlán"
       ],
       "path": "te/特诺奇蒂特兰.md"
-    },
-    "tie-lu": {
-      "type": "concept",
-      "label": "铁路",
-      "aliases": [
-        "railway",
-        "铁道"
-      ],
-      "path": "ti/tie-lu.md"
     },
     "天花": {
       "type": "concept",
@@ -4659,33 +2827,6 @@
         "文化统一"
       ],
       "path": "to/统一.md"
-    },
-    "tuo-lei-si-hai-xia": {
-      "type": "place",
-      "label": "托雷斯海峡",
-      "aliases": [
-        "Torres Strait"
-      ],
-      "path": "tu/tuo-lei-si-hai-xia.md"
-    },
-    "tuo-lu": {
-      "type": "species",
-      "label": "驼鹿",
-      "aliases": [
-        "moose",
-        "麋",
-        "elk",
-        "Alces alces"
-      ],
-      "path": "tu/tuo-lu.md"
-    },
-    "tuo-niao": {
-      "type": "species",
-      "label": "鸵鸟",
-      "aliases": [
-        "ostrich"
-      ],
-      "path": "tu/tuo-niao.md"
     },
     "兔": {
       "type": "species",
@@ -4746,25 +2887,6 @@
       ],
       "path": "tu/豚鼠.md"
     },
-    "wa-si-ka-er": {
-      "type": "person",
-      "label": "瓦斯卡尔",
-      "aliases": [
-        "Wáskhar",
-        "Huáscar",
-        "瓦斯卡"
-      ],
-      "path": "wa/wa-si-ka-er.md"
-    },
-    "wa-yi-na-ka-pa-ke": {
-      "type": "person",
-      "label": "瓦伊纳·卡帕克",
-      "aliases": [
-        "Huayna Capac",
-        "瓦伊纳·卡帕克皇帝"
-      ],
-      "path": "wa/wa-yi-na-ka-pa-ke.md"
-    },
     "王国": {
       "type": "concept",
       "label": "王国",
@@ -4793,33 +2915,6 @@
         "Pisum sativum"
       ],
       "path": "wa/豌豆.md"
-    },
-    "wen-hua-te-zhi": {
-      "type": "concept",
-      "label": "文化特质",
-      "aliases": [
-        "cultural trait",
-        "文化特征"
-      ],
-      "path": "we/wen-hua-te-zhi.md"
-    },
-    "wen-lan": {
-      "type": "place",
-      "label": "文兰",
-      "aliases": [
-        "Vinland",
-        "文兰地区"
-      ],
-      "path": "we/wen-lan.md"
-    },
-    "wen-po": {
-      "type": "species",
-      "label": "榅桲",
-      "aliases": [
-        "quince",
-        "Cydonia oblonga"
-      ],
-      "path": "we/wen-po.md"
     },
     "文化": {
       "type": "concept",
@@ -4875,44 +2970,6 @@
       ],
       "path": "we/纬度.md"
     },
-    "wu-er-fei-la-si": {
-      "type": "person",
-      "label": "乌尔斐拉斯",
-      "aliases": [
-        "Ulfilas",
-        "乌尔斐拉斯主教"
-      ],
-      "path": "wu/wu-er-fei-la-si.md"
-    },
-    "wu-fan-shu": {
-      "type": "species",
-      "label": "乌饭树",
-      "aliases": [
-        "blueberry",
-        "Vaccinium",
-        "蓝莓"
-      ],
-      "path": "wu/wu-fan-shu.md"
-    },
-    "wu-lu-ke": {
-      "type": "place",
-      "label": "乌鲁克",
-      "aliases": [
-        "Uruk",
-        "以力"
-      ],
-      "path": "wu/wu-lu-ke.md"
-    },
-    "wu-zhong-bao-hu": {
-      "type": "concept",
-      "label": "物种保护",
-      "aliases": [
-        "species conservation",
-        "物种保存",
-        "生物多样性保护"
-      ],
-      "path": "wu/wu-zhong-bao-hu.md"
-    },
     "无花果": {
       "type": "species",
       "label": "无花果",
@@ -4941,258 +2998,6 @@
       "label": "物种索引",
       "aliases": [],
       "path": "wu/物种索引.md"
-    },
-    "xi-gu-ye-zi": {
-      "type": "species",
-      "label": "西谷椰子",
-      "aliases": [
-        "sago",
-        "西谷椰子树"
-      ],
-      "path": "xi/xi-gu-ye-zi.md"
-    },
-    "xi-gua": {
-      "type": "species",
-      "label": "西瓜",
-      "aliases": [
-        "watermelon",
-        "Citrullus lanatus"
-      ],
-      "path": "xi/xi-gua.md"
-    },
-    "xi-ke-suo-si": {
-      "type": "event",
-      "label": "希克索斯",
-      "aliases": [
-        "Hyksos",
-        "希克索斯民族",
-        "牧人王朝"
-      ],
-      "path": "xi/xi-ke-suo-si.md"
-    },
-    "xi-niu": {
-      "type": "species",
-      "label": "犀牛",
-      "aliases": [
-        "rhinoceros",
-        "犀"
-      ],
-      "path": "xi/xi-niu.md"
-    },
-    "xi-qi-yin": {
-      "type": "concept",
-      "label": "吸气音",
-      "aliases": [
-        "click consonant",
-        "搭嘴音",
-        "啧音"
-      ],
-      "path": "xi/xi-qi-yin.md"
-    },
-    "xi-tuan": {
-      "type": "species",
-      "label": "西貒",
-      "aliases": [
-        "peccary"
-      ],
-      "path": "xi/xi-tuan.md"
-    },
-    "xi-zang-gao-yuan": {
-      "type": "place",
-      "label": "西藏高原",
-      "aliases": [
-        "Tibetan Plateau",
-        "青藏高原"
-      ],
-      "path": "xi/xi-zang-gao-yuan.md"
-    },
-    "xia-chao": {
-      "type": "event",
-      "label": "夏朝",
-      "aliases": [
-        "夏代",
-        "夏王朝",
-        "Xia dynasty"
-      ],
-      "path": "xi/xia-chao.md"
-    },
-    "xian-wai-fu-cai": {
-      "type": "concept",
-      "label": "舷外浮材",
-      "aliases": [
-        "舷外支架",
-        "舷外浮木",
-        "outrigger"
-      ],
-      "path": "xi/xian-wai-fu-cai.md"
-    },
-    "xian-wei-zuo-wu": {
-      "type": "concept",
-      "label": "纤维作物",
-      "aliases": [
-        "fiber crops",
-        "纺织植物"
-      ],
-      "path": "xi/xian-wei-zuo-wu.md"
-    },
-    "xiang-cun": {
-      "type": "concept",
-      "label": "乡村",
-      "aliases": [
-        "village"
-      ],
-      "path": "xi/xiang-cun.md"
-    },
-    "xiang-shi": {
-      "type": "concept",
-      "label": "橡实",
-      "aliases": [
-        "acorn",
-        "橡子",
-        "橡果"
-      ],
-      "path": "xi/xiang-shi.md"
-    },
-    "xiang-shu": {
-      "type": "species",
-      "label": "橡树",
-      "aliases": [
-        "oak",
-        "Quercus"
-      ],
-      "path": "xi/xiang-shu.md"
-    },
-    "xiang-xing-wen-zi": {
-      "type": "concept",
-      "label": "象形文字",
-      "aliases": [
-        "hieroglyph",
-        "埃及象形文字"
-      ],
-      "path": "xi/xiang-xing-wen-zi.md"
-    },
-    "xiao-bing-chuan-qi": {
-      "type": "event",
-      "label": "小冰川期",
-      "aliases": [
-        "小冰期",
-        "Little Ice Age"
-      ],
-      "path": "xi/xiao-bing-chuan-qi.md"
-    },
-    "xiaweiyi": {
-      "type": "place",
-      "label": "夏威夷",
-      "aliases": [
-        "Hawaii"
-      ],
-      "path": "xi/xiaweiyi.md"
-    },
-    "xibanya-zhengfu-aziteke": {
-      "type": "event",
-      "label": "西班牙征服阿兹特克帝国",
-      "aliases": [
-        "Spanish conquest of Aztec Empire"
-      ],
-      "path": "xi/xibanya-zhengfu-aziteke.md"
-    },
-    "xibanya-zhengfu-yinjia": {
-      "type": "event",
-      "label": "西班牙征服印加帝国",
-      "aliases": [
-        "Spanish conquest of Inca Empire"
-      ],
-      "path": "xi/xibanya-zhengfu-yinjia.md"
-    },
-    "xiboliya": {
-      "type": "place",
-      "label": "西伯利亚",
-      "aliases": [
-        "Siberia"
-      ],
-      "path": "xi/xiboliya.md"
-    },
-    "xie-xing-wen-zi": {
-      "type": "concept",
-      "label": "楔形文字",
-      "aliases": [
-        "cuneiform",
-        "苏美尔楔形文字",
-        "两河流域文字"
-      ],
-      "path": "xi/xie-xing-wen-zi.md"
-    },
-    "ximalaya": {
-      "type": "place",
-      "label": "喜马拉雅",
-      "aliases": [
-        "Himalayas"
-      ],
-      "path": "xi/ximalaya.md"
-    },
-    "xin-da-lu": {
-      "type": "place",
-      "label": "新大陆",
-      "aliases": [
-        "New World",
-        "美洲大陆",
-        "西半球"
-      ],
-      "path": "xi/xin-da-lu.md"
-    },
-    "xin-xi-lan": {
-      "type": "place",
-      "label": "新西兰",
-      "aliases": [
-        "New Zealand",
-        "新西兰"
-      ],
-      "path": "xi/xin-xi-lan.md"
-    },
-    "xing-ren": {
-      "type": "species",
-      "label": "杏仁",
-      "aliases": [
-        "almond",
-        "巴旦杏",
-        "Prunus dulcis"
-      ],
-      "path": "xi/xing-ren.md"
-    },
-    "xing": {
-      "type": "species",
-      "label": "杏",
-      "aliases": [
-        "apricot",
-        "Prunus armeniaca",
-        "apricot"
-      ],
-      "path": "xi/xing.md"
-    },
-    "xinyuewodi": {
-      "type": "place",
-      "label": "新月沃地（地理）",
-      "aliases": [
-        "肥沃月弯"
-      ],
-      "path": "xi/xinyuewodi.md"
-    },
-    "xiong-nu": {
-      "type": "person",
-      "label": "匈奴",
-      "aliases": [
-        "Xiongnu",
-        "匈奴人"
-      ],
-      "path": "xi/xiong-nu.md"
-    },
-    "xizang": {
-      "type": "place",
-      "label": "西藏",
-      "aliases": [
-        "Tibet"
-      ],
-      "path": "xi/xizang.md"
     },
     "向日葵": {
       "type": "species",
@@ -5310,16 +3115,6 @@
       ],
       "path": "xi/香蕉.md"
     },
-    "xun-hua-zhong-xin": {
-      "type": "concept",
-      "label": "驯化中心",
-      "aliases": [
-        "驯化起源地",
-        "独立驯化中心",
-        "农业起源中心"
-      ],
-      "path": "xu/xun-hua-zhong-xin.md"
-    },
     "驯化": {
       "type": "concept",
       "label": "驯化",
@@ -5336,43 +3131,6 @@
         "caribou"
       ],
       "path": "xu/驯鹿.md"
-    },
-    "ya-ma-sun": {
-      "type": "place",
-      "label": "亚马孙",
-      "aliases": [
-        "Amazon",
-        "亚马孙雨林",
-        "亚马孙河流域"
-      ],
-      "path": "ya/ya-ma-sun.md"
-    },
-    "ya-nuo-ma-ma-ren": {
-      "type": "person",
-      "label": "雅诺马马人",
-      "aliases": [
-        "Yanomami",
-        "亚诺马米人"
-      ],
-      "path": "ya/ya-nuo-ma-ma-ren.md"
-    },
-    "ya-xi-ren": {
-      "type": "person",
-      "label": "亚希人",
-      "aliases": [
-        "Yahi",
-        "亚希部落"
-      ],
-      "path": "ya/ya-xi-ren.md"
-    },
-    "yan-mai": {
-      "type": "species",
-      "label": "燕麦",
-      "aliases": [
-        "oat",
-        "Avena sativa"
-      ],
-      "path": "ya/yan-mai.md"
     },
     "亚历山大大帝": {
       "type": "person",
@@ -5448,26 +3206,6 @@
       ],
       "path": "ya/鸭.md"
     },
-    "ye-ma": {
-      "type": "species",
-      "label": "野马",
-      "aliases": [
-        "Przewalski's horse",
-        "Equus ferus przewalskii",
-        "普尔热瓦尔斯基马"
-      ],
-      "path": "ye/ye-ma.md"
-    },
-    "ye-mian-da-xiao-pai-hang": {
-      "type": "list",
-      "label": "页面大小排行",
-      "aliases": [
-        "内容量排行",
-        "页面内容排行",
-        "page size ranking"
-      ],
-      "path": "ye/ye-mian-da-xiao-pai-hang.md"
-    },
     "冶炼": {
       "type": "concept",
       "label": "冶炼",
@@ -5537,86 +3275,6 @@
         "Vitis"
       ],
       "path": "ye/野葡萄.md"
-    },
-    "yi-nu-te-ren": {
-      "type": "person",
-      "label": "伊努特人",
-      "aliases": [
-        "Inuit",
-        "爱斯基摩人",
-        "Eskimo"
-      ],
-      "path": "yi/yi-nu-te-ren.md"
-    },
-    "yi-si-pa-ni-ao-la-dao": {
-      "type": "place",
-      "label": "伊斯帕尼奥拉岛",
-      "aliases": [
-        "Hispaniola",
-        "海地岛",
-        "西班牙岛"
-      ],
-      "path": "yi/yi-si-pa-ni-ao-la-dao.md"
-    },
-    "yichuanxue": {
-      "type": "concept",
-      "label": "遗传学",
-      "aliases": [
-        "基因学"
-      ],
-      "path": "yi/yichuanxue.md"
-    },
-    "yin-yong-pai-hang": {
-      "type": "list",
-      "label": "引用排行",
-      "aliases": [
-        "引用索引",
-        "词条引用排行",
-        "ref ranking"
-      ],
-      "path": "yi/yin-yong-pai-hang.md"
-    },
-    "yindu": {
-      "type": "place",
-      "label": "印度",
-      "aliases": [
-        "印度次大陆"
-      ],
-      "path": "yi/yindu.md"
-    },
-    "yinduhe": {
-      "type": "place",
-      "label": "印度河",
-      "aliases": [
-        "印度河流域"
-      ],
-      "path": "yi/yinduhe.md"
-    },
-    "yindunixiya": {
-      "type": "place",
-      "label": "印度尼西亚",
-      "aliases": [
-        "马来群岛"
-      ],
-      "path": "yi/yindunixiya.md"
-    },
-    "ying-ge-lan": {
-      "type": "place",
-      "label": "英格兰",
-      "aliases": [
-        "England",
-        "英国的核心地区"
-      ],
-      "path": "yi/ying-ge-lan.md"
-    },
-    "ying-su": {
-      "type": "species",
-      "label": "罂粟",
-      "aliases": [
-        "opium poppy",
-        "Papaver somniferum"
-      ],
-      "path": "yi/ying-su.md"
     },
     "一年生植物": {
       "type": "concept",
@@ -5712,23 +3370,15 @@
       ],
       "path": "yi/鹰嘴豆.md"
     },
-    "you-dai-dong-wu": {
-      "type": "concept",
-      "label": "有袋动物",
+    "永布里人": {
+      "type": "person",
+      "label": "永布里人",
       "aliases": [
-        "marsupials",
-        "有袋类"
+        "Yumbri",
+        "Mlabri",
+        "姆拉布里人"
       ],
-      "path": "yo/you-dai-dong-wu.md"
-    },
-    "you-ta-a-zi-te-ke-zhu-yu-yan": {
-      "type": "concept",
-      "label": "尤他-阿兹特克诸语言",
-      "aliases": [
-        "Uto-Aztecan languages",
-        "犹他-阿兹特克语系"
-      ],
-      "path": "yo/you-ta-a-zi-te-ke-zhu-yu-yan.md"
+      "path": "yo/永布里人.md"
     },
     "游牧": {
       "type": "concept",
@@ -5739,41 +3389,6 @@
         "游牧民族"
       ],
       "path": "yo/游牧.md"
-    },
-    "yu-yan-wen-zi-suo-yin": {
-      "type": "list",
-      "label": "语言与文字索引",
-      "aliases": [
-        "Language and Writing Index"
-      ],
-      "path": "yu/yu-yan-wen-zi-suo-yin.md"
-    },
-    "yuan-shi-nan-dao-yu": {
-      "type": "concept",
-      "label": "原始南岛语",
-      "aliases": [
-        "Proto-Austronesian",
-        "PAN"
-      ],
-      "path": "yu/yuan-shi-nan-dao-yu.md"
-    },
-    "yue-dan-he-gu": {
-      "type": "place",
-      "label": "约旦河谷",
-      "aliases": [
-        "Jordan Valley",
-        "约旦河"
-      ],
-      "path": "yu/yue-dan-he-gu.md"
-    },
-    "yun-he": {
-      "type": "concept",
-      "label": "运河",
-      "aliases": [
-        "canal",
-        "人工河道"
-      ],
-      "path": "yu/yun-he.md"
     },
     "渔业": {
       "type": "concept",
@@ -5870,15 +3485,6 @@
       ],
       "path": "yu/雨林.md"
     },
-    "zao-zhi": {
-      "type": "concept",
-      "label": "造纸",
-      "aliases": [
-        "造纸术",
-        "papermaking"
-      ],
-      "path": "za/zao-zhi.md"
-    },
     "再分配": {
       "type": "concept",
       "label": "再分配",
@@ -5888,135 +3494,6 @@
         "财富再分配"
       ],
       "path": "za/再分配.md"
-    },
-    "zhan-ma": {
-      "type": "concept",
-      "label": "战马",
-      "aliases": [
-        "warhorse",
-        "军马"
-      ],
-      "path": "zh/zhan-ma.md"
-    },
-    "zhao-wa-ren": {
-      "type": "concept",
-      "label": "爪哇人",
-      "aliases": [
-        "Java Man",
-        "爪哇直立人"
-      ],
-      "path": "zh/zhao-wa-ren.md"
-    },
-    "zheng-he": {
-      "type": "person",
-      "label": "郑和",
-      "aliases": [
-        "Zheng He",
-        "马和",
-        "三宝太监"
-      ],
-      "path": "zh/zheng-he.md"
-    },
-    "zheng-qi-ji": {
-      "type": "concept",
-      "label": "蒸汽机",
-      "aliases": [
-        "steam engine",
-        "蒸汽发动机"
-      ],
-      "path": "zh/zheng-qi-ji.md"
-    },
-    "zheng-zhi-fen-lie": {
-      "type": "concept",
-      "label": "政治分裂",
-      "aliases": [
-        "political fragmentation",
-        "政治割据"
-      ],
-      "path": "zh/zheng-zhi-fen-lie.md"
-    },
-    "zhi-li-ren": {
-      "type": "concept",
-      "label": "直立人",
-      "aliases": [
-        "Homo erectus",
-        "直立猿人"
-      ],
-      "path": "zh/zhi-li-ren.md"
-    },
-    "zhi-ma": {
-      "type": "species",
-      "label": "芝麻",
-      "aliases": [
-        "sesame",
-        "Sesamum indicum"
-      ],
-      "path": "zh/zhi-ma.md"
-    },
-    "zhi-shi-ji-lei": {
-      "type": "concept",
-      "label": "知识积累",
-      "aliases": [
-        "knowledge accumulation",
-        "知识传承",
-        "文化积累"
-      ],
-      "path": "zh/zhi-shi-ji-lei.md"
-    },
-    "zhili": {
-      "type": "place",
-      "label": "智利",
-      "aliases": [
-        "Chile"
-      ],
-      "path": "zh/zhili.md"
-    },
-    "zhou-chao": {
-      "type": "event",
-      "label": "周朝",
-      "aliases": [
-        "Zhou dynasty",
-        "周代"
-      ],
-      "path": "zh/zhou-chao.md"
-    },
-    "zhu-tie": {
-      "type": "concept",
-      "label": "铸铁",
-      "aliases": [
-        "cast iron",
-        "生铁"
-      ],
-      "path": "zh/zhu-tie.md"
-    },
-    "zhuan-li": {
-      "type": "concept",
-      "label": "专利",
-      "aliases": [
-        "patent",
-        "专利权"
-      ],
-      "path": "zh/zhuan-li.md"
-    },
-    "zhuan-zhi-jie-ceng": {
-      "type": "concept",
-      "label": "专职阶层",
-      "aliases": [
-        "specialists",
-        "专职人员",
-        "非农业人口"
-      ],
-      "path": "zh/zhuan-zhi-jie-ceng.md"
-    },
-    "zhui-chong-bing": {
-      "type": "concept",
-      "label": "锥虫病",
-      "aliases": [
-        "trypanosomiasis",
-        "非洲锥虫病",
-        "昏睡病"
-      ],
-      "path": "zh/zhui-chong-bing.md"
     },
     "专业化分工": {
       "type": "concept",
@@ -6234,15 +3711,6 @@
       ],
       "path": "zh/长江.md"
     },
-    "zi-ran-shi-yan": {
-      "type": "concept",
-      "label": "自然实验",
-      "aliases": [
-        "natural experiment",
-        "自然比较法"
-      ],
-      "path": "zi/zi-ran-shi-yan.md"
-    },
     "字母": {
       "type": "concept",
       "label": "字母",
@@ -6284,16 +3752,6 @@
       ],
       "path": "zi/资源.md"
     },
-    "zou-chu-fei-zhou": {
-      "type": "event",
-      "label": "zou-chu-fei-zhou",
-      "aliases": [
-        "Out of Africa",
-        "人类走出非洲",
-        "非洲起源论"
-      ],
-      "path": "zo/zou-chu-fei-zhou.md"
-    },
     "宗教": {
       "type": "concept",
       "label": "宗教",
@@ -6304,15 +3762,6 @@
         "神权"
       ],
       "path": "zo/宗教.md"
-    },
-    "zu-lu-ren": {
-      "type": "person",
-      "label": "祖鲁人",
-      "aliases": [
-        "Zulu",
-        "祖鲁族"
-      ],
-      "path": "zu/zu-lu-ren.md"
     },
     "作坊": {
       "type": "concept",
@@ -6350,6 +3799,3142 @@
         "驯化作物"
       ],
       "path": "zu/作物驯化.md"
+    },
+    "阿尔卑斯山": {
+      "type": "place",
+      "label": "阿尔卑斯山",
+      "aliases": [
+        "Alps",
+        "阿尔卑斯山脉"
+      ],
+      "path": "ae/a-er-bei-si-shan.md",
+      "id": "阿尔卑斯山"
+    },
+    "阿非罗-亚细亚语系": {
+      "type": "concept",
+      "label": "阿非罗-亚细亚语系",
+      "aliases": [
+        "Afroasiatic",
+        "亚非语系",
+        "含闪语系"
+      ],
+      "path": "af/a-fei-luo-ya-xi-ya-yu-xi.md",
+      "id": "阿非罗-亚细亚语系"
+    },
+    "阿拉斯加": {
+      "type": "place",
+      "label": "阿拉斯加",
+      "aliases": [
+        "Alaska",
+        "阿拉斯加州"
+      ],
+      "path": "al/a-la-si-jia.md",
+      "id": "阿拉斯加"
+    },
+    "阿帕切族": {
+      "type": "person",
+      "label": "阿帕切族",
+      "aliases": [
+        "Apache",
+        "阿帕奇"
+      ],
+      "path": "ap/a-pa-qie-zu.md",
+      "id": "阿帕切族"
+    },
+    "阿伊努人": {
+      "type": "person",
+      "label": "阿伊努人",
+      "aliases": [
+        "Ainu",
+        "阿伊努族",
+        "爱努人"
+      ],
+      "path": "ay/a-yi-nu-ren.md",
+      "id": "阿伊努人"
+    },
+    "矮小黑人": {
+      "type": "person",
+      "label": "矮小黑人",
+      "aliases": [
+        "Negrito",
+        "尼格利陀人",
+        "塞芒人",
+        "Semang"
+      ],
+      "path": "ai/ai-xiao-hei-ren.md",
+      "id": "矮小黑人"
+    },
+    "埃尔南多·德索托": {
+      "type": "person",
+      "label": "埃尔南多·德索托",
+      "aliases": [
+        "Hernando de Soto",
+        "德索托"
+      ],
+      "path": "ai/aier-nan-duo-suotuo.md",
+      "id": "埃尔南多·德索托"
+    },
+    "埃塞俄比亚": {
+      "type": "place",
+      "label": "埃塞俄比亚",
+      "aliases": [],
+      "path": "ai/aisaobiya.md",
+      "id": "埃塞俄比亚"
+    },
+    "阿拉伯半岛": {
+      "type": "place",
+      "label": "阿拉伯半岛",
+      "aliases": [
+        "Arabian Peninsula"
+      ],
+      "path": "al/alabobandao.md",
+      "id": "阿拉伯半岛"
+    },
+    "安达曼群岛": {
+      "type": "place",
+      "label": "安达曼群岛",
+      "aliases": [
+        "Andaman Islands"
+      ],
+      "path": "an/an-da-man-qun-dao.md",
+      "id": "安达曼群岛"
+    },
+    "安达曼人": {
+      "type": "person",
+      "label": "安达曼人",
+      "aliases": [
+        "Andamanese",
+        "安达曼群岛岛民"
+      ],
+      "path": "an/an-da-man-ren.md",
+      "id": "安达曼人"
+    },
+    "安东尼瘟疫": {
+      "type": "event",
+      "label": "安东尼瘟疫",
+      "aliases": [
+        "Antonine Plague",
+        "安东尼大瘟疫"
+      ],
+      "path": "an/an-dong-ni-wen-yi.md",
+      "id": "安东尼瘟疫"
+    },
+    "安纳托利亚": {
+      "type": "place",
+      "label": "安纳托利亚",
+      "aliases": [
+        "Anatolia",
+        "小亚细亚"
+      ],
+      "path": "an/annatuoliya.md",
+      "id": "安纳托利亚"
+    },
+    "奥尔梅克": {
+      "type": "person",
+      "label": "奥尔梅克",
+      "aliases": [
+        "Olmec",
+        "奥尔梅克人"
+      ],
+      "path": "ao/ao-er-mei-ke.md",
+      "id": "奥尔梅克"
+    },
+    "奥斯曼帝国": {
+      "type": "event",
+      "label": "奥斯曼帝国",
+      "aliases": [
+        "Ottoman Empire",
+        "土耳其帝国"
+      ],
+      "path": "ao/ao-si-man-di-guo.md",
+      "id": "奥斯曼帝国"
+    },
+    "澳洲野犬": {
+      "type": "species",
+      "label": "澳洲野犬",
+      "aliases": [
+        "dingo",
+        "丁格犬"
+      ],
+      "path": "ao/ao-zhou-ye-quan.md",
+      "id": "澳洲野犬"
+    },
+    "阿兹特克": {
+      "type": "concept",
+      "label": "阿兹特克",
+      "aliases": [
+        "Aztec",
+        "阿兹特克帝国",
+        "墨西加"
+      ],
+      "path": "az/aziteke.md",
+      "id": "阿兹特克"
+    },
+    "巴布亚诸语言": {
+      "type": "concept",
+      "label": "巴布亚诸语言",
+      "aliases": [
+        "巴布亚语系",
+        "Papuan languages"
+      ],
+      "path": "ba/ba-bu-ya-zhu-yu-yan.md",
+      "id": "巴布亚诸语言"
+    },
+    "巴塔哥尼亚": {
+      "type": "place",
+      "label": "巴塔哥尼亚",
+      "aliases": [
+        "Patagonia",
+        "巴塔哥尼亚高原"
+      ],
+      "path": "ba/ba-ta-ge-ni-ya.md",
+      "id": "巴塔哥尼亚"
+    },
+    "巴尔干": {
+      "type": "place",
+      "label": "巴尔干",
+      "aliases": [
+        "Balkans",
+        "巴尔干半岛"
+      ],
+      "path": "ba/baergan.md",
+      "id": "巴尔干"
+    },
+    "白令陆桥": {
+      "type": "place",
+      "label": "白令陆桥",
+      "aliases": [
+        "Bering Land Bridge",
+        "白令吉亚"
+      ],
+      "path": "ba/bai-ling-lu-qiao.md",
+      "id": "白令陆桥"
+    },
+    "百日咳": {
+      "type": "disease",
+      "label": "百日咳",
+      "aliases": [
+        "whooping cough",
+        "pertussis"
+      ],
+      "path": "ba/bai-ri-ke.md",
+      "id": "百日咳"
+    },
+    "柏拉图": {
+      "type": "person",
+      "label": "柏拉图",
+      "aliases": [
+        "Plato"
+      ],
+      "path": "ba/bailatu.md",
+      "id": "柏拉图"
+    },
+    "班图人扩张": {
+      "type": "event",
+      "label": "班图人扩张",
+      "aliases": [
+        "Bantu expansion"
+      ],
+      "path": "ba/ban-tu-ren-kuo-zhang.md",
+      "id": "班图人扩张"
+    },
+    "斑疹伤寒": {
+      "type": "concept",
+      "label": "斑疹伤寒",
+      "aliases": [
+        "typhus"
+      ],
+      "path": "ba/ban-zhen-shang-han.md",
+      "id": "斑疹伤寒"
+    },
+    "宝船队": {
+      "type": "event",
+      "label": "宝船队",
+      "aliases": [
+        "treasure fleet",
+        "郑和船队",
+        "大明宝船"
+      ],
+      "path": "ba/bao-chuan-dui.md",
+      "id": "宝船队"
+    },
+    "俾格米人": {
+      "type": "person",
+      "label": "俾格米人",
+      "aliases": [
+        "Pygmies",
+        "非洲俾格米人"
+      ],
+      "path": "be/bei-ge-mi-ren.md",
+      "id": "俾格米人"
+    },
+    "北美大平原": {
+      "type": "place",
+      "label": "北美大平原",
+      "aliases": [
+        "北美大草原",
+        "Great Plains"
+      ],
+      "path": "be/bei-mei-da-ping-yuan.md",
+      "id": "北美大平原"
+    },
+    "北美洲": {
+      "type": "place",
+      "label": "北美洲",
+      "aliases": [],
+      "path": "be/beimeizhou.md",
+      "id": "北美洲"
+    },
+    "俾斯麦群岛": {
+      "type": "place",
+      "label": "俾斯麦群岛",
+      "aliases": [
+        "Bismarck Archipelago"
+      ],
+      "path": "bi/bi-si-mai-qun-dao.md",
+      "id": "俾斯麦群岛"
+    },
+    "冰川": {
+      "type": "place",
+      "label": "冰川",
+      "aliases": [
+        "glacier",
+        "冰河",
+        "冰川作用"
+      ],
+      "path": "bi/bing-chuan.md",
+      "id": "冰川"
+    },
+    "博贡蛾": {
+      "type": "species",
+      "label": "博贡蛾",
+      "aliases": [
+        "Bogong moth",
+        "Agrotis infusa"
+      ],
+      "path": "bo/bo-gong-e.md",
+      "id": "博贡蛾"
+    },
+    "波利尼西亚人": {
+      "type": "person",
+      "label": "波利尼西亚人",
+      "aliases": [
+        "Polynesians"
+      ],
+      "path": "bo/bo-li-ni-xi-ya-ren.md",
+      "id": "波利尼西亚人"
+    },
+    "采采蝇": {
+      "type": "species",
+      "label": "采采蝇",
+      "aliases": [
+        "tsetse fly",
+        "舌蝇",
+        "萃萃蝇"
+      ],
+      "path": "ca/cai-cai-ying.md",
+      "id": "采采蝇"
+    },
+    "菜豆": {
+      "type": "species",
+      "label": "菜豆",
+      "aliases": [
+        "common bean",
+        "Phaseolus vulgaris"
+      ],
+      "path": "ca/cai-dou.md",
+      "id": "菜豆"
+    },
+    "采集狩猎": {
+      "type": "concept",
+      "label": "采集狩猎",
+      "aliases": [
+        "渔猎采集"
+      ],
+      "path": "ca/caiji-shoulie.md",
+      "id": "采集狩猎"
+    },
+    "查尔库奇马": {
+      "type": "person",
+      "label": "查尔库奇马",
+      "aliases": [
+        "Chalcuchima",
+        "查尔库奇马"
+      ],
+      "path": "ch/cha-er-ku-qi-ma.md",
+      "id": "查尔库奇马"
+    },
+    "查士丁尼瘟疫": {
+      "type": "event",
+      "label": "查士丁尼瘟疫",
+      "aliases": [
+        "Plague of Justinian"
+      ],
+      "path": "ch/cha-shi-ding-ni-wen-yi.md",
+      "id": "查士丁尼瘟疫"
+    },
+    "查塔姆群岛": {
+      "type": "place",
+      "label": "查塔姆群岛",
+      "aliases": [
+        "Chatham Islands",
+        "查塔姆"
+      ],
+      "path": "ch/cha-ta-mu-qun-dao.md",
+      "id": "查塔姆群岛"
+    },
+    "常备军": {
+      "type": "concept",
+      "label": "常备军",
+      "aliases": [
+        "standing army",
+        "职业军队"
+      ],
+      "path": "ch/chang-bei-jun.md",
+      "id": "常备军"
+    },
+    "长颈鹿": {
+      "type": "species",
+      "label": "长颈鹿",
+      "aliases": [
+        "giraffe"
+      ],
+      "path": "ch/chang-jing-lu.md",
+      "id": "长颈鹿"
+    },
+    "抄写员": {
+      "type": "person",
+      "label": "抄写员",
+      "aliases": [
+        "scribe",
+        "专职抄写员",
+        "书吏"
+      ],
+      "path": "ch/chao-xie-yuan.md",
+      "id": "抄写员"
+    },
+    "朝鲜": {
+      "type": "place",
+      "label": "朝鲜",
+      "aliases": [
+        "Korea",
+        "朝鲜半岛"
+      ],
+      "path": "ch/chaoxian.md",
+      "id": "朝鲜"
+    },
+    "车轮": {
+      "type": "concept",
+      "label": "车轮",
+      "aliases": [],
+      "path": "ch/che-lun.md",
+      "id": "车轮"
+    },
+    "词条建设状态": {
+      "type": "list",
+      "label": "词条建设状态",
+      "aliases": [
+        "build status",
+        "建设状态",
+        "条目状态"
+      ],
+      "path": "ci/ci-tiao-jian-she-zhuang-tai.md",
+      "id": "词条建设状态"
+    },
+    "大澳大利亚": {
+      "type": "concept",
+      "label": "大澳大利亚",
+      "aliases": [
+        "Sahul",
+        "萨胡尔大陆架",
+        "大澳洲"
+      ],
+      "path": "da/da-ao-da-li-ya.md",
+      "id": "大澳大利亚"
+    },
+    "大坌坑文化": {
+      "type": "concept",
+      "label": "大坌坑文化",
+      "aliases": [
+        "Tapenkeng",
+        "大坌坑"
+      ],
+      "path": "da/da-ben-keng-wen-hua.md",
+      "id": "大坌坑文化"
+    },
+    "大狐猴": {
+      "type": "species",
+      "label": "大狐猴",
+      "aliases": [
+        "Indri",
+        "indri",
+        "马达加斯加大狐猴"
+      ],
+      "path": "da/da-hu-hou.md",
+      "id": "大狐猴"
+    },
+    "大角斑羚": {
+      "type": "species",
+      "label": "大角斑羚",
+      "aliases": [
+        "eland",
+        "非洲大羚羊",
+        "大羚羊"
+      ],
+      "path": "da/da-jiao-ban-ling.md",
+      "id": "大角斑羚"
+    },
+    "大麻": {
+      "type": "species",
+      "label": "大麻",
+      "aliases": [
+        "Cannabis sativa"
+      ],
+      "path": "da/da-ma.md",
+      "id": "大麻"
+    },
+    "大人物": {
+      "type": "concept",
+      "label": "大人物",
+      "aliases": [
+        "Big Man",
+        "大人物制度",
+        "大人物体制"
+      ],
+      "path": "da/da-ren-wu.md",
+      "id": "大人物"
+    },
+    "大运河": {
+      "type": "place",
+      "label": "大运河",
+      "aliases": [
+        "Grand Canal",
+        "京杭大运河"
+      ],
+      "path": "da/da-yun-he.md",
+      "id": "大运河"
+    },
+    "瓦斯科·达·伽马": {
+      "type": "person",
+      "label": "瓦斯科·达·伽马",
+      "aliases": [
+        "Vasco da Gama",
+        "达·伽马"
+      ],
+      "path": "da/dagama.md",
+      "id": "瓦斯科·达·伽马"
+    },
+    "傣-加岱语系": {
+      "type": "concept",
+      "label": "傣-加岱语系",
+      "aliases": [
+        "Tai-Kadai",
+        "侗台语系",
+        "壮侗语系"
+      ],
+      "path": "da/dai-jia-dai-yu-xi.md",
+      "id": "傣-加岱语系"
+    },
+    "袋鼠": {
+      "type": "species",
+      "label": "袋鼠",
+      "aliases": [
+        "kangaroo",
+        "大袋鼠"
+      ],
+      "path": "da/dai-shu.md",
+      "id": "袋鼠"
+    },
+    "贾雷德·戴蒙德": {
+      "type": "person",
+      "label": "贾雷德·戴蒙德",
+      "aliases": [],
+      "path": "da/daimengde.md",
+      "id": "贾雷德·戴蒙德"
+    },
+    "单峰骆驼": {
+      "type": "species",
+      "label": "单峰骆驼",
+      "aliases": [
+        "dromedary",
+        "阿拉伯单峰骆驼",
+        "Camelus dromedarius"
+      ],
+      "path": "da/dan-feng-luo-tuo.md",
+      "id": "单峰骆驼"
+    },
+    "单粒小麦": {
+      "type": "species",
+      "label": "单粒小麦",
+      "aliases": [
+        "einkorn wheat",
+        "一粒小麦"
+      ],
+      "path": "da/dan-li-xiao-mai.md",
+      "id": "单粒小麦"
+    },
+    "盗贼统治": {
+      "type": "concept",
+      "label": "盗贼统治",
+      "aliases": [
+        "kleptocracy",
+        "盗贼统治制度",
+        "盗贼政治"
+      ],
+      "path": "da/dao-zei-tong-zhi.md",
+      "id": "盗贼统治"
+    },
+    "瞪羚": {
+      "type": "species",
+      "label": "瞪羚",
+      "aliases": [
+        "gazelle",
+        "瞪羚属"
+      ],
+      "path": "de/deng-ling.md",
+      "id": "瞪羚"
+    },
+    "地理屏障": {
+      "type": "concept",
+      "label": "地理屏障",
+      "aliases": [
+        "geographic barrier",
+        "地理障碍",
+        "隔离"
+      ],
+      "path": "di/di-li-ping-zhang.md",
+      "id": "地理屏障"
+    },
+    "帝汶": {
+      "type": "place",
+      "label": "帝汶",
+      "aliases": [
+        "Timor",
+        "帝汶岛"
+      ],
+      "path": "di/di-wen.md",
+      "id": "帝汶"
+    },
+    "丁吉斯韦约": {
+      "type": "person",
+      "label": "丁吉斯韦约",
+      "aliases": [
+        "Dingiswayo"
+      ],
+      "path": "di/ding-ji-si-wei-yue.md",
+      "id": "丁吉斯韦约"
+    },
+    "动物灭绝": {
+      "type": "concept",
+      "label": "动物灭绝",
+      "aliases": [
+        "大型动物灭绝"
+      ],
+      "path": "do/dongwumiejue.md",
+      "id": "动物灭绝"
+    },
+    "豆类": {
+      "type": "concept",
+      "label": "豆类",
+      "aliases": [
+        "legumes",
+        "pulses",
+        "豆科作物"
+      ],
+      "path": "do/dou-lei.md",
+      "id": "豆类"
+    },
+    "渡渡鸟": {
+      "type": "species",
+      "label": "渡渡鸟",
+      "aliases": [
+        "Raphus cucullatus",
+        "dodo",
+        "多多鸟"
+      ],
+      "path": "du/du-du-niao.md",
+      "id": "渡渡鸟"
+    },
+    "独轮车": {
+      "type": "concept",
+      "label": "独轮车",
+      "aliases": [
+        "wheelbarrow",
+        "手推车"
+      ],
+      "path": "du/du-lun-che.md",
+      "id": "独轮车"
+    },
+    "对等交换": {
+      "type": "concept",
+      "label": "对等交换",
+      "aliases": [
+        "reciprocal exchange",
+        "互惠交换"
+      ],
+      "path": "du/dui-deng-jiao-huan.md",
+      "id": "对等交换"
+    },
+    "二粒小麦": {
+      "type": "species",
+      "label": "二粒小麦",
+      "aliases": [
+        "emmer wheat",
+        "埃默尔小麦",
+        "二粒小麦"
+      ],
+      "path": "er/er-li-xiao-mai.md",
+      "id": "二粒小麦"
+    },
+    "法罗群岛": {
+      "type": "place",
+      "label": "法罗群岛",
+      "aliases": [
+        "Faroe Islands",
+        "法罗"
+      ],
+      "path": "fa/fa-luo-qun-dao.md",
+      "id": "法罗群岛"
+    },
+    "法尤人": {
+      "type": "person",
+      "label": "法尤人",
+      "aliases": [
+        "Fayu",
+        "法尤族"
+      ],
+      "path": "fa/fa-you-ren.md",
+      "id": "法尤人"
+    },
+    "放射性碳定年法": {
+      "type": "concept",
+      "label": "放射性碳定年法",
+      "aliases": [
+        "碳-14年代测定法",
+        "radiocarbon dating",
+        "碳-14测年"
+      ],
+      "path": "fa/fang-she-xing-tan-ding-nian-fa.md",
+      "id": "放射性碳定年法"
+    },
+    "斐济": {
+      "type": "place",
+      "label": "斐济",
+      "aliases": [
+        "Fiji",
+        "斐济群岛"
+      ],
+      "path": "fe/fei-ji.md",
+      "id": "斐济"
+    },
+    "菲什河": {
+      "type": "place",
+      "label": "菲什河",
+      "aliases": [
+        "Fish River",
+        "菲什河"
+      ],
+      "path": "fe/fei-shi-he.md",
+      "id": "菲什河"
+    },
+    "肺炎": {
+      "type": "concept",
+      "label": "肺炎",
+      "aliases": [
+        "pneumonia"
+      ],
+      "path": "fe/fei-yan.md",
+      "id": "肺炎"
+    },
+    "非洲稻": {
+      "type": "species",
+      "label": "非洲稻",
+      "aliases": [
+        "African rice",
+        "Oryza glaberrima"
+      ],
+      "path": "fe/fei-zhou-dao.md",
+      "id": "非洲稻"
+    },
+    "非洲薯蓣": {
+      "type": "species",
+      "label": "非洲薯蓣",
+      "aliases": [
+        "African yam",
+        "Dioscorea rotundata"
+      ],
+      "path": "fe/fei-zhou-shu-yu.md",
+      "id": "非洲薯蓣"
+    },
+    "非洲象": {
+      "type": "species",
+      "label": "非洲象",
+      "aliases": [
+        "African elephant",
+        "Loxodonta africana"
+      ],
+      "path": "fe/fei-zhou-xiang.md",
+      "id": "非洲象"
+    },
+    "菲律宾": {
+      "type": "place",
+      "label": "菲律宾",
+      "aliases": [],
+      "path": "fe/feilvbin.md",
+      "id": "菲律宾"
+    },
+    "封建制度": {
+      "type": "concept",
+      "label": "封建制度",
+      "aliases": [
+        "feudalism",
+        "封建"
+      ],
+      "path": "fe/feng-jian-zhi-du.md",
+      "id": "封建制度"
+    },
+    "弗朗西斯·高尔顿": {
+      "type": "person",
+      "label": "弗朗西斯·高尔顿",
+      "aliases": [
+        "Francis Galton",
+        "高尔顿",
+        "法兰西斯·高尔顿"
+      ],
+      "path": "fu/fu-lang-xi-si-gao-er-dun.md",
+      "id": "弗朗西斯·高尔顿"
+    },
+    "福雷人": {
+      "type": "person",
+      "label": "福雷人",
+      "aliases": [
+        "Fore",
+        "福雷族"
+      ],
+      "path": "fu/fu-lei-ren.md",
+      "id": "福雷人"
+    },
+    "复活节岛": {
+      "type": "place",
+      "label": "复活节岛",
+      "aliases": [
+        "Easter Island",
+        "拉帕努伊"
+      ],
+      "path": "fu/fuhuojiedao.md",
+      "id": "复活节岛"
+    },
+    "柑橘": {
+      "type": "species",
+      "label": "柑橘",
+      "aliases": [
+        "citrus",
+        "柑橘类",
+        "柑橘属"
+      ],
+      "path": "ga/gan-ju.md",
+      "id": "柑橘"
+    },
+    "甘蔗": {
+      "type": "species",
+      "label": "甘蔗",
+      "aliases": [
+        "sugarcane",
+        "Saccharum officinarum"
+      ],
+      "path": "ga/gan-zhe.md",
+      "id": "甘蔗"
+    },
+    "格陵兰": {
+      "type": "place",
+      "label": "格陵兰",
+      "aliases": [
+        "Greenland",
+        "格陵兰岛"
+      ],
+      "path": "ge/ge-ling-lan.md",
+      "id": "格陵兰"
+    },
+    "个人与历史结构": {
+      "type": "concept",
+      "label": "个人与历史结构",
+      "aliases": [
+        "individuals vs historical structures",
+        "个人作用与历史规律"
+      ],
+      "path": "ge/ge-ren-yu-li-shi-jie-gou.md",
+      "id": "个人与历史结构"
+    },
+    "更新世": {
+      "type": "concept",
+      "label": "更新世",
+      "aliases": [
+        "Pleistocene",
+        "冰河时代",
+        "更新世冰期"
+      ],
+      "path": "ge/geng-xin-shi.md",
+      "id": "更新世"
+    },
+    "古挪威人": {
+      "type": "person",
+      "label": "古挪威人",
+      "aliases": [
+        "Norse",
+        "古斯堪的纳维亚人",
+        "维京人"
+      ],
+      "path": "gu/gu-nuo-wei-ren.md",
+      "id": "古挪威人"
+    },
+    "汉尼拔": {
+      "type": "person",
+      "label": "汉尼拔",
+      "aliases": [
+        "Hannibal",
+        "汉尼拔·巴卡"
+      ],
+      "path": "ha/hanniba.md",
+      "id": "汉尼拔"
+    },
+    "赫雷罗人": {
+      "type": "person",
+      "label": "赫雷罗人",
+      "aliases": [
+        "Herero",
+        "赫雷罗族"
+      ],
+      "path": "he/he-lei-luo-ren.md",
+      "id": "赫雷罗人"
+    },
+    "河马": {
+      "type": "species",
+      "label": "河马",
+      "aliases": [
+        "hippopotamus",
+        "河马属"
+      ],
+      "path": "he/he-ma.md",
+      "id": "河马"
+    },
+    "和平文化": {
+      "type": "concept",
+      "label": "和平文化",
+      "aliases": [
+        "Hoabinhian",
+        "和平文化传统"
+      ],
+      "path": "he/he-ping-wen-hua.md",
+      "id": "和平文化"
+    },
+    "赫梯": {
+      "type": "concept",
+      "label": "赫梯",
+      "aliases": [
+        "Hittite",
+        "赫梯人",
+        "赫梯帝国"
+      ],
+      "path": "he/he-ti.md",
+      "id": "赫梯"
+    },
+    "鹤鸵": {
+      "type": "species",
+      "label": "鹤鸵",
+      "aliases": [
+        "cassowary"
+      ],
+      "path": "he/he-tuo.md",
+      "id": "鹤鸵"
+    },
+    "亨德森岛": {
+      "type": "place",
+      "label": "亨德森岛",
+      "aliases": [
+        "Henderson Island"
+      ],
+      "path": "he/heng-de-sen-dao.md",
+      "id": "亨德森岛"
+    },
+    "恒河平原": {
+      "type": "place",
+      "label": "恒河平原",
+      "aliases": [
+        "Ganges Plain",
+        "恒河平原"
+      ],
+      "path": "he/heng-he-ping-yuan.md",
+      "id": "恒河平原"
+    },
+    "葫芦": {
+      "type": "species",
+      "label": "葫芦",
+      "aliases": [
+        "bottle gourd",
+        "calabash",
+        "瓠瓜",
+        "Lagenaria"
+      ],
+      "path": "hu/hu-lu.md",
+      "id": "葫芦"
+    },
+    "湖泊平原": {
+      "type": "place",
+      "label": "湖泊平原",
+      "aliases": [
+        "Lake Plains",
+        "湖泊低地"
+      ],
+      "path": "hu/hu-po-ping-yuan.md",
+      "id": "湖泊平原"
+    },
+    "画眉草": {
+      "type": "species",
+      "label": "画眉草",
+      "aliases": [
+        "teff",
+        "Eragrostis tef"
+      ],
+      "path": "hu/hua-mei-cao.md",
+      "id": "画眉草"
+    },
+    "黄热病": {
+      "type": "concept",
+      "label": "黄热病",
+      "aliases": [
+        "yellow fever"
+      ],
+      "path": "hu/huang-re-bing.md",
+      "id": "黄热病"
+    },
+    "环境决定论": {
+      "type": "concept",
+      "label": "环境决定论",
+      "aliases": [
+        "地理环境决定论"
+      ],
+      "path": "hu/huanjing-juedinglun.md",
+      "id": "环境决定论"
+    },
+    "乔治·华盛顿": {
+      "type": "person",
+      "label": "乔治·华盛顿",
+      "aliases": [
+        "George Washington"
+      ],
+      "path": "hu/huashengdun.md",
+      "id": "乔治·华盛顿"
+    },
+    "回溯试验法": {
+      "type": "concept",
+      "label": "回溯试验法",
+      "aliases": [
+        "retrospective test",
+        "回溯检验法",
+        "历史比较法"
+      ],
+      "path": "hu/hui-su-shi-yan-fa.md",
+      "id": "回溯试验法"
+    },
+    "灰熊": {
+      "type": "species",
+      "label": "灰熊",
+      "aliases": [
+        "grizzly bear",
+        "Ursus arctos horribilis"
+      ],
+      "path": "hu/hui-xiong.md",
+      "id": "灰熊"
+    },
+    "火耕农业": {
+      "type": "concept",
+      "label": "火耕农业",
+      "aliases": [
+        "火耕",
+        "刀耕火种",
+        "火耕法",
+        "fire-stick farming"
+      ],
+      "path": "hu/huo-geng-nong-ye.md",
+      "id": "火耕农业"
+    },
+    "霍普韦尔文化": {
+      "type": "event",
+      "label": "huo-pu-wei-er-wen-hua",
+      "aliases": [
+        "Hopewell culture",
+        "霍普韦尔"
+      ],
+      "path": "hu/huo-pu-wei-er-wen-hua.md",
+      "id": "霍普韦尔文化"
+    },
+    "基普": {
+      "type": "concept",
+      "label": "基普",
+      "aliases": [
+        "Quipu",
+        "结绳",
+        "khipu"
+      ],
+      "path": "ji/ji-pu.md",
+      "id": "基普"
+    },
+    "技术停滞": {
+      "type": "concept",
+      "label": "技术停滞",
+      "aliases": [
+        "技术停滞",
+        "technological stagnation"
+      ],
+      "path": "ji/ji-shu-ting-zhi.md",
+      "id": "技术停滞"
+    },
+    "技术与经济索引": {
+      "type": "list",
+      "label": "技术与经济索引",
+      "aliases": [
+        "Technology and Economy Index"
+      ],
+      "path": "ji/ji-shu-yu-jing-ji-suo-yin.md",
+      "id": "技术与经济索引"
+    },
+    "吉塔里罗洞穴": {
+      "type": "place",
+      "label": "吉塔里罗洞穴",
+      "aliases": [
+        "Guitarrero Cave",
+        "吉塔雷罗洞穴"
+      ],
+      "path": "ji/ji-ta-li-luo-dong-xue.md",
+      "id": "吉塔里罗洞穴"
+    },
+    "甲骨文": {
+      "type": "concept",
+      "label": "甲骨文",
+      "aliases": [
+        "oracle bone script",
+        "甲骨文文字"
+      ],
+      "path": "ji/jia-gu-wen.md",
+      "id": "甲骨文"
+    },
+    "嫁接": {
+      "type": "concept",
+      "label": "嫁接",
+      "aliases": [
+        "grafting",
+        "嫁接技术",
+        "果树嫁接"
+      ],
+      "path": "ji/jia-jie.md",
+      "id": "嫁接"
+    },
+    "迦太基": {
+      "type": "place",
+      "label": "迦太基",
+      "aliases": [
+        "Carthage",
+        "卡尔塔热"
+      ],
+      "path": "ji/jia-tai-ji.md",
+      "id": "迦太基"
+    },
+    "加利福尼亚": {
+      "type": "place",
+      "label": "加利福尼亚",
+      "aliases": [
+        "California"
+      ],
+      "path": "ji/jialifuniya.md",
+      "id": "加利福尼亚"
+    },
+    "金属冶炼": {
+      "type": "concept",
+      "label": "金属冶炼",
+      "aliases": [
+        "炼钢"
+      ],
+      "path": "ji/jin-shu-ye-lian.md",
+      "id": "金属冶炼"
+    },
+    "咖啡": {
+      "type": "species",
+      "label": "咖啡",
+      "aliases": [
+        "coffee",
+        "Coffea"
+      ],
+      "path": "ka/ka-fei.md",
+      "id": "咖啡"
+    },
+    "科克斯卡特兰洞穴": {
+      "type": "place",
+      "label": "科克斯卡特兰洞穴",
+      "aliases": [
+        "Coxcatlán Cave",
+        "科克斯卡特兰"
+      ],
+      "path": "ke/ke-ke-si-ka-te-lan-dong-xue.md",
+      "id": "科克斯卡特兰洞穴"
+    },
+    "科罗拉多河": {
+      "type": "place",
+      "label": "科罗拉多河",
+      "aliases": [
+        "Colorado River"
+      ],
+      "path": "ke/ke-luo-la-duo-he.md",
+      "id": "科罗拉多河"
+    },
+    "克罗马努人": {
+      "type": "concept",
+      "label": "克罗马努人",
+      "aliases": [
+        "Cro-Magnon",
+        "克罗马农人",
+        "晚期智人"
+      ],
+      "path": "ke/ke-luo-ma-nu-ren.md",
+      "id": "克罗马努人"
+    },
+    "科诺希基": {
+      "type": "concept",
+      "label": "科诺希基",
+      "aliases": [
+        "Konohiki"
+      ],
+      "path": "ke/ke-nuo-xi-ji.md",
+      "id": "科诺希基"
+    },
+    "科萨人": {
+      "type": "person",
+      "label": "科萨人",
+      "aliases": [
+        "Xhosa"
+      ],
+      "path": "ke/ke-sa-ren.md",
+      "id": "科萨人"
+    },
+    "科伊桑人": {
+      "type": "concept",
+      "label": "科伊桑人",
+      "aliases": [
+        "Khoisan",
+        "科伊桑",
+        "科伊桑民族"
+      ],
+      "path": "ke/ke-yi-sang-ren.md",
+      "id": "科伊桑人"
+    },
+    "埃尔南·科尔特斯": {
+      "type": "person",
+      "label": "埃尔南·科尔特斯",
+      "aliases": [],
+      "path": "ke/keertesi.md",
+      "id": "埃尔南·科尔特斯"
+    },
+    "克罗维文化": {
+      "type": "event",
+      "label": "克罗维文化",
+      "aliases": [
+        "Clovis culture",
+        "克罗维遗址"
+      ],
+      "path": "ke/keluoweiwenhua.md",
+      "id": "克罗维文化"
+    },
+    "恐鸟": {
+      "type": "species",
+      "label": "恐鸟",
+      "aliases": [
+        "moa",
+        "恐鸟属"
+      ],
+      "path": "ko/kong-niao.md",
+      "id": "恐鸟"
+    },
+    "苦巢菜": {
+      "type": "species",
+      "label": "ku-chao-cai",
+      "aliases": [
+        "bitter vetch",
+        "苦野豌豆",
+        "苦草"
+      ],
+      "path": "ku/ku-chao-cai.md",
+      "id": "苦巢菜"
+    },
+    "库鲁病": {
+      "type": "concept",
+      "label": "库鲁病",
+      "aliases": [
+        "kuru",
+        "强笑病"
+      ],
+      "path": "ku/ku-lu-bing.md",
+      "id": "库鲁病"
+    },
+    "夸扣特尔族": {
+      "type": "person",
+      "label": "夸扣特尔族",
+      "aliases": [
+        "Kwakiutl",
+        "夸扣特尔族印第安人"
+      ],
+      "path": "ku/kua-kou-te-er-zu.md",
+      "id": "夸扣特尔族"
+    },
+    "跨学科方法": {
+      "type": "concept",
+      "label": "跨学科方法",
+      "aliases": [
+        "interdisciplinary approach",
+        "多学科方法"
+      ],
+      "path": "ku/kua-xue-ke-fang-fa.md",
+      "id": "跨学科方法"
+    },
+    "詹姆斯·库克": {
+      "type": "person",
+      "label": "詹姆斯·库克",
+      "aliases": [
+        "James Cook",
+        "库克船长"
+      ],
+      "path": "ku/kuke.md",
+      "id": "詹姆斯·库克"
+    },
+    "拉布拉多": {
+      "type": "place",
+      "label": "拉布拉多",
+      "aliases": [
+        "Labrador"
+      ],
+      "path": "la/la-bu-la-duo.md",
+      "id": "拉布拉多"
+    },
+    "辣椒": {
+      "type": "species",
+      "label": "辣椒",
+      "aliases": [
+        "chili pepper",
+        "Capsicum"
+      ],
+      "path": "la/la-jiao.md",
+      "id": "辣椒"
+    },
+    "拉皮塔人": {
+      "type": "person",
+      "label": "拉皮塔人",
+      "aliases": [
+        "Lapita people",
+        "拉皮塔文化人群"
+      ],
+      "path": "la/la-pi-ta-ren.md",
+      "id": "拉皮塔人"
+    },
+    "拉皮塔文化": {
+      "type": "concept",
+      "label": "拉皮塔文化",
+      "aliases": [
+        "拉皮塔陶器",
+        "Lapita文化",
+        "Lapita"
+      ],
+      "path": "la/la-pi-ta-wen-hua.md",
+      "id": "拉皮塔文化"
+    },
+    "类型索引": {
+      "type": "overview",
+      "label": "类型索引",
+      "aliases": [
+        "type index",
+        "分类索引",
+        "词条类型索引"
+      ],
+      "path": "le/lei-xing-suo-yin.md",
+      "id": "类型索引"
+    },
+    "犁": {
+      "type": "concept",
+      "label": "犁",
+      "aliases": [
+        "犁耕",
+        "畜力犁",
+        "plow"
+      ],
+      "path": "li/li.md",
+      "id": "犁"
+    },
+    "藜": {
+      "type": "species",
+      "label": "藜",
+      "aliases": [
+        "chenopodium",
+        "藜属植物",
+        "lamb's quarters"
+      ],
+      "path": "li/li-chenopodium.md",
+      "id": "藜"
+    },
+    "痢疾": {
+      "type": "disease",
+      "label": "痢疾",
+      "aliases": [
+        "dysentery",
+        "细菌性痢疾"
+      ],
+      "path": "li/li-ji.md",
+      "id": "痢疾"
+    },
+    "利马豆": {
+      "type": "species",
+      "label": "利马豆",
+      "aliases": [
+        "lima bean",
+        "Phaseolus lunatus"
+      ],
+      "path": "li/li-ma-dou.md",
+      "id": "利马豆"
+    },
+    "利尼尔班克拉米克文化": {
+      "type": "concept",
+      "label": "利尼尔班克拉米克文化",
+      "aliases": [
+        "LBK文化",
+        "Linearbandkeramik",
+        "线纹陶文化"
+      ],
+      "path": "li/li-ni-er-ban-ke-la-mi-ke-wen-hua.md",
+      "id": "利尼尔班克拉米克文化"
+    },
+    "历史科学": {
+      "type": "concept",
+      "label": "历史科学",
+      "aliases": [
+        "historical science",
+        "历史学作为科学"
+      ],
+      "path": "li/li-shi-ke-xue.md",
+      "id": "历史科学"
+    },
+    "粮食储备": {
+      "type": "concept",
+      "label": "粮食储备",
+      "aliases": [
+        "food storage",
+        "余粮"
+      ],
+      "path": "li/liang-shi-chu-bei.md",
+      "id": "粮食储备"
+    },
+    "猎豹": {
+      "type": "species",
+      "label": "猎豹",
+      "aliases": [
+        "cheetah",
+        "印度猎豹"
+      ],
+      "path": "li/lie-bao.md",
+      "id": "猎豹"
+    },
+    "瘤牛": {
+      "type": "species",
+      "label": "瘤牛",
+      "aliases": [
+        "zebu",
+        "Bos indicus"
+      ],
+      "path": "li/liu-niu.md",
+      "id": "瘤牛"
+    },
+    "流行性感冒": {
+      "type": "concept",
+      "label": "流行性感冒",
+      "aliases": [
+        "流感",
+        "influenza"
+      ],
+      "path": "li/liu-xing-xing-gan-mao.md",
+      "id": "流行性感冒"
+    },
+    "伦纳尔岛": {
+      "type": "place",
+      "label": "伦纳尔岛",
+      "aliases": [
+        "Rennell Island",
+        "伦内尔岛",
+        "穆基基"
+      ],
+      "path": "lu/lun-na-er-dao.md",
+      "id": "伦纳尔岛"
+    },
+    "罗马帝国": {
+      "type": "event",
+      "label": "罗马帝国",
+      "aliases": [
+        "Roman Empire"
+      ],
+      "path": "lu/luoma-diguo.md",
+      "id": "罗马帝国"
+    },
+    "让-雅克·卢梭": {
+      "type": "person",
+      "label": "让-雅克·卢梭",
+      "aliases": [
+        "Jean-Jacques Rousseau",
+        "卢梭"
+      ],
+      "path": "lu/lusuo.md",
+      "id": "让-雅克·卢梭"
+    },
+    "马克·布卢姆勒": {
+      "type": "person",
+      "label": "马克·布卢姆勒",
+      "aliases": [
+        "Mark Blumler",
+        "Mark A. Blumler"
+      ],
+      "path": "ma/ma-ke-bu-lu-mu-le.md",
+      "id": "马克·布卢姆勒"
+    },
+    "马克思": {
+      "type": "person",
+      "label": "马克思",
+      "aliases": [
+        "Karl Marx"
+      ],
+      "path": "ma/ma-ke-si.md",
+      "id": "马克思"
+    },
+    "马雅文字": {
+      "type": "concept",
+      "label": "马雅文字",
+      "aliases": [
+        "Maya script",
+        "马雅象形文字"
+      ],
+      "path": "ma/ma-ya-wen-zi.md",
+      "id": "马雅文字"
+    },
+    "马达加斯加": {
+      "type": "place",
+      "label": "马达加斯加",
+      "aliases": [
+        "Madagascar"
+      ],
+      "path": "ma/madagascar.md",
+      "id": "马达加斯加"
+    },
+    "卡尔·马克思": {
+      "type": "person",
+      "label": "卡尔·马克思",
+      "aliases": [],
+      "path": "ma/makesi.md",
+      "id": "卡尔·马克思"
+    },
+    "曼丹族": {
+      "type": "concept",
+      "label": "曼丹族",
+      "aliases": [
+        "曼丹人",
+        "Mandan"
+      ],
+      "path": "ma/man-dan-zu.md",
+      "id": "曼丹族"
+    },
+    "曼哈顿计划": {
+      "type": "event",
+      "label": "曼哈顿计划",
+      "aliases": [
+        "Manhattan Project",
+        "曼哈顿工程"
+      ],
+      "path": "ma/man-ha-dun-ji-hua.md",
+      "id": "曼哈顿计划"
+    },
+    "曼科": {
+      "type": "person",
+      "label": "曼科",
+      "aliases": [
+        "Manco Inca",
+        "曼科·印卡",
+        "Manco Capac"
+      ],
+      "path": "ma/man-ke.md",
+      "id": "曼科"
+    },
+    "毛利人": {
+      "type": "person",
+      "label": "毛利人",
+      "aliases": [
+        "Maori",
+        "毛利"
+      ],
+      "path": "ma/mao-li-ren.md",
+      "id": "毛利人"
+    },
+    "梅毒": {
+      "type": "concept",
+      "label": "梅毒",
+      "aliases": [
+        "syphilis"
+      ],
+      "path": "me/mei-du.md",
+      "id": "梅毒"
+    },
+    "美国西南部": {
+      "type": "place",
+      "label": "美国西南部",
+      "aliases": [
+        "American Southwest",
+        "北美西南部"
+      ],
+      "path": "me/mei-guo-xi-nan-bu.md",
+      "id": "美国西南部"
+    },
+    "美洲野牛": {
+      "type": "species",
+      "label": "美洲野牛",
+      "aliases": [
+        "American bison",
+        "北美野牛",
+        "buffalo"
+      ],
+      "path": "me/mei-zhou-ye-niu.md",
+      "id": "美洲野牛"
+    },
+    "美拉尼西亚": {
+      "type": "place",
+      "label": "美拉尼西亚",
+      "aliases": [],
+      "path": "me/meilaxiniya.md",
+      "id": "美拉尼西亚"
+    },
+    "美洲独立发展": {
+      "type": "concept",
+      "label": "美洲独立发展",
+      "aliases": [
+        "independent development in Americas",
+        "美洲独立农业"
+      ],
+      "path": "me/meizhoudulifazhan.md",
+      "id": "美洲独立发展"
+    },
+    "蒙博托": {
+      "type": "person",
+      "label": "蒙博托",
+      "aliases": [
+        "Mobutu Sese Seko",
+        "蒙博托·塞塞·塞科"
+      ],
+      "path": "me/meng-bo-tuo.md",
+      "id": "蒙博托"
+    },
+    "蒙古": {
+      "type": "place",
+      "label": "蒙古",
+      "aliases": [
+        "Mongolia",
+        "蒙古草原"
+      ],
+      "path": "me/menggu.md",
+      "id": "蒙古"
+    },
+    "蒙古帝国": {
+      "type": "event",
+      "label": "蒙古帝国",
+      "aliases": [
+        "Mongol Empire"
+      ],
+      "path": "me/menggu-diguo.md",
+      "id": "蒙古帝国"
+    },
+    "麋鹿": {
+      "type": "species",
+      "label": "麋鹿",
+      "aliases": [
+        "elk",
+        "moose",
+        "Alces alces",
+        "驼鹿",
+        "欧亚驼鹿"
+      ],
+      "path": "mi/mi-lu.md",
+      "id": "麋鹿"
+    },
+    "密西西比河": {
+      "type": "place",
+      "label": "密西西比河",
+      "aliases": [
+        "Mississippi River"
+      ],
+      "path": "mi/mi-xi-xi-bi-he.md",
+      "id": "密西西比河"
+    },
+    "密西西比文化": {
+      "type": "event",
+      "label": "密西西比文化",
+      "aliases": [
+        "Mississippian culture",
+        "密西西比河流域文化",
+        "土墩建造者文化"
+      ],
+      "path": "mi/mi-xi-xi-bi-wen-hua.md",
+      "id": "密西西比文化"
+    },
+    "苗瑶语系": {
+      "type": "concept",
+      "label": "苗瑶语系",
+      "aliases": [
+        "Hmong-Mien",
+        "曼-勉语族",
+        "苗瑶语族"
+      ],
+      "path": "mi/miao-yao-yu-xi.md",
+      "id": "苗瑶语系"
+    },
+    "密克罗尼西亚": {
+      "type": "place",
+      "label": "密克罗尼西亚",
+      "aliases": [],
+      "path": "mi/mikelunixiya.md",
+      "id": "密克罗尼西亚"
+    },
+    "秘鲁": {
+      "type": "place",
+      "label": "秘鲁",
+      "aliases": [],
+      "path": "mi/milu.md",
+      "id": "秘鲁"
+    },
+    "莫里奥里人": {
+      "type": "person",
+      "label": "莫里奥里人",
+      "aliases": [
+        "Moriori",
+        "莫里奥里族"
+      ],
+      "path": "mo/mo-li-ao-li-ren.md",
+      "id": "莫里奥里人"
+    },
+    "莫卧儿帝国": {
+      "type": "event",
+      "label": "莫卧儿帝国",
+      "aliases": [
+        "Mughal Empire",
+        "莫卧儿"
+      ],
+      "path": "mo/mo-wo-er-di-guo.md",
+      "id": "莫卧儿帝国"
+    },
+    "莫尔兹比港": {
+      "type": "place",
+      "label": "莫尔兹比港",
+      "aliases": [
+        "Port Moresby",
+        "巴布亚新几内亚首都"
+      ],
+      "path": "mo/moerzibigang.md",
+      "id": "莫尔兹比港"
+    },
+    "墨西哥": {
+      "type": "place",
+      "label": "墨西哥",
+      "aliases": [],
+      "path": "mo/moxige.md",
+      "id": "墨西哥"
+    },
+    "纳米比亚": {
+      "type": "place",
+      "label": "纳米比亚",
+      "aliases": [
+        "Namibia",
+        "西南非洲"
+      ],
+      "path": "na/na-mi-bi-ya.md",
+      "id": "纳米比亚"
+    },
+    "南岛语系": {
+      "type": "concept",
+      "label": "南岛语系",
+      "aliases": [
+        "马来-波利尼西亚语系"
+      ],
+      "path": "na/nan-dao-yu-xi.md",
+      "id": "南岛语系"
+    },
+    "南瓜": {
+      "type": "species",
+      "label": "南瓜",
+      "aliases": [
+        "squash",
+        "pumpkin",
+        "Cucurbita"
+      ],
+      "path": "na/nan-gua.md",
+      "id": "南瓜"
+    },
+    "南亚语系": {
+      "type": "concept",
+      "label": "南亚语系",
+      "aliases": [
+        "Austroasiatic",
+        "南亚语系"
+      ],
+      "path": "na/nan-ya-yu-xi.md",
+      "id": "南亚语系"
+    },
+    "南美洲": {
+      "type": "place",
+      "label": "南美洲",
+      "aliases": [
+        "South America"
+      ],
+      "path": "na/nanmeizhou.md",
+      "id": "南美洲"
+    },
+    "拿破仑": {
+      "type": "person",
+      "label": "拿破仑",
+      "aliases": [
+        "Napoleon Bonaparte",
+        "拿破仑·波拿巴"
+      ],
+      "path": "na/napolun.md",
+      "id": "拿破仑"
+    },
+    "内燃机": {
+      "type": "concept",
+      "label": "内燃机",
+      "aliases": [
+        "internal combustion engine",
+        "内燃发动机"
+      ],
+      "path": "ne/nei-ran-ji.md",
+      "id": "内燃机"
+    },
+    "能人": {
+      "type": "concept",
+      "label": "能人",
+      "aliases": [
+        "Homo habilis",
+        "巧人"
+      ],
+      "path": "ne/neng-ren.md",
+      "id": "能人"
+    },
+    "尼古劳斯·奥托": {
+      "type": "person",
+      "label": "尼古劳斯·奥托",
+      "aliases": [
+        "Nikolaus Otto",
+        "尼古拉斯·奥托",
+        "奥托"
+      ],
+      "path": "ni/ni-gu-lao-si-ao-tuo.md",
+      "id": "尼古劳斯·奥托"
+    },
+    "尼日尔-刚果语系": {
+      "type": "concept",
+      "label": "尼日尔-刚果语系",
+      "aliases": [
+        "Niger-Congo",
+        "尼日尔刚果语系"
+      ],
+      "path": "ni/ni-ri-er-gang-guo-yu-xi.md",
+      "id": "尼日尔-刚果语系"
+    },
+    "尼安德特人": {
+      "type": "person",
+      "label": "尼安德特人",
+      "aliases": [
+        "Neanderthal",
+        "Homo neanderthalensis"
+      ],
+      "path": "ni/niandetelian.md",
+      "id": "尼安德特人"
+    },
+    "尼罗河": {
+      "type": "place",
+      "label": "尼罗河",
+      "aliases": [
+        "Nile River"
+      ],
+      "path": "ni/niluohe.md",
+      "id": "尼罗河"
+    },
+    "纽芬兰": {
+      "type": "place",
+      "label": "纽芬兰",
+      "aliases": [
+        "Newfoundland"
+      ],
+      "path": "ni/niu-fen-lan.md",
+      "id": "纽芬兰"
+    },
+    "牛瘟": {
+      "type": "concept",
+      "label": "牛瘟",
+      "aliases": [
+        "rinderpest"
+      ],
+      "path": "ni/niu-wen.md",
+      "id": "牛瘟"
+    },
+    "农业与驯化索引": {
+      "type": "list",
+      "label": "农业与驯化索引",
+      "aliases": [
+        "Agriculture and Domestication Index"
+      ],
+      "path": "no/nong-ye-yu-xun-hua-suo-yin.md",
+      "id": "农业与驯化索引"
+    },
+    "农业起源": {
+      "type": "concept",
+      "label": "农业起源",
+      "aliases": [
+        "origins of agriculture"
+      ],
+      "path": "no/nongyeqiyuan.md",
+      "id": "农业起源"
+    },
+    "奴隶贸易": {
+      "type": "event",
+      "label": "奴隶贸易",
+      "aliases": [
+        "slave trade",
+        "跨大西洋奴隶贸易",
+        "黑奴贸易"
+      ],
+      "path": "nu/nu-li-mao-yi.md",
+      "id": "奴隶贸易"
+    },
+    "苹果": {
+      "type": "species",
+      "label": "苹果",
+      "aliases": [
+        "apple",
+        "Malus domestica"
+      ],
+      "path": "pi/ping-guo.md",
+      "id": "苹果"
+    },
+    "弗朗西斯科·皮萨罗": {
+      "type": "person",
+      "label": "弗朗西斯科·皮萨罗",
+      "aliases": [],
+      "path": "pi/pisaluo.md",
+      "id": "弗朗西斯科·皮萨罗"
+    },
+    "切罗基人": {
+      "type": "person",
+      "label": "切罗基人",
+      "aliases": [
+        "Cherokee",
+        "切罗基族"
+      ],
+      "path": "qi/qie-luo-ji-ren.md",
+      "id": "切罗基人"
+    },
+    "秦朝": {
+      "type": "event",
+      "label": "秦朝",
+      "aliases": [
+        "Qin dynasty",
+        "秦帝国",
+        "秦国"
+      ],
+      "path": "qi/qin-chao.md",
+      "id": "秦朝"
+    },
+    "秦始皇": {
+      "type": "person",
+      "label": "秦始皇",
+      "aliases": [
+        "Qin Shi Huang",
+        "嬴政"
+      ],
+      "path": "qi/qin-shi-huang.md",
+      "id": "秦始皇"
+    },
+    "全球变暖": {
+      "type": "concept",
+      "label": "全球变暖",
+      "aliases": [
+        "global warming",
+        "气候变化",
+        "全新世暖期"
+      ],
+      "path": "qu/quan-qiu-bian-nuan.md",
+      "id": "全球变暖"
+    },
+    "萨摩亚": {
+      "type": "place",
+      "label": "萨摩亚",
+      "aliases": [
+        "Samoa",
+        "萨摩亚群岛"
+      ],
+      "path": "sa/sa-mo-ya.md",
+      "id": "萨摩亚"
+    },
+    "撒哈拉": {
+      "type": "place",
+      "label": "撒哈拉",
+      "aliases": [
+        "Sahara"
+      ],
+      "path": "sa/sahala.md",
+      "id": "撒哈拉"
+    },
+    "塞伦格蒂": {
+      "type": "place",
+      "label": "塞伦格蒂",
+      "aliases": [
+        "塞伦格蒂大草原",
+        "塞伦格蒂大平原",
+        "Serengeti"
+      ],
+      "path": "sa/sai-lun-ge-di.md",
+      "id": "塞伦格蒂"
+    },
+    "塞浦路斯": {
+      "type": "place",
+      "label": "塞浦路斯",
+      "aliases": [
+        "Cyprus",
+        "塞浦路斯岛"
+      ],
+      "path": "sa/sai-pu-lu-si.md",
+      "id": "塞浦路斯"
+    },
+    "沙巴拉群落": {
+      "type": "concept",
+      "label": "沙巴拉群落",
+      "aliases": [
+        "chaparral",
+        "查帕拉尔群落",
+        "灌木丛林"
+      ],
+      "path": "sh/sha-ba-la-qun-luo.md",
+      "id": "沙巴拉群落"
+    },
+    "山核桃": {
+      "type": "species",
+      "label": "山核桃",
+      "aliases": [
+        "pecan",
+        "Carya illinoinensis"
+      ],
+      "path": "sh/shan-he-tao.md",
+      "id": "山核桃"
+    },
+    "闪语族": {
+      "type": "concept",
+      "label": "闪语族",
+      "aliases": [
+        "Semitic"
+      ],
+      "path": "sh/shan-yu-zu.md",
+      "id": "闪语族"
+    },
+    "商朝": {
+      "type": "event",
+      "label": "商朝",
+      "aliases": [
+        "Shang dynasty",
+        "商代",
+        "殷商"
+      ],
+      "path": "sh/shang-chao.md",
+      "id": "商朝"
+    },
+    "社会复杂化": {
+      "type": "concept",
+      "label": "社会复杂化",
+      "aliases": [
+        "社会演化"
+      ],
+      "path": "sh/she-hui-fu-za-hua.md",
+      "id": "社会复杂化"
+    },
+    "麝牛": {
+      "type": "species",
+      "label": "麝牛",
+      "aliases": [
+        "musk ox",
+        "Ovibos moschatus"
+      ],
+      "path": "sh/she-niu.md",
+      "id": "麝牛"
+    },
+    "生态自杀": {
+      "type": "concept",
+      "label": "生态自杀",
+      "aliases": [
+        "ecocide",
+        "环境自杀",
+        "ecological suicide"
+      ],
+      "path": "sh/sheng-tai-zi-sha.md",
+      "id": "生态自杀"
+    },
+    "生育间隔": {
+      "type": "concept",
+      "label": "生育间隔",
+      "aliases": [
+        "birth spacing",
+        "生育间隔机制"
+      ],
+      "path": "sh/sheng-yu-jian-ge.md",
+      "id": "生育间隔"
+    },
+    "莳萝": {
+      "type": "species",
+      "label": "莳萝",
+      "aliases": [
+        "dill",
+        "Anethum graveolens",
+        "土茴香"
+      ],
+      "path": "sh/shi-luo.md",
+      "id": "莳萝"
+    },
+    "氏族": {
+      "type": "concept",
+      "label": "氏族",
+      "aliases": [
+        "clan",
+        "宗族",
+        "氏族制度"
+      ],
+      "path": "sh/shi-zu.md",
+      "id": "氏族"
+    },
+    "黍": {
+      "type": "species",
+      "label": "黍",
+      "aliases": [
+        "proso millet",
+        "Panicum miliaceum",
+        "黍子",
+        "糜子"
+      ],
+      "path": "sh/shu.md",
+      "id": "黍"
+    },
+    "树皮布": {
+      "type": "concept",
+      "label": "树皮布",
+      "aliases": [
+        "tapa",
+        "barkcloth",
+        "塔帕"
+      ],
+      "path": "sh/shu-pi-bu.md",
+      "id": "树皮布"
+    },
+    "双峰骆驼": {
+      "type": "species",
+      "label": "双峰骆驼",
+      "aliases": [
+        "Bactrian camel",
+        "Camelus bactrianus"
+      ],
+      "path": "sh/shuang-feng-luo-tuo.md",
+      "id": "双峰骆驼"
+    },
+    "斯克里林人": {
+      "type": "person",
+      "label": "斯克里林人",
+      "aliases": [
+        "Skraelings",
+        "Skræling"
+      ],
+      "path": "si/si-ke-li-lin-ren.md",
+      "id": "斯克里林人"
+    },
+    "斯瓦希里人": {
+      "type": "person",
+      "label": "斯瓦希里人",
+      "aliases": [
+        "Swahili",
+        "斯瓦希里族"
+      ],
+      "path": "si/si-wa-xi-li-ren.md",
+      "id": "斯瓦希里人"
+    },
+    "粟": {
+      "type": "species",
+      "label": "粟",
+      "aliases": [
+        "foxtail millet",
+        "Setaria italica",
+        "小米",
+        "谷子",
+        "粟米"
+      ],
+      "path": "su/su.md",
+      "id": "粟"
+    },
+    "苏美尔人": {
+      "type": "person",
+      "label": "苏美尔人",
+      "aliases": [
+        "Sumerians",
+        "苏美人"
+      ],
+      "path": "su/su-mei-er-ren.md",
+      "id": "苏美尔人"
+    },
+    "所罗门群岛": {
+      "type": "place",
+      "label": "所罗门群岛",
+      "aliases": [
+        "Solomon Islands"
+      ],
+      "path": "su/suo-luo-men-qun-dao.md",
+      "id": "所罗门群岛"
+    },
+    "塔希提": {
+      "type": "place",
+      "label": "塔希提",
+      "aliases": [
+        "Tahiti",
+        "大溪地",
+        "社会群岛"
+      ],
+      "path": "ta/ta-xi-ti.md",
+      "id": "塔希提"
+    },
+    "太平洋": {
+      "type": "place",
+      "label": "太平洋",
+      "aliases": [
+        "Pacific Ocean",
+        "太平洋海域"
+      ],
+      "path": "ta/tai-ping-yang.md",
+      "id": "太平洋"
+    },
+    "台湾": {
+      "type": "place",
+      "label": "台湾",
+      "aliases": [],
+      "path": "ta/taiwan.md",
+      "id": "台湾"
+    },
+    "碳14测年": {
+      "type": "concept",
+      "label": "碳14测年",
+      "aliases": [
+        "放射性碳定年",
+        "C14测年"
+      ],
+      "path": "ta/tan14-ce-nian.md",
+      "id": "碳14测年"
+    },
+    "汤加": {
+      "type": "place",
+      "label": "汤加",
+      "aliases": [
+        "Tonga",
+        "汤加群岛"
+      ],
+      "path": "ta/tang-jia.md",
+      "id": "汤加"
+    },
+    "桃": {
+      "type": "species",
+      "label": "桃",
+      "aliases": [
+        "peach",
+        "Prunus persica",
+        "桃子"
+      ],
+      "path": "ta/tao.md",
+      "id": "桃"
+    },
+    "特勒阿布胡瑞拉": {
+      "type": "place",
+      "label": "特勒阿布胡瑞拉",
+      "aliases": [
+        "Tell Abu Hureyra",
+        "阿布胡瑞拉遗址"
+      ],
+      "path": "te/te-le-a-bu-hu-rui-la.md",
+      "id": "特勒阿布胡瑞拉"
+    },
+    "铁路": {
+      "type": "concept",
+      "label": "铁路",
+      "aliases": [
+        "railway",
+        "铁道"
+      ],
+      "path": "ti/tie-lu.md",
+      "id": "铁路"
+    },
+    "托雷斯海峡": {
+      "type": "place",
+      "label": "托雷斯海峡",
+      "aliases": [
+        "Torres Strait"
+      ],
+      "path": "tu/tuo-lei-si-hai-xia.md",
+      "id": "托雷斯海峡"
+    },
+    "驼鹿": {
+      "type": "species",
+      "label": "驼鹿",
+      "aliases": [
+        "moose",
+        "麋",
+        "elk",
+        "Alces alces"
+      ],
+      "path": "tu/tuo-lu.md",
+      "id": "驼鹿"
+    },
+    "托马斯·纽科曼": {
+      "type": "person",
+      "label": "托马斯·纽科曼",
+      "aliases": [
+        "Thomas Newcomen",
+        "纽科曼"
+      ],
+      "path": "tu/tuo-ma-si-niu-ke-man.md",
+      "id": "托马斯·纽科曼"
+    },
+    "鸵鸟": {
+      "type": "species",
+      "label": "鸵鸟",
+      "aliases": [
+        "ostrich"
+      ],
+      "path": "tu/tuo-niao.md",
+      "id": "鸵鸟"
+    },
+    "瓦斯卡尔": {
+      "type": "person",
+      "label": "瓦斯卡尔",
+      "aliases": [
+        "Wáskhar",
+        "Huáscar",
+        "瓦斯卡"
+      ],
+      "path": "wa/wa-si-ka-er.md",
+      "id": "瓦斯卡尔"
+    },
+    "瓦伊纳·卡帕克": {
+      "type": "person",
+      "label": "瓦伊纳·卡帕克",
+      "aliases": [
+        "Huayna Capac",
+        "瓦伊纳·卡帕克皇帝"
+      ],
+      "path": "wa/wa-yi-na-ka-pa-ke.md",
+      "id": "瓦伊纳·卡帕克"
+    },
+    "望加锡": {
+      "type": "place",
+      "label": "望加锡",
+      "aliases": [
+        "Makassar"
+      ],
+      "path": "wa/wang-jia-xi.md",
+      "id": "望加锡"
+    },
+    "文化特质": {
+      "type": "concept",
+      "label": "文化特质",
+      "aliases": [
+        "cultural trait",
+        "文化特征"
+      ],
+      "path": "we/wen-hua-te-zhi.md",
+      "id": "文化特质"
+    },
+    "文兰": {
+      "type": "place",
+      "label": "文兰",
+      "aliases": [
+        "Vinland",
+        "文兰地区"
+      ],
+      "path": "we/wen-lan.md",
+      "id": "文兰"
+    },
+    "榅桲": {
+      "type": "species",
+      "label": "榅桲",
+      "aliases": [
+        "quince",
+        "Cydonia oblonga"
+      ],
+      "path": "we/wen-po.md",
+      "id": "榅桲"
+    },
+    "乌尔斐拉斯": {
+      "type": "person",
+      "label": "乌尔斐拉斯",
+      "aliases": [
+        "Ulfilas",
+        "乌尔斐拉斯主教"
+      ],
+      "path": "wu/wu-er-fei-la-si.md",
+      "id": "乌尔斐拉斯"
+    },
+    "乌饭树": {
+      "type": "species",
+      "label": "乌饭树",
+      "aliases": [
+        "blueberry",
+        "Vaccinium",
+        "蓝莓"
+      ],
+      "path": "wu/wu-fan-shu.md",
+      "id": "乌饭树"
+    },
+    "乌鲁克": {
+      "type": "place",
+      "label": "乌鲁克",
+      "aliases": [
+        "Uruk",
+        "以力"
+      ],
+      "path": "wu/wu-lu-ke.md",
+      "id": "乌鲁克"
+    },
+    "物种保护": {
+      "type": "concept",
+      "label": "物种保护",
+      "aliases": [
+        "species conservation",
+        "物种保存",
+        "生物多样性保护"
+      ],
+      "path": "wu/wu-zhong-bao-hu.md",
+      "id": "物种保护"
+    },
+    "西谷椰子": {
+      "type": "species",
+      "label": "西谷椰子",
+      "aliases": [
+        "sago",
+        "西谷椰子树"
+      ],
+      "path": "xi/xi-gu-ye-zi.md",
+      "id": "西谷椰子"
+    },
+    "西瓜": {
+      "type": "species",
+      "label": "西瓜",
+      "aliases": [
+        "watermelon",
+        "Citrullus lanatus"
+      ],
+      "path": "xi/xi-gua.md",
+      "id": "西瓜"
+    },
+    "希克索斯": {
+      "type": "event",
+      "label": "希克索斯",
+      "aliases": [
+        "Hyksos",
+        "希克索斯民族",
+        "牧人王朝"
+      ],
+      "path": "xi/xi-ke-suo-si.md",
+      "id": "希克索斯"
+    },
+    "犀牛": {
+      "type": "species",
+      "label": "犀牛",
+      "aliases": [
+        "rhinoceros",
+        "犀"
+      ],
+      "path": "xi/xi-niu.md",
+      "id": "犀牛"
+    },
+    "吸气音": {
+      "type": "concept",
+      "label": "吸气音",
+      "aliases": [
+        "click consonant",
+        "搭嘴音",
+        "啧音"
+      ],
+      "path": "xi/xi-qi-yin.md",
+      "id": "吸气音"
+    },
+    "西貒": {
+      "type": "species",
+      "label": "西貒",
+      "aliases": [
+        "peccary"
+      ],
+      "path": "xi/xi-tuan.md",
+      "id": "西貒"
+    },
+    "西藏高原": {
+      "type": "place",
+      "label": "西藏高原",
+      "aliases": [
+        "Tibetan Plateau",
+        "青藏高原"
+      ],
+      "path": "xi/xi-zang-gao-yuan.md",
+      "id": "西藏高原"
+    },
+    "夏朝": {
+      "type": "event",
+      "label": "夏朝",
+      "aliases": [
+        "夏代",
+        "夏王朝",
+        "Xia dynasty"
+      ],
+      "path": "xi/xia-chao.md",
+      "id": "夏朝"
+    },
+    "舷外浮材": {
+      "type": "concept",
+      "label": "舷外浮材",
+      "aliases": [
+        "舷外支架",
+        "舷外浮木",
+        "outrigger"
+      ],
+      "path": "xi/xian-wai-fu-cai.md",
+      "id": "舷外浮材"
+    },
+    "纤维作物": {
+      "type": "concept",
+      "label": "纤维作物",
+      "aliases": [
+        "fiber crops",
+        "纺织植物"
+      ],
+      "path": "xi/xian-wei-zuo-wu.md",
+      "id": "纤维作物"
+    },
+    "乡村": {
+      "type": "concept",
+      "label": "乡村",
+      "aliases": [
+        "village"
+      ],
+      "path": "xi/xiang-cun.md",
+      "id": "乡村"
+    },
+    "橡实": {
+      "type": "concept",
+      "label": "橡实",
+      "aliases": [
+        "acorn",
+        "橡子",
+        "橡果"
+      ],
+      "path": "xi/xiang-shi.md",
+      "id": "橡实"
+    },
+    "橡树": {
+      "type": "species",
+      "label": "橡树",
+      "aliases": [
+        "oak",
+        "Quercus"
+      ],
+      "path": "xi/xiang-shu.md",
+      "id": "橡树"
+    },
+    "象形文字": {
+      "type": "concept",
+      "label": "象形文字",
+      "aliases": [
+        "hieroglyph",
+        "埃及象形文字"
+      ],
+      "path": "xi/xiang-xing-wen-zi.md",
+      "id": "象形文字"
+    },
+    "小冰川期": {
+      "type": "event",
+      "label": "小冰川期",
+      "aliases": [
+        "小冰期",
+        "Little Ice Age"
+      ],
+      "path": "xi/xiao-bing-chuan-qi.md",
+      "id": "小冰川期"
+    },
+    "夏威夷": {
+      "type": "place",
+      "label": "夏威夷",
+      "aliases": [
+        "Hawaii"
+      ],
+      "path": "xi/xiaweiyi.md",
+      "id": "夏威夷"
+    },
+    "西班牙征服阿兹特克帝国": {
+      "type": "event",
+      "label": "西班牙征服阿兹特克帝国",
+      "aliases": [
+        "Spanish conquest of Aztec Empire"
+      ],
+      "path": "xi/xibanya-zhengfu-aziteke.md",
+      "id": "西班牙征服阿兹特克帝国"
+    },
+    "西班牙征服印加帝国": {
+      "type": "event",
+      "label": "西班牙征服印加帝国",
+      "aliases": [
+        "Spanish conquest of Inca Empire"
+      ],
+      "path": "xi/xibanya-zhengfu-yinjia.md",
+      "id": "西班牙征服印加帝国"
+    },
+    "西伯利亚": {
+      "type": "place",
+      "label": "西伯利亚",
+      "aliases": [
+        "Siberia"
+      ],
+      "path": "xi/xiboliya.md",
+      "id": "西伯利亚"
+    },
+    "谢斯起义": {
+      "type": "event",
+      "label": "谢斯起义",
+      "aliases": [
+        "Shays' Rebellion"
+      ],
+      "path": "xi/xie-si-qi-yi.md",
+      "id": "谢斯起义"
+    },
+    "楔形文字": {
+      "type": "concept",
+      "label": "楔形文字",
+      "aliases": [
+        "cuneiform",
+        "苏美尔楔形文字",
+        "两河流域文字"
+      ],
+      "path": "xi/xie-xing-wen-zi.md",
+      "id": "楔形文字"
+    },
+    "喜马拉雅": {
+      "type": "place",
+      "label": "喜马拉雅",
+      "aliases": [
+        "Himalayas"
+      ],
+      "path": "xi/ximalaya.md",
+      "id": "喜马拉雅"
+    },
+    "新大陆": {
+      "type": "place",
+      "label": "新大陆",
+      "aliases": [
+        "New World",
+        "美洲大陆",
+        "西半球"
+      ],
+      "path": "xi/xin-da-lu.md",
+      "id": "新大陆"
+    },
+    "新西兰": {
+      "type": "place",
+      "label": "新西兰",
+      "aliases": [
+        "New Zealand",
+        "新西兰"
+      ],
+      "path": "xi/xin-xi-lan.md",
+      "id": "新西兰"
+    },
+    "杏": {
+      "type": "species",
+      "label": "杏",
+      "aliases": [
+        "apricot",
+        "Prunus armeniaca",
+        "apricot"
+      ],
+      "path": "xi/xing.md",
+      "id": "杏"
+    },
+    "杏仁": {
+      "type": "species",
+      "label": "杏仁",
+      "aliases": [
+        "almond",
+        "巴旦杏",
+        "Prunus dulcis"
+      ],
+      "path": "xi/xing-ren.md",
+      "id": "杏仁"
+    },
+    "匈奴": {
+      "type": "person",
+      "label": "匈奴",
+      "aliases": [
+        "Xiongnu",
+        "匈奴人"
+      ],
+      "path": "xi/xiong-nu.md",
+      "id": "匈奴"
+    },
+    "西藏": {
+      "type": "place",
+      "label": "西藏",
+      "aliases": [
+        "Tibet"
+      ],
+      "path": "xi/xizang.md",
+      "id": "西藏"
+    },
+    "驯化中心": {
+      "type": "concept",
+      "label": "驯化中心",
+      "aliases": [
+        "驯化起源地",
+        "独立驯化中心",
+        "农业起源中心"
+      ],
+      "path": "xu/xun-hua-zhong-xin.md",
+      "id": "驯化中心"
+    },
+    "亚马孙": {
+      "type": "place",
+      "label": "亚马孙",
+      "aliases": [
+        "Amazon",
+        "亚马孙雨林",
+        "亚马孙河流域"
+      ],
+      "path": "ya/ya-ma-sun.md",
+      "id": "亚马孙"
+    },
+    "雅诺马马人": {
+      "type": "person",
+      "label": "雅诺马马人",
+      "aliases": [
+        "Yanomami",
+        "亚诺马米人"
+      ],
+      "path": "ya/ya-nuo-ma-ma-ren.md",
+      "id": "雅诺马马人"
+    },
+    "亚希人": {
+      "type": "person",
+      "label": "亚希人",
+      "aliases": [
+        "Yahi",
+        "亚希部落"
+      ],
+      "path": "ya/ya-xi-ren.md",
+      "id": "亚希人"
+    },
+    "燕麦": {
+      "type": "species",
+      "label": "燕麦",
+      "aliases": [
+        "oat",
+        "Avena sativa"
+      ],
+      "path": "ya/yan-mai.md",
+      "id": "燕麦"
+    },
+    "野马": {
+      "type": "species",
+      "label": "野马",
+      "aliases": [
+        "Przewalski's horse",
+        "Equus ferus przewalskii",
+        "普尔热瓦尔斯基马"
+      ],
+      "path": "ye/ye-ma.md",
+      "id": "野马"
+    },
+    "页面大小排行": {
+      "type": "list",
+      "label": "页面大小排行",
+      "aliases": [
+        "内容量排行",
+        "页面内容排行",
+        "page size ranking"
+      ],
+      "path": "ye/ye-mian-da-xiao-pai-hang.md",
+      "id": "页面大小排行"
+    },
+    "伊莱·惠特尼": {
+      "type": "person",
+      "label": "伊莱·惠特尼",
+      "aliases": [
+        "Eli Whitney",
+        "惠特尼"
+      ],
+      "path": "yi/yi-lai-hui-te-ni.md",
+      "id": "伊莱·惠特尼"
+    },
+    "伊努特人": {
+      "type": "person",
+      "label": "伊努特人",
+      "aliases": [
+        "Inuit",
+        "爱斯基摩人",
+        "Eskimo"
+      ],
+      "path": "yi/yi-nu-te-ren.md",
+      "id": "伊努特人"
+    },
+    "伊斯帕尼奥拉岛": {
+      "type": "place",
+      "label": "伊斯帕尼奥拉岛",
+      "aliases": [
+        "Hispaniola",
+        "海地岛",
+        "西班牙岛"
+      ],
+      "path": "yi/yi-si-pa-ni-ao-la-dao.md",
+      "id": "伊斯帕尼奥拉岛"
+    },
+    "遗传学": {
+      "type": "concept",
+      "label": "遗传学",
+      "aliases": [
+        "基因学"
+      ],
+      "path": "yi/yichuanxue.md",
+      "id": "遗传学"
+    },
+    "引用排行": {
+      "type": "list",
+      "label": "引用排行",
+      "aliases": [
+        "引用索引",
+        "词条引用排行",
+        "ref ranking"
+      ],
+      "path": "yi/yin-yong-pai-hang.md",
+      "id": "引用排行"
+    },
+    "印度": {
+      "type": "place",
+      "label": "印度",
+      "aliases": [
+        "印度次大陆"
+      ],
+      "path": "yi/yindu.md",
+      "id": "印度"
+    },
+    "印度河": {
+      "type": "place",
+      "label": "印度河",
+      "aliases": [
+        "印度河流域"
+      ],
+      "path": "yi/yinduhe.md",
+      "id": "印度河"
+    },
+    "印度尼西亚": {
+      "type": "place",
+      "label": "印度尼西亚",
+      "aliases": [
+        "马来群岛"
+      ],
+      "path": "yi/yindunixiya.md",
+      "id": "印度尼西亚"
+    },
+    "英格兰": {
+      "type": "place",
+      "label": "英格兰",
+      "aliases": [
+        "England",
+        "英国的核心地区"
+      ],
+      "path": "yi/ying-ge-lan.md",
+      "id": "英格兰"
+    },
+    "罂粟": {
+      "type": "species",
+      "label": "罂粟",
+      "aliases": [
+        "opium poppy",
+        "Papaver somniferum"
+      ],
+      "path": "yi/ying-su.md",
+      "id": "罂粟"
+    },
+    "有袋动物": {
+      "type": "concept",
+      "label": "有袋动物",
+      "aliases": [
+        "marsupials",
+        "有袋类"
+      ],
+      "path": "yo/you-dai-dong-wu.md",
+      "id": "有袋动物"
+    },
+    "尤他-阿兹特克诸语言": {
+      "type": "concept",
+      "label": "尤他-阿兹特克诸语言",
+      "aliases": [
+        "Uto-Aztecan languages",
+        "犹他-阿兹特克语系"
+      ],
+      "path": "yo/you-ta-a-zi-te-ke-zhu-yu-yan.md",
+      "id": "尤他-阿兹特克诸语言"
+    },
+    "语言与文字索引": {
+      "type": "list",
+      "label": "语言与文字索引",
+      "aliases": [
+        "Language and Writing Index"
+      ],
+      "path": "yu/yu-yan-wen-zi-suo-yin.md",
+      "id": "语言与文字索引"
+    },
+    "原始南岛语": {
+      "type": "concept",
+      "label": "原始南岛语",
+      "aliases": [
+        "Proto-Austronesian",
+        "PAN"
+      ],
+      "path": "yu/yuan-shi-nan-dao-yu.md",
+      "id": "原始南岛语"
+    },
+    "约旦河谷": {
+      "type": "place",
+      "label": "约旦河谷",
+      "aliases": [
+        "Jordan Valley",
+        "约旦河"
+      ],
+      "path": "yu/yue-dan-he-gu.md",
+      "id": "约旦河谷"
+    },
+    "约克角半岛": {
+      "type": "place",
+      "label": "约克角半岛",
+      "aliases": [
+        "Cape York Peninsula"
+      ],
+      "path": "yu/yue-ke-jiao-ban-dao.md",
+      "id": "约克角半岛"
+    },
+    "运河": {
+      "type": "concept",
+      "label": "运河",
+      "aliases": [
+        "canal",
+        "人工河道"
+      ],
+      "path": "yu/yun-he.md",
+      "id": "运河"
+    },
+    "造纸": {
+      "type": "concept",
+      "label": "造纸",
+      "aliases": [
+        "造纸术",
+        "papermaking"
+      ],
+      "path": "za/zao-zhi.md",
+      "id": "造纸"
+    },
+    "战马": {
+      "type": "concept",
+      "label": "战马",
+      "aliases": [
+        "warhorse",
+        "军马"
+      ],
+      "path": "zh/zhan-ma.md",
+      "id": "战马"
+    },
+    "爪哇人": {
+      "type": "concept",
+      "label": "爪哇人",
+      "aliases": [
+        "Java Man",
+        "爪哇直立人"
+      ],
+      "path": "zh/zhao-wa-ren.md",
+      "id": "爪哇人"
+    },
+    "郑和": {
+      "type": "person",
+      "label": "郑和",
+      "aliases": [
+        "Zheng He",
+        "马和",
+        "三宝太监"
+      ],
+      "path": "zh/zheng-he.md",
+      "id": "郑和"
+    },
+    "蒸汽机": {
+      "type": "concept",
+      "label": "蒸汽机",
+      "aliases": [
+        "steam engine",
+        "蒸汽发动机"
+      ],
+      "path": "zh/zheng-qi-ji.md",
+      "id": "蒸汽机"
+    },
+    "政治分裂": {
+      "type": "concept",
+      "label": "政治分裂",
+      "aliases": [
+        "political fragmentation",
+        "政治割据"
+      ],
+      "path": "zh/zheng-zhi-fen-lie.md",
+      "id": "政治分裂"
+    },
+    "直立人": {
+      "type": "concept",
+      "label": "直立人",
+      "aliases": [
+        "Homo erectus",
+        "直立猿人"
+      ],
+      "path": "zh/zhi-li-ren.md",
+      "id": "直立人"
+    },
+    "芝麻": {
+      "type": "species",
+      "label": "芝麻",
+      "aliases": [
+        "sesame",
+        "Sesamum indicum"
+      ],
+      "path": "zh/zhi-ma.md",
+      "id": "芝麻"
+    },
+    "知识积累": {
+      "type": "concept",
+      "label": "知识积累",
+      "aliases": [
+        "knowledge accumulation",
+        "知识传承",
+        "文化积累"
+      ],
+      "path": "zh/zhi-shi-ji-lei.md",
+      "id": "知识积累"
+    },
+    "智利": {
+      "type": "place",
+      "label": "智利",
+      "aliases": [
+        "Chile"
+      ],
+      "path": "zh/zhili.md",
+      "id": "智利"
+    },
+    "中亚野驴": {
+      "type": "species",
+      "label": "中亚野驴",
+      "aliases": [
+        "Asiatic wild ass",
+        "Equus hemionus",
+        "亚洲野驴",
+        "半驴"
+      ],
+      "path": "zh/zhong-ya-ye-lu.md",
+      "id": "中亚野驴"
+    },
+    "周朝": {
+      "type": "event",
+      "label": "周朝",
+      "aliases": [
+        "Zhou dynasty",
+        "周代"
+      ],
+      "path": "zh/zhou-chao.md",
+      "id": "周朝"
+    },
+    "铸铁": {
+      "type": "concept",
+      "label": "铸铁",
+      "aliases": [
+        "cast iron",
+        "生铁"
+      ],
+      "path": "zh/zhu-tie.md",
+      "id": "铸铁"
+    },
+    "专利": {
+      "type": "concept",
+      "label": "专利",
+      "aliases": [
+        "patent",
+        "专利权"
+      ],
+      "path": "zh/zhuan-li.md",
+      "id": "专利"
+    },
+    "专职阶层": {
+      "type": "concept",
+      "label": "专职阶层",
+      "aliases": [
+        "specialists",
+        "专职人员",
+        "非农业人口"
+      ],
+      "path": "zh/zhuan-zhi-jie-ceng.md",
+      "id": "专职阶层"
+    },
+    "锥虫病": {
+      "type": "concept",
+      "label": "锥虫病",
+      "aliases": [
+        "trypanosomiasis",
+        "非洲锥虫病",
+        "昏睡病"
+      ],
+      "path": "zh/zhui-chong-bing.md",
+      "id": "锥虫病"
+    },
+    "自然实验": {
+      "type": "concept",
+      "label": "自然实验",
+      "aliases": [
+        "natural experiment",
+        "自然比较法"
+      ],
+      "path": "zi/zi-ran-shi-yan.md",
+      "id": "自然实验"
+    },
+    "走出非洲": {
+      "type": "event",
+      "label": "zou-chu-fei-zhou",
+      "aliases": [
+        "Out of Africa",
+        "人类走出非洲",
+        "非洲起源论"
+      ],
+      "path": "zo/zou-chu-fei-zhou.md",
+      "id": "走出非洲"
+    },
+    "祖鲁人": {
+      "type": "person",
+      "label": "祖鲁人",
+      "aliases": [
+        "Zulu",
+        "祖鲁族"
+      ],
+      "path": "zu/zu-lu-ren.md",
+      "id": "祖鲁人"
     }
   },
   "alias_index": {
@@ -6550,6 +7135,10 @@
     "pathogen": "病原体",
     "病菌": "病菌",
     "germs": "病菌",
+    "bo-gong-e": "bo-gong-e",
+    "博贡蛾": "bo-gong-e",
+    "Bogong moth": "bo-gong-e",
+    "Agrotis infusa": "bo-gong-e",
     "bo-li-ni-xi-ya-ren": "bo-li-ni-xi-ya-ren",
     "波利尼西亚人": "bo-li-ni-xi-ya-ren",
     "Polynesians": "bo-li-ni-xi-ya-ren",
@@ -6847,6 +7436,11 @@
     "对等交换": "dui-deng-jiao-huan",
     "reciprocal exchange": "dui-deng-jiao-huan",
     "互惠交换": "dui-deng-jiao-huan",
+    "多西特人": "多西特人",
+    "Dorset people": "多西特人",
+    "Dorset": "多西特人",
+    "多西特爱斯基摩人": "多西特人",
+    "多塞特人": "多西特人",
     "独木舟": "独木舟",
     "dugout canoe": "独木舟",
     "canoe": "独木舟",
@@ -6892,6 +7486,10 @@
     "fei-yan": "fei-yan",
     "肺炎": "fei-yan",
     "pneumonia": "fei-yan",
+    "fei-zhou-dao": "fei-zhou-dao",
+    "非洲稻": "fei-zhou-dao",
+    "African rice": "fei-zhou-dao",
+    "Oryza glaberrima": "fei-zhou-dao",
     "fei-zhou-shu-yu": "fei-zhou-shu-yu",
     "非洲薯蓣": "fei-zhou-shu-yu",
     "African yam": "fei-zhou-shu-yu",
@@ -7052,6 +7650,12 @@
     "汉尼拔": "hanniba",
     "Hannibal": "hanniba",
     "汉尼拔·巴卡": "hanniba",
+    "哈尔马赫拉岛": "哈尔马赫拉岛",
+    "Halmahera": "哈尔马赫拉岛",
+    "哈尔马赫拉": "哈尔马赫拉岛",
+    "哈布斯堡王朝": "哈布斯堡王朝",
+    "Habsburg dynasty": "哈布斯堡王朝",
+    "House of Habsburg": "哈布斯堡王朝",
     "汉藏语系": "汉藏语系",
     "Sino-Tibetan": "汉藏语系",
     "海峡": "海峡",
@@ -7093,6 +7697,9 @@
     "水道": "河流",
     "可通航河流": "河流",
     "内陆水系": "河流",
+    "黑曜石": "黑曜石",
+    "obsidian": "黑曜石",
+    "火山玻璃": "黑曜石",
     "黑死病": "黑死病",
     "Black Death": "黑死病",
     "腺鼠疫": "黑死病",
@@ -7106,6 +7713,10 @@
     "calabash": "hu-lu",
     "瓠瓜": "hu-lu",
     "Lagenaria": "hu-lu",
+    "hu-po-ping-yuan": "hu-po-ping-yuan",
+    "湖泊平原": "hu-po-ping-yuan",
+    "Lake Plains": "hu-po-ping-yuan",
+    "湖泊低地": "hu-po-ping-yuan",
     "hua-mei-cao": "hua-mei-cao",
     "画眉草": "hua-mei-cao",
     "teff": "hua-mei-cao",
@@ -7179,6 +7790,10 @@
     "ji-shu-yu-jing-ji-suo-yin": "ji-shu-yu-jing-ji-suo-yin",
     "技术与经济索引": "ji-shu-yu-jing-ji-suo-yin",
     "Technology and Economy Index": "ji-shu-yu-jing-ji-suo-yin",
+    "ji-ta-li-luo-dong-xue": "ji-ta-li-luo-dong-xue",
+    "吉塔里罗洞穴": "ji-ta-li-luo-dong-xue",
+    "Guitarrero Cave": "ji-ta-li-luo-dong-xue",
+    "吉塔雷罗洞穴": "ji-ta-li-luo-dong-xue",
     "jia-gu-wen": "jia-gu-wen",
     "甲骨文": "jia-gu-wen",
     "oracle bone script": "jia-gu-wen",
@@ -7307,6 +7922,10 @@
     "考古遗址": "考古遗址",
     "遗址": "考古遗址",
     "考古发掘": "考古遗址",
+    "ke-ke-si-ka-te-lan-dong-xue": "ke-ke-si-ka-te-lan-dong-xue",
+    "科克斯卡特兰洞穴": "ke-ke-si-ka-te-lan-dong-xue",
+    "Coxcatlán Cave": "ke-ke-si-ka-te-lan-dong-xue",
+    "科克斯卡特兰": "ke-ke-si-ka-te-lan-dong-xue",
     "ke-luo-la-duo-he": "ke-luo-la-duo-he",
     "科罗拉多河": "ke-luo-la-duo-he",
     "Colorado River": "ke-luo-la-duo-he",
@@ -7315,6 +7934,9 @@
     "Cro-Magnon": "ke-luo-ma-nu-ren",
     "克罗马农人": "ke-luo-ma-nu-ren",
     "晚期智人": "ke-luo-ma-nu-ren",
+    "ke-nuo-xi-ji": "ke-nuo-xi-ji",
+    "科诺希基": "ke-nuo-xi-ji",
+    "Konohiki": "ke-nuo-xi-ji",
     "ke-sa-ren": "ke-sa-ren",
     "科萨人": "ke-sa-ren",
     "Xhosa": "ke-sa-ren",
@@ -7353,6 +7975,10 @@
     "库鲁病": "ku-lu-bing",
     "kuru": "ku-lu-bing",
     "强笑病": "ku-lu-bing",
+    "kua-kou-te-er-zu": "kua-kou-te-er-zu",
+    "夸扣特尔族": "kua-kou-te-er-zu",
+    "Kwakiutl": "kua-kou-te-er-zu",
+    "夸扣特尔族印第安人": "kua-kou-te-er-zu",
     "kua-xue-ke-fang-fa": "kua-xue-ke-fang-fa",
     "跨学科方法": "kua-xue-ke-fang-fa",
     "interdisciplinary approach": "kua-xue-ke-fang-fa",
@@ -7500,6 +8126,10 @@
     "曼丹族": "man-dan-zu",
     "曼丹人": "man-dan-zu",
     "Mandan": "man-dan-zu",
+    "man-ha-dun-ji-hua": "man-ha-dun-ji-hua",
+    "曼哈顿计划": "man-ha-dun-ji-hua",
+    "Manhattan Project": "man-ha-dun-ji-hua",
+    "曼哈顿工程": "man-ha-dun-ji-hua",
     "man-ke": "man-ke",
     "曼科": "man-ke",
     "Manco Inca": "man-ke",
@@ -7561,6 +8191,10 @@
     "美洲独立发展": "meizhoudulifazhan",
     "independent development in Americas": "meizhoudulifazhan",
     "美洲独立农业": "meizhoudulifazhan",
+    "meng-bo-tuo": "meng-bo-tuo",
+    "蒙博托": "meng-bo-tuo",
+    "Mobutu Sese Seko": "meng-bo-tuo",
+    "蒙博托·塞塞·塞科": "meng-bo-tuo",
     "menggu-diguo": "menggu-diguo",
     "蒙古帝国": "menggu-diguo",
     "Mongol Empire": "menggu-diguo",
@@ -7568,6 +8202,10 @@
     "蒙古": "menggu",
     "Mongolia": "menggu",
     "蒙古草原": "menggu",
+    "美印语系": "美印语系",
+    "Amerind languages": "美印语系",
+    "Amerind": "美印语系",
+    "美印第安语系": "美印语系",
     "美国东部": "美国东部",
     "北美东部": "美国东部",
     "Eastern North America": "美国东部",
@@ -7589,6 +8227,13 @@
     "蒙特朱马": "蒙特朱马",
     "Moctezuma": "蒙特朱马",
     "蒙特苏马": "蒙特朱马",
+    "mi-lu": "mi-lu",
+    "麋鹿": "mi-lu",
+    "elk": "mi-lu",
+    "moose": "mi-lu",
+    "Alces alces": "mi-lu",
+    "驼鹿": "mi-lu",
+    "欧亚驼鹿": "mi-lu",
     "mi-xi-xi-bi-he": "mi-xi-xi-bi-he",
     "密西西比河": "mi-xi-xi-bi-he",
     "Mississippi River": "mi-xi-xi-bi-he",
@@ -7657,6 +8302,10 @@
     "牧民": "牧人",
     "游牧者": "牧人",
     "目录": "目录",
+    "na-mi-bi-ya": "na-mi-bi-ya",
+    "纳米比亚": "na-mi-bi-ya",
+    "Namibia": "na-mi-bi-ya",
+    "西南非洲": "na-mi-bi-ya",
     "nan-dao-yu-xi": "nan-dao-yu-xi",
     "南岛语系": "nan-dao-yu-xi",
     "马来-波利尼西亚语系": "nan-dao-yu-xi",
@@ -7688,6 +8337,10 @@
     "南岛语族扩张": "南岛语族扩张",
     "Austronesian Expansion": "南岛语族扩张",
     "波利尼西亚扩张": "南岛语族扩张",
+    "纳巴泰人": "纳巴泰人",
+    "Nabataeans": "纳巴泰人",
+    "纳巴泰": "纳巴泰人",
+    "纳巴泰族": "纳巴泰人",
     "纳瓦霍人": "纳瓦霍人",
     "Navajo": "纳瓦霍人",
     "纳瓦霍族": "纳瓦霍人",
@@ -7699,6 +8352,11 @@
     "能人": "neng-ren",
     "Homo habilis": "neng-ren",
     "巧人": "neng-ren",
+    "ni-gu-lao-si-ao-tuo": "ni-gu-lao-si-ao-tuo",
+    "尼古劳斯·奥托": "ni-gu-lao-si-ao-tuo",
+    "Nikolaus Otto": "ni-gu-lao-si-ao-tuo",
+    "尼古拉斯·奥托": "ni-gu-lao-si-ao-tuo",
+    "奥托": "ni-gu-lao-si-ao-tuo",
     "ni-ri-er-gang-guo-yu-xi": "ni-ri-er-gang-guo-yu-xi",
     "尼日尔-刚果语系": "ni-ri-er-gang-guo-yu-xi",
     "Niger-Congo": "ni-ri-er-gang-guo-yu-xi",
@@ -7778,9 +8436,19 @@
     "庶民": "平民",
     "普通人": "平民",
     "非精英阶层": "平民",
+    "皮特凯恩岛": "皮特凯恩岛",
+    "Pitcairn Island": "皮特凯恩岛",
+    "皮特凯恩": "皮特凯恩岛",
+    "皮特拉": "皮特拉",
+    "Petra": "皮特拉",
+    "佩特拉": "皮特拉",
     "皮萨罗": "皮萨罗",
     "Francisco Pizarro": "皮萨罗",
     "Preface": "Preface",
+    "普南人": "普南人",
+    "Punan": "普南人",
+    "Penan": "普南人",
+    "普南族": "普南人",
     "葡萄": "葡萄",
     "葡萄藤": "葡萄",
     "grape": "葡萄",
@@ -8065,6 +8733,10 @@
     "斯克里林人": "si-ke-li-lin-ren",
     "Skraelings": "si-ke-li-lin-ren",
     "Skræling": "si-ke-li-lin-ren",
+    "si-wa-xi-li-ren": "si-wa-xi-li-ren",
+    "斯瓦希里人": "si-wa-xi-li-ren",
+    "Swahili": "si-wa-xi-li-ren",
+    "斯瓦希里族": "si-wa-xi-li-ren",
     "su-mei-er-ren": "su-mei-er-ren",
     "苏美尔人": "su-mei-er-ren",
     "Sumerians": "su-mei-er-ren",
@@ -8079,6 +8751,11 @@
     "suo-luo-men-qun-dao": "suo-luo-men-qun-dao",
     "所罗门群岛": "suo-luo-men-qun-dao",
     "Solomon Islands": "suo-luo-men-qun-dao",
+    "ta-xi-ti": "ta-xi-ti",
+    "塔希提": "ta-xi-ti",
+    "Tahiti": "ta-xi-ti",
+    "大溪地": "ta-xi-ti",
+    "社会群岛": "ta-xi-ti",
     "tai-ping-yang": "tai-ping-yang",
     "太平洋": "tai-ping-yang",
     "Pacific Ocean": "tai-ping-yang",
@@ -8141,11 +8818,11 @@
     "托雷斯海峡": "tuo-lei-si-hai-xia",
     "Torres Strait": "tuo-lei-si-hai-xia",
     "tuo-lu": "tuo-lu",
-    "驼鹿": "tuo-lu",
-    "moose": "tuo-lu",
     "麋": "tuo-lu",
-    "elk": "tuo-lu",
-    "Alces alces": "tuo-lu",
+    "tuo-ma-si-niu-ke-man": "tuo-ma-si-niu-ke-man",
+    "托马斯·纽科曼": "tuo-ma-si-niu-ke-man",
+    "Thomas Newcomen": "tuo-ma-si-niu-ke-man",
+    "纽科曼": "tuo-ma-si-niu-ke-man",
     "tuo-niao": "tuo-niao",
     "鸵鸟": "tuo-niao",
     "ostrich": "tuo-niao",
@@ -8181,6 +8858,9 @@
     "瓦伊纳·卡帕克": "wa-yi-na-ka-pa-ke",
     "Huayna Capac": "wa-yi-na-ka-pa-ke",
     "瓦伊纳·卡帕克皇帝": "wa-yi-na-ka-pa-ke",
+    "wang-jia-xi": "wang-jia-xi",
+    "望加锡": "wang-jia-xi",
+    "Makassar": "wang-jia-xi",
     "王国": "王国",
     "国家雏形": "王国",
     "早期国家": "王国",
@@ -8321,6 +9001,9 @@
     "xiboliya": "xiboliya",
     "西伯利亚": "xiboliya",
     "Siberia": "xiboliya",
+    "xie-si-qi-yi": "xie-si-qi-yi",
+    "谢斯起义": "xie-si-qi-yi",
+    "Shays' Rebellion": "xie-si-qi-yi",
     "xie-xing-wen-zi": "xie-xing-wen-zi",
     "楔形文字": "xie-xing-wen-zi",
     "cuneiform": "xie-xing-wen-zi",
@@ -8486,6 +9169,10 @@
     "野葡萄": "野葡萄",
     "wild grape": "野葡萄",
     "Vitis": "野葡萄",
+    "yi-lai-hui-te-ni": "yi-lai-hui-te-ni",
+    "伊莱·惠特尼": "yi-lai-hui-te-ni",
+    "Eli Whitney": "yi-lai-hui-te-ni",
+    "惠特尼": "yi-lai-hui-te-ni",
     "yi-nu-te-ren": "yi-nu-te-ren",
     "伊努特人": "yi-nu-te-ren",
     "Inuit": "yi-nu-te-ren",
@@ -8558,6 +9245,10 @@
     "尤他-阿兹特克诸语言": "you-ta-a-zi-te-ke-zhu-yu-yan",
     "Uto-Aztecan languages": "you-ta-a-zi-te-ke-zhu-yu-yan",
     "犹他-阿兹特克语系": "you-ta-a-zi-te-ke-zhu-yu-yan",
+    "永布里人": "永布里人",
+    "Yumbri": "永布里人",
+    "Mlabri": "永布里人",
+    "姆拉布里人": "永布里人",
     "游牧": "游牧",
     "游牧生活": "游牧",
     "游牧族群": "游牧",
@@ -8573,6 +9264,9 @@
     "约旦河谷": "yue-dan-he-gu",
     "Jordan Valley": "yue-dan-he-gu",
     "约旦河": "yue-dan-he-gu",
+    "yue-ke-jiao-ban-dao": "yue-ke-jiao-ban-dao",
+    "约克角半岛": "yue-ke-jiao-ban-dao",
+    "Cape York Peninsula": "yue-ke-jiao-ban-dao",
     "yun-he": "yun-he",
     "运河": "yun-he",
     "canal": "yun-he",
@@ -8657,6 +9351,12 @@
     "zhili": "zhili",
     "智利": "zhili",
     "Chile": "zhili",
+    "zhong-ya-ye-lu": "zhong-ya-ye-lu",
+    "中亚野驴": "zhong-ya-ye-lu",
+    "Asiatic wild ass": "zhong-ya-ye-lu",
+    "Equus hemionus": "zhong-ya-ye-lu",
+    "亚洲野驴": "zhong-ya-ye-lu",
+    "半驴": "zhong-ya-ye-lu",
     "zhou-chao": "zhou-chao",
     "周朝": "zhou-chao",
     "Zhou dynasty": "zhou-chao",
@@ -8801,6 +9501,6 @@
     "植物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 706,
-  "generated": "2026-05-26T20:18:51Z"
+  "page_count": 736,
+  "generated": "2026-05-26T20:45:11Z"
 }
