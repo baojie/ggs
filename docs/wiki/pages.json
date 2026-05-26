@@ -92,7 +92,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
-      "total_refs": 2
+      "total_refs": 3
     },
     "aisaobiya": {
       "type": "place",
@@ -271,14 +271,14 @@
       ],
       "path": "an/an-da-man-qun-dao.md",
       "description": "孟加拉湾中的群岛，以保留古老语言和文化的原住民而闻名",
-      "prose_len": 166,
-      "prose_chars": 166,
-      "h2_count": 0,
-      "pn_count": 0,
-      "wikilink_count": 0,
+      "prose_len": 441,
+      "prose_chars": 382,
+      "h2_count": 4,
+      "pn_count": 2,
+      "wikilink_count": 3,
       "blockquote_count": 0,
       "quality": "stub",
-      "quality_score": 1,
+      "quality_score": 4,
       "total_refs": 1
     },
     "an-dong-ni-wen-yi": {
@@ -415,14 +415,14 @@
       ],
       "path": "ao/ao-zhou-ye-quan.md",
       "description": "澳大利亚的野生犬科动物，约4000年前随南岛人到达澳大利亚，后恢复野生状态",
-      "prose_len": 192,
-      "prose_chars": 192,
-      "h2_count": 0,
-      "pn_count": 1,
-      "wikilink_count": 0,
+      "prose_len": 506,
+      "prose_chars": 449,
+      "h2_count": 4,
+      "pn_count": 4,
+      "wikilink_count": 3,
       "blockquote_count": 0,
       "quality": "stub",
-      "quality_score": 1,
+      "quality_score": 5,
       "total_refs": 0
     },
     "aodaliya": {
@@ -470,7 +470,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 16
+      "total_refs": 17
     },
     "阿塔瓦尔帕": {
       "type": "person",
@@ -658,7 +658,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
-      "total_refs": 0
+      "total_refs": 1
     },
     "bailatu": {
       "type": "person",
@@ -743,14 +743,14 @@
       ],
       "path": "ba/bao-chuan-dui.md",
       "description": "15世纪初中国明朝的远洋舰队，由郑和指挥，先后七次远航印度洋",
-      "prose_len": 230,
-      "prose_chars": 230,
-      "h2_count": 0,
-      "pn_count": 2,
-      "wikilink_count": 0,
+      "prose_len": 475,
+      "prose_chars": 401,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 3,
       "blockquote_count": 0,
       "quality": "stub",
-      "quality_score": 2,
+      "quality_score": 4,
       "total_refs": 0
     },
     "半岛": {
@@ -1020,14 +1020,14 @@
       ],
       "path": "bi/bi-si-mai-qun-dao.md",
       "description": "新几内亚东北部的群岛，南岛人扩张进入太平洋的重要跳板，拉皮塔文化最早出现地",
-      "prose_len": 306,
-      "prose_chars": 304,
-      "h2_count": 0,
-      "pn_count": 0,
-      "wikilink_count": 0,
+      "prose_len": 731,
+      "prose_chars": 670,
+      "h2_count": 5,
+      "pn_count": 10,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "basic",
-      "quality_score": 8,
+      "quality_score": 12,
       "total_refs": 1
     },
     "bilu": {
@@ -2202,14 +2202,14 @@
       ],
       "path": "da/da-ben-keng-wen-hua.md",
       "description": "台湾最早的新石器时代文化，约公元前3000年出现，是南岛人起源的考古证据",
-      "prose_len": 183,
-      "prose_chars": 183,
-      "h2_count": 0,
-      "pn_count": 1,
-      "wikilink_count": 0,
+      "prose_len": 437,
+      "prose_chars": 372,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "stub",
-      "quality_score": 1,
+      "quality_score": 4,
       "total_refs": 0
     },
     "da-hu-hou": {
@@ -6137,7 +6137,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 8,
-      "total_refs": 1
+      "total_refs": 3
     },
     "劳动分工": {
       "type": "concept",
@@ -8027,7 +8027,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 14
+      "total_refs": 17
     },
     "南岛语族": {
       "type": "concept",
@@ -9744,7 +9744,7 @@
       "blockquote_count": 0,
       "quality": "stub",
       "quality_score": 1,
-      "total_refs": 0
+      "total_refs": 1
     },
     "shu": {
       "type": "species",
@@ -10519,7 +10519,7 @@
       "pn_count": 6,
       "wikilink_count": 6,
       "blockquote_count": 0,
-      "total_refs": 1
+      "total_refs": 2
     },
     "tai-ping-yang": {
       "type": "place",
@@ -10637,7 +10637,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 10
+      "total_refs": 11
     },
     "塔斯马尼亚": {
       "type": "place",
@@ -12103,7 +12103,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 25
+      "total_refs": 26
     },
     "新月沃地": {
       "type": "concept",
@@ -12307,7 +12307,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 58
+      "total_refs": 59
     },
     "驯鹿": {
       "type": "species",
@@ -13705,7 +13705,7 @@
       "blockquote_count": 0,
       "quality": "stub",
       "quality_score": 1,
-      "total_refs": 0
+      "total_refs": 1
     },
     "zhengfu": {
       "type": "concept",
@@ -16721,5 +16721,5 @@
     "驯化作物": "作物驯化"
   },
   "page_count": 618,
-  "generated": "2026-05-26T16:37:36Z"
+  "generated": "2026-05-26T16:39:33Z"
 }
