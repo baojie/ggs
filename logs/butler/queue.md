@@ -1,5 +1,13 @@
 # 内容任务队列
 
+## Phase 2 — 新建候选（SCN28 R104 发现）
+
+- [ ] P1 create | 作物驯化 | concept | 红链 ×7
+- [ ] P1 create | 安娜卡列尼娜原则 | concept | 红链 ×6
+- [ ] P1 create | 劳动分工 | concept | 红链 ×4
+- [ ] P1 create | 欧洲 | place | 红链 ×3
+- [ ] P1 create | 枪炮病菌与钢铁 | concept | 红链 ×26（本书条目）
+
 ## Phase 3 — 深度提升（standard → featured）
 
 ### concept（标准档 → 精选档，共 23 篇）

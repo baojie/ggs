@@ -1387,6 +1387,26 @@
       "quality_score": 58,
       "total_refs": 3
     },
+    "地点索引": {
+      "type": "list",
+      "label": "地点索引",
+      "aliases": [],
+      "tags": [
+        "index",
+        "place"
+      ],
+      "path": "pages/di/地点索引.md",
+      "description": "本 wiki 收录的全部地理词条索引",
+      "prose_len": 205,
+      "prose_chars": 155,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "地理决定论": {
       "type": "concept",
       "label": "地理决定论",
@@ -8435,6 +8455,7 @@
     "地中海气候带": "地中海地区",
     "Mediterranean": "地中海地区",
     "欧亚大陆西部地中海气候带": "地中海地区",
+    "地点索引": "地点索引",
     "地理决定论": "地理决定论",
     "环境决定论": "地理决定论",
     "geographic determinism": "地理决定论",
@@ -9403,6 +9424,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 346,
-  "generated": "2026-05-26T01:27:01Z"
+  "page_count": 347,
+  "generated": "2026-05-26T01:28:46Z"
 }
