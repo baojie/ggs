@@ -84,14 +84,14 @@
       ],
       "path": "ai/ai-xiao-hei-ren.md",
       "description": "东南亚和安达曼群岛的原住民群体，身材矮小、肤色较深，是更新世东南亚原住民的孑遗，戴蒙德用以说明人类迁徙的层叠历史",
-      "prose_len": 515,
-      "prose_chars": 464,
-      "h2_count": 4,
-      "pn_count": 2,
+      "prose_len": 645,
+      "prose_chars": 583,
+      "h2_count": 5,
+      "pn_count": 3,
       "wikilink_count": 3,
       "blockquote_count": 0,
       "quality": "basic",
-      "quality_score": 10,
+      "quality_score": 11,
       "total_refs": 3
     },
     "aisaobiya": {
@@ -1042,14 +1042,14 @@
       ],
       "path": "bi/bilu.md",
       "description": "南美洲西部国家，印加帝国中心，戴蒙德以卡哈马卡战役的发生地分析欧亚优势",
-      "prose_len": 657,
-      "prose_chars": 596,
+      "prose_len": 709,
+      "prose_chars": 647,
       "h2_count": 5,
       "pn_count": 3,
       "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "basic",
-      "quality_score": 11,
+      "quality_score": 12,
       "total_refs": 0
     },
     "bing-chuan": {
@@ -1930,8 +1930,8 @@
       ],
       "path": "ch/che-lun.md",
       "description": "人类最重要的发明之一，戴蒙德用以说明技术传播和美洲技术滞后的案例",
-      "prose_len": 626,
-      "prose_chars": 569,
+      "prose_len": 697,
+      "prose_chars": 637,
       "h2_count": 5,
       "pn_count": 3,
       "wikilink_count": 4,
@@ -4472,14 +4472,14 @@
       ],
       "path": "he/he-ping-wen-hua.md",
       "description": "东南亚的中石器时代至新石器时代早期考古文化，以越南和平省命名，代表南岛人扩张之前东南亚原住民的文化面貌",
-      "prose_len": 391,
-      "prose_chars": 355,
-      "h2_count": 3,
+      "prose_len": 511,
+      "prose_chars": 464,
+      "h2_count": 4,
       "pn_count": 1,
       "wikilink_count": 3,
       "blockquote_count": 0,
       "quality": "basic",
-      "quality_score": 8,
+      "quality_score": 10,
       "total_refs": 0
     },
     "he-tuo": {
@@ -16853,5 +16853,5 @@
     "驯化作物": "作物驯化"
   },
   "page_count": 623,
-  "generated": "2026-05-26T16:42:17Z"
+  "generated": "2026-05-26T16:43:50Z"
 }
