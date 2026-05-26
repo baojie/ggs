@@ -107,6 +107,16 @@
       ],
       "path": "at/阿塔瓦尔帕.md"
     },
+    "aziteke": {
+      "type": "concept",
+      "label": "阿兹特克",
+      "aliases": [
+        "Aztec",
+        "阿兹特克帝国",
+        "墨西加"
+      ],
+      "path": "az/aziteke.md"
+    },
     "baergan": {
       "type": "place",
       "label": "巴尔干",
@@ -735,6 +745,16 @@
         "武装抵抗"
       ],
       "path": "di/抵抗.md"
+    },
+    "dongwumiejue": {
+      "type": "concept",
+      "label": "动物灭绝",
+      "aliases": [
+        "extinction",
+        "物种灭绝",
+        "大型动物灭绝"
+      ],
+      "path": "do/dongwumiejue.md"
     },
     "dou-lei": {
       "type": "concept",
@@ -1859,6 +1879,15 @@
       ],
       "path": "me/meisuobudamiya.md"
     },
+    "meizhoudulifazhan": {
+      "type": "concept",
+      "label": "美洲独立发展",
+      "aliases": [
+        "independent development in Americas",
+        "美洲独立农业"
+      ],
+      "path": "me/meizhoudulifazhan.md"
+    },
     "menggu-diguo": {
       "type": "event",
       "label": "蒙古帝国",
@@ -2057,6 +2086,15 @@
       ],
       "path": "mi/面包果.md"
     },
+    "moerzibigang": {
+      "type": "place",
+      "label": "莫尔兹比港",
+      "aliases": [
+        "Port Moresby",
+        "巴布亚新几内亚首都"
+      ],
+      "path": "mo/moerzibigang.md"
+    },
     "moxige": {
       "type": "place",
       "label": "墨西哥",
@@ -2216,6 +2254,16 @@
         "酒精"
       ],
       "path": "ni/酿酒.md"
+    },
+    "nongyeqiyuan": {
+      "type": "concept",
+      "label": "农业起源",
+      "aliases": [
+        "origins of agriculture",
+        "农业革命",
+        "新石器时代革命"
+      ],
+      "path": "no/nongyeqiyuan.md"
     },
     "农业": {
       "type": "concept",
@@ -4070,6 +4118,11 @@
     "阿塔瓦尔帕": "阿塔瓦尔帕",
     "Atahualpa": "阿塔瓦尔帕",
     "阿塔华帕": "阿塔瓦尔帕",
+    "aziteke": "aziteke",
+    "阿兹特克": "aziteke",
+    "Aztec": "aziteke",
+    "阿兹特克帝国": "aziteke",
+    "墨西加": "aziteke",
     "baergan": "baergan",
     "巴尔干": "baergan",
     "Balkans": "baergan",
@@ -4270,6 +4323,11 @@
     "抵抗": "抵抗",
     "反抗": "抵抗",
     "武装抵抗": "抵抗",
+    "dongwumiejue": "dongwumiejue",
+    "动物灭绝": "dongwumiejue",
+    "extinction": "dongwumiejue",
+    "物种灭绝": "dongwumiejue",
+    "大型动物灭绝": "dongwumiejue",
     "dou-lei": "dou-lei",
     "豆类": "dou-lei",
     "legumes": "dou-lei",
@@ -4679,6 +4737,10 @@
     "美索不达米亚": "meisuobudamiya",
     "Mesopotamia": "meisuobudamiya",
     "两河流域": "meisuobudamiya",
+    "meizhoudulifazhan": "meizhoudulifazhan",
+    "美洲独立发展": "meizhoudulifazhan",
+    "independent development in Americas": "meizhoudulifazhan",
+    "美洲独立农业": "meizhoudulifazhan",
     "menggu-diguo": "menggu-diguo",
     "蒙古帝国": "menggu-diguo",
     "Mongol Empire": "menggu-diguo",
@@ -4724,8 +4786,6 @@
     "族群": "民族",
     "民族形成": "民族",
     "灭绝": "灭绝",
-    "extinction": "灭绝",
-    "物种灭绝": "灭绝",
     "绵羊": "绵羊",
     "羊": "绵羊",
     "家羊": "绵羊",
@@ -4736,6 +4796,10 @@
     "家蜂": "蜜蜂",
     "面包果": "面包果",
     "breadfruit": "面包果",
+    "moerzibigang": "moerzibigang",
+    "莫尔兹比港": "moerzibigang",
+    "Port Moresby": "moerzibigang",
+    "巴布亚新几内亚首都": "moerzibigang",
     "moxige": "moxige",
     "墨西哥": "moxige",
     "Mexico": "moxige",
@@ -4788,12 +4852,15 @@
     "酿酒": "酿酒",
     "发酵": "酿酒",
     "酒精": "酿酒",
+    "nongyeqiyuan": "nongyeqiyuan",
+    "农业起源": "nongyeqiyuan",
+    "origins of agriculture": "nongyeqiyuan",
+    "农业革命": "nongyeqiyuan",
+    "新石器时代革命": "nongyeqiyuan",
     "农业": "农业",
     "agriculture": "农业",
     "作物栽培": "农业",
     "种植业": "农业",
-    "农业革命": "农业革命",
-    "新石器时代革命": "农业革命",
     "奴隶": "奴隶",
     "奴隶制": "奴隶",
     "奴隶劳动": "奴隶",
@@ -5403,6 +5470,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 444,
-  "generated": "2026-05-26T10:42:01Z"
+  "page_count": 449,
+  "generated": "2026-05-26T10:46:23Z"
 }

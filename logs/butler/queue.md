@@ -8,7 +8,7 @@
 
 ### P2 stub（红链 1–2）
 
-- [ ] P2 stub | 农业起源 | concept | 红链 ×2
+- [x] P2 stub | 农业起源 | concept | 红链 ×2
 - [ ] P2 stub | 碳14测年 | concept | 红链 ×1
 - [ ] P2 stub | 西藏高原 | place | 红链 ×1
 - [ ] P2 stub | 社会复杂化 | concept | 红链 ×1
@@ -16,7 +16,7 @@
 - [ ] P2 stub | 楔形文字 | concept | 红链 ×1
 - [ ] P2 stub | 地理屏障 | concept | 红链 ×1
 - [ ] P2 stub | 太平洋 | place | 红链 ×1
-- [ ] P2 stub | 动物灭绝 | event | 红链 ×1
+- [x] P2 stub | 动物灭绝 | event | 红链 ×1
 - [ ] P2 stub | 金属冶炼 | concept | 红链 ×1
 - [ ] P2 stub | 战马 | concept | 红链 ×1
 - [ ] P2 stub | 豆类 | concept | 红链 ×1
@@ -63,8 +63,8 @@
 - [ ] P2 stub | 罗马帝国 | event | 红链 ×1
 - [ ] P2 stub | 乡村 | concept | 红链 ×1
 - [ ] P2 stub | 澳大利亚 | place | 红链 ×1
-- [ ] P2 stub | 莫尔兹比港 | place | 红链 ×1
-- [ ] P2 stub | 阿兹特克 | concept | 红链 ×1
+- [x] P2 stub | 莫尔兹比港 | place | 红链 ×1
+- [x] P2 stub | 阿兹特克 | concept | 红链 ×1
 - [ ] P2 stub | 封建制度 | concept | 红链 ×1
 - [ ] P2 stub | 人口密度 | concept | 红链 ×1
 - [ ] P2 stub | 技术停滞 | concept | 红链 ×1
