@@ -26,11 +26,11 @@
 
 ### P1 create（红链引用 ≥ 3）
 
-- [ ] P1 create | 征服 | concept | 红链 ×11
+- [x] P1 create | 征服 | concept | 红链 ×11
 - [ ] P1 create | 酋长制 | concept | 红链 ×9
 - [ ] P1 create | 美索不达米亚 | place | 红链 ×6
 - [ ] P1 create | 台湾 | place | 红链 ×5
-- [ ] P1 create | 东西轴线 | concept | 红链 ×5
+- [x] P1 create | 东西轴线 | concept | 红链 ×5
 - [ ] P1 create | 印度尼西亚 | place | 红链 ×4
 - [ ] P1 create | 南岛人扩张 | event | 红链 ×4
 - [ ] P1 create | 北美洲 | place | 红链 ×4
@@ -55,7 +55,7 @@
 - [ ] P2 stub | 新大陆 | place | 红链 ×2
 - [ ] P2 stub | 撒哈拉 | place | 红链 ×2
 - [ ] P2 stub | 夏威夷 | place | 红链 ×2
-- [ ] P2 stub | 卡哈马卡战役 | event | 红链 ×2
+- [x] P2 stub | 卡哈马卡战役 | event | 红链 ×2
 - [ ] P2 stub | 马达加斯加 | place | 红链 ×1
 - [ ] P2 stub | 车轮 | concept | 红链 ×1
 - [ ] P2 stub | 蒙古帝国 | event | 红链 ×1
@@ -68,8 +68,8 @@
 - [ ] P2 stub | 封建制度 | concept | 红链 ×1
 - [ ] P2 stub | 人口密度 | concept | 红链 ×1
 - [ ] P2 stub | 技术停滞 | concept | 红链 ×1
-- [ ] P2 stub | 科尔特斯 | person | 红链 ×1
-- [ ] P2 stub | 皮萨罗 | person | 红链 ×1
+- [x] P2 stub | 科尔特斯 | person | 红链 ×1
+- [x] P2 stub | 皮萨罗 | person | 红链 ×1
 - [ ] P2 stub | 采集狩猎 | concept | 红链 ×1
 - [ ] P2 stub | 冰川 | place | 红链 ×1
 - [ ] P2 stub | 全球变暖 | concept | 红链 ×1

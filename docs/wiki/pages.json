@@ -2014,6 +2014,31 @@
       "quality_score": 13,
       "total_refs": 1
     },
+    "dongxizhouxian": {
+      "type": "concept",
+      "label": "东西轴线",
+      "aliases": [
+        "east-west axis",
+        "大陆轴线",
+        "欧亚大陆轴向"
+      ],
+      "tags": [
+        "地理",
+        "理论",
+        "农业"
+      ],
+      "path": "do/dongxizhouxian.md",
+      "description": "欧亚大陆东西走向的主轴线，戴蒙德用以解释为何欧亚大陆的作物和技术传播速度远快于美洲和非洲",
+      "prose_len": 490,
+      "prose_chars": 484,
+      "h2_count": 0,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
+    },
     "dou-lei": {
       "type": "concept",
       "label": "豆类",
@@ -4101,6 +4126,30 @@
       "quality_score": 59,
       "total_refs": 2
     },
+    "kahamakazhanyi": {
+      "type": "event",
+      "label": "卡哈马卡战役",
+      "aliases": [
+        "Battle of Cajamarca",
+        "卡哈马卡之战"
+      ],
+      "tags": [
+        "历史",
+        "军事",
+        "美洲"
+      ],
+      "path": "ka/kahamakazhanyi.md",
+      "description": "皮萨罗俘虏印加皇帝阿塔瓦尔帕的关键战役，戴蒙德用以作为全书开篇的核心案例",
+      "prose_len": 532,
+      "prose_chars": 526,
+      "h2_count": 0,
+      "pn_count": 5,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 10,
+      "total_refs": 0
+    },
     "卡哈马卡": {
       "type": "place",
       "label": "卡哈马卡",
@@ -4219,6 +4268,31 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
+      "total_refs": 0
+    },
+    "keertesi": {
+      "type": "person",
+      "label": "埃尔南·科尔特斯",
+      "aliases": [
+        "Hernán Cortés",
+        "科尔特斯"
+      ],
+      "tags": [
+        "人物",
+        "探险家",
+        "征服者"
+      ],
+      "path": "ke/keertesi.md",
+      "description": "征服阿兹特克帝国的西班牙探险家，戴蒙德用以分析欧洲军事技术、病菌和当地盟友在征服中的作用",
+      "prose_len": 501,
+      "prose_chars": 497,
+      "h2_count": 0,
+      "pn_count": 4,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 10,
+      "affiliation": "西班牙",
       "total_refs": 0
     },
     "keluoweiwenhua": {
@@ -6139,6 +6213,31 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
+      "total_refs": 0
+    },
+    "pisaluo": {
+      "type": "person",
+      "label": "弗朗西斯科·皮萨罗",
+      "aliases": [
+        "Francisco Pizarro",
+        "皮萨罗"
+      ],
+      "tags": [
+        "人物",
+        "探险家",
+        "征服者"
+      ],
+      "path": "pi/pisaluo.md",
+      "description": "征服印加帝国的西班牙探险家，戴蒙德以卡哈马卡战役作为全书开篇和分析的中心案例",
+      "prose_len": 487,
+      "prose_chars": 483,
+      "h2_count": 0,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "affiliation": "西班牙",
       "total_refs": 0
     },
     "平原": {
@@ -9923,6 +10022,31 @@
       "quality_score": 9,
       "total_refs": 1
     },
+    "zhengfu": {
+      "type": "concept",
+      "label": "征服",
+      "aliases": [
+        "conquest",
+        "军事征服",
+        "扩张"
+      ],
+      "tags": [
+        "历史",
+        "政治",
+        "军事"
+      ],
+      "path": "zh/zhengfu.md",
+      "description": "通过军事力量征服其他社会的过程，戴蒙德用以分析文明碰撞中技术差距的放大效应",
+      "prose_len": 500,
+      "prose_chars": 494,
+      "h2_count": 0,
+      "pn_count": 4,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 10,
+      "total_refs": 0
+    },
     "zhili": {
       "type": "place",
       "label": "智利",
@@ -10955,6 +11079,9 @@
     "extinction": "dongwumiejue",
     "物种灭绝": "dongwumiejue",
     "大型动物灭绝": "dongwumiejue",
+    "dongxizhouxian": "dongxizhouxian",
+    "east-west axis": "dongxizhouxian",
+    "欧亚大陆轴向": "dongxizhouxian",
     "dou-lei": "dou-lei",
     "豆类": "dou-lei",
     "legumes": "dou-lei",
@@ -10963,7 +11090,6 @@
     "东南亚": "东南亚",
     "Southeast Asia": "东南亚",
     "热带东南亚": "东南亚",
-    "east-west axis": "东西轴线",
     "东西轴": "东西轴线",
     "动物": "动物",
     "野生动物": "动物",
@@ -11245,11 +11371,12 @@
     "megafauna": "巨型动物",
     "大型哺乳动物": "巨型动物",
     "史前动物灭绝": "巨型动物",
+    "kahamakazhanyi": "kahamakazhanyi",
+    "卡哈马卡战役": "kahamakazhanyi",
+    "Battle of Cajamarca": "kahamakazhanyi",
+    "卡哈马卡之战": "kahamakazhanyi",
     "卡哈马卡": "卡哈马卡",
     "Cajamarca": "卡哈马卡",
-    "卡哈马卡战役": "卡哈马卡",
-    "卡哈马卡之战": "卡哈马卡之战",
-    "Battle of Cajamarca": "卡哈马卡之战",
     "1532年卡哈马卡战役": "卡哈马卡之战",
     "考古学": "考古学",
     "archaeology": "考古学",
@@ -11258,6 +11385,10 @@
     "考古遗址": "考古遗址",
     "遗址": "考古遗址",
     "考古发掘": "考古遗址",
+    "keertesi": "keertesi",
+    "埃尔南·科尔特斯": "keertesi",
+    "Hernán Cortés": "keertesi",
+    "科尔特斯": "keertesi",
     "keluoweiwenhua": "keluoweiwenhua",
     "克罗维文化": "keluoweiwenhua",
     "Clovis culture": "keluoweiwenhua",
@@ -11267,9 +11398,6 @@
     "科学方法": "科学",
     "科学观点": "科学",
     "历史科学": "科学",
-    "科尔特斯": "科尔特斯",
-    "埃尔南·科尔特斯": "科尔特斯",
-    "Hernán Cortés": "科尔特斯",
     "kuke": "kuke",
     "詹姆斯·库克": "kuke",
     "James Cook": "kuke",
@@ -11504,6 +11632,10 @@
     "European Colonization of Africa": "欧洲殖民非洲",
     "非洲殖民": "欧洲殖民非洲",
     "欧洲征服非洲": "欧洲殖民非洲",
+    "pisaluo": "pisaluo",
+    "弗朗西斯科·皮萨罗": "pisaluo",
+    "Francisco Pizarro": "pisaluo",
+    "皮萨罗": "pisaluo",
     "平原": "平原",
     "大平原": "平原",
     "冲积平原": "平原",
@@ -11512,9 +11644,6 @@
     "庶民": "平民",
     "普通人": "平民",
     "非精英阶层": "平民",
-    "皮萨罗": "皮萨罗",
-    "弗朗西斯科·皮萨罗": "皮萨罗",
-    "Francisco Pizarro": "皮萨罗",
     "Preface": "Preface",
     "葡萄": "葡萄",
     "葡萄藤": "葡萄",
@@ -11994,6 +12123,8 @@
     "战马": "zhan-ma",
     "warhorse": "zhan-ma",
     "军马": "zhan-ma",
+    "zhengfu": "zhengfu",
+    "conquest": "zhengfu",
     "zhili": "zhili",
     "智利": "zhili",
     "Chile": "zhili",
@@ -12011,7 +12142,6 @@
     "Mesoamerica": "中美洲",
     "美索美洲": "中美洲",
     "制陶": "制陶",
-    "conquest": "征服",
     "征服者": "征服者",
     "conquistador": "征服者",
     "军事征服者": "征服者",
@@ -12097,6 +12227,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 449,
-  "generated": "2026-05-26T10:54:38Z"
+  "page_count": 454,
+  "generated": "2026-05-26T10:56:23Z"
 }
