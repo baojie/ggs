@@ -66,7 +66,7 @@
       "blockquote_count": 0,
       "quality": "stub",
       "quality_score": 1,
-      "total_refs": 0
+      "total_refs": 2
     },
     "ai-xiao-hei-ren": {
       "type": "person",
@@ -139,7 +139,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 4
+      "total_refs": 5
     },
     "埃塞俄比亚": {
       "type": "place",
@@ -470,7 +470,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 17
+      "total_refs": 18
     },
     "阿塔瓦尔帕": {
       "type": "person",
@@ -701,7 +701,7 @@
       "pn_count": 7,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 2
+      "total_refs": 3
     },
     "ban-zhen-shang-han": {
       "type": "concept",
@@ -981,7 +981,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 6
+      "total_refs": 7
     },
     "被引用最多页面": {
       "type": "list",
@@ -2186,7 +2186,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 8,
-      "total_refs": 0
+      "total_refs": 1
     },
     "da-ben-keng-wen-hua": {
       "type": "concept",
@@ -3849,7 +3849,7 @@
       "quality": "featured",
       "quality_score": 58,
       "affiliation": "西班牙王国",
-      "total_refs": 4
+      "total_refs": 5
     },
     "哥伦布航行与两个半球的碰撞": {
       "type": "event",
@@ -4050,7 +4050,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 0
+      "total_refs": 1
     },
     "狗": {
       "type": "species",
@@ -6137,7 +6137,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 8,
-      "total_refs": 3
+      "total_refs": 4
     },
     "劳动分工": {
       "type": "concept",
@@ -8027,7 +8027,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 17
+      "total_refs": 18
     },
     "南岛语族": {
       "type": "concept",
@@ -8135,14 +8135,14 @@
       ],
       "path": "ni/ni-ri-er-gang-guo-yu-xi.md",
       "description": "非洲最大的语系，包括班图语支在内的约1032种语言，覆盖撒哈拉以南非洲的广大地区",
-      "prose_len": 162,
-      "prose_chars": 162,
-      "h2_count": 0,
-      "pn_count": 1,
-      "wikilink_count": 0,
+      "prose_len": 535,
+      "prose_chars": 479,
+      "h2_count": 4,
+      "pn_count": 7,
+      "wikilink_count": 3,
       "blockquote_count": 0,
       "quality": "stub",
-      "quality_score": 1,
+      "quality_score": 5,
       "total_refs": 2
     },
     "niandetelian": {
@@ -9636,15 +9636,15 @@
       ],
       "path": "sh/shan-yu-zu.md",
       "description": "阿非罗-亚细亚语系的主要分支之一，包括希伯来语、阿拉伯语、阿拉姆语和腓尼基语等历史语言",
-      "prose_len": 177,
-      "prose_chars": 177,
-      "h2_count": 0,
-      "pn_count": 1,
-      "wikilink_count": 0,
+      "prose_len": 444,
+      "prose_chars": 382,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "stub",
-      "quality_score": 1,
-      "total_refs": 0
+      "quality_score": 4,
+      "total_refs": 1
     },
     "she-hui-fu-za-hua": {
       "type": "concept",
@@ -10475,7 +10475,7 @@
       "blockquote_count": 0,
       "quality": "stub",
       "quality_score": 1,
-      "total_refs": 0
+      "total_refs": 1
     },
     "su-mei-er-ren": {
       "type": "person",
@@ -10870,14 +10870,14 @@
       ],
       "path": "tu/tuo-lei-si-hai-xia.md",
       "description": "连接澳大利亚与新几内亚的海峡，更新世时期为陆桥，在人类迁移和生物地理学上具有重要意义",
-      "prose_len": 311,
-      "prose_chars": 309,
-      "h2_count": 0,
-      "pn_count": 0,
-      "wikilink_count": 0,
+      "prose_len": 715,
+      "prose_chars": 655,
+      "h2_count": 4,
+      "pn_count": 8,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "basic",
-      "quality_score": 8,
+      "quality_score": 12,
       "total_refs": 0
     },
     "tuo-niao": {
@@ -11112,14 +11112,14 @@
       ],
       "path": "we/wen-lan.md",
       "description": "古挪威人在北美东北部沿海的殖民据点，位于今加拿大纽芬兰岛",
-      "prose_len": 342,
-      "prose_chars": 340,
-      "h2_count": 0,
-      "pn_count": 0,
-      "wikilink_count": 0,
+      "prose_len": 566,
+      "prose_chars": 487,
+      "h2_count": 4,
+      "pn_count": 2,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "basic",
-      "quality_score": 8,
+      "quality_score": 10,
       "total_refs": 0
     },
     "文化": {
@@ -11577,14 +11577,14 @@
       ],
       "path": "xi/xian-wai-fu-cai.md",
       "description": "安装在独木舟一侧的浮木支架，为远洋航行提供关键稳定性，是南岛人远洋扩张的核心技术",
-      "prose_len": 296,
-      "prose_chars": 294,
-      "h2_count": 0,
-      "pn_count": 0,
-      "wikilink_count": 0,
+      "prose_len": 546,
+      "prose_chars": 489,
+      "h2_count": 4,
+      "pn_count": 4,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "basic",
-      "quality_score": 7,
+      "quality_score": 10,
       "total_refs": 0
     },
     "xian-wei-zuo-wu": {
@@ -11867,7 +11867,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 5
+      "total_refs": 6
     },
     "xiexing-wenzi": {
       "type": "concept",
@@ -12103,7 +12103,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 26
+      "total_refs": 28
     },
     "新月沃地": {
       "type": "concept",
@@ -14477,7 +14477,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 2
+      "total_refs": 3
     },
     "字母文字的传播": {
       "type": "event",
@@ -16721,5 +16721,5 @@
     "驯化作物": "作物驯化"
   },
   "page_count": 618,
-  "generated": "2026-05-26T16:39:33Z"
+  "generated": "2026-05-26T16:40:42Z"
 }
