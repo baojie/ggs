@@ -12774,6 +12774,31 @@
       "quality_score": 28,
       "total_refs": 0
     },
+    "质量索引": {
+      "type": "list",
+      "label": "质量索引",
+      "aliases": [
+        "质量分布",
+        "质量统计",
+        "quality index"
+      ],
+      "tags": [
+        "索引",
+        "质量",
+        "统计"
+      ],
+      "path": "zh/质量索引.md",
+      "description": "本 wiki 所有页面的质量等级分布索引，用于追踪 GROW 进度和内容深度覆盖",
+      "prose_len": 720,
+      "prose_chars": 524,
+      "h2_count": 4,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 12,
+      "total_refs": 0
+    },
     "长江": {
       "type": "place",
       "label": "长江",
@@ -14758,6 +14783,10 @@
     "纸张": "纸张",
     "纸": "纸张",
     "paper": "纸张",
+    "质量索引": "质量索引",
+    "质量分布": "质量索引",
+    "质量统计": "质量索引",
+    "quality index": "质量索引",
     "长江": "长江",
     "Yangtze": "长江",
     "扬子江": "长江",
@@ -14804,6 +14833,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 548,
-  "generated": "2026-05-26T12:55:48Z"
+  "page_count": 549,
+  "generated": "2026-05-26T12:58:04Z"
 }
