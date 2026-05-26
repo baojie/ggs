@@ -128,6 +128,14 @@
       ],
       "path": "al/阿拉姆语.md"
     },
+    "阿拉弗拉海": {
+      "type": "place",
+      "label": "阿拉弗拉海",
+      "aliases": [
+        "Arafura Sea"
+      ],
+      "path": "al/阿拉弗拉海.md"
+    },
     "an-da-man-qun-dao": {
       "type": "place",
       "label": "安达曼群岛",
@@ -290,6 +298,15 @@
         "白令吉亚"
       ],
       "path": "ba/bai-ling-lu-qiao.md"
+    },
+    "bai-ri-ke": {
+      "type": "disease",
+      "label": "百日咳",
+      "aliases": [
+        "whooping cough",
+        "pertussis"
+      ],
+      "path": "ba/bai-ri-ke.md"
     },
     "bailatu": {
       "type": "person",
@@ -478,6 +495,23 @@
         "小扁豆"
       ],
       "path": "bi/兵豆.md"
+    },
+    "冰岛": {
+      "type": "place",
+      "label": "冰岛",
+      "aliases": [
+        "Iceland"
+      ],
+      "path": "bi/冰岛.md"
+    },
+    "比较方法": {
+      "type": "concept",
+      "label": "比较方法",
+      "aliases": [
+        "comparative method",
+        "比较法"
+      ],
+      "path": "bi/比较方法.md"
     },
     "病原体": {
       "type": "concept",
@@ -752,6 +786,15 @@
       ],
       "path": "ch/cha-ta-mu-qun-dao.md"
     },
+    "chang-bei-jun": {
+      "type": "concept",
+      "label": "常备军",
+      "aliases": [
+        "standing army",
+        "职业军队"
+      ],
+      "path": "ch/chang-bei-jun.md"
+    },
     "chang-jing-lu": {
       "type": "species",
       "label": "长颈鹿",
@@ -978,6 +1021,16 @@
         "戴蒙德"
       ],
       "path": "da/daimengde.md"
+    },
+    "dan-feng-luo-tuo": {
+      "type": "species",
+      "label": "单峰骆驼",
+      "aliases": [
+        "dromedary",
+        "阿拉伯单峰骆驼",
+        "Camelus dromedarius"
+      ],
+      "path": "da/dan-feng-luo-tuo.md"
     },
     "dan-li-xiao-mai": {
       "type": "species",
@@ -1272,6 +1325,16 @@
         "多多鸟"
       ],
       "path": "du/du-du-niao.md"
+    },
+    "独木舟": {
+      "type": "concept",
+      "label": "独木舟",
+      "aliases": [
+        "dugout canoe",
+        "canoe",
+        "独木船"
+      ],
+      "path": "du/独木舟.md"
     },
     "鹅": {
       "type": "species",
@@ -1637,6 +1700,14 @@
       ],
       "path": "ge/革命.md"
     },
+    "工业革命": {
+      "type": "event",
+      "label": "工业革命",
+      "aliases": [
+        "Industrial Revolution"
+      ],
+      "path": "go/工业革命.md"
+    },
     "工具": {
       "type": "concept",
       "label": "工具",
@@ -1878,6 +1949,15 @@
       ],
       "path": "he/黑死病.md"
     },
+    "黑脚族": {
+      "type": "person",
+      "label": "黑脚族",
+      "aliases": [
+        "Blackfoot",
+        "Blackfeet"
+      ],
+      "path": "he/黑脚族.md"
+    },
     "hu-lu": {
       "type": "species",
       "label": "葫芦",
@@ -2075,6 +2155,14 @@
       ],
       "path": "ji/ji-shu-ting-zhi.md"
     },
+    "ji-shu-yu-jing-ji-suo-yin": {
+      "type": "list",
+      "label": "技术与经济索引",
+      "aliases": [
+        "Technology and Economy Index"
+      ],
+      "path": "ji/ji-shu-yu-jing-ji-suo-yin.md"
+    },
     "jia-jie": {
       "type": "concept",
       "label": "嫁接",
@@ -2179,6 +2267,15 @@
         "Old World"
       ],
       "path": "ji/旧大陆.md"
+    },
+    "机械": {
+      "type": "concept",
+      "label": "机械",
+      "aliases": [
+        "machinery",
+        "机器"
+      ],
+      "path": "ji/机械.md"
     },
     "疾病": {
       "type": "concept",
@@ -2513,6 +2610,15 @@
       ],
       "path": "ku/kuke.md"
     },
+    "库斯科": {
+      "type": "place",
+      "label": "库斯科",
+      "aliases": [
+        "Cusco",
+        "Cuzco"
+      ],
+      "path": "ku/库斯科.md"
+    },
     "扩张": {
       "type": "concept",
       "label": "扩张",
@@ -2589,6 +2695,15 @@
         "词条类型索引"
       ],
       "path": "le/lei-xing-suo-yin.md"
+    },
+    "li-ji": {
+      "type": "disease",
+      "label": "痢疾",
+      "aliases": [
+        "dysentery",
+        "细菌性痢疾"
+      ],
+      "path": "li/li-ji.md"
     },
     "li-ma-dou": {
       "type": "species",
@@ -2730,6 +2845,16 @@
         "有轮车"
       ],
       "path": "lu/轮子.md"
+    },
+    "轮船": {
+      "type": "concept",
+      "label": "轮船",
+      "aliases": [
+        "steamship",
+        "蒸汽船",
+        "steamboat"
+      ],
+      "path": "lu/轮船.md"
     },
     "骆驼": {
       "type": "species",
@@ -2894,6 +3019,16 @@
         "Measles morbillivirus"
       ],
       "path": "ma/麻疹.md"
+    },
+    "麻风": {
+      "type": "disease",
+      "label": "麻风",
+      "aliases": [
+        "leprosy",
+        "汉森氏病",
+        "Hansen's disease"
+      ],
+      "path": "ma/麻风.md"
     },
     "mei-du": {
       "type": "concept",
@@ -3427,6 +3562,14 @@
       ],
       "path": "ni/酿酒.md"
     },
+    "nong-ye-yu-xun-hua-suo-yin": {
+      "type": "list",
+      "label": "农业与驯化索引",
+      "aliases": [
+        "Agriculture and Domestication Index"
+      ],
+      "path": "no/nong-ye-yu-xun-hua-suo-yin.md"
+    },
     "nongyeqiyuan": {
       "type": "concept",
       "label": "农业起源",
@@ -3454,6 +3597,16 @@
         "新石器时代革命"
       ],
       "path": "no/农业革命.md"
+    },
+    "nu-li-mao-yi": {
+      "type": "event",
+      "label": "奴隶贸易",
+      "aliases": [
+        "slave trade",
+        "跨大西洋奴隶贸易",
+        "黑奴贸易"
+      ],
+      "path": "nu/nu-li-mao-yi.md"
     },
     "奴隶": {
       "type": "concept",
@@ -3974,6 +4127,15 @@
       ],
       "path": "sh/sheng-tai-zi-sha.md"
     },
+    "sheng-yu-jian-ge": {
+      "type": "concept",
+      "label": "生育间隔",
+      "aliases": [
+        "birth spacing",
+        "生育间隔机制"
+      ],
+      "path": "sh/sheng-yu-jian-ge.md"
+    },
     "shi-zu": {
       "type": "concept",
       "label": "氏族",
@@ -4004,6 +4166,15 @@
         "糜子"
       ],
       "path": "sh/shu.md"
+    },
+    "shuang-feng-luo-tuo": {
+      "type": "species",
+      "label": "双峰骆驼",
+      "aliases": [
+        "Bactrian camel",
+        "Camelus bactrianus"
+      ],
+      "path": "sh/shuang-feng-luo-tuo.md"
     },
     "书写": {
       "type": "concept",
@@ -4401,6 +4572,24 @@
       ],
       "path": "te/te-le-a-bu-hu-rui-la.md"
     },
+    "特诺奇蒂特兰": {
+      "type": "place",
+      "label": "特诺奇蒂特兰",
+      "aliases": [
+        "Tenochtitlan",
+        "Tenochtitlán"
+      ],
+      "path": "te/特诺奇蒂特兰.md"
+    },
+    "tie-lu": {
+      "type": "concept",
+      "label": "铁路",
+      "aliases": [
+        "railway",
+        "铁道"
+      ],
+      "path": "ti/tie-lu.md"
+    },
     "天花": {
       "type": "concept",
       "label": "天花",
@@ -4492,6 +4681,16 @@
         "地力"
       ],
       "path": "tu/土壤.md"
+    },
+    "托尔斯泰": {
+      "type": "person",
+      "label": "列夫·托尔斯泰",
+      "aliases": [
+        "Tolstoy",
+        "托尔斯泰",
+        "Leo Tolstoy"
+      ],
+      "path": "tu/托尔斯泰.md"
     },
     "突变": {
       "type": "concept",
@@ -5026,6 +5225,16 @@
       ],
       "path": "xi/现代人.md"
     },
+    "苋菜": {
+      "type": "species",
+      "label": "苋菜",
+      "aliases": [
+        "amaranth",
+        "Amaranthus",
+        "苋属"
+      ],
+      "path": "xi/苋菜.md"
+    },
     "行政": {
       "type": "concept",
       "label": "行政",
@@ -5095,6 +5304,16 @@
       ],
       "path": "xu/驯鹿.md"
     },
+    "ya-ma-sun": {
+      "type": "place",
+      "label": "亚马孙",
+      "aliases": [
+        "Amazon",
+        "亚马孙雨林",
+        "亚马孙河流域"
+      ],
+      "path": "ya/ya-ma-sun.md"
+    },
     "ya-nuo-ma-ma-ren": {
       "type": "person",
       "label": "雅诺马马人",
@@ -5130,6 +5349,15 @@
         "亚历山大"
       ],
       "path": "ya/亚历山大大帝.md"
+    },
+    "亚洲象": {
+      "type": "species",
+      "label": "亚洲象",
+      "aliases": [
+        "Asian elephant",
+        "Elephas maximus"
+      ],
+      "path": "ya/亚洲象.md"
     },
     "亚麻": {
       "type": "concept",
@@ -5186,6 +5414,16 @@
         "家鸭"
       ],
       "path": "ya/鸭.md"
+    },
+    "ye-ma": {
+      "type": "species",
+      "label": "野马",
+      "aliases": [
+        "Przewalski's horse",
+        "Equus ferus przewalskii",
+        "普尔热瓦尔斯基马"
+      ],
+      "path": "ye/ye-ma.md"
     },
     "ye-mian-da-xiao-pai-hang": {
       "type": "list",
@@ -5249,6 +5487,16 @@
         "野生小麦"
       ],
       "path": "ye/野生谷物.md"
+    },
+    "野苹果": {
+      "type": "species",
+      "label": "野苹果",
+      "aliases": [
+        "wild apple",
+        "Malus sylvestris",
+        "野生苹果"
+      ],
+      "path": "ye/野苹果.md"
     },
     "yi-nu-te-ren": {
       "type": "person",
@@ -5316,6 +5564,15 @@
         "马来群岛"
       ],
       "path": "yi/yindunixiya.md"
+    },
+    "ying-ge-lan": {
+      "type": "place",
+      "label": "英格兰",
+      "aliases": [
+        "England",
+        "英国的核心地区"
+      ],
+      "path": "yi/ying-ge-lan.md"
     },
     "ying-su": {
       "type": "species",
@@ -5489,6 +5746,14 @@
       ],
       "path": "yo/游牧.md"
     },
+    "yu-yan-wen-zi-suo-yin": {
+      "type": "list",
+      "label": "语言与文字索引",
+      "aliases": [
+        "Language and Writing Index"
+      ],
+      "path": "yu/yu-yan-wen-zi-suo-yin.md"
+    },
     "yuan-shi-nan-dao-yu": {
       "type": "concept",
       "label": "原始南岛语",
@@ -5506,6 +5771,15 @@
         "约旦河"
       ],
       "path": "yu/yue-dan-he-gu.md"
+    },
+    "yun-he": {
+      "type": "concept",
+      "label": "运河",
+      "aliases": [
+        "canal",
+        "人工河道"
+      ],
+      "path": "yu/yun-he.md"
     },
     "渔业": {
       "type": "concept",
@@ -5603,6 +5877,15 @@
       ],
       "path": "yu/雨林.md"
     },
+    "zao-zhi": {
+      "type": "concept",
+      "label": "造纸",
+      "aliases": [
+        "造纸术",
+        "papermaking"
+      ],
+      "path": "za/zao-zhi.md"
+    },
     "再分配": {
       "type": "concept",
       "label": "再分配",
@@ -5641,6 +5924,15 @@
         "三宝太监"
       ],
       "path": "zh/zheng-he.md"
+    },
+    "zheng-qi-ji": {
+      "type": "concept",
+      "label": "蒸汽机",
+      "aliases": [
+        "steam engine",
+        "蒸汽发动机"
+      ],
+      "path": "zh/zheng-qi-ji.md"
     },
     "zheng-zhi-fen-lie": {
       "type": "concept",
@@ -5713,6 +6005,15 @@
         "周代"
       ],
       "path": "zh/zhou-chao.md"
+    },
+    "zhuan-li": {
+      "type": "concept",
+      "label": "专利",
+      "aliases": [
+        "patent",
+        "专利权"
+      ],
+      "path": "zh/zhuan-li.md"
     },
     "zhuan-zhi-jie-ceng": {
       "type": "concept",
@@ -6100,6 +6401,8 @@
     "Aramaic": "阿拉姆语",
     "阿拉姆语字母": "阿拉姆语",
     "阿拉姆字母": "阿拉姆语",
+    "阿拉弗拉海": "阿拉弗拉海",
+    "Arafura Sea": "阿拉弗拉海",
     "an-da-man-qun-dao": "an-da-man-qun-dao",
     "安达曼群岛": "an-da-man-qun-dao",
     "Andaman Islands": "an-da-man-qun-dao",
@@ -6163,6 +6466,10 @@
     "白令陆桥": "bai-ling-lu-qiao",
     "Bering Land Bridge": "bai-ling-lu-qiao",
     "白令吉亚": "bai-ling-lu-qiao",
+    "bai-ri-ke": "bai-ri-ke",
+    "百日咳": "bai-ri-ke",
+    "whooping cough": "bai-ri-ke",
+    "pertussis": "bai-ri-ke",
     "bailatu": "bailatu",
     "柏拉图": "bailatu",
     "Plato": "bailatu",
@@ -6230,6 +6537,11 @@
     "Lens culinaris": "bing-dou",
     "扁豆": "兵豆",
     "小扁豆": "兵豆",
+    "冰岛": "冰岛",
+    "Iceland": "冰岛",
+    "比较方法": "比较方法",
+    "comparative method": "比较方法",
+    "比较法": "比较方法",
     "病原体": "病原体",
     "致病原": "病原体",
     "pathogen": "病原体",
@@ -6311,6 +6623,10 @@
     "查塔姆群岛": "cha-ta-mu-qun-dao",
     "Chatham Islands": "cha-ta-mu-qun-dao",
     "查塔姆": "cha-ta-mu-qun-dao",
+    "chang-bei-jun": "chang-bei-jun",
+    "常备军": "chang-bei-jun",
+    "standing army": "chang-bei-jun",
+    "职业军队": "chang-bei-jun",
     "chang-jing-lu": "chang-jing-lu",
     "长颈鹿": "chang-jing-lu",
     "giraffe": "chang-jing-lu",
@@ -6406,6 +6722,11 @@
     "贾雷德·戴蒙德": "daimengde",
     "Jared Diamond": "daimengde",
     "戴蒙德": "daimengde",
+    "dan-feng-luo-tuo": "dan-feng-luo-tuo",
+    "单峰骆驼": "dan-feng-luo-tuo",
+    "dromedary": "dan-feng-luo-tuo",
+    "阿拉伯单峰骆驼": "dan-feng-luo-tuo",
+    "Camelus dromedarius": "dan-feng-luo-tuo",
     "dan-li-xiao-mai": "dan-li-xiao-mai",
     "单粒小麦": "dan-li-xiao-mai",
     "einkorn wheat": "dan-li-xiao-mai",
@@ -6508,6 +6829,10 @@
     "Raphus cucullatus": "du-du-niao",
     "dodo": "du-du-niao",
     "多多鸟": "du-du-niao",
+    "独木舟": "独木舟",
+    "dugout canoe": "独木舟",
+    "canoe": "独木舟",
+    "独木船": "独木舟",
     "鹅": "鹅",
     "goose": "鹅",
     "家鹅": "鹅",
@@ -6646,6 +6971,8 @@
     "革命": "革命",
     "变革": "革命",
     "剧变": "革命",
+    "工业革命": "工业革命",
+    "Industrial Revolution": "工业革命",
     "工具": "工具",
     "tools": "工具",
     "技术工具": "工具",
@@ -6738,6 +7065,9 @@
     "Black Death": "黑死病",
     "腺鼠疫": "黑死病",
     "1346年鼠疫": "黑死病",
+    "黑脚族": "黑脚族",
+    "Blackfoot": "黑脚族",
+    "Blackfeet": "黑脚族",
     "hu-lu": "hu-lu",
     "葫芦": "hu-lu",
     "bottle gourd": "hu-lu",
@@ -6810,6 +7140,9 @@
     "ji-shu-ting-zhi": "ji-shu-ting-zhi",
     "技术停滞": "ji-shu-ting-zhi",
     "technological stagnation": "ji-shu-ting-zhi",
+    "ji-shu-yu-jing-ji-suo-yin": "ji-shu-yu-jing-ji-suo-yin",
+    "技术与经济索引": "ji-shu-yu-jing-ji-suo-yin",
+    "Technology and Economy Index": "ji-shu-yu-jing-ji-suo-yin",
     "jia-jie": "jia-jie",
     "嫁接": "jia-jie",
     "grafting": "jia-jie",
@@ -6852,6 +7185,9 @@
     "旧大陆": "旧大陆",
     "欧亚非大陆": "旧大陆",
     "Old World": "旧大陆",
+    "机械": "机械",
+    "machinery": "机械",
+    "机器": "机械",
     "疾病": "疾病",
     "瘟疫": "疾病",
     "竞争": "竞争",
@@ -6976,6 +7312,9 @@
     "詹姆斯·库克": "kuke",
     "James Cook": "kuke",
     "库克船长": "kuke",
+    "库斯科": "库斯科",
+    "Cusco": "库斯科",
+    "Cuzco": "库斯科",
     "扩张": "扩张",
     "expansion": "扩张",
     "领土扩张": "扩张",
@@ -7009,6 +7348,10 @@
     "type index": "lei-xing-suo-yin",
     "分类索引": "lei-xing-suo-yin",
     "词条类型索引": "lei-xing-suo-yin",
+    "li-ji": "li-ji",
+    "痢疾": "li-ji",
+    "dysentery": "li-ji",
+    "细菌性痢疾": "li-ji",
     "li-ma-dou": "li-ma-dou",
     "利马豆": "li-ma-dou",
     "lima bean": "li-ma-dou",
@@ -7064,11 +7407,14 @@
     "卢梭": "lusuo",
     "轮轴": "轮子",
     "有轮车": "轮子",
+    "轮船": "轮船",
+    "steamship": "轮船",
+    "蒸汽船": "轮船",
+    "steamboat": "轮船",
     "骆驼": "骆驼",
     "单峰驼": "骆驼",
     "双峰驼": "骆驼",
     "camel": "骆驼",
-    "Camelus dromedarius": "骆驼",
     "驴": "驴",
     "donkey": "驴",
     "ass": "驴",
@@ -7128,6 +7474,10 @@
     "麻疹病毒": "麻疹",
     "measles": "麻疹",
     "Measles morbillivirus": "麻疹",
+    "麻风": "麻风",
+    "leprosy": "麻风",
+    "汉森氏病": "麻风",
+    "Hansen's disease": "麻风",
     "mei-du": "mei-du",
     "梅毒": "mei-du",
     "syphilis": "mei-du",
@@ -7302,6 +7652,9 @@
     "酿酒": "酿酒",
     "发酵": "酿酒",
     "酒精": "酿酒",
+    "nong-ye-yu-xun-hua-suo-yin": "nong-ye-yu-xun-hua-suo-yin",
+    "农业与驯化索引": "nong-ye-yu-xun-hua-suo-yin",
+    "Agriculture and Domestication Index": "nong-ye-yu-xun-hua-suo-yin",
     "nongyeqiyuan": "nongyeqiyuan",
     "农业起源": "nongyeqiyuan",
     "origins of agriculture": "nongyeqiyuan",
@@ -7311,6 +7664,11 @@
     "agriculture": "农业",
     "作物栽培": "农业",
     "种植业": "农业",
+    "nu-li-mao-yi": "nu-li-mao-yi",
+    "奴隶贸易": "nu-li-mao-yi",
+    "slave trade": "nu-li-mao-yi",
+    "跨大西洋奴隶贸易": "nu-li-mao-yi",
+    "黑奴贸易": "nu-li-mao-yi",
     "奴隶": "奴隶",
     "奴隶制": "奴隶",
     "奴隶劳动": "奴隶",
@@ -7491,6 +7849,10 @@
     "ecocide": "sheng-tai-zi-sha",
     "环境自杀": "sheng-tai-zi-sha",
     "ecological suicide": "sheng-tai-zi-sha",
+    "sheng-yu-jian-ge": "sheng-yu-jian-ge",
+    "生育间隔": "sheng-yu-jian-ge",
+    "birth spacing": "sheng-yu-jian-ge",
+    "生育间隔机制": "sheng-yu-jian-ge",
     "shi-zu": "shi-zu",
     "氏族": "shi-zu",
     "clan": "shi-zu",
@@ -7507,6 +7869,10 @@
     "Panicum miliaceum": "shu",
     "黍子": "shu",
     "糜子": "shu",
+    "shuang-feng-luo-tuo": "shuang-feng-luo-tuo",
+    "双峰骆驼": "shuang-feng-luo-tuo",
+    "Bactrian camel": "shuang-feng-luo-tuo",
+    "Camelus bactrianus": "shuang-feng-luo-tuo",
     "书写": "书写",
     "writing": "书写",
     "文字书写": "书写",
@@ -7646,6 +8012,13 @@
     "特勒阿布胡瑞拉": "te-le-a-bu-hu-rui-la",
     "Tell Abu Hureyra": "te-le-a-bu-hu-rui-la",
     "阿布胡瑞拉遗址": "te-le-a-bu-hu-rui-la",
+    "特诺奇蒂特兰": "特诺奇蒂特兰",
+    "Tenochtitlan": "特诺奇蒂特兰",
+    "Tenochtitlán": "特诺奇蒂特兰",
+    "tie-lu": "tie-lu",
+    "铁路": "tie-lu",
+    "railway": "tie-lu",
+    "铁道": "tie-lu",
     "天花": "天花",
     "痘疮": "天花",
     "smallpox": "天花",
@@ -7680,6 +8053,10 @@
     "土壤条件": "土壤",
     "土壤肥力": "土壤",
     "地力": "土壤",
+    "托尔斯泰": "托尔斯泰",
+    "列夫·托尔斯泰": "托尔斯泰",
+    "Tolstoy": "托尔斯泰",
+    "Leo Tolstoy": "托尔斯泰",
     "突变": "突变",
     "基因突变": "突变",
     "遗传突变": "突变",
@@ -7887,6 +8264,10 @@
     "解剖学现代人": "现代人",
     "智人": "现代人",
     "大跃进": "现代人",
+    "苋菜": "苋菜",
+    "amaranth": "苋菜",
+    "Amaranthus": "苋菜",
+    "苋属": "苋菜",
     "行政": "行政",
     "行政管理": "行政",
     "中央行政": "行政",
@@ -7913,6 +8294,11 @@
     "驯鹿": "驯鹿",
     "reindeer": "驯鹿",
     "caribou": "驯鹿",
+    "ya-ma-sun": "ya-ma-sun",
+    "亚马孙": "ya-ma-sun",
+    "Amazon": "ya-ma-sun",
+    "亚马孙雨林": "ya-ma-sun",
+    "亚马孙河流域": "ya-ma-sun",
     "ya-nuo-ma-ma-ren": "ya-nuo-ma-ma-ren",
     "雅诺马马人": "ya-nuo-ma-ma-ren",
     "Yanomami": "ya-nuo-ma-ma-ren",
@@ -7928,6 +8314,9 @@
     "亚历山大大帝": "亚历山大大帝",
     "Alexander the Great": "亚历山大大帝",
     "亚历山大": "亚历山大大帝",
+    "亚洲象": "亚洲象",
+    "Asian elephant": "亚洲象",
+    "Elephas maximus": "亚洲象",
     "亚麻": "亚麻",
     "亚麻布": "亚麻",
     "flax": "亚麻",
@@ -7948,6 +8337,11 @@
     "鸭": "鸭",
     "duck": "鸭",
     "家鸭": "鸭",
+    "ye-ma": "ye-ma",
+    "野马": "ye-ma",
+    "Przewalski's horse": "ye-ma",
+    "Equus ferus przewalskii": "ye-ma",
+    "普尔热瓦尔斯基马": "ye-ma",
     "ye-mian-da-xiao-pai-hang": "ye-mian-da-xiao-pai-hang",
     "页面大小排行": "ye-mian-da-xiao-pai-hang",
     "内容量排行": "ye-mian-da-xiao-pai-hang",
@@ -7966,6 +8360,10 @@
     "野生谷物": "野生谷物",
     "野生禾本科": "野生谷物",
     "野生小麦": "野生谷物",
+    "野苹果": "野苹果",
+    "wild apple": "野苹果",
+    "Malus sylvestris": "野苹果",
+    "野生苹果": "野苹果",
     "yi-nu-te-ren": "yi-nu-te-ren",
     "伊努特人": "yi-nu-te-ren",
     "Inuit": "yi-nu-te-ren",
@@ -7996,6 +8394,10 @@
     "印度尼西亚": "yindunixiya",
     "Indonesia": "yindunixiya",
     "马来群岛": "yindunixiya",
+    "ying-ge-lan": "ying-ge-lan",
+    "英格兰": "ying-ge-lan",
+    "England": "ying-ge-lan",
+    "英国的核心地区": "ying-ge-lan",
     "ying-su": "ying-su",
     "罂粟": "ying-su",
     "opium poppy": "ying-su",
@@ -8040,6 +8442,9 @@
     "游牧": "游牧",
     "游牧生活": "游牧",
     "游牧族群": "游牧",
+    "yu-yan-wen-zi-suo-yin": "yu-yan-wen-zi-suo-yin",
+    "语言与文字索引": "yu-yan-wen-zi-suo-yin",
+    "Language and Writing Index": "yu-yan-wen-zi-suo-yin",
     "yuan-shi-nan-dao-yu": "yuan-shi-nan-dao-yu",
     "原始南岛语": "yuan-shi-nan-dao-yu",
     "Proto-Austronesian": "yuan-shi-nan-dao-yu",
@@ -8048,6 +8453,10 @@
     "约旦河谷": "yue-dan-he-gu",
     "Jordan Valley": "yue-dan-he-gu",
     "约旦河": "yue-dan-he-gu",
+    "yun-he": "yun-he",
+    "运河": "yun-he",
+    "canal": "yun-he",
+    "人工河道": "yun-he",
     "渔业": "渔业",
     "捕鱼": "渔业",
     "渔猎": "渔业",
@@ -8083,6 +8492,10 @@
     "热带雨林": "雨林",
     "赤道雨林": "雨林",
     "热带森林": "雨林",
+    "zao-zhi": "zao-zhi",
+    "造纸": "zao-zhi",
+    "造纸术": "zao-zhi",
+    "papermaking": "zao-zhi",
     "再分配": "再分配",
     "再分配经济": "再分配",
     "贡品再分配": "再分配",
@@ -8100,6 +8513,10 @@
     "Zheng He": "zheng-he",
     "马和": "zheng-he",
     "三宝太监": "zheng-he",
+    "zheng-qi-ji": "zheng-qi-ji",
+    "蒸汽机": "zheng-qi-ji",
+    "steam engine": "zheng-qi-ji",
+    "蒸汽发动机": "zheng-qi-ji",
     "zheng-zhi-fen-lie": "zheng-zhi-fen-lie",
     "政治分裂": "zheng-zhi-fen-lie",
     "political fragmentation": "zheng-zhi-fen-lie",
@@ -8129,6 +8546,10 @@
     "周朝": "zhou-chao",
     "Zhou dynasty": "zhou-chao",
     "周代": "zhou-chao",
+    "zhuan-li": "zhuan-li",
+    "专利": "zhuan-li",
+    "patent": "zhuan-li",
+    "专利权": "zhuan-li",
     "zhuan-zhi-jie-ceng": "zhuan-zhi-jie-ceng",
     "专职阶层": "zhuan-zhi-jie-ceng",
     "specialists": "zhuan-zhi-jie-ceng",
@@ -8242,6 +8663,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 659,
-  "generated": "2026-05-26T17:27:08Z"
+  "page_count": 692,
+  "generated": "2026-05-26T19:19:30Z"
 }

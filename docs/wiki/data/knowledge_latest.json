@@ -1,14 +1,14 @@
 {
-  "K": 14709,
-  "page_count": 293,
-  "total_bytes": 1693071,
-  "link_hit_rate": 0.8205,
+  "K": 23772,
+  "page_count": 637,
+  "total_bytes": 2362867,
+  "link_hit_rate": 0.8315,
   "quality_counts": {
     "premium": 0,
-    "featured": 234,
-    "standard": 29,
-    "basic": 30,
-    "stub": 0
+    "featured": 350,
+    "standard": 39,
+    "basic": 246,
+    "stub": 2
   },
-  "generated": "2026-05-25T21:52:03Z"
+  "generated": "2026-05-26T17:47:58Z"
 }
