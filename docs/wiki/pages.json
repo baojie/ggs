@@ -6755,6 +6755,29 @@
       "quality_score": 9,
       "total_refs": 0
     },
+    "事件索引": {
+      "type": "list",
+      "label": "事件索引",
+      "aliases": [
+        "历史事件",
+        "重大事件",
+        "event index"
+      ],
+      "tags": [
+        "索引"
+      ],
+      "path": "sh/事件索引.md",
+      "description": "按字母顺序排列的历史事件索引",
+      "prose_len": 89,
+      "prose_chars": 72,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 5,
+      "total_refs": 0
+    },
     "伤寒": {
       "type": "concept",
       "label": "伤寒",
@@ -11065,6 +11088,10 @@
     "书籍": "书籍",
     "书": "书籍",
     "book": "书籍",
+    "事件索引": "事件索引",
+    "历史事件": "事件索引",
+    "重大事件": "事件索引",
+    "event index": "事件索引",
     "伤寒": "伤寒",
     "斑疹伤寒": "伤寒",
     "typhus": "伤寒",
@@ -11512,6 +11539,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 428,
-  "generated": "2026-05-26T10:36:29Z"
+  "page_count": 429,
+  "generated": "2026-05-26T10:39:06Z"
 }

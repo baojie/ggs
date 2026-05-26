@@ -581,3 +581,4 @@
 {"page": "liang-shi-chu-bei", "label": "粮食储备", "rev_id": "e7UsCv", "timestamp": "2026-05-26T10:36:26+00:00", "author": "grow", "summary": "GROW 5-NEW1: 新建 粮食储备，basic 档", "size_before": 0, "size": 1935, "diff_add": 14, "diff_del": 0}
 {"page": "ma-ke-si", "label": "马克思", "rev_id": "LTMAC9", "timestamp": "2026-05-26T10:36:27+00:00", "author": "grow", "summary": "GROW 5-NEW1: 新建 马克思，basic 档", "size_before": 0, "size": 2070, "diff_add": 14, "diff_del": 0}
 {"page": "bo-li-ni-xi-ya-ren", "label": "波利尼西亚人", "rev_id": "lm0nHO", "timestamp": "2026-05-26T10:36:28+00:00", "author": "grow", "summary": "GROW 5-NEW1: 新建 波利尼西亚人，basic 档", "size_before": 0, "size": 2068, "diff_add": 14, "diff_del": 0}
+{"page": "事件索引", "label": "事件索引", "rev_id": "bCMmhZ", "timestamp": "2026-05-26T10:39:06+00:00", "author": "grow", "summary": "GROW 5-QRY2: 新建 事件索引，list 档", "size_before": 0, "size": 387, "diff_add": 15, "diff_del": 0}

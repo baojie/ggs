@@ -7,16 +7,16 @@
   "counters": {
     "current_round": 134,
     "type_round": 0,
-    "rounds_since_last_evv5": 0,
-    "rounds_since_last_discover": 0,
+    "rounds_since_last_evv5": 1,
+    "rounds_since_last_discover": 1,
     "discover_streak_low": 0,
-    "new1_count_window": 5,
+    "new1_count_window": 4,
     "enrich_count_window": 3,
-    "qry2_count_window": 0,
+    "qry2_count_window": 1,
     "rft_count_window": 0,
     "rch1_count_window": 2,
     "rch2_count_window": 0,
-    "rounds_since_last_w5": 13
+    "rounds_since_last_w5": 14
   },
   "thresholds": {
     "evv5_interval": 10,
@@ -38,14 +38,14 @@
     "NEW1",
     "NEW1",
     "NEW1",
-    "NEW1",
     "RCH4",
     "RCH3",
     "RCH1",
     "RCH1",
     "NEW1",
-    "EVV5+SCN28"
+    "EVV5+SCN28",
+    "QRY2"
   ],
   "phase5_featured_target": 15,
-  "current_round": 137
+  "current_round": 138
 }
