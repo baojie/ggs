@@ -2003,6 +2003,30 @@
       "affiliation": "斯坦福大学",
       "total_refs": 0
     },
+    "革命": {
+      "type": "concept",
+      "label": "革命",
+      "aliases": [
+        "变革",
+        "剧变"
+      ],
+      "tags": [
+        "历史",
+        "社会",
+        "政治"
+      ],
+      "path": "ge/革命.md",
+      "description": "人类社会在技术、经济或政治领域的根本性变革",
+      "prose_len": 232,
+      "prose_chars": 230,
+      "h2_count": 0,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "工具": {
       "type": "concept",
       "label": "工具",
@@ -2275,6 +2299,27 @@
       "quality": "basic",
       "quality_score": 10,
       "affiliation": "迦太基",
+      "total_refs": 0
+    },
+    "海峡": {
+      "type": "concept",
+      "label": "海峡",
+      "aliases": [],
+      "tags": [
+        "地理",
+        "交通",
+        "交流"
+      ],
+      "path": "ha/海峡.md",
+      "description": "连接两大水域的狭窄水道在人类迁徙和文明交流中的关键作用",
+      "prose_len": 240,
+      "prose_chars": 238,
+      "h2_count": 0,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
       "total_refs": 0
     },
     "航海": {
@@ -4877,6 +4922,30 @@
       "quality_score": 7,
       "total_refs": 1
     },
+    "骑兵": {
+      "type": "concept",
+      "label": "骑兵",
+      "aliases": [
+        "骑手",
+        "骑军"
+      ],
+      "tags": [
+        "军事",
+        "技术",
+        "动物"
+      ],
+      "path": "qi/骑兵.md",
+      "description": "以马匹为交通工具的军事力量及其对战争形态的革命性影响",
+      "prose_len": 248,
+      "prose_chars": 246,
+      "h2_count": 0,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "人口": {
       "type": "concept",
       "label": "人口",
@@ -6022,6 +6091,29 @@
       "quality": "featured",
       "quality_score": 56,
       "total_refs": 2
+    },
+    "温带": {
+      "type": "concept",
+      "label": "温带",
+      "aliases": [
+        "温带地区"
+      ],
+      "tags": [
+        "地理",
+        "气候",
+        "生态"
+      ],
+      "path": "we/温带.md",
+      "description": "温带气候带对农业起源和文明发展的地理优势",
+      "prose_len": 227,
+      "prose_chars": 225,
+      "h2_count": 0,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
     },
     "纬度": {
       "type": "concept",
@@ -7571,6 +7663,29 @@
       "quality_score": 8,
       "total_refs": 0
     },
+    "知识": {
+      "type": "concept",
+      "label": "知识",
+      "aliases": [
+        "知识体系"
+      ],
+      "tags": [
+        "文化",
+        "技术",
+        "文明"
+      ],
+      "path": "zh/知识.md",
+      "description": "人类经验的积累和代际传递及其在文明发展中的作用",
+      "prose_len": 241,
+      "prose_chars": 239,
+      "h2_count": 0,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "种族主义": {
       "type": "concept",
       "label": "种族主义",
@@ -8037,6 +8152,9 @@
     "格林伯格": "格林伯格",
     "约瑟夫·格林伯格": "格林伯格",
     "Joseph Greenberg": "格林伯格",
+    "革命": "革命",
+    "变革": "革命",
+    "剧变": "革命",
     "工具": "工具",
     "tools": "工具",
     "技术工具": "工具",
@@ -8081,6 +8199,7 @@
     "汉尼拔": "hanniba",
     "Hannibal": "hanniba",
     "汉尼拔·巴卡": "hanniba",
+    "海峡": "海峡",
     "航海": "航海",
     "航海技术": "航海",
     "maritime technology": "航海",
@@ -8468,6 +8587,9 @@
     "酋邦": "酋长",
     "青铜": "青铜",
     "青铜器": "青铜",
+    "骑兵": "骑兵",
+    "骑手": "骑兵",
+    "骑军": "骑兵",
     "人口": "人口",
     "人口密度": "人口密度",
     "人口压力": "人口密度",
@@ -8631,6 +8753,8 @@
     "Independent Invention of Writing": "文字的独立发明",
     "苏美尔文字": "文字的独立发明",
     "楔形文字发明": "文字的独立发明",
+    "温带": "温带",
+    "温带地区": "温带",
     "纬度": "纬度",
     "纬度效应": "纬度",
     "纬度与气候": "纬度",
@@ -8847,6 +8971,8 @@
     "Sus scrofa domesticus": "猪",
     "珍珠鸡": "珍珠鸡",
     "guinea fowl": "珍珠鸡",
+    "知识": "知识",
+    "知识体系": "知识",
     "种族主义": "种族主义",
     "racism": "种族主义",
     "种族决定论": "种族主义",
@@ -8883,6 +9009,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 325,
-  "generated": "2026-05-26T01:14:45Z"
+  "page_count": 330,
+  "generated": "2026-05-26T01:15:35Z"
 }
