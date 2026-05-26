@@ -350,7 +350,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 21
+      "total_refs": 22
     },
     "安娜卡列尼娜原则": {
       "type": "concept",
@@ -819,7 +819,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 5
+      "total_refs": 6
     },
     "班图人": {
       "type": "event",
@@ -1841,11 +1841,11 @@
       ],
       "path": "ch/chang-jing-lu.md",
       "description": "非洲特有的大型有蹄类哺乳动物，戴蒙德以猎人猎长颈鹿为例说明狩猎采集者的食物选择受社会声望影响",
-      "prose_len": 330,
-      "prose_chars": 270,
-      "h2_count": 3,
+      "prose_len": 508,
+      "prose_chars": 436,
+      "h2_count": 4,
       "pn_count": 4,
-      "wikilink_count": 3,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "total_refs": 0
     },
@@ -5882,7 +5882,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 3
+      "total_refs": 4
     },
     "ku-chao-cai": {
       "type": "species",
@@ -6163,10 +6163,10 @@
       ],
       "path": "li/li-ni-er-ban-ke-la-mi-ke-wen-hua.md",
       "description": "欧洲最早的新石器时代农业文化之一，约公元前5000年兴起于中欧，以线纹陶器为标志，代表了粮食生产从东南欧向中欧的传播",
-      "prose_len": 372,
-      "prose_chars": 329,
-      "h2_count": 3,
-      "pn_count": 2,
+      "prose_len": 672,
+      "prose_chars": 607,
+      "h2_count": 5,
+      "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
       "total_refs": 0
@@ -6338,7 +6338,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 105
+      "total_refs": 106
     },
     "lun-na-er-dao": {
       "type": "place",
@@ -10785,11 +10785,11 @@
       ],
       "path": "tu/tuo-niao.md",
       "description": "非洲大型不会飞的鸟类，戴蒙德在书中提及鸵鸟蛋壳珠子作为早期首饰，以及鸵鸟作为类似鹤鸵的驯养案例参照",
-      "prose_len": 312,
-      "prose_chars": 251,
-      "h2_count": 3,
+      "prose_len": 499,
+      "prose_chars": 414,
+      "h2_count": 4,
       "pn_count": 3,
-      "wikilink_count": 4,
+      "wikilink_count": 5,
       "blockquote_count": 0,
       "total_refs": 0
     },
@@ -11305,11 +11305,11 @@
       ],
       "path": "xi/xi-gu-ye-zi.md",
       "description": "新几内亚低地沼泽地带重要的野生淀粉植物，当地土著通过半管理方式增加其产量，是狩猎采集生计的典型案例",
-      "prose_len": 405,
-      "prose_chars": 361,
-      "h2_count": 3,
-      "pn_count": 5,
-      "wikilink_count": 3,
+      "prose_len": 607,
+      "prose_chars": 548,
+      "h2_count": 4,
+      "pn_count": 7,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "total_refs": 0
     },
@@ -11399,11 +11399,11 @@
       ],
       "path": "xi/xi-tuan.md",
       "description": "美洲特有的偶蹄目哺乳动物，外形似猪但属于不同的演化支，是戴蒙德列举的看似合适却从未被驯化的大型野生哺乳动物之一",
-      "prose_len": 334,
-      "prose_chars": 274,
-      "h2_count": 3,
+      "prose_len": 473,
+      "prose_chars": 390,
+      "h2_count": 4,
       "pn_count": 2,
-      "wikilink_count": 4,
+      "wikilink_count": 5,
       "blockquote_count": 0,
       "total_refs": 0
     },
@@ -16474,5 +16474,5 @@
     "驯化作物": "作物驯化"
   },
   "page_count": 608,
-  "generated": "2026-05-26T16:24:43Z"
+  "generated": "2026-05-26T16:28:00Z"
 }
