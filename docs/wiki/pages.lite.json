@@ -19,6 +19,16 @@
       ],
       "path": "ab/About.md"
     },
+    "a-fei-luo-ya-xi-ya-yu-xi": {
+      "type": "concept",
+      "label": "阿非罗-亚细亚语系",
+      "aliases": [
+        "Afroasiatic",
+        "亚非语系",
+        "含闪语系"
+      ],
+      "path": "af/a-fei-luo-ya-xi-ya-yu-xi.md"
+    },
     "ai-xiao-hei-ren": {
       "type": "person",
       "label": "矮小黑人",
@@ -1565,6 +1575,15 @@
       ],
       "path": "ha/航行.md"
     },
+    "he-lei-luo-ren": {
+      "type": "person",
+      "label": "赫雷罗人",
+      "aliases": [
+        "Herero",
+        "赫雷罗族"
+      ],
+      "path": "he/he-lei-luo-ren.md"
+    },
     "he-ma": {
       "type": "species",
       "label": "河马",
@@ -2957,6 +2976,15 @@
       ],
       "path": "ne/neng-ren.md"
     },
+    "ni-ri-er-gang-guo-yu-xi": {
+      "type": "concept",
+      "label": "尼日尔-刚果语系",
+      "aliases": [
+        "Niger-Congo",
+        "尼日尔刚果语系"
+      ],
+      "path": "ni/ni-ri-er-gang-guo-yu-xi.md"
+    },
     "niandetelian": {
       "type": "person",
       "label": "尼安德特人",
@@ -3511,6 +3539,15 @@
         "灌木丛林"
       ],
       "path": "sh/sha-ba-la-qun-luo.md"
+    },
+    "shan-yu-zu": {
+      "type": "concept",
+      "label": "闪语族",
+      "aliases": [
+        "Semitic",
+        "闪米特语族"
+      ],
+      "path": "sh/shan-yu-zu.md"
     },
     "she-hui-fu-za-hua": {
       "type": "concept",
@@ -4160,6 +4197,16 @@
         "犀"
       ],
       "path": "xi/xi-niu.md"
+    },
+    "xi-qi-yin": {
+      "type": "concept",
+      "label": "吸气音",
+      "aliases": [
+        "click consonant",
+        "搭嘴音",
+        "啧音"
+      ],
+      "path": "xi/xi-qi-yin.md"
     },
     "xi-zang-gao-yuan": {
       "type": "place",
@@ -5295,6 +5342,11 @@
     "About": "About",
     "关于本 Wiki": "About",
     "关于": "About",
+    "a-fei-luo-ya-xi-ya-yu-xi": "a-fei-luo-ya-xi-ya-yu-xi",
+    "阿非罗-亚细亚语系": "a-fei-luo-ya-xi-ya-yu-xi",
+    "Afroasiatic": "a-fei-luo-ya-xi-ya-yu-xi",
+    "亚非语系": "a-fei-luo-ya-xi-ya-yu-xi",
+    "含闪语系": "a-fei-luo-ya-xi-ya-yu-xi",
     "ai-xiao-hei-ren": "ai-xiao-hei-ren",
     "矮小黑人": "ai-xiao-hei-ren",
     "Negrito": "ai-xiao-hei-ren",
@@ -5841,6 +5893,10 @@
     "航行": "航行",
     "远洋航行": "航行",
     "水上航行": "航行",
+    "he-lei-luo-ren": "he-lei-luo-ren",
+    "赫雷罗人": "he-lei-luo-ren",
+    "Herero": "he-lei-luo-ren",
+    "赫雷罗族": "he-lei-luo-ren",
     "he-ma": "he-ma",
     "河马": "he-ma",
     "hippopotamus": "he-ma",
@@ -6338,6 +6394,10 @@
     "能人": "neng-ren",
     "Homo habilis": "neng-ren",
     "巧人": "neng-ren",
+    "ni-ri-er-gang-guo-yu-xi": "ni-ri-er-gang-guo-yu-xi",
+    "尼日尔-刚果语系": "ni-ri-er-gang-guo-yu-xi",
+    "Niger-Congo": "ni-ri-er-gang-guo-yu-xi",
+    "尼日尔刚果语系": "ni-ri-er-gang-guo-yu-xi",
     "niandetelian": "niandetelian",
     "尼安德特人": "niandetelian",
     "Neanderthal": "niandetelian",
@@ -6524,6 +6584,10 @@
     "chaparral": "sha-ba-la-qun-luo",
     "查帕拉尔群落": "sha-ba-la-qun-luo",
     "灌木丛林": "sha-ba-la-qun-luo",
+    "shan-yu-zu": "shan-yu-zu",
+    "闪语族": "shan-yu-zu",
+    "Semitic": "shan-yu-zu",
+    "闪米特语族": "shan-yu-zu",
     "she-hui-fu-za-hua": "she-hui-fu-za-hua",
     "社会复杂化": "she-hui-fu-za-hua",
     "social complexity": "she-hui-fu-za-hua",
@@ -6621,7 +6685,6 @@
     "税赋": "税收",
     "闪米特人": "闪米特人",
     "Semites": "闪米特人",
-    "闪米特语族": "闪米特人",
     "鼠疫": "鼠疫",
     "鼠疫杆菌": "鼠疫",
     "si-ke-li-lin-ren": "si-ke-li-lin-ren",
@@ -6756,6 +6819,11 @@
     "犀牛": "xi-niu",
     "rhinoceros": "xi-niu",
     "犀": "xi-niu",
+    "xi-qi-yin": "xi-qi-yin",
+    "吸气音": "xi-qi-yin",
+    "click consonant": "xi-qi-yin",
+    "搭嘴音": "xi-qi-yin",
+    "啧音": "xi-qi-yin",
     "xi-zang-gao-yuan": "xi-zang-gao-yuan",
     "西藏高原": "xi-zang-gao-yuan",
     "Tibetan Plateau": "xi-zang-gao-yuan",
@@ -7144,6 +7212,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 577,
-  "generated": "2026-05-26T13:32:15Z"
+  "page_count": 582,
+  "generated": "2026-05-26T13:33:12Z"
 }
