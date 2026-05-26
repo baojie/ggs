@@ -483,7 +483,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 20
+      "total_refs": 21
     },
     "玻璃": {
       "type": "concept",
@@ -2241,6 +2241,30 @@
       "quality_score": 28,
       "total_refs": 0
     },
+    "官僚": {
+      "type": "concept",
+      "label": "官僚",
+      "aliases": [
+        "官僚制",
+        "官僚体系"
+      ],
+      "tags": [
+        "政治",
+        "制度",
+        "治理"
+      ],
+      "path": "pages/gu/官僚.md",
+      "description": "专职行政管理人员体系，是复杂国家的关键治理结构",
+      "prose_len": 335,
+      "prose_chars": 320,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 1
+    },
     "官员": {
       "type": "concept",
       "label": "官员",
@@ -2652,7 +2676,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 8,
-      "total_refs": 0
+      "total_refs": 1
     },
     "霍乱": {
       "type": "concept",
@@ -2821,7 +2845,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 9
+      "total_refs": 10
     },
     "技术传播": {
       "type": "concept",
@@ -3046,7 +3070,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 0
+      "total_refs": 1
     },
     "集中": {
       "type": "concept",
@@ -3928,7 +3952,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 1
+      "total_refs": 0
     },
     "meisuobudamiya": {
       "type": "place",
@@ -4021,6 +4045,29 @@
       "quality": "featured",
       "quality_score": 57,
       "total_refs": 4
+    },
+    "美拉尼西亚": {
+      "type": "place",
+      "label": "美拉尼西亚",
+      "aliases": [
+        "Melanesia"
+      ],
+      "tags": [
+        "太平洋",
+        "岛屿",
+        "地区"
+      ],
+      "path": "pages/me/美拉尼西亚.md",
+      "description": "太平洋西南部的岛屿群，戴蒙德田野工作的重要区域",
+      "prose_len": 346,
+      "prose_chars": 331,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 1
     },
     "美洲": {
       "type": "place",
@@ -4167,7 +4214,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 0
+      "total_refs": 1
     },
     "milu": {
       "type": "place",
@@ -4694,6 +4741,27 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 11,
+      "total_refs": 0
+    },
+    "奴隶制": {
+      "type": "concept",
+      "label": "奴隶制",
+      "aliases": [],
+      "tags": [
+        "社会",
+        "制度",
+        "不平等"
+      ],
+      "path": "pages/nu/奴隶制.md",
+      "description": "人类历史上普遍存在的强制性劳动制度，与国家形成密切相关",
+      "prose_len": 344,
+      "prose_chars": 329,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
       "total_refs": 1
     },
     "疟疾": {
@@ -5265,7 +5333,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 0
+      "total_refs": 1
     },
     "人类首次定居澳大利亚": {
       "type": "event",
@@ -5711,6 +5779,29 @@
       "quality_score": 61,
       "total_refs": 5
     },
+    "石器": {
+      "type": "concept",
+      "label": "石器",
+      "aliases": [
+        "stone tools"
+      ],
+      "tags": [
+        "技术",
+        "史前",
+        "工具"
+      ],
+      "path": "pages/sh/石器.md",
+      "description": "人类最早和最长使用的工具类型，标志着技术发展的起点",
+      "prose_len": 334,
+      "prose_chars": 319,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
+    },
     "石器时代": {
       "type": "concept",
       "label": "石器时代",
@@ -5783,6 +5874,30 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
+      "total_refs": 4
+    },
+    "税收": {
+      "type": "concept",
+      "label": "税收",
+      "aliases": [
+        "赋税",
+        "税赋"
+      ],
+      "tags": [
+        "经济",
+        "制度",
+        "国家"
+      ],
+      "path": "pages/sh/税收.md",
+      "description": "国家向居民征收的资源集中机制，是复杂社会运作的经济基础",
+      "prose_len": 318,
+      "prose_chars": 303,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
       "total_refs": 1
     },
     "鼠疫": {
@@ -5952,7 +6067,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 1
+      "total_refs": 2
     },
     "统一": {
       "type": "concept",
@@ -6223,7 +6338,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 8
+      "total_refs": 9
     },
     "文字的独立发明": {
       "type": "event",
@@ -6596,7 +6711,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 13
+      "total_refs": 14
     },
     "新月沃地": {
       "type": "concept",
@@ -7643,7 +7758,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 1
+      "total_refs": 3
     },
     "中美洲": {
       "type": "place",
@@ -7842,7 +7957,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 0
+      "total_refs": 1
     },
     "殖民主义": {
       "type": "concept",
@@ -8442,8 +8557,10 @@
     "王": "国王",
     "君王": "国王",
     "世袭君主": "国王",
+    "官僚": "官僚",
+    "官僚制": "官僚",
+    "官僚体系": "官僚",
     "官员": "官员",
-    "官僚": "官员",
     "行政官员": "官员",
     "文官": "官员",
     "灌溉": "灌溉",
@@ -8944,6 +9061,7 @@
     "环境适应": "生态适应",
     "生态位适应": "生态适应",
     "气候适应": "生态适应",
+    "stone tools": "石器",
     "石器时代": "石器时代",
     "旧石器时代": "石器时代",
     "新石器时代": "石器时代",
@@ -8955,6 +9073,9 @@
     "社会组织": "社会组织",
     "社会结构": "社会组织",
     "社会形态": "社会组织",
+    "税收": "税收",
+    "赋税": "税收",
+    "税赋": "税收",
     "鼠疫": "鼠疫",
     "鼠疫杆菌": "鼠疫",
     "taiwan": "taiwan",
@@ -9082,7 +9203,6 @@
     "大跃进": "现代人",
     "行政": "行政",
     "行政管理": "行政",
-    "官僚制": "行政",
     "中央行政": "行政",
     "锡": "锡",
     "锡金属": "锡",
@@ -9283,6 +9403,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 341,
-  "generated": "2026-05-26T01:26:00Z"
+  "page_count": 346,
+  "generated": "2026-05-26T01:27:01Z"
 }
