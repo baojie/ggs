@@ -837,6 +837,16 @@
       ],
       "path": "ch/船只.md"
     },
+    "ci-tiao-jian-she-zhuang-tai": {
+      "type": "list",
+      "label": "词条建设状态",
+      "aliases": [
+        "build status",
+        "建设状态",
+        "条目状态"
+      ],
+      "path": "ci/ci-tiao-jian-she-zhuang-tai.md"
+    },
     "村落": {
       "type": "concept",
       "label": "村落",
@@ -6189,6 +6199,11 @@
     "船舶": "船只",
     "帆船": "船只",
     "航船": "船只",
+    "ci-tiao-jian-she-zhuang-tai": "ci-tiao-jian-she-zhuang-tai",
+    "词条建设状态": "ci-tiao-jian-she-zhuang-tai",
+    "build status": "ci-tiao-jian-she-zhuang-tai",
+    "建设状态": "ci-tiao-jian-she-zhuang-tai",
+    "条目状态": "ci-tiao-jian-she-zhuang-tai",
     "村落": "村落",
     "村庄": "村落",
     "定居点": "村落",
@@ -8021,6 +8036,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 643,
-  "generated": "2026-05-26T17:06:46Z"
+  "page_count": 644,
+  "generated": "2026-05-26T17:14:12Z"
 }
