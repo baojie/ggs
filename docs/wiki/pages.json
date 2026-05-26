@@ -546,7 +546,7 @@
       "quality": "featured",
       "quality_score": 60,
       "affiliation": "印加帝国",
-      "total_refs": 13
+      "total_refs": 14
     },
     "a-yi-nu-ren": {
       "type": "person",
@@ -3772,6 +3772,32 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
+      "total_refs": 1
+    },
+    "gan-ju": {
+      "type": "species",
+      "label": "柑橘",
+      "aliases": [
+        "citrus",
+        "柑橘类",
+        "柑橘属"
+      ],
+      "tags": [
+        "物种",
+        "作物",
+        "印度",
+        "果树"
+      ],
+      "path": "ga/gan-ju.md",
+      "description": "印度原产的果树类群，罗马帝国的外来作物之一，无籽品种的驯化案例",
+      "prose_len": 449,
+      "prose_chars": 412,
+      "h2_count": 3,
+      "pn_count": 3,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
       "total_refs": 1
     },
     "干旱": {
@@ -8376,7 +8402,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 9
+      "total_refs": 10
     },
     "南北轴线与东西轴线": {
       "type": "concept",
@@ -8733,7 +8759,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 6
+      "total_refs": 7
     },
     "农业": {
       "type": "concept",
@@ -10201,7 +10227,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 0
+      "total_refs": 1
     },
     "书写": {
       "type": "concept",
@@ -10933,6 +10959,33 @@
       "quality_score": 59,
       "total_refs": 3
     },
+    "su": {
+      "type": "species",
+      "label": "粟",
+      "aliases": [
+        "foxtail millet",
+        "Setaria italica",
+        "小米",
+        "谷子",
+        "粟米"
+      ],
+      "tags": [
+        "物种",
+        "作物",
+        "中国"
+      ],
+      "path": "su/su.md",
+      "description": "中国最早驯化的谷物之一（Setaria italica），戴蒙德多处提及为东亚农业基石",
+      "prose_len": 469,
+      "prose_chars": 430,
+      "h2_count": 3,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
+    },
     "suo-luo-men-qun-dao": {
       "type": "place",
       "label": "所罗门群岛",
@@ -11048,6 +11101,32 @@
       "quality": "featured",
       "quality_score": 58,
       "total_refs": 2
+    },
+    "tao": {
+      "type": "species",
+      "label": "桃",
+      "aliases": [
+        "peach",
+        "Prunus persica",
+        "桃子"
+      ],
+      "tags": [
+        "物种",
+        "作物",
+        "中国",
+        "果树"
+      ],
+      "path": "ta/tao.md",
+      "description": "中国原产的核果类果树，在欧亚大陆传播的典型案例",
+      "prose_len": 437,
+      "prose_chars": 401,
+      "h2_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 1
     },
     "台湾": {
       "type": "place",
@@ -11194,7 +11273,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 2
+      "total_refs": 3
     },
     "天花病毒": {
       "type": "species",
@@ -11461,6 +11540,30 @@
       "quality": "basic",
       "quality_score": 10,
       "total_refs": 2
+    },
+    "wa-yi-na-ka-pa-ke": {
+      "type": "person",
+      "label": "瓦伊纳·卡帕克",
+      "aliases": [
+        "Huayna Capac",
+        "瓦伊纳·卡帕克皇帝"
+      ],
+      "tags": [
+        "人物",
+        "印加",
+        "美洲"
+      ],
+      "path": "wa/wa-yi-na-ka-pa-ke.md",
+      "description": "印加皇帝，1526年左右死于天花，其死亡引发印加密室内战，间接导致阿塔瓦尔帕被俘",
+      "prose_len": 532,
+      "prose_chars": 492,
+      "h2_count": 3,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 10,
+      "total_refs": 0
     },
     "王国": {
       "type": "concept",
@@ -12455,7 +12558,35 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
-      "total_refs": 3
+      "total_refs": 4
+    },
+    "xing": {
+      "type": "species",
+      "label": "杏",
+      "aliases": [
+        "apricot",
+        "Prunus armeniaca",
+        "杏仁",
+        "巴旦杏",
+        "apricot"
+      ],
+      "tags": [
+        "物种",
+        "作物",
+        "中国",
+        "果树"
+      ],
+      "path": "xi/xing.md",
+      "description": "中国原产的重要核果类果树，与桃同为东亚驯化成果，经中亚向西传播",
+      "prose_len": 465,
+      "prose_chars": 425,
+      "h2_count": 3,
+      "pn_count": 4,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 1
     },
     "xinyuewodi": {
       "type": "place",
@@ -12625,7 +12756,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 77
+      "total_refs": 78
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -13575,7 +13706,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 26,
-      "total_refs": 6
+      "total_refs": 7
     },
     "印度": {
       "type": "place",
@@ -13598,7 +13729,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 6
+      "total_refs": 7
     },
     "印度尼西亚": {
       "type": "place",
@@ -14468,7 +14599,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 18
+      "total_refs": 20
     },
     "中国农业起源": {
       "type": "event",
@@ -15257,7 +15388,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 13
+      "total_refs": 14
     }
   },
   "alias_index": {
@@ -15770,6 +15901,11 @@
     "复活节岛": "fuhuojiedao",
     "Easter Island": "fuhuojiedao",
     "拉帕努伊": "fuhuojiedao",
+    "gan-ju": "gan-ju",
+    "柑橘": "gan-ju",
+    "citrus": "gan-ju",
+    "柑橘类": "gan-ju",
+    "柑橘属": "gan-ju",
     "干旱": "干旱",
     "drought": "干旱",
     "旱灾": "干旱",
@@ -16760,6 +16896,13 @@
     "苏美尔人": "su-mei-er-ren",
     "Sumerians": "su-mei-er-ren",
     "苏美人": "su-mei-er-ren",
+    "su": "su",
+    "粟": "su",
+    "foxtail millet": "su",
+    "Setaria italica": "su",
+    "小米": "su",
+    "谷子": "su",
+    "粟米": "su",
     "suo-luo-men-qun-dao": "suo-luo-men-qun-dao",
     "所罗门群岛": "suo-luo-men-qun-dao",
     "Solomon Islands": "suo-luo-men-qun-dao",
@@ -16778,6 +16921,11 @@
     "汤加": "tang-jia",
     "Tonga": "tang-jia",
     "汤加群岛": "tang-jia",
+    "tao": "tao",
+    "桃": "tao",
+    "peach": "tao",
+    "Prunus persica": "tao",
+    "桃子": "tao",
     "台湾岛": "台湾",
     "塔斯马尼亚": "塔斯马尼亚",
     "Tasmania": "塔斯马尼亚",
@@ -16836,6 +16984,10 @@
     "豚鼠": "豚鼠",
     "guinea pig": "豚鼠",
     "荷兰猪": "豚鼠",
+    "wa-yi-na-ka-pa-ke": "wa-yi-na-ka-pa-ke",
+    "瓦伊纳·卡帕克": "wa-yi-na-ka-pa-ke",
+    "Huayna Capac": "wa-yi-na-ka-pa-ke",
+    "瓦伊纳·卡帕克皇帝": "wa-yi-na-ka-pa-ke",
     "王国": "王国",
     "国家雏形": "王国",
     "早期国家": "王国",
@@ -16983,6 +17135,10 @@
     "almond": "xing-ren",
     "巴旦杏": "xing-ren",
     "Prunus dulcis": "xing-ren",
+    "xing": "xing",
+    "杏": "xing",
+    "apricot": "xing",
+    "Prunus armeniaca": "xing",
     "xinyuewodi": "xinyuewodi",
     "新月沃地（地理）": "xinyuewodi",
     "肥沃月弯": "xinyuewodi",
@@ -17356,6 +17512,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 638,
-  "generated": "2026-05-26T17:05:49Z"
+  "page_count": 643,
+  "generated": "2026-05-26T17:06:46Z"
 }

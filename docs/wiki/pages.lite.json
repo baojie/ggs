@@ -1430,6 +1430,16 @@
       ],
       "path": "fu/fuhuojiedao.md"
     },
+    "gan-ju": {
+      "type": "species",
+      "label": "柑橘",
+      "aliases": [
+        "citrus",
+        "柑橘类",
+        "柑橘属"
+      ],
+      "path": "ga/gan-ju.md"
+    },
     "干旱": {
       "type": "concept",
       "label": "干旱",
@@ -4184,6 +4194,18 @@
       ],
       "path": "su/su-mei-er-ren.md"
     },
+    "su": {
+      "type": "species",
+      "label": "粟",
+      "aliases": [
+        "foxtail millet",
+        "Setaria italica",
+        "小米",
+        "谷子",
+        "粟米"
+      ],
+      "path": "su/su.md"
+    },
     "suo-luo-men-qun-dao": {
       "type": "place",
       "label": "所罗门群岛",
@@ -4227,6 +4249,16 @@
         "汤加群岛"
       ],
       "path": "ta/tang-jia.md"
+    },
+    "tao": {
+      "type": "species",
+      "label": "桃",
+      "aliases": [
+        "peach",
+        "Prunus persica",
+        "桃子"
+      ],
+      "path": "ta/tao.md"
     },
     "台湾": {
       "type": "place",
@@ -4386,6 +4418,15 @@
         "荷兰猪"
       ],
       "path": "tu/豚鼠.md"
+    },
+    "wa-yi-na-ka-pa-ke": {
+      "type": "person",
+      "label": "瓦伊纳·卡帕克",
+      "aliases": [
+        "Huayna Capac",
+        "瓦伊纳·卡帕克皇帝"
+      ],
+      "path": "wa/wa-yi-na-ka-pa-ke.md"
     },
     "王国": {
       "type": "concept",
@@ -4764,6 +4805,18 @@
         "Prunus dulcis"
       ],
       "path": "xi/xing-ren.md"
+    },
+    "xing": {
+      "type": "species",
+      "label": "杏",
+      "aliases": [
+        "apricot",
+        "Prunus armeniaca",
+        "杏仁",
+        "巴旦杏",
+        "apricot"
+      ],
+      "path": "xi/xing.md"
     },
     "xinyuewodi": {
       "type": "place",
@@ -6357,6 +6410,11 @@
     "复活节岛": "fuhuojiedao",
     "Easter Island": "fuhuojiedao",
     "拉帕努伊": "fuhuojiedao",
+    "gan-ju": "gan-ju",
+    "柑橘": "gan-ju",
+    "citrus": "gan-ju",
+    "柑橘类": "gan-ju",
+    "柑橘属": "gan-ju",
     "干旱": "干旱",
     "drought": "干旱",
     "旱灾": "干旱",
@@ -7347,6 +7405,13 @@
     "苏美尔人": "su-mei-er-ren",
     "Sumerians": "su-mei-er-ren",
     "苏美人": "su-mei-er-ren",
+    "su": "su",
+    "粟": "su",
+    "foxtail millet": "su",
+    "Setaria italica": "su",
+    "小米": "su",
+    "谷子": "su",
+    "粟米": "su",
     "suo-luo-men-qun-dao": "suo-luo-men-qun-dao",
     "所罗门群岛": "suo-luo-men-qun-dao",
     "Solomon Islands": "suo-luo-men-qun-dao",
@@ -7365,6 +7430,11 @@
     "汤加": "tang-jia",
     "Tonga": "tang-jia",
     "汤加群岛": "tang-jia",
+    "tao": "tao",
+    "桃": "tao",
+    "peach": "tao",
+    "Prunus persica": "tao",
+    "桃子": "tao",
     "台湾岛": "台湾",
     "塔斯马尼亚": "塔斯马尼亚",
     "Tasmania": "塔斯马尼亚",
@@ -7423,6 +7493,10 @@
     "豚鼠": "豚鼠",
     "guinea pig": "豚鼠",
     "荷兰猪": "豚鼠",
+    "wa-yi-na-ka-pa-ke": "wa-yi-na-ka-pa-ke",
+    "瓦伊纳·卡帕克": "wa-yi-na-ka-pa-ke",
+    "Huayna Capac": "wa-yi-na-ka-pa-ke",
+    "瓦伊纳·卡帕克皇帝": "wa-yi-na-ka-pa-ke",
     "王国": "王国",
     "国家雏形": "王国",
     "早期国家": "王国",
@@ -7570,6 +7644,10 @@
     "almond": "xing-ren",
     "巴旦杏": "xing-ren",
     "Prunus dulcis": "xing-ren",
+    "xing": "xing",
+    "杏": "xing",
+    "apricot": "xing",
+    "Prunus armeniaca": "xing",
     "xinyuewodi": "xinyuewodi",
     "新月沃地（地理）": "xinyuewodi",
     "肥沃月弯": "xinyuewodi",
@@ -7943,6 +8021,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 638,
-  "generated": "2026-05-26T17:05:49Z"
+  "page_count": 643,
+  "generated": "2026-05-26T17:06:46Z"
 }
