@@ -4830,6 +4830,14 @@
       ],
       "path": "zh/zhi-li-ren.md"
     },
+    "zhi-liang-suo-yin": {
+      "type": "overview",
+      "label": "质量索引",
+      "aliases": [
+        "quality index"
+      ],
+      "path": "zh/zhi-liang-suo-yin.md"
+    },
     "zhi-shi-ji-lei": {
       "type": "concept",
       "label": "知识积累",
@@ -6864,6 +6872,9 @@
     "直立人": "zhi-li-ren",
     "Homo erectus": "zhi-li-ren",
     "直立猿人": "zhi-li-ren",
+    "zhi-liang-suo-yin": "zhi-liang-suo-yin",
+    "质量索引": "zhi-liang-suo-yin",
+    "quality index": "zhi-liang-suo-yin",
     "zhi-shi-ji-lei": "zhi-shi-ji-lei",
     "知识积累": "zhi-shi-ji-lei",
     "knowledge accumulation": "zhi-shi-ji-lei",
@@ -6933,10 +6944,8 @@
     "纸张": "纸张",
     "纸": "纸张",
     "paper": "纸张",
-    "质量索引": "质量索引",
     "质量分布": "质量索引",
     "质量统计": "质量索引",
-    "quality index": "质量索引",
     "长江": "长江",
     "Yangtze": "长江",
     "扬子江": "长江",
@@ -6983,6 +6992,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 565,
-  "generated": "2026-05-26T13:18:41Z"
+  "page_count": 566,
+  "generated": "2026-05-26T13:19:29Z"
 }
