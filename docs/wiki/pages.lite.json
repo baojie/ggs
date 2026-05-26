@@ -263,6 +263,15 @@
       ],
       "path": "ba/bailatu.md"
     },
+    "ban-tu-ren-kuo-zhang": {
+      "type": "event",
+      "label": "班图人扩张",
+      "aliases": [
+        "Bantu expansion",
+        "班图族扩张"
+      ],
+      "path": "ba/ban-tu-ren-kuo-zhang.md"
+    },
     "ban-zhen-shang-han": {
       "type": "concept",
       "label": "斑疹伤寒",
@@ -326,6 +335,15 @@
         "班图族扩张"
       ],
       "path": "ba/班图扩张.md"
+    },
+    "bei-ge-mi-ren": {
+      "type": "person",
+      "label": "俾格米人",
+      "aliases": [
+        "Pygmies",
+        "非洲俾格米人"
+      ],
+      "path": "be/bei-ge-mi-ren.md"
     },
     "beimeizhou": {
       "type": "place",
@@ -2315,6 +2333,15 @@
       ],
       "path": "le/lei-xing-suo-yin.md"
     },
+    "li-shi-ke-xue": {
+      "type": "concept",
+      "label": "历史科学",
+      "aliases": [
+        "historical science",
+        "历史学作为科学"
+      ],
+      "path": "li/li-shi-ke-xue.md"
+    },
     "liang-shi-chu-bei": {
       "type": "concept",
       "label": "粮食储备",
@@ -3174,6 +3201,15 @@
         "欧甘文"
       ],
       "path": "ou/欧甘字母.md"
+    },
+    "ping-guo": {
+      "type": "species",
+      "label": "苹果",
+      "aliases": [
+        "apple",
+        "Malus domestica"
+      ],
+      "path": "pi/ping-guo.md"
     },
     "pisaluo": {
       "type": "person",
@@ -4420,6 +4456,16 @@
       ],
       "path": "xi/xin-da-lu.md"
     },
+    "xing-ren": {
+      "type": "species",
+      "label": "杏仁",
+      "aliases": [
+        "almond",
+        "巴旦杏",
+        "Prunus dulcis"
+      ],
+      "path": "xi/xing-ren.md"
+    },
     "xinyuewodi": {
       "type": "place",
       "label": "新月沃地（地理）",
@@ -5538,6 +5584,10 @@
     "bailatu": "bailatu",
     "柏拉图": "bailatu",
     "Plato": "bailatu",
+    "ban-tu-ren-kuo-zhang": "ban-tu-ren-kuo-zhang",
+    "班图人扩张": "ban-tu-ren-kuo-zhang",
+    "Bantu expansion": "ban-tu-ren-kuo-zhang",
+    "班图族扩张": "ban-tu-ren-kuo-zhang",
     "ban-zhen-shang-han": "ban-zhen-shang-han",
     "斑疹伤寒": "ban-zhen-shang-han",
     "typhus": "ban-zhen-shang-han",
@@ -5561,7 +5611,10 @@
     "班图尼格罗人": "班图人",
     "班图扩张": "班图扩张",
     "Bantu Expansion": "班图扩张",
-    "班图族扩张": "班图扩张",
+    "bei-ge-mi-ren": "bei-ge-mi-ren",
+    "俾格米人": "bei-ge-mi-ren",
+    "Pygmies": "bei-ge-mi-ren",
+    "非洲俾格米人": "bei-ge-mi-ren",
     "beimeizhou": "beimeizhou",
     "北美洲": "beimeizhou",
     "North America": "beimeizhou",
@@ -6279,6 +6332,9 @@
     "type index": "lei-xing-suo-yin",
     "分类索引": "lei-xing-suo-yin",
     "词条类型索引": "lei-xing-suo-yin",
+    "li-shi-ke-xue": "li-shi-ke-xue",
+    "historical science": "li-shi-ke-xue",
+    "历史学作为科学": "li-shi-ke-xue",
     "liang-shi-chu-bei": "liang-shi-chu-bei",
     "粮食储备": "liang-shi-chu-bei",
     "food storage": "liang-shi-chu-bei",
@@ -6570,6 +6626,10 @@
     "欧甘字母": "欧甘字母",
     "Ogham": "欧甘字母",
     "欧甘文": "欧甘字母",
+    "ping-guo": "ping-guo",
+    "苹果": "ping-guo",
+    "apple": "ping-guo",
+    "Malus domestica": "ping-guo",
     "pisaluo": "pisaluo",
     "弗朗西斯科·皮萨罗": "pisaluo",
     "Francisco Pizarro": "pisaluo",
@@ -7017,6 +7077,11 @@
     "New World": "xin-da-lu",
     "美洲大陆": "xin-da-lu",
     "西半球": "xin-da-lu",
+    "xing-ren": "xing-ren",
+    "杏仁": "xing-ren",
+    "almond": "xing-ren",
+    "巴旦杏": "xing-ren",
+    "Prunus dulcis": "xing-ren",
     "xinyuewodi": "xinyuewodi",
     "新月沃地（地理）": "xinyuewodi",
     "肥沃月弯": "xinyuewodi",
@@ -7365,6 +7430,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 593,
-  "generated": "2026-05-26T13:45:44Z"
+  "page_count": 598,
+  "generated": "2026-05-26T16:17:43Z"
 }

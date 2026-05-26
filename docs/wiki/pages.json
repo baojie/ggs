@@ -92,7 +92,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
-      "total_refs": 1
+      "total_refs": 2
     },
     "aisaobiya": {
       "type": "place",
@@ -350,7 +350,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 17
+      "total_refs": 19
     },
     "安娜卡列尼娜原则": {
       "type": "concept",
@@ -682,6 +682,27 @@
       "affiliation": "古希腊",
       "total_refs": 2
     },
+    "ban-tu-ren-kuo-zhang": {
+      "type": "event",
+      "label": "班图人扩张",
+      "aliases": [
+        "Bantu expansion",
+        "班图族扩张"
+      ],
+      "tags": [
+        "迁徙",
+        "非洲"
+      ],
+      "path": "ba/ban-tu-ren-kuo-zhang.md",
+      "description": "约3000年前开始的原班图语人群从西非向非洲赤道以南的大规模人口迁移",
+      "prose_len": 613,
+      "prose_chars": 567,
+      "h2_count": 4,
+      "pn_count": 7,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 2
+    },
     "ban-zhen-shang-han": {
       "type": "concept",
       "label": "斑疹伤寒",
@@ -848,6 +869,27 @@
       "quality": "featured",
       "quality_score": 56,
       "total_refs": 4
+    },
+    "bei-ge-mi-ren": {
+      "type": "person",
+      "label": "俾格米人",
+      "aliases": [
+        "Pygmies",
+        "非洲俾格米人"
+      ],
+      "tags": [
+        "原住民",
+        "非洲"
+      ],
+      "path": "be/bei-ge-mi-ren.md",
+      "description": "中非雨林中的狩猎采集原住民族群，在班图人扩张中被取代和边缘化",
+      "prose_len": 397,
+      "prose_chars": 364,
+      "h2_count": 3,
+      "pn_count": 6,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 1
     },
     "beimeizhou": {
       "type": "place",
@@ -5608,7 +5650,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 1
+      "total_refs": 3
     },
     "keertesi": {
       "type": "person",
@@ -6045,6 +6087,27 @@
       "quality_score": 56,
       "total_refs": 0
     },
+    "li-shi-ke-xue": {
+      "type": "concept",
+      "label": "历史科学",
+      "aliases": [
+        "historical science",
+        "历史学作为科学"
+      ],
+      "tags": [
+        "科学",
+        "方法论"
+      ],
+      "path": "li/li-shi-ke-xue.md",
+      "description": "用比较方法和自然实验将人类史发展为可科学研究的学科，戴蒙德在全书的根本方法论主张",
+      "prose_len": 408,
+      "prose_chars": 374,
+      "h2_count": 3,
+      "pn_count": 4,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "liang-shi-chu-bei": {
       "type": "concept",
       "label": "粮食储备",
@@ -6191,7 +6254,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 103
+      "total_refs": 104
     },
     "lun-na-er-dao": {
       "type": "place",
@@ -7725,7 +7788,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 7
+      "total_refs": 8
     },
     "南北轴线与东西轴线": {
       "type": "concept",
@@ -7773,7 +7836,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 12
+      "total_refs": 13
     },
     "南岛语族": {
       "type": "concept",
@@ -7889,7 +7952,7 @@
       "blockquote_count": 0,
       "quality": "stub",
       "quality_score": 1,
-      "total_refs": 0
+      "total_refs": 2
     },
     "niandetelian": {
       "type": "person",
@@ -8080,7 +8143,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 13,
-      "total_refs": 2
+      "total_refs": 3
     },
     "农业": {
       "type": "concept",
@@ -8296,6 +8359,27 @@
       "quality": "basic",
       "quality_score": 8,
       "total_refs": 0
+    },
+    "ping-guo": {
+      "type": "species",
+      "label": "苹果",
+      "aliases": [
+        "apple",
+        "Malus domestica"
+      ],
+      "tags": [
+        "植物",
+        "农作物"
+      ],
+      "path": "pi/ping-guo.md",
+      "description": "欧亚大陆最早驯化的果树之一，戴蒙德用以例证果树驯化的困难和大陆差异",
+      "prose_len": 455,
+      "prose_chars": 381,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 2
     },
     "pisaluo": {
       "type": "person",
@@ -9419,7 +9503,7 @@
       "blockquote_count": 0,
       "quality": "stub",
       "quality_score": 2,
-      "total_refs": 0
+      "total_refs": 1
     },
     "shi-zu": {
       "type": "concept",
@@ -11279,7 +11363,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 11,
-      "total_refs": 0
+      "total_refs": 1
     },
     "xiang-xing-wen-zi": {
       "type": "concept",
@@ -11540,6 +11624,28 @@
       "quality_score": 11,
       "total_refs": 0
     },
+    "xing-ren": {
+      "type": "species",
+      "label": "杏仁",
+      "aliases": [
+        "almond",
+        "巴旦杏",
+        "Prunus dulcis"
+      ],
+      "tags": [
+        "植物",
+        "农作物"
+      ],
+      "path": "xi/xing-ren.md",
+      "description": "最早驯化的果树之一，苦味基因突变使其成为戴蒙德分析驯化机制的核心案例",
+      "prose_len": 538,
+      "prose_chars": 465,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 2
+    },
     "xinyuewodi": {
       "type": "place",
       "label": "新月沃地（地理）",
@@ -11708,7 +11814,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 68
+      "total_refs": 70
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -11886,7 +11992,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 44
+      "total_refs": 46
     },
     "驯鹿": {
       "type": "species",
@@ -13924,7 +14030,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 34,
-      "total_refs": 4
+      "total_refs": 5
     },
     "字母": {
       "type": "concept",
@@ -14277,6 +14383,10 @@
     "bailatu": "bailatu",
     "柏拉图": "bailatu",
     "Plato": "bailatu",
+    "ban-tu-ren-kuo-zhang": "ban-tu-ren-kuo-zhang",
+    "班图人扩张": "ban-tu-ren-kuo-zhang",
+    "Bantu expansion": "ban-tu-ren-kuo-zhang",
+    "班图族扩张": "ban-tu-ren-kuo-zhang",
     "ban-zhen-shang-han": "ban-zhen-shang-han",
     "斑疹伤寒": "ban-zhen-shang-han",
     "typhus": "ban-zhen-shang-han",
@@ -14300,7 +14410,10 @@
     "班图尼格罗人": "班图人",
     "班图扩张": "班图扩张",
     "Bantu Expansion": "班图扩张",
-    "班图族扩张": "班图扩张",
+    "bei-ge-mi-ren": "bei-ge-mi-ren",
+    "俾格米人": "bei-ge-mi-ren",
+    "Pygmies": "bei-ge-mi-ren",
+    "非洲俾格米人": "bei-ge-mi-ren",
     "beimeizhou": "beimeizhou",
     "北美洲": "beimeizhou",
     "North America": "beimeizhou",
@@ -15018,6 +15131,9 @@
     "type index": "lei-xing-suo-yin",
     "分类索引": "lei-xing-suo-yin",
     "词条类型索引": "lei-xing-suo-yin",
+    "li-shi-ke-xue": "li-shi-ke-xue",
+    "historical science": "li-shi-ke-xue",
+    "历史学作为科学": "li-shi-ke-xue",
     "liang-shi-chu-bei": "liang-shi-chu-bei",
     "粮食储备": "liang-shi-chu-bei",
     "food storage": "liang-shi-chu-bei",
@@ -15309,6 +15425,10 @@
     "欧甘字母": "欧甘字母",
     "Ogham": "欧甘字母",
     "欧甘文": "欧甘字母",
+    "ping-guo": "ping-guo",
+    "苹果": "ping-guo",
+    "apple": "ping-guo",
+    "Malus domestica": "ping-guo",
     "pisaluo": "pisaluo",
     "弗朗西斯科·皮萨罗": "pisaluo",
     "Francisco Pizarro": "pisaluo",
@@ -15756,6 +15876,11 @@
     "New World": "xin-da-lu",
     "美洲大陆": "xin-da-lu",
     "西半球": "xin-da-lu",
+    "xing-ren": "xing-ren",
+    "杏仁": "xing-ren",
+    "almond": "xing-ren",
+    "巴旦杏": "xing-ren",
+    "Prunus dulcis": "xing-ren",
     "xinyuewodi": "xinyuewodi",
     "新月沃地（地理）": "xinyuewodi",
     "肥沃月弯": "xinyuewodi",
@@ -16104,6 +16229,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 593,
-  "generated": "2026-05-26T13:45:44Z"
+  "page_count": 598,
+  "generated": "2026-05-26T16:17:43Z"
 }
