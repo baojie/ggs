@@ -403,7 +403,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 23
+      "total_refs": 24
     },
     "安娜卡列尼娜原则": {
       "type": "concept",
@@ -539,14 +539,14 @@
       ],
       "path": "ap/a-pa-qie-zu.md",
       "description": "美国西南部印第安族群，戴蒙德以其季节性迁徙路线为例说明游牧与农业混合的经济模式",
-      "prose_len": 148,
-      "prose_chars": 125,
-      "h2_count": 2,
+      "prose_len": 407,
+      "prose_chars": 371,
+      "h2_count": 3,
       "pn_count": 1,
-      "wikilink_count": 1,
+      "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "stub",
-      "quality_score": 1,
+      "quality": "basic",
+      "quality_score": 9,
       "total_refs": 0
     },
     "阿塔瓦尔帕": {
@@ -782,7 +782,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 5
+      "total_refs": 6
     },
     "ban-zhen-shang-han": {
       "type": "concept",
@@ -1476,7 +1476,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 3
+      "total_refs": 4
     },
     "草原": {
       "type": "concept",
@@ -3757,7 +3757,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 21
+      "total_refs": 22
     },
     "Frontispiece": {
       "type": "chapter",
@@ -4697,15 +4697,15 @@
         "殖民"
       ],
       "path": "he/he-lei-luo-ren.md",
-      "description": "纳米比亚的族群，1904年遭遇德国殖民者的种族灭绝战争，成为殖民暴行的标志性事件",
-      "prose_len": 170,
-      "prose_chars": 170,
-      "h2_count": 0,
-      "pn_count": 1,
-      "wikilink_count": 0,
+      "description": "纳米比亚的班图语族群，1904年遭遇德国殖民者的种族灭绝战争，成为殖民暴行的标志性事件",
+      "prose_len": 416,
+      "prose_chars": 378,
+      "h2_count": 3,
+      "pn_count": 3,
+      "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "stub",
-      "quality_score": 1,
+      "quality": "basic",
+      "quality_score": 9,
       "total_refs": 0
     },
     "he-ma": {
@@ -4791,14 +4791,14 @@
       ],
       "path": "he/heng-de-sen-dao.md",
       "description": "波利尼西亚最贫瘠的岛屿之一，与夏威夷、新西兰构成资源禀赋对比的自然实验案例",
-      "prose_len": 314,
-      "prose_chars": 289,
-      "h2_count": 2,
+      "prose_len": 484,
+      "prose_chars": 432,
+      "h2_count": 4,
       "pn_count": 3,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "stub",
-      "quality_score": 3,
+      "quality": "basic",
+      "quality_score": 9,
       "total_refs": 0
     },
     "heng-he-ping-yuan": {
@@ -4986,14 +4986,14 @@
       ],
       "path": "hu/hui-su-shi-yan-fa.md",
       "description": "历史学家通过考察已知案例来验证假说的方法，戴蒙德将其与自然科学实验类比",
-      "prose_len": 252,
-      "prose_chars": 227,
-      "h2_count": 2,
+      "prose_len": 394,
+      "prose_chars": 357,
+      "h2_count": 3,
       "pn_count": 1,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "stub",
-      "quality_score": 2,
+      "quality": "basic",
+      "quality_score": 8,
       "total_refs": 2
     },
     "hui-xiong": {
@@ -6183,14 +6183,14 @@
       ],
       "path": "ke/ke-luo-la-duo-he.md",
       "description": "北美洲西南部主要河流，戴蒙德以科罗拉多河河谷的农业部落与加利福尼亚狩猎采集族群的贸易为例分析不同经济模式的接触",
-      "prose_len": 141,
-      "prose_chars": 118,
-      "h2_count": 2,
+      "prose_len": 405,
+      "prose_chars": 366,
+      "h2_count": 3,
       "pn_count": 1,
-      "wikilink_count": 1,
+      "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "stub",
-      "quality_score": 1,
+      "quality": "basic",
+      "quality_score": 9,
       "total_refs": 0
     },
     "ke-luo-ma-nu-ren": {
@@ -17693,5 +17693,5 @@
     "驯化作物": "作物驯化"
   },
   "page_count": 649,
-  "generated": "2026-05-26T17:15:27Z"
+  "generated": "2026-05-26T17:20:32Z"
 }
