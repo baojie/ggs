@@ -188,6 +188,14 @@
       ],
       "path": "be/beimeizhou.md"
     },
+    "beimizhou": {
+      "type": "place",
+      "label": "北美洲",
+      "aliases": [
+        "North America"
+      ],
+      "path": "be/beimizhou.md"
+    },
     "北极": {
       "type": "place",
       "label": "北极",
@@ -1592,7 +1600,7 @@
         "Battle of Cajamarca",
         "1532年卡哈马卡战役"
       ],
-      "path": "卡哈马卡之战.md"
+      "path": "ka/卡哈马卡之战.md"
     },
     "卡哈马卡战役": {
       "type": "event",
@@ -2006,6 +2014,16 @@
       ],
       "path": "me/蒙特朱马.md"
     },
+    "mianyi": {
+      "type": "concept",
+      "label": "免疫",
+      "aliases": [
+        "immunity",
+        "免疫力",
+        "抵抗力"
+      ],
+      "path": "mi/mianyi.md"
+    },
     "mikelunixiya": {
       "type": "place",
       "label": "密克罗尼西亚",
@@ -2164,6 +2182,16 @@
       "label": "目录",
       "aliases": [],
       "path": "mu/目录.md"
+    },
+    "nandaoren-kuozhang": {
+      "type": "event",
+      "label": "南岛人扩张",
+      "aliases": [
+        "Austronesian expansion",
+        "南岛语系扩张",
+        "南岛人大迁徙"
+      ],
+      "path": "na/nandaoren-kuozhang.md"
     },
     "nanmeizhou": {
       "type": "place",
@@ -2417,6 +2445,16 @@
         "酿酒葡萄"
       ],
       "path": "pu/葡萄.md"
+    },
+    "qiuzhangzhi": {
+      "type": "concept",
+      "label": "酋长制",
+      "aliases": [
+        "chiefdom",
+        "酋邦",
+        "酋长社会"
+      ],
+      "path": "qi/qiuzhangzhi.md"
     },
     "亲属关系": {
       "type": "concept",
@@ -3536,6 +3574,16 @@
       ],
       "path": "ye/野生谷物.md"
     },
+    "yichuanxue": {
+      "type": "concept",
+      "label": "遗传学",
+      "aliases": [
+        "genetics",
+        "基因学",
+        "基因"
+      ],
+      "path": "yi/yichuanxue.md"
+    },
     "yindu": {
       "type": "place",
       "label": "印度",
@@ -4196,6 +4244,7 @@
     "beimeizhou": "beimeizhou",
     "北美洲": "beimeizhou",
     "North America": "beimeizhou",
+    "beimizhou": "beimizhou",
     "北极": "北极",
     "Arctic": "北极",
     "北极地区": "北极",
@@ -4818,16 +4867,17 @@
     "蒙特朱马": "蒙特朱马",
     "Moctezuma": "蒙特朱马",
     "蒙特苏马": "蒙特朱马",
+    "mianyi": "mianyi",
+    "免疫": "mianyi",
+    "immunity": "mianyi",
+    "免疫力": "mianyi",
+    "抵抗力": "mianyi",
     "mikelunixiya": "mikelunixiya",
     "密克罗尼西亚": "mikelunixiya",
     "Micronesia": "mikelunixiya",
     "milu": "milu",
     "秘鲁": "milu",
     "Peru": "milu",
-    "免疫": "免疫",
-    "immunity": "免疫",
-    "免疫力": "免疫",
-    "抵抗力": "免疫力",
     "病菌免疫": "免疫力",
     "棉花": "棉花",
     "棉": "棉花",
@@ -4863,6 +4913,11 @@
     "游牧民族": "牧人",
     "游牧者": "牧人",
     "目录": "目录",
+    "nandaoren-kuozhang": "nandaoren-kuozhang",
+    "南岛人扩张": "nandaoren-kuozhang",
+    "Austronesian expansion": "nandaoren-kuozhang",
+    "南岛语系扩张": "nandaoren-kuozhang",
+    "南岛人大迁徙": "nandaoren-kuozhang",
     "nanmeizhou": "nanmeizhou",
     "南美洲": "nanmeizhou",
     "South America": "nanmeizhou",
@@ -4875,8 +4930,6 @@
     "大陆轴线南北": "南北轴",
     "南北轴线与东西轴线": "南北轴线与东西轴线",
     "轴线方向": "南北轴线与东西轴线",
-    "南岛人扩张": "南岛人扩张",
-    "Austronesian expansion": "南岛人扩张",
     "南岛人迁徙": "南岛人扩张",
     "南岛语族": "南岛语族",
     "Austronesian": "南岛语族",
@@ -4946,6 +4999,11 @@
     "grape": "葡萄",
     "栽培葡萄": "葡萄",
     "酿酒葡萄": "葡萄",
+    "qiuzhangzhi": "qiuzhangzhi",
+    "酋长制": "qiuzhangzhi",
+    "chiefdom": "qiuzhangzhi",
+    "酋邦": "qiuzhangzhi",
+    "酋长社会": "qiuzhangzhi",
     "亲属关系": "亲属关系",
     "kinship": "亲属关系",
     "血缘": "亲属关系",
@@ -4970,11 +5028,7 @@
     "气候区": "气候带",
     "气候类型": "气候带",
     "酋长": "酋长",
-    "酋长制": "酋长",
     "酋长管辖地": "酋长",
-    "酋邦": "酋长",
-    "chiefdom": "酋长制",
-    "酋长社会": "酋长制",
     "青铜": "青铜",
     "青铜器": "青铜",
     "青铜时代": "青铜时代",
@@ -5331,6 +5385,10 @@
     "野生谷物": "野生谷物",
     "野生禾本科": "野生谷物",
     "野生小麦": "野生谷物",
+    "yichuanxue": "yichuanxue",
+    "遗传学": "yichuanxue",
+    "genetics": "yichuanxue",
+    "基因学": "yichuanxue",
     "yindu": "yindu",
     "印度": "yindu",
     "India": "yindu",
@@ -5367,9 +5425,7 @@
     "poppy": "罂粟",
     "鸦片罂粟": "罂粟",
     "遗传": "遗传",
-    "遗传学": "遗传",
     "遗传差异": "遗传",
-    "genetics": "遗传学",
     "鹰嘴豆": "鹰嘴豆",
     "chickpea": "鹰嘴豆",
     "埃及豆": "鹰嘴豆",
@@ -5523,6 +5579,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 454,
-  "generated": "2026-05-26T10:56:23Z"
+  "page_count": 459,
+  "generated": "2026-05-26T11:00:55Z"
 }

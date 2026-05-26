@@ -280,7 +280,7 @@
       "quality": "featured",
       "quality_score": 60,
       "affiliation": "印加帝国",
-      "total_refs": 12
+      "total_refs": 11
     },
     "aziteke": {
       "type": "concept",
@@ -491,6 +491,28 @@
       "quality_score": 58,
       "total_refs": 0
     },
+    "beimizhou": {
+      "type": "place",
+      "label": "北美洲",
+      "aliases": [
+        "North America"
+      ],
+      "tags": [
+        "大陆",
+        "地区"
+      ],
+      "path": "be/beimizhou.md",
+      "description": "美洲北部大陆，戴蒙德用以分析南北走向轴线对粮食生产和文明传播的阻碍",
+      "prose_len": 587,
+      "prose_chars": 526,
+      "h2_count": 5,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 10,
+      "total_refs": 0
+    },
     "北极": {
       "type": "place",
       "label": "北极",
@@ -634,7 +656,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 41
+      "total_refs": 40
     },
     "bo-li-ni-xi-ya-ren": {
       "type": "person",
@@ -658,7 +680,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 11,
-      "total_refs": 0
+      "total_refs": 1
     },
     "伯克和威尔斯": {
       "type": "person",
@@ -783,7 +805,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 9
+      "total_refs": 10
     },
     "草原": {
       "type": "concept",
@@ -1295,7 +1317,7 @@
       "blockquote_count": 1,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 20
+      "total_refs": 21
     },
     "创新": {
       "type": "concept",
@@ -2155,7 +2177,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 31
+      "total_refs": 32
     },
     "鹅": {
       "type": "species",
@@ -2728,7 +2750,7 @@
       "quality": "featured",
       "quality_score": 55,
       "affiliation": "斯坦福大学",
-      "total_refs": 0
+      "total_refs": 1
     },
     "革命": {
       "type": "concept",
@@ -2927,7 +2949,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 0
+      "total_refs": 1
     },
     "国王": {
       "type": "concept",
@@ -3459,7 +3481,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 0
+      "total_refs": 1
     },
     "黄河": {
       "type": "place",
@@ -3897,7 +3919,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 32
+      "total_refs": 31
     },
     "金属": {
       "type": "concept",
@@ -4187,7 +4209,7 @@
         "征服",
         "南美洲"
       ],
-      "path": "卡哈马卡之战.md",
+      "path": "ka/卡哈马卡之战.md",
       "description": "1532年11月16日，弗兰西斯科·皮萨罗率168名西班牙人在秘鲁卡哈马卡俘获印加皇帝阿塔瓦尔帕，击溃数万印加军队；戴蒙德以此战为分析起点，解析欧亚大陆人征服美洲的近端原因与终极原因。",
       "prose_len": 697,
       "prose_chars": 661,
@@ -4561,7 +4583,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 93
+      "total_refs": 95
     },
     "luoma-diguo": {
       "type": "event",
@@ -4731,7 +4753,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 1
+      "total_refs": 2
     },
     "makesi": {
       "type": "person",
@@ -5090,7 +5112,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 4
+      "total_refs": 5
     },
     "美拉尼西亚": {
       "type": "place",
@@ -5262,6 +5284,30 @@
       "quality": "featured",
       "quality_score": 55,
       "affiliation": "阿兹特克帝国",
+      "total_refs": 0
+    },
+    "mianyi": {
+      "type": "concept",
+      "label": "免疫",
+      "aliases": [
+        "immunity",
+        "免疫力",
+        "抵抗力"
+      ],
+      "tags": [
+        "生物",
+        "疾病"
+      ],
+      "path": "mi/mianyi.md",
+      "description": "人类对传染病的抵抗能力，戴蒙德用以分析欧亚大陆密集人口产生免疫优势的历史后果",
+      "prose_len": 621,
+      "prose_chars": 564,
+      "h2_count": 5,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 11,
       "total_refs": 0
     },
     "mikelunixiya": {
@@ -5619,7 +5665,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 3
+      "total_refs": 4
     },
     "木薯": {
       "type": "species",
@@ -5691,6 +5737,30 @@
       "quality_score": 17,
       "total_refs": 0
     },
+    "nandaoren-kuozhang": {
+      "type": "event",
+      "label": "南岛人扩张",
+      "aliases": [
+        "Austronesian expansion",
+        "南岛语系扩张",
+        "南岛人大迁徙"
+      ],
+      "tags": [
+        "迁徙",
+        "征服"
+      ],
+      "path": "na/nandaoren-kuozhang.md",
+      "description": "南岛语系民族从台湾出发向整个太平洋和印度洋的大规模迁徙，戴蒙德用以分析粮食生产与人口扩张的关系",
+      "prose_len": 618,
+      "prose_chars": 562,
+      "h2_count": 5,
+      "pn_count": 4,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 11,
+      "total_refs": 0
+    },
     "nanmeizhou": {
       "type": "place",
       "label": "南美洲",
@@ -5759,7 +5829,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 4
+      "total_refs": 5
     },
     "南北轴线与东西轴线": {
       "type": "concept",
@@ -6311,7 +6381,7 @@
       "quality": "featured",
       "quality_score": 59,
       "affiliation": "西班牙王国",
-      "total_refs": 12
+      "total_refs": 11
     },
     "Preface": {
       "type": "chapter",
@@ -6357,6 +6427,30 @@
       "quality": "featured",
       "quality_score": 61,
       "total_refs": 3
+    },
+    "qiuzhangzhi": {
+      "type": "concept",
+      "label": "酋长制",
+      "aliases": [
+        "chiefdom",
+        "酋邦",
+        "酋长社会"
+      ],
+      "tags": [
+        "社会组织",
+        "演化"
+      ],
+      "path": "qi/qiuzhangzhi.md",
+      "description": "介于部落与国家之间的社会形态，戴蒙德用以论证社会组织复杂化的演进路径",
+      "prose_len": 575,
+      "prose_chars": 519,
+      "h2_count": 5,
+      "pn_count": 4,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 10,
+      "total_refs": 0
     },
     "亲属关系": {
       "type": "concept",
@@ -7774,7 +7868,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 8
+      "total_refs": 9
     },
     "探险": {
       "type": "concept",
@@ -7872,7 +7966,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 4
+      "total_refs": 5
     },
     "梯田": {
       "type": "concept",
@@ -9293,6 +9387,30 @@
       "quality_score": 9,
       "total_refs": 3
     },
+    "yichuanxue": {
+      "type": "concept",
+      "label": "遗传学",
+      "aliases": [
+        "genetics",
+        "基因学",
+        "基因"
+      ],
+      "tags": [
+        "生物",
+        "演化"
+      ],
+      "path": "yi/yichuanxue.md",
+      "description": "研究基因和遗传变异的学科，戴蒙德用以追溯人类迁徙和作物驯化的历史",
+      "prose_len": 623,
+      "prose_chars": 567,
+      "h2_count": 5,
+      "pn_count": 3,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 11,
+      "total_refs": 0
+    },
     "yindu": {
       "type": "place",
       "label": "印度",
@@ -9849,7 +9967,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 2
+      "total_refs": 3
     },
     "语言传播": {
       "type": "concept",
@@ -10190,7 +10308,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 10
+      "total_refs": 11
     },
     "制陶": {
       "type": "concept",
@@ -10808,7 +10926,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 6
+      "total_refs": 7
     },
     "作物驯化": {
       "type": "concept",
@@ -10900,6 +11018,7 @@
     "beimeizhou": "beimeizhou",
     "北美洲": "beimeizhou",
     "North America": "beimeizhou",
+    "beimizhou": "beimizhou",
     "北极": "北极",
     "Arctic": "北极",
     "北极地区": "北极",
@@ -11522,16 +11641,17 @@
     "蒙特朱马": "蒙特朱马",
     "Moctezuma": "蒙特朱马",
     "蒙特苏马": "蒙特朱马",
+    "mianyi": "mianyi",
+    "免疫": "mianyi",
+    "immunity": "mianyi",
+    "免疫力": "mianyi",
+    "抵抗力": "mianyi",
     "mikelunixiya": "mikelunixiya",
     "密克罗尼西亚": "mikelunixiya",
     "Micronesia": "mikelunixiya",
     "milu": "milu",
     "秘鲁": "milu",
     "Peru": "milu",
-    "免疫": "免疫",
-    "immunity": "免疫",
-    "免疫力": "免疫",
-    "抵抗力": "免疫力",
     "病菌免疫": "免疫力",
     "棉花": "棉花",
     "棉": "棉花",
@@ -11567,6 +11687,11 @@
     "游牧民族": "牧人",
     "游牧者": "牧人",
     "目录": "目录",
+    "nandaoren-kuozhang": "nandaoren-kuozhang",
+    "南岛人扩张": "nandaoren-kuozhang",
+    "Austronesian expansion": "nandaoren-kuozhang",
+    "南岛语系扩张": "nandaoren-kuozhang",
+    "南岛人大迁徙": "nandaoren-kuozhang",
     "nanmeizhou": "nanmeizhou",
     "南美洲": "nanmeizhou",
     "South America": "nanmeizhou",
@@ -11579,8 +11704,6 @@
     "大陆轴线南北": "南北轴",
     "南北轴线与东西轴线": "南北轴线与东西轴线",
     "轴线方向": "南北轴线与东西轴线",
-    "南岛人扩张": "南岛人扩张",
-    "Austronesian expansion": "南岛人扩张",
     "南岛人迁徙": "南岛人扩张",
     "南岛语族": "南岛语族",
     "Austronesian": "南岛语族",
@@ -11650,6 +11773,11 @@
     "grape": "葡萄",
     "栽培葡萄": "葡萄",
     "酿酒葡萄": "葡萄",
+    "qiuzhangzhi": "qiuzhangzhi",
+    "酋长制": "qiuzhangzhi",
+    "chiefdom": "qiuzhangzhi",
+    "酋邦": "qiuzhangzhi",
+    "酋长社会": "qiuzhangzhi",
     "亲属关系": "亲属关系",
     "kinship": "亲属关系",
     "血缘": "亲属关系",
@@ -11674,11 +11802,7 @@
     "气候区": "气候带",
     "气候类型": "气候带",
     "酋长": "酋长",
-    "酋长制": "酋长",
     "酋长管辖地": "酋长",
-    "酋邦": "酋长",
-    "chiefdom": "酋长制",
-    "酋长社会": "酋长制",
     "青铜": "青铜",
     "青铜器": "青铜",
     "青铜时代": "青铜时代",
@@ -12035,6 +12159,10 @@
     "野生谷物": "野生谷物",
     "野生禾本科": "野生谷物",
     "野生小麦": "野生谷物",
+    "yichuanxue": "yichuanxue",
+    "遗传学": "yichuanxue",
+    "genetics": "yichuanxue",
+    "基因学": "yichuanxue",
     "yindu": "yindu",
     "印度": "yindu",
     "India": "yindu",
@@ -12071,9 +12199,7 @@
     "poppy": "罂粟",
     "鸦片罂粟": "罂粟",
     "遗传": "遗传",
-    "遗传学": "遗传",
     "遗传差异": "遗传",
-    "genetics": "遗传学",
     "鹰嘴豆": "鹰嘴豆",
     "chickpea": "鹰嘴豆",
     "埃及豆": "鹰嘴豆",
@@ -12227,6 +12353,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 454,
-  "generated": "2026-05-26T10:56:23Z"
+  "page_count": 459,
+  "generated": "2026-05-26T11:00:55Z"
 }

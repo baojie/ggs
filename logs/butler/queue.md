@@ -27,14 +27,14 @@
 ### P1 create（红链引用 ≥ 3）
 
 - [x] P1 create | 征服 | concept | 红链 ×11
-- [ ] P1 create | 酋长制 | concept | 红链 ×9
+- [x] P1 create | 酋长制 | concept | 红链 ×9
 - [ ] P1 create | 美索不达米亚 | place | 红链 ×6
 - [ ] P1 create | 台湾 | place | 红链 ×5
 - [x] P1 create | 东西轴线 | concept | 红链 ×5
 - [ ] P1 create | 印度尼西亚 | place | 红链 ×4
-- [ ] P1 create | 南岛人扩张 | event | 红链 ×4
-- [ ] P1 create | 北美洲 | place | 红链 ×4
-- [ ] P1 create | 免疫 | concept | 红链 ×4
+- [x] P1 create | 南岛人扩张 | event | 红链 ×4
+- [x] P1 create | 北美洲 | place | 红链 ×4
+- [x] P1 create | 免疫 | concept | 红链 ×4
 - [ ] P1 create | 尼罗河 | place | 红链 ×3
 - [ ] P1 create | 印度 | place | 红链 ×3
 - [ ] P1 create | 墨西哥 | place | 红链 ×3
@@ -44,7 +44,7 @@
 
 - [ ] P2 stub | 菲律宾 | place | 红链 ×2
 - [ ] P2 stub | 埃塞俄比亚 | place | 红链 ×2
-- [ ] P2 stub | 遗传学 | concept | 红链 ×2
+- [x] P2 stub | 遗传学 | concept | 红链 ×2
 - [ ] P2 stub | 环境决定论 | concept | 红链 ×2
 - [ ] P2 stub | 秘鲁 | place | 红链 ×2
 - [ ] P2 stub | 马克思 | person | 红链 ×2
