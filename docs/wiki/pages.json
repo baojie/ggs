@@ -213,6 +213,30 @@
       "quality_score": 8,
       "total_refs": 0
     },
+    "a-la-si-jia": {
+      "type": "place",
+      "label": "阿拉斯加",
+      "aliases": [
+        "Alaska",
+        "阿拉斯加州"
+      ],
+      "tags": [
+        "地点",
+        "北美洲",
+        "北极"
+      ],
+      "path": "al/a-la-si-jia.md",
+      "description": "北美西北端，最早美洲移民经由白令陆桥进入新大陆的门户，人类定居美洲的关键枢纽",
+      "prose_len": 557,
+      "prose_chars": 515,
+      "h2_count": 3,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 10,
+      "total_refs": 0
+    },
     "alabobandao": {
       "type": "place",
       "label": "阿拉伯半岛",
@@ -688,7 +712,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 25,
-      "total_refs": 1
+      "total_refs": 2
     },
     "bailatu": {
       "type": "person",
@@ -3035,7 +3059,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 5
+      "total_refs": 6
     },
     "dongxizhouxian": {
       "type": "concept",
@@ -3922,6 +3946,30 @@
       "quality_score": 60,
       "total_refs": 4
     },
+    "ge-ling-lan": {
+      "type": "place",
+      "label": "格陵兰",
+      "aliases": [
+        "Greenland",
+        "格陵兰岛"
+      ],
+      "tags": [
+        "地点",
+        "北大西洋",
+        "北极"
+      ],
+      "path": "ge/ge-ling-lan.md",
+      "description": "世界上最大岛屿，古挪威人从986年起在此建立殖民地，后因环境恶化而崩溃",
+      "prose_len": 594,
+      "prose_chars": 550,
+      "h2_count": 3,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 10,
+      "total_refs": 2
+    },
     "ge-ren-yu-li-shi-jie-gou": {
       "type": "concept",
       "label": "个人与历史结构",
@@ -3944,6 +3992,31 @@
       "quality": "featured",
       "quality_score": 65,
       "total_refs": 1
+    },
+    "geng-xin-shi": {
+      "type": "concept",
+      "label": "更新世",
+      "aliases": [
+        "Pleistocene",
+        "冰河时代",
+        "更新世冰期"
+      ],
+      "tags": [
+        "概念",
+        "地质",
+        "演化"
+      ],
+      "path": "ge/geng-xin-shi.md",
+      "description": "地质年代（260万-1.17万年前），涵盖冰期循环、人类演化、大陆定居和巨型动物灭绝等全书核心议题",
+      "prose_len": 662,
+      "prose_chars": 614,
+      "h2_count": 3,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 11,
+      "total_refs": 3
     },
     "哥伦布": {
       "type": "person",
@@ -4194,6 +4267,31 @@
       "quality": "featured",
       "quality_score": 60,
       "total_refs": 2
+    },
+    "gu-nuo-wei-ren": {
+      "type": "person",
+      "label": "古挪威人",
+      "aliases": [
+        "Norse",
+        "古斯堪的纳维亚人",
+        "维京人"
+      ],
+      "tags": [
+        "人物",
+        "欧洲",
+        "殖民"
+      ],
+      "path": "gu/gu-nuo-wei-ren.md",
+      "description": "公元874年起向冰岛、格陵兰和北美东北部海岸移民的北欧探险者，拥有文字和铁器却未在美洲留下持久影响",
+      "prose_len": 689,
+      "prose_chars": 647,
+      "h2_count": 3,
+      "pn_count": 7,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 11,
+      "total_refs": 1
     },
     "国家": {
       "type": "concept",
@@ -5825,7 +5923,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 2
+      "total_refs": 3
     },
     "kahamakazhanyi": {
       "type": "event",
@@ -6088,7 +6186,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 3
+      "total_refs": 4
     },
     "克诺索斯": {
       "type": "place",
@@ -6210,7 +6308,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 4
+      "total_refs": 5
     },
     "ku-chao-cai": {
       "type": "species",
@@ -7030,7 +7128,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 2
+      "total_refs": 3
     },
     "牦牛": {
       "type": "species",
@@ -7995,7 +8093,7 @@
       "quality": "basic",
       "quality_score": 10,
       "affiliation": "查塔姆群岛",
-      "total_refs": 5
+      "total_refs": 6
     },
     "moerzibigang": {
       "type": "place",
@@ -11484,7 +11582,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
-      "total_refs": 0
+      "total_refs": 2
     },
     "文化": {
       "type": "concept",
@@ -12123,7 +12221,7 @@
       "blockquote_count": 0,
       "quality": "stub",
       "quality_score": 1,
-      "total_refs": 0
+      "total_refs": 2
     },
     "xiaweiyi": {
       "type": "place",
@@ -12309,6 +12407,30 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 26,
+      "total_refs": 0
+    },
+    "xin-xi-lan": {
+      "type": "place",
+      "label": "新西兰",
+      "aliases": [
+        "New Zealand",
+        "新西兰"
+      ],
+      "tags": [
+        "地点",
+        "太平洋",
+        "波利尼西亚"
+      ],
+      "path": "xi/xin-xi-lan.md",
+      "description": "太平洋西南部岛国，毛利人与莫里奥里人的自然实验对比地，戴蒙德波利尼西亚社会多样性分析的核心案例",
+      "prose_len": 658,
+      "prose_chars": 614,
+      "h2_count": 3,
+      "pn_count": 6,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 11,
       "total_refs": 0
     },
     "xing-ren": {
@@ -14884,7 +15006,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 64,
-      "total_refs": 7
+      "total_refs": 8
     },
     "字母": {
       "type": "concept",
@@ -15168,6 +15290,10 @@
     "阿基米德": "阿基米德",
     "Archimedes": "阿基米德",
     "阿基米德·叙拉古": "阿基米德",
+    "a-la-si-jia": "a-la-si-jia",
+    "阿拉斯加": "a-la-si-jia",
+    "Alaska": "a-la-si-jia",
+    "阿拉斯加州": "a-la-si-jia",
     "alabobandao": "alabobandao",
     "阿拉伯半岛": "alabobandao",
     "Arabian Peninsula": "alabobandao",
@@ -15668,10 +15794,19 @@
     "高粱": "高粱",
     "sorghum": "高粱",
     "Sorghum bicolor": "高粱",
+    "ge-ling-lan": "ge-ling-lan",
+    "格陵兰": "ge-ling-lan",
+    "Greenland": "ge-ling-lan",
+    "格陵兰岛": "ge-ling-lan",
     "ge-ren-yu-li-shi-jie-gou": "ge-ren-yu-li-shi-jie-gou",
     "个人与历史结构": "ge-ren-yu-li-shi-jie-gou",
     "individuals vs historical structures": "ge-ren-yu-li-shi-jie-gou",
     "个人作用与历史规律": "ge-ren-yu-li-shi-jie-gou",
+    "geng-xin-shi": "geng-xin-shi",
+    "更新世": "geng-xin-shi",
+    "Pleistocene": "geng-xin-shi",
+    "冰河时代": "geng-xin-shi",
+    "更新世冰期": "geng-xin-shi",
     "哥伦布": "哥伦布",
     "克里斯托弗·哥伦布": "哥伦布",
     "Christopher Columbus": "哥伦布",
@@ -15708,6 +15843,11 @@
     "狗": "狗",
     "家犬": "狗",
     "犬": "狗",
+    "gu-nuo-wei-ren": "gu-nuo-wei-ren",
+    "古挪威人": "gu-nuo-wei-ren",
+    "Norse": "gu-nuo-wei-ren",
+    "古斯堪的纳维亚人": "gu-nuo-wei-ren",
+    "维京人": "gu-nuo-wei-ren",
     "国家": "国家",
     "国家社会": "国家",
     "国家形成": "国家",
@@ -16835,6 +16975,9 @@
     "New World": "xin-da-lu",
     "美洲大陆": "xin-da-lu",
     "西半球": "xin-da-lu",
+    "xin-xi-lan": "xin-xi-lan",
+    "新西兰": "xin-xi-lan",
+    "New Zealand": "xin-xi-lan",
     "xing-ren": "xing-ren",
     "杏仁": "xing-ren",
     "almond": "xing-ren",
@@ -17213,6 +17356,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 633,
-  "generated": "2026-05-26T17:02:58Z"
+  "page_count": 638,
+  "generated": "2026-05-26T17:04:13Z"
 }

@@ -83,6 +83,15 @@
       ],
       "path": "aj/阿基米德.md"
     },
+    "a-la-si-jia": {
+      "type": "place",
+      "label": "阿拉斯加",
+      "aliases": [
+        "Alaska",
+        "阿拉斯加州"
+      ],
+      "path": "al/a-la-si-jia.md"
+    },
     "alabobandao": {
       "type": "place",
       "label": "阿拉伯半岛",
@@ -1487,6 +1496,15 @@
       ],
       "path": "ga/高粱.md"
     },
+    "ge-ling-lan": {
+      "type": "place",
+      "label": "格陵兰",
+      "aliases": [
+        "Greenland",
+        "格陵兰岛"
+      ],
+      "path": "ge/ge-ling-lan.md"
+    },
     "ge-ren-yu-li-shi-jie-gou": {
       "type": "concept",
       "label": "个人与历史结构",
@@ -1495,6 +1513,16 @@
         "个人作用与历史规律"
       ],
       "path": "ge/ge-ren-yu-li-shi-jie-gou.md"
+    },
+    "geng-xin-shi": {
+      "type": "concept",
+      "label": "更新世",
+      "aliases": [
+        "Pleistocene",
+        "冰河时代",
+        "更新世冰期"
+      ],
+      "path": "ge/geng-xin-shi.md"
     },
     "哥伦布": {
       "type": "person",
@@ -1591,6 +1619,16 @@
         "犬"
       ],
       "path": "go/狗.md"
+    },
+    "gu-nuo-wei-ren": {
+      "type": "person",
+      "label": "古挪威人",
+      "aliases": [
+        "Norse",
+        "古斯堪的纳维亚人",
+        "维京人"
+      ],
+      "path": "gu/gu-nuo-wei-ren.md"
     },
     "国家": {
       "type": "concept",
@@ -4708,6 +4746,15 @@
       ],
       "path": "xi/xin-da-lu.md"
     },
+    "xin-xi-lan": {
+      "type": "place",
+      "label": "新西兰",
+      "aliases": [
+        "New Zealand",
+        "新西兰"
+      ],
+      "path": "xi/xin-xi-lan.md"
+    },
     "xing-ren": {
       "type": "species",
       "label": "杏仁",
@@ -5830,6 +5877,10 @@
     "阿基米德": "阿基米德",
     "Archimedes": "阿基米德",
     "阿基米德·叙拉古": "阿基米德",
+    "a-la-si-jia": "a-la-si-jia",
+    "阿拉斯加": "a-la-si-jia",
+    "Alaska": "a-la-si-jia",
+    "阿拉斯加州": "a-la-si-jia",
     "alabobandao": "alabobandao",
     "阿拉伯半岛": "alabobandao",
     "Arabian Peninsula": "alabobandao",
@@ -6330,10 +6381,19 @@
     "高粱": "高粱",
     "sorghum": "高粱",
     "Sorghum bicolor": "高粱",
+    "ge-ling-lan": "ge-ling-lan",
+    "格陵兰": "ge-ling-lan",
+    "Greenland": "ge-ling-lan",
+    "格陵兰岛": "ge-ling-lan",
     "ge-ren-yu-li-shi-jie-gou": "ge-ren-yu-li-shi-jie-gou",
     "个人与历史结构": "ge-ren-yu-li-shi-jie-gou",
     "individuals vs historical structures": "ge-ren-yu-li-shi-jie-gou",
     "个人作用与历史规律": "ge-ren-yu-li-shi-jie-gou",
+    "geng-xin-shi": "geng-xin-shi",
+    "更新世": "geng-xin-shi",
+    "Pleistocene": "geng-xin-shi",
+    "冰河时代": "geng-xin-shi",
+    "更新世冰期": "geng-xin-shi",
     "哥伦布": "哥伦布",
     "克里斯托弗·哥伦布": "哥伦布",
     "Christopher Columbus": "哥伦布",
@@ -6370,6 +6430,11 @@
     "狗": "狗",
     "家犬": "狗",
     "犬": "狗",
+    "gu-nuo-wei-ren": "gu-nuo-wei-ren",
+    "古挪威人": "gu-nuo-wei-ren",
+    "Norse": "gu-nuo-wei-ren",
+    "古斯堪的纳维亚人": "gu-nuo-wei-ren",
+    "维京人": "gu-nuo-wei-ren",
     "国家": "国家",
     "国家社会": "国家",
     "国家形成": "国家",
@@ -7497,6 +7562,9 @@
     "New World": "xin-da-lu",
     "美洲大陆": "xin-da-lu",
     "西半球": "xin-da-lu",
+    "xin-xi-lan": "xin-xi-lan",
+    "新西兰": "xin-xi-lan",
+    "New Zealand": "xin-xi-lan",
     "xing-ren": "xing-ren",
     "杏仁": "xing-ren",
     "almond": "xing-ren",
@@ -7875,6 +7943,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 633,
-  "generated": "2026-05-26T17:02:58Z"
+  "page_count": 638,
+  "generated": "2026-05-26T17:04:13Z"
 }
