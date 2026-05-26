@@ -547,7 +547,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 0
+      "total_refs": 1
     },
     "阿塔瓦尔帕": {
       "type": "person",
@@ -972,6 +972,30 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 8,
+      "total_refs": 1
+    },
+    "bei-mei-da-ping-yuan": {
+      "type": "place",
+      "label": "北美大平原",
+      "aliases": [
+        "北美大草原",
+        "Great Plains"
+      ],
+      "tags": [
+        "地点",
+        "北美洲",
+        "地理"
+      ],
+      "path": "be/bei-mei-da-ping-yuan.md",
+      "description": "北美大陆中部广袤草原，印第安人骑马猎野牛的文化符号，粮食生产受限的地理区域",
+      "prose_len": 414,
+      "prose_chars": 378,
+      "h2_count": 3,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
       "total_refs": 1
     },
     "beimeizhou": {
@@ -1476,7 +1500,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 4
+      "total_refs": 6
     },
     "草原": {
       "type": "concept",
@@ -3232,7 +3256,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 8
+      "total_refs": 9
     },
     "动物": {
       "type": "concept",
@@ -6191,7 +6215,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 0
+      "total_refs": 1
     },
     "ke-luo-ma-nu-ren": {
       "type": "concept",
@@ -6700,6 +6724,30 @@
       "quality": "featured",
       "quality_score": 56,
       "total_refs": 0
+    },
+    "li-ma-dou": {
+      "type": "species",
+      "label": "利马豆",
+      "aliases": [
+        "lima bean",
+        "Phaseolus lunatus"
+      ],
+      "tags": [
+        "物种",
+        "植物",
+        "美洲"
+      ],
+      "path": "li/li-ma-dou.md",
+      "description": "美洲驯化的豆类作物，与菜豆同为新大陆豆类驯化的代表",
+      "prose_len": 373,
+      "prose_chars": 336,
+      "h2_count": 3,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 1
     },
     "li-ni-er-ban-ke-la-mi-ke-wen-hua": {
       "type": "concept",
@@ -7478,6 +7526,30 @@
       "quality": "featured",
       "quality_score": 56,
       "total_refs": 0
+    },
+    "mei-guo-xi-nan-bu": {
+      "type": "place",
+      "label": "美国西南部",
+      "aliases": [
+        "American Southwest",
+        "北美西南部"
+      ],
+      "tags": [
+        "地点",
+        "北美洲",
+        "地理"
+      ],
+      "path": "me/mei-guo-xi-nan-bu.md",
+      "description": "北美西南干旱地区，灌溉农业与普韦布洛文化的地理基础",
+      "prose_len": 410,
+      "prose_chars": 373,
+      "h2_count": 3,
+      "pn_count": 3,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 3
     },
     "mei-zhou-ye-niu": {
       "type": "species",
@@ -10179,6 +10251,30 @@
       "quality_score": 9,
       "total_refs": 0
     },
+    "shan-he-tao": {
+      "type": "species",
+      "label": "山核桃",
+      "aliases": [
+        "pecan",
+        "Carya illinoinensis"
+      ],
+      "tags": [
+        "物种",
+        "植物",
+        "北美洲"
+      ],
+      "path": "sh/shan-he-tao.md",
+      "description": "美洲原产坚果，1846年才驯化，北美东部土著的重要野生食物来源",
+      "prose_len": 408,
+      "prose_chars": 372,
+      "h2_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 2
+    },
     "shan-yu-zu": {
       "type": "concept",
       "label": "闪语族",
@@ -11958,6 +12054,31 @@
       "quality_score": 60,
       "total_refs": 1
     },
+    "wu-fan-shu": {
+      "type": "species",
+      "label": "乌饭树",
+      "aliases": [
+        "blueberry",
+        "Vaccinium",
+        "蓝莓"
+      ],
+      "tags": [
+        "物种",
+        "植物",
+        "北美洲"
+      ],
+      "path": "wu/wu-fan-shu.md",
+      "description": "北美原产灌木浆果，与野草莓同为易采集的野生果实",
+      "prose_len": 396,
+      "prose_chars": 359,
+      "h2_count": 3,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 2
+    },
     "wu-lu-ke": {
       "type": "place",
       "label": "乌鲁克",
@@ -13060,7 +13181,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 1
+      "total_refs": 2
     },
     "驯化": {
       "type": "concept",
@@ -15684,6 +15805,10 @@
     "俾格米人": "bei-ge-mi-ren",
     "Pygmies": "bei-ge-mi-ren",
     "非洲俾格米人": "bei-ge-mi-ren",
+    "bei-mei-da-ping-yuan": "bei-mei-da-ping-yuan",
+    "北美大平原": "bei-mei-da-ping-yuan",
+    "北美大草原": "bei-mei-da-ping-yuan",
+    "Great Plains": "bei-mei-da-ping-yuan",
     "beimeizhou": "beimeizhou",
     "北美洲": "beimeizhou",
     "North America": "beimeizhou",
@@ -16488,6 +16613,10 @@
     "type index": "lei-xing-suo-yin",
     "分类索引": "lei-xing-suo-yin",
     "词条类型索引": "lei-xing-suo-yin",
+    "li-ma-dou": "li-ma-dou",
+    "利马豆": "li-ma-dou",
+    "lima bean": "li-ma-dou",
+    "Phaseolus lunatus": "li-ma-dou",
     "li-ni-er-ban-ke-la-mi-ke-wen-hua": "li-ni-er-ban-ke-la-mi-ke-wen-hua",
     "利尼尔班克拉米克文化": "li-ni-er-ban-ke-la-mi-ke-wen-hua",
     "LBK文化": "li-ni-er-ban-ke-la-mi-ke-wen-hua",
@@ -16606,6 +16735,10 @@
     "mei-du": "mei-du",
     "梅毒": "mei-du",
     "syphilis": "mei-du",
+    "mei-guo-xi-nan-bu": "mei-guo-xi-nan-bu",
+    "美国西南部": "mei-guo-xi-nan-bu",
+    "American Southwest": "mei-guo-xi-nan-bu",
+    "北美西南部": "mei-guo-xi-nan-bu",
     "mei-zhou-ye-niu": "mei-zhou-ye-niu",
     "美洲野牛": "mei-zhou-ye-niu",
     "American bison": "mei-zhou-ye-niu",
@@ -16945,6 +17078,10 @@
     "chaparral": "sha-ba-la-qun-luo",
     "查帕拉尔群落": "sha-ba-la-qun-luo",
     "灌木丛林": "sha-ba-la-qun-luo",
+    "shan-he-tao": "shan-he-tao",
+    "山核桃": "shan-he-tao",
+    "pecan": "shan-he-tao",
+    "Carya illinoinensis": "shan-he-tao",
     "shan-yu-zu": "shan-yu-zu",
     "闪语族": "shan-yu-zu",
     "Semitic": "shan-yu-zu",
@@ -17199,6 +17336,11 @@
     "纬度效应": "纬度",
     "纬度与气候": "纬度",
     "东西轴纬度": "纬度",
+    "wu-fan-shu": "wu-fan-shu",
+    "乌饭树": "wu-fan-shu",
+    "blueberry": "wu-fan-shu",
+    "Vaccinium": "wu-fan-shu",
+    "蓝莓": "wu-fan-shu",
     "wu-lu-ke": "wu-lu-ke",
     "乌鲁克": "wu-lu-ke",
     "Uruk": "wu-lu-ke",
@@ -17692,6 +17834,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 649,
-  "generated": "2026-05-26T17:20:32Z"
+  "page_count": 654,
+  "generated": "2026-05-26T17:23:17Z"
 }
