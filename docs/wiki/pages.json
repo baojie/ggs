@@ -2171,6 +2171,26 @@
       "quality_score": 58,
       "total_refs": 0
     },
+    "概念索引": {
+      "type": "list",
+      "label": "概念索引",
+      "aliases": [],
+      "tags": [
+        "index",
+        "concept"
+      ],
+      "path": "ga/概念索引.md",
+      "description": "本 wiki 收录的全部概念词条索引",
+      "prose_len": 255,
+      "prose_chars": 205,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "橄榄": {
       "type": "species",
       "label": "橄榄",
@@ -9856,6 +9876,7 @@
     "旱灾": "干旱",
     "干燥气候": "干旱",
     "ENSO": "干旱",
+    "概念索引": "概念索引",
     "橄榄": "橄榄",
     "油橄榄": "橄榄",
     "olive": "橄榄",
@@ -10866,6 +10887,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 402,
-  "generated": "2026-05-26T10:19:15Z"
+  "page_count": 403,
+  "generated": "2026-05-26T10:21:44Z"
 }
