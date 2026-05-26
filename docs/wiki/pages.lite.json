@@ -192,6 +192,15 @@
       ],
       "path": "b0/B类线形文字.md"
     },
+    "ba-bu-ya-zhu-yu-yan": {
+      "type": "concept",
+      "label": "巴布亚诸语言",
+      "aliases": [
+        "巴布亚语系",
+        "Papuan languages"
+      ],
+      "path": "ba/ba-bu-ya-zhu-yu-yan.md"
+    },
     "ba-ta-ge-ni-ya": {
       "type": "place",
       "label": "巴塔哥尼亚",
@@ -324,6 +333,14 @@
         "高引用页面"
       ],
       "path": "be/被引用最多页面.md"
+    },
+    "bi-si-mai-qun-dao": {
+      "type": "place",
+      "label": "俾斯麦群岛",
+      "aliases": [
+        "Bismarck Archipelago"
+      ],
+      "path": "bi/bi-si-mai-qun-dao.md"
     },
     "bilu": {
       "type": "place",
@@ -2154,6 +2171,16 @@
       ],
       "path": "ku/扩张.md"
     },
+    "la-pi-ta-wen-hua": {
+      "type": "concept",
+      "label": "拉皮塔文化",
+      "aliases": [
+        "拉皮塔陶器",
+        "Lapita文化",
+        "Lapita"
+      ],
+      "path": "la/la-pi-ta-wen-hua.md"
+    },
     "劳动分工": {
       "type": "concept",
       "label": "劳动分工",
@@ -3879,6 +3906,14 @@
       ],
       "path": "to/统一.md"
     },
+    "tuo-lei-si-hai-xia": {
+      "type": "place",
+      "label": "托雷斯海峡",
+      "aliases": [
+        "Torres Strait"
+      ],
+      "path": "tu/tuo-lei-si-hai-xia.md"
+    },
     "兔": {
       "type": "species",
       "label": "兔",
@@ -4077,6 +4112,16 @@
         "青藏高原"
       ],
       "path": "xi/xi-zang-gao-yuan.md"
+    },
+    "xian-wai-fu-cai": {
+      "type": "concept",
+      "label": "舷外浮材",
+      "aliases": [
+        "舷外支架",
+        "舷外浮木",
+        "outrigger"
+      ],
+      "path": "xi/xian-wai-fu-cai.md"
     },
     "xian-wei-zuo-wu": {
       "type": "concept",
@@ -5198,6 +5243,10 @@
     "B类线形文字": "B类线形文字",
     "Linear B": "B类线形文字",
     "线形文字B": "B类线形文字",
+    "ba-bu-ya-zhu-yu-yan": "ba-bu-ya-zhu-yu-yan",
+    "巴布亚诸语言": "ba-bu-ya-zhu-yu-yan",
+    "巴布亚语系": "ba-bu-ya-zhu-yu-yan",
+    "Papuan languages": "ba-bu-ya-zhu-yu-yan",
     "ba-ta-ge-ni-ya": "ba-ta-ge-ni-ya",
     "巴塔哥尼亚": "ba-ta-ge-ni-ya",
     "Patagonia": "ba-ta-ge-ni-ya",
@@ -5244,6 +5293,9 @@
     "引用排行": "被引用最多页面",
     "热门页面": "被引用最多页面",
     "高引用页面": "被引用最多页面",
+    "bi-si-mai-qun-dao": "bi-si-mai-qun-dao",
+    "俾斯麦群岛": "bi-si-mai-qun-dao",
+    "Bismarck Archipelago": "bi-si-mai-qun-dao",
     "bilu": "bilu",
     "秘鲁": "bilu",
     "Peru": "bilu",
@@ -5899,6 +5951,11 @@
     "expansion": "扩张",
     "领土扩张": "扩张",
     "农业扩张": "扩张",
+    "la-pi-ta-wen-hua": "la-pi-ta-wen-hua",
+    "拉皮塔文化": "la-pi-ta-wen-hua",
+    "拉皮塔陶器": "la-pi-ta-wen-hua",
+    "Lapita文化": "la-pi-ta-wen-hua",
+    "Lapita": "la-pi-ta-wen-hua",
     "劳动分工": "劳动分工",
     "分工": "劳动分工",
     "专业分化": "劳动分工",
@@ -6490,6 +6547,9 @@
     "unification": "统一",
     "政治统一": "统一",
     "文化统一": "统一",
+    "tuo-lei-si-hai-xia": "tuo-lei-si-hai-xia",
+    "托雷斯海峡": "tuo-lei-si-hai-xia",
+    "Torres Strait": "tuo-lei-si-hai-xia",
     "兔": "兔",
     "rabbit": "兔",
     "家兔": "兔",
@@ -6562,6 +6622,11 @@
     "西藏高原": "xi-zang-gao-yuan",
     "Tibetan Plateau": "xi-zang-gao-yuan",
     "青藏高原": "xi-zang-gao-yuan",
+    "xian-wai-fu-cai": "xian-wai-fu-cai",
+    "舷外浮材": "xian-wai-fu-cai",
+    "舷外支架": "xian-wai-fu-cai",
+    "舷外浮木": "xian-wai-fu-cai",
+    "outrigger": "xian-wai-fu-cai",
     "xian-wei-zuo-wu": "xian-wei-zuo-wu",
     "纤维作物": "xian-wei-zuo-wu",
     "fiber crops": "xian-wei-zuo-wu",
@@ -6918,6 +6983,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 560,
-  "generated": "2026-05-26T13:15:24Z"
+  "page_count": 565,
+  "generated": "2026-05-26T13:18:41Z"
 }

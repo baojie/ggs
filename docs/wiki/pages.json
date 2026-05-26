@@ -496,6 +496,29 @@
       "blockquote_count": 0,
       "total_refs": 1
     },
+    "ba-bu-ya-zhu-yu-yan": {
+      "type": "concept",
+      "label": "巴布亚诸语言",
+      "aliases": [
+        "巴布亚语系",
+        "Papuan languages"
+      ],
+      "tags": [
+        "语言学",
+        "新几内亚"
+      ],
+      "path": "ba/ba-bu-ya-zhu-yu-yan.md",
+      "description": "新几内亚岛上的非南岛语系土著语言群，数量众多、结构极其多样",
+      "prose_len": 304,
+      "prose_chars": 302,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
+    },
     "ba-ta-ge-ni-ya": {
       "type": "place",
       "label": "巴塔哥尼亚",
@@ -842,6 +865,29 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
+      "total_refs": 0
+    },
+    "bi-si-mai-qun-dao": {
+      "type": "place",
+      "label": "俾斯麦群岛",
+      "aliases": [
+        "Bismarck Archipelago"
+      ],
+      "tags": [
+        "地理",
+        "太平洋",
+        "南岛人扩张"
+      ],
+      "path": "bi/bi-si-mai-qun-dao.md",
+      "description": "新几内亚东北部的群岛，南岛人扩张进入太平洋的重要跳板，拉皮塔文化最早出现地",
+      "prose_len": 306,
+      "prose_chars": 304,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
       "total_refs": 0
     },
     "bilu": {
@@ -5632,6 +5678,31 @@
       "quality_score": 59,
       "total_refs": 1
     },
+    "la-pi-ta-wen-hua": {
+      "type": "concept",
+      "label": "拉皮塔文化",
+      "aliases": [
+        "拉皮塔陶器",
+        "Lapita文化",
+        "Lapita"
+      ],
+      "tags": [
+        "考古学",
+        "南岛人扩张",
+        "太平洋"
+      ],
+      "path": "la/la-pi-ta-wen-hua.md",
+      "description": "以精美几何纹饰陶器为特征的南岛人考古文化，标志着南岛人向太平洋扩张的关键阶段",
+      "prose_len": 327,
+      "prose_chars": 325,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
+    },
     "劳动分工": {
       "type": "concept",
       "label": "劳动分工",
@@ -10123,6 +10194,29 @@
       "quality_score": 58,
       "total_refs": 0
     },
+    "tuo-lei-si-hai-xia": {
+      "type": "place",
+      "label": "托雷斯海峡",
+      "aliases": [
+        "Torres Strait"
+      ],
+      "tags": [
+        "地理",
+        "大洋洲",
+        "澳洲"
+      ],
+      "path": "tu/tuo-lei-si-hai-xia.md",
+      "description": "连接澳大利亚与新几内亚的海峡，更新世时期为陆桥，在人类迁移和生物地理学上具有重要意义",
+      "prose_len": 311,
+      "prose_chars": 309,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
+    },
     "兔": {
       "type": "species",
       "label": "兔",
@@ -10647,6 +10741,31 @@
       "quality": "basic",
       "quality_score": 10,
       "total_refs": 1
+    },
+    "xian-wai-fu-cai": {
+      "type": "concept",
+      "label": "舷外浮材",
+      "aliases": [
+        "舷外支架",
+        "舷外浮木",
+        "outrigger"
+      ],
+      "tags": [
+        "技术",
+        "航海",
+        "南岛人扩张"
+      ],
+      "path": "xi/xian-wai-fu-cai.md",
+      "description": "安装在独木舟一侧的浮木支架，为远洋航行提供关键稳定性，是南岛人远洋扩张的核心技术",
+      "prose_len": 296,
+      "prose_chars": 294,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
     },
     "xian-wei-zuo-wu": {
       "type": "concept",
@@ -13443,6 +13562,10 @@
     "B类线形文字": "B类线形文字",
     "Linear B": "B类线形文字",
     "线形文字B": "B类线形文字",
+    "ba-bu-ya-zhu-yu-yan": "ba-bu-ya-zhu-yu-yan",
+    "巴布亚诸语言": "ba-bu-ya-zhu-yu-yan",
+    "巴布亚语系": "ba-bu-ya-zhu-yu-yan",
+    "Papuan languages": "ba-bu-ya-zhu-yu-yan",
     "ba-ta-ge-ni-ya": "ba-ta-ge-ni-ya",
     "巴塔哥尼亚": "ba-ta-ge-ni-ya",
     "Patagonia": "ba-ta-ge-ni-ya",
@@ -13489,6 +13612,9 @@
     "引用排行": "被引用最多页面",
     "热门页面": "被引用最多页面",
     "高引用页面": "被引用最多页面",
+    "bi-si-mai-qun-dao": "bi-si-mai-qun-dao",
+    "俾斯麦群岛": "bi-si-mai-qun-dao",
+    "Bismarck Archipelago": "bi-si-mai-qun-dao",
     "bilu": "bilu",
     "秘鲁": "bilu",
     "Peru": "bilu",
@@ -14144,6 +14270,11 @@
     "expansion": "扩张",
     "领土扩张": "扩张",
     "农业扩张": "扩张",
+    "la-pi-ta-wen-hua": "la-pi-ta-wen-hua",
+    "拉皮塔文化": "la-pi-ta-wen-hua",
+    "拉皮塔陶器": "la-pi-ta-wen-hua",
+    "Lapita文化": "la-pi-ta-wen-hua",
+    "Lapita": "la-pi-ta-wen-hua",
     "劳动分工": "劳动分工",
     "分工": "劳动分工",
     "专业分化": "劳动分工",
@@ -14735,6 +14866,9 @@
     "unification": "统一",
     "政治统一": "统一",
     "文化统一": "统一",
+    "tuo-lei-si-hai-xia": "tuo-lei-si-hai-xia",
+    "托雷斯海峡": "tuo-lei-si-hai-xia",
+    "Torres Strait": "tuo-lei-si-hai-xia",
     "兔": "兔",
     "rabbit": "兔",
     "家兔": "兔",
@@ -14807,6 +14941,11 @@
     "西藏高原": "xi-zang-gao-yuan",
     "Tibetan Plateau": "xi-zang-gao-yuan",
     "青藏高原": "xi-zang-gao-yuan",
+    "xian-wai-fu-cai": "xian-wai-fu-cai",
+    "舷外浮材": "xian-wai-fu-cai",
+    "舷外支架": "xian-wai-fu-cai",
+    "舷外浮木": "xian-wai-fu-cai",
+    "outrigger": "xian-wai-fu-cai",
     "xian-wei-zuo-wu": "xian-wei-zuo-wu",
     "纤维作物": "xian-wei-zuo-wu",
     "fiber crops": "xian-wei-zuo-wu",
@@ -15163,6 +15302,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 560,
-  "generated": "2026-05-26T13:15:24Z"
+  "page_count": 565,
+  "generated": "2026-05-26T13:18:41Z"
 }

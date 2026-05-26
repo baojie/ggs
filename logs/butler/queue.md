@@ -20,9 +20,9 @@
 
 ### P1 create（多章出现）
 
-- [ ] P1 create | 拉皮塔文化 | concept | LLM 发现，多章（ch02/ch15/ch17），南岛人扩张的考古标志，以精美几何纹饰陶器为特征
-- [ ] P1 create | 巴布亚诸语言 | concept | LLM 发现，多章（ch15/ch17），新几内亚非南岛语系的土著语言群
-- [ ] P1 create | 舷外浮材 | concept | LLM 发现，多章（ch15/ch17），南岛人远洋独木舟的关键稳定技术
+- [x] P1 create | 拉皮塔文化 | concept | LLM 发现，多章（ch02/ch15/ch17），南岛人扩张的考古标志，以精美几何纹饰陶器为特征
+- [x] P1 create | 巴布亚诸语言 | concept | LLM 发现，多章（ch15/ch17），新几内亚非南岛语系的土著语言群
+- [x] P1 create | 舷外浮材 | concept | LLM 发现，多章（ch15/ch17），南岛人远洋独木舟的关键稳定技术
 
 ### P2 stub（单章重要实体）
 
@@ -288,8 +288,8 @@
 
 ### P1 create（多章出现）
 
-- [ ] P1 create | 俾斯麦群岛 | place | LLM 发现，多章（ch01/ch02/ch15/ch17/ch20），新几内亚东北群岛，南岛人扩张路径
-- [ ] P1 create | 托雷斯海峡 | place | LLM 发现，多章（ch13/ch15），连接澳大利亚与新几内亚的海峡
+- [x] P1 create | 俾斯麦群岛 | place | LLM 发现，多章（ch01/ch02/ch15/ch17/ch20），新几内亚东北群岛，南岛人扩张路径
+- [x] P1 create | 托雷斯海峡 | place | LLM 发现，多章（ch13/ch15），连接澳大利亚与新几内亚的海峡
 
 ### P2 stub（单章重要实体）
 
