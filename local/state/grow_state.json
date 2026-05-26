@@ -5,10 +5,10 @@
   "phase2_iteration": 1,
   "phase2_closed": true,
   "counters": {
-    "current_round": 259,
+    "current_round": 260,
     "type_round": 0,
-    "rounds_since_last_evv5": 0,
-    "rounds_since_last_discover": 0,
+    "rounds_since_last_evv5": 1,
+    "rounds_since_last_discover": 1,
     "discover_streak_low": 0,
     "new1_count_window": 3,
     "enrich_count_window": 3,
@@ -16,7 +16,7 @@
     "rft_count_window": 0,
     "rch1_count_window": 0,
     "rch2_count_window": 1,
-    "rounds_since_last_w5": 12
+    "rounds_since_last_w5": 13
   },
   "thresholds": {
     "evv5_interval": 10,
@@ -44,7 +44,7 @@
     "NEW1",
     "SCN28",
     "SCN28",
-    "EVV5"
+    "NEW1"
   ],
   "phase5_featured_target": 15
 }
