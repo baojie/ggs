@@ -4,14 +4,14 @@
 
 ### P1 create（多章出现）
 
-- [ ] P1 create | 南岛语系 | concept | LLM 发现，多章（ch02/ch05/ch15/ch16/ch17/ch18/ch19），南岛人扩张的语言基础
-- [ ] P1 create | 黍 | species | LLM 发现，多章（ch05/ch07/ch08/ch15/ch16/ch18/ch19），最早驯化谷物之一
-- [ ] P1 create | 矮小黑人 | person | LLM 发现，多章（ch16/ch17/ch19），东南亚原住民孑遗群体
+- [x] P1 create | 南岛语系 | concept | LLM 发现，多章（ch02/ch05/ch15/ch16/ch17/ch18/ch19），南岛人扩张的语言基础
+- [x] P1 create | 黍 | species | LLM 发现，多章（ch05/ch07/ch08/ch15/ch16/ch18/ch19），最早驯化谷物之一
+- [x] P1 create | 矮小黑人 | person | LLM 发现，多章（ch16/ch17/ch19），东南亚原住民孑遗群体
 
 ### P2 stub（单章重要实体）
 
-- [ ] P2 stub | 和平文化 | concept | LLM 发现，ch16，东南亚新石器时代考古文化
-- [ ] P2 stub | 秦朝 | event | LLM 发现，ch16，中国第一个帝国
+- [x] P2 stub | 和平文化 | concept | LLM 发现，ch16，东南亚新石器时代考古文化
+- [x] P2 stub | 秦朝 | event | LLM 发现，ch16，中国第一个帝国
 - [ ] P2 stub | 夏朝 | event | LLM 发现，ch16，中国第一个传统王朝
 - [ ] P2 stub | 安达曼群岛 | place | LLM 发现，多章（ch15/ch16），保留原始语言的岛屿
 

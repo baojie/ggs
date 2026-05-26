@@ -43,6 +43,32 @@
       "quality_score": 13,
       "total_refs": 0
     },
+    "ai-xiao-hei-ren": {
+      "type": "person",
+      "label": "矮小黑人",
+      "aliases": [
+        "Negrito",
+        "尼格利陀人",
+        "塞芒人",
+        "Semang"
+      ],
+      "tags": [
+        "人类",
+        "东南亚",
+        "狩猎采集"
+      ],
+      "path": "ai/ai-xiao-hei-ren.md",
+      "description": "东南亚和安达曼群岛的原住民群体，身材矮小、肤色较深，是更新世东南亚原住民的孑遗，戴蒙德用以说明人类迁徙的层叠历史",
+      "prose_len": 515,
+      "prose_chars": 464,
+      "h2_count": 4,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 10,
+      "total_refs": 1
+    },
     "aisaobiya": {
       "type": "place",
       "label": "埃塞俄比亚",
@@ -1010,7 +1036,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 26
+      "total_refs": 27
     },
     "玻璃": {
       "type": "concept",
@@ -2696,7 +2722,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 5
+      "total_refs": 6
     },
     "东西轴线": {
       "type": "concept",
@@ -4020,6 +4046,30 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 11,
+      "total_refs": 0
+    },
+    "he-ping-wen-hua": {
+      "type": "concept",
+      "label": "和平文化",
+      "aliases": [
+        "Hoabinhian",
+        "和平文化传统"
+      ],
+      "tags": [
+        "考古",
+        "东南亚",
+        "新石器时代"
+      ],
+      "path": "he/he-ping-wen-hua.md",
+      "description": "东南亚的中石器时代至新石器时代早期考古文化，以越南和平省命名，代表南岛人扩张之前东南亚原住民的文化面貌",
+      "prose_len": 391,
+      "prose_chars": 355,
+      "h2_count": 3,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
       "total_refs": 0
     },
     "河流": {
@@ -7241,6 +7291,31 @@
       "quality_score": 17,
       "total_refs": 0
     },
+    "nan-dao-yu-xi": {
+      "type": "concept",
+      "label": "南岛语系",
+      "aliases": [
+        "Austronesian",
+        "南岛语族",
+        "马来-波利尼西亚语系"
+      ],
+      "tags": [
+        "语言",
+        "人类迁徙",
+        "太平洋"
+      ],
+      "path": "na/nan-dao-yu-xi.md",
+      "description": "世界上分布范围最广的语系之一，从台湾到复活节岛再到马达加斯加，南岛人扩张的语言基础",
+      "prose_len": 401,
+      "prose_chars": 365,
+      "h2_count": 3,
+      "pn_count": 3,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
+    },
     "nandaoren-kuozhang": {
       "type": "event",
       "label": "南岛人扩张",
@@ -7381,7 +7456,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 27,
-      "total_refs": 9
+      "total_refs": 12
     },
     "南岛语族": {
       "type": "concept",
@@ -8024,6 +8099,31 @@
       "quality": "featured",
       "quality_score": 61,
       "total_refs": 3
+    },
+    "qin-chao": {
+      "type": "event",
+      "label": "秦朝",
+      "aliases": [
+        "Qin dynasty",
+        "秦帝国",
+        "秦国"
+      ],
+      "tags": [
+        "历史",
+        "中国",
+        "帝国"
+      ],
+      "path": "qi/qin-chao.md",
+      "description": "中国第一个中央集权帝国（公元前221-前206年），秦始皇领导下完成了中国的政治统一，戴蒙德用以说明文字统一和政治统一的关系",
+      "prose_len": 518,
+      "prose_chars": 471,
+      "h2_count": 4,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 10,
+      "total_refs": 0
     },
     "qiuzhangzhi": {
       "type": "concept",
@@ -8956,6 +9056,33 @@
       "quality_score": 11,
       "total_refs": 1
     },
+    "shu": {
+      "type": "species",
+      "label": "黍",
+      "aliases": [
+        "proso millet",
+        "Panicum miliaceum",
+        "黍子",
+        "糜子"
+      ],
+      "tags": [
+        "作物",
+        "农业",
+        "中国",
+        "驯化"
+      ],
+      "path": "sh/shu.md",
+      "description": "人类最早驯化的禾本科作物之一，中国华北耐旱黍类作物的代表，在新石器时代农业起源中具有核心地位",
+      "prose_len": 419,
+      "prose_chars": 381,
+      "h2_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
+    },
     "书写": {
       "type": "concept",
       "label": "书写",
@@ -9315,7 +9442,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 3
+      "total_refs": 4
     },
     "沙漠": {
       "type": "concept",
@@ -9776,7 +9903,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 9
+      "total_refs": 10
     },
     "塔斯马尼亚": {
       "type": "place",
@@ -10995,7 +11122,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 67
+      "total_refs": 68
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -12481,7 +12608,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 0
+      "total_refs": 2
     },
     "中央集权": {
       "type": "concept",
@@ -13255,6 +13382,12 @@
     "About": "About",
     "关于本 Wiki": "About",
     "关于": "About",
+    "ai-xiao-hei-ren": "ai-xiao-hei-ren",
+    "矮小黑人": "ai-xiao-hei-ren",
+    "Negrito": "ai-xiao-hei-ren",
+    "尼格利陀人": "ai-xiao-hei-ren",
+    "塞芒人": "ai-xiao-hei-ren",
+    "Semang": "ai-xiao-hei-ren",
     "aisaobiya": "aisaobiya",
     "埃塞俄比亚": "aisaobiya",
     "Ethiopia": "aisaobiya",
@@ -13784,6 +13917,10 @@
     "河马": "he-ma",
     "hippopotamus": "he-ma",
     "河马属": "he-ma",
+    "he-ping-wen-hua": "he-ping-wen-hua",
+    "和平文化": "he-ping-wen-hua",
+    "Hoabinhian": "he-ping-wen-hua",
+    "和平文化传统": "he-ping-wen-hua",
     "河流": "河流",
     "水道": "河流",
     "可通航河流": "河流",
@@ -14226,6 +14363,11 @@
     "游牧民族": "牧人",
     "游牧者": "牧人",
     "目录": "目录",
+    "nan-dao-yu-xi": "nan-dao-yu-xi",
+    "南岛语系": "nan-dao-yu-xi",
+    "Austronesian": "nan-dao-yu-xi",
+    "南岛语族": "nan-dao-yu-xi",
+    "马来-波利尼西亚语系": "nan-dao-yu-xi",
     "nandaoren-kuozhang": "nandaoren-kuozhang",
     "南岛人扩张": "nandaoren-kuozhang",
     "Austronesian expansion": "nandaoren-kuozhang",
@@ -14244,8 +14386,6 @@
     "南北轴线与东西轴线": "南北轴线与东西轴线",
     "轴线方向": "南北轴线与东西轴线",
     "南岛人迁徙": "南岛人扩张",
-    "南岛语族": "南岛语族",
-    "Austronesian": "南岛语族",
     "南岛语族扩张": "南岛语族扩张",
     "Austronesian Expansion": "南岛语族扩张",
     "波利尼西亚扩张": "南岛语族扩张",
@@ -14325,6 +14465,11 @@
     "grape": "葡萄",
     "栽培葡萄": "葡萄",
     "酿酒葡萄": "葡萄",
+    "qin-chao": "qin-chao",
+    "秦朝": "qin-chao",
+    "Qin dynasty": "qin-chao",
+    "秦帝国": "qin-chao",
+    "秦国": "qin-chao",
     "qiuzhangzhi": "qiuzhangzhi",
     "酋长制": "qiuzhangzhi",
     "chiefdom": "qiuzhangzhi",
@@ -14446,6 +14591,12 @@
     "clan": "shi-zu",
     "宗族": "shi-zu",
     "氏族制度": "shi-zu",
+    "shu": "shu",
+    "黍": "shu",
+    "proso millet": "shu",
+    "Panicum miliaceum": "shu",
+    "黍子": "shu",
+    "糜子": "shu",
     "书写": "书写",
     "writing": "书写",
     "文字书写": "书写",
@@ -15012,6 +15163,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 555,
-  "generated": "2026-05-26T13:08:32Z"
+  "page_count": 560,
+  "generated": "2026-05-26T13:09:36Z"
 }

@@ -19,6 +19,17 @@
       ],
       "path": "ab/About.md"
     },
+    "ai-xiao-hei-ren": {
+      "type": "person",
+      "label": "矮小黑人",
+      "aliases": [
+        "Negrito",
+        "尼格利陀人",
+        "塞芒人",
+        "Semang"
+      ],
+      "path": "ai/ai-xiao-hei-ren.md"
+    },
     "aisaobiya": {
       "type": "place",
       "label": "埃塞俄比亚",
@@ -1528,6 +1539,15 @@
       ],
       "path": "he/he-ma.md"
     },
+    "he-ping-wen-hua": {
+      "type": "concept",
+      "label": "和平文化",
+      "aliases": [
+        "Hoabinhian",
+        "和平文化传统"
+      ],
+      "path": "he/he-ping-wen-hua.md"
+    },
     "河流": {
       "type": "concept",
       "label": "河流",
@@ -2771,6 +2791,16 @@
       "aliases": [],
       "path": "mu/目录.md"
     },
+    "nan-dao-yu-xi": {
+      "type": "concept",
+      "label": "南岛语系",
+      "aliases": [
+        "Austronesian",
+        "南岛语族",
+        "马来-波利尼西亚语系"
+      ],
+      "path": "na/nan-dao-yu-xi.md"
+    },
     "nandaoren-kuozhang": {
       "type": "event",
       "label": "南岛人扩张",
@@ -3068,6 +3098,16 @@
         "酿酒葡萄"
       ],
       "path": "pu/葡萄.md"
+    },
+    "qin-chao": {
+      "type": "event",
+      "label": "秦朝",
+      "aliases": [
+        "Qin dynasty",
+        "秦帝国",
+        "秦国"
+      ],
+      "path": "qi/qin-chao.md"
     },
     "qiuzhangzhi": {
       "type": "concept",
@@ -3424,6 +3464,17 @@
         "氏族制度"
       ],
       "path": "sh/shi-zu.md"
+    },
+    "shu": {
+      "type": "species",
+      "label": "黍",
+      "aliases": [
+        "proso millet",
+        "Panicum miliaceum",
+        "黍子",
+        "糜子"
+      ],
+      "path": "sh/shu.md"
     },
     "书写": {
       "type": "concept",
@@ -5086,6 +5137,12 @@
     "About": "About",
     "关于本 Wiki": "About",
     "关于": "About",
+    "ai-xiao-hei-ren": "ai-xiao-hei-ren",
+    "矮小黑人": "ai-xiao-hei-ren",
+    "Negrito": "ai-xiao-hei-ren",
+    "尼格利陀人": "ai-xiao-hei-ren",
+    "塞芒人": "ai-xiao-hei-ren",
+    "Semang": "ai-xiao-hei-ren",
     "aisaobiya": "aisaobiya",
     "埃塞俄比亚": "aisaobiya",
     "Ethiopia": "aisaobiya",
@@ -5615,6 +5672,10 @@
     "河马": "he-ma",
     "hippopotamus": "he-ma",
     "河马属": "he-ma",
+    "he-ping-wen-hua": "he-ping-wen-hua",
+    "和平文化": "he-ping-wen-hua",
+    "Hoabinhian": "he-ping-wen-hua",
+    "和平文化传统": "he-ping-wen-hua",
     "河流": "河流",
     "水道": "河流",
     "可通航河流": "河流",
@@ -6057,6 +6118,11 @@
     "游牧民族": "牧人",
     "游牧者": "牧人",
     "目录": "目录",
+    "nan-dao-yu-xi": "nan-dao-yu-xi",
+    "南岛语系": "nan-dao-yu-xi",
+    "Austronesian": "nan-dao-yu-xi",
+    "南岛语族": "nan-dao-yu-xi",
+    "马来-波利尼西亚语系": "nan-dao-yu-xi",
     "nandaoren-kuozhang": "nandaoren-kuozhang",
     "南岛人扩张": "nandaoren-kuozhang",
     "Austronesian expansion": "nandaoren-kuozhang",
@@ -6075,8 +6141,6 @@
     "南北轴线与东西轴线": "南北轴线与东西轴线",
     "轴线方向": "南北轴线与东西轴线",
     "南岛人迁徙": "南岛人扩张",
-    "南岛语族": "南岛语族",
-    "Austronesian": "南岛语族",
     "南岛语族扩张": "南岛语族扩张",
     "Austronesian Expansion": "南岛语族扩张",
     "波利尼西亚扩张": "南岛语族扩张",
@@ -6156,6 +6220,11 @@
     "grape": "葡萄",
     "栽培葡萄": "葡萄",
     "酿酒葡萄": "葡萄",
+    "qin-chao": "qin-chao",
+    "秦朝": "qin-chao",
+    "Qin dynasty": "qin-chao",
+    "秦帝国": "qin-chao",
+    "秦国": "qin-chao",
     "qiuzhangzhi": "qiuzhangzhi",
     "酋长制": "qiuzhangzhi",
     "chiefdom": "qiuzhangzhi",
@@ -6277,6 +6346,12 @@
     "clan": "shi-zu",
     "宗族": "shi-zu",
     "氏族制度": "shi-zu",
+    "shu": "shu",
+    "黍": "shu",
+    "proso millet": "shu",
+    "Panicum miliaceum": "shu",
+    "黍子": "shu",
+    "糜子": "shu",
     "书写": "书写",
     "writing": "书写",
     "文字书写": "书写",
@@ -6843,6 +6918,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 555,
-  "generated": "2026-05-26T13:08:32Z"
+  "page_count": 560,
+  "generated": "2026-05-26T13:09:36Z"
 }
