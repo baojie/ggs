@@ -1696,6 +1696,30 @@
       "quality_score": 59,
       "total_refs": 5
     },
+    "场所索引": {
+      "type": "list",
+      "label": "场所索引",
+      "aliases": [
+        "地理索引",
+        "全部场所",
+        "地点列表"
+      ],
+      "tags": [
+        "索引",
+        "地理"
+      ],
+      "path": "ch/场所索引.md",
+      "description": "本 wiki 中所有场所（place）页面的综合索引，反映全书的地理空间框架",
+      "prose_len": 582,
+      "prose_chars": 380,
+      "h2_count": 3,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 10,
+      "total_refs": 0
+    },
     "城市": {
       "type": "concept",
       "label": "城市",
@@ -13035,6 +13059,10 @@
     "创新": "创新",
     "innovation": "创新",
     "发明创造": "创新",
+    "场所索引": "场所索引",
+    "地理索引": "场所索引",
+    "全部场所": "场所索引",
+    "地点列表": "场所索引",
     "城市": "城市",
     "city": "城市",
     "城镇": "城市",
@@ -14519,6 +14547,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 537,
-  "generated": "2026-05-26T12:40:51Z"
+  "page_count": 538,
+  "generated": "2026-05-26T12:42:09Z"
 }
