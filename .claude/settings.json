@@ -46,6 +46,9 @@
       "Bash(bash \"/home/baojie/work/knowledge/memex/wiki/wiki.sh\"*)"
     ]
   },
+  "env": {
+    "RESTRICT_HOOK_ALLOWED": "/home/baojie/.claude/skills/comply/SKILL.md:/home/baojie/work/knowledge/memex/.claude/skills/comply/SKILL.md:/home/baojie/work/knowledge/memex/wiki/scripts"
+  },
   "hooks": {
     "PreToolUse": [
       {
