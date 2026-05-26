@@ -44,6 +44,30 @@
       "quality_score": 58,
       "total_refs": 2
     },
+    "埃及": {
+      "type": "place",
+      "label": "埃及",
+      "aliases": [
+        "Egypt",
+        "古埃及"
+      ],
+      "tags": [
+        "非洲",
+        "文明",
+        "河流"
+      ],
+      "path": "ai/埃及.md",
+      "description": "北非国家，尼罗河流域孕育了世界上最古老的文明之一",
+      "prose_len": 443,
+      "prose_chars": 429,
+      "h2_count": 1,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 1
+    },
     "爱迪生": {
       "type": "person",
       "label": "托马斯·爱迪生",
@@ -135,7 +159,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 9
+      "total_refs": 10
     },
     "安娜卡列尼娜原则": {
       "type": "concept",
@@ -291,14 +315,14 @@
       ],
       "path": "ba/半岛.md",
       "description": "三面环水、一面连接大陆的陆地，其地理位置在粮食生产传播和文明交流中起重要桥梁作用",
-      "prose_len": 963,
-      "prose_chars": 904,
-      "h2_count": 5,
+      "prose_len": 1307,
+      "prose_chars": 1229,
+      "h2_count": 6,
       "pn_count": 0,
-      "wikilink_count": 3,
+      "wikilink_count": 5,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 29,
+      "quality_score": 63,
       "total_refs": 0
     },
     "巴拿马地峡": {
@@ -419,6 +443,30 @@
       "quality_score": 58,
       "total_refs": 4
     },
+    "北极": {
+      "type": "place",
+      "label": "北极",
+      "aliases": [
+        "Arctic",
+        "北极地区"
+      ],
+      "tags": [
+        "地理",
+        "气候",
+        "生态"
+      ],
+      "path": "be/北极.md",
+      "description": "地球最北端的极寒区域，对人类生存和文明发展构成严峻挑战",
+      "prose_len": 420,
+      "prose_chars": 406,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 1
+    },
     "兵豆": {
       "type": "species",
       "label": "兵豆",
@@ -490,7 +538,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 40
+      "total_refs": 41
     },
     "伯克和威尔斯": {
       "type": "person",
@@ -1077,7 +1125,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 0
+      "total_refs": 1
     },
     "传教": {
       "type": "concept",
@@ -1127,7 +1175,7 @@
       "blockquote_count": 1,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 14
+      "total_refs": 16
     },
     "创新": {
       "type": "concept",
@@ -1467,7 +1515,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 64,
-      "total_refs": 1
+      "total_refs": 4
     },
     "岛屿生物地理学": {
       "type": "concept",
@@ -1675,7 +1723,7 @@
       "blockquote_count": 3,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 3
+      "total_refs": 4
     },
     "地轴": {
       "type": "concept",
@@ -1949,14 +1997,14 @@
       ],
       "path": "fa/纺织.md",
       "description": "将纤维加工成布料的技术，在人类文明中具有悠久历史和重要经济地位",
-      "prose_len": 297,
-      "prose_chars": 284,
+      "prose_len": 432,
+      "prose_chars": 418,
       "h2_count": 1,
-      "pn_count": 1,
-      "wikilink_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "basic",
-      "quality_score": 7,
+      "quality_score": 9,
       "total_refs": 1
     },
     "feilvbin": {
@@ -2020,14 +2068,14 @@
       ],
       "path": "fe/肥料.md",
       "description": "施用于土壤以提供植物营养的物质，是维持农业产量的关键投入",
-      "prose_len": 253,
-      "prose_chars": 240,
+      "prose_len": 421,
+      "prose_chars": 407,
       "h2_count": 1,
-      "pn_count": 1,
-      "wikilink_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "basic",
-      "quality_score": 7,
+      "quality_score": 9,
       "total_refs": 0
     },
     "非洲": {
@@ -2172,7 +2220,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 3
+      "total_refs": 4
     },
     "钢铁": {
       "type": "concept",
@@ -2271,7 +2319,7 @@
       "quality": "featured",
       "quality_score": 56,
       "affiliation": "西班牙王国",
-      "total_refs": 2
+      "total_refs": 3
     },
     "哥伦布航行与两个半球的碰撞": {
       "type": "event",
@@ -2786,7 +2834,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 11
+      "total_refs": 13
     },
     "河流": {
       "type": "concept",
@@ -3223,7 +3271,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 18
+      "total_refs": 19
     },
     "技术传播": {
       "type": "concept",
@@ -3720,7 +3768,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 6
+      "total_refs": 8
     },
     "考古学": {
       "type": "concept",
@@ -3841,7 +3889,7 @@
       "quality": "featured",
       "quality_score": 55,
       "affiliation": "西班牙王国",
-      "total_refs": 2
+      "total_refs": 3
     },
     "kuke": {
       "type": "person",
@@ -3930,14 +3978,14 @@
       ],
       "path": "la/劳动力.md",
       "description": "生产活动中人力投入的总称，其动员方式是理解不同社会组织形式的关键维度",
-      "prose_len": 870,
-      "prose_chars": 779,
-      "h2_count": 4,
-      "pn_count": 2,
+      "prose_len": 1235,
+      "prose_chars": 1129,
+      "h2_count": 5,
+      "pn_count": 4,
       "wikilink_count": 3,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 28,
+      "quality_score": 62,
       "total_refs": 0
     },
     "莱特兄弟": {
@@ -4011,7 +4059,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 89
+      "total_refs": 90
     },
     "luoma-diguo": {
       "type": "event",
@@ -4424,7 +4472,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 5
+      "total_refs": 6
     },
     "menggu-diguo": {
       "type": "event",
@@ -4541,7 +4589,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 13
+      "total_refs": 14
     },
     "美洲家鸭": {
       "type": "species",
@@ -4726,14 +4774,14 @@
       ],
       "path": "mi/密克罗尼西亚.md",
       "description": "太平洋西北部的小岛群，主要包括关岛、帕劳和密克罗尼西亚联邦等",
-      "prose_len": 321,
-      "prose_chars": 308,
+      "prose_len": 445,
+      "prose_chars": 431,
       "h2_count": 1,
-      "pn_count": 1,
-      "wikilink_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "basic",
-      "quality_score": 8,
+      "quality_score": 9,
       "total_refs": 1
     },
     "棉花": {
@@ -4759,7 +4807,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 2
+      "total_refs": 3
     },
     "民族": {
       "type": "concept",
@@ -5161,7 +5209,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 2
+      "total_refs": 3
     },
     "牛": {
       "type": "species",
@@ -5228,14 +5276,14 @@
       ],
       "path": "ni/酿酒.md",
       "description": "将含糖食物发酵为酒精饮料的技术，在农业社会中具有文化和经济意义",
-      "prose_len": 499,
-      "prose_chars": 473,
+      "prose_len": 677,
+      "prose_chars": 651,
       "h2_count": 2,
-      "pn_count": 3,
+      "pn_count": 6,
       "wikilink_count": 3,
       "blockquote_count": 0,
       "quality": "basic",
-      "quality_score": 10,
+      "quality_score": 11,
       "total_refs": 1
     },
     "农业": {
@@ -5756,14 +5804,14 @@
       ],
       "path": "qi/青铜时代.md",
       "description": "人类使用青铜工具和武器的时期，标志着冶金技术的重大进步",
-      "prose_len": 507,
-      "prose_chars": 481,
+      "prose_len": 704,
+      "prose_chars": 678,
       "h2_count": 2,
-      "pn_count": 2,
+      "pn_count": 5,
       "wikilink_count": 3,
       "blockquote_count": 0,
       "quality": "basic",
-      "quality_score": 10,
+      "quality_score": 12,
       "total_refs": 0
     },
     "骑兵": {
@@ -5822,14 +5870,14 @@
       ],
       "path": "re/人口压力.md",
       "description": "人口增长超出资源承载力所导致的社会和经济压力",
-      "prose_len": 326,
-      "prose_chars": 313,
+      "prose_len": 440,
+      "prose_chars": 426,
       "h2_count": 1,
-      "pn_count": 2,
-      "wikilink_count": 3,
+      "pn_count": 3,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "basic",
-      "quality_score": 8,
+      "quality_score": 9,
       "total_refs": 0
     },
     "人口密度": {
@@ -6178,15 +6226,39 @@
       ],
       "path": "se/森林.md",
       "description": "覆盖大面积土地的树木群落，对人类文明的发展产生了多方面影响",
-      "prose_len": 303,
-      "prose_chars": 290,
+      "prose_len": 501,
+      "prose_chars": 487,
       "h2_count": 1,
-      "pn_count": 2,
-      "wikilink_count": 3,
+      "pn_count": 4,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "basic",
-      "quality_score": 8,
+      "quality_score": 10,
       "total_refs": 0
+    },
+    "书写": {
+      "type": "concept",
+      "label": "书写",
+      "aliases": [
+        "writing",
+        "文字书写"
+      ],
+      "tags": [
+        "技术",
+        "文化",
+        "传播"
+      ],
+      "path": "sh/书写.md",
+      "description": "用符号系统记录语言的技术，是人类文明的关键发明之一",
+      "prose_len": 452,
+      "prose_chars": 438,
+      "h2_count": 1,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 1
     },
     "书写系统": {
       "type": "concept",
@@ -6316,7 +6388,8 @@
       "aliases": [
         "家山羊",
         "goat",
-        "野山羊"
+        "野山羊",
+        "角羊"
       ],
       "tags": [
         "动物",
@@ -6325,14 +6398,14 @@
       ],
       "path": "sh/山羊.md",
       "description": "最早被驯化的反刍哺乳动物之一，为人类提供肉、奶、毛皮和骨料",
-      "prose_len": 673,
-      "prose_chars": 614,
-      "h2_count": 5,
+      "prose_len": 1011,
+      "prose_chars": 931,
+      "h2_count": 6,
       "pn_count": 0,
-      "wikilink_count": 4,
+      "wikilink_count": 6,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 26,
+      "quality_score": 60,
       "total_refs": 0
     },
     "山脉": {
@@ -6372,15 +6445,15 @@
         "贸易"
       ],
       "path": "sh/市场.md",
-      "description": "商品和服务的交换场所和机制",
-      "prose_len": 174,
-      "prose_chars": 161,
-      "h2_count": 1,
-      "pn_count": 1,
+      "description": "商品和服务的交换场所和机制，在复杂社会中承担着资源配置的核心功能",
+      "prose_len": 556,
+      "prose_chars": 529,
+      "h2_count": 2,
+      "pn_count": 4,
       "wikilink_count": 3,
       "blockquote_count": 0,
       "quality": "basic",
-      "quality_score": 6,
+      "quality_score": 10,
       "total_refs": 2
     },
     "水利": {
@@ -6517,14 +6590,14 @@
       ],
       "path": "sh/狩猎.md",
       "description": "人类通过追捕野生动物获取食物的方式，在史前时期是主要生计手段",
-      "prose_len": 497,
-      "prose_chars": 471,
+      "prose_len": 814,
+      "prose_chars": 788,
       "h2_count": 2,
-      "pn_count": 4,
+      "pn_count": 8,
       "wikilink_count": 3,
       "blockquote_count": 0,
       "quality": "basic",
-      "quality_score": 9,
+      "quality_score": 13,
       "total_refs": 0
     },
     "狩猎采集": {
@@ -6676,7 +6749,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 23
+      "total_refs": 25
     },
     "社会组织": {
       "type": "concept",
@@ -7187,7 +7260,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 10
+      "total_refs": 11
     },
     "文字的独立发明": {
       "type": "event",
@@ -7652,7 +7725,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 53
+      "total_refs": 54
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -7729,6 +7802,30 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
+      "total_refs": 2
+    },
+    "西班牙": {
+      "type": "place",
+      "label": "西班牙",
+      "aliases": [
+        "Spain",
+        "西班牙王国"
+      ],
+      "tags": [
+        "欧洲",
+        "殖民",
+        "帝国"
+      ],
+      "path": "xi/西班牙.md",
+      "description": "西南欧国家，在美洲殖民扩张中扮演了关键角色",
+      "prose_len": 447,
+      "prose_chars": 433,
+      "h2_count": 1,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
       "total_refs": 2
     },
     "锡": {
@@ -8032,23 +8129,25 @@
       "label": "椰子",
       "aliases": [
         "椰子",
-        "coconut"
+        "coconut",
+        "椰树"
       ],
       "tags": [
         "植物",
         "农作物",
-        "驯化种"
+        "驯化种",
+        "热带作物"
       ],
       "path": "ye/椰子.md",
       "description": "热带沿海地区广泛分布的棕榈科植物，为太平洋岛屿社会提供食物、饮水和材料",
-      "prose_len": 645,
-      "prose_chars": 587,
-      "h2_count": 5,
+      "prose_len": 1109,
+      "prose_chars": 1035,
+      "h2_count": 6,
       "pn_count": 0,
-      "wikilink_count": 3,
+      "wikilink_count": 5,
       "blockquote_count": 0,
       "quality": "featured",
-      "quality_score": 26,
+      "quality_score": 61,
       "total_refs": 0
     },
     "耶利": {
@@ -8286,6 +8385,30 @@
       "quality": "featured",
       "quality_score": 60,
       "total_refs": 1
+    },
+    "印加帝国": {
+      "type": "concept",
+      "label": "印加帝国",
+      "aliases": [
+        "Inca Empire",
+        "印加"
+      ],
+      "tags": [
+        "文明",
+        "南美洲",
+        "帝国"
+      ],
+      "path": "yi/印加帝国.md",
+      "description": "前哥伦布时期南美洲最大的帝国，被西班牙征服者皮萨罗灭亡",
+      "prose_len": 433,
+      "prose_chars": 419,
+      "h2_count": 1,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 2
     },
     "印欧语系": {
       "type": "concept",
@@ -8678,7 +8801,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 64,
-      "total_refs": 0
+      "total_refs": 1
     },
     "再分配": {
       "type": "concept",
@@ -8773,7 +8896,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 16
+      "total_refs": 17
     },
     "中国农业起源": {
       "type": "event",
@@ -8862,14 +8985,14 @@
       ],
       "path": "zh/制陶.md",
       "description": "用黏土烧制容器的技术，是定居农业社会的标志性发明",
-      "prose_len": 495,
-      "prose_chars": 469,
+      "prose_len": 768,
+      "prose_chars": 742,
       "h2_count": 2,
-      "pn_count": 1,
+      "pn_count": 3,
       "wikilink_count": 3,
       "blockquote_count": 0,
       "quality": "basic",
-      "quality_score": 9,
+      "quality_score": 12,
       "total_refs": 0
     },
     "征服者": {
@@ -9475,6 +9598,9 @@
     "aisaobiya": "aisaobiya",
     "埃塞俄比亚": "aisaobiya",
     "Ethiopia": "aisaobiya",
+    "埃及": "埃及",
+    "Egypt": "埃及",
+    "古埃及": "埃及",
     "爱迪生": "爱迪生",
     "托马斯·爱迪生": "爱迪生",
     "Thomas Edison": "爱迪生",
@@ -9525,6 +9651,9 @@
     "beimeizhou": "beimeizhou",
     "北美洲": "beimeizhou",
     "North America": "beimeizhou",
+    "北极": "北极",
+    "Arctic": "北极",
+    "北极地区": "北极",
     "兵豆": "兵豆",
     "lentil": "兵豆",
     "扁豆": "兵豆",
@@ -10288,6 +10417,9 @@
     "非洲萨赫勒": "萨赫勒地带",
     "森林": "森林",
     "树林": "森林",
+    "书写": "书写",
+    "writing": "书写",
+    "文字书写": "书写",
     "书写系统": "书写系统",
     "文字系统": "书写系统",
     "writing system": "书写系统",
@@ -10310,6 +10442,7 @@
     "家山羊": "山羊",
     "goat": "山羊",
     "野山羊": "山羊",
+    "角羊": "山羊",
     "山脉": "山脉",
     "山系": "山脉",
     "山地": "山脉",
@@ -10497,6 +10630,9 @@
     "行政": "行政",
     "行政管理": "行政",
     "中央行政": "行政",
+    "西班牙": "西班牙",
+    "Spain": "西班牙",
+    "西班牙王国": "西班牙",
     "锡": "锡",
     "锡金属": "锡",
     "tin": "锡",
@@ -10540,6 +10676,7 @@
     "青铜冶炼": "冶金",
     "椰子": "椰子",
     "coconut": "椰子",
+    "椰树": "椰子",
     "耶利": "耶利",
     "Yali": "耶利",
     "野生植物": "野生植物",
@@ -10568,6 +10705,9 @@
     "活字印刷": "印刷",
     "printing": "印刷术",
     "印刷机": "印刷术",
+    "印加帝国": "印加帝国",
+    "Inca Empire": "印加帝国",
+    "印加": "印加帝国",
     "印欧语系": "印欧语系",
     "Indo-European": "印欧语系",
     "移民": "移民",
@@ -10726,6 +10866,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 397,
-  "generated": "2026-05-26T01:43:49Z"
+  "page_count": 402,
+  "generated": "2026-05-26T10:19:15Z"
 }
