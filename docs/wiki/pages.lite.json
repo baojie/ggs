@@ -52,6 +52,16 @@
       ],
       "path": "al/alabobandao.md"
     },
+    "阿拉姆语": {
+      "type": "concept",
+      "label": "阿拉姆语",
+      "aliases": [
+        "Aramaic",
+        "阿拉姆语字母",
+        "阿拉姆字母"
+      ],
+      "path": "al/阿拉姆语.md"
+    },
     "an-dong-ni-wen-yi": {
       "type": "event",
       "label": "安东尼瘟疫",
@@ -1098,6 +1108,15 @@
       ],
       "path": "fe/肥料.md"
     },
+    "腓尼基人": {
+      "type": "person",
+      "label": "腓尼基人",
+      "aliases": [
+        "Phoenicians",
+        "腓尼基"
+      ],
+      "path": "fe/腓尼基人.md"
+    },
     "菲律宾": {
       "type": "place",
       "label": "菲律宾",
@@ -1544,6 +1563,15 @@
       ],
       "path": "hu/环境决定论.md"
     },
+    "画谜原则": {
+      "type": "concept",
+      "label": "画谜原则",
+      "aliases": [
+        "rebus principle",
+        "画谜"
+      ],
+      "path": "hu/画谜原则.md"
+    },
     "皇帝": {
       "type": "concept",
       "label": "皇帝",
@@ -1933,6 +1961,15 @@
         "克罗维遗址"
       ],
       "path": "ke/keluoweiwenhua.md"
+    },
+    "克里特": {
+      "type": "place",
+      "label": "克里特",
+      "aliases": [
+        "Crete",
+        "克里特岛"
+      ],
+      "path": "ke/克里特.md"
     },
     "科学": {
       "type": "concept",
@@ -3440,6 +3477,15 @@
       ],
       "path": "sh/税收.md"
     },
+    "闪米特人": {
+      "type": "person",
+      "label": "闪米特人",
+      "aliases": [
+        "Semites",
+        "闪米特语族"
+      ],
+      "path": "sh/闪米特人.md"
+    },
     "鼠疫": {
       "type": "concept",
       "label": "鼠疫",
@@ -4825,6 +4871,10 @@
     "alabobandao": "alabobandao",
     "阿拉伯半岛": "alabobandao",
     "Arabian Peninsula": "alabobandao",
+    "阿拉姆语": "阿拉姆语",
+    "Aramaic": "阿拉姆语",
+    "阿拉姆语字母": "阿拉姆语",
+    "阿拉姆字母": "阿拉姆语",
     "an-dong-ni-wen-yi": "an-dong-ni-wen-yi",
     "安东尼瘟疫": "an-dong-ni-wen-yi",
     "Antonine Plague": "an-dong-ni-wen-yi",
@@ -5185,6 +5235,9 @@
     "肥料": "肥料",
     "施肥": "肥料",
     "粪肥": "肥料",
+    "腓尼基人": "腓尼基人",
+    "Phoenicians": "腓尼基人",
+    "腓尼基": "腓尼基人",
     "非洲": "非洲",
     "Africa": "非洲",
     "撒哈拉以南非洲": "非洲",
@@ -5345,6 +5398,9 @@
     "environment": "环境",
     "自然环境": "环境",
     "环境条件": "环境",
+    "画谜原则": "画谜原则",
+    "rebus principle": "画谜原则",
+    "画谜": "画谜原则",
     "皇帝": "皇帝",
     "帝王": "皇帝",
     "emperor": "皇帝",
@@ -5491,6 +5547,9 @@
     "克罗维文化": "keluoweiwenhua",
     "Clovis culture": "keluoweiwenhua",
     "克罗维遗址": "keluoweiwenhua",
+    "克里特": "克里特",
+    "Crete": "克里特",
+    "克里特岛": "克里特",
     "科学": "科学",
     "science": "科学",
     "科学方法": "科学",
@@ -5994,6 +6053,9 @@
     "税收": "税收",
     "赋税": "税收",
     "税赋": "税收",
+    "闪米特人": "闪米特人",
+    "Semites": "闪米特人",
+    "闪米特语族": "闪米特人",
     "鼠疫": "鼠疫",
     "鼠疫杆菌": "鼠疫",
     "su-mei-er-ren": "su-mei-er-ren",
@@ -6466,6 +6528,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 527,
-  "generated": "2026-05-26T12:29:27Z"
+  "page_count": 532,
+  "generated": "2026-05-26T12:31:14Z"
 }
