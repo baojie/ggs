@@ -66,7 +66,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 1
+      "total_refs": 3
     },
     "爱迪生": {
       "type": "person",
@@ -1175,7 +1175,7 @@
       "blockquote_count": 1,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 16
+      "total_refs": 18
     },
     "创新": {
       "type": "concept",
@@ -1370,7 +1370,7 @@
       "quality": "featured",
       "quality_score": 56,
       "affiliation": "美国",
-      "total_refs": 4
+      "total_refs": 1
     },
     "大豆": {
       "type": "species",
@@ -1537,6 +1537,30 @@
       "quality": "basic",
       "quality_score": 8,
       "total_refs": 0
+    },
+    "戴蒙德": {
+      "type": "person",
+      "label": "戴蒙德",
+      "aliases": [
+        "Jared Diamond",
+        "贾雷德·戴蒙德"
+      ],
+      "tags": [
+        "作者",
+        "学者",
+        "演化生物学"
+      ],
+      "path": "da/戴蒙德.md",
+      "description": "《枪炮、病菌与钢铁》作者，美国演化生物学家、地理学家和历史学家",
+      "prose_len": 440,
+      "prose_chars": 426,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 3
     },
     "达尔文": {
       "type": "person",
@@ -1723,7 +1747,7 @@
       "blockquote_count": 3,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 4
+      "total_refs": 5
     },
     "地轴": {
       "type": "concept",
@@ -1890,7 +1914,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 26
+      "total_refs": 27
     },
     "鹅": {
       "type": "species",
@@ -2879,7 +2903,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 1
+      "total_refs": 2
     },
     "黑死病": {
       "type": "event",
@@ -2976,7 +3000,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 4
+      "total_refs": 5
     },
     "火药": {
       "type": "concept",
@@ -3640,7 +3664,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 11
+      "total_refs": 0
     },
     "军事技术": {
       "type": "concept",
@@ -3788,7 +3812,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 8
+      "total_refs": 9
     },
     "考古学": {
       "type": "concept",
@@ -4079,7 +4103,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 90
+      "total_refs": 92
     },
     "luoma-diguo": {
       "type": "event",
@@ -4492,7 +4516,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 6
+      "total_refs": 0
     },
     "menggu-diguo": {
       "type": "event",
@@ -4686,6 +4710,30 @@
       "quality_score": 60,
       "total_refs": 3
     },
+    "美索不达米亚": {
+      "type": "place",
+      "label": "美索不达米亚",
+      "aliases": [
+        "Mesopotamia",
+        "两河流域"
+      ],
+      "tags": [
+        "文明",
+        "西亚",
+        "河流"
+      ],
+      "path": "me/美索不达米亚.md",
+      "description": "底格里斯河与幼发拉底河之间的地区，人类最早的文明发源地之一",
+      "prose_len": 420,
+      "prose_chars": 406,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 6
+    },
     "蒙特朱马": {
       "type": "person",
       "label": "蒙特朱马",
@@ -4755,6 +4803,30 @@
       "quality_score": 59,
       "total_refs": 2
     },
+    "免疫": {
+      "type": "concept",
+      "label": "免疫",
+      "aliases": [
+        "immunity",
+        "免疫力"
+      ],
+      "tags": [
+        "医学",
+        "生物学",
+        "传染病"
+      ],
+      "path": "mi/免疫.md",
+      "description": "生物体抵抗病原体感染的能力，在人类历史中具有深远影响",
+      "prose_len": 435,
+      "prose_chars": 421,
+      "h2_count": 1,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 4
+    },
     "免疫力": {
       "type": "concept",
       "label": "免疫力",
@@ -4779,7 +4851,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 10
+      "total_refs": 6
     },
     "密克罗尼西亚": {
       "type": "place",
@@ -5229,6 +5301,30 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
+      "total_refs": 0
+    },
+    "尼罗河": {
+      "type": "place",
+      "label": "尼罗河",
+      "aliases": [
+        "Nile",
+        "尼罗河"
+      ],
+      "tags": [
+        "河流",
+        "非洲",
+        "地理"
+      ],
+      "path": "ni/尼罗河.md",
+      "description": "非洲最长的河流，古埃及文明的命脉，在人类文明史中具有重要地位",
+      "prose_len": 423,
+      "prose_chars": 409,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
       "total_refs": 3
     },
     "牛": {
@@ -5329,7 +5425,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 15
+      "total_refs": 16
     },
     "农业革命": {
       "type": "concept",
@@ -5469,7 +5565,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 3
+      "total_refs": 5
     },
     "欧洲殖民非洲": {
       "type": "event",
@@ -5687,7 +5783,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 24
+      "total_refs": 25
     },
     "栖息地": {
       "type": "concept",
@@ -5877,7 +5973,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 2
+      "total_refs": 3
     },
     "人口压力": {
       "type": "concept",
@@ -6040,7 +6136,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 0
+      "total_refs": 1
     },
     "人类迁徙": {
       "type": "concept",
@@ -7280,7 +7376,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 11
+      "total_refs": 12
     },
     "文字的独立发明": {
       "type": "event",
@@ -7745,7 +7841,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 54
+      "total_refs": 56
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -9015,6 +9111,30 @@
       "quality_score": 12,
       "total_refs": 0
     },
+    "征服": {
+      "type": "concept",
+      "label": "征服",
+      "aliases": [
+        "conquest",
+        "军事征服"
+      ],
+      "tags": [
+        "政治",
+        "军事",
+        "社会"
+      ],
+      "path": "zh/征服.md",
+      "description": "通过武力控制他者领土和人口的行为，在人类历史中塑造了文明的版图",
+      "prose_len": 446,
+      "prose_chars": 432,
+      "h2_count": 1,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 11
+    },
     "征服者": {
       "type": "concept",
       "label": "征服者",
@@ -10245,11 +10365,11 @@
     "milu": "milu",
     "秘鲁": "milu",
     "Peru": "milu",
-    "免疫力": "免疫力",
-    "免疫": "免疫力",
+    "免疫": "免疫",
+    "immunity": "免疫",
+    "免疫力": "免疫",
     "抵抗力": "免疫力",
     "病菌免疫": "免疫力",
-    "immunity": "免疫力",
     "棉花": "棉花",
     "棉": "棉花",
     "棉纤维": "棉花",
@@ -10307,6 +10427,7 @@
     "niluohe": "niluohe",
     "尼罗河": "niluohe",
     "Nile River": "niluohe",
+    "Nile": "尼罗河",
     "牛": "牛",
     "家牛": "牛",
     "黄牛": "牛",
@@ -10802,6 +10923,7 @@
     "Mesoamerica": "中美洲",
     "美索美洲": "中美洲",
     "制陶": "制陶",
+    "conquest": "征服",
     "征服者": "征服者",
     "conquistador": "征服者",
     "军事征服者": "征服者",
@@ -10887,6 +11009,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 403,
-  "generated": "2026-05-26T10:21:44Z"
+  "page_count": 408,
+  "generated": "2026-05-26T10:22:49Z"
 }

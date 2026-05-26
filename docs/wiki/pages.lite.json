@@ -574,6 +574,15 @@
       "aliases": [],
       "path": "da/岛屿生物地理学.md"
     },
+    "戴蒙德": {
+      "type": "person",
+      "label": "戴蒙德",
+      "aliases": [
+        "Jared Diamond",
+        "贾雷德·戴蒙德"
+      ],
+      "path": "da/戴蒙德.md"
+    },
     "达尔文": {
       "type": "person",
       "label": "达尔文",
@@ -1784,6 +1793,15 @@
       ],
       "path": "me/美洲驼.md"
     },
+    "美索不达米亚": {
+      "type": "place",
+      "label": "美索不达米亚",
+      "aliases": [
+        "Mesopotamia",
+        "两河流域"
+      ],
+      "path": "me/美索不达米亚.md"
+    },
     "蒙特朱马": {
       "type": "person",
       "label": "蒙特朱马",
@@ -1808,6 +1826,15 @@
         "Peru"
       ],
       "path": "mi/milu.md"
+    },
+    "免疫": {
+      "type": "concept",
+      "label": "免疫",
+      "aliases": [
+        "immunity",
+        "免疫力"
+      ],
+      "path": "mi/免疫.md"
     },
     "免疫力": {
       "type": "concept",
@@ -1987,6 +2014,15 @@
         "Nile River"
       ],
       "path": "ni/niluohe.md"
+    },
+    "尼罗河": {
+      "type": "place",
+      "label": "尼罗河",
+      "aliases": [
+        "Nile",
+        "尼罗河"
+      ],
+      "path": "ni/尼罗河.md"
     },
     "牛": {
       "type": "species",
@@ -3426,6 +3462,15 @@
       ],
       "path": "zh/制陶.md"
     },
+    "征服": {
+      "type": "concept",
+      "label": "征服",
+      "aliases": [
+        "conquest",
+        "军事征服"
+      ],
+      "path": "zh/征服.md"
+    },
     "征服者": {
       "type": "concept",
       "label": "征服者",
@@ -4294,11 +4339,11 @@
     "milu": "milu",
     "秘鲁": "milu",
     "Peru": "milu",
-    "免疫力": "免疫力",
-    "免疫": "免疫力",
+    "免疫": "免疫",
+    "immunity": "免疫",
+    "免疫力": "免疫",
     "抵抗力": "免疫力",
     "病菌免疫": "免疫力",
-    "immunity": "免疫力",
     "棉花": "棉花",
     "棉": "棉花",
     "棉纤维": "棉花",
@@ -4356,6 +4401,7 @@
     "niluohe": "niluohe",
     "尼罗河": "niluohe",
     "Nile River": "niluohe",
+    "Nile": "尼罗河",
     "牛": "牛",
     "家牛": "牛",
     "黄牛": "牛",
@@ -4851,6 +4897,7 @@
     "Mesoamerica": "中美洲",
     "美索美洲": "中美洲",
     "制陶": "制陶",
+    "conquest": "征服",
     "征服者": "征服者",
     "conquistador": "征服者",
     "军事征服者": "征服者",
@@ -4936,6 +4983,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 403,
-  "generated": "2026-05-26T10:21:44Z"
+  "page_count": 408,
+  "generated": "2026-05-26T10:22:49Z"
 }
