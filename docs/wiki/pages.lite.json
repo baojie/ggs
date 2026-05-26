@@ -1,6 +1,12 @@
 {
   "_schema_version": 2,
   "pages": {
+    "PN_AUDIT_REPORT": {
+      "type": "unknown",
+      "label": "PN_AUDIT_REPORT",
+      "aliases": [],
+      "path": "PN_AUDIT_REPORT.md"
+    },
     "About": {
       "type": "overview",
       "label": "关于本 Wiki",
@@ -8,7 +14,7 @@
         "关于",
         "About"
       ],
-      "path": "ab/About.md"
+      "path": "pages/ab/About.md"
     },
     "aisaobiya": {
       "type": "place",
@@ -16,7 +22,7 @@
       "aliases": [
         "Ethiopia"
       ],
-      "path": "ai/aisaobiya.md"
+      "path": "pages/ai/aisaobiya.md"
     },
     "爱迪生": {
       "type": "person",
@@ -25,7 +31,7 @@
         "Thomas Edison",
         "爱迪生"
       ],
-      "path": "ai/爱迪生.md"
+      "path": "pages/ai/爱迪生.md"
     },
     "alabobandao": {
       "type": "place",
@@ -33,7 +39,7 @@
       "aliases": [
         "Arabian Peninsula"
       ],
-      "path": "al/alabobandao.md"
+      "path": "pages/al/alabobandao.md"
     },
     "annatuoliya": {
       "type": "place",
@@ -42,7 +48,7 @@
         "Anatolia",
         "小亚细亚"
       ],
-      "path": "an/annatuoliya.md"
+      "path": "pages/an/annatuoliya.md"
     },
     "安娜-卡列尼娜原则": {
       "type": "concept",
@@ -51,7 +57,7 @@
         "安娜卡列尼娜原则",
         "驯化失败原则"
       ],
-      "path": "an/安娜-卡列尼娜原则.md"
+      "path": "pages/an/安娜-卡列尼娜原则.md"
     },
     "安第斯山脉": {
       "type": "place",
@@ -61,7 +67,7 @@
         "Andes",
         "南美安第斯"
       ],
-      "path": "an/安第斯山脉.md"
+      "path": "pages/an/安第斯山脉.md"
     },
     "澳大利亚": {
       "type": "place",
@@ -70,7 +76,7 @@
         "Australia",
         "澳洲"
       ],
-      "path": "ao/澳大利亚.md"
+      "path": "pages/ao/澳大利亚.md"
     },
     "阿塔瓦尔帕": {
       "type": "person",
@@ -79,7 +85,7 @@
         "Atahualpa",
         "阿塔华帕"
       ],
-      "path": "at/阿塔瓦尔帕.md"
+      "path": "pages/at/阿塔瓦尔帕.md"
     },
     "baergan": {
       "type": "place",
@@ -88,7 +94,7 @@
         "Balkans",
         "巴尔干半岛"
       ],
-      "path": "ba/baergan.md"
+      "path": "pages/ba/baergan.md"
     },
     "bailatu": {
       "type": "person",
@@ -96,7 +102,7 @@
       "aliases": [
         "Plato"
       ],
-      "path": "ba/bailatu.md"
+      "path": "pages/ba/bailatu.md"
     },
     "半岛": {
       "type": "concept",
@@ -104,7 +110,7 @@
       "aliases": [
         "半岛地形"
       ],
-      "path": "ba/半岛.md"
+      "path": "pages/ba/半岛.md"
     },
     "斑马": {
       "type": "species",
@@ -114,7 +120,7 @@
         "zebra",
         "Equus quagga"
       ],
-      "path": "ba/斑马.md"
+      "path": "pages/ba/斑马.md"
     },
     "班图扩张": {
       "type": "event",
@@ -123,7 +129,7 @@
         "Bantu Expansion",
         "班图族扩张"
       ],
-      "path": "ba/班图扩张.md"
+      "path": "pages/ba/班图扩张.md"
     },
     "beimeizhou": {
       "type": "place",
@@ -131,7 +137,7 @@
       "aliases": [
         "North America"
       ],
-      "path": "be/beimeizhou.md"
+      "path": "pages/be/beimeizhou.md"
     },
     "兵豆": {
       "type": "species",
@@ -141,7 +147,7 @@
         "扁豆",
         "小扁豆"
       ],
-      "path": "bi/兵豆.md"
+      "path": "pages/bi/兵豆.md"
     },
     "病原体": {
       "type": "concept",
@@ -150,7 +156,7 @@
         "致病原",
         "pathogen"
       ],
-      "path": "bi/病原体.md"
+      "path": "pages/bi/病原体.md"
     },
     "病菌": {
       "type": "concept",
@@ -159,7 +165,7 @@
         "流行病",
         "germs"
       ],
-      "path": "bi/病菌.md"
+      "path": "pages/bi/病菌.md"
     },
     "伯克和威尔斯": {
       "type": "person",
@@ -170,7 +176,7 @@
         "罗伯特·伯克",
         "威廉·威尔斯"
       ],
-      "path": "bo/伯克和威尔斯.md"
+      "path": "pages/bo/伯克和威尔斯.md"
     },
     "波利尼西亚": {
       "type": "place",
@@ -180,7 +186,7 @@
         "太平洋诸岛",
         "南岛人"
       ],
-      "path": "bo/波利尼西亚.md"
+      "path": "pages/bo/波利尼西亚.md"
     },
     "玻璃": {
       "type": "concept",
@@ -190,7 +196,7 @@
         "玻璃制品",
         "硅酸盐玻璃"
       ],
-      "path": "bo/玻璃.md"
+      "path": "pages/bo/玻璃.md"
     },
     "部族": {
       "type": "concept",
@@ -198,7 +204,7 @@
       "aliases": [
         "族群组织"
       ],
-      "path": "bu/部族.md"
+      "path": "pages/bu/部族.md"
     },
     "部落": {
       "type": "concept",
@@ -208,7 +214,7 @@
         "部落组织",
         "氏族部落"
       ],
-      "path": "bu/部落.md"
+      "path": "pages/bu/部落.md"
     },
     "草原": {
       "type": "concept",
@@ -218,7 +224,7 @@
         "欧亚草原",
         "steppe"
       ],
-      "path": "ca/草原.md"
+      "path": "pages/ca/草原.md"
     },
     "蚕": {
       "type": "species",
@@ -228,121 +234,121 @@
         "silkworm",
         "桑蚕"
       ],
-      "path": "ca/蚕.md"
+      "path": "pages/ca/蚕.md"
     },
     "ch01-up-to-the-starting-line": {
       "type": "chapter",
       "label": "第一章　走上起跑线",
       "aliases": [],
-      "path": "ch/ch01-up-to-the-starting-line.md"
+      "path": "pages/ch/ch01-up-to-the-starting-line.md"
     },
     "ch02-natural-experiment-of-history": {
       "type": "chapter",
       "label": "第二章　历史的自然实验",
       "aliases": [],
-      "path": "ch/ch02-natural-experiment-of-history.md"
+      "path": "pages/ch/ch02-natural-experiment-of-history.md"
     },
     "ch03-collision-at-cajamarca": {
       "type": "chapter",
       "label": "第三章　卡哈马卡的冲突",
       "aliases": [],
-      "path": "ch/ch03-collision-at-cajamarca.md"
+      "path": "pages/ch/ch03-collision-at-cajamarca.md"
     },
     "ch04-farmer-power": {
       "type": "chapter",
       "label": "第四章　农民的力量",
       "aliases": [],
-      "path": "ch/ch04-farmer-power.md"
+      "path": "pages/ch/ch04-farmer-power.md"
     },
     "ch05-historys-haves-and-have-nots": {
       "type": "chapter",
       "label": "第五章　历史上的穷与富",
       "aliases": [],
-      "path": "ch/ch05-historys-haves-and-have-nots.md"
+      "path": "pages/ch/ch05-historys-haves-and-have-nots.md"
     },
     "ch06-to-farm-or-not-to-farm": {
       "type": "chapter",
       "label": "第六章　种田还是不种田",
       "aliases": [],
-      "path": "ch/ch06-to-farm-or-not-to-farm.md"
+      "path": "pages/ch/ch06-to-farm-or-not-to-farm.md"
     },
     "ch07-how-to-make-an-almond": {
       "type": "chapter",
       "label": "第七章　怎样识别杏仁",
       "aliases": [],
-      "path": "ch/ch07-how-to-make-an-almond.md"
+      "path": "pages/ch/ch07-how-to-make-an-almond.md"
     },
     "ch08-apples-or-indians": {
       "type": "chapter",
       "label": "第八章　问题在苹果还是在印第安人",
       "aliases": [],
-      "path": "ch/ch08-apples-or-indians.md"
+      "path": "pages/ch/ch08-apples-or-indians.md"
     },
     "ch09-zebras-unhappy-marriages-anna-karenina": {
       "type": "chapter",
       "label": "第九章　斑马、不幸的婚姻和安娜·卡列尼娜原则",
       "aliases": [],
-      "path": "ch/ch09-zebras-unhappy-marriages-anna-karenina.md"
+      "path": "pages/ch/ch09-zebras-unhappy-marriages-anna-karenina.md"
     },
     "ch10-spacious-skies-tilted-axis": {
       "type": "chapter",
       "label": "第十章　辽阔的天空与偏斜的轴线",
       "aliases": [],
-      "path": "ch/ch10-spacious-skies-tilted-axis.md"
+      "path": "pages/ch/ch10-spacious-skies-tilted-axis.md"
     },
     "ch11-lethal-gift-of-livestock": {
       "type": "chapter",
       "label": "第十一章　牲畜的致命礼物",
       "aliases": [],
-      "path": "ch/ch11-lethal-gift-of-livestock.md"
+      "path": "pages/ch/ch11-lethal-gift-of-livestock.md"
     },
     "ch12-blueprints-borrowed-letters": {
       "type": "chapter",
       "label": "第十二章　蓝图和借用字母",
       "aliases": [],
-      "path": "ch/ch12-blueprints-borrowed-letters.md"
+      "path": "pages/ch/ch12-blueprints-borrowed-letters.md"
     },
     "ch13-necessitys-mother": {
       "type": "chapter",
       "label": "第十三章　需要之母",
       "aliases": [],
-      "path": "ch/ch13-necessitys-mother.md"
+      "path": "pages/ch/ch13-necessitys-mother.md"
     },
     "ch14-from-egalitarianism-to-kleptocracy": {
       "type": "chapter",
       "label": "第十四章　从平等主义到盗贼统治",
       "aliases": [],
-      "path": "ch/ch14-from-egalitarianism-to-kleptocracy.md"
+      "path": "pages/ch/ch14-from-egalitarianism-to-kleptocracy.md"
     },
     "ch15-yalis-people": {
       "type": "chapter",
       "label": "第十五章　耶利的族人",
       "aliases": [],
-      "path": "ch/ch15-yalis-people.md"
+      "path": "pages/ch/ch15-yalis-people.md"
     },
     "ch16-how-china-became-chinese": {
       "type": "chapter",
       "label": "第十六章　中国是怎样成为中国人的中国的",
       "aliases": [],
-      "path": "ch/ch16-how-china-became-chinese.md"
+      "path": "pages/ch/ch16-how-china-became-chinese.md"
     },
     "ch17-speedboat-to-polynesia": {
       "type": "chapter",
       "label": "第十七章　驶向波利尼西亚的快艇",
       "aliases": [],
-      "path": "ch/ch17-speedboat-to-polynesia.md"
+      "path": "pages/ch/ch17-speedboat-to-polynesia.md"
     },
     "ch18-collision-of-two-hemispheres": {
       "type": "chapter",
       "label": "第十八章　两个半球的碰撞",
       "aliases": [],
-      "path": "ch/ch18-collision-of-two-hemispheres.md"
+      "path": "pages/ch/ch18-collision-of-two-hemispheres.md"
     },
     "ch19-how-africa-became-black": {
       "type": "chapter",
       "label": "第十九章　非洲是怎样成为黑人的非洲的",
       "aliases": [],
-      "path": "ch/ch19-how-africa-became-black.md"
+      "path": "pages/ch/ch19-how-africa-became-black.md"
     },
     "chaoxian": {
       "type": "place",
@@ -351,7 +357,7 @@
         "Korea",
         "朝鲜半岛"
       ],
-      "path": "ch/chaoxian.md"
+      "path": "pages/ch/chaoxian.md"
     },
     "传教": {
       "type": "concept",
@@ -361,7 +367,7 @@
         "传教士",
         "宗教传播"
       ],
-      "path": "ch/传教.md"
+      "path": "pages/ch/传教.md"
     },
     "传染病": {
       "type": "concept",
@@ -371,7 +377,7 @@
         "病菌传播",
         "传染性疾病"
       ],
-      "path": "ch/传染病.md"
+      "path": "pages/ch/传染病.md"
     },
     "创新": {
       "type": "concept",
@@ -380,7 +386,7 @@
         "innovation",
         "发明创造"
       ],
-      "path": "ch/创新.md"
+      "path": "pages/ch/创新.md"
     },
     "城市": {
       "type": "concept",
@@ -391,7 +397,7 @@
         "都市",
         "城市化"
       ],
-      "path": "ch/城市.md"
+      "path": "pages/ch/城市.md"
     },
     "船只": {
       "type": "concept",
@@ -401,7 +407,7 @@
         "帆船",
         "航船"
       ],
-      "path": "ch/船只.md"
+      "path": "pages/ch/船只.md"
     },
     "村落": {
       "type": "concept",
@@ -411,7 +417,7 @@
         "定居点",
         "settlement"
       ],
-      "path": "cu/村落.md"
+      "path": "pages/cu/村落.md"
     },
     "dagama": {
       "type": "person",
@@ -420,7 +426,7 @@
         "Vasco da Gama",
         "达·伽马"
       ],
-      "path": "da/dagama.md"
+      "path": "pages/da/dagama.md"
     },
     "daimengde": {
       "type": "person",
@@ -429,7 +435,7 @@
         "Jared Diamond",
         "戴蒙德"
       ],
-      "path": "da/daimengde.md"
+      "path": "pages/da/daimengde.md"
     },
     "大豆": {
       "type": "species",
@@ -438,7 +444,7 @@
         "soybean",
         "黄豆"
       ],
-      "path": "da/大豆.md"
+      "path": "pages/da/大豆.md"
     },
     "大陆": {
       "type": "concept",
@@ -447,7 +453,7 @@
         "洲",
         "大洲"
       ],
-      "path": "da/大陆.md"
+      "path": "pages/da/大陆.md"
     },
     "大陆轴线": {
       "type": "concept",
@@ -458,7 +464,7 @@
         "南北轴线",
         "continental axis"
       ],
-      "path": "da/大陆轴线.md"
+      "path": "pages/da/大陆轴线.md"
     },
     "大麦": {
       "type": "species",
@@ -468,7 +474,7 @@
         "barley",
         "Hordeum vulgare"
       ],
-      "path": "da/大麦.md"
+      "path": "pages/da/大麦.md"
     },
     "大麻": {
       "type": "species",
@@ -477,7 +483,7 @@
         "hemp",
         "工业大麻"
       ],
-      "path": "da/大麻.md"
+      "path": "pages/da/大麻.md"
     },
     "岛屿": {
       "type": "concept",
@@ -486,7 +492,7 @@
         "岛",
         "海岛"
       ],
-      "path": "da/岛屿.md"
+      "path": "pages/da/岛屿.md"
     },
     "达尔文": {
       "type": "person",
@@ -495,7 +501,7 @@
         "查尔斯·达尔文",
         "Charles Darwin"
       ],
-      "path": "da/达尔文.md"
+      "path": "pages/da/达尔文.md"
     },
     "地中海地区": {
       "type": "place",
@@ -505,7 +511,7 @@
         "Mediterranean",
         "欧亚大陆西部地中海气候带"
       ],
-      "path": "di/地中海地区.md"
+      "path": "pages/di/地中海地区.md"
     },
     "地理决定论": {
       "type": "concept",
@@ -514,7 +520,7 @@
         "环境决定论",
         "geographic determinism"
       ],
-      "path": "di/地理决定论.md"
+      "path": "pages/di/地理决定论.md"
     },
     "地理因素": {
       "type": "concept",
@@ -524,7 +530,7 @@
         "地理条件",
         "地理环境"
       ],
-      "path": "di/地理因素.md"
+      "path": "pages/di/地理因素.md"
     },
     "定居": {
       "type": "concept",
@@ -534,7 +540,7 @@
         "定居化",
         "定居社会"
       ],
-      "path": "di/定居.md"
+      "path": "pages/di/定居.md"
     },
     "帝国": {
       "type": "concept",
@@ -544,7 +550,7 @@
         "empire",
         "征服帝国"
       ],
-      "path": "di/帝国.md"
+      "path": "pages/di/帝国.md"
     },
     "抵抗": {
       "type": "concept",
@@ -553,7 +559,7 @@
         "反抗",
         "武装抵抗"
       ],
-      "path": "di/抵抗.md"
+      "path": "pages/di/抵抗.md"
     },
     "东南亚": {
       "type": "place",
@@ -562,7 +568,7 @@
         "Southeast Asia",
         "热带东南亚"
       ],
-      "path": "do/东南亚.md"
+      "path": "pages/do/东南亚.md"
     },
     "动物": {
       "type": "concept",
@@ -572,13 +578,13 @@
         "动物物种",
         "动物多样性"
       ],
-      "path": "do/动物.md"
+      "path": "pages/do/动物.md"
     },
     "动物驯化": {
       "type": "concept",
       "label": "动物驯化",
       "aliases": [],
-      "path": "do/动物驯化.md"
+      "path": "pages/do/动物驯化.md"
     },
     "鹅": {
       "type": "species",
@@ -587,13 +593,13 @@
         "goose",
         "家鹅"
       ],
-      "path": "e0/鹅.md"
+      "path": "pages/e0/鹅.md"
     },
     "Epilogue": {
       "type": "chapter",
       "label": "后记　人类史作为一门科学的未来",
       "aliases": [],
-      "path": "ep/Epilogue.md"
+      "path": "pages/ep/Epilogue.md"
     },
     "发明": {
       "type": "concept",
@@ -603,7 +609,7 @@
         "invention",
         "技术创新"
       ],
-      "path": "fa/发明.md"
+      "path": "pages/fa/发明.md"
     },
     "发明家": {
       "type": "concept",
@@ -613,7 +619,7 @@
         "创新者",
         "inventor"
       ],
-      "path": "fa/发明家.md"
+      "path": "pages/fa/发明家.md"
     },
     "feilvbin": {
       "type": "place",
@@ -621,7 +627,7 @@
       "aliases": [
         "Philippines"
       ],
-      "path": "fe/feilvbin.md"
+      "path": "pages/fe/feilvbin.md"
     },
     "分裂": {
       "type": "concept",
@@ -630,7 +636,7 @@
         "碎片化",
         "欧洲分裂"
       ],
-      "path": "fe/分裂.md"
+      "path": "pages/fe/分裂.md"
     },
     "非洲": {
       "type": "place",
@@ -640,13 +646,13 @@
         "撒哈拉以南非洲",
         "非洲大陆"
       ],
-      "path": "fe/非洲.md"
+      "path": "pages/fe/非洲.md"
     },
     "Frontispiece": {
       "type": "chapter",
       "label": "书前彩插",
       "aliases": [],
-      "path": "fr/Frontispiece.md"
+      "path": "pages/fr/Frontispiece.md"
     },
     "fuhuojiedao": {
       "type": "place",
@@ -655,7 +661,7 @@
         "Easter Island",
         "拉帕努伊"
       ],
-      "path": "fu/fuhuojiedao.md"
+      "path": "pages/fu/fuhuojiedao.md"
     },
     "干旱": {
       "type": "concept",
@@ -666,7 +672,7 @@
         "干燥气候",
         "ENSO"
       ],
-      "path": "ga/干旱.md"
+      "path": "pages/ga/干旱.md"
     },
     "橄榄": {
       "type": "species",
@@ -675,7 +681,7 @@
         "油橄榄",
         "olive"
       ],
-      "path": "ga/橄榄.md"
+      "path": "pages/ga/橄榄.md"
     },
     "甘薯": {
       "type": "species",
@@ -685,7 +691,7 @@
         "番薯",
         "sweet potato"
       ],
-      "path": "ga/甘薯.md"
+      "path": "pages/ga/甘薯.md"
     },
     "钢铁": {
       "type": "concept",
@@ -695,7 +701,7 @@
         "steel",
         "iron"
       ],
-      "path": "ga/钢铁.md"
+      "path": "pages/ga/钢铁.md"
     },
     "高原": {
       "type": "concept",
@@ -705,7 +711,7 @@
         "高原地区",
         "高原地带"
       ],
-      "path": "ga/高原.md"
+      "path": "pages/ga/高原.md"
     },
     "高粱": {
       "type": "species",
@@ -715,7 +721,7 @@
         "sorghum",
         "Sorghum bicolor"
       ],
-      "path": "ga/高粱.md"
+      "path": "pages/ga/高粱.md"
     },
     "哥伦布": {
       "type": "person",
@@ -724,7 +730,7 @@
         "克里斯托弗·哥伦布",
         "Christopher Columbus"
       ],
-      "path": "ge/哥伦布.md"
+      "path": "pages/ge/哥伦布.md"
     },
     "哥伦布航行与两个半球的碰撞": {
       "type": "event",
@@ -734,7 +740,7 @@
         "1492年哥伦布航行",
         "两个半球的碰撞"
       ],
-      "path": "ge/哥伦布航行与两个半球的碰撞.md"
+      "path": "pages/ge/哥伦布航行与两个半球的碰撞.md"
     },
     "更新世大型动物灭绝": {
       "type": "event",
@@ -744,7 +750,7 @@
         "晚更新世灭绝",
         "巨型动物灭绝"
       ],
-      "path": "ge/更新世大型动物灭绝.md"
+      "path": "pages/ge/更新世大型动物灭绝.md"
     },
     "格林伯格": {
       "type": "person",
@@ -753,7 +759,7 @@
         "Joseph Greenberg",
         "格林伯格"
       ],
-      "path": "ge/格林伯格.md"
+      "path": "pages/ge/格林伯格.md"
     },
     "革命": {
       "type": "concept",
@@ -762,7 +768,7 @@
         "变革",
         "剧变"
       ],
-      "path": "ge/革命.md"
+      "path": "pages/ge/革命.md"
     },
     "工具": {
       "type": "concept",
@@ -773,7 +779,7 @@
         "石器",
         "人工制品"
       ],
-      "path": "go/工具.md"
+      "path": "pages/go/工具.md"
     },
     "工程": {
       "type": "concept",
@@ -784,7 +790,7 @@
         "大型工程",
         "基础设施"
       ],
-      "path": "go/工程.md"
+      "path": "pages/go/工程.md"
     },
     "弓箭": {
       "type": "concept",
@@ -794,17 +800,16 @@
         "弓与箭",
         "复合弓"
       ],
-      "path": "go/弓箭.md"
+      "path": "pages/go/弓箭.md"
     },
     "狗": {
       "type": "species",
       "label": "狗",
       "aliases": [
         "家犬",
-        "犬",
-        "dog"
+        "犬"
       ],
-      "path": "go/狗.md"
+      "path": "pages/go/狗.md"
     },
     "国家": {
       "type": "concept",
@@ -814,7 +819,7 @@
         "国家形成",
         "state"
       ],
-      "path": "gu/国家.md"
+      "path": "pages/gu/国家.md"
     },
     "国家的形成": {
       "type": "event",
@@ -824,7 +829,7 @@
         "最早国家",
         "国家起源"
       ],
-      "path": "gu/国家的形成.md"
+      "path": "pages/gu/国家的形成.md"
     },
     "国王": {
       "type": "concept",
@@ -834,7 +839,7 @@
         "君王",
         "世袭君主"
       ],
-      "path": "gu/国王.md"
+      "path": "pages/gu/国王.md"
     },
     "官员": {
       "type": "concept",
@@ -844,7 +849,7 @@
         "行政官员",
         "文官"
       ],
-      "path": "gu/官员.md"
+      "path": "pages/gu/官员.md"
     },
     "灌溉": {
       "type": "concept",
@@ -853,7 +858,7 @@
         "irrigation",
         "灌溉农业"
       ],
-      "path": "gu/灌溉.md"
+      "path": "pages/gu/灌溉.md"
     },
     "谷登堡": {
       "type": "person",
@@ -862,7 +867,7 @@
         "约翰内斯·谷登堡",
         "Johannes Gutenberg"
       ],
-      "path": "gu/谷登堡.md"
+      "path": "pages/gu/谷登堡.md"
     },
     "hanniba": {
       "type": "person",
@@ -871,13 +876,13 @@
         "Hannibal",
         "汉尼拔·巴卡"
       ],
-      "path": "ha/hanniba.md"
+      "path": "pages/ha/hanniba.md"
     },
     "海峡": {
       "type": "concept",
       "label": "海峡",
       "aliases": [],
-      "path": "ha/海峡.md"
+      "path": "pages/ha/海峡.md"
     },
     "航海": {
       "type": "concept",
@@ -888,7 +893,7 @@
         "海上扩张",
         "航运"
       ],
-      "path": "ha/航海.md"
+      "path": "pages/ha/航海.md"
     },
     "航行": {
       "type": "concept",
@@ -897,7 +902,7 @@
         "远洋航行",
         "水上航行"
       ],
-      "path": "ha/航行.md"
+      "path": "pages/ha/航行.md"
     },
     "河流": {
       "type": "concept",
@@ -907,7 +912,7 @@
         "可通航河流",
         "内陆水系"
       ],
-      "path": "he/河流.md"
+      "path": "pages/he/河流.md"
     },
     "黑死病": {
       "type": "event",
@@ -917,7 +922,7 @@
         "腺鼠疫",
         "1346年鼠疫"
       ],
-      "path": "he/黑死病.md"
+      "path": "pages/he/黑死病.md"
     },
     "huashengdun": {
       "type": "person",
@@ -925,7 +930,7 @@
       "aliases": [
         "George Washington"
       ],
-      "path": "hu/huashengdun.md"
+      "path": "pages/hu/huashengdun.md"
     },
     "火": {
       "type": "concept",
@@ -936,7 +941,7 @@
         "火耕",
         "火耕农业"
       ],
-      "path": "hu/火.md"
+      "path": "pages/hu/火.md"
     },
     "火器": {
       "type": "concept",
@@ -945,17 +950,17 @@
         "火药武器",
         "枪械"
       ],
-      "path": "hu/火器.md"
+      "path": "pages/hu/火器.md"
     },
     "火药": {
       "type": "concept",
       "label": "火药",
       "aliases": [
-        "黑色火药",
         "黑火药",
+        "黑色火药",
         "炸药"
       ],
-      "path": "hu/火药.md"
+      "path": "pages/hu/火药.md"
     },
     "火鸡": {
       "type": "species",
@@ -964,7 +969,7 @@
         "turkey",
         "吐绶鸡"
       ],
-      "path": "hu/火鸡.md"
+      "path": "pages/hu/火鸡.md"
     },
     "环境": {
       "type": "concept",
@@ -974,7 +979,7 @@
         "自然环境",
         "环境条件"
       ],
-      "path": "hu/环境.md"
+      "path": "pages/hu/环境.md"
     },
     "皇帝": {
       "type": "concept",
@@ -983,7 +988,7 @@
         "帝王",
         "emperor"
       ],
-      "path": "hu/皇帝.md"
+      "path": "pages/hu/皇帝.md"
     },
     "霍乱": {
       "type": "concept",
@@ -992,7 +997,7 @@
         "cholera",
         "霍乱弧菌"
       ],
-      "path": "hu/霍乱.md"
+      "path": "pages/hu/霍乱.md"
     },
     "jialifuniya": {
       "type": "place",
@@ -1000,7 +1005,7 @@
       "aliases": [
         "California"
       ],
-      "path": "ji/jialifuniya.md"
+      "path": "pages/ji/jialifuniya.md"
     },
     "交换": {
       "type": "concept",
@@ -1010,7 +1015,7 @@
         "贸易交换",
         "商品流通"
       ],
-      "path": "ji/交换.md"
+      "path": "pages/ji/交换.md"
     },
     "基因": {
       "type": "concept",
@@ -1019,7 +1024,7 @@
         "遗传基因",
         "基因特征"
       ],
-      "path": "ji/基因.md"
+      "path": "pages/ji/基因.md"
     },
     "季节性": {
       "type": "concept",
@@ -1029,7 +1034,7 @@
         "生长季节",
         "气候季节"
       ],
-      "path": "ji/季节性.md"
+      "path": "pages/ji/季节性.md"
     },
     "家畜": {
       "type": "concept",
@@ -1039,7 +1044,7 @@
         "牲畜",
         "domestic animals"
       ],
-      "path": "ji/家畜.md"
+      "path": "pages/ji/家畜.md"
     },
     "技术": {
       "type": "concept",
@@ -1047,7 +1052,7 @@
       "aliases": [
         "技术进步"
       ],
-      "path": "ji/技术.md"
+      "path": "pages/ji/技术.md"
     },
     "技术传播": {
       "type": "concept",
@@ -1057,7 +1062,7 @@
         "技术交流",
         "technology diffusion"
       ],
-      "path": "ji/技术传播.md"
+      "path": "pages/ji/技术传播.md"
     },
     "技术积累": {
       "type": "concept",
@@ -1067,7 +1072,7 @@
         "技术演化",
         "发明的积累性"
       ],
-      "path": "ji/技术积累.md"
+      "path": "pages/ji/技术积累.md"
     },
     "旧大陆": {
       "type": "concept",
@@ -1076,7 +1081,7 @@
         "欧亚非大陆",
         "Old World"
       ],
-      "path": "ji/旧大陆.md"
+      "path": "pages/ji/旧大陆.md"
     },
     "竞争": {
       "type": "concept",
@@ -1086,7 +1091,7 @@
         "竞争压力",
         "间竞争"
       ],
-      "path": "ji/竞争.md"
+      "path": "pages/ji/竞争.md"
     },
     "结核": {
       "type": "concept",
@@ -1096,7 +1101,7 @@
         "结核病",
         "结核杆菌"
       ],
-      "path": "ji/结核.md"
+      "path": "pages/ji/结核.md"
     },
     "继承": {
       "type": "concept",
@@ -1107,7 +1112,7 @@
         "权力继承",
         "世袭制度"
       ],
-      "path": "ji/继承.md"
+      "path": "pages/ji/继承.md"
     },
     "近端原因与终极原因": {
       "type": "concept",
@@ -1117,7 +1122,7 @@
         "proximate cause",
         "ultimate cause"
       ],
-      "path": "ji/近端原因与终极原因.md"
+      "path": "pages/ji/近端原因与终极原因.md"
     },
     "金属": {
       "type": "concept",
@@ -1128,7 +1133,7 @@
         "铜铁",
         "金属工具"
       ],
-      "path": "ji/金属.md"
+      "path": "pages/ji/金属.md"
     },
     "阶级": {
       "type": "concept",
@@ -1138,7 +1143,7 @@
         "阶层",
         "社会分层"
       ],
-      "path": "ji/阶级.md"
+      "path": "pages/ji/阶级.md"
     },
     "集中": {
       "type": "concept",
@@ -1148,7 +1153,7 @@
         "集权",
         "中央集权"
       ],
-      "path": "ji/集中.md"
+      "path": "pages/ji/集中.md"
     },
     "鸡": {
       "type": "species",
@@ -1158,7 +1163,7 @@
         "chicken",
         "原鸡"
       ],
-      "path": "ji/鸡.md"
+      "path": "pages/ji/鸡.md"
     },
     "军事征服": {
       "type": "concept",
@@ -1169,7 +1174,7 @@
         "军事扩张",
         "征服"
       ],
-      "path": "ju/军事征服.md"
+      "path": "pages/ju/军事征服.md"
     },
     "军事技术": {
       "type": "concept",
@@ -1178,7 +1183,7 @@
         "武器技术",
         "兵器"
       ],
-      "path": "ju/军事技术.md"
+      "path": "pages/ju/军事技术.md"
     },
     "军队": {
       "type": "concept",
@@ -1188,7 +1193,7 @@
         "士兵",
         "军事力量"
       ],
-      "path": "ju/军队.md"
+      "path": "pages/ju/军队.md"
     },
     "君主": {
       "type": "concept",
@@ -1198,7 +1203,7 @@
         "世袭统治者",
         "monarch"
       ],
-      "path": "ju/君主.md"
+      "path": "pages/ju/君主.md"
     },
     "巨型动物": {
       "type": "concept",
@@ -1208,7 +1213,7 @@
         "大型哺乳动物",
         "史前动物灭绝"
       ],
-      "path": "ju/巨型动物.md"
+      "path": "pages/ju/巨型动物.md"
     },
     "卡哈马卡": {
       "type": "place",
@@ -1217,7 +1222,7 @@
         "Cajamarca",
         "卡哈马卡战役"
       ],
-      "path": "ka/卡哈马卡.md"
+      "path": "pages/ka/卡哈马卡.md"
     },
     "卡哈马卡之战": {
       "type": "event",
@@ -1226,7 +1231,7 @@
         "Battle of Cajamarca",
         "1532年卡哈马卡战役"
       ],
-      "path": "卡哈马卡之战.md"
+      "path": "pages/卡哈马卡之战.md"
     },
     "考古学": {
       "type": "concept",
@@ -1236,7 +1241,7 @@
         "考古学方法",
         "考古证据"
       ],
-      "path": "ka/考古学.md"
+      "path": "pages/ka/考古学.md"
     },
     "考古遗址": {
       "type": "concept",
@@ -1245,7 +1250,7 @@
         "遗址",
         "考古发掘"
       ],
-      "path": "ka/考古遗址.md"
+      "path": "pages/ka/考古遗址.md"
     },
     "keluoweiwenhua": {
       "type": "event",
@@ -1254,7 +1259,7 @@
         "Clovis culture",
         "克罗维遗址"
       ],
-      "path": "ke/keluoweiwenhua.md"
+      "path": "pages/ke/keluoweiwenhua.md"
     },
     "科学": {
       "type": "concept",
@@ -1265,7 +1270,7 @@
         "科学观点",
         "历史科学"
       ],
-      "path": "ke/科学.md"
+      "path": "pages/ke/科学.md"
     },
     "科尔特斯": {
       "type": "person",
@@ -1274,7 +1279,7 @@
         "埃尔南·科尔特斯",
         "Hernán Cortés"
       ],
-      "path": "ke/科尔特斯.md"
+      "path": "pages/ke/科尔特斯.md"
     },
     "kuke": {
       "type": "person",
@@ -1283,7 +1288,7 @@
         "James Cook",
         "库克船长"
       ],
-      "path": "ku/kuke.md"
+      "path": "pages/ku/kuke.md"
     },
     "扩张": {
       "type": "concept",
@@ -1293,7 +1298,7 @@
         "领土扩张",
         "农业扩张"
       ],
-      "path": "ku/扩张.md"
+      "path": "pages/ku/扩张.md"
     },
     "劳动力": {
       "type": "concept",
@@ -1303,7 +1308,7 @@
         "劳工",
         "劳动人口"
       ],
-      "path": "la/劳动力.md"
+      "path": "pages/la/劳动力.md"
     },
     "莱特兄弟": {
       "type": "person",
@@ -1313,7 +1318,7 @@
         "奥维尔·莱特",
         "威尔伯·莱特"
       ],
-      "path": "la/莱特兄弟.md"
+      "path": "pages/la/莱特兄弟.md"
     },
     "流行病": {
       "type": "concept",
@@ -1321,7 +1326,7 @@
       "aliases": [
         "瘟疫"
       ],
-      "path": "li/流行病.md"
+      "path": "pages/li/流行病.md"
     },
     "粮食生产": {
       "type": "concept",
@@ -1331,7 +1336,7 @@
         "食物生产",
         "农耕"
       ],
-      "path": "li/粮食生产.md"
+      "path": "pages/li/粮食生产.md"
     },
     "luoma-diguo": {
       "type": "event",
@@ -1339,7 +1344,7 @@
       "aliases": [
         "Roman Empire"
       ],
-      "path": "lu/luoma-diguo.md"
+      "path": "pages/lu/luoma-diguo.md"
     },
     "lusuo": {
       "type": "person",
@@ -1348,7 +1353,7 @@
         "Jean-Jacques Rousseau",
         "卢梭"
       ],
-      "path": "lu/lusuo.md"
+      "path": "pages/lu/lusuo.md"
     },
     "轮子": {
       "type": "concept",
@@ -1359,7 +1364,7 @@
         "轮轴",
         "有轮车"
       ],
-      "path": "lu/轮子.md"
+      "path": "pages/lu/轮子.md"
     },
     "骆驼": {
       "type": "species",
@@ -1371,7 +1376,7 @@
         "camel",
         "Camelus dromedarius"
       ],
-      "path": "lu/骆驼.md"
+      "path": "pages/lu/骆驼.md"
     },
     "驴": {
       "type": "species",
@@ -1381,7 +1386,7 @@
         "ass",
         "家驴"
       ],
-      "path": "lv/驴.md"
+      "path": "pages/lv/驴.md"
     },
     "madagascar": {
       "type": "place",
@@ -1389,7 +1394,7 @@
       "aliases": [
         "Madagascar"
       ],
-      "path": "ma/madagascar.md"
+      "path": "pages/ma/madagascar.md"
     },
     "makesi": {
       "type": "person",
@@ -1398,7 +1403,7 @@
         "Karl Marx",
         "马克思"
       ],
-      "path": "ma/makesi.md"
+      "path": "pages/ma/makesi.md"
     },
     "牦牛": {
       "type": "species",
@@ -1407,7 +1412,7 @@
         "yak",
         "犛牛"
       ],
-      "path": "ma/牦牛.md"
+      "path": "pages/ma/牦牛.md"
     },
     "猫": {
       "type": "species",
@@ -1417,7 +1422,7 @@
         "cat",
         "驯化猫"
       ],
-      "path": "ma/猫.md"
+      "path": "pages/ma/猫.md"
     },
     "贸易": {
       "type": "concept",
@@ -1427,7 +1432,7 @@
         "商贸",
         "贸易路线"
       ],
-      "path": "ma/贸易.md"
+      "path": "pages/ma/贸易.md"
     },
     "贸易路线": {
       "type": "concept",
@@ -1436,7 +1441,7 @@
         "商路",
         "商道"
       ],
-      "path": "ma/贸易路线.md"
+      "path": "pages/ma/贸易路线.md"
     },
     "马": {
       "type": "species",
@@ -1447,7 +1452,7 @@
         "horse",
         "Equus ferus caballus"
       ],
-      "path": "ma/马.md"
+      "path": "pages/ma/马.md"
     },
     "马的驯化": {
       "type": "event",
@@ -1456,7 +1461,7 @@
         "Horse Domestication",
         "驯化马"
       ],
-      "path": "ma/马的驯化.md"
+      "path": "pages/ma/马的驯化.md"
     },
     "马铃薯": {
       "type": "species",
@@ -1467,7 +1472,7 @@
         "potato",
         "Solanum tuberosum"
       ],
-      "path": "ma/马铃薯.md"
+      "path": "pages/ma/马铃薯.md"
     },
     "麻疹": {
       "type": "species",
@@ -1477,7 +1482,7 @@
         "measles",
         "Measles morbillivirus"
       ],
-      "path": "ma/麻疹.md"
+      "path": "pages/ma/麻疹.md"
     },
     "meilaxiniya": {
       "type": "place",
@@ -1485,7 +1490,7 @@
       "aliases": [
         "Melanesia"
       ],
-      "path": "me/meilaxiniya.md"
+      "path": "pages/me/meilaxiniya.md"
     },
     "meisuobudamiya": {
       "type": "place",
@@ -1494,7 +1499,7 @@
         "Mesopotamia",
         "两河流域"
       ],
-      "path": "me/meisuobudamiya.md"
+      "path": "pages/me/meisuobudamiya.md"
     },
     "menggu-diguo": {
       "type": "event",
@@ -1502,7 +1507,7 @@
       "aliases": [
         "Mongol Empire"
       ],
-      "path": "me/menggu-diguo.md"
+      "path": "pages/me/menggu-diguo.md"
     },
     "menggu": {
       "type": "place",
@@ -1511,7 +1516,7 @@
         "Mongolia",
         "蒙古草原"
       ],
-      "path": "me/menggu.md"
+      "path": "pages/me/menggu.md"
     },
     "美国东部": {
       "type": "place",
@@ -1520,7 +1525,7 @@
         "北美东部",
         "Eastern North America"
       ],
-      "path": "me/美国东部.md"
+      "path": "pages/me/美国东部.md"
     },
     "美洲": {
       "type": "place",
@@ -1530,7 +1535,7 @@
         "新大陆",
         "the Americas"
       ],
-      "path": "me/美洲.md"
+      "path": "pages/me/美洲.md"
     },
     "美洲家鸭": {
       "type": "species",
@@ -1539,7 +1544,7 @@
         "Muscovy duck",
         "疣鼻栖鸭"
       ],
-      "path": "me/美洲家鸭.md"
+      "path": "pages/me/美洲家鸭.md"
     },
     "美洲独立农业起源": {
       "type": "event",
@@ -1548,7 +1553,7 @@
         "Independent Agricultural Origins in the Americas",
         "中美洲农业起源"
       ],
-      "path": "me/美洲独立农业起源.md"
+      "path": "pages/me/美洲独立农业起源.md"
     },
     "美洲驼": {
       "type": "species",
@@ -1559,7 +1564,7 @@
         "llama",
         "南美小羊驼"
       ],
-      "path": "me/美洲驼.md"
+      "path": "pages/me/美洲驼.md"
     },
     "蒙特朱马": {
       "type": "person",
@@ -1568,7 +1573,7 @@
         "Moctezuma",
         "蒙特苏马"
       ],
-      "path": "me/蒙特朱马.md"
+      "path": "pages/me/蒙特朱马.md"
     },
     "mikelunixiya": {
       "type": "place",
@@ -1576,7 +1581,7 @@
       "aliases": [
         "Micronesia"
       ],
-      "path": "mi/mikelunixiya.md"
+      "path": "pages/mi/mikelunixiya.md"
     },
     "milu": {
       "type": "place",
@@ -1584,7 +1589,7 @@
       "aliases": [
         "Peru"
       ],
-      "path": "mi/milu.md"
+      "path": "pages/mi/milu.md"
     },
     "免疫力": {
       "type": "concept",
@@ -1595,7 +1600,7 @@
         "病菌免疫",
         "immunity"
       ],
-      "path": "mi/免疫力.md"
+      "path": "pages/mi/免疫力.md"
     },
     "棉花": {
       "type": "concept",
@@ -1605,7 +1610,7 @@
         "棉纤维",
         "棉作物"
       ],
-      "path": "mi/棉花.md"
+      "path": "pages/mi/棉花.md"
     },
     "民族": {
       "type": "concept",
@@ -1614,7 +1619,7 @@
         "族群",
         "民族形成"
       ],
-      "path": "mi/民族.md"
+      "path": "pages/mi/民族.md"
     },
     "灭绝": {
       "type": "concept",
@@ -1623,7 +1628,7 @@
         "extinction",
         "物种灭绝"
       ],
-      "path": "mi/灭绝.md"
+      "path": "pages/mi/灭绝.md"
     },
     "绵羊": {
       "type": "species",
@@ -1634,7 +1639,7 @@
         "sheep",
         "Ovis aries"
       ],
-      "path": "mi/绵羊.md"
+      "path": "pages/mi/绵羊.md"
     },
     "蜜蜂": {
       "type": "species",
@@ -1643,7 +1648,7 @@
         "honeybee",
         "家蜂"
       ],
-      "path": "mi/蜜蜂.md"
+      "path": "pages/mi/蜜蜂.md"
     },
     "面包果": {
       "type": "species",
@@ -1651,7 +1656,7 @@
       "aliases": [
         "breadfruit"
       ],
-      "path": "mi/面包果.md"
+      "path": "pages/mi/面包果.md"
     },
     "moxige": {
       "type": "place",
@@ -1659,7 +1664,7 @@
       "aliases": [
         "Mexico"
       ],
-      "path": "mo/moxige.md"
+      "path": "pages/mo/moxige.md"
     },
     "木薯": {
       "type": "species",
@@ -1669,7 +1674,7 @@
         "manioc",
         "树薯"
       ],
-      "path": "mu/木薯.md"
+      "path": "pages/mu/木薯.md"
     },
     "牧人": {
       "type": "concept",
@@ -1677,13 +1682,13 @@
       "aliases": [
         "牧民"
       ],
-      "path": "mu/牧人.md"
+      "path": "pages/mu/牧人.md"
     },
     "目录": {
       "type": "overview",
       "label": "目录",
       "aliases": [],
-      "path": "mu/目录.md"
+      "path": "pages/mu/目录.md"
     },
     "nanmeizhou": {
       "type": "place",
@@ -1691,7 +1696,7 @@
       "aliases": [
         "South America"
       ],
-      "path": "na/nanmeizhou.md"
+      "path": "pages/na/nanmeizhou.md"
     },
     "napolun": {
       "type": "person",
@@ -1700,7 +1705,7 @@
         "Napoleon Bonaparte",
         "拿破仑·波拿巴"
       ],
-      "path": "na/napolun.md"
+      "path": "pages/na/napolun.md"
     },
     "南北轴": {
       "type": "concept",
@@ -1709,7 +1714,7 @@
         "南北走向",
         "大陆轴线南北"
       ],
-      "path": "na/南北轴.md"
+      "path": "pages/na/南北轴.md"
     },
     "南岛语族扩张": {
       "type": "event",
@@ -1719,7 +1724,7 @@
         "波利尼西亚扩张",
         "南岛人扩张"
       ],
-      "path": "na/南岛语族扩张.md"
+      "path": "pages/na/南岛语族扩张.md"
     },
     "niandetelian": {
       "type": "person",
@@ -1728,7 +1733,7 @@
         "Neanderthal",
         "Homo neanderthalensis"
       ],
-      "path": "ni/niandetelian.md"
+      "path": "pages/ni/niandetelian.md"
     },
     "niluohe": {
       "type": "place",
@@ -1736,7 +1741,7 @@
       "aliases": [
         "Nile River"
       ],
-      "path": "ni/niluohe.md"
+      "path": "pages/ni/niluohe.md"
     },
     "牛": {
       "type": "species",
@@ -1748,7 +1753,7 @@
         "ox",
         "Bos taurus"
       ],
-      "path": "ni/牛.md"
+      "path": "pages/ni/牛.md"
     },
     "农业": {
       "type": "concept",
@@ -1758,7 +1763,7 @@
         "作物栽培",
         "种植业"
       ],
-      "path": "no/农业.md"
+      "path": "pages/no/农业.md"
     },
     "奴隶": {
       "type": "concept",
@@ -1768,7 +1773,7 @@
         "奴隶劳动",
         "奴役"
       ],
-      "path": "nu/奴隶.md"
+      "path": "pages/nu/奴隶.md"
     },
     "疟疾": {
       "type": "concept",
@@ -1777,7 +1782,7 @@
         "malaria",
         "疟原虫感染"
       ],
-      "path": "nv/疟疾.md"
+      "path": "pages/nv/疟疾.md"
     },
     "欧亚大陆": {
       "type": "place",
@@ -1786,7 +1791,7 @@
         "Eurasia",
         "亚欧大陆"
       ],
-      "path": "ou/欧亚大陆.md"
+      "path": "pages/ou/欧亚大陆.md"
     },
     "欧洲殖民非洲": {
       "type": "event",
@@ -1796,7 +1801,7 @@
         "非洲殖民",
         "欧洲征服非洲"
       ],
-      "path": "ou/欧洲殖民非洲.md"
+      "path": "pages/ou/欧洲殖民非洲.md"
     },
     "平原": {
       "type": "concept",
@@ -1805,7 +1810,7 @@
         "大平原",
         "冲积平原"
       ],
-      "path": "pi/平原.md"
+      "path": "pages/pi/平原.md"
     },
     "平民": {
       "type": "concept",
@@ -1815,7 +1820,7 @@
         "普通人",
         "非精英阶层"
       ],
-      "path": "pi/平民.md"
+      "path": "pages/pi/平民.md"
     },
     "皮萨罗": {
       "type": "person",
@@ -1824,13 +1829,13 @@
         "弗朗西斯科·皮萨罗",
         "Francisco Pizarro"
       ],
-      "path": "pi/皮萨罗.md"
+      "path": "pages/pi/皮萨罗.md"
     },
     "Preface": {
       "type": "chapter",
       "label": "前言　耶利的问题",
       "aliases": [],
-      "path": "pr/Preface.md"
+      "path": "pages/pr/Preface.md"
     },
     "葡萄": {
       "type": "species",
@@ -1840,7 +1845,7 @@
         "grape",
         "栽培葡萄"
       ],
-      "path": "pu/葡萄.md"
+      "path": "pages/pu/葡萄.md"
     },
     "亲属关系": {
       "type": "concept",
@@ -1851,7 +1856,7 @@
         "亲族",
         "亲属网络"
       ],
-      "path": "qi/亲属关系.md"
+      "path": "pages/qi/亲属关系.md"
     },
     "枪炮": {
       "type": "concept",
@@ -1861,7 +1866,7 @@
         "火枪",
         "火炮"
       ],
-      "path": "qi/枪炮.md"
+      "path": "pages/qi/枪炮.md"
     },
     "栖息地": {
       "type": "concept",
@@ -1869,7 +1874,7 @@
       "aliases": [
         "生境"
       ],
-      "path": "qi/栖息地.md"
+      "path": "pages/qi/栖息地.md"
     },
     "气候": {
       "type": "concept",
@@ -1880,7 +1885,7 @@
         "地中海气候",
         "气候变化"
       ],
-      "path": "qi/气候.md"
+      "path": "pages/qi/气候.md"
     },
     "气候带": {
       "type": "concept",
@@ -1889,7 +1894,7 @@
         "气候区",
         "气候类型"
       ],
-      "path": "qi/气候带.md"
+      "path": "pages/qi/气候带.md"
     },
     "酋长": {
       "type": "concept",
@@ -1899,7 +1904,7 @@
         "酋长管辖地",
         "酋邦"
       ],
-      "path": "qi/酋长.md"
+      "path": "pages/qi/酋长.md"
     },
     "青铜": {
       "type": "concept",
@@ -1907,7 +1912,7 @@
       "aliases": [
         "青铜器"
       ],
-      "path": "qi/青铜.md"
+      "path": "pages/qi/青铜.md"
     },
     "骑兵": {
       "type": "concept",
@@ -1916,13 +1921,13 @@
         "骑手",
         "骑军"
       ],
-      "path": "qi/骑兵.md"
+      "path": "pages/qi/骑兵.md"
     },
     "人口": {
       "type": "concept",
       "label": "人口",
       "aliases": [],
-      "path": "re/人口.md"
+      "path": "pages/re/人口.md"
     },
     "人口密度": {
       "type": "concept",
@@ -1931,7 +1936,7 @@
         "人口压力",
         "population density"
       ],
-      "path": "re/人口密度.md"
+      "path": "pages/re/人口密度.md"
     },
     "人口扩张": {
       "type": "concept",
@@ -1941,7 +1946,7 @@
         "人口置换",
         "人口压力扩张"
       ],
-      "path": "re/人口扩张.md"
+      "path": "pages/re/人口扩张.md"
     },
     "人口稠密": {
       "type": "concept",
@@ -1950,7 +1955,7 @@
         "人口密度",
         "人口密集"
       ],
-      "path": "re/人口稠密.md"
+      "path": "pages/re/人口稠密.md"
     },
     "人口规模": {
       "type": "concept",
@@ -1959,13 +1964,13 @@
         "population size",
         "人口数量"
       ],
-      "path": "re/人口规模.md"
+      "path": "pages/re/人口规模.md"
     },
     "人物索引": {
       "type": "list",
       "label": "人物索引",
       "aliases": [],
-      "path": "re/人物索引.md"
+      "path": "pages/re/人物索引.md"
     },
     "人种": {
       "type": "concept",
@@ -1975,7 +1980,7 @@
         "人类种族",
         "生物性种族"
       ],
-      "path": "re/人种.md"
+      "path": "pages/re/人种.md"
     },
     "人类进化": {
       "type": "concept",
@@ -1984,7 +1989,7 @@
         "人类演化",
         "人科进化"
       ],
-      "path": "re/人类进化.md"
+      "path": "pages/re/人类进化.md"
     },
     "人类首次定居澳大利亚": {
       "type": "event",
@@ -1993,7 +1998,7 @@
         "First Human Settlement of Australia",
         "澳大利亚最早定居"
       ],
-      "path": "re/人类首次定居澳大利亚.md"
+      "path": "pages/re/人类首次定居澳大利亚.md"
     },
     "热带地区": {
       "type": "concept",
@@ -2003,7 +2008,7 @@
         "热带气候",
         "低纬度地区"
       ],
-      "path": "re/热带地区.md"
+      "path": "pages/re/热带地区.md"
     },
     "日本": {
       "type": "place",
@@ -2012,7 +2017,7 @@
         "Japan",
         "日本列岛"
       ],
-      "path": "ri/日本.md"
+      "path": "pages/ri/日本.md"
     },
     "sahala": {
       "type": "place",
@@ -2020,7 +2025,7 @@
       "aliases": [
         "Sahara"
       ],
-      "path": "sa/sahala.md"
+      "path": "pages/sa/sahala.md"
     },
     "萨赫勒地带": {
       "type": "place",
@@ -2030,7 +2035,7 @@
         "Sahel",
         "非洲萨赫勒"
       ],
-      "path": "sa/萨赫勒地带.md"
+      "path": "pages/sa/萨赫勒地带.md"
     },
     "书写系统": {
       "type": "concept",
@@ -2039,7 +2044,7 @@
         "文字系统",
         "writing system"
       ],
-      "path": "sh/书写系统.md"
+      "path": "pages/sh/书写系统.md"
     },
     "伤寒": {
       "type": "concept",
@@ -2049,7 +2054,7 @@
         "typhus",
         "typhoid"
       ],
-      "path": "sh/伤寒.md"
+      "path": "pages/sh/伤寒.md"
     },
     "剩余粮食": {
       "type": "concept",
@@ -2059,7 +2064,7 @@
         "农业剩余",
         "粮食储备"
       ],
-      "path": "sh/剩余粮食.md"
+      "path": "pages/sh/剩余粮食.md"
     },
     "商人": {
       "type": "concept",
@@ -2069,7 +2074,7 @@
         "商贾",
         "长途贸易者"
       ],
-      "path": "sh/商人.md"
+      "path": "pages/sh/商人.md"
     },
     "山羊": {
       "type": "species",
@@ -2079,7 +2084,7 @@
         "goat",
         "野山羊"
       ],
-      "path": "sh/山羊.md"
+      "path": "pages/sh/山羊.md"
     },
     "山脉": {
       "type": "concept",
@@ -2089,13 +2094,13 @@
         "山地",
         "山区"
       ],
-      "path": "sh/山脉.md"
+      "path": "pages/sh/山脉.md"
     },
     "水利": {
       "type": "concept",
       "label": "水利",
       "aliases": [],
-      "path": "sh/水利.md"
+      "path": "pages/sh/水利.md"
     },
     "水牛": {
       "type": "species",
@@ -2104,7 +2109,7 @@
         "water buffalo",
         "亚洲水牛"
       ],
-      "path": "sh/水牛.md"
+      "path": "pages/sh/水牛.md"
     },
     "水稻": {
       "type": "species",
@@ -2115,7 +2120,7 @@
         "rice",
         "Oryza sativa"
       ],
-      "path": "sh/水稻.md"
+      "path": "pages/sh/水稻.md"
     },
     "沙漠": {
       "type": "concept",
@@ -2125,7 +2130,7 @@
         "干旱区",
         "desert"
       ],
-      "path": "sh/沙漠.md"
+      "path": "pages/sh/沙漠.md"
     },
     "狩猎采集": {
       "type": "concept",
@@ -2135,7 +2140,7 @@
         "采集狩猎",
         "hunter-gatherer"
       ],
-      "path": "sh/狩猎采集.md"
+      "path": "pages/sh/狩猎采集.md"
     },
     "生态": {
       "type": "concept",
@@ -2146,7 +2151,7 @@
         "生态系统",
         "生态条件"
       ],
-      "path": "sh/生态.md"
+      "path": "pages/sh/生态.md"
     },
     "生态适应": {
       "type": "concept",
@@ -2156,7 +2161,7 @@
         "生态位适应",
         "气候适应"
       ],
-      "path": "sh/生态适应.md"
+      "path": "pages/sh/生态适应.md"
     },
     "石器时代": {
       "type": "concept",
@@ -2166,7 +2171,7 @@
         "新石器时代",
         "Stone Age"
       ],
-      "path": "sh/石器时代.md"
+      "path": "pages/sh/石器时代.md"
     },
     "社会复杂性": {
       "type": "concept",
@@ -2176,7 +2181,7 @@
         "社会层级",
         "social complexity"
       ],
-      "path": "sh/社会复杂性.md"
+      "path": "pages/sh/社会复杂性.md"
     },
     "社会组织": {
       "type": "concept",
@@ -2185,7 +2190,7 @@
         "社会结构",
         "社会形态"
       ],
-      "path": "sh/社会组织.md"
+      "path": "pages/sh/社会组织.md"
     },
     "鼠疫": {
       "type": "concept",
@@ -2193,7 +2198,7 @@
       "aliases": [
         "鼠疫杆菌"
       ],
-      "path": "sh/鼠疫.md"
+      "path": "pages/sh/鼠疫.md"
     },
     "taiwan": {
       "type": "place",
@@ -2201,7 +2206,7 @@
       "aliases": [
         "Taiwan"
       ],
-      "path": "ta/taiwan.md"
+      "path": "pages/ta/taiwan.md"
     },
     "探险": {
       "type": "concept",
@@ -2212,7 +2217,7 @@
         "地理发现",
         "航海探险"
       ],
-      "path": "ta/探险.md"
+      "path": "pages/ta/探险.md"
     },
     "陶器": {
       "type": "concept",
@@ -2222,7 +2227,7 @@
         "pottery",
         "制陶技术"
       ],
-      "path": "ta/陶器.md"
+      "path": "pages/ta/陶器.md"
     },
     "天花": {
       "type": "concept",
@@ -2231,7 +2236,7 @@
         "痘疮",
         "smallpox"
       ],
-      "path": "ti/天花.md"
+      "path": "pages/ti/天花.md"
     },
     "天花病毒": {
       "type": "species",
@@ -2240,7 +2245,7 @@
         "痘病毒",
         "Variola virus"
       ],
-      "path": "ti/天花病毒.md"
+      "path": "pages/ti/天花病毒.md"
     },
     "铁器": {
       "type": "concept",
@@ -2250,7 +2255,7 @@
         "铁器时代",
         "冶铁"
       ],
-      "path": "ti/铁器.md"
+      "path": "pages/ti/铁器.md"
     },
     "统一": {
       "type": "concept",
@@ -2260,7 +2265,7 @@
         "政治统一",
         "文化统一"
       ],
-      "path": "to/统一.md"
+      "path": "pages/to/统一.md"
     },
     "兔": {
       "type": "species",
@@ -2269,7 +2274,7 @@
         "rabbit",
         "家兔"
       ],
-      "path": "tu/兔.md"
+      "path": "pages/tu/兔.md"
     },
     "土地": {
       "type": "concept",
@@ -2279,7 +2284,7 @@
         "耕地",
         "土地所有权"
       ],
-      "path": "tu/土地.md"
+      "path": "pages/tu/土地.md"
     },
     "土壤": {
       "type": "concept",
@@ -2290,7 +2295,7 @@
         "土壤肥力",
         "地力"
       ],
-      "path": "tu/土壤.md"
+      "path": "pages/tu/土壤.md"
     },
     "突变": {
       "type": "concept",
@@ -2300,7 +2305,7 @@
         "遗传突变",
         "mutation"
       ],
-      "path": "tu/突变.md"
+      "path": "pages/tu/突变.md"
     },
     "豚鼠": {
       "type": "species",
@@ -2309,7 +2314,7 @@
         "guinea pig",
         "荷兰猪"
       ],
-      "path": "tu/豚鼠.md"
+      "path": "pages/tu/豚鼠.md"
     },
     "王国": {
       "type": "concept",
@@ -2319,7 +2324,7 @@
         "早期国家",
         "kingdom"
       ],
-      "path": "wa/王国.md"
+      "path": "pages/wa/王国.md"
     },
     "瓦特": {
       "type": "person",
@@ -2328,7 +2333,7 @@
         "James Watt",
         "瓦特"
       ],
-      "path": "wa/瓦特.md"
+      "path": "pages/wa/瓦特.md"
     },
     "豌豆": {
       "type": "species",
@@ -2338,7 +2343,7 @@
         "pea",
         "Pisum sativum"
       ],
-      "path": "wa/豌豆.md"
+      "path": "pages/wa/豌豆.md"
     },
     "文化": {
       "type": "concept",
@@ -2348,7 +2353,7 @@
         "文化因素",
         "文化差异"
       ],
-      "path": "we/文化.md"
+      "path": "pages/we/文化.md"
     },
     "文字": {
       "type": "concept",
@@ -2356,7 +2361,7 @@
       "aliases": [
         "书面语言"
       ],
-      "path": "we/文字.md"
+      "path": "pages/we/文字.md"
     },
     "文字的独立发明": {
       "type": "event",
@@ -2366,7 +2371,7 @@
         "苏美尔文字",
         "楔形文字发明"
       ],
-      "path": "we/文字的独立发明.md"
+      "path": "pages/we/文字的独立发明.md"
     },
     "温带": {
       "type": "concept",
@@ -2374,7 +2379,7 @@
       "aliases": [
         "温带地区"
       ],
-      "path": "we/温带.md"
+      "path": "pages/we/温带.md"
     },
     "纬度": {
       "type": "concept",
@@ -2384,7 +2389,7 @@
         "纬度与气候",
         "东西轴纬度"
       ],
-      "path": "we/纬度.md"
+      "path": "pages/we/纬度.md"
     },
     "无花果": {
       "type": "species",
@@ -2392,7 +2397,7 @@
       "aliases": [
         "fig"
       ],
-      "path": "wu/无花果.md"
+      "path": "pages/wu/无花果.md"
     },
     "xiaweiyi": {
       "type": "place",
@@ -2400,7 +2405,7 @@
       "aliases": [
         "Hawaii"
       ],
-      "path": "xi/xiaweiyi.md"
+      "path": "pages/xi/xiaweiyi.md"
     },
     "xibanya-zhengfu-aziteke": {
       "type": "event",
@@ -2408,7 +2413,7 @@
       "aliases": [
         "Spanish conquest of Aztec Empire"
       ],
-      "path": "xi/xibanya-zhengfu-aziteke.md"
+      "path": "pages/xi/xibanya-zhengfu-aziteke.md"
     },
     "xibanya-zhengfu-yinjia": {
       "type": "event",
@@ -2416,7 +2421,7 @@
       "aliases": [
         "Spanish conquest of Inca Empire"
       ],
-      "path": "xi/xibanya-zhengfu-yinjia.md"
+      "path": "pages/xi/xibanya-zhengfu-yinjia.md"
     },
     "xiboliya": {
       "type": "place",
@@ -2424,7 +2429,7 @@
       "aliases": [
         "Siberia"
       ],
-      "path": "xi/xiboliya.md"
+      "path": "pages/xi/xiboliya.md"
     },
     "ximalaya": {
       "type": "place",
@@ -2432,7 +2437,7 @@
       "aliases": [
         "Himalayas"
       ],
-      "path": "xi/ximalaya.md"
+      "path": "pages/xi/ximalaya.md"
     },
     "xinyuewodi": {
       "type": "place",
@@ -2440,7 +2445,7 @@
       "aliases": [
         "肥沃月弯"
       ],
-      "path": "xi/xinyuewodi.md"
+      "path": "pages/xi/xinyuewodi.md"
     },
     "xizang": {
       "type": "place",
@@ -2449,7 +2454,7 @@
         "Tibet",
         "青藏高原"
       ],
-      "path": "xi/xizang.md"
+      "path": "pages/xi/xizang.md"
     },
     "向日葵": {
       "type": "species",
@@ -2457,7 +2462,7 @@
       "aliases": [
         "sunflower"
       ],
-      "path": "xi/向日葵.md"
+      "path": "pages/xi/向日葵.md"
     },
     "小麦": {
       "type": "species",
@@ -2468,7 +2473,7 @@
         "wheat",
         "Triticum"
       ],
-      "path": "xi/小麦.md"
+      "path": "pages/xi/小麦.md"
     },
     "希特勒": {
       "type": "person",
@@ -2477,7 +2482,7 @@
         "Adolf Hitler",
         "希特勒"
       ],
-      "path": "xi/希特勒.md"
+      "path": "pages/xi/希特勒.md"
     },
     "新几内亚": {
       "type": "place",
@@ -2487,7 +2492,7 @@
         "Papua New Guinea",
         "Papua"
       ],
-      "path": "xi/新几内亚.md"
+      "path": "pages/xi/新几内亚.md"
     },
     "新月沃地": {
       "type": "concept",
@@ -2498,7 +2503,7 @@
         "近东",
         "Fertile Crescent"
       ],
-      "path": "xi/新月沃地.md"
+      "path": "pages/xi/新月沃地.md"
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -2507,7 +2512,7 @@
         "Fertile Crescent Agricultural Origins",
         "西南亚农业起源"
       ],
-      "path": "xi/新月沃地农业起源.md"
+      "path": "pages/xi/新月沃地农业起源.md"
     },
     "现代人": {
       "type": "concept",
@@ -2518,7 +2523,7 @@
         "智人",
         "大跃进"
       ],
-      "path": "xi/现代人.md"
+      "path": "pages/xi/现代人.md"
     },
     "行政": {
       "type": "concept",
@@ -2528,7 +2533,7 @@
         "官僚制",
         "中央行政"
       ],
-      "path": "xi/行政.md"
+      "path": "pages/xi/行政.md"
     },
     "锡": {
       "type": "concept",
@@ -2536,7 +2541,7 @@
       "aliases": [
         "锡金属"
       ],
-      "path": "xi/锡.md"
+      "path": "pages/xi/锡.md"
     },
     "香蕉": {
       "type": "species",
@@ -2546,7 +2551,7 @@
         "banana",
         "plantain"
       ],
-      "path": "xi/香蕉.md"
+      "path": "pages/xi/香蕉.md"
     },
     "驯化": {
       "type": "concept",
@@ -2556,7 +2561,7 @@
         "动物驯化",
         "domestication"
       ],
-      "path": "xu/驯化.md"
+      "path": "pages/xu/驯化.md"
     },
     "驯鹿": {
       "type": "species",
@@ -2565,7 +2570,7 @@
         "reindeer",
         "caribou"
       ],
-      "path": "xu/驯鹿.md"
+      "path": "pages/xu/驯鹿.md"
     },
     "亚历山大大帝": {
       "type": "person",
@@ -2574,7 +2579,7 @@
         "Alexander the Great",
         "亚历山大"
       ],
-      "path": "ya/亚历山大大帝.md"
+      "path": "pages/ya/亚历山大大帝.md"
     },
     "亚麻": {
       "type": "concept",
@@ -2583,7 +2588,7 @@
         "亚麻布",
         "flax"
       ],
-      "path": "ya/亚麻.md"
+      "path": "pages/ya/亚麻.md"
     },
     "演化": {
       "type": "concept",
@@ -2592,7 +2597,7 @@
         "生物演化",
         "进化"
       ],
-      "path": "ya/演化.md"
+      "path": "pages/ya/演化.md"
     },
     "羊驼": {
       "type": "species",
@@ -2601,7 +2606,7 @@
         "alpaca",
         "美洲羊驼"
       ],
-      "path": "ya/羊驼.md"
+      "path": "pages/ya/羊驼.md"
     },
     "鸭": {
       "type": "species",
@@ -2610,7 +2615,7 @@
         "duck",
         "家鸭"
       ],
-      "path": "ya/鸭.md"
+      "path": "pages/ya/鸭.md"
     },
     "冶金": {
       "type": "concept",
@@ -2622,7 +2627,7 @@
         "炼铁",
         "青铜冶炼"
       ],
-      "path": "ye/冶金.md"
+      "path": "pages/ye/冶金.md"
     },
     "椰子": {
       "type": "species",
@@ -2631,7 +2636,7 @@
         "椰子",
         "coconut"
       ],
-      "path": "ye/椰子.md"
+      "path": "pages/ye/椰子.md"
     },
     "耶利": {
       "type": "person",
@@ -2639,13 +2644,13 @@
       "aliases": [
         "Yali"
       ],
-      "path": "ye/耶利.md"
+      "path": "pages/ye/耶利.md"
     },
     "野生植物": {
       "type": "concept",
       "label": "野生植物",
       "aliases": [],
-      "path": "ye/野生植物.md"
+      "path": "pages/ye/野生植物.md"
     },
     "yindu": {
       "type": "place",
@@ -2654,7 +2659,7 @@
         "India",
         "印度次大陆"
       ],
-      "path": "yi/yindu.md"
+      "path": "pages/yi/yindu.md"
     },
     "yinduhe": {
       "type": "place",
@@ -2663,7 +2668,7 @@
         "Indus River",
         "印度河流域"
       ],
-      "path": "yi/yinduhe.md"
+      "path": "pages/yi/yinduhe.md"
     },
     "yindunixiya": {
       "type": "place",
@@ -2672,7 +2677,7 @@
         "Indonesia",
         "马来群岛"
       ],
-      "path": "yi/yindunixiya.md"
+      "path": "pages/yi/yindunixiya.md"
     },
     "一年生植物": {
       "type": "concept",
@@ -2681,13 +2686,16 @@
         "一年生作物",
         "年生植物"
       ],
-      "path": "yi/一年生植物.md"
+      "path": "pages/yi/一年生植物.md"
     },
     "印刷": {
       "type": "concept",
       "label": "印刷",
-      "aliases": [],
-      "path": "yi/印刷.md"
+      "aliases": [
+        "印刷术",
+        "活字印刷"
+      ],
+      "path": "pages/yi/印刷.md"
     },
     "印刷术": {
       "type": "concept",
@@ -2697,7 +2705,7 @@
         "活字印刷",
         "印刷机"
       ],
-      "path": "yi/印刷术.md"
+      "path": "pages/yi/印刷术.md"
     },
     "移民": {
       "type": "concept",
@@ -2707,7 +2715,7 @@
         "史前迁徙",
         "移民浪潮"
       ],
-      "path": "yi/移民.md"
+      "path": "pages/yi/移民.md"
     },
     "罂粟": {
       "type": "species",
@@ -2716,7 +2724,7 @@
         "poppy",
         "鸦片罂粟"
       ],
-      "path": "yi/罂粟.md"
+      "path": "pages/yi/罂粟.md"
     },
     "遗传": {
       "type": "concept",
@@ -2726,7 +2734,7 @@
         "基因",
         "遗传差异"
       ],
-      "path": "yi/遗传.md"
+      "path": "pages/yi/遗传.md"
     },
     "鹰嘴豆": {
       "type": "species",
@@ -2735,7 +2743,7 @@
         "chickpea",
         "埃及豆"
       ],
-      "path": "yi/鹰嘴豆.md"
+      "path": "pages/yi/鹰嘴豆.md"
     },
     "游牧": {
       "type": "concept",
@@ -2745,7 +2753,7 @@
         "游牧族群",
         "游牧民族"
       ],
-      "path": "yo/游牧.md"
+      "path": "pages/yo/游牧.md"
     },
     "玉米": {
       "type": "species",
@@ -2757,7 +2765,7 @@
         "corn",
         "Zea mays"
       ],
-      "path": "yu/玉米.md"
+      "path": "pages/yu/玉米.md"
     },
     "芋艿": {
       "type": "species",
@@ -2767,7 +2775,7 @@
         "芋",
         "taro"
       ],
-      "path": "yu/芋艿.md"
+      "path": "pages/yu/芋艿.md"
     },
     "语系": {
       "type": "concept",
@@ -2776,7 +2784,7 @@
         "语言家族",
         "语族"
       ],
-      "path": "yu/语系.md"
+      "path": "pages/yu/语系.md"
     },
     "语言": {
       "type": "concept",
@@ -2784,7 +2792,7 @@
       "aliases": [
         "语言多样性"
       ],
-      "path": "yu/语言.md"
+      "path": "pages/yu/语言.md"
     },
     "语言传播": {
       "type": "concept",
@@ -2794,7 +2802,7 @@
         "语言扩张",
         "language spread"
       ],
-      "path": "yu/语言传播.md"
+      "path": "pages/yu/语言传播.md"
     },
     "语言学": {
       "type": "concept",
@@ -2804,7 +2812,7 @@
         "历史语言学",
         "语言分类"
       ],
-      "path": "yu/语言学.md"
+      "path": "pages/yu/语言学.md"
     },
     "运输": {
       "type": "concept",
@@ -2813,7 +2821,7 @@
         "交通运输",
         "物资运输"
       ],
-      "path": "yu/运输.md"
+      "path": "pages/yu/运输.md"
     },
     "雨林": {
       "type": "concept",
@@ -2822,7 +2830,7 @@
         "热带雨林",
         "赤道雨林"
       ],
-      "path": "yu/雨林.md"
+      "path": "pages/yu/雨林.md"
     },
     "再分配": {
       "type": "concept",
@@ -2832,7 +2840,7 @@
         "贡品再分配",
         "财富再分配"
       ],
-      "path": "za/再分配.md"
+      "path": "pages/za/再分配.md"
     },
     "zhili": {
       "type": "place",
@@ -2840,7 +2848,7 @@
       "aliases": [
         "Chile"
       ],
-      "path": "zh/zhili.md"
+      "path": "pages/zh/zhili.md"
     },
     "专业化分工": {
       "type": "concept",
@@ -2850,7 +2858,7 @@
         "分工",
         "专业手艺人"
       ],
-      "path": "zh/专业化分工.md"
+      "path": "pages/zh/专业化分工.md"
     },
     "中国": {
       "type": "place",
@@ -2860,7 +2868,7 @@
         "华夏",
         "中原"
       ],
-      "path": "zh/中国.md"
+      "path": "pages/zh/中国.md"
     },
     "中国农业起源": {
       "type": "event",
@@ -2869,7 +2877,7 @@
         "Chinese Agricultural Origins",
         "中国粮食生产起源"
       ],
-      "path": "zh/中国农业起源.md"
+      "path": "pages/zh/中国农业起源.md"
     },
     "中央集权": {
       "type": "concept",
@@ -2878,7 +2886,7 @@
         "集权",
         "统一"
       ],
-      "path": "zh/中央集权.md"
+      "path": "pages/zh/中央集权.md"
     },
     "中美洲": {
       "type": "place",
@@ -2887,7 +2895,7 @@
         "Mesoamerica",
         "美索美洲"
       ],
-      "path": "zh/中美洲.md"
+      "path": "pages/zh/中美洲.md"
     },
     "征服者": {
       "type": "concept",
@@ -2896,7 +2904,7 @@
         "conquistador",
         "军事征服者"
       ],
-      "path": "zh/征服者.md"
+      "path": "pages/zh/征服者.md"
     },
     "战争": {
       "type": "concept",
@@ -2906,7 +2914,7 @@
         "武装冲突",
         "warfare"
       ],
-      "path": "zh/战争.md"
+      "path": "pages/zh/战争.md"
     },
     "政治竞争": {
       "type": "concept",
@@ -2916,7 +2924,7 @@
         "竞争性国家体系",
         "分裂促竞争"
       ],
-      "path": "zh/政治竞争.md"
+      "path": "pages/zh/政治竞争.md"
     },
     "政治组织": {
       "type": "concept",
@@ -2926,7 +2934,7 @@
         "political organization",
         "社会组织"
       ],
-      "path": "zh/政治组织.md"
+      "path": "pages/zh/政治组织.md"
     },
     "植物": {
       "type": "concept",
@@ -2936,7 +2944,7 @@
         "植物物种",
         "植物多样性"
       ],
-      "path": "zh/植物.md"
+      "path": "pages/zh/植物.md"
     },
     "植物学": {
       "type": "concept",
@@ -2946,7 +2954,7 @@
         "植物科学",
         "作物植物学"
       ],
-      "path": "zh/植物学.md"
+      "path": "pages/zh/植物学.md"
     },
     "殖民": {
       "type": "concept",
@@ -2955,7 +2963,7 @@
         "殖民扩张",
         "殖民主义"
       ],
-      "path": "zh/殖民.md"
+      "path": "pages/zh/殖民.md"
     },
     "殖民主义": {
       "type": "concept",
@@ -2966,7 +2974,7 @@
         "殖民扩张",
         "殖民地"
       ],
-      "path": "zh/殖民主义.md"
+      "path": "pages/zh/殖民主义.md"
     },
     "猪": {
       "type": "species",
@@ -2977,7 +2985,7 @@
         "pig",
         "Sus scrofa domesticus"
       ],
-      "path": "zh/猪.md"
+      "path": "pages/zh/猪.md"
     },
     "珍珠鸡": {
       "type": "species",
@@ -2985,7 +2993,7 @@
       "aliases": [
         "guinea fowl"
       ],
-      "path": "zh/珍珠鸡.md"
+      "path": "pages/zh/珍珠鸡.md"
     },
     "知识": {
       "type": "concept",
@@ -2993,7 +3001,7 @@
       "aliases": [
         "知识体系"
       ],
-      "path": "zh/知识.md"
+      "path": "pages/zh/知识.md"
     },
     "种族主义": {
       "type": "concept",
@@ -3004,7 +3012,7 @@
         "种族优越论",
         "智力差异"
       ],
-      "path": "zh/种族主义.md"
+      "path": "pages/zh/种族主义.md"
     },
     "字母": {
       "type": "concept",
@@ -3014,7 +3022,7 @@
         "表音文字",
         "alphabet"
       ],
-      "path": "zi/字母.md"
+      "path": "pages/zi/字母.md"
     },
     "字母文字的传播": {
       "type": "event",
@@ -3024,7 +3032,7 @@
         "字母传播",
         "腓尼基字母传播"
       ],
-      "path": "zi/字母文字的传播.md"
+      "path": "pages/zi/字母文字的传播.md"
     },
     "自然选择": {
       "type": "concept",
@@ -3034,7 +3042,7 @@
         "物种选择",
         "进化选择"
       ],
-      "path": "zi/自然选择.md"
+      "path": "pages/zi/自然选择.md"
     },
     "资源": {
       "type": "concept",
@@ -3045,7 +3053,7 @@
         "环境资源",
         "矿产资源"
       ],
-      "path": "zi/资源.md"
+      "path": "pages/zi/资源.md"
     },
     "宗教": {
       "type": "concept",
@@ -3056,7 +3064,7 @@
         "意识形态",
         "神权"
       ],
-      "path": "zo/宗教.md"
+      "path": "pages/zo/宗教.md"
     },
     "作物": {
       "type": "concept",
@@ -3066,7 +3074,7 @@
         "驯化植物",
         "栽培植物"
       ],
-      "path": "zu/作物.md"
+      "path": "pages/zu/作物.md"
     },
     "作物传播": {
       "type": "concept",
@@ -3076,10 +3084,11 @@
         "粮食生产传播",
         "农业传播"
       ],
-      "path": "zu/作物传播.md"
+      "path": "pages/zu/作物传播.md"
     }
   },
   "alias_index": {
+    "PN_AUDIT_REPORT": "PN_AUDIT_REPORT",
     "About": "About",
     "关于本 Wiki": "About",
     "关于": "About",
@@ -3359,7 +3368,6 @@
     "狗": "狗",
     "家犬": "狗",
     "犬": "狗",
-    "dog": "狗",
     "国家": "国家",
     "国家社会": "国家",
     "国家形成": "国家",
@@ -3415,8 +3423,8 @@
     "火药武器": "火器",
     "枪械": "火器",
     "火药": "火药",
-    "黑色火药": "火药",
     "黑火药": "火药",
+    "黑色火药": "火药",
     "炸药": "火药",
     "火鸡": "火鸡",
     "turkey": "火鸡",
@@ -4063,9 +4071,9 @@
     "一年生作物": "一年生植物",
     "年生植物": "一年生植物",
     "印刷": "印刷",
-    "印刷术": "印刷术",
+    "印刷术": "印刷",
+    "活字印刷": "印刷",
     "printing": "印刷术",
-    "活字印刷": "印刷术",
     "印刷机": "印刷术",
     "移民": "移民",
     "人口迁徙": "移民",
@@ -4206,6 +4214,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 335,
-  "generated": "2026-05-26T01:18:14Z"
+  "page_count": 336,
+  "generated": "2026-05-26T01:21:43Z"
 }

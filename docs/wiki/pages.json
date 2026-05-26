@@ -1,6 +1,20 @@
 {
   "_schema_version": 2,
   "pages": {
+    "PN_AUDIT_REPORT": {
+      "type": "unknown",
+      "label": "PN_AUDIT_REPORT",
+      "aliases": [],
+      "tags": [],
+      "path": "PN_AUDIT_REPORT.md",
+      "prose_len": 3282,
+      "prose_chars": 401,
+      "h2_count": 6,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "About": {
       "type": "overview",
       "label": "关于本 Wiki",
@@ -9,7 +23,7 @@
         "About"
       ],
       "tags": [],
-      "path": "ab/About.md",
+      "path": "pages/ab/About.md",
       "description": "枪炮、病菌与钢铁 Wiki——围绕贾雷德·戴蒙德著作构建的知识库",
       "prose_len": 803,
       "prose_chars": 532,
@@ -32,7 +46,7 @@
         "农业",
         "文明"
       ],
-      "path": "ai/aisaobiya.md",
+      "path": "pages/ai/aisaobiya.md",
       "description": "东非高原国家，独立农业起源地，新月沃地作物传播的最南端",
       "prose_len": 851,
       "prose_chars": 797,
@@ -54,7 +68,7 @@
       "tags": [
         "科学家"
       ],
-      "path": "ai/爱迪生.md",
+      "path": "pages/ai/爱迪生.md",
       "description": "美国发明家，以发明留声机（1877年）和白炽灯泡（1879年）著称；戴蒙德以爱迪生为例论证技术发明并非凭空创造，而是对已有发明的渐进改进，同时指出发明者往往无法预见其发明的最终主要用途。",
       "prose_len": 680,
       "prose_chars": 644,
@@ -78,7 +92,7 @@
         "帝国",
         "路线"
       ],
-      "path": "al/alabobandao.md",
+      "path": "pages/al/alabobandao.md",
       "description": "西亚的沙漠半岛，单峰驼的驯化地，文字传播的中转站",
       "prose_len": 782,
       "prose_chars": 726,
@@ -101,7 +115,7 @@
         "地区",
         "文明"
       ],
-      "path": "an/annatuoliya.md",
+      "path": "pages/an/annatuoliya.md",
       "description": "土耳其的亚洲部分，早期农业驯化的关键地区，印欧语系起源地之一",
       "prose_len": 751,
       "prose_chars": 697,
@@ -125,7 +139,7 @@
         "农业",
         "演化"
       ],
-      "path": "an/安娜-卡列尼娜原则.md",
+      "path": "pages/an/安娜-卡列尼娜原则.md",
       "description": "戴蒙德借用托尔斯泰小说首句提出的方法论原则：动物驯化须同时满足多项条件，任一条件的失败即导致驯化失败。",
       "prose_len": 964,
       "prose_chars": 857,
@@ -150,7 +164,7 @@
         "农业起源",
         "南美洲"
       ],
-      "path": "an/安第斯山脉.md",
+      "path": "pages/an/安第斯山脉.md",
       "description": "南美洲独立农业起源中心，约公元前3500年驯化马铃薯和木薯，并拥有美洲仅有的大型驮畜美洲驼；其农业体系因被热带低地阻断而无法向北传播至中美洲，是大陆南北轴线限制农业传播的关键案例。",
       "prose_len": 1114,
       "prose_chars": 1046,
@@ -175,7 +189,7 @@
         "狩猎采集",
         "大洋洲"
       ],
-      "path": "ao/澳大利亚.md",
+      "path": "pages/ao/澳大利亚.md",
       "description": "第十五章的核心地理案例，世界上最孤立的大陆，其土著社会在欧洲人到来前始终保持狩猎采集状态，根因是极度贫乏的可驯化野生动植物资源，而非人种劣势。",
       "prose_len": 1072,
       "prose_chars": 1005,
@@ -198,7 +212,7 @@
         "统治者",
         "原住民"
       ],
-      "path": "at/阿塔瓦尔帕.md",
+      "path": "pages/at/阿塔瓦尔帕.md",
       "description": "印加帝国末代皇帝，1532年11月16日在卡哈马卡被西班牙征服者皮萨罗俘获，此事件成为全书\"为什么欧亚人征服了美洲土著\"这一核心问题的具体起点。",
       "prose_len": 700,
       "prose_chars": 664,
@@ -222,7 +236,7 @@
         "地区",
         "路线"
       ],
-      "path": "ba/baergan.md",
+      "path": "pages/ba/baergan.md",
       "description": "欧洲东南部的半岛，新月沃地农业传播进入欧洲的重要门户",
       "prose_len": 745,
       "prose_chars": 691,
@@ -243,7 +257,7 @@
       "tags": [
         "学者"
       ],
-      "path": "ba/bailatu.md",
+      "path": "pages/ba/bailatu.md",
       "description": "古希腊哲学家，戴蒙德在讨论政治理论时引用其思想",
       "prose_len": 539,
       "prose_chars": 497,
@@ -265,7 +279,7 @@
       "tags": [
         "地理"
       ],
-      "path": "ba/半岛.md",
+      "path": "pages/ba/半岛.md",
       "description": "三面环水、一面连接大陆的陆地，其地理位置在粮食生产传播和文明交流中起重要桥梁作用",
       "prose_len": 963,
       "prose_chars": 904,
@@ -289,7 +303,7 @@
         "动物",
         "野生"
       ],
-      "path": "ba/斑马.md",
+      "path": "pages/ba/斑马.md",
       "description": "分布于撒哈拉以南非洲的马科动物，尽管与马同属马科，却因攻击性强、难以套索等行为特征而无法被驯化，是安娜·卡列尼娜原则最典型的反例，也是解释非洲文明发展劣势的重要物种证据。",
       "prose_len": 1042,
       "prose_chars": 979,
@@ -313,7 +327,7 @@
         "非洲",
         "农业传播"
       ],
-      "path": "ba/班图扩张.md",
+      "path": "pages/ba/班图扩张.md",
       "description": "公元前3000年至公元1000年，以尼日利亚和喀麦隆为起点的班图语族人口向南、向东大规模扩张，携带粮食生产和牲畜，在整个撒哈拉以南非洲取代或同化了原有的狩猎采集族群；这是本书论证南北轴线阻碍农业传播这一论点的反例，班图扩张沿东西气候带进行，因此得以成功。",
       "prose_len": 656,
       "prose_chars": 618,
@@ -335,7 +349,7 @@
         "大陆",
         "地理"
       ],
-      "path": "be/beimeizhou.md",
+      "path": "pages/be/beimeizhou.md",
       "description": "美洲大陆的北半部分，人类史前史最短的大陆之一，轴线南北走向",
       "prose_len": 821,
       "prose_chars": 766,
@@ -360,7 +374,7 @@
         "农作物",
         "驯化种"
       ],
-      "path": "bi/兵豆.md",
+      "path": "pages/bi/兵豆.md",
       "description": "新月沃地最早驯化的豆类之一，与小麦和大麦构成谷物加豆类的经典农业组合",
       "prose_len": 569,
       "prose_chars": 510,
@@ -384,7 +398,7 @@
         "生物学",
         "演化"
       ],
-      "path": "bi/病原体.md",
+      "path": "pages/bi/病原体.md",
       "description": "能引发疾病的微生物统称，在枪炮病菌与钢铁中是新旧大陆历史分岔的关键非人类行为者",
       "prose_len": 809,
       "prose_chars": 715,
@@ -408,7 +422,7 @@
         "生物",
         "农业"
       ],
-      "path": "bi/病菌.md",
+      "path": "pages/bi/病菌.md",
       "description": "戴蒙德在《枪炮、病菌与钢铁》中用\"病菌\"指代人类传染性疾病，其历史性力量来源于驯化家畜时获得的病原体，是欧洲人征服美洲最重要的武器之一。",
       "prose_len": 826,
       "prose_chars": 719,
@@ -432,7 +446,7 @@
       "tags": [
         "探险家"
       ],
-      "path": "bo/伯克和威尔斯.md",
+      "path": "pages/bo/伯克和威尔斯.md",
       "description": "第一支从南到北纵贯澳大利亚的探险队的领导者，最终在沙漠中饿死；戴蒙德以此为例论证，欧洲人的技术优势（枪支）在面对澳大利亚本土环境时无济于事，土著人的本地知识才是真正的生存技能，这是对\"文明优势\"神话的有力反驳。",
       "prose_len": 596,
       "prose_chars": 562,
@@ -459,7 +473,7 @@
         "历史",
         "农业"
       ],
-      "path": "bo/波利尼西亚.md",
+      "path": "pages/bo/波利尼西亚.md",
       "description": "太平洋中部和东部的岛群总称，是南岛语族从台湾出发历时约3500年完成的最远扩张终点；不同波利尼西亚岛屿因地理和资源差异而发展出从狩猎采集到国家的各种社会复杂程度，是\"地理决定社会形态\"的自然实验。",
       "prose_len": 964,
       "prose_chars": 897,
@@ -484,7 +498,7 @@
         "技术积累",
         "科学仪器"
       ],
-      "path": "bo/玻璃.md",
+      "path": "pages/bo/玻璃.md",
       "description": "由沙子和石灰岩等硅酸盐材料高温熔制而成的非晶态固体，是技术积累和传播的典型案例",
       "prose_len": 982,
       "prose_chars": 920,
@@ -494,7 +508,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 1
+      "total_refs": 0
     },
     "部族": {
       "type": "concept",
@@ -507,7 +521,7 @@
         "政治结构",
         "史前社会"
       ],
-      "path": "bu/部族.md",
+      "path": "pages/bu/部族.md",
       "description": "介于族群与酋长制之间的社会政治组织形式，以村落为基本政治单元",
       "prose_len": 758,
       "prose_chars": 683,
@@ -533,7 +547,7 @@
         "人类学",
         "平等主义"
       ],
-      "path": "bu/部落.md",
+      "path": "pages/bu/部落.md",
       "description": "以亲属关系为纽带、规模数百至数千人的平等主义社会组织形式——介于族群与酋长管辖地之间",
       "prose_len": 1031,
       "prose_chars": 967,
@@ -558,7 +572,7 @@
         "生态",
         "驯化"
       ],
-      "path": "ca/草原.md",
+      "path": "pages/ca/草原.md",
       "description": "温带半干旱草本植被带，是马等大型草食动物的栖息地，也是欧亚大陆游牧帝国兴起的地理基础",
       "prose_len": 792,
       "prose_chars": 697,
@@ -582,7 +596,7 @@
         "动物",
         "驯化种"
       ],
-      "path": "ca/蚕.md",
+      "path": "pages/ca/蚕.md",
       "description": "中国驯化的昆虫，其吐丝结茧产生的蚕丝是重要的纺织原料",
       "prose_len": 320,
       "prose_chars": 277,
@@ -601,7 +615,7 @@
       "tags": [
         "chapter"
       ],
-      "path": "ch/ch01-up-to-the-starting-line.md",
+      "path": "pages/ch/ch01-up-to-the-starting-line.md",
       "prose_len": 15006,
       "prose_chars": 14751,
       "h2_count": 1,
@@ -619,7 +633,7 @@
       "tags": [
         "chapter"
       ],
-      "path": "ch/ch02-natural-experiment-of-history.md",
+      "path": "pages/ch/ch02-natural-experiment-of-history.md",
       "prose_len": 11649,
       "prose_chars": 11448,
       "h2_count": 1,
@@ -637,7 +651,7 @@
       "tags": [
         "chapter"
       ],
-      "path": "ch/ch03-collision-at-cajamarca.md",
+      "path": "pages/ch/ch03-collision-at-cajamarca.md",
       "prose_len": 12484,
       "prose_chars": 12336,
       "h2_count": 1,
@@ -655,7 +669,7 @@
       "tags": [
         "chapter"
       ],
-      "path": "ch/ch04-farmer-power.md",
+      "path": "pages/ch/ch04-farmer-power.md",
       "prose_len": 5797,
       "prose_chars": 5660,
       "h2_count": 1,
@@ -673,7 +687,7 @@
       "tags": [
         "chapter"
       ],
-      "path": "ch/ch05-historys-haves-and-have-nots.md",
+      "path": "pages/ch/ch05-historys-haves-and-have-nots.md",
       "prose_len": 8861,
       "prose_chars": 8113,
       "h2_count": 1,
@@ -691,7 +705,7 @@
       "tags": [
         "chapter"
       ],
-      "path": "ch/ch06-to-farm-or-not-to-farm.md",
+      "path": "pages/ch/ch06-to-farm-or-not-to-farm.md",
       "prose_len": 7598,
       "prose_chars": 7454,
       "h2_count": 1,
@@ -709,7 +723,7 @@
       "tags": [
         "chapter"
       ],
-      "path": "ch/ch07-how-to-make-an-almond.md",
+      "path": "pages/ch/ch07-how-to-make-an-almond.md",
       "prose_len": 13723,
       "prose_chars": 12840,
       "h2_count": 1,
@@ -727,7 +741,7 @@
       "tags": [
         "chapter"
       ],
-      "path": "ch/ch08-apples-or-indians.md",
+      "path": "pages/ch/ch08-apples-or-indians.md",
       "prose_len": 21290,
       "prose_chars": 20754,
       "h2_count": 1,
@@ -745,7 +759,7 @@
       "tags": [
         "chapter"
       ],
-      "path": "ch/ch09-zebras-unhappy-marriages-anna-karenina.md",
+      "path": "pages/ch/ch09-zebras-unhappy-marriages-anna-karenina.md",
       "prose_len": 15259,
       "prose_chars": 14442,
       "h2_count": 1,
@@ -763,7 +777,7 @@
       "tags": [
         "chapter"
       ],
-      "path": "ch/ch10-spacious-skies-tilted-axis.md",
+      "path": "pages/ch/ch10-spacious-skies-tilted-axis.md",
       "prose_len": 12293,
       "prose_chars": 11903,
       "h2_count": 1,
@@ -781,7 +795,7 @@
       "tags": [
         "chapter"
       ],
-      "path": "ch/ch11-lethal-gift-of-livestock.md",
+      "path": "pages/ch/ch11-lethal-gift-of-livestock.md",
       "prose_len": 17039,
       "prose_chars": 16683,
       "h2_count": 1,
@@ -799,7 +813,7 @@
       "tags": [
         "chapter"
       ],
-      "path": "ch/ch12-blueprints-borrowed-letters.md",
+      "path": "pages/ch/ch12-blueprints-borrowed-letters.md",
       "prose_len": 17941,
       "prose_chars": 17447,
       "h2_count": 1,
@@ -817,7 +831,7 @@
       "tags": [
         "chapter"
       ],
-      "path": "ch/ch13-necessitys-mother.md",
+      "path": "pages/ch/ch13-necessitys-mother.md",
       "prose_len": 21934,
       "prose_chars": 21331,
       "h2_count": 1,
@@ -835,7 +849,7 @@
       "tags": [
         "chapter"
       ],
-      "path": "ch/ch14-from-egalitarianism-to-kleptocracy.md",
+      "path": "pages/ch/ch14-from-egalitarianism-to-kleptocracy.md",
       "prose_len": 24140,
       "prose_chars": 23158,
       "h2_count": 1,
@@ -853,7 +867,7 @@
       "tags": [
         "chapter"
       ],
-      "path": "ch/ch15-yalis-people.md",
+      "path": "pages/ch/ch15-yalis-people.md",
       "prose_len": 21852,
       "prose_chars": 21579,
       "h2_count": 1,
@@ -871,7 +885,7 @@
       "tags": [
         "chapter"
       ],
-      "path": "ch/ch16-how-china-became-chinese.md",
+      "path": "pages/ch/ch16-how-china-became-chinese.md",
       "prose_len": 8657,
       "prose_chars": 8441,
       "h2_count": 1,
@@ -889,7 +903,7 @@
       "tags": [
         "chapter"
       ],
-      "path": "ch/ch17-speedboat-to-polynesia.md",
+      "path": "pages/ch/ch17-speedboat-to-polynesia.md",
       "prose_len": 16776,
       "prose_chars": 16512,
       "h2_count": 1,
@@ -907,7 +921,7 @@
       "tags": [
         "chapter"
       ],
-      "path": "ch/ch18-collision-of-two-hemispheres.md",
+      "path": "pages/ch/ch18-collision-of-two-hemispheres.md",
       "prose_len": 17807,
       "prose_chars": 16027,
       "h2_count": 1,
@@ -925,7 +939,7 @@
       "tags": [
         "chapter"
       ],
-      "path": "ch/ch19-how-africa-became-black.md",
+      "path": "pages/ch/ch19-how-africa-became-black.md",
       "prose_len": 19693,
       "prose_chars": 19293,
       "h2_count": 1,
@@ -948,7 +962,7 @@
         "文明",
         "语言"
       ],
-      "path": "ch/chaoxian.md",
+      "path": "pages/ch/chaoxian.md",
       "description": "东亚的半岛国家，接受中国农业和文字传播的中间站",
       "prose_len": 694,
       "prose_chars": 640,
@@ -973,7 +987,7 @@
         "殖民扩张",
         "文化接触"
       ],
-      "path": "ch/传教.md",
+      "path": "pages/ch/传教.md",
       "description": "有组织地向异教地区传播特定宗教信仰的活动，在历史上与政治征服和文化同化密切交织",
       "prose_len": 852,
       "prose_chars": 776,
@@ -998,7 +1012,7 @@
         "征服",
         "人口崩溃"
       ],
-      "path": "ch/传染病.md",
+      "path": "pages/ch/传染病.md",
       "description": "在《枪炮、病菌与钢铁》中，传染病是「病菌」概念的应用层——欧洲人携带的天花、麻疹等流行病杀死了比战场上更多的印第安人，是欧洲征服新大陆最关键的隐形武器。",
       "prose_len": 1093,
       "prose_chars": 969,
@@ -1022,7 +1036,7 @@
         "发明",
         "社会因素"
       ],
-      "path": "ch/创新.md",
+      "path": "pages/ch/创新.md",
       "description": "技术与知识的创造性更新，受经济激励、意识形态和社会组织因素的综合驱动",
       "prose_len": 913,
       "prose_chars": 826,
@@ -1048,7 +1062,7 @@
         "国家",
         "传染病"
       ],
-      "path": "ch/城市.md",
+      "path": "pages/ch/城市.md",
       "description": "在《枪炮、病菌与钢铁》中，城市是国家社会的物质标志，它集中了不从事粮食生产的专业人口，催生了文字、税收和行政管理，同时也为传染病的演化和爆发提供了人口密集的温床。",
       "prose_len": 1067,
       "prose_chars": 838,
@@ -1073,7 +1087,7 @@
         "航海",
         "征服"
       ],
-      "path": "ch/船只.md",
+      "path": "pages/ch/船只.md",
       "description": "水上运输工具，是航海能力的物质载体，使人类得以跨越海洋进行贸易、传播和征服",
       "prose_len": 748,
       "prose_chars": 662,
@@ -1098,7 +1112,7 @@
         "社会复杂化",
         "农业"
       ],
-      "path": "cu/村落.md",
+      "path": "pages/cu/村落.md",
       "description": "固定居住的基本定居单元，是粮食生产社会的典型聚落形式，也是从族群向酋长制过渡的关键中间状态",
       "prose_len": 787,
       "prose_chars": 697,
@@ -1120,16 +1134,16 @@
       "tags": [
         "探险家"
       ],
-      "path": "da/dagama.md",
+      "path": "pages/da/dagama.md",
       "description": "葡萄牙航海家，开辟绕过非洲好望角通往印度的航线，开启欧洲殖民亚洲时代",
-      "prose_len": 617,
-      "prose_chars": 575,
-      "h2_count": 4,
-      "pn_count": 2,
+      "prose_len": 914,
+      "prose_chars": 850,
+      "h2_count": 5,
+      "pn_count": 4,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 59,
       "affiliation": "葡萄牙",
       "total_refs": 0
     },
@@ -1145,7 +1159,7 @@
         "作者",
         "科学家"
       ],
-      "path": "da/daimengde.md",
+      "path": "pages/da/daimengde.md",
       "description": "《枪炮、病菌与钢铁》作者，演化生物学家和生理学家",
       "prose_len": 617,
       "prose_chars": 575,
@@ -1170,7 +1184,7 @@
         "农作物",
         "驯化种"
       ],
-      "path": "da/大豆.md",
+      "path": "pages/da/大豆.md",
       "description": "中国驯化的豆科作物，富含蛋白质，与稻米和小米共同构成中国农业体系的基础",
       "prose_len": 495,
       "prose_chars": 437,
@@ -1193,7 +1207,7 @@
         "地理",
         "历史"
       ],
-      "path": "da/大陆.md",
+      "path": "pages/da/大陆.md",
       "description": "地球上面积广大的连续陆地板块，其形状、轴线方向和生态条件是决定人类社会发展轨迹的关键地理因素",
       "prose_len": 1031,
       "prose_chars": 970,
@@ -1218,7 +1232,7 @@
         "地理",
         "农业"
       ],
-      "path": "da/大陆轴线.md",
+      "path": "pages/da/大陆轴线.md",
       "description": "各大陆在地球上的主要延伸方向，欧亚大陆以东西向为主，美洲与非洲以南北向为主，这一差异深刻影响了粮食生产与技术的传播速度。",
       "prose_len": 910,
       "prose_chars": 803,
@@ -1243,7 +1257,7 @@
         "农作物",
         "驯化种"
       ],
-      "path": "da/大麦.md",
+      "path": "pages/da/大麦.md",
       "description": "新月沃地\"八大始祖作物\"之一，约公元前8500年在新月沃地驯化，是世界最早驯化的谷物之一，其野生祖先在野生状态下产量最高，是粮食生产体系的重要基础。",
       "prose_len": 1114,
       "prose_chars": 1051,
@@ -1267,7 +1281,7 @@
         "农作物",
         "驯化种"
       ],
-      "path": "da/大麻.md",
+      "path": "pages/da/大麻.md",
       "description": "古老的纤维作物，与亚麻和棉花并列为重要的天然纤维来源",
       "prose_len": 260,
       "prose_chars": 227,
@@ -1291,7 +1305,7 @@
         "生物",
         "演化"
       ],
-      "path": "da/岛屿.md",
+      "path": "pages/da/岛屿.md",
       "description": "四面环水的陆地，其孤立性创造了天然的演化实验环境，用于研究人类社会因环境差异而产生的辐射性演化",
       "prose_len": 1082,
       "prose_chars": 1022,
@@ -1314,7 +1328,7 @@
         "科学家",
         "学者"
       ],
-      "path": "da/达尔文.md",
+      "path": "pages/da/达尔文.md",
       "description": "英国博物学家，自然选择理论的提出者；戴蒙德援引达尔文对无意识人工选择的分析，为理解早期植物驯化提供理论框架",
       "prose_len": 830,
       "prose_chars": 791,
@@ -1340,7 +1354,7 @@
         "农业起源",
         "气候带"
       ],
-      "path": "di/地中海地区.md",
+      "path": "pages/di/地中海地区.md",
       "description": "欧亚大陆西部最大的地中海气候带，以冬湿夏干的季节性气候孕育了世界上最丰富的一年生禾本科植物，是新月沃地农业起源的关键自然背景；全球共有5个地中海气候区，但其余4个（加利福尼亚、智利、澳大利亚西南部、南非）均未独立发展出农业。",
       "prose_len": 870,
       "prose_chars": 811,
@@ -1364,7 +1378,7 @@
         "历史",
         "社会组织"
       ],
-      "path": "di/地理决定论.md",
+      "path": "pages/di/地理决定论.md",
       "description": "一种认为地理和环境因素决定人类社会命运的历史观念；戴蒙德在明确区分\"地理因素有重要影响\"与\"人类创造性无价值\"的前提下，提出了一个修正版的地理论证。",
       "prose_len": 980,
       "prose_chars": 869,
@@ -1389,7 +1403,7 @@
         "近端原因与终极原因",
         "大陆轴线"
       ],
-      "path": "di/地理因素.md",
+      "path": "pages/di/地理因素.md",
       "description": "在《枪炮、病菌与钢铁》中，地理因素是解释文明发展差距的终极原因——不同大陆的地理条件决定了哪些地区能最早发展农业、积累驯化物种和技术，进而决定了文明的相对优势。",
       "prose_len": 1059,
       "prose_chars": 807,
@@ -1414,7 +1428,7 @@
         "农业",
         "社会组织"
       ],
-      "path": "di/定居.md",
+      "path": "pages/di/定居.md",
       "description": "从游牧狩猎采集转向固定居所的生活方式——粮食储存和社会复杂化的前提",
       "prose_len": 889,
       "prose_chars": 826,
@@ -1440,7 +1454,7 @@
         "征服",
         "扩张"
       ],
-      "path": "di/帝国.md",
+      "path": "pages/di/帝国.md",
       "description": "由多个国家通过征服或兼并形成的最大规模政治单元，通常跨越不同族裔和语言群体；在《枪炮、病菌与钢铁》中是分析欧洲征服优势链条的重要环节。",
       "prose_len": 1262,
       "prose_chars": 1058,
@@ -1464,7 +1478,7 @@
         "征服",
         "政治组织"
       ],
-      "path": "di/抵抗.md",
+      "path": "pages/di/抵抗.md",
       "description": "被征服民族对外来侵略的有组织或无组织的反击，其有效性取决于技术、疾病与组织优势的对比",
       "prose_len": 686,
       "prose_chars": 590,
@@ -1488,7 +1502,7 @@
         "农业传播",
         "语言扩张"
       ],
-      "path": "do/东南亚.md",
+      "path": "pages/do/东南亚.md",
       "description": "欧亚大陆东西轴线农业传播的东端接收区，同时是华南亚热带作物套件向南扩张的目标地带；字母文字通过波斯帝国的阿拉姆语路线传入，农业物种通过中国向南扩散，使东南亚成为欧亚大陆农业扩散的典型受益地区。",
       "prose_len": 611,
       "prose_chars": 563,
@@ -1513,7 +1527,7 @@
         "动物驯化",
         "物种灭绝"
       ],
-      "path": "do/动物.md",
+      "path": "pages/do/动物.md",
       "description": "异养多细胞生物，其物种多样性与驯化历史深刻影响了人类文明的发展轨迹",
       "prose_len": 838,
       "prose_chars": 756,
@@ -1534,7 +1548,7 @@
         "驯化",
         "经济"
       ],
-      "path": "do/动物驯化.md",
+      "path": "pages/do/动物驯化.md",
       "description": "人类将野生动物驯化为家畜的过程及其对文明发展的影响",
       "prose_len": 249,
       "prose_chars": 247,
@@ -1558,7 +1572,7 @@
         "家畜",
         "驯化种"
       ],
-      "path": "e0/鹅.md",
+      "path": "pages/e0/鹅.md",
       "description": "欧亚大陆驯化的水禽，为人类提供肉、蛋和羽毛",
       "prose_len": 384,
       "prose_chars": 337,
@@ -1577,7 +1591,7 @@
       "tags": [
         "chapter"
       ],
-      "path": "ep/Epilogue.md",
+      "path": "pages/ep/Epilogue.md",
       "prose_len": 26704,
       "prose_chars": 25937,
       "h2_count": 1,
@@ -1601,7 +1615,7 @@
         "社会复杂性",
         "竞争优势"
       ],
-      "path": "fa/发明.md",
+      "path": "pages/fa/发明.md",
       "description": "新技术或工具的产生与扩散机制，戴蒙德认为发明受人口规模、社会竞争和地理连通性驱动，而非天才个体的偶然灵感；\"发明是需要之母\"而非相反。",
       "prose_len": 1316,
       "prose_chars": 1151,
@@ -1611,7 +1625,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 63,
-      "total_refs": 7
+      "total_refs": 8
     },
     "发明家": {
       "type": "concept",
@@ -1626,7 +1640,7 @@
         "创新",
         "历史解释"
       ],
-      "path": "fa/发明家.md",
+      "path": "pages/fa/发明家.md",
       "description": "被赋予技术突破功劳的个人，枪炮病菌与钢铁批判\"发明英雄论\"，强调技术进步的累积性和社会需求的驱动作用",
       "prose_len": 807,
       "prose_chars": 717,
@@ -1649,7 +1663,7 @@
         "岛屿",
         "农业"
       ],
-      "path": "fe/feilvbin.md",
+      "path": "pages/fe/feilvbin.md",
       "description": "东南亚群岛国家，南岛语系扩张的重要中间站",
       "prose_len": 779,
       "prose_chars": 724,
@@ -1673,7 +1687,7 @@
         "地理决定论",
         "国家形成"
       ],
-      "path": "fe/分裂.md",
+      "path": "pages/fe/分裂.md",
       "description": "政治权威分散于多个独立单位的格局，以欧洲长期多国并立为典型",
       "prose_len": 831,
       "prose_chars": 742,
@@ -1699,7 +1713,7 @@
         "农业",
         "疾病"
       ],
-      "path": "fe/非洲.md",
+      "path": "pages/fe/非洲.md",
       "description": "人类进化的发源地，也是全书论证\"南北轴线对农业传播形成阻力\"的核心案例；非洲撒哈拉以南地区缺乏可驯化的大型哺乳动物、农业传播受地理阻断、疾病（采采蝇等）构成独特屏障，共同解释了为什么非洲历史走向与欧亚大陆截然不同。",
       "prose_len": 913,
       "prose_chars": 859,
@@ -1719,7 +1733,7 @@
         "chapter",
         "illustrations"
       ],
-      "path": "fr/Frontispiece.md",
+      "path": "pages/fr/Frontispiece.md",
       "prose_len": 3198,
       "prose_chars": 1886,
       "h2_count": 1,
@@ -1740,7 +1754,7 @@
         "岛屿",
         "文明"
       ],
-      "path": "fu/fuhuojiedao.md",
+      "path": "pages/fu/fuhuojiedao.md",
       "description": "太平洋东南部最偏远的波利尼西亚岛屿，孤立社会演化的极端案例",
       "prose_len": 794,
       "prose_chars": 740,
@@ -1766,7 +1780,7 @@
         "环境",
         "澳大利亚"
       ],
-      "path": "ga/干旱.md",
+      "path": "pages/ga/干旱.md",
       "description": "长期或季节性降水不足，在澳大利亚案例中成为阻碍农业发展的关键气候约束",
       "prose_len": 895,
       "prose_chars": 801,
@@ -1790,7 +1804,7 @@
         "农作物",
         "驯化种"
       ],
-      "path": "ga/橄榄.md",
+      "path": "pages/ga/橄榄.md",
       "description": "地中海地区最早驯化的果树之一，其油脂是古代文明重要的食用油来源",
       "prose_len": 707,
       "prose_chars": 648,
@@ -1815,7 +1829,7 @@
         "农作物",
         "驯化种"
       ],
-      "path": "ga/甘薯.md",
+      "path": "pages/ga/甘薯.md",
       "description": "原产南美洲安第斯山脉的根用作物，传入新几内亚后引发人口激增",
       "prose_len": 633,
       "prose_chars": 574,
@@ -1840,7 +1854,7 @@
         "冶金",
         "征服"
       ],
-      "path": "ga/钢铁.md",
+      "path": "pages/ga/钢铁.md",
       "description": "人类最重要的金属材料技术之一，书名三大要素之一；在卡哈马卡战役中，西班牙钢铁武器与铁甲是对印加人形成压倒性优势的直接工具，而铁器技术的出现依赖数千年陶器和青铜冶炼经验的积累。",
       "prose_len": 1090,
       "prose_chars": 951,
@@ -1865,7 +1879,7 @@
         "农业",
         "生态"
       ],
-      "path": "ga/高原.md",
+      "path": "pages/ga/高原.md",
       "description": "海拔较高且地势相对平坦的大面积陆地地形，是理解农业扩散限制和人口分布的关键地理要素",
       "prose_len": 855,
       "prose_chars": 777,
@@ -1890,7 +1904,7 @@
         "农作物",
         "驯化种"
       ],
-      "path": "ga/高粱.md",
+      "path": "pages/ga/高粱.md",
       "description": "起源于非洲萨赫勒地带的耐旱谷物，是非洲本土农业体系的核心作物，与新月沃地的大麦、美洲的玉米并列为全球五大主要谷物之一；其传播受限于纬度气候带，是非洲农业发展路径与欧亚大陆差异的物质基础。",
       "prose_len": 1020,
       "prose_chars": 955,
@@ -1913,7 +1927,7 @@
         "探险家",
         "征服者"
       ],
-      "path": "ge/哥伦布.md",
+      "path": "pages/ge/哥伦布.md",
       "description": "意大利航海家，1492年\"发现\"美洲，开启了旧大陆与新大陆之间的直接接触，是两个半球历史上最重大的碰撞的触发者；欧洲人随其航行带来的传染病最终杀死了哥伦布到来前约95%的美洲土著人口。",
       "prose_len": 609,
       "prose_chars": 573,
@@ -1941,7 +1955,7 @@
         "旧大陆",
         "新大陆"
       ],
-      "path": "ge/哥伦布航行与两个半球的碰撞.md",
+      "path": "pages/ge/哥伦布航行与两个半球的碰撞.md",
       "description": "1492年哥伦布\"发现\"美洲，开启了旧大陆与新大陆社会之间的直接接触；戴蒙德将这一事件视为本书分析的关键节点，正是在这一时刻，数千年地理隔绝积累的欧亚大陆优势通过枪炮、病菌与钢铁集中体现。",
       "prose_len": 686,
       "prose_chars": 650,
@@ -1968,7 +1982,7 @@
         "美洲",
         "澳大利亚"
       ],
-      "path": "ge/更新世大型动物灭绝.md",
+      "path": "pages/ge/更新世大型动物灭绝.md",
       "description": "约一万三千年前，北美洲和南美洲的大型哺乳动物几乎全部灭绝，澳大利亚的巨型动物也在人类到达后消失；戴蒙德将此事件与欧亚非大陆大型动物存活相对比，用以解释为何美洲和澳大利亚缺乏可驯化的大型动物。",
       "prose_len": 668,
       "prose_chars": 632,
@@ -1990,7 +2004,7 @@
       "tags": [
         "学者"
       ],
-      "path": "ge/格林伯格.md",
+      "path": "pages/ge/格林伯格.md",
       "description": "斯坦福大学语言学家，将非洲语言分类梳理为清晰的大语系框架，将美洲印第安语归入争议性的\"美印语系\"；戴蒙德援引格林伯格的非洲语言分类成果，以语言分布为证据推断班图人的扩张路线。",
       "prose_len": 569,
       "prose_chars": 537,
@@ -2015,7 +2029,7 @@
         "社会",
         "政治"
       ],
-      "path": "ge/革命.md",
+      "path": "pages/ge/革命.md",
       "description": "人类社会在技术、经济或政治领域的根本性变革",
       "prose_len": 232,
       "prose_chars": 230,
@@ -2041,7 +2055,7 @@
         "征服",
         "发明"
       ],
-      "path": "go/工具.md",
+      "path": "pages/go/工具.md",
       "description": "在《枪炮、病菌与钢铁》中，工具（尤其是武器和运输工具）是某些民族用来扩张领域和征服其他民族的直接手段，工具水平的差距在文明碰撞时产生决定性后果。",
       "prose_len": 1105,
       "prose_chars": 812,
@@ -2067,7 +2081,7 @@
         "技术",
         "国家"
       ],
-      "path": "go/工程.md",
+      "path": "pages/go/工程.md",
       "description": "社会动员劳动力建造公共基础设施的能力，是衡量国家组织能力的核心指标",
       "prose_len": 929,
       "prose_chars": 829,
@@ -2092,7 +2106,7 @@
         "武器",
         "狩猎"
       ],
-      "path": "go/弓箭.md",
+      "path": "pages/go/弓箭.md",
       "description": "利用弓弦弹力投射箭矢的远程武器，是人类技术史上的关键军事和狩猎工具",
       "prose_len": 872,
       "prose_chars": 792,
@@ -2109,24 +2123,24 @@
       "label": "狗",
       "aliases": [
         "家犬",
-        "犬",
-        "dog"
+        "犬"
       ],
       "tags": [
         "动物",
-        "家畜",
-        "驯化种"
+        "驯化",
+        "伙伴",
+        "家畜"
       ],
-      "path": "go/狗.md",
-      "description": "最早被人类驯化的动物，源自狼，在狩猎、看门和交通运输中发挥重要作用",
-      "prose_len": 625,
-      "prose_chars": 566,
+      "path": "pages/go/狗.md",
+      "description": "人类最早驯化的动物，在所有大洲的史前社会中均有分布",
+      "prose_len": 1051,
+      "prose_chars": 977,
       "h2_count": 5,
-      "pn_count": 0,
-      "wikilink_count": 4,
+      "pn_count": 7,
+      "wikilink_count": 5,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 60,
       "total_refs": 2
     },
     "国家": {
@@ -2142,7 +2156,7 @@
         "社会复杂性",
         "征服"
       ],
-      "path": "gu/国家.md",
+      "path": "pages/gu/国家.md",
       "description": "人类社会组织的最高形式之一，以领土而非亲属关系为组织基础，拥有中央化行政、税收体系和专职官僚，是《枪炮、病菌与钢铁》中分析欧洲征服优势的核心概念。",
       "prose_len": 1120,
       "prose_chars": 900,
@@ -2167,7 +2181,7 @@
         "政治",
         "社会复杂性"
       ],
-      "path": "gu/国家的形成.md",
+      "path": "pages/gu/国家的形成.md",
       "description": "最早的国家约于公元前3500年在美索不达米亚和中美洲各自独立形成；戴蒙德分析国家形成的过程与机制，将其置于从部落到酋长管辖地再到国家的社会复杂性演化序列中，并指出文字几乎与最早的国家同步出现。",
       "prose_len": 657,
       "prose_chars": 621,
@@ -2192,7 +2206,7 @@
         "国家形成",
         "君主制"
       ],
-      "path": "gu/国王.md",
+      "path": "pages/gu/国王.md",
       "description": "世袭君主制国家的最高统治者，代表了国家形态中权力高度集中的政治形式",
       "prose_len": 857,
       "prose_chars": 776,
@@ -2217,7 +2231,7 @@
         "政治组织",
         "官僚制"
       ],
-      "path": "gu/官员.md",
+      "path": "pages/gu/官员.md",
       "description": "代表国家或酋长行使行政职能的专职人员，是超越面对面社会的政治组织的必要条件",
       "prose_len": 828,
       "prose_chars": 753,
@@ -2241,7 +2255,7 @@
         "社会复杂性",
         "国家"
       ],
-      "path": "gu/灌溉.md",
+      "path": "pages/gu/灌溉.md",
       "description": "在《枪炮、病菌与钢铁》中，大规模灌溉系统是国家级复杂社会才能组织的公共工程，既是农业生产力提升的关键手段，也曾被作为国家形成的\"水利理论\"的核心论据——戴蒙德对后者提出了批判性分析。",
       "prose_len": 1131,
       "prose_chars": 986,
@@ -2264,7 +2278,7 @@
         "科学家",
         "探险家"
       ],
-      "path": "gu/谷登堡.md",
+      "path": "pages/gu/谷登堡.md",
       "description": "德国金属工匠，约1455年发明活字印刷术，印制了第一本《圣经》；戴蒙德以谷登堡印刷机为例，论证技术发明是对当时社会需求的回应，而非个人天才的凭空创造，同时说明金属冶炼等前置技术积累是印刷术得以出现的必要条件。",
       "prose_len": 558,
       "prose_chars": 524,
@@ -2275,7 +2289,7 @@
       "quality": "featured",
       "quality_score": 55,
       "affiliation": "神圣罗马帝国",
-      "total_refs": 4
+      "total_refs": 5
     },
     "hanniba": {
       "type": "person",
@@ -2288,7 +2302,7 @@
         "统治者",
         "征服者"
       ],
-      "path": "ha/hanniba.md",
+      "path": "pages/ha/hanniba.md",
       "description": "迦太基军事家，戴蒙德以之为例讨论非洲象的驯化问题",
       "prose_len": 564,
       "prose_chars": 522,
@@ -2310,7 +2324,7 @@
         "交通",
         "交流"
       ],
-      "path": "ha/海峡.md",
+      "path": "pages/ha/海峡.md",
       "description": "连接两大水域的狭窄水道在人类迁徙和文明交流中的关键作用",
       "prose_len": 240,
       "prose_chars": 238,
@@ -2336,7 +2350,7 @@
         "征服",
         "扩张"
       ],
-      "path": "ha/航海.md",
+      "path": "pages/ha/航海.md",
       "description": "在《枪炮、病菌与钢铁》中，航海技术是欧洲殖民征服的直接原因之一，也是各大族群在太平洋、印度洋完成远程扩张的核心手段。",
       "prose_len": 1179,
       "prose_chars": 850,
@@ -2360,7 +2374,7 @@
         "贸易",
         "地理扩张"
       ],
-      "path": "ha/航行.md",
+      "path": "pages/ha/航行.md",
       "description": "利用船只在水面进行定向移动的能力，是人类跨越海洋地理障碍、实现大陆间联系的核心技术",
       "prose_len": 862,
       "prose_chars": 785,
@@ -2385,7 +2399,7 @@
         "农业起源",
         "文明核心区"
       ],
-      "path": "he/河流.md",
+      "path": "pages/he/河流.md",
       "description": "内陆水道系统，是农业起源核心区的基础条件，也是文明内部整合与贸易网络的关键基础设施",
       "prose_len": 812,
       "prose_chars": 721,
@@ -2410,7 +2424,7 @@
         "欧洲",
         "疾病"
       ],
-      "path": "he/黑死病.md",
+      "path": "pages/he/黑死病.md",
       "description": "1346年至1352年间席卷欧洲的腺鼠疫，杀死了欧洲四分之一的人口；戴蒙德以此为典型案例说明传染病的驯养动物来源及其沿东西轴线传播的机制，也与欧亚病菌单向摧毁美洲土著人口的论点形成参照。",
       "prose_len": 595,
       "prose_chars": 561,
@@ -2431,7 +2445,7 @@
       "tags": [
         "统治者"
       ],
-      "path": "hu/huashengdun.md",
+      "path": "pages/hu/huashengdun.md",
       "description": "美国开国总统，戴蒙德以之为例讨论政治领袖与财富分配",
       "prose_len": 828,
       "prose_chars": 766,
@@ -2458,7 +2472,7 @@
         "生态",
         "土著"
       ],
-      "path": "hu/火.md",
+      "path": "pages/hu/火.md",
       "description": "人类最早掌握的核心技术之一，澳大利亚土著的火耕农业揭示了火作为土地管理工具的独特价值",
       "prose_len": 708,
       "prose_chars": 640,
@@ -2482,7 +2496,7 @@
         "技术传播",
         "殖民扩张"
       ],
-      "path": "hu/火器.md",
+      "path": "pages/hu/火器.md",
       "description": "利用火药燃烧产生的爆炸力推进弹丸的武器，是近代军事革命的核心技术",
       "prose_len": 867,
       "prose_chars": 780,
@@ -2498,25 +2512,26 @@
       "type": "concept",
       "label": "火药",
       "aliases": [
-        "黑色火药",
         "黑火药",
+        "黑色火药",
         "炸药"
       ],
       "tags": [
         "技术",
         "军事",
+        "发明",
         "中国发明"
       ],
-      "path": "hu/火药.md",
-      "description": "硫磺、木炭和硝石的混合物，是人类历史上最重要的化学技术发现之一",
-      "prose_len": 880,
-      "prose_chars": 801,
-      "h2_count": 4,
-      "pn_count": 1,
-      "wikilink_count": 6,
+      "path": "pages/hu/火药.md",
+      "description": "火药的发明及其对战争形态和全球权力格局的革命性影响",
+      "prose_len": 1245,
+      "prose_chars": 1158,
+      "h2_count": 6,
+      "pn_count": 4,
+      "wikilink_count": 5,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 28,
+      "quality": "featured",
+      "quality_score": 62,
       "total_refs": 0
     },
     "火鸡": {
@@ -2531,7 +2546,7 @@
         "家畜",
         "驯化种"
       ],
-      "path": "hu/火鸡.md",
+      "path": "pages/hu/火鸡.md",
       "description": "中美洲驯化的大型鸟类，为新大陆唯一的驯化鸟类之一",
       "prose_len": 497,
       "prose_chars": 439,
@@ -2556,7 +2571,7 @@
         "决定论",
         "社会发展"
       ],
-      "path": "hu/环境.md",
+      "path": "pages/hu/环境.md",
       "description": "自然环境对人类社会发展轨迹的塑造作用，《枪炮》核心论点的出发点",
       "prose_len": 828,
       "prose_chars": 746,
@@ -2580,7 +2595,7 @@
         "国家形成",
         "征服"
       ],
-      "path": "hu/皇帝.md",
+      "path": "pages/hu/皇帝.md",
       "description": "帝国的最高世袭统治者，代表国家权威的最高集中点，在枪炮病菌与钢铁中是文明间征服与对抗的核心人物形象",
       "prose_len": 808,
       "prose_chars": 717,
@@ -2604,7 +2619,7 @@
         "演化",
         "旧大陆"
       ],
-      "path": "hu/霍乱.md",
+      "path": "pages/hu/霍乱.md",
       "description": "由霍乱弧菌引起的急性肠道传染病，通过污染水源传播，是枪炮病菌与钢铁分析病菌演化策略的典型案例",
       "prose_len": 769,
       "prose_chars": 681,
@@ -2626,7 +2641,7 @@
         "地区",
         "地理"
       ],
-      "path": "ji/jialifuniya.md",
+      "path": "pages/ji/jialifuniya.md",
       "description": "北美西部沿海地区，狩猎采集社会密度与复杂性研究的经典案例",
       "prose_len": 868,
       "prose_chars": 814,
@@ -2651,7 +2666,7 @@
         "经济",
         "文化接触"
       ],
-      "path": "ji/交换.md",
+      "path": "pages/ji/交换.md",
       "description": "不同个体或群体之间商品、劳务或信息的双向流动，是专业化分工和文化接触的基础机制",
       "prose_len": 886,
       "prose_chars": 813,
@@ -2675,7 +2690,7 @@
         "遗传",
         "医学"
       ],
-      "path": "ji/基因.md",
+      "path": "pages/ji/基因.md",
       "description": "生物遗传的基本单位及其在人类对疾病免疫力形成中的作用",
       "prose_len": 261,
       "prose_chars": 259,
@@ -2701,7 +2716,7 @@
         "植物驯化",
         "地理"
       ],
-      "path": "ji/季节性.md",
+      "path": "pages/ji/季节性.md",
       "description": "气候随时间呈现的规律性周期变化，驱动植物生长周期并深刻影响农业起源与扩散",
       "prose_len": 807,
       "prose_chars": 734,
@@ -2726,7 +2741,7 @@
         "农业",
         "生物"
       ],
-      "path": "ji/家畜.md",
+      "path": "pages/ji/家畜.md",
       "description": "经人类驯化、能够在人工环境中繁殖并为人类提供劳力、食物、皮毛或运输的动物；欧亚大陆驯化家畜的种类和规模远超其他大陆，是其文明领先的重要结构性原因。",
       "prose_len": 1154,
       "prose_chars": 1029,
@@ -2749,7 +2764,7 @@
         "创新",
         "知识积累"
       ],
-      "path": "ji/技术.md",
+      "path": "pages/ji/技术.md",
       "description": "改造自然和组织生产的系统性知识与工具，通过积累和传播形成文明的物质基础",
       "prose_len": 901,
       "prose_chars": 822,
@@ -2774,7 +2789,7 @@
         "历史",
         "贸易"
       ],
-      "path": "ji/技术传播.md",
+      "path": "pages/ji/技术传播.md",
       "description": "技术在不同社会之间流动与采纳的过程；戴蒙德认为，技术传播比独立发明更为常见，其速度受大陆轴线走向和社会开放程度的深刻影响。",
       "prose_len": 1074,
       "prose_chars": 950,
@@ -2784,7 +2799,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 25
+      "total_refs": 26
     },
     "技术积累": {
       "type": "concept",
@@ -2798,7 +2813,7 @@
         "技术",
         "历史"
       ],
-      "path": "ji/技术积累.md",
+      "path": "pages/ji/技术积累.md",
       "description": "技术进步是长期积累的历史过程，而非孤立天才的单次跳跃",
       "prose_len": 905,
       "prose_chars": 843,
@@ -2808,7 +2823,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 10
+      "total_refs": 9
     },
     "旧大陆": {
       "type": "concept",
@@ -2822,7 +2837,7 @@
         "历史",
         "比较研究"
       ],
-      "path": "ji/旧大陆.md",
+      "path": "pages/ji/旧大陆.md",
       "description": "哥伦布到达美洲之前人类已知的欧洲、亚洲和非洲三大洲，与\"新大陆\"美洲构成比较研究的两极",
       "prose_len": 685,
       "prose_chars": 610,
@@ -2847,7 +2862,7 @@
         "技术传播",
         "政治组织"
       ],
-      "path": "ji/竞争.md",
+      "path": "pages/ji/竞争.md",
       "description": "不同个体、族群或社会在有限资源或生存空间上的争夺，是推动社会复杂性升级的关键机制",
       "prose_len": 930,
       "prose_chars": 848,
@@ -2872,7 +2887,7 @@
         "病菌",
         "人口"
       ],
-      "path": "ji/结核.md",
+      "path": "pages/ji/结核.md",
       "description": "由结核杆菌引起的慢性传染病，是人类历史上累计死亡人数最多的传染病之一",
       "prose_len": 850,
       "prose_chars": 770,
@@ -2898,7 +2913,7 @@
         "社会",
         "酋长"
       ],
-      "path": "ji/继承.md",
+      "path": "pages/ji/继承.md",
       "description": "权力、地位和财产的代际传递方式，是区分不同社会复杂程度的重要制度标志",
       "prose_len": 815,
       "prose_chars": 736,
@@ -2923,7 +2938,7 @@
         "地理",
         "技术"
       ],
-      "path": "ji/近端原因与终极原因.md",
+      "path": "pages/ji/近端原因与终极原因.md",
       "description": "戴蒙德用于分析历史不平等的两层因果框架：近端原因是可直接观察的表层机制，终极原因是产生这些机制的深层地理与生态因素。",
       "prose_len": 969,
       "prose_chars": 860,
@@ -2949,7 +2964,7 @@
         "材料",
         "冶金"
       ],
-      "path": "ji/金属.md",
+      "path": "pages/ji/金属.md",
       "description": "铜、铁、青铜等金属材料的开发利用，是技术进步与军事优势的关键物质基础",
       "prose_len": 888,
       "prose_chars": 797,
@@ -2974,7 +2989,7 @@
         "社会复杂化",
         "国家形成"
       ],
-      "path": "ji/阶级.md",
+      "path": "pages/ji/阶级.md",
       "description": "按照财富、权力或出身划分的社会层次，是农业社会和复杂国家的结构性特征",
       "prose_len": 751,
       "prose_chars": 662,
@@ -2999,7 +3014,7 @@
         "社会复杂化",
         "国家形成"
       ],
-      "path": "ji/集中.md",
+      "path": "pages/ji/集中.md",
       "description": "权力与资源向中央聚拢的社会组织原则，是国家形成和文明扩张的核心机制",
       "prose_len": 786,
       "prose_chars": 708,
@@ -3024,7 +3039,7 @@
         "家畜",
         "驯化种"
       ],
-      "path": "ji/鸡.md",
+      "path": "pages/ji/鸡.md",
       "description": "最早被驯化的鸟类之一，原产于中国和东南亚，为人类提供肉食和蛋类",
       "prose_len": 638,
       "prose_chars": 579,
@@ -3050,7 +3065,7 @@
         "技术传播",
         "殖民主义"
       ],
-      "path": "ju/军事征服.md",
+      "path": "pages/ju/军事征服.md",
       "description": "在《枪炮、病菌与钢铁》中，军事征服是欧洲扩张的直接机制，但戴蒙德指出真正决定征服成败的往往不是将帅才能，而是病菌、技术、组织和文字等系统性优势。",
       "prose_len": 1016,
       "prose_chars": 790,
@@ -3060,7 +3075,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 10
+      "total_refs": 11
     },
     "军事技术": {
       "type": "concept",
@@ -3074,7 +3089,7 @@
         "技术",
         "历史"
       ],
-      "path": "ju/军事技术.md",
+      "path": "pages/ju/军事技术.md",
       "description": "武器和军事装备的技术水平对战争结果和文明扩张的决定性影响",
       "prose_len": 249,
       "prose_chars": 247,
@@ -3099,7 +3114,7 @@
         "战争",
         "国家形成"
       ],
-      "path": "ju/军队.md",
+      "path": "pages/ju/军队.md",
       "description": "有组织的武装力量，是国家强制权力的核心工具和征服扩张的物质基础",
       "prose_len": 845,
       "prose_chars": 770,
@@ -3124,7 +3139,7 @@
         "合法性",
         "国家形成"
       ],
-      "path": "ju/君主.md",
+      "path": "pages/ju/君主.md",
       "description": "掌握世袭最高政治权力的个人，其权威往往与神圣秩序相连，是帝国和王国政治合法性的核心载体",
       "prose_len": 833,
       "prose_chars": 737,
@@ -3149,7 +3164,7 @@
         "演化",
         "历史"
       ],
-      "path": "ju/巨型动物.md",
+      "path": "pages/ju/巨型动物.md",
       "description": "史前大型动物在人类到达后的灭绝浪潮——对随后人类历史格局产生深远影响",
       "prose_len": 917,
       "prose_chars": 857,
@@ -3174,7 +3189,7 @@
         "南美洲",
         "征服"
       ],
-      "path": "ka/卡哈马卡.md",
+      "path": "pages/ka/卡哈马卡.md",
       "description": "1532年11月16日西班牙征服者弗兰西斯科·皮萨罗俘获印加皇帝阿塔瓦尔帕的地点，是全书分析近端原因（钢铁、枪炮、马匹、疾病、文字）如何决定欧亚大陆人征服美洲这一历史结局的核心案例。",
       "prose_len": 951,
       "prose_chars": 897,
@@ -3198,7 +3213,7 @@
         "征服",
         "南美洲"
       ],
-      "path": "卡哈马卡之战.md",
+      "path": "pages/卡哈马卡之战.md",
       "description": "1532年11月16日，弗兰西斯科·皮萨罗率168名西班牙人在秘鲁卡哈马卡俘获印加皇帝阿塔瓦尔帕，击溃数万印加军队；戴蒙德以此战为分析起点，解析欧亚大陆人征服美洲的近端原因与终极原因。",
       "prose_len": 697,
       "prose_chars": 661,
@@ -3222,7 +3237,7 @@
         "方法论",
         "历史证据"
       ],
-      "path": "ka/考古学.md",
+      "path": "pages/ka/考古学.md",
       "description": "通过实物遗址和遗骸重建史前历史的科学方法，是《枪炮》核心证据来源之一",
       "prose_len": 973,
       "prose_chars": 884,
@@ -3246,7 +3261,7 @@
         "史前史",
         "研究方法"
       ],
-      "path": "ka/考古遗址.md",
+      "path": "pages/ka/考古遗址.md",
       "description": "保存有人类活动痕迹的地层或地点，是重建史前历史的核心证据来源",
       "prose_len": 909,
       "prose_chars": 831,
@@ -3269,7 +3284,7 @@
         "迁徙",
         "发现"
       ],
-      "path": "ke/keluoweiwenhua.md",
+      "path": "pages/ke/keluoweiwenhua.md",
       "description": "美洲最早被广泛认可的人类文化，标志着人类在美洲大陆的首次大规模定居",
       "prose_len": 760,
       "prose_chars": 712,
@@ -3295,7 +3310,7 @@
         "知识",
         "欧洲"
       ],
-      "path": "ke/科学.md",
+      "path": "pages/ke/科学.md",
       "description": "经验性知识体系与科学方法，作为欧洲技术优势的意识形态前提及历史学的方法论基础",
       "prose_len": 772,
       "prose_chars": 698,
@@ -3318,7 +3333,7 @@
         "征服者",
         "探险家"
       ],
-      "path": "ke/科尔特斯.md",
+      "path": "pages/ke/科尔特斯.md",
       "description": "西班牙征服者，1519年率600名士兵在墨西哥登陆，征服拥有数百万人口的阿兹特克帝国；其成功与皮萨罗征服印加帝国平行，共同例示了欧亚大陆的钢铁、马匹和病菌优势对美洲原住民社会的决定性作用。",
       "prose_len": 579,
       "prose_chars": 545,
@@ -3341,7 +3356,7 @@
       "tags": [
         "探险家"
       ],
-      "path": "ku/kuke.md",
+      "path": "pages/ku/kuke.md",
       "description": "英国探险家和航海家，库克船长的航行将欧亚大陆传染病带入太平洋岛屿",
       "prose_len": 900,
       "prose_chars": 837,
@@ -3368,7 +3383,7 @@
         "迁徙",
         "历史"
       ],
-      "path": "ku/扩张.md",
+      "path": "pages/ku/扩张.md",
       "description": "农业民族取代狩猎采集者的人口与领土扩张过程，是《枪炮》核心叙事主线之一",
       "prose_len": 904,
       "prose_chars": 799,
@@ -3393,7 +3408,7 @@
         "政治组织",
         "农业"
       ],
-      "path": "la/劳动力.md",
+      "path": "pages/la/劳动力.md",
       "description": "生产活动中人力投入的总称，其动员方式是理解不同社会组织形式的关键维度",
       "prose_len": 870,
       "prose_chars": 779,
@@ -3416,7 +3431,7 @@
       "tags": [
         "发明家"
       ],
-      "path": "la/莱特兄弟.md",
+      "path": "pages/la/莱特兄弟.md",
       "description": "美国航空先驱；戴蒙德以莱特兄弟为例，说明\"稀有天才\"的发明实为对既有成果的渐进改进，并非凭空创造",
       "prose_len": 614,
       "prose_chars": 577,
@@ -3440,7 +3455,7 @@
         "历史",
         "人口"
       ],
-      "path": "li/流行病.md",
+      "path": "pages/li/流行病.md",
       "description": "大规模传染性疾病对人类历史进程的影响",
       "prose_len": 288,
       "prose_chars": 286,
@@ -3466,7 +3481,7 @@
         "生物",
         "社会组织"
       ],
-      "path": "li/粮食生产.md",
+      "path": "pages/li/粮食生产.md",
       "description": "人类通过驯化野生动植物、以家畜和农作物为主要食物来源的生产方式，是戴蒙德解释人类文明兴衰差异的核心终极原因。",
       "prose_len": 1098,
       "prose_chars": 985,
@@ -3488,7 +3503,7 @@
         "征服",
         "建国"
       ],
-      "path": "lu/luoma-diguo.md",
+      "path": "pages/lu/luoma-diguo.md",
       "description": "古代欧亚大陆西部最大的帝国，戴蒙德以之作为欧亚大陆政治统一的参照基准",
       "prose_len": 757,
       "prose_chars": 708,
@@ -3510,16 +3525,16 @@
       "tags": [
         "学者"
       ],
-      "path": "lu/lusuo.md",
+      "path": "pages/lu/lusuo.md",
       "description": "法国启蒙思想家，戴蒙德以其社会契约论为对照讨论国家起源",
-      "prose_len": 606,
-      "prose_chars": 564,
-      "h2_count": 4,
-      "pn_count": 2,
+      "prose_len": 883,
+      "prose_chars": 818,
+      "h2_count": 5,
+      "pn_count": 5,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 58,
       "affiliation": "法国",
       "total_refs": 1
     },
@@ -3537,7 +3552,7 @@
         "发明",
         "大陆轴线"
       ],
-      "path": "lu/轮子.md",
+      "path": "pages/lu/轮子.md",
       "description": "在《枪炮、病菌与钢铁》中，轮子是技术传播与发明规律的经典案例：它在旧大陆沿东西轴线迅速扩散，却在新大陆独立发明后因缺乏驮兽而无法实用化，揭示了地理和生态条件如何决定技术的命运。",
       "prose_len": 1130,
       "prose_chars": 870,
@@ -3564,7 +3579,7 @@
         "家畜",
         "驯化种"
       ],
-      "path": "lu/骆驼.md",
+      "path": "pages/lu/骆驼.md",
       "description": "史前14种驯化大型哺乳动物中驯化时间最晚者，分为阿拉伯半岛的单峰驼和中亚的双峰驼，提供乳汁、役力、运输和军事作战能力，是沙漠贸易与游牧军事力量的核心动物。",
       "prose_len": 1136,
       "prose_chars": 1073,
@@ -3589,7 +3604,7 @@
         "家畜",
         "驯化种"
       ],
-      "path": "lv/驴.md",
+      "path": "pages/lv/驴.md",
       "description": "非洲驯化的大型哺乳动物，是古代文明重要的驮畜和骑乘动物",
       "prose_len": 384,
       "prose_chars": 337,
@@ -3612,7 +3627,7 @@
         "岛屿",
         "文明"
       ],
-      "path": "ma/madagascar.md",
+      "path": "pages/ma/madagascar.md",
       "description": "非洲东南部的大岛，南岛人扩张的最西端，具有独特的生物和文明历史",
       "prose_len": 812,
       "prose_chars": 757,
@@ -3634,7 +3649,7 @@
       "tags": [
         "学者"
       ],
-      "path": "ma/makesi.md",
+      "path": "pages/ma/makesi.md",
       "description": "德国哲学家和经济学家，戴蒙德以之为例讨论国家起源的理论谱系",
       "prose_len": 881,
       "prose_chars": 818,
@@ -3659,7 +3674,7 @@
         "家畜",
         "驯化种"
       ],
-      "path": "ma/牦牛.md",
+      "path": "pages/ma/牦牛.md",
       "description": "西藏高原驯化的大型哺乳动物，适应高海拔环境，提供肉、奶、毛皮和驮运服务",
       "prose_len": 429,
       "prose_chars": 382,
@@ -3684,7 +3699,7 @@
         "家畜",
         "驯化种"
       ],
-      "path": "ma/猫.md",
+      "path": "pages/ma/猫.md",
       "description": "北非和西南亚驯化的小型哺乳动物，用于猎捕啮齿类有害动物",
       "prose_len": 355,
       "prose_chars": 322,
@@ -3709,7 +3724,7 @@
         "传染病",
         "社会复杂性"
       ],
-      "path": "ma/贸易.md",
+      "path": "pages/ma/贸易.md",
       "description": "在《枪炮、病菌与钢铁》中，贸易是技术和思想传播的主要和平渠道，同时也是传染病跨洲际传播的关键网络。贸易路线的密度与方向决定了文明之间的技术交流速度。",
       "prose_len": 1156,
       "prose_chars": 1013,
@@ -3733,7 +3748,7 @@
         "交流",
         "文化"
       ],
-      "path": "ma/贸易路线.md",
+      "path": "pages/ma/贸易路线.md",
       "description": "连接不同文明的长距离贸易通道及其在技术传播中的关键作用",
       "prose_len": 276,
       "prose_chars": 274,
@@ -3759,7 +3774,7 @@
         "家畜",
         "驯化种"
       ],
-      "path": "ma/马.md",
+      "path": "pages/ma/马.md",
       "description": "最重要的军事和运输驯化动物，约公元前4000年在黑海北部大草原驯化，在欧洲人征服美洲的过程中发挥了决定性的军事作用，也是欧亚大陆征服优势的核心近端原因之一。",
       "prose_len": 821,
       "prose_chars": 762,
@@ -3784,7 +3799,7 @@
         "战争",
         "欧亚大陆"
       ],
-      "path": "ma/马的驯化.md",
+      "path": "pages/ma/马的驯化.md",
       "description": "约公元前4000年，马在黑海北面的大草原上被驯化；马匹的驯化改变了欧亚大陆的战争形态，成为欧亚大陆人征服其他大陆的重要军事优势，在本书中是动物驯化决定历史走向的核心案例。",
       "prose_len": 587,
       "prose_chars": 551,
@@ -3810,7 +3825,7 @@
         "农作物",
         "驯化种"
       ],
-      "path": "ma/马铃薯.md",
+      "path": "pages/ma/马铃薯.md",
       "description": "起源于南美安第斯山脉的高产块茎作物，约公元前3500年驯化，是12种世界最重要作物之一；作为美洲南北轴线限制的典型案例，马铃薯因适应安第斯高海拔凉爽气候而无法在墨西哥高原传播，揭示了美洲农业体系的地理传播局限。",
       "prose_len": 742,
       "prose_chars": 683,
@@ -3833,7 +3848,7 @@
       "tags": [
         "病原体"
       ],
-      "path": "ma/麻疹.md",
+      "path": "pages/ma/麻疹.md",
       "description": "从牛瘟病毒演化而来的急性传染病病毒，是欧亚大陆人畜共患病的典型代表，也是法罗群岛事件的主角；其\"群众疾病\"属性（需50万以上人口维持流行）使它成为征服史中杀死免疫力薄弱人群的主要武器之一。",
       "prose_len": 1024,
       "prose_chars": 968,
@@ -3855,7 +3870,7 @@
         "地区",
         "岛屿"
       ],
-      "path": "me/meilaxiniya.md",
+      "path": "pages/me/meilaxiniya.md",
       "description": "太平洋西南部的岛屿群，南岛人与原住民交融的地区",
       "prose_len": 752,
       "prose_chars": 698,
@@ -3879,7 +3894,7 @@
         "文明",
         "河流"
       ],
-      "path": "me/meisuobudamiya.md",
+      "path": "pages/me/meisuobudamiya.md",
       "description": "底格里斯河和幼发拉底河之间的地区，世界上最早的城市和文字发源地",
       "prose_len": 959,
       "prose_chars": 902,
@@ -3900,7 +3915,7 @@
       "tags": [
         "征服"
       ],
-      "path": "me/menggu-diguo.md",
+      "path": "pages/me/menggu-diguo.md",
       "description": "13世纪形成的横跨欧亚大陆的最大陆地帝国，游牧文明与农业文明碰撞的典型",
       "prose_len": 766,
       "prose_chars": 717,
@@ -3923,7 +3938,7 @@
         "地区",
         "帝国"
       ],
-      "path": "me/menggu.md",
+      "path": "pages/me/menggu.md",
       "description": "亚洲中部的草原地区，游牧民族的故乡和蒙古帝国的核心地带",
       "prose_len": 795,
       "prose_chars": 741,
@@ -3947,7 +3962,7 @@
         "农业起源",
         "粮食生产"
       ],
-      "path": "me/美国东部.md",
+      "path": "pages/me/美国东部.md",
       "description": "全球5个独立农业起源中心之一，约公元前2500年开始驯化向日葵和藜属植物；因南北轴线受阻，玉米迟至公元900年才从墨西哥传入并成为主产作物，其农业体系的滞后发展是南北轴线限制效应的关键北美案例。",
       "prose_len": 771,
       "prose_chars": 721,
@@ -3973,7 +3988,7 @@
         "农业",
         "征服"
       ],
-      "path": "me/美洲.md",
+      "path": "pages/me/美洲.md",
       "description": "南北走向轴线的大陆，农业传播因跨越多个气候带而极为缓慢；驯化动物仅有南美洲的美洲驼一种大型哺乳动物，且未能传至中美洲；这两项地理劣势共同解释了欧亚大陆人征服美洲时的压倒性优势。",
       "prose_len": 822,
       "prose_chars": 768,
@@ -3997,7 +4012,7 @@
         "家畜",
         "驯化种"
       ],
-      "path": "me/美洲家鸭.md",
+      "path": "pages/me/美洲家鸭.md",
       "description": "南美洲驯化的水禽，新大陆少数驯化鸟类之一",
       "prose_len": 259,
       "prose_chars": 227,
@@ -4022,7 +4037,7 @@
         "美洲",
         "起源"
       ],
-      "path": "me/美洲独立农业起源.md",
+      "path": "pages/me/美洲独立农业起源.md",
       "description": "美洲在与旧大陆隔绝的情况下独立发展出农业，核心区域包括中美洲（玉米、南瓜）、美国东部（向日葵等）和安第斯山脉（土豆、美洲驼）；戴蒙德以美洲农业起源为对照案例，说明地理条件而非人类智力差异，导致美洲农业发展较欧亚大陆迟缓且动物驯化资源匮乏。",
       "prose_len": 641,
       "prose_chars": 605,
@@ -4048,7 +4063,7 @@
         "家畜",
         "驯化种"
       ],
-      "path": "me/美洲驼.md",
+      "path": "pages/me/美洲驼.md",
       "description": "安第斯山脉地区驯化的重要哺乳动物，是哥伦布前美洲唯一的驮畜",
       "prose_len": 726,
       "prose_chars": 666,
@@ -4071,7 +4086,7 @@
         "统治者",
         "原住民"
       ],
-      "path": "me/蒙特朱马.md",
+      "path": "pages/me/蒙特朱马.md",
       "description": "阿兹特克帝国皇帝，误将科尔特斯认作神灵降世并允许其进入首都特诺奇蒂特兰，随即被俘；1520年天花流行杀死了继承蒙特朱马的下一任皇帝，欧亚传染病在阿兹特克帝国覆灭中发挥了关键作用。",
       "prose_len": 535,
       "prose_chars": 501,
@@ -4094,7 +4109,7 @@
         "地区",
         "岛屿"
       ],
-      "path": "mi/mikelunixiya.md",
+      "path": "pages/mi/mikelunixiya.md",
       "description": "太平洋西部的群岛区域，南岛人扩张的北线路径",
       "prose_len": 765,
       "prose_chars": 711,
@@ -4117,7 +4132,7 @@
         "文明",
         "农业"
       ],
-      "path": "mi/milu.md",
+      "path": "pages/mi/milu.md",
       "description": "南美西部沿海国家，安第斯文明的核心区域，印加帝国所在地",
       "prose_len": 903,
       "prose_chars": 848,
@@ -4143,7 +4158,7 @@
         "生物",
         "历史"
       ],
-      "path": "mi/免疫力.md",
+      "path": "pages/mi/免疫力.md",
       "description": "人体抵抗特定病菌再次感染的能力；在欧洲人征服美洲的历史中，欧亚人通过与家畜长期共存而获得的传染病免疫力，是美洲原住民遭遇毁灭性死亡的核心原因。",
       "prose_len": 1044,
       "prose_chars": 932,
@@ -4168,7 +4183,7 @@
         "纺织",
         "农业"
       ],
-      "path": "mi/棉花.md",
+      "path": "pages/mi/棉花.md",
       "description": "重要的纤维作物，同时也提供油脂，是人类纺织文明的核心植物原料之一",
       "prose_len": 829,
       "prose_chars": 750,
@@ -4194,7 +4209,7 @@
         "语言",
         "迁徙"
       ],
-      "path": "mi/民族.md",
+      "path": "pages/mi/民族.md",
       "description": "共享语言、文化和起源的人群集合；戴蒙德将其分布格局解释为地理和历史进程的产物，而非生物差异的结果",
       "prose_len": 1141,
       "prose_chars": 1077,
@@ -4218,7 +4233,7 @@
         "人类影响",
         "史前史"
       ],
-      "path": "mi/灭绝.md",
+      "path": "pages/mi/灭绝.md",
       "description": "人类扩张导致大型动物物种消失的历史模式，是理解大陆生物资源差异的关键",
       "prose_len": 911,
       "prose_chars": 835,
@@ -4244,7 +4259,7 @@
         "家畜",
         "驯化种"
       ],
-      "path": "mi/绵羊.md",
+      "path": "pages/mi/绵羊.md",
       "description": "新月沃地最早驯化的大型哺乳动物之一，约公元前8000年驯化于西南亚，是欧亚大陆14种史前驯化大型哺乳动物中的代表，提供肉食、毛绒和奶产品，是欧亚农业体系综合生产力的重要组成部分。",
       "prose_len": 1208,
       "prose_chars": 1145,
@@ -4267,7 +4282,7 @@
         "动物",
         "驯化种"
       ],
-      "path": "mi/蜜蜂.md",
+      "path": "pages/mi/蜜蜂.md",
       "description": "被人类驯化的昆虫，为人类提供蜂蜜和蜂蜡",
       "prose_len": 344,
       "prose_chars": 298,
@@ -4290,7 +4305,7 @@
         "农作物",
         "驯化种"
       ],
-      "path": "mi/面包果.md",
+      "path": "pages/mi/面包果.md",
       "description": "东南亚和新几内亚驯化的树生作物，富含碳水化合物",
       "prose_len": 434,
       "prose_chars": 390,
@@ -4313,7 +4328,7 @@
         "文明",
         "农业"
       ],
-      "path": "mo/moxige.md",
+      "path": "pages/mo/moxige.md",
       "description": "中美洲北部的文明古国，新大陆独立农业起源中心之一，阿兹特克帝国所在地",
       "prose_len": 939,
       "prose_chars": 884,
@@ -4338,7 +4353,7 @@
         "农作物",
         "驯化种"
       ],
-      "path": "mu/木薯.md",
+      "path": "pages/mu/木薯.md",
       "description": "南美洲驯化的根用作物，热带地区重要的碳水化合物来源",
       "prose_len": 358,
       "prose_chars": 315,
@@ -4361,7 +4376,7 @@
         "农业",
         "战争"
       ],
-      "path": "mu/牧人.md",
+      "path": "pages/mu/牧人.md",
       "description": "以饲养牲畜为主要生计方式的人群，其生活方式与农业文明之间的互动塑造了欧亚大陆数千年的历史进程",
       "prose_len": 854,
       "prose_chars": 794,
@@ -4380,7 +4395,7 @@
       "tags": [
         "toc"
       ],
-      "path": "mu/目录.md",
+      "path": "pages/mu/目录.md",
       "description": "全书目录页",
       "prose_len": 1237,
       "prose_chars": 1048,
@@ -4402,7 +4417,7 @@
         "大陆",
         "地理"
       ],
-      "path": "na/nanmeizhou.md",
+      "path": "pages/na/nanmeizhou.md",
       "description": "美洲大陆的南半部分，安第斯文明与独立农业起源地，新大陆最长的大陆",
       "prose_len": 812,
       "prose_chars": 757,
@@ -4425,7 +4440,7 @@
         "统治者",
         "征服者"
       ],
-      "path": "na/napolun.md",
+      "path": "pages/na/napolun.md",
       "description": "法国军事家和皇帝，戴蒙德以之为例论证欧洲未能形成统一帝国的地理障碍",
       "prose_len": 799,
       "prose_chars": 738,
@@ -4450,7 +4465,7 @@
         "大陆轴线",
         "作物传播"
       ],
-      "path": "na/南北轴.md",
+      "path": "pages/na/南北轴.md",
       "description": "美洲和非洲等大陆的主体呈南北走向，使得作物与技术的传播必须穿越不同气候带，速度远慢于东西轴大陆",
       "prose_len": 808,
       "prose_chars": 718,
@@ -4475,7 +4490,7 @@
         "太平洋",
         "语言"
       ],
-      "path": "na/南岛语族扩张.md",
+      "path": "pages/na/南岛语族扩张.md",
       "description": "约公元前3000年起，南岛语族人口从台湾出发，历经数千年向东南亚、太平洋诸岛直至马达加斯加和复活节岛扩张；戴蒙德以南岛人扩张为案例，论证语言考古互证的人口迁移分析方法，以及农业技术在海岛扩张中的决定性作用。",
       "prose_len": 633,
       "prose_chars": 597,
@@ -4497,7 +4512,7 @@
       "tags": [
         "原住民"
       ],
-      "path": "ni/niandetelian.md",
+      "path": "pages/ni/niandetelian.md",
       "description": "欧亚大陆的远古人类种群，现代人类兴起后灭绝的近亲物种",
       "prose_len": 923,
       "prose_chars": 861,
@@ -4520,7 +4535,7 @@
         "河流",
         "文明"
       ],
-      "path": "ni/niluohe.md",
+      "path": "pages/ni/niluohe.md",
       "description": "非洲东北部的世界最长河流，埃及文明的摇篮",
       "prose_len": 795,
       "prose_chars": 741,
@@ -4547,7 +4562,7 @@
         "家畜",
         "驯化种"
       ],
-      "path": "ni/牛.md",
+      "path": "pages/ni/牛.md",
       "description": "欧亚大陆14种史前驯化大型哺乳动物之一，在西南亚、南亚和北非各自独立驯化，提供肉食、乳汁、役力和皮革，同时是结核病菌和牛瘟（麻疹祖先）的宿主，是欧亚大陆征服优势中动物力量与疾病储库的双重来源。",
       "prose_len": 1075,
       "prose_chars": 1012,
@@ -4572,7 +4587,7 @@
         "驯化",
         "技术传播"
       ],
-      "path": "no/农业.md",
+      "path": "pages/no/农业.md",
       "description": "在《枪炮、病菌与钢铁》中，农业特指对植物的人工栽培，是粮食生产的核心组成部分。农业的出现触发了一系列连锁效应：人口密集→病菌传播→专业化分工→国家形成，是理解文明差异的关键环节。",
       "prose_len": 1145,
       "prose_chars": 893,
@@ -4598,7 +4613,7 @@
         "经济",
         "劳动"
       ],
-      "path": "nu/奴隶.md",
+      "path": "pages/nu/奴隶.md",
       "description": "被强制剥夺人身自由、被他人占有的劳动者——伴随经济专业化而出现的社会制度",
       "prose_len": 613,
       "prose_chars": 502,
@@ -4622,7 +4637,7 @@
         "热带地区",
         "殖民主义"
       ],
-      "path": "nv/疟疾.md",
+      "path": "pages/nv/疟疾.md",
       "description": "由疟原虫引起的热带传染病，是欧洲在热带殖民扩张的主要生物性障碍，同时也是热带居民长期演化形成的适应压力",
       "prose_len": 730,
       "prose_chars": 642,
@@ -4646,7 +4661,7 @@
         "历史",
         "农业"
       ],
-      "path": "ou/欧亚大陆.md",
+      "path": "pages/ou/欧亚大陆.md",
       "description": "全书论证的核心地理单元，以东西走向的大陆轴线为最重要的地理特征，使新月沃地的作物和家畜能够快速传播至整个温带欧亚大陆，从而使欧亚人积累了作物、家畜、病菌和技术方面的决定性优势。",
       "prose_len": 991,
       "prose_chars": 924,
@@ -4671,7 +4686,7 @@
         "非洲",
         "征服"
       ],
-      "path": "ou/欧洲殖民非洲.md",
+      "path": "pages/ou/欧洲殖民非洲.md",
       "description": "19世纪欧洲人在撒哈拉以南非洲建立殖民地；戴蒙德指出，欧洲人征服非洲的直接原因与征服美洲相同：枪炮、普及文化和政治组织，但终极原因仍在于地理与生态条件决定的欧亚大陆农业、技术积累优势。",
       "prose_len": 658,
       "prose_chars": 622,
@@ -4694,7 +4709,7 @@
         "地理",
         "农业"
       ],
-      "path": "pi/平原.md",
+      "path": "pages/pi/平原.md",
       "description": "地势平坦开阔的陆地，历史上农业文明和大规模人类社会组织的摇篮",
       "prose_len": 1050,
       "prose_chars": 990,
@@ -4718,7 +4733,7 @@
         "社会组织",
         "历史"
       ],
-      "path": "pi/平民.md",
+      "path": "pages/pi/平民.md",
       "description": "社会分层体系中的非精英大多数，是农业剩余的主要生产者和政治动员的对象",
       "prose_len": 874,
       "prose_chars": 812,
@@ -4741,7 +4756,7 @@
         "征服者",
         "探险家"
       ],
-      "path": "pi/皮萨罗.md",
+      "path": "pages/pi/皮萨罗.md",
       "description": "西班牙征服者，率168名士兵于1532年在卡哈马卡俘获印加皇帝阿塔瓦尔帕，征服印加帝国；其军事成功被戴蒙德用来剖析欧亚大陆地理优势如何通过钢铁、病菌和书写系统转化为征服力量。",
       "prose_len": 658,
       "prose_chars": 622,
@@ -4761,7 +4776,7 @@
       "tags": [
         "chapter"
       ],
-      "path": "pr/Preface.md",
+      "path": "pages/pr/Preface.md",
       "prose_len": 17400,
       "prose_chars": 17164,
       "h2_count": 1,
@@ -4785,7 +4800,7 @@
         "农作物",
         "驯化种"
       ],
-      "path": "pu/葡萄.md",
+      "path": "pages/pu/葡萄.md",
       "description": "地中海地区最早驯化的水果之一，与橄榄、无花果和枣椰并称最早驯化的4种水果",
       "prose_len": 660,
       "prose_chars": 601,
@@ -4811,7 +4826,7 @@
         "族群",
         "政治组织"
       ],
-      "path": "qi/亲属关系.md",
+      "path": "pages/qi/亲属关系.md",
       "description": "血缘与婚姻构成的社会纽带，是小规模社会维持秩序的核心机制，规模扩大时则无法独立支撑社会整合",
       "prose_len": 790,
       "prose_chars": 717,
@@ -4836,7 +4851,7 @@
         "征服",
         "技术传播"
       ],
-      "path": "qi/枪炮.md",
+      "path": "pages/qi/枪炮.md",
       "description": "以火药为动力的投射武器，《枪炮、病菌与钢铁》书名三大要素之一；在卡哈马卡征服战役中，枪炮只起次要作用，钢铁武器才是真正的杀伤利器，而病菌的影响超过一切武器。",
       "prose_len": 1119,
       "prose_chars": 987,
@@ -4859,7 +4874,7 @@
         "物种分布",
         "动物灭绝"
       ],
-      "path": "qi/栖息地.md",
+      "path": "pages/qi/栖息地.md",
       "description": "物种赖以生存和繁殖的自然环境，其改变直接影响物种的存续",
       "prose_len": 919,
       "prose_chars": 837,
@@ -4885,7 +4900,7 @@
         "粮食生产",
         "大陆轴线"
       ],
-      "path": "qi/气候.md",
+      "path": "pages/qi/气候.md",
       "description": "在《枪炮、病菌与钢铁》中，气候是农业起源分布的关键约束条件——地中海型气候区富含野生一年生植物，成为农业最早起源的温床；气候差异沿纬度分布，从而成为限制技术与农业跨大洲传播的隐形屏障。",
       "prose_len": 1172,
       "prose_chars": 1034,
@@ -4909,7 +4924,7 @@
         "农业",
         "生态"
       ],
-      "path": "qi/气候带.md",
+      "path": "pages/qi/气候带.md",
       "description": "地球上的主要气候分带及其对农业传播和文明分布的影响",
       "prose_len": 239,
       "prose_chars": 237,
@@ -4935,7 +4950,7 @@
         "社会复杂化",
         "国家起源"
       ],
-      "path": "qi/酋长.md",
+      "path": "pages/qi/酋长.md",
       "description": "介于部落与国家之间的政治形态，以世袭权威和再分配制度为核心特征——国家起源的直接前身",
       "prose_len": 1017,
       "prose_chars": 953,
@@ -4958,7 +4973,7 @@
         "冶金",
         "军事"
       ],
-      "path": "qi/青铜.md",
+      "path": "pages/qi/青铜.md",
       "description": "人类最早广泛使用的金属合金及其对社会复杂化的推动作用",
       "prose_len": 236,
       "prose_chars": 234,
@@ -4982,7 +4997,7 @@
         "技术",
         "动物"
       ],
-      "path": "qi/骑兵.md",
+      "path": "pages/qi/骑兵.md",
       "description": "以马匹为交通工具的军事力量及其对战争形态的革命性影响",
       "prose_len": 248,
       "prose_chars": 246,
@@ -5003,7 +5018,7 @@
         "国家形成",
         "农业"
       ],
-      "path": "re/人口.md",
+      "path": "pages/re/人口.md",
       "description": "人口规模与密度是社会复杂性演化和文明竞争力的关键变量",
       "prose_len": 836,
       "prose_chars": 759,
@@ -5027,7 +5042,7 @@
         "农业",
         "历史"
       ],
-      "path": "re/人口密度.md",
+      "path": "pages/re/人口密度.md",
       "description": "单位土地面积内的人口数量；在戴蒙德的论证中，人口密度是粮食生产带来的关键结果，也是病菌演化、技术积累和政治复杂性的直接驱动力。",
       "prose_len": 1153,
       "prose_chars": 1019,
@@ -5052,7 +5067,7 @@
         "农业",
         "迁徙"
       ],
-      "path": "re/人口扩张.md",
+      "path": "pages/re/人口扩张.md",
       "description": "粮食生产群体凭借人口数量优势取代狩猎采集族群的历史模式",
       "prose_len": 877,
       "prose_chars": 814,
@@ -5076,7 +5091,7 @@
         "社会",
         "经济"
       ],
-      "path": "re/人口稠密.md",
+      "path": "pages/re/人口稠密.md",
       "description": "人口密度对社会组织复杂化和技术发展的推动作用",
       "prose_len": 234,
       "prose_chars": 232,
@@ -5100,7 +5115,7 @@
         "技术传播",
         "粮食生产"
       ],
-      "path": "re/人口规模.md",
+      "path": "pages/re/人口规模.md",
       "description": "在《枪炮、病菌与钢铁》中，人口规模是预测社会复杂程度的最有力单一指标——人口越多，技术和组织越复杂，专业化越高；人口规模还决定了传染病能否演化为流行病，以及技术创新能否在足够大的网络中得到保存和积累。",
       "prose_len": 951,
       "prose_chars": 767,
@@ -5120,7 +5135,7 @@
         "index",
         "person"
       ],
-      "path": "re/人物索引.md",
+      "path": "pages/re/人物索引.md",
       "description": "本 wiki 收录的全部人物词条索引",
       "prose_len": 259,
       "prose_chars": 217,
@@ -5145,7 +5160,7 @@
         "种族主义",
         "历史解释"
       ],
-      "path": "re/人种.md",
+      "path": "pages/re/人种.md",
       "description": "对人类群体进行生物学分类的概念，枪炮病菌与钢铁明确反驳以人种差异解释历史走向的论点",
       "prose_len": 810,
       "prose_chars": 719,
@@ -5169,7 +5184,7 @@
         "演化",
         "史前"
       ],
-      "path": "re/人类进化.md",
+      "path": "pages/re/人类进化.md",
       "description": "现代智人从灵长类祖先分化并扩散至全球的演化历程",
       "prose_len": 266,
       "prose_chars": 264,
@@ -5193,7 +5208,7 @@
         "澳大利亚",
         "史前"
       ],
-      "path": "re/人类首次定居澳大利亚.md",
+      "path": "pages/re/人类首次定居澳大利亚.md",
       "description": "约4万年前，人类首次到达澳大利亚，这是人类历史上首次使用水运工具跨越大规模海洋的壮举；这一事件的独特意义在于，人类到达后不久，澳大利亚的巨型动物几乎全部灭绝，使此后的土著社会缺乏可驯化的大型哺乳动物。",
       "prose_len": 674,
       "prose_chars": 638,
@@ -5219,7 +5234,7 @@
         "农业",
         "传染病"
       ],
-      "path": "re/热带地区.md",
+      "path": "pages/re/热带地区.md",
       "description": "赤道附近的高温多雨地带，在枪炮病菌与钢铁的框架中是农业传播的屏障和殖民的生物障碍",
       "prose_len": 833,
       "prose_chars": 737,
@@ -5243,7 +5258,7 @@
         "农业传播",
         "语言起源"
       ],
-      "path": "ri/日本.md",
+      "path": "pages/ri/日本.md",
       "description": "从亚洲大陆缓慢采纳集约型粮食生产的海岛地区，因本土狩猎采集资源丰富而长期维持采集生活；新月沃地的大多数作物在日本生长良好，体现了东西轴线气候相似性；文字识字率今日极高，但文字的出现比伊拉克晚了近4000年。",
       "prose_len": 573,
       "prose_chars": 534,
@@ -5265,7 +5280,7 @@
         "地区",
         "地理"
       ],
-      "path": "sa/sahala.md",
+      "path": "pages/sa/sahala.md",
       "description": "世界上最大的热带沙漠，非洲大陆北部的地理屏障，阻隔了南北交流",
       "prose_len": 926,
       "prose_chars": 871,
@@ -5290,7 +5305,7 @@
         "农业起源",
         "非洲"
       ],
-      "path": "sa/萨赫勒地带.md",
+      "path": "pages/sa/萨赫勒地带.md",
       "description": "撒哈拉沙漠南缘的半干旱过渡带，是非洲本土农业的独立起源候选地，驯化了高粱、珍珠稗、非洲稻米等谷物（不迟于公元前5000年），同时是新月沃地作物向南传播的终点屏障，体现了非洲纬度农业传播受阻的机制。",
       "prose_len": 854,
       "prose_chars": 802,
@@ -5314,7 +5329,7 @@
         "技术",
         "社会组织"
       ],
-      "path": "sh/书写系统.md",
+      "path": "pages/sh/书写系统.md",
       "description": "人类将语言符号化记录的技术体系，戴蒙德分析其独立起源的稀少性、三种基本策略及沿大陆轴线的传播方式，以揭示技术扩散的普遍规律。",
       "prose_len": 1007,
       "prose_chars": 888,
@@ -5339,7 +5354,7 @@
         "旧大陆",
         "征服"
       ],
-      "path": "sh/伤寒.md",
+      "path": "pages/sh/伤寒.md",
       "description": "由立克次体引起、经虱子传播的急性传染病，是欧洲人征服美洲的旧大陆病菌之一，也是分析病原体演化路径的典型案例",
       "prose_len": 748,
       "prose_chars": 660,
@@ -5364,7 +5379,7 @@
         "社会组织",
         "经济"
       ],
-      "path": "sh/剩余粮食.md",
+      "path": "pages/sh/剩余粮食.md",
       "description": "农业生产的粮食超出直接消费所需的部分——文明所有非农业活动的物质前提",
       "prose_len": 843,
       "prose_chars": 780,
@@ -5389,7 +5404,7 @@
         "经济",
         "文化传播"
       ],
-      "path": "sh/商人.md",
+      "path": "pages/sh/商人.md",
       "description": "专职从事商品买卖和长途贸易的职业群体，是商业网络的核心参与者和文化交流的媒介",
       "prose_len": 821,
       "prose_chars": 742,
@@ -5414,7 +5429,7 @@
         "家畜",
         "驯化种"
       ],
-      "path": "sh/山羊.md",
+      "path": "pages/sh/山羊.md",
       "description": "最早被驯化的反刍哺乳动物之一，为人类提供肉、奶、毛皮和骨料",
       "prose_len": 673,
       "prose_chars": 614,
@@ -5439,7 +5454,7 @@
         "农业",
         "技术传播"
       ],
-      "path": "sh/山脉.md",
+      "path": "pages/sh/山脉.md",
       "description": "连续延伸的高山地形，是农业扩散、物种传播和文化交流的重要地理屏障",
       "prose_len": 943,
       "prose_chars": 866,
@@ -5460,7 +5475,7 @@
         "政治组织",
         "国家形成"
       ],
-      "path": "sh/水利.md",
+      "path": "pages/sh/水利.md",
       "description": "利用工程手段调配水资源以支持农业生产，与定居化和政治集权密切关联",
       "prose_len": 877,
       "prose_chars": 803,
@@ -5484,7 +5499,7 @@
         "家畜",
         "驯化种"
       ],
-      "path": "sh/水牛.md",
+      "path": "pages/sh/水牛.md",
       "description": "亚洲驯化的大型哺乳动物，用于犁地、产奶和运输",
       "prose_len": 365,
       "prose_chars": 318,
@@ -5510,7 +5525,7 @@
         "农作物",
         "驯化种"
       ],
-      "path": "sh/水稻.md",
+      "path": "pages/sh/水稻.md",
       "description": "东亚最重要的驯化谷物，起源于中国长江流域，约公元前7000年驯化，是全球十二种主要作物之一；与小麦在欧亚东西轴线上的快速传播形成对比，水稻代表了中国农业体系的另一条起源路径，也是中国文明南北分异的物质基础。",
       "prose_len": 1075,
       "prose_chars": 1012,
@@ -5535,7 +5550,7 @@
         "传播屏障",
         "非洲"
       ],
-      "path": "sh/沙漠.md",
+      "path": "pages/sh/沙漠.md",
       "description": "极度干旱的地理区域，在枪炮病菌与钢铁中是切断非洲内部技术与文明传播的关键地理屏障",
       "prose_len": 788,
       "prose_chars": 689,
@@ -5560,7 +5575,7 @@
         "历史",
         "农业"
       ],
-      "path": "sh/狩猎采集.md",
+      "path": "pages/sh/狩猎采集.md",
       "description": "人类数百万年来赖以为生的基础生存方式，依靠猎捕野生动物和采集野生植物维持生计；与粮食生产的对比是戴蒙德解释文明不平等的核心叙事框架。",
       "prose_len": 1104,
       "prose_chars": 1000,
@@ -5586,7 +5601,7 @@
         "环境",
         "生物多样性"
       ],
-      "path": "sh/生态.md",
+      "path": "pages/sh/生态.md",
       "description": "生物与环境的相互关系体系，决定了可供驯化的物种数量和农业传播的可能性",
       "prose_len": 753,
       "prose_chars": 672,
@@ -5613,7 +5628,7 @@
         "气候",
         "地理"
       ],
-      "path": "sh/生态适应.md",
+      "path": "pages/sh/生态适应.md",
       "description": "生物体（包括人类及其驯化的动植物）对特定环境条件的遗传与行为性调整——理解物种分布、驯化和文明传播格局的关键机制",
       "prose_len": 1113,
       "prose_chars": 1049,
@@ -5638,7 +5653,7 @@
         "技术",
         "考古学"
       ],
-      "path": "sh/石器时代.md",
+      "path": "pages/sh/石器时代.md",
       "description": "人类以石制工具为主要技术手段的历史时期，涵盖旧石器与新石器两个阶段，以农业革命为分界",
       "prose_len": 803,
       "prose_chars": 710,
@@ -5663,7 +5678,7 @@
         "历史",
         "政治"
       ],
-      "path": "sh/社会复杂性.md",
+      "path": "pages/sh/社会复杂性.md",
       "description": "从小型平等主义族群到大型层级化国家的社会演化谱系；戴蒙德论证，社会复杂性由人口密度驱动，而人口密度最终根植于粮食生产的出现。",
       "prose_len": 1155,
       "prose_chars": 1026,
@@ -5687,7 +5702,7 @@
         "社会",
         "制度"
       ],
-      "path": "sh/社会组织.md",
+      "path": "pages/sh/社会组织.md",
       "description": "人类群体从游群到国家的社会组织形态演化序列",
       "prose_len": 281,
       "prose_chars": 279,
@@ -5710,7 +5725,7 @@
         "病菌",
         "人口"
       ],
-      "path": "sh/鼠疫.md",
+      "path": "pages/sh/鼠疫.md",
       "description": "由鼠疫杆菌引起的烈性传染病，历史上曾多次造成欧亚大陆大规模人口死亡——源自动物宿主的流行病的典型案例",
       "prose_len": 1009,
       "prose_chars": 945,
@@ -5733,7 +5748,7 @@
         "岛屿",
         "语言"
       ],
-      "path": "ta/taiwan.md",
+      "path": "pages/ta/taiwan.md",
       "description": "东亚沿海岛屿，南岛语系的起源地，农业人口扩张的关键起点",
       "prose_len": 843,
       "prose_chars": 788,
@@ -5759,7 +5774,7 @@
         "迁徙",
         "地理发现"
       ],
-      "path": "ta/探险.md",
+      "path": "pages/ta/探险.md",
       "description": "人类对未知地域的主动探索与定居，从史前太平洋拓殖到欧洲地理大发现的宏大历史进程",
       "prose_len": 854,
       "prose_chars": 766,
@@ -5784,7 +5799,7 @@
         "发明",
         "定居生活"
       ],
-      "path": "ta/陶器.md",
+      "path": "pages/ta/陶器.md",
       "description": "用黏土烧制容器的技术，是人类最早在多个地点独立发明的技术之一；在《枪炮、病菌与钢铁》中，陶器作为技术传播受定居生活约束的典型案例，也是大陆轴线影响技术扩散速度的例证。",
       "prose_len": 1159,
       "prose_chars": 1031,
@@ -5808,7 +5823,7 @@
         "病菌",
         "殖民史"
       ],
-      "path": "ti/天花.md",
+      "path": "pages/ti/天花.md",
       "description": "由天花病毒引起的烈性传染病，是人类历史上死亡人数最多的传染病之一",
       "prose_len": 812,
       "prose_chars": 734,
@@ -5831,7 +5846,7 @@
         "病原体",
         "疾病"
       ],
-      "path": "ti/天花病毒.md",
+      "path": "pages/ti/天花病毒.md",
       "description": "引发天花的病毒，由牛痘病毒演化而来，是欧洲人征服美洲过程中杀死美洲原住民最多的单一病原体，也是戴蒙德分析欧亚传染病优势的核心案例。",
       "prose_len": 858,
       "prose_chars": 797,
@@ -5856,7 +5871,7 @@
         "技术",
         "军事"
       ],
-      "path": "ti/铁器.md",
+      "path": "pages/ti/铁器.md",
       "description": "以铁为主要材料制造的工具与武器，标志着人类材料技术的重大跃升",
       "prose_len": 865,
       "prose_chars": 786,
@@ -5866,7 +5881,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 2
+      "total_refs": 1
     },
     "统一": {
       "type": "concept",
@@ -5882,7 +5897,7 @@
         "中国",
         "欧洲"
       ],
-      "path": "to/统一.md",
+      "path": "pages/to/统一.md",
       "description": "政治与文化的整合过程，中国长期统一与欧洲长期分裂的对比揭示地理对历史命运的深远影响",
       "prose_len": 812,
       "prose_chars": 741,
@@ -5906,7 +5921,7 @@
         "家畜",
         "驯化种"
       ],
-      "path": "tu/兔.md",
+      "path": "pages/tu/兔.md",
       "description": "欧洲驯化的小型哺乳动物，为人类提供肉食和毛皮",
       "prose_len": 325,
       "prose_chars": 293,
@@ -5931,7 +5946,7 @@
         "政治组织",
         "资源"
       ],
-      "path": "tu/土地.md",
+      "path": "pages/tu/土地.md",
       "description": "农业生产的基本资源，其所有权的分配是政治权力结构的核心",
       "prose_len": 865,
       "prose_chars": 786,
@@ -5957,7 +5972,7 @@
         "农业",
         "环境"
       ],
-      "path": "tu/土壤.md",
+      "path": "pages/tu/土壤.md",
       "description": "土壤的肥力与理化性质是农业生产力的基础，决定了各地区农业发展的天花板",
       "prose_len": 830,
       "prose_chars": 753,
@@ -5982,7 +5997,7 @@
         "演化",
         "驯化"
       ],
-      "path": "tu/突变.md",
+      "path": "pages/tu/突变.md",
       "description": "遗传物质的随机改变，是演化的基础机制，在枪炮病菌与钢铁中解释了驯化物种特征的起源和病原体的演化",
       "prose_len": 767,
       "prose_chars": 691,
@@ -6006,7 +6021,7 @@
         "家畜",
         "驯化种"
       ],
-      "path": "tu/豚鼠.md",
+      "path": "pages/tu/豚鼠.md",
       "description": "安第斯山脉驯化的小型哺乳动物，为印加帝国提供重要的肉食来源",
       "prose_len": 511,
       "prose_chars": 453,
@@ -6031,7 +6046,7 @@
         "社会复杂化",
         "国家形成"
       ],
-      "path": "wa/王国.md",
+      "path": "pages/wa/王国.md",
       "description": "规模较大的农业社会形成的政治组织单位，介于酋长制和帝国之间，以世袭权威、常备军和税收制度为基本特征",
       "prose_len": 684,
       "prose_chars": 602,
@@ -6053,7 +6068,7 @@
       "tags": [
         "科学家"
       ],
-      "path": "wa/瓦特.md",
+      "path": "pages/wa/瓦特.md",
       "description": "英国工程师；戴蒙德以瓦特蒸汽机为例，论证技术发明源于对社会需求的回应，且发明的传播往往超出最初设计目的",
       "prose_len": 797,
       "prose_chars": 749,
@@ -6079,7 +6094,7 @@
         "农作物",
         "驯化种"
       ],
-      "path": "wa/豌豆.md",
+      "path": "pages/wa/豌豆.md",
       "description": "新月沃地\"八大始祖作物\"中的豆科代表，约公元前8000年驯化，与小麦、大麦形成高效的氮素互补农业组合，驯化变化（大种子、不爆裂豆荚）直接说明无意识选择如何塑造作物性状。",
       "prose_len": 1102,
       "prose_chars": 1037,
@@ -6104,7 +6119,7 @@
         "文化",
         "技术采纳"
       ],
-      "path": "we/文化.md",
+      "path": "pages/we/文化.md",
       "description": "人类群体共有的行为与信仰体系，在技术采纳与传播中发挥独立的历史作用",
       "prose_len": 796,
       "prose_chars": 712,
@@ -6127,7 +6142,7 @@
         "文明发展",
         "知识积累"
       ],
-      "path": "we/文字.md",
+      "path": "pages/we/文字.md",
       "description": "记录语言和信息的符号系统，使知识得以跨越时空精确传递",
       "prose_len": 844,
       "prose_chars": 772,
@@ -6152,7 +6167,7 @@
         "技术",
         "信息传播"
       ],
-      "path": "we/文字的独立发明.md",
+      "path": "pages/we/文字的独立发明.md",
       "description": "文字在人类历史上被独立发明了数次，最早的无可争辩的案例是约公元前3000年美索不达米亚的苏美尔楔形文字；戴蒙德分析文字的发明史，以说明文字是通过蓝图借鉴或刺激传播，而非多数地区独立创造。",
       "prose_len": 672,
       "prose_chars": 636,
@@ -6175,7 +6190,7 @@
         "气候",
         "生态"
       ],
-      "path": "we/温带.md",
+      "path": "pages/we/温带.md",
       "description": "温带气候带对农业起源和文明发展的地理优势",
       "prose_len": 227,
       "prose_chars": 225,
@@ -6201,7 +6216,7 @@
         "农业传播",
         "大陆轴线"
       ],
-      "path": "we/纬度.md",
+      "path": "pages/we/纬度.md",
       "description": "纬度决定白天长度和季节变化，是影响作物传播速度和方向的核心地理变量——欧亚大陆东西轴线优势的根本原因",
       "prose_len": 1011,
       "prose_chars": 947,
@@ -6224,7 +6239,7 @@
         "农作物",
         "驯化种"
       ],
-      "path": "wu/无花果.md",
+      "path": "pages/wu/无花果.md",
       "description": "地中海地区最早驯化的水果之一",
       "prose_len": 269,
       "prose_chars": 236,
@@ -6247,7 +6262,7 @@
         "岛屿",
         "文明"
       ],
-      "path": "xi/xiaweiyi.md",
+      "path": "pages/xi/xiaweiyi.md",
       "description": "波利尼西亚群岛北部的最大岛屿，复杂社会演化和疾病传播的研究案例",
       "prose_len": 825,
       "prose_chars": 770,
@@ -6269,7 +6284,7 @@
         "征服",
         "战役"
       ],
-      "path": "xi/xibanya-zhengfu-aziteke.md",
+      "path": "pages/xi/xibanya-zhengfu-aziteke.md",
       "description": "1519年科尔特斯率领600名西班牙人征服人口数百万的阿兹特克帝国",
       "prose_len": 688,
       "prose_chars": 641,
@@ -6291,7 +6306,7 @@
         "征服",
         "战役"
       ],
-      "path": "xi/xibanya-zhengfu-yinjia.md",
+      "path": "pages/xi/xibanya-zhengfu-yinjia.md",
       "description": "1532年皮萨罗率领168名西班牙人征服人口数百万的印加帝国",
       "prose_len": 664,
       "prose_chars": 617,
@@ -6313,7 +6328,7 @@
         "地区",
         "地理"
       ],
-      "path": "xi/xiboliya.md",
+      "path": "pages/xi/xiboliya.md",
       "description": "亚洲北部的广袤地区，人类迁往美洲的必经之路",
       "prose_len": 812,
       "prose_chars": 758,
@@ -6335,7 +6350,7 @@
         "地区",
         "地理"
       ],
-      "path": "xi/ximalaya.md",
+      "path": "pages/xi/ximalaya.md",
       "description": "亚洲的巨大山脉，重要的地理屏障，阻隔了东西方农业传播",
       "prose_len": 793,
       "prose_chars": 739,
@@ -6358,7 +6373,7 @@
         "文明",
         "农业"
       ],
-      "path": "xi/xinyuewodi.md",
+      "path": "pages/xi/xinyuewodi.md",
       "description": "西南亚的弧形肥沃地带，世界上最早的农业起源中心和文明摇篮之一",
       "prose_len": 1090,
       "prose_chars": 1033,
@@ -6381,7 +6396,7 @@
         "高原",
         "地区"
       ],
-      "path": "xi/xizang.md",
+      "path": "pages/xi/xizang.md",
       "description": "青藏高原的核心区域，汉藏语系的发源地之一，高海拔文明的典型代表",
       "prose_len": 743,
       "prose_chars": 689,
@@ -6404,7 +6419,7 @@
         "农作物",
         "驯化种"
       ],
-      "path": "xi/向日葵.md",
+      "path": "pages/xi/向日葵.md",
       "description": "北美东部驯化的油料作物",
       "prose_len": 383,
       "prose_chars": 337,
@@ -6430,7 +6445,7 @@
         "农作物",
         "驯化种"
       ],
-      "path": "xi/小麦.md",
+      "path": "pages/xi/小麦.md",
       "description": "世界上最重要的驯化谷物之一，最早于约公元前10000年在新月沃地驯化，是欧亚大陆农业革命的核心作物，其沿东西轴线的快速传播直接支持了戴蒙德的大陆轴线论点。",
       "prose_len": 923,
       "prose_chars": 862,
@@ -6452,7 +6467,7 @@
       "tags": [
         "政治家"
       ],
-      "path": "xi/希特勒.md",
+      "path": "pages/xi/希特勒.md",
       "description": "德国纳粹领袖；戴蒙德在第二十章以希特勒为案例分析个人在历史中的作用，援引1930年交通事故和1944年暗杀图谋两个险些终结其生命的事件，以此讨论偶然事件能否改变历史走向。",
       "prose_len": 738,
       "prose_chars": 702,
@@ -6479,7 +6494,7 @@
         "农业",
         "历史"
       ],
-      "path": "xi/新几内亚.md",
+      "path": "pages/xi/新几内亚.md",
       "description": "全书叙述的起点，耶利问题的提出地，也是世界上独立发明农业却未能发展出文字和国家的少数地区之一；新几内亚在生物地理上的隔离与农业体系的局限，是戴蒙德论证地理环境决定发展差异的核心案例。",
       "prose_len": 1091,
       "prose_chars": 1026,
@@ -6505,7 +6520,7 @@
         "农业",
         "历史"
       ],
-      "path": "xi/新月沃地.md",
+      "path": "pages/xi/新月沃地.md",
       "description": "西亚一片弧形地带（涵盖今以色列、约旦、叙利亚、土耳其东南、伊拉克和伊朗西部），是人类粮食生产最早的独立起源地之一，也是小麦、大麦及多种家畜驯化的发源地。",
       "prose_len": 1103,
       "prose_chars": 983,
@@ -6530,7 +6545,7 @@
         "西南亚",
         "起源"
       ],
-      "path": "xi/新月沃地农业起源.md",
+      "path": "pages/xi/新月沃地农业起源.md",
       "description": "约公元前8500年，西南亚新月沃地出现了世界上有明确年代记录最早的植物驯化，随后约公元前8000年出现动物驯化；这一农业起源事件在全书中作为全球农业扩散的起点，其地理禀赋（适于驯化的野生植物和动物种类丰富）是粮食生产最早在此出现的关键原因。",
       "prose_len": 630,
       "prose_chars": 594,
@@ -6556,7 +6571,7 @@
         "认知",
         "史前史"
       ],
-      "path": "xi/现代人.md",
+      "path": "pages/xi/现代人.md",
       "description": "在行为和生物学上完全现代化的人类，约5万年前的\"大跃进\"标志着人类历史的真正开始",
       "prose_len": 871,
       "prose_chars": 770,
@@ -6582,7 +6597,7 @@
         "官僚体系",
         "社会复杂化"
       ],
-      "path": "xi/行政.md",
+      "path": "pages/xi/行政.md",
       "description": "协调和管理复杂社会事务的正式组织体系——从酋长管辖地到国家的核心制度演化",
       "prose_len": 1026,
       "prose_chars": 962,
@@ -6604,7 +6619,7 @@
         "技术",
         "贸易"
       ],
-      "path": "xi/锡.md",
+      "path": "pages/xi/锡.md",
       "description": "金属元素，与铜熔炼为青铜的关键原料，其资源分布对青铜时代各文明的军事和技术优势产生了重要影响",
       "prose_len": 919,
       "prose_chars": 859,
@@ -6629,7 +6644,7 @@
         "农作物",
         "驯化种"
       ],
-      "path": "xi/香蕉.md",
+      "path": "pages/xi/香蕉.md",
       "description": "热带地区的重要碳水化合物作物，在东南亚和新几内亚独立驯化",
       "prose_len": 656,
       "prose_chars": 597,
@@ -6654,7 +6669,7 @@
         "生物",
         "演化"
       ],
-      "path": "xu/驯化.md",
+      "path": "pages/xu/驯化.md",
       "description": "人类通过栽种或饲养使野生动植物发生有利遗传变化的过程，是粮食生产的起点，也是欧亚大陆文明相对美洲和非洲获得结构性优势的根本原因之一。",
       "prose_len": 1143,
       "prose_chars": 1018,
@@ -6664,7 +6679,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 37
+      "total_refs": 38
     },
     "驯鹿": {
       "type": "species",
@@ -6678,7 +6693,7 @@
         "家畜",
         "驯化种"
       ],
-      "path": "xu/驯鹿.md",
+      "path": "pages/xu/驯鹿.md",
       "description": "北极地区驯化的大型哺乳动物，用于拉雪橇和提供肉食毛皮",
       "prose_len": 413,
       "prose_chars": 366,
@@ -6701,7 +6716,7 @@
         "统治者",
         "征服者"
       ],
-      "path": "ya/亚历山大大帝.md",
+      "path": "pages/ya/亚历山大大帝.md",
       "description": "马其顿国王，公元前4世纪末率希腊人征服了从希腊向东直到印度的所有先进社会；戴蒙德以亚历山大为例，论证即使是伟大的征服者也无法改变历史的深层结构性驱动力，历史个人的特质只能\"推动\"已具备结构性条件的变化。",
       "prose_len": 603,
       "prose_chars": 569,
@@ -6725,7 +6740,7 @@
         "农业",
         "技术"
       ],
-      "path": "ya/亚麻.md",
+      "path": "pages/ya/亚麻.md",
       "description": "最早被人类驯化的纤维作物之一，为古代文明提供了重要的纺织品原料",
       "prose_len": 915,
       "prose_chars": 855,
@@ -6749,7 +6764,7 @@
         "作物驯化",
         "物种"
       ],
-      "path": "ya/演化.md",
+      "path": "pages/ya/演化.md",
       "description": "物种随时间发生遗传变化的过程，是理解生物多样性和作物驯化的核心理论框架",
       "prose_len": 942,
       "prose_chars": 870,
@@ -6773,7 +6788,7 @@
         "家畜",
         "驯化种"
       ],
-      "path": "ya/羊驼.md",
+      "path": "pages/ya/羊驼.md",
       "description": "安第斯山脉驯化的骆驼科动物，其毛绒极为珍贵",
       "prose_len": 276,
       "prose_chars": 244,
@@ -6797,7 +6812,7 @@
         "家畜",
         "驯化种"
       ],
-      "path": "ya/鸭.md",
+      "path": "pages/ya/鸭.md",
       "description": "欧亚大陆驯化的水禽，因肉蛋和羽毛而被驯化的鸟类之一",
       "prose_len": 298,
       "prose_chars": 254,
@@ -6824,7 +6839,7 @@
         "武器",
         "发明"
       ],
-      "path": "ye/冶金.md",
+      "path": "pages/ye/冶金.md",
       "description": "在《枪炮、病菌与钢铁》中，冶金技术是文明程度的核心标志之一，也是武器制造能力的物质基础，其发展路径（铜→青铜→铁）遵循累积性技术进步的规律。",
       "prose_len": 1039,
       "prose_chars": 845,
@@ -6848,7 +6863,7 @@
         "农作物",
         "驯化种"
       ],
-      "path": "ye/椰子.md",
+      "path": "pages/ye/椰子.md",
       "description": "热带沿海地区广泛分布的棕榈科植物，为太平洋岛屿社会提供食物、饮水和材料",
       "prose_len": 645,
       "prose_chars": 587,
@@ -6870,7 +6885,7 @@
         "原住民",
         "学者"
       ],
-      "path": "ye/耶利.md",
+      "path": "pages/ye/耶利.md",
       "description": "新几内亚人，本书题记中提出核心问题\"为什么白人制造了那么多货物并把它们带到新几内亚来，而我们黑人却几乎没有属于我们自己的货物？\"的人，其问题是全书的论证起点。",
       "prose_len": 620,
       "prose_chars": 586,
@@ -6892,7 +6907,7 @@
         "驯化",
         "生态"
       ],
-      "path": "ye/野生植物.md",
+      "path": "pages/ye/野生植物.md",
       "description": "可被人类驯化为作物的野生植物资源的地理性分布",
       "prose_len": 238,
       "prose_chars": 236,
@@ -6916,7 +6931,7 @@
         "文明",
         "农业"
       ],
-      "path": "yi/yindu.md",
+      "path": "pages/yi/yindu.md",
       "description": "南亚次大陆，拥有悠久的农作物驯化历史和复杂的民族迁徙历史",
       "prose_len": 791,
       "prose_chars": 737,
@@ -6940,7 +6955,7 @@
         "文明",
         "农业"
       ],
-      "path": "yi/yinduhe.md",
+      "path": "pages/yi/yinduhe.md",
       "description": "南亚的主要河流，印度河文明的发源地，东西轴线粮食传播的东端",
       "prose_len": 793,
       "prose_chars": 739,
@@ -6964,7 +6979,7 @@
         "岛屿",
         "农业"
       ],
-      "path": "yi/yindunixiya.md",
+      "path": "pages/yi/yindunixiya.md",
       "description": "东南亚岛国，南岛语系扩张的核心区域和东西方农业传播的中介地带",
       "prose_len": 863,
       "prose_chars": 807,
@@ -6987,7 +7002,7 @@
         "农业",
         "生物"
       ],
-      "path": "yi/一年生植物.md",
+      "path": "pages/yi/一年生植物.md",
       "description": "每年完成一个生命周期的植物——早期农业优先驯化的对象，种子特性决定了驯化难易",
       "prose_len": 908,
       "prose_chars": 845,
@@ -7002,21 +7017,26 @@
     "印刷": {
       "type": "concept",
       "label": "印刷",
-      "aliases": [],
+      "aliases": [
+        "印刷术",
+        "活字印刷"
+      ],
       "tags": [
         "技术",
+        "文化",
+        "交流",
         "语言"
       ],
-      "path": "yi/印刷.md",
-      "description": "批量复制文字和图像的技术，从印章到活字印刷再到印刷机的发展历程展示了技术传播的复杂性和偶然性",
-      "prose_len": 1036,
-      "prose_chars": 976,
-      "h2_count": 5,
-      "pn_count": 0,
-      "wikilink_count": 4,
+      "path": "pages/yi/印刷.md",
+      "description": "印刷技术的发明与传播及其对知识传播和社会变革的推动",
+      "prose_len": 1254,
+      "prose_chars": 1136,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 5,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 30,
+      "quality": "featured",
+      "quality_score": 62,
       "total_refs": 0
     },
     "印刷术": {
@@ -7032,7 +7052,7 @@
         "书写系统",
         "发明"
       ],
-      "path": "yi/印刷术.md",
+      "path": "pages/yi/印刷术.md",
       "description": "在《枪炮、病菌与钢铁》中，印刷术是知识积累和传播速度的倍增器，也是技术发明如何依赖前序技术积累的经典案例——谷登堡的金属活字印刷需要以2000年的冶金技术为基础。",
       "prose_len": 1055,
       "prose_chars": 750,
@@ -7042,7 +7062,7 @@
       "blockquote_count": 3,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 2
+      "total_refs": 1
     },
     "移民": {
       "type": "concept",
@@ -7057,7 +7077,7 @@
         "迁徙",
         "人口"
       ],
-      "path": "yi/移民.md",
+      "path": "pages/yi/移民.md",
       "description": "人类从原住地向新地区的大规模迁徙，是物种、技术和文化传播的核心驱动力",
       "prose_len": 840,
       "prose_chars": 778,
@@ -7081,7 +7101,7 @@
         "农作物",
         "驯化种"
       ],
-      "path": "yi/罂粟.md",
+      "path": "pages/yi/罂粟.md",
       "description": "地中海地区驯化的油料和药用植物",
       "prose_len": 298,
       "prose_chars": 265,
@@ -7107,7 +7127,7 @@
         "生物进化",
         "驯化"
       ],
-      "path": "yi/遗传.md",
+      "path": "pages/yi/遗传.md",
       "description": "遗传学在书中扮演双重角色——拒绝用遗传差异解释文明差异，同时将其作为追溯人口迁徙和疾病适应历史的关键证据",
       "prose_len": 1023,
       "prose_chars": 959,
@@ -7131,7 +7151,7 @@
         "农作物",
         "驯化种"
       ],
-      "path": "yi/鹰嘴豆.md",
+      "path": "pages/yi/鹰嘴豆.md",
       "description": "新月沃地最早驯化的豆类之一，与豌豆和兵豆共同构成早期农业的蛋白质来源",
       "prose_len": 542,
       "prose_chars": 483,
@@ -7157,7 +7177,7 @@
         "狩猎采集",
         "粮食生产"
       ],
-      "path": "yo/游牧.md",
+      "path": "pages/yo/游牧.md",
       "description": "随季节迁移、不在固定地点永久居住的生活方式——历史上总体上在与定居农业社会的竞争中处于劣势",
       "prose_len": 1003,
       "prose_chars": 939,
@@ -7184,7 +7204,7 @@
         "农作物",
         "驯化种"
       ],
-      "path": "yu/玉米.md",
+      "path": "pages/yu/玉米.md",
       "description": "美洲最重要的驯化谷物，起源于中美洲野生的墨西哥类蜀黍，其驯化难度远高于小麦大麦，传播速度因美洲南北轴线而受到严重限制，是大陆轴线论点的关键对照案例。",
       "prose_len": 1000,
       "prose_chars": 937,
@@ -7209,7 +7229,7 @@
         "农作物",
         "驯化种"
       ],
-      "path": "yu/芋艿.md",
+      "path": "pages/yu/芋艿.md",
       "description": "东南亚和新几内亚驯化的根用作物，太平洋岛屿地区重要的碳水化合物主食来源",
       "prose_len": 594,
       "prose_chars": 535,
@@ -7232,7 +7252,7 @@
         "语言",
         "历史"
       ],
-      "path": "yu/语系.md",
+      "path": "pages/yu/语系.md",
       "description": "具有共同祖先语言的一组语言的分类，用于追溯人类迁徙和族群扩张的历史",
       "prose_len": 1021,
       "prose_chars": 961,
@@ -7256,7 +7276,7 @@
         "民族",
         "农业扩张"
       ],
-      "path": "yu/语言.md",
+      "path": "pages/yu/语言.md",
       "description": "语言的地理分布格局记录了人口迁移和文化扩张的历史轨迹——是重建史前史的可靠证据",
       "prose_len": 1010,
       "prose_chars": 946,
@@ -7281,7 +7301,7 @@
         "历史",
         "社会组织"
       ],
-      "path": "yu/语言传播.md",
+      "path": "pages/yu/语言传播.md",
       "description": "语言随人口迁移或文化影响向新地域扩散的过程；戴蒙德将语言分布视为史前人口移动的化石记录，用以追溯农业族群在全球各大陆的扩张路径。",
       "prose_len": 1160,
       "prose_chars": 1032,
@@ -7306,7 +7326,7 @@
         "历史证据",
         "人口迁徙"
       ],
-      "path": "yu/语言学.md",
+      "path": "pages/yu/语言学.md",
       "description": "通过语系分布重建史前人口扩张路径的科学方法，与考古学和遗传学互为印证",
       "prose_len": 907,
       "prose_chars": 821,
@@ -7330,7 +7350,7 @@
         "经济",
         "交流"
       ],
-      "path": "yu/运输.md",
+      "path": "pages/yu/运输.md",
       "description": "人员和物资的运输方式及其对文明发展的推动作用",
       "prose_len": 250,
       "prose_chars": 248,
@@ -7353,7 +7373,7 @@
         "地理",
         "生物"
       ],
-      "path": "yu/雨林.md",
+      "path": "pages/yu/雨林.md",
       "description": "高降雨量的茂密森林生态系统，既是人类迁徙的屏障也是独特的生物区系演化环境",
       "prose_len": 992,
       "prose_chars": 932,
@@ -7377,7 +7397,7 @@
         "社会组织",
         "经济"
       ],
-      "path": "za/再分配.md",
+      "path": "pages/za/再分配.md",
       "description": "酋长管辖地和国家将集中收取的贡品或税收向下分发的经济制度——权力合法化的核心机制",
       "prose_len": 878,
       "prose_chars": 815,
@@ -7399,7 +7419,7 @@
         "地区",
         "地理"
       ],
-      "path": "zh/zhili.md",
+      "path": "pages/zh/zhili.md",
       "description": "南美洲西南部国家，地中海气候带与人类定居研究的典型案例",
       "prose_len": 737,
       "prose_chars": 683,
@@ -7423,7 +7443,7 @@
         "社会组织",
         "农业"
       ],
-      "path": "zh/专业化分工.md",
+      "path": "pages/zh/专业化分工.md",
       "description": "粮食剩余驱动的社会分工现象——人口密度越高，技术组织越复杂，专业化程度越深",
       "prose_len": 1039,
       "prose_chars": 976,
@@ -7448,7 +7468,7 @@
         "历史",
         "农业"
       ],
-      "path": "zh/中国.md",
+      "path": "pages/zh/中国.md",
       "description": "世界上独立发明粮食生产的少数地区之一，华北（粟、黍）和华南（水稻）两个独立农业中心约于公元前7500年前后开始，中国地理特征促成了早期政治统一，使其成为对东亚和东南亚历史走向产生决定性影响的大陆文明起点。",
       "prose_len": 973,
       "prose_chars": 916,
@@ -7473,7 +7493,7 @@
         "中国",
         "东亚"
       ],
-      "path": "zh/中国农业起源.md",
+      "path": "pages/zh/中国农业起源.md",
       "description": "中国是世界上最早的动植物驯化中心之一，可能有南北两个独立的粮食生产起源中心，包括华北的耐旱黍子和华南的水稻；中国粮食生产独立于新月沃地，产生了完全不同的作物体系，并通过东西轴线向东亚各地传播。",
       "prose_len": 684,
       "prose_chars": 648,
@@ -7497,7 +7517,7 @@
         "制度",
         "历史"
       ],
-      "path": "zh/中央集权.md",
+      "path": "pages/zh/中央集权.md",
       "description": "政治权力集中于中央政府的组织形式及其对社会治理的影响",
       "prose_len": 259,
       "prose_chars": 257,
@@ -7522,7 +7542,7 @@
         "农业",
         "美洲"
       ],
-      "path": "zh/中美洲.md",
+      "path": "pages/zh/中美洲.md",
       "description": "美洲最重要的农业起源中心，玉米驯化地，也是书中论证新月沃地与美洲农业体系差距的核心对照案例；中美洲与安第斯山脉之间的地形障碍使两大美洲农业中心无法互通，进一步削弱了美洲整体的农业积累。",
       "prose_len": 864,
       "prose_chars": 809,
@@ -7546,7 +7566,7 @@
         "军事",
         "殖民主义"
       ],
-      "path": "zh/征服者.md",
+      "path": "pages/zh/征服者.md",
       "description": "以军事力量征服其他社会的施动者，在枪炮病菌与钢铁框架中是背后结构性优势的体现者",
       "prose_len": 745,
       "prose_chars": 655,
@@ -7572,7 +7592,7 @@
         "技术传播",
         "社会复杂性"
       ],
-      "path": "zh/战争.md",
+      "path": "pages/zh/战争.md",
       "description": "有组织的武装冲突，在《枪炮、病菌与钢铁》中作为社会复杂性的放大器：农业粮食储备养活了职业军队，国家组织提供了持久动员能力，而病菌往往比武器更具杀伤力。",
       "prose_len": 1215,
       "prose_chars": 1070,
@@ -7582,7 +7602,7 @@
       "blockquote_count": 1,
       "quality": "featured",
       "quality_score": 62,
-      "total_refs": 3
+      "total_refs": 4
     },
     "政治竞争": {
       "type": "concept",
@@ -7597,7 +7617,7 @@
         "历史",
         "技术"
       ],
-      "path": "zh/政治竞争.md",
+      "path": "pages/zh/政治竞争.md",
       "description": "分裂的政治格局通过竞争压力促进技术采纳与创新，统一则可能导致停滞",
       "prose_len": 935,
       "prose_chars": 873,
@@ -7622,7 +7642,7 @@
         "国家",
         "征服"
       ],
-      "path": "zh/政治组织.md",
+      "path": "pages/zh/政治组织.md",
       "description": "人类社会组织权力和决策的方式，在《枪炮、病菌与钢铁》中构成四级演化体系（族群→部落→酋长管辖地→国家），不同层级的政治组织决定了战争动员能力、技术积累速度和征服优势。",
       "prose_len": 1139,
       "prose_chars": 1013,
@@ -7647,7 +7667,7 @@
         "作物驯化",
         "农业起源"
       ],
-      "path": "zh/植物.md",
+      "path": "pages/zh/植物.md",
       "description": "光合自养生物，是人类粮食生产的原材料，其物种多样性深刻影响各地区农业潜力",
       "prose_len": 863,
       "prose_chars": 780,
@@ -7672,7 +7692,7 @@
         "驯化",
         "农业起源"
       ],
-      "path": "zh/植物学.md",
+      "path": "pages/zh/植物学.md",
       "description": "研究植物驯化过程与作物起源的科学，揭示野生植物向农作物演化的机制",
       "prose_len": 912,
       "prose_chars": 815,
@@ -7696,7 +7716,7 @@
         "政治",
         "地理"
       ],
-      "path": "zh/殖民.md",
+      "path": "pages/zh/殖民.md",
       "description": "欧洲国家通过征服和移民对美洲、非洲、亚洲和大洋洲进行领土扩张的过程",
       "prose_len": 262,
       "prose_chars": 260,
@@ -7722,7 +7742,7 @@
         "技术传播",
         "病菌"
       ],
-      "path": "zh/殖民主义.md",
+      "path": "pages/zh/殖民主义.md",
       "description": "在《枪炮、病菌与钢铁》中，欧洲殖民主义是本书试图解释的历史结果——为什么是欧洲人征服并殖民了其他大洲，而不是反过来？戴蒙德将殖民征服的成功追溯到枪炮、病菌、钢铁和文字等代理变量，而这些变量本身又源于更深层的地理因素。",
       "prose_len": 1288,
       "prose_chars": 1108,
@@ -7748,7 +7768,7 @@
         "家畜",
         "驯化种"
       ],
-      "path": "zh/猪.md",
+      "path": "pages/zh/猪.md",
       "description": "世界上最早被驯化的大型家畜之一，约公元前8000年在中国和西南亚独立驯化，同时是多种人类传染病（旋毛虫病、流感等）的动物宿主。",
       "prose_len": 881,
       "prose_chars": 818,
@@ -7771,7 +7791,7 @@
         "家畜",
         "驯化种"
       ],
-      "path": "zh/珍珠鸡.md",
+      "path": "pages/zh/珍珠鸡.md",
       "description": "非洲唯一确切知道的本地驯化鸟类",
       "prose_len": 398,
       "prose_chars": 351,
@@ -7794,7 +7814,7 @@
         "技术",
         "文明"
       ],
-      "path": "zh/知识.md",
+      "path": "pages/zh/知识.md",
       "description": "人类经验的积累和代际传递及其在文明发展中的作用",
       "prose_len": 241,
       "prose_chars": 239,
@@ -7804,7 +7824,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 0
+      "total_refs": 1
     },
     "种族主义": {
       "type": "concept",
@@ -7819,7 +7839,7 @@
         "地理决定论",
         "近端原因与终极原因"
       ],
-      "path": "zh/种族主义.md",
+      "path": "pages/zh/种族主义.md",
       "description": "《枪炮、病菌与钢铁》的核心任务之一，是用地理和生态因素替代种族决定论来解释文明差距——戴蒙德明确批判\"欧亚大陆人在创造性和智力方面高出一筹\"这一流行偏见，并以新几内亚人的认知能力为反证。",
       "prose_len": 977,
       "prose_chars": 842,
@@ -7844,7 +7864,7 @@
         "技术传播",
         "语言"
       ],
-      "path": "zi/字母.md",
+      "path": "pages/zi/字母.md",
       "description": "用单个符号表示基本语音单位（音素）的书写策略，是枪炮病菌与钢铁分析文字技术传播的核心案例之一",
       "prose_len": 854,
       "prose_chars": 768,
@@ -7870,7 +7890,7 @@
         "传播",
         "技术"
       ],
-      "path": "zi/字母文字的传播.md",
+      "path": "pages/zi/字母文字的传播.md",
       "description": "字母在人类历史上只产生过一次，约公元前第二个一千年在现代叙利亚到西奈半岛的说闪语地区；此后经由腓尼基人传希腊人，再传伊特鲁斯坎人，最终传至罗马，形成现代英文字母；戴蒙德以字母传播为案例说明技术通过\"蓝图借鉴\"传播的一般规律。",
       "prose_len": 644,
       "prose_chars": 608,
@@ -7896,7 +7916,7 @@
         "驯化",
         "达尔文"
       ],
-      "path": "zi/自然选择.md",
+      "path": "pages/zi/自然选择.md",
       "description": "达尔文提出的进化核心机制——农业耕作通过人工选择彻底颠覆了自然选择的方向",
       "prose_len": 912,
       "prose_chars": 850,
@@ -7922,7 +7942,7 @@
         "环境",
         "社会发展"
       ],
-      "path": "zi/资源.md",
+      "path": "pages/zi/资源.md",
       "description": "自然环境提供的可利用物质条件，岛屿间资源差异构成了研究人类社会发展的天然实验室",
       "prose_len": 922,
       "prose_chars": 840,
@@ -7948,7 +7968,7 @@
         "社会复杂性",
         "征服"
       ],
-      "path": "zo/宗教.md",
+      "path": "pages/zo/宗教.md",
       "description": "在《枪炮、病菌与钢铁》中，宗教是统治合法性的意识形态装置：从酋长管辖地的神权信仰，到国家级的有组织宗教，它始终为盗贼统治提供辩护，并与政府结合构成历史最广泛模式的四大直接动力之一。",
       "prose_len": 1169,
       "prose_chars": 1050,
@@ -7973,7 +7993,7 @@
         "作物驯化",
         "粮食生产"
       ],
-      "path": "zu/作物.md",
+      "path": "pages/zu/作物.md",
       "description": "经人类驯化栽培的植物种类，是农业文明的物质基础",
       "prose_len": 1000,
       "prose_chars": 918,
@@ -7999,7 +8019,7 @@
         "传播速度",
         "轴线"
       ],
-      "path": "zu/作物传播.md",
+      "path": "pages/zu/作物传播.md",
       "description": "作物、牲口及农业知识在史前时期的地理扩散，受东西轴与南北轴的速度差异深刻影响",
       "prose_len": 954,
       "prose_chars": 856,
@@ -8013,6 +8033,7 @@
     }
   },
   "alias_index": {
+    "PN_AUDIT_REPORT": "PN_AUDIT_REPORT",
     "About": "About",
     "关于本 Wiki": "About",
     "关于": "About",
@@ -8292,7 +8313,6 @@
     "狗": "狗",
     "家犬": "狗",
     "犬": "狗",
-    "dog": "狗",
     "国家": "国家",
     "国家社会": "国家",
     "国家形成": "国家",
@@ -8348,8 +8368,8 @@
     "火药武器": "火器",
     "枪械": "火器",
     "火药": "火药",
-    "黑色火药": "火药",
     "黑火药": "火药",
+    "黑色火药": "火药",
     "炸药": "火药",
     "火鸡": "火鸡",
     "turkey": "火鸡",
@@ -8996,9 +9016,9 @@
     "一年生作物": "一年生植物",
     "年生植物": "一年生植物",
     "印刷": "印刷",
-    "印刷术": "印刷术",
+    "印刷术": "印刷",
+    "活字印刷": "印刷",
     "printing": "印刷术",
-    "活字印刷": "印刷术",
     "印刷机": "印刷术",
     "移民": "移民",
     "人口迁徙": "移民",
@@ -9139,6 +9159,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 335,
-  "generated": "2026-05-26T01:18:14Z"
+  "page_count": 336,
+  "generated": "2026-05-26T01:21:43Z"
 }
