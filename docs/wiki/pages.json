@@ -1534,6 +1534,29 @@
       "quality_score": 7,
       "total_refs": 0
     },
+    "地理": {
+      "type": "concept",
+      "label": "地理",
+      "aliases": [
+        "地理环境",
+        "地理学"
+      ],
+      "tags": [
+        "理论",
+        "方法"
+      ],
+      "path": "di/地理.md",
+      "description": "研究地球表面自然环境和人文现象的空间分布及其相互关系的学科，是理解《枪炮、病菌与钢铁》核心论题的基础视角",
+      "prose_len": 210,
+      "prose_chars": 210,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 2
+    },
     "地理决定论": {
       "type": "concept",
       "label": "地理决定论",
@@ -4909,6 +4932,29 @@
       "quality_score": 7,
       "total_refs": 6
     },
+    "南岛语族": {
+      "type": "concept",
+      "label": "南岛语族",
+      "aliases": [
+        "Austronesian"
+      ],
+      "tags": [
+        "语言",
+        "历史",
+        "迁徙"
+      ],
+      "path": "na/南岛语族.md",
+      "description": "分布范围从马达加斯加到复活节岛的庞大语系，其扩散代表了人类历史上最宏大的海洋迁徙之一",
+      "prose_len": 201,
+      "prose_chars": 201,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 2
+    },
     "南岛语族扩张": {
       "type": "event",
       "label": "南岛语族扩张",
@@ -5005,6 +5051,30 @@
       "quality": "featured",
       "quality_score": 60,
       "total_refs": 3
+    },
+    "牛痘": {
+      "type": "concept",
+      "label": "牛痘",
+      "aliases": [
+        "天花疫苗",
+        "种痘"
+      ],
+      "tags": [
+        "医学",
+        "技术",
+        "疾病"
+      ],
+      "path": "ni/牛痘.md",
+      "description": "从牛身上获得的天花疫苗，最早的有效免疫手段之一，体现了动物传染病在人类医学中的特殊价值",
+      "prose_len": 193,
+      "prose_chars": 193,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 6,
+      "total_refs": 1
     },
     "酿酒": {
       "type": "concept",
@@ -7840,6 +7910,30 @@
       "quality_score": 7,
       "total_refs": 0
     },
+    "野生谷物": {
+      "type": "concept",
+      "label": "野生谷物",
+      "aliases": [
+        "野生禾本科",
+        "野生小麦"
+      ],
+      "tags": [
+        "植物",
+        "农业",
+        "演化"
+      ],
+      "path": "ye/野生谷物.md",
+      "description": "未经人工驯化的禾本科植物种子，新月沃地丰富的野生谷物资源为最早的农业革命提供了关键条件",
+      "prose_len": 211,
+      "prose_chars": 211,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 3
+    },
     "yindu": {
       "type": "place",
       "label": "印度",
@@ -8007,6 +8101,28 @@
       "quality": "featured",
       "quality_score": 60,
       "total_refs": 1
+    },
+    "印欧语系": {
+      "type": "concept",
+      "label": "印欧语系",
+      "aliases": [
+        "Indo-European"
+      ],
+      "tags": [
+        "语言",
+        "历史"
+      ],
+      "path": "yi/印欧语系.md",
+      "description": "世界上分布最广的语系之一，其起源和扩散与粮食生产的传播密切相关",
+      "prose_len": 181,
+      "prose_chars": 181,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 6,
+      "total_refs": 2
     },
     "移民": {
       "type": "concept",
@@ -9302,13 +9418,15 @@
     "Mediterranean": "地中海地区",
     "欧亚大陆西部地中海气候带": "地中海地区",
     "地点索引": "地点索引",
+    "地理": "地理",
+    "地理环境": "地理",
+    "地理学": "地理",
     "地理决定论": "地理决定论",
     "环境决定论": "地理决定论",
     "geographic determinism": "地理决定论",
     "地理因素": "地理因素",
     "geography": "地理因素",
     "地理条件": "地理因素",
-    "地理环境": "地理因素",
     "定居": "定居",
     "定居生活": "定居",
     "定居化": "定居",
@@ -9778,6 +9896,8 @@
     "大陆轴线南北": "南北轴",
     "南北轴线与东西轴线": "南北轴线与东西轴线",
     "轴线方向": "南北轴线与东西轴线",
+    "南岛语族": "南岛语族",
+    "Austronesian": "南岛语族",
     "南岛语族扩张": "南岛语族扩张",
     "Austronesian Expansion": "南岛语族扩张",
     "波利尼西亚扩张": "南岛语族扩张",
@@ -9795,6 +9915,9 @@
     "cattle": "牛",
     "ox": "牛",
     "Bos taurus": "牛",
+    "牛痘": "牛痘",
+    "天花疫苗": "牛痘",
+    "种痘": "牛痘",
     "酿酒": "酿酒",
     "发酵": "酿酒",
     "酒精": "酿酒",
@@ -10167,6 +10290,9 @@
     "耶利": "耶利",
     "Yali": "耶利",
     "野生植物": "野生植物",
+    "野生谷物": "野生谷物",
+    "野生禾本科": "野生谷物",
+    "野生小麦": "野生谷物",
     "yindu": "yindu",
     "印度": "yindu",
     "India": "yindu",
@@ -10189,6 +10315,8 @@
     "活字印刷": "印刷",
     "printing": "印刷术",
     "印刷机": "印刷术",
+    "印欧语系": "印欧语系",
+    "Indo-European": "印欧语系",
     "移民": "移民",
     "史前迁徙": "移民",
     "移民浪潮": "移民",
@@ -10340,6 +10468,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 382,
-  "generated": "2026-05-26T01:41:49Z"
+  "page_count": 387,
+  "generated": "2026-05-26T01:42:25Z"
 }
