@@ -733,7 +733,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 3
+      "total_refs": 4
     },
     "ban-zhen-shang-han": {
       "type": "concept",
@@ -3035,7 +3035,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 4
+      "total_refs": 5
     },
     "dongxizhouxian": {
       "type": "concept",
@@ -3416,6 +3416,30 @@
       "quality": "basic",
       "quality_score": 10,
       "total_refs": 2
+    },
+    "fei-shi-he": {
+      "type": "place",
+      "label": "菲什河",
+      "aliases": [
+        "Fish River",
+        "菲什河"
+      ],
+      "tags": [
+        "地点",
+        "非洲",
+        "河流"
+      ],
+      "path": "fe/fei-shi-he.md",
+      "description": "南非河流，历史上是班图人扩张的南界和科伊人与班图人的文化分界线",
+      "prose_len": 372,
+      "prose_chars": 347,
+      "h2_count": 2,
+      "pn_count": 5,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "stub",
+      "quality_score": 3,
+      "total_refs": 1
     },
     "fei-zhou-shu-yu": {
       "type": "species",
@@ -4554,6 +4578,29 @@
       "quality_score": 8,
       "total_refs": 1
     },
+    "heng-de-sen-dao": {
+      "type": "place",
+      "label": "亨德森岛",
+      "aliases": [
+        "Henderson Island"
+      ],
+      "tags": [
+        "地点",
+        "太平洋",
+        "波利尼西亚"
+      ],
+      "path": "he/heng-de-sen-dao.md",
+      "description": "波利尼西亚最贫瘠的岛屿之一，与夏威夷、新西兰构成资源禀赋对比的自然实验案例",
+      "prose_len": 314,
+      "prose_chars": 289,
+      "h2_count": 2,
+      "pn_count": 3,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "stub",
+      "quality_score": 3,
+      "total_refs": 0
+    },
     "heng-he-ping-yuan": {
       "type": "place",
       "label": "恒河平原",
@@ -4723,6 +4770,31 @@
       "quality_score": 62,
       "affiliation": "美国",
       "total_refs": 0
+    },
+    "hui-su-shi-yan-fa": {
+      "type": "concept",
+      "label": "回溯试验法",
+      "aliases": [
+        "retrospective test",
+        "回溯检验法",
+        "历史比较法"
+      ],
+      "tags": [
+        "概念",
+        "方法",
+        "历史科学"
+      ],
+      "path": "hu/hui-su-shi-yan-fa.md",
+      "description": "历史学家通过考察已知案例来验证假说的方法，戴蒙德将其与自然科学实验类比",
+      "prose_len": 252,
+      "prose_chars": 227,
+      "h2_count": 2,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "stub",
+      "quality_score": 2,
+      "total_refs": 1
     },
     "hui-xiong": {
       "type": "species",
@@ -6091,7 +6163,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 2
+      "total_refs": 3
     },
     "科尔特斯": {
       "type": "person",
@@ -6670,7 +6742,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 55,
-      "total_refs": 0
+      "total_refs": 1
     },
     "luoma-diguo": {
       "type": "event",
@@ -9736,6 +9808,31 @@
       "quality_score": 59,
       "total_refs": 2
     },
+    "sai-lun-ge-di": {
+      "type": "place",
+      "label": "塞伦格蒂",
+      "aliases": [
+        "塞伦格蒂大草原",
+        "塞伦格蒂大平原",
+        "Serengeti"
+      ],
+      "tags": [
+        "地点",
+        "非洲",
+        "草原"
+      ],
+      "path": "sa/sai-lun-ge-di.md",
+      "description": "东非著名热带草原生态系统，戴蒙德用以对比欧亚大陆和美洲更新世的大型哺乳动物群落",
+      "prose_len": 345,
+      "prose_chars": 320,
+      "h2_count": 2,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "stub",
+      "quality_score": 3,
+      "total_refs": 0
+    },
     "塞阔雅": {
       "type": "person",
       "label": "塞阔雅",
@@ -12049,7 +12146,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 3
+      "total_refs": 4
     },
     "xibanya-zhengfu-aziteke": {
       "type": "event",
@@ -13989,6 +14086,30 @@
       "quality_score": 9,
       "total_refs": 1
     },
+    "zhao-wa-ren": {
+      "type": "concept",
+      "label": "爪哇人",
+      "aliases": [
+        "Java Man",
+        "爪哇直立人"
+      ],
+      "tags": [
+        "概念",
+        "人类演化",
+        "化石"
+      ],
+      "path": "zh/zhao-wa-ren.md",
+      "description": "东南亚发现的早期直立人化石，走出非洲的最早证据之一",
+      "prose_len": 334,
+      "prose_chars": 309,
+      "h2_count": 2,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "stub",
+      "quality_score": 3,
+      "total_refs": 0
+    },
     "zheng-he": {
       "type": "person",
       "label": "郑和",
@@ -14060,7 +14181,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 3
+      "total_refs": 4
     },
     "zhi-liang-suo-yin": {
       "type": "overview",
@@ -14763,7 +14884,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 64,
-      "total_refs": 5
+      "total_refs": 7
     },
     "字母": {
       "type": "concept",
@@ -15479,6 +15600,9 @@
     "斐济": "fei-ji",
     "Fiji": "fei-ji",
     "斐济群岛": "fei-ji",
+    "fei-shi-he": "fei-shi-he",
+    "菲什河": "fei-shi-he",
+    "Fish River": "fei-shi-he",
     "fei-zhou-shu-yu": "fei-zhou-shu-yu",
     "非洲薯蓣": "fei-zhou-shu-yu",
     "African yam": "fei-zhou-shu-yu",
@@ -15638,6 +15762,9 @@
     "he-tuo": "he-tuo",
     "鹤鸵": "he-tuo",
     "cassowary": "he-tuo",
+    "heng-de-sen-dao": "heng-de-sen-dao",
+    "亨德森岛": "heng-de-sen-dao",
+    "Henderson Island": "heng-de-sen-dao",
     "heng-he-ping-yuan": "heng-he-ping-yuan",
     "恒河平原": "heng-he-ping-yuan",
     "Ganges Plain": "heng-he-ping-yuan",
@@ -15664,6 +15791,11 @@
     "huashengdun": "huashengdun",
     "乔治·华盛顿": "huashengdun",
     "George Washington": "huashengdun",
+    "hui-su-shi-yan-fa": "hui-su-shi-yan-fa",
+    "回溯试验法": "hui-su-shi-yan-fa",
+    "retrospective test": "hui-su-shi-yan-fa",
+    "回溯检验法": "hui-su-shi-yan-fa",
+    "历史比较法": "hui-su-shi-yan-fa",
     "hui-xiong": "hui-xiong",
     "灰熊": "hui-xiong",
     "grizzly bear": "hui-xiong",
@@ -16347,6 +16479,11 @@
     "sahala": "sahala",
     "撒哈拉": "sahala",
     "Sahara": "sahala",
+    "sai-lun-ge-di": "sai-lun-ge-di",
+    "塞伦格蒂": "sai-lun-ge-di",
+    "塞伦格蒂大草原": "sai-lun-ge-di",
+    "塞伦格蒂大平原": "sai-lun-ge-di",
+    "Serengeti": "sai-lun-ge-di",
     "塞阔雅": "塞阔雅",
     "Sequoyah": "塞阔雅",
     "斯奎亚": "塞阔雅",
@@ -16933,6 +17070,10 @@
     "战马": "zhan-ma",
     "warhorse": "zhan-ma",
     "军马": "zhan-ma",
+    "zhao-wa-ren": "zhao-wa-ren",
+    "爪哇人": "zhao-wa-ren",
+    "Java Man": "zhao-wa-ren",
+    "爪哇直立人": "zhao-wa-ren",
     "zheng-he": "zheng-he",
     "郑和": "zheng-he",
     "Zheng He": "zheng-he",
@@ -17072,6 +17213,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 628,
-  "generated": "2026-05-26T16:53:23Z"
+  "page_count": 633,
+  "generated": "2026-05-26T16:57:25Z"
 }

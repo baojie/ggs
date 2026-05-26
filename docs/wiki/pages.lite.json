@@ -1298,6 +1298,15 @@
       ],
       "path": "fe/fei-ji.md"
     },
+    "fei-shi-he": {
+      "type": "place",
+      "label": "菲什河",
+      "aliases": [
+        "Fish River",
+        "菲什河"
+      ],
+      "path": "fe/fei-shi-he.md"
+    },
     "fei-zhou-shu-yu": {
       "type": "species",
       "label": "非洲薯蓣",
@@ -1728,6 +1737,14 @@
       ],
       "path": "he/he-tuo.md"
     },
+    "heng-de-sen-dao": {
+      "type": "place",
+      "label": "亨德森岛",
+      "aliases": [
+        "Henderson Island"
+      ],
+      "path": "he/heng-de-sen-dao.md"
+    },
     "heng-he-ping-yuan": {
       "type": "place",
       "label": "恒河平原",
@@ -1793,6 +1810,16 @@
         "George Washington"
       ],
       "path": "hu/huashengdun.md"
+    },
+    "hui-su-shi-yan-fa": {
+      "type": "concept",
+      "label": "回溯试验法",
+      "aliases": [
+        "retrospective test",
+        "回溯检验法",
+        "历史比较法"
+      ],
+      "path": "hu/hui-su-shi-yan-fa.md"
     },
     "hui-xiong": {
       "type": "species",
@@ -3721,6 +3748,16 @@
       ],
       "path": "sa/sahala.md"
     },
+    "sai-lun-ge-di": {
+      "type": "place",
+      "label": "塞伦格蒂",
+      "aliases": [
+        "塞伦格蒂大草原",
+        "塞伦格蒂大平原",
+        "Serengeti"
+      ],
+      "path": "sa/sai-lun-ge-di.md"
+    },
     "塞阔雅": {
       "type": "person",
       "label": "塞阔雅",
@@ -5354,6 +5391,15 @@
       ],
       "path": "zh/zhan-ma.md"
     },
+    "zhao-wa-ren": {
+      "type": "concept",
+      "label": "爪哇人",
+      "aliases": [
+        "Java Man",
+        "爪哇直立人"
+      ],
+      "path": "zh/zhao-wa-ren.md"
+    },
     "zheng-he": {
       "type": "person",
       "label": "郑和",
@@ -6216,6 +6262,9 @@
     "斐济": "fei-ji",
     "Fiji": "fei-ji",
     "斐济群岛": "fei-ji",
+    "fei-shi-he": "fei-shi-he",
+    "菲什河": "fei-shi-he",
+    "Fish River": "fei-shi-he",
     "fei-zhou-shu-yu": "fei-zhou-shu-yu",
     "非洲薯蓣": "fei-zhou-shu-yu",
     "African yam": "fei-zhou-shu-yu",
@@ -6375,6 +6424,9 @@
     "he-tuo": "he-tuo",
     "鹤鸵": "he-tuo",
     "cassowary": "he-tuo",
+    "heng-de-sen-dao": "heng-de-sen-dao",
+    "亨德森岛": "heng-de-sen-dao",
+    "Henderson Island": "heng-de-sen-dao",
     "heng-he-ping-yuan": "heng-he-ping-yuan",
     "恒河平原": "heng-he-ping-yuan",
     "Ganges Plain": "heng-he-ping-yuan",
@@ -6401,6 +6453,11 @@
     "huashengdun": "huashengdun",
     "乔治·华盛顿": "huashengdun",
     "George Washington": "huashengdun",
+    "hui-su-shi-yan-fa": "hui-su-shi-yan-fa",
+    "回溯试验法": "hui-su-shi-yan-fa",
+    "retrospective test": "hui-su-shi-yan-fa",
+    "回溯检验法": "hui-su-shi-yan-fa",
+    "历史比较法": "hui-su-shi-yan-fa",
     "hui-xiong": "hui-xiong",
     "灰熊": "hui-xiong",
     "grizzly bear": "hui-xiong",
@@ -7084,6 +7141,11 @@
     "sahala": "sahala",
     "撒哈拉": "sahala",
     "Sahara": "sahala",
+    "sai-lun-ge-di": "sai-lun-ge-di",
+    "塞伦格蒂": "sai-lun-ge-di",
+    "塞伦格蒂大草原": "sai-lun-ge-di",
+    "塞伦格蒂大平原": "sai-lun-ge-di",
+    "Serengeti": "sai-lun-ge-di",
     "塞阔雅": "塞阔雅",
     "Sequoyah": "塞阔雅",
     "斯奎亚": "塞阔雅",
@@ -7670,6 +7732,10 @@
     "战马": "zhan-ma",
     "warhorse": "zhan-ma",
     "军马": "zhan-ma",
+    "zhao-wa-ren": "zhao-wa-ren",
+    "爪哇人": "zhao-wa-ren",
+    "Java Man": "zhao-wa-ren",
+    "爪哇直立人": "zhao-wa-ren",
     "zheng-he": "zheng-he",
     "郑和": "zheng-he",
     "Zheng He": "zheng-he",
@@ -7809,6 +7875,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 628,
-  "generated": "2026-05-26T16:53:23Z"
+  "page_count": 633,
+  "generated": "2026-05-26T16:57:25Z"
 }
