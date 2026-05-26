@@ -52,6 +52,15 @@
       ],
       "path": "al/alabobandao.md"
     },
+    "an-dong-ni-wen-yi": {
+      "type": "event",
+      "label": "安东尼瘟疫",
+      "aliases": [
+        "Antonine Plague",
+        "安东尼大瘟疫"
+      ],
+      "path": "an/an-dong-ni-wen-yi.md"
+    },
     "annatuoliya": {
       "type": "place",
       "label": "安纳托利亚",
@@ -115,6 +124,16 @@
       ],
       "path": "at/阿塔瓦尔帕.md"
     },
+    "a-yi-nu-ren": {
+      "type": "person",
+      "label": "阿伊努人",
+      "aliases": [
+        "Ainu",
+        "阿伊努族",
+        "爱努人"
+      ],
+      "path": "ay/a-yi-nu-ren.md"
+    },
     "aziteke": {
       "type": "concept",
       "label": "阿兹特克",
@@ -125,6 +144,15 @@
       ],
       "path": "az/aziteke.md"
     },
+    "ba-ta-ge-ni-ya": {
+      "type": "place",
+      "label": "巴塔哥尼亚",
+      "aliases": [
+        "Patagonia",
+        "巴塔哥尼亚高原"
+      ],
+      "path": "ba/ba-ta-ge-ni-ya.md"
+    },
     "baergan": {
       "type": "place",
       "label": "巴尔干",
@@ -134,6 +162,15 @@
       ],
       "path": "ba/baergan.md"
     },
+    "bai-ling-lu-qiao": {
+      "type": "place",
+      "label": "白令陆桥",
+      "aliases": [
+        "Bering Land Bridge",
+        "白令吉亚"
+      ],
+      "path": "ba/bai-ling-lu-qiao.md"
+    },
     "bailatu": {
       "type": "person",
       "label": "柏拉图",
@@ -141,6 +178,14 @@
         "Plato"
       ],
       "path": "ba/bailatu.md"
+    },
+    "ban-zhen-shang-han": {
+      "type": "concept",
+      "label": "斑疹伤寒",
+      "aliases": [
+        "typhus"
+      ],
+      "path": "ba/ban-zhen-shang-han.md"
     },
     "半岛": {
       "type": "concept",
@@ -221,6 +266,16 @@
         "北美"
       ],
       "path": "be/北美洲.md"
+    },
+    "被引用最多页面": {
+      "type": "list",
+      "label": "被引用最多页面",
+      "aliases": [
+        "引用排行",
+        "热门页面",
+        "高引用页面"
+      ],
+      "path": "be/被引用最多页面.md"
     },
     "bilu": {
       "type": "place",
@@ -325,6 +380,16 @@
         "氏族部落"
       ],
       "path": "bu/部落.md"
+    },
+    "cai-cai-ying": {
+      "type": "species",
+      "label": "采采蝇",
+      "aliases": [
+        "tsetse fly",
+        "舌蝇",
+        "萃萃蝇"
+      ],
+      "path": "ca/cai-cai-ying.md"
     },
     "caiji-shoulie": {
       "type": "concept",
@@ -478,6 +543,32 @@
       "aliases": [],
       "path": "ch/ch19-how-africa-became-black.md"
     },
+    "cha-er-ku-qi-ma": {
+      "type": "person",
+      "label": "查尔库奇马",
+      "aliases": [
+        "Chalcuchima",
+        "查尔库奇马"
+      ],
+      "path": "ch/cha-er-ku-qi-ma.md"
+    },
+    "cha-shi-ding-ni-wen-yi": {
+      "type": "event",
+      "label": "查士丁尼瘟疫",
+      "aliases": [
+        "Plague of Justinian"
+      ],
+      "path": "ch/cha-shi-ding-ni-wen-yi.md"
+    },
+    "cha-ta-mu-qun-dao": {
+      "type": "place",
+      "label": "查塔姆群岛",
+      "aliases": [
+        "Chatham Islands",
+        "查塔姆"
+      ],
+      "path": "ch/cha-ta-mu-qun-dao.md"
+    },
     "chaoxian": {
       "type": "place",
       "label": "朝鲜",
@@ -582,6 +673,26 @@
       ],
       "path": "cu/村落.md"
     },
+    "da-hu-hou": {
+      "type": "species",
+      "label": "大狐猴",
+      "aliases": [
+        "Indri",
+        "indri",
+        "马达加斯加大狐猴"
+      ],
+      "path": "da/da-hu-hou.md"
+    },
+    "da-jiao-ban-ling": {
+      "type": "species",
+      "label": "大角斑羚",
+      "aliases": [
+        "eland",
+        "非洲大羚羊",
+        "大羚羊"
+      ],
+      "path": "da/da-jiao-ban-ling.md"
+    },
     "dagama": {
       "type": "person",
       "label": "瓦斯科·达·伽马",
@@ -599,6 +710,15 @@
         "戴蒙德"
       ],
       "path": "da/daimengde.md"
+    },
+    "dan-li-xiao-mai": {
+      "type": "species",
+      "label": "单粒小麦",
+      "aliases": [
+        "einkorn wheat",
+        "一粒小麦"
+      ],
+      "path": "da/dan-li-xiao-mai.md"
     },
     "大豆": {
       "type": "species",
@@ -688,6 +808,15 @@
         "通道"
       ],
       "path": "da/道路.md"
+    },
+    "deng-ling": {
+      "type": "species",
+      "label": "瞪羚",
+      "aliases": [
+        "gazelle",
+        "瞪羚属"
+      ],
+      "path": "de/deng-ling.md"
     },
     "德国": {
       "type": "place",
@@ -853,6 +982,16 @@
       "aliases": [],
       "path": "do/动物驯化.md"
     },
+    "du-du-niao": {
+      "type": "species",
+      "label": "渡渡鸟",
+      "aliases": [
+        "Raphus cucullatus",
+        "dodo",
+        "多多鸟"
+      ],
+      "path": "du/du-du-niao.md"
+    },
     "鹅": {
       "type": "species",
       "label": "鹅",
@@ -867,6 +1006,25 @@
       "label": "后记　人类史作为一门科学的未来",
       "aliases": [],
       "path": "ep/Epilogue.md"
+    },
+    "er-li-xiao-mai": {
+      "type": "species",
+      "label": "二粒小麦",
+      "aliases": [
+        "emmer wheat",
+        "埃默尔小麦",
+        "二粒小麦"
+      ],
+      "path": "er/er-li-xiao-mai.md"
+    },
+    "fa-luo-qun-dao": {
+      "type": "place",
+      "label": "法罗群岛",
+      "aliases": [
+        "Faroe Islands",
+        "法罗"
+      ],
+      "path": "fa/fa-luo-qun-dao.md"
     },
     "发明": {
       "type": "concept",
@@ -895,6 +1053,15 @@
         "纺织技术"
       ],
       "path": "fa/纺织.md"
+    },
+    "fei-ji": {
+      "type": "place",
+      "label": "斐济",
+      "aliases": [
+        "Fiji",
+        "斐济群岛"
+      ],
+      "path": "fe/fei-ji.md"
     },
     "feilvbin": {
       "type": "place",
@@ -954,6 +1121,16 @@
       "label": "书前彩插",
       "aliases": [],
       "path": "fr/Frontispiece.md"
+    },
+    "fu-lang-xi-si-gao-er-dun": {
+      "type": "person",
+      "label": "弗朗西斯·高尔顿",
+      "aliases": [
+        "Francis Galton",
+        "高尔顿",
+        "法兰西斯·高尔顿"
+      ],
+      "path": "fu/fu-lang-xi-si-gao-er-dun.md"
     },
     "fuhuojiedao": {
       "type": "place",
@@ -1029,6 +1206,15 @@
         "Sorghum bicolor"
       ],
       "path": "ga/高粱.md"
+    },
+    "ge-ren-yu-li-shi-jie-gou": {
+      "type": "concept",
+      "label": "个人与历史结构",
+      "aliases": [
+        "individuals vs historical structures",
+        "个人作用与历史规律"
+      ],
+      "path": "ge/ge-ren-yu-li-shi-jie-gou.md"
     },
     "哥伦布": {
       "type": "person",
@@ -1236,6 +1422,15 @@
       ],
       "path": "ha/航行.md"
     },
+    "he-ma": {
+      "type": "species",
+      "label": "河马",
+      "aliases": [
+        "hippopotamus",
+        "河马属"
+      ],
+      "path": "he/he-ma.md"
+    },
     "河流": {
       "type": "concept",
       "label": "河流",
@@ -1256,6 +1451,14 @@
       ],
       "path": "he/黑死病.md"
     },
+    "huang-re-bing": {
+      "type": "concept",
+      "label": "黄热病",
+      "aliases": [
+        "yellow fever"
+      ],
+      "path": "hu/huang-re-bing.md"
+    },
     "huanjing-juedinglun": {
       "type": "concept",
       "label": "环境决定论",
@@ -1273,6 +1476,15 @@
         "George Washington"
       ],
       "path": "hu/huashengdun.md"
+    },
+    "huo-pu-wei-er-wen-hua": {
+      "type": "event",
+      "label": "huo-pu-wei-er-wen-hua",
+      "aliases": [
+        "Hopewell culture",
+        "霍普韦尔"
+      ],
+      "path": "hu/huo-pu-wei-er-wen-hua.md"
     },
     "火": {
       "type": "concept",
@@ -1375,6 +1587,16 @@
         "technological stagnation"
       ],
       "path": "ji/ji-shu-ting-zhi.md"
+    },
+    "jia-jie": {
+      "type": "concept",
+      "label": "嫁接",
+      "aliases": [
+        "grafting",
+        "嫁接技术",
+        "果树嫁接"
+      ],
+      "path": "ji/jia-jie.md"
     },
     "jialifuniya": {
       "type": "place",
@@ -1674,6 +1896,26 @@
       ],
       "path": "ka/考古遗址.md"
     },
+    "ke-luo-ma-nu-ren": {
+      "type": "concept",
+      "label": "克罗马努人",
+      "aliases": [
+        "Cro-Magnon",
+        "克罗马农人",
+        "晚期智人"
+      ],
+      "path": "ke/ke-luo-ma-nu-ren.md"
+    },
+    "ke-yi-sang-ren": {
+      "type": "concept",
+      "label": "科伊桑人",
+      "aliases": [
+        "Khoisan",
+        "科伊桑",
+        "科伊桑民族"
+      ],
+      "path": "ke/ke-yi-sang-ren.md"
+    },
     "keertesi": {
       "type": "person",
       "label": "埃尔南·科尔特斯",
@@ -1711,6 +1953,34 @@
         "Hernán Cortés"
       ],
       "path": "ke/科尔特斯.md"
+    },
+    "kong-niao": {
+      "type": "species",
+      "label": "恐鸟",
+      "aliases": [
+        "moa",
+        "恐鸟属"
+      ],
+      "path": "ko/kong-niao.md"
+    },
+    "ku-chao-cai": {
+      "type": "species",
+      "label": "ku-chao-cai",
+      "aliases": [
+        "bitter vetch",
+        "苦野豌豆",
+        "苦草"
+      ],
+      "path": "ku/ku-chao-cai.md"
+    },
+    "ku-lu-bing": {
+      "type": "concept",
+      "label": "库鲁病",
+      "aliases": [
+        "kuru",
+        "强笑病"
+      ],
+      "path": "ku/ku-lu-bing.md"
     },
     "kua-xue-ke-fang-fa": {
       "type": "concept",
@@ -1789,6 +2059,24 @@
       ],
       "path": "li/liangshi-chubei.md"
     },
+    "lie-bao": {
+      "type": "species",
+      "label": "猎豹",
+      "aliases": [
+        "cheetah",
+        "印度猎豹"
+      ],
+      "path": "li/lie-bao.md"
+    },
+    "liu-xing-xing-gan-mao": {
+      "type": "concept",
+      "label": "流行性感冒",
+      "aliases": [
+        "流感",
+        "influenza"
+      ],
+      "path": "li/liu-xing-xing-gan-mao.md"
+    },
     "流行病": {
       "type": "concept",
       "label": "流行病",
@@ -1857,6 +2145,15 @@
       ],
       "path": "lv/驴.md"
     },
+    "ma-ke-bu-lu-mu-le": {
+      "type": "person",
+      "label": "马克·布卢姆勒",
+      "aliases": [
+        "Mark Blumler",
+        "Mark A. Blumler"
+      ],
+      "path": "ma/ma-ke-bu-lu-mu-le.md"
+    },
     "ma-ke-si": {
       "type": "person",
       "label": "马克思",
@@ -1882,6 +2179,34 @@
         "马克思"
       ],
       "path": "ma/makesi.md"
+    },
+    "man-dan-zu": {
+      "type": "concept",
+      "label": "曼丹族",
+      "aliases": [
+        "曼丹人",
+        "Mandan"
+      ],
+      "path": "ma/man-dan-zu.md"
+    },
+    "man-ke": {
+      "type": "person",
+      "label": "曼科",
+      "aliases": [
+        "Manco Inca",
+        "曼科·印卡",
+        "Manco Capac"
+      ],
+      "path": "ma/man-ke.md"
+    },
+    "mao-li-ren": {
+      "type": "person",
+      "label": "毛利人",
+      "aliases": [
+        "Maori",
+        "毛利"
+      ],
+      "path": "ma/mao-li-ren.md"
     },
     "牦牛": {
       "type": "species",
@@ -1961,6 +2286,24 @@
         "Measles morbillivirus"
       ],
       "path": "ma/麻疹.md"
+    },
+    "mei-du": {
+      "type": "concept",
+      "label": "梅毒",
+      "aliases": [
+        "syphilis"
+      ],
+      "path": "me/mei-du.md"
+    },
+    "mei-zhou-ye-niu": {
+      "type": "species",
+      "label": "美洲野牛",
+      "aliases": [
+        "American bison",
+        "北美野牛",
+        "buffalo"
+      ],
+      "path": "me/mei-zhou-ye-niu.md"
     },
     "meilaxiniya": {
       "type": "place",
@@ -2077,6 +2420,24 @@
         "蒙特苏马"
       ],
       "path": "me/蒙特朱马.md"
+    },
+    "mi-xi-xi-bi-he": {
+      "type": "place",
+      "label": "密西西比河",
+      "aliases": [
+        "Mississippi River"
+      ],
+      "path": "mi/mi-xi-xi-bi-he.md"
+    },
+    "mi-xi-xi-bi-wen-hua": {
+      "type": "event",
+      "label": "密西西比文化",
+      "aliases": [
+        "Mississippian culture",
+        "密西西比河流域文化",
+        "土墩建造者文化"
+      ],
+      "path": "mi/mi-xi-xi-bi-wen-hua.md"
     },
     "mianyi": {
       "type": "concept",
@@ -2195,6 +2556,15 @@
         "breadfruit"
       ],
       "path": "mi/面包果.md"
+    },
+    "mo-li-ao-li-ren": {
+      "type": "person",
+      "label": "莫里奥里人",
+      "aliases": [
+        "Moriori",
+        "莫里奥里族"
+      ],
+      "path": "mo/mo-li-ao-li-ren.md"
     },
     "moerzibigang": {
       "type": "place",
@@ -2319,6 +2689,15 @@
       ],
       "path": "na/南岛语族扩张.md"
     },
+    "neng-ren": {
+      "type": "concept",
+      "label": "能人",
+      "aliases": [
+        "Homo habilis",
+        "巧人"
+      ],
+      "path": "ne/neng-ren.md"
+    },
     "niandetelian": {
       "type": "person",
       "label": "尼安德特人",
@@ -2335,6 +2714,14 @@
         "Nile River"
       ],
       "path": "ni/niluohe.md"
+    },
+    "niu-wen": {
+      "type": "concept",
+      "label": "牛瘟",
+      "aliases": [
+        "rinderpest"
+      ],
+      "path": "ni/niu-wen.md"
     },
     "尼罗河": {
       "type": "place",
@@ -2752,6 +3139,25 @@
       ],
       "path": "ri/日本.md"
     },
+    "sa-he-le-di-dai": {
+      "type": "place",
+      "label": "萨赫勒地带",
+      "aliases": [
+        "Sahel",
+        "萨赫勒",
+        "萨赫勒地区"
+      ],
+      "path": "sa/sa-he-le-di-dai.md"
+    },
+    "sa-mo-ya": {
+      "type": "place",
+      "label": "萨摩亚",
+      "aliases": [
+        "Samoa",
+        "萨摩亚群岛"
+      ],
+      "path": "sa/sa-mo-ya.md"
+    },
     "sahala": {
       "type": "place",
       "label": "撒哈拉",
@@ -2786,6 +3192,16 @@
         "树林"
       ],
       "path": "se/森林.md"
+    },
+    "sha-ba-la-qun-luo": {
+      "type": "concept",
+      "label": "沙巴拉群落",
+      "aliases": [
+        "chaparral",
+        "查帕拉尔群落",
+        "灌木丛林"
+      ],
+      "path": "sh/sha-ba-la-qun-luo.md"
     },
     "she-hui-fu-za-hua": {
       "type": "concept",
@@ -3032,6 +3448,15 @@
       ],
       "path": "sh/鼠疫.md"
     },
+    "su-mei-er-ren": {
+      "type": "person",
+      "label": "苏美尔人",
+      "aliases": [
+        "Sumerians",
+        "苏美人"
+      ],
+      "path": "su/su-mei-er-ren.md"
+    },
     "tai-ping-yang": {
       "type": "place",
       "label": "太平洋",
@@ -3058,6 +3483,15 @@
         "C14测年"
       ],
       "path": "ta/tan14-ce-nian.md"
+    },
+    "tang-jia": {
+      "type": "place",
+      "label": "汤加",
+      "aliases": [
+        "Tonga",
+        "汤加群岛"
+      ],
+      "path": "ta/tang-jia.md"
     },
     "台湾": {
       "type": "place",
@@ -3088,6 +3522,15 @@
         "制陶技术"
       ],
       "path": "ta/陶器.md"
+    },
+    "te-le-a-bu-hu-rui-la": {
+      "type": "place",
+      "label": "特勒阿布胡瑞拉",
+      "aliases": [
+        "Tell Abu Hureyra",
+        "阿布胡瑞拉遗址"
+      ],
+      "path": "te/te-le-a-bu-hu-rui-la.md"
     },
     "天花": {
       "type": "concept",
@@ -3267,6 +3710,16 @@
       ],
       "path": "we/纬度.md"
     },
+    "wu-zhong-bao-hu": {
+      "type": "concept",
+      "label": "物种保护",
+      "aliases": [
+        "species conservation",
+        "物种保存",
+        "生物多样性保护"
+      ],
+      "path": "wu/wu-zhong-bao-hu.md"
+    },
     "无花果": {
       "type": "species",
       "label": "无花果",
@@ -3296,6 +3749,25 @@
       "aliases": [],
       "path": "wu/物种索引.md"
     },
+    "xi-ke-suo-si": {
+      "type": "event",
+      "label": "希克索斯",
+      "aliases": [
+        "Hyksos",
+        "希克索斯民族",
+        "牧人王朝"
+      ],
+      "path": "xi/xi-ke-suo-si.md"
+    },
+    "xi-niu": {
+      "type": "species",
+      "label": "犀牛",
+      "aliases": [
+        "rhinoceros",
+        "犀"
+      ],
+      "path": "xi/xi-niu.md"
+    },
     "xi-zang-gao-yuan": {
       "type": "place",
       "label": "西藏高原",
@@ -3324,13 +3796,22 @@
       ],
       "path": "xi/xiang-cun.md"
     },
+    "xiang-shi": {
+      "type": "concept",
+      "label": "橡实",
+      "aliases": [
+        "acorn",
+        "橡子",
+        "橡果"
+      ],
+      "path": "xi/xiang-shi.md"
+    },
     "xiang-xing-wen-zi": {
       "type": "concept",
       "label": "象形文字",
       "aliases": [
         "hieroglyph",
-        "楔形文字",
-        "文字"
+        "埃及象形文字"
       ],
       "path": "xi/xiang-xing-wen-zi.md"
     },
@@ -3381,6 +3862,7 @@
       "label": "楔形文字",
       "aliases": [
         "cuneiform",
+        "苏美尔楔形文字",
         "两河流域文字"
       ],
       "path": "xi/xie-xing-wen-zi.md"
@@ -3665,6 +4147,16 @@
       ],
       "path": "ye/野生谷物.md"
     },
+    "yi-si-pa-ni-ao-la-dao": {
+      "type": "place",
+      "label": "伊斯帕尼奥拉岛",
+      "aliases": [
+        "Hispaniola",
+        "海地岛",
+        "西班牙岛"
+      ],
+      "path": "yi/yi-si-pa-ni-ao-la-dao.md"
+    },
     "yichuanxue": {
       "type": "concept",
       "label": "遗传学",
@@ -3838,6 +4330,15 @@
       ],
       "path": "yo/游牧.md"
     },
+    "yue-dan-he-gu": {
+      "type": "place",
+      "label": "约旦河谷",
+      "aliases": [
+        "Jordan Valley",
+        "约旦河"
+      ],
+      "path": "yu/yue-dan-he-gu.md"
+    },
     "渔业": {
       "type": "concept",
       "label": "渔业",
@@ -3963,6 +4464,25 @@
         "扩张"
       ],
       "path": "zh/zhengfu.md"
+    },
+    "zhi-li-ren": {
+      "type": "concept",
+      "label": "直立人",
+      "aliases": [
+        "Homo erectus",
+        "直立猿人"
+      ],
+      "path": "zh/zhi-li-ren.md"
+    },
+    "zhi-shi-ji-lei": {
+      "type": "concept",
+      "label": "知识积累",
+      "aliases": [
+        "knowledge accumulation",
+        "知识传承",
+        "文化积累"
+      ],
+      "path": "zh/zhi-shi-ji-lei.md"
     },
     "zhili": {
       "type": "place",
@@ -4180,6 +4700,15 @@
       ],
       "path": "zh/长江.md"
     },
+    "zi-ran-shi-yan": {
+      "type": "concept",
+      "label": "自然实验",
+      "aliases": [
+        "natural experiment",
+        "自然比较法"
+      ],
+      "path": "zi/zi-ran-shi-yan.md"
+    },
     "字母": {
       "type": "concept",
       "label": "字母",
@@ -4220,6 +4749,16 @@
         "矿产资源"
       ],
       "path": "zi/资源.md"
+    },
+    "zou-chu-fei-zhou": {
+      "type": "event",
+      "label": "zou-chu-fei-zhou",
+      "aliases": [
+        "Out of Africa",
+        "人类走出非洲",
+        "非洲起源论"
+      ],
+      "path": "zo/zou-chu-fei-zhou.md"
     },
     "宗教": {
       "type": "concept",
@@ -4286,6 +4825,10 @@
     "alabobandao": "alabobandao",
     "阿拉伯半岛": "alabobandao",
     "Arabian Peninsula": "alabobandao",
+    "an-dong-ni-wen-yi": "an-dong-ni-wen-yi",
+    "安东尼瘟疫": "an-dong-ni-wen-yi",
+    "Antonine Plague": "an-dong-ni-wen-yi",
+    "安东尼大瘟疫": "an-dong-ni-wen-yi",
     "annatuoliya": "annatuoliya",
     "安纳托利亚": "annatuoliya",
     "Anatolia": "annatuoliya",
@@ -4305,18 +4848,34 @@
     "阿塔瓦尔帕": "阿塔瓦尔帕",
     "Atahualpa": "阿塔瓦尔帕",
     "阿塔华帕": "阿塔瓦尔帕",
+    "a-yi-nu-ren": "a-yi-nu-ren",
+    "阿伊努人": "a-yi-nu-ren",
+    "Ainu": "a-yi-nu-ren",
+    "阿伊努族": "a-yi-nu-ren",
+    "爱努人": "a-yi-nu-ren",
     "aziteke": "aziteke",
     "阿兹特克": "aziteke",
     "Aztec": "aziteke",
     "阿兹特克帝国": "aziteke",
     "墨西加": "aziteke",
+    "ba-ta-ge-ni-ya": "ba-ta-ge-ni-ya",
+    "巴塔哥尼亚": "ba-ta-ge-ni-ya",
+    "Patagonia": "ba-ta-ge-ni-ya",
+    "巴塔哥尼亚高原": "ba-ta-ge-ni-ya",
     "baergan": "baergan",
     "巴尔干": "baergan",
     "Balkans": "baergan",
     "巴尔干半岛": "baergan",
+    "bai-ling-lu-qiao": "bai-ling-lu-qiao",
+    "白令陆桥": "bai-ling-lu-qiao",
+    "Bering Land Bridge": "bai-ling-lu-qiao",
+    "白令吉亚": "bai-ling-lu-qiao",
     "bailatu": "bailatu",
     "柏拉图": "bailatu",
     "Plato": "bailatu",
+    "ban-zhen-shang-han": "ban-zhen-shang-han",
+    "斑疹伤寒": "ban-zhen-shang-han",
+    "typhus": "ban-zhen-shang-han",
     "半岛": "半岛",
     "半岛地形": "半岛",
     "巴拿马地峡": "巴拿马地峡",
@@ -4341,6 +4900,10 @@
     "Arctic": "北极",
     "北极地区": "北极",
     "北美": "北美洲",
+    "被引用最多页面": "被引用最多页面",
+    "引用排行": "被引用最多页面",
+    "热门页面": "被引用最多页面",
+    "高引用页面": "被引用最多页面",
     "bilu": "bilu",
     "秘鲁": "bilu",
     "Peru": "bilu",
@@ -4381,6 +4944,11 @@
     "部落社会": "部落",
     "部落组织": "部落",
     "氏族部落": "部落",
+    "cai-cai-ying": "cai-cai-ying",
+    "采采蝇": "cai-cai-ying",
+    "tsetse fly": "cai-cai-ying",
+    "舌蝇": "cai-cai-ying",
+    "萃萃蝇": "cai-cai-ying",
     "caiji-shoulie": "caiji-shoulie",
     "采集狩猎": "caiji-shoulie",
     "hunter-gatherer": "caiji-shoulie",
@@ -4415,6 +4983,16 @@
     "ch17-speedboat-to-polynesia": "ch17-speedboat-to-polynesia",
     "ch18-collision-of-two-hemispheres": "ch18-collision-of-two-hemispheres",
     "ch19-how-africa-became-black": "ch19-how-africa-became-black",
+    "cha-er-ku-qi-ma": "cha-er-ku-qi-ma",
+    "查尔库奇马": "cha-er-ku-qi-ma",
+    "Chalcuchima": "cha-er-ku-qi-ma",
+    "cha-shi-ding-ni-wen-yi": "cha-shi-ding-ni-wen-yi",
+    "查士丁尼瘟疫": "cha-shi-ding-ni-wen-yi",
+    "Plague of Justinian": "cha-shi-ding-ni-wen-yi",
+    "cha-ta-mu-qun-dao": "cha-ta-mu-qun-dao",
+    "查塔姆群岛": "cha-ta-mu-qun-dao",
+    "Chatham Islands": "cha-ta-mu-qun-dao",
+    "查塔姆": "cha-ta-mu-qun-dao",
     "chaoxian": "chaoxian",
     "朝鲜": "chaoxian",
     "Korea": "chaoxian",
@@ -4453,6 +5031,16 @@
     "村庄": "村落",
     "定居点": "村落",
     "settlement": "村落",
+    "da-hu-hou": "da-hu-hou",
+    "大狐猴": "da-hu-hou",
+    "Indri": "da-hu-hou",
+    "indri": "da-hu-hou",
+    "马达加斯加大狐猴": "da-hu-hou",
+    "da-jiao-ban-ling": "da-jiao-ban-ling",
+    "大角斑羚": "da-jiao-ban-ling",
+    "eland": "da-jiao-ban-ling",
+    "非洲大羚羊": "da-jiao-ban-ling",
+    "大羚羊": "da-jiao-ban-ling",
     "dagama": "dagama",
     "瓦斯科·达·伽马": "dagama",
     "Vasco da Gama": "dagama",
@@ -4461,6 +5049,10 @@
     "贾雷德·戴蒙德": "daimengde",
     "Jared Diamond": "daimengde",
     "戴蒙德": "daimengde",
+    "dan-li-xiao-mai": "dan-li-xiao-mai",
+    "单粒小麦": "dan-li-xiao-mai",
+    "einkorn wheat": "dan-li-xiao-mai",
+    "一粒小麦": "dan-li-xiao-mai",
     "大豆": "大豆",
     "soybean": "大豆",
     "黄豆": "大豆",
@@ -4488,6 +5080,10 @@
     "Charles Darwin": "达尔文",
     "道路": "道路",
     "通道": "道路",
+    "deng-ling": "deng-ling",
+    "瞪羚": "deng-ling",
+    "gazelle": "deng-ling",
+    "瞪羚属": "deng-ling",
     "德国": "德国",
     "Germany": "德国",
     "德意志": "德国",
@@ -4545,10 +5141,23 @@
     "动物物种": "动物",
     "动物多样性": "动物",
     "动物驯化": "动物驯化",
+    "du-du-niao": "du-du-niao",
+    "渡渡鸟": "du-du-niao",
+    "Raphus cucullatus": "du-du-niao",
+    "dodo": "du-du-niao",
+    "多多鸟": "du-du-niao",
     "鹅": "鹅",
     "goose": "鹅",
     "家鹅": "鹅",
     "Epilogue": "Epilogue",
+    "er-li-xiao-mai": "er-li-xiao-mai",
+    "二粒小麦": "er-li-xiao-mai",
+    "emmer wheat": "er-li-xiao-mai",
+    "埃默尔小麦": "er-li-xiao-mai",
+    "fa-luo-qun-dao": "fa-luo-qun-dao",
+    "法罗群岛": "fa-luo-qun-dao",
+    "Faroe Islands": "fa-luo-qun-dao",
+    "法罗": "fa-luo-qun-dao",
     "发明": "发明",
     "技术发明": "发明",
     "invention": "发明",
@@ -4559,6 +5168,10 @@
     "inventor": "发明家",
     "纺织": "纺织",
     "纺织技术": "纺织",
+    "fei-ji": "fei-ji",
+    "斐济": "fei-ji",
+    "Fiji": "fei-ji",
+    "斐济群岛": "fei-ji",
     "feilvbin": "feilvbin",
     "菲律宾": "feilvbin",
     "Philippines": "feilvbin",
@@ -4577,6 +5190,11 @@
     "撒哈拉以南非洲": "非洲",
     "非洲大陆": "非洲",
     "Frontispiece": "Frontispiece",
+    "fu-lang-xi-si-gao-er-dun": "fu-lang-xi-si-gao-er-dun",
+    "弗朗西斯·高尔顿": "fu-lang-xi-si-gao-er-dun",
+    "Francis Galton": "fu-lang-xi-si-gao-er-dun",
+    "高尔顿": "fu-lang-xi-si-gao-er-dun",
+    "法兰西斯·高尔顿": "fu-lang-xi-si-gao-er-dun",
     "fuhuojiedao": "fuhuojiedao",
     "复活节岛": "fuhuojiedao",
     "Easter Island": "fuhuojiedao",
@@ -4605,6 +5223,10 @@
     "高粱": "高粱",
     "sorghum": "高粱",
     "Sorghum bicolor": "高粱",
+    "ge-ren-yu-li-shi-jie-gou": "ge-ren-yu-li-shi-jie-gou",
+    "个人与历史结构": "ge-ren-yu-li-shi-jie-gou",
+    "individuals vs historical structures": "ge-ren-yu-li-shi-jie-gou",
+    "个人作用与历史规律": "ge-ren-yu-li-shi-jie-gou",
     "哥伦布": "哥伦布",
     "克里斯托弗·哥伦布": "哥伦布",
     "Christopher Columbus": "哥伦布",
@@ -4680,6 +5302,10 @@
     "航行": "航行",
     "远洋航行": "航行",
     "水上航行": "航行",
+    "he-ma": "he-ma",
+    "河马": "he-ma",
+    "hippopotamus": "he-ma",
+    "河马属": "he-ma",
     "河流": "河流",
     "水道": "河流",
     "可通航河流": "河流",
@@ -4688,12 +5314,18 @@
     "Black Death": "黑死病",
     "腺鼠疫": "黑死病",
     "1346年鼠疫": "黑死病",
+    "huang-re-bing": "huang-re-bing",
+    "黄热病": "huang-re-bing",
+    "yellow fever": "huang-re-bing",
     "huanjing-juedinglun": "huanjing-juedinglun",
     "environmental determinism": "huanjing-juedinglun",
     "地理环境决定论": "huanjing-juedinglun",
     "huashengdun": "huashengdun",
     "乔治·华盛顿": "huashengdun",
     "George Washington": "huashengdun",
+    "huo-pu-wei-er-wen-hua": "huo-pu-wei-er-wen-hua",
+    "Hopewell culture": "huo-pu-wei-er-wen-hua",
+    "霍普韦尔": "huo-pu-wei-er-wen-hua",
     "火": "火",
     "fire": "火",
     "用火": "火",
@@ -4727,6 +5359,11 @@
     "ji-shu-ting-zhi": "ji-shu-ting-zhi",
     "技术停滞": "ji-shu-ting-zhi",
     "technological stagnation": "ji-shu-ting-zhi",
+    "jia-jie": "jia-jie",
+    "嫁接": "jia-jie",
+    "grafting": "jia-jie",
+    "嫁接技术": "jia-jie",
+    "果树嫁接": "jia-jie",
     "jialifuniya": "jialifuniya",
     "加利福尼亚": "jialifuniya",
     "California": "jialifuniya",
@@ -4836,6 +5473,16 @@
     "考古遗址": "考古遗址",
     "遗址": "考古遗址",
     "考古发掘": "考古遗址",
+    "ke-luo-ma-nu-ren": "ke-luo-ma-nu-ren",
+    "克罗马努人": "ke-luo-ma-nu-ren",
+    "Cro-Magnon": "ke-luo-ma-nu-ren",
+    "克罗马农人": "ke-luo-ma-nu-ren",
+    "晚期智人": "ke-luo-ma-nu-ren",
+    "ke-yi-sang-ren": "ke-yi-sang-ren",
+    "科伊桑人": "ke-yi-sang-ren",
+    "Khoisan": "ke-yi-sang-ren",
+    "科伊桑": "ke-yi-sang-ren",
+    "科伊桑民族": "ke-yi-sang-ren",
     "keertesi": "keertesi",
     "埃尔南·科尔特斯": "keertesi",
     "Hernán Cortés": "keertesi",
@@ -4849,6 +5496,18 @@
     "科学方法": "科学",
     "科学观点": "科学",
     "历史科学": "科学",
+    "kong-niao": "kong-niao",
+    "恐鸟": "kong-niao",
+    "moa": "kong-niao",
+    "恐鸟属": "kong-niao",
+    "ku-chao-cai": "ku-chao-cai",
+    "bitter vetch": "ku-chao-cai",
+    "苦野豌豆": "ku-chao-cai",
+    "苦草": "ku-chao-cai",
+    "ku-lu-bing": "ku-lu-bing",
+    "库鲁病": "ku-lu-bing",
+    "kuru": "ku-lu-bing",
+    "强笑病": "ku-lu-bing",
     "kua-xue-ke-fang-fa": "kua-xue-ke-fang-fa",
     "跨学科方法": "kua-xue-ke-fang-fa",
     "interdisciplinary approach": "kua-xue-ke-fang-fa",
@@ -4880,6 +5539,14 @@
     "liangshi-chubei": "liangshi-chubei",
     "粮食储存": "liangshi-chubei",
     "余粮储备": "liangshi-chubei",
+    "lie-bao": "lie-bao",
+    "猎豹": "lie-bao",
+    "cheetah": "lie-bao",
+    "印度猎豹": "lie-bao",
+    "liu-xing-xing-gan-mao": "liu-xing-xing-gan-mao",
+    "流行性感冒": "liu-xing-xing-gan-mao",
+    "流感": "liu-xing-xing-gan-mao",
+    "influenza": "liu-xing-xing-gan-mao",
     "粮食生产": "粮食生产",
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
@@ -4902,6 +5569,10 @@
     "donkey": "驴",
     "ass": "驴",
     "家驴": "驴",
+    "ma-ke-bu-lu-mu-le": "ma-ke-bu-lu-mu-le",
+    "马克·布卢姆勒": "ma-ke-bu-lu-mu-le",
+    "Mark Blumler": "ma-ke-bu-lu-mu-le",
+    "Mark A. Blumler": "ma-ke-bu-lu-mu-le",
     "ma-ke-si": "ma-ke-si",
     "马克思": "ma-ke-si",
     "Karl Marx": "ma-ke-si",
@@ -4910,6 +5581,19 @@
     "马达加斯加": "madagascar",
     "Madagascar": "madagascar",
     "makesi": "makesi",
+    "man-dan-zu": "man-dan-zu",
+    "曼丹族": "man-dan-zu",
+    "曼丹人": "man-dan-zu",
+    "Mandan": "man-dan-zu",
+    "man-ke": "man-ke",
+    "曼科": "man-ke",
+    "Manco Inca": "man-ke",
+    "曼科·印卡": "man-ke",
+    "Manco Capac": "man-ke",
+    "mao-li-ren": "mao-li-ren",
+    "毛利人": "mao-li-ren",
+    "Maori": "mao-li-ren",
+    "毛利": "mao-li-ren",
     "牦牛": "牦牛",
     "yak": "牦牛",
     "犛牛": "牦牛",
@@ -4940,6 +5624,14 @@
     "麻疹病毒": "麻疹",
     "measles": "麻疹",
     "Measles morbillivirus": "麻疹",
+    "mei-du": "mei-du",
+    "梅毒": "mei-du",
+    "syphilis": "mei-du",
+    "mei-zhou-ye-niu": "mei-zhou-ye-niu",
+    "美洲野牛": "mei-zhou-ye-niu",
+    "American bison": "mei-zhou-ye-niu",
+    "北美野牛": "mei-zhou-ye-niu",
+    "buffalo": "mei-zhou-ye-niu",
     "meilaxiniya": "meilaxiniya",
     "美拉尼西亚": "meilaxiniya",
     "Melanesia": "meilaxiniya",
@@ -4977,6 +5669,14 @@
     "蒙特朱马": "蒙特朱马",
     "Moctezuma": "蒙特朱马",
     "蒙特苏马": "蒙特朱马",
+    "mi-xi-xi-bi-he": "mi-xi-xi-bi-he",
+    "密西西比河": "mi-xi-xi-bi-he",
+    "Mississippi River": "mi-xi-xi-bi-he",
+    "mi-xi-xi-bi-wen-hua": "mi-xi-xi-bi-wen-hua",
+    "密西西比文化": "mi-xi-xi-bi-wen-hua",
+    "Mississippian culture": "mi-xi-xi-bi-wen-hua",
+    "密西西比河流域文化": "mi-xi-xi-bi-wen-hua",
+    "土墩建造者文化": "mi-xi-xi-bi-wen-hua",
     "mianyi": "mianyi",
     "免疫": "mianyi",
     "immunity": "mianyi",
@@ -5005,6 +5705,10 @@
     "家蜂": "蜜蜂",
     "面包果": "面包果",
     "breadfruit": "面包果",
+    "mo-li-ao-li-ren": "mo-li-ao-li-ren",
+    "莫里奥里人": "mo-li-ao-li-ren",
+    "Moriori": "mo-li-ao-li-ren",
+    "莫里奥里族": "mo-li-ao-li-ren",
     "moerzibigang": "moerzibigang",
     "莫尔兹比港": "moerzibigang",
     "Port Moresby": "moerzibigang",
@@ -5044,6 +5748,10 @@
     "南岛语族扩张": "南岛语族扩张",
     "Austronesian Expansion": "南岛语族扩张",
     "波利尼西亚扩张": "南岛语族扩张",
+    "neng-ren": "neng-ren",
+    "能人": "neng-ren",
+    "Homo habilis": "neng-ren",
+    "巧人": "neng-ren",
     "niandetelian": "niandetelian",
     "尼安德特人": "niandetelian",
     "Neanderthal": "niandetelian",
@@ -5051,6 +5759,9 @@
     "niluohe": "niluohe",
     "尼罗河": "niluohe",
     "Nile River": "niluohe",
+    "niu-wen": "niu-wen",
+    "牛瘟": "niu-wen",
+    "rinderpest": "niu-wen",
     "Nile": "尼罗河",
     "牛": "牛",
     "家牛": "牛",
@@ -5183,18 +5894,29 @@
     "日本": "日本",
     "Japan": "日本",
     "日本列岛": "日本",
+    "sa-he-le-di-dai": "sa-he-le-di-dai",
+    "萨赫勒地带": "sa-he-le-di-dai",
+    "Sahel": "sa-he-le-di-dai",
+    "萨赫勒": "sa-he-le-di-dai",
+    "萨赫勒地区": "sa-he-le-di-dai",
+    "sa-mo-ya": "sa-mo-ya",
+    "萨摩亚": "sa-mo-ya",
+    "Samoa": "sa-mo-ya",
+    "萨摩亚群岛": "sa-mo-ya",
     "sahala": "sahala",
     "撒哈拉": "sahala",
     "Sahara": "sahala",
     "塞阔雅": "塞阔雅",
     "Sequoyah": "塞阔雅",
     "斯奎亚": "塞阔雅",
-    "萨赫勒地带": "萨赫勒地带",
-    "萨赫勒": "萨赫勒地带",
-    "Sahel": "萨赫勒地带",
     "非洲萨赫勒": "萨赫勒地带",
     "森林": "森林",
     "树林": "森林",
+    "sha-ba-la-qun-luo": "sha-ba-la-qun-luo",
+    "沙巴拉群落": "sha-ba-la-qun-luo",
+    "chaparral": "sha-ba-la-qun-luo",
+    "查帕拉尔群落": "sha-ba-la-qun-luo",
+    "灌木丛林": "sha-ba-la-qun-luo",
     "she-hui-fu-za-hua": "she-hui-fu-za-hua",
     "社会复杂化": "she-hui-fu-za-hua",
     "social complexity": "she-hui-fu-za-hua",
@@ -5213,8 +5935,6 @@
     "重大事件": "事件索引",
     "event index": "事件索引",
     "伤寒": "伤寒",
-    "斑疹伤寒": "伤寒",
-    "typhus": "伤寒",
     "typhoid": "伤寒",
     "剩余粮食": "剩余粮食",
     "农业剩余": "剩余粮食",
@@ -5276,6 +5996,10 @@
     "税赋": "税收",
     "鼠疫": "鼠疫",
     "鼠疫杆菌": "鼠疫",
+    "su-mei-er-ren": "su-mei-er-ren",
+    "苏美尔人": "su-mei-er-ren",
+    "Sumerians": "su-mei-er-ren",
+    "苏美人": "su-mei-er-ren",
     "tai-ping-yang": "tai-ping-yang",
     "太平洋": "tai-ping-yang",
     "Pacific Ocean": "tai-ping-yang",
@@ -5288,6 +6012,10 @@
     "radiocarbon dating": "tan14-ce-nian",
     "放射性碳定年": "tan14-ce-nian",
     "C14测年": "tan14-ce-nian",
+    "tang-jia": "tang-jia",
+    "汤加": "tang-jia",
+    "Tonga": "tang-jia",
+    "汤加群岛": "tang-jia",
     "台湾岛": "台湾",
     "探险": "探险",
     "exploration": "探险",
@@ -5298,6 +6026,10 @@
     "陶瓷": "陶器",
     "pottery": "陶器",
     "制陶技术": "陶器",
+    "te-le-a-bu-hu-rui-la": "te-le-a-bu-hu-rui-la",
+    "特勒阿布胡瑞拉": "te-le-a-bu-hu-rui-la",
+    "Tell Abu Hureyra": "te-le-a-bu-hu-rui-la",
+    "阿布胡瑞拉遗址": "te-le-a-bu-hu-rui-la",
     "天花": "天花",
     "痘疮": "天花",
     "smallpox": "天花",
@@ -5361,6 +6093,11 @@
     "纬度效应": "纬度",
     "纬度与气候": "纬度",
     "东西轴纬度": "纬度",
+    "wu-zhong-bao-hu": "wu-zhong-bao-hu",
+    "物种保护": "wu-zhong-bao-hu",
+    "species conservation": "wu-zhong-bao-hu",
+    "物种保存": "wu-zhong-bao-hu",
+    "生物多样性保护": "wu-zhong-bao-hu",
     "无花果": "无花果",
     "fig": "无花果",
     "武器": "武器",
@@ -5368,6 +6105,15 @@
     "生物物种": "物种",
     "species": "物种",
     "物种索引": "物种索引",
+    "xi-ke-suo-si": "xi-ke-suo-si",
+    "希克索斯": "xi-ke-suo-si",
+    "Hyksos": "xi-ke-suo-si",
+    "希克索斯民族": "xi-ke-suo-si",
+    "牧人王朝": "xi-ke-suo-si",
+    "xi-niu": "xi-niu",
+    "犀牛": "xi-niu",
+    "rhinoceros": "xi-niu",
+    "犀": "xi-niu",
     "xi-zang-gao-yuan": "xi-zang-gao-yuan",
     "西藏高原": "xi-zang-gao-yuan",
     "Tibetan Plateau": "xi-zang-gao-yuan",
@@ -5379,13 +6125,17 @@
     "xiang-cun": "xiang-cun",
     "乡村": "xiang-cun",
     "village": "xiang-cun",
+    "xiang-shi": "xiang-shi",
+    "橡实": "xiang-shi",
+    "acorn": "xiang-shi",
+    "橡子": "xiang-shi",
+    "橡果": "xiang-shi",
     "xiang-xing-wen-zi": "xiang-xing-wen-zi",
     "象形文字": "xiang-xing-wen-zi",
     "hieroglyph": "xiang-xing-wen-zi",
-    "楔形文字": "xiang-xing-wen-zi",
+    "埃及象形文字": "xiang-xing-wen-zi",
     "xiangxing-wenzi": "xiangxing-wenzi",
     "hieroglyphics": "xiangxing-wenzi",
-    "埃及象形文字": "xiangxing-wenzi",
     "hieroglyphs": "xiangxing-wenzi",
     "xiaweiyi": "xiaweiyi",
     "夏威夷": "xiaweiyi",
@@ -5400,10 +6150,11 @@
     "西伯利亚": "xiboliya",
     "Siberia": "xiboliya",
     "xie-xing-wen-zi": "xie-xing-wen-zi",
+    "楔形文字": "xie-xing-wen-zi",
     "cuneiform": "xie-xing-wen-zi",
+    "苏美尔楔形文字": "xie-xing-wen-zi",
     "两河流域文字": "xie-xing-wen-zi",
     "xiexing-wenzi": "xiexing-wenzi",
-    "苏美尔楔形文字": "xiexing-wenzi",
     "ximalaya": "ximalaya",
     "喜马拉雅": "ximalaya",
     "Himalayas": "ximalaya",
@@ -5420,8 +6171,6 @@
     "向日葵": "向日葵",
     "sunflower": "向日葵",
     "小麦": "小麦",
-    "二粒小麦": "小麦",
-    "单粒小麦": "小麦",
     "wheat": "小麦",
     "Triticum": "小麦",
     "希特勒": "希特勒",
@@ -5497,6 +6246,11 @@
     "野生谷物": "野生谷物",
     "野生禾本科": "野生谷物",
     "野生小麦": "野生谷物",
+    "yi-si-pa-ni-ao-la-dao": "yi-si-pa-ni-ao-la-dao",
+    "伊斯帕尼奥拉岛": "yi-si-pa-ni-ao-la-dao",
+    "Hispaniola": "yi-si-pa-ni-ao-la-dao",
+    "海地岛": "yi-si-pa-ni-ao-la-dao",
+    "西班牙岛": "yi-si-pa-ni-ao-la-dao",
     "yichuanxue": "yichuanxue",
     "遗传学": "yichuanxue",
     "genetics": "yichuanxue",
@@ -5544,6 +6298,10 @@
     "游牧": "游牧",
     "游牧生活": "游牧",
     "游牧族群": "游牧",
+    "yue-dan-he-gu": "yue-dan-he-gu",
+    "约旦河谷": "yue-dan-he-gu",
+    "Jordan Valley": "yue-dan-he-gu",
+    "约旦河": "yue-dan-he-gu",
     "渔业": "渔业",
     "捕鱼": "渔业",
     "渔猎": "渔业",
@@ -5589,6 +6347,15 @@
     "军马": "zhan-ma",
     "zhengfu": "zhengfu",
     "conquest": "zhengfu",
+    "zhi-li-ren": "zhi-li-ren",
+    "直立人": "zhi-li-ren",
+    "Homo erectus": "zhi-li-ren",
+    "直立猿人": "zhi-li-ren",
+    "zhi-shi-ji-lei": "zhi-shi-ji-lei",
+    "知识积累": "zhi-shi-ji-lei",
+    "knowledge accumulation": "zhi-shi-ji-lei",
+    "知识传承": "zhi-shi-ji-lei",
+    "文化积累": "zhi-shi-ji-lei",
     "zhili": "zhili",
     "智利": "zhili",
     "Chile": "zhili",
@@ -5656,6 +6423,10 @@
     "长江": "长江",
     "Yangtze": "长江",
     "扬子江": "长江",
+    "zi-ran-shi-yan": "zi-ran-shi-yan",
+    "自然实验": "zi-ran-shi-yan",
+    "natural experiment": "zi-ran-shi-yan",
+    "自然比较法": "zi-ran-shi-yan",
     "字母": "字母",
     "字母表": "字母",
     "表音文字": "字母",
@@ -5673,6 +6444,10 @@
     "自然资源": "资源",
     "环境资源": "资源",
     "矿产资源": "资源",
+    "zou-chu-fei-zhou": "zou-chu-fei-zhou",
+    "Out of Africa": "zou-chu-fei-zhou",
+    "人类走出非洲": "zou-chu-fei-zhou",
+    "非洲起源论": "zou-chu-fei-zhou",
     "宗教": "宗教",
     "有组织的宗教": "宗教",
     "religion": "宗教",
@@ -5691,6 +6466,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 469,
-  "generated": "2026-05-26T11:05:36Z"
+  "page_count": 527,
+  "generated": "2026-05-26T12:29:27Z"
 }
