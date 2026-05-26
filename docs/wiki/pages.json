@@ -1154,6 +1154,30 @@
       "quality_score": 6,
       "total_refs": 1
     },
+    "畜牧业": {
+      "type": "concept",
+      "label": "畜牧业",
+      "aliases": [
+        "畜牧",
+        "牲畜饲养"
+      ],
+      "tags": [
+        "农业",
+        "经济",
+        "技术"
+      ],
+      "path": "ch/畜牧业.md",
+      "description": "驯养和繁殖牲畜的生产活动，是粮食生产的重要组成部分，从动物驯化开始并深刻影响了人类社会的军事和健康史",
+      "prose_len": 206,
+      "prose_chars": 206,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 3
+    },
     "船只": {
       "type": "concept",
       "label": "船只",
@@ -3113,6 +3137,30 @@
       "quality_score": 56,
       "total_refs": 9
     },
+    "疾病": {
+      "type": "concept",
+      "label": "疾病",
+      "aliases": [
+        "传染病",
+        "瘟疫"
+      ],
+      "tags": [
+        "健康",
+        "历史",
+        "社会"
+      ],
+      "path": "ji/疾病.md",
+      "description": "由病原体引起的身体异常状态，在人类历史中特别是传染病对新旧大陆的碰撞产生了决定性影响",
+      "prose_len": 180,
+      "prose_chars": 180,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 6,
+      "total_refs": 5
+    },
     "竞争": {
       "type": "concept",
       "label": "竞争",
@@ -4837,6 +4885,30 @@
       "quality_score": 58,
       "total_refs": 2
     },
+    "南北轴线与东西轴线": {
+      "type": "concept",
+      "label": "南北轴线与东西轴线",
+      "aliases": [
+        "大陆轴线",
+        "轴线方向"
+      ],
+      "tags": [
+        "地理",
+        "历史",
+        "理论"
+      ],
+      "path": "na/南北轴线与东西轴线.md",
+      "description": "大陆主轴线的方向决定了作物、技术和文明传播的速度与范围，是理解各大陆历史差异的关键地理因素",
+      "prose_len": 207,
+      "prose_chars": 207,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 6
+    },
     "南岛语族扩张": {
       "type": "event",
       "label": "南岛语族扩张",
@@ -5693,6 +5765,29 @@
       "quality": "featured",
       "quality_score": 58,
       "total_refs": 0
+    },
+    "人类迁徙": {
+      "type": "concept",
+      "label": "人类迁徙",
+      "aliases": [
+        "迁移",
+        "人口迁徙"
+      ],
+      "tags": [
+        "历史",
+        "人类学"
+      ],
+      "path": "re/人类迁徙.md",
+      "description": "人类群体在地理空间上的移动，是理解各大陆人口构成和文化分布的关键历史过程",
+      "prose_len": 202,
+      "prose_chars": 202,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 3
     },
     "人类进化": {
       "type": "concept",
@@ -6979,6 +7074,29 @@
       "quality": "basic",
       "quality_score": 8,
       "total_refs": 1
+    },
+    "物种": {
+      "type": "concept",
+      "label": "物种",
+      "aliases": [
+        "生物物种",
+        "species"
+      ],
+      "tags": [
+        "生物",
+        "演化"
+      ],
+      "path": "wu/物种.md",
+      "description": "生物分类的基本单位，其地理分布差异——尤其是可供驯化的野生动植物物种——是决定各大陆发展轨迹的关键因素",
+      "prose_len": 202,
+      "prose_chars": 202,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 3
     },
     "物种索引": {
       "type": "list",
@@ -9133,6 +9251,9 @@
     "城镇": "城市",
     "都市": "城市",
     "城市化": "城市",
+    "畜牧业": "畜牧业",
+    "畜牧": "畜牧业",
+    "牲畜饲养": "畜牧业",
     "船只": "船只",
     "船舶": "船只",
     "帆船": "船只",
@@ -9405,6 +9526,8 @@
     "旧大陆": "旧大陆",
     "欧亚非大陆": "旧大陆",
     "Old World": "旧大陆",
+    "疾病": "疾病",
+    "瘟疫": "疾病",
     "竞争": "竞争",
     "社会竞争": "竞争",
     "竞争压力": "竞争",
@@ -9505,7 +9628,6 @@
     "Wright Brothers": "莱特兄弟",
     "奥维尔·莱特": "莱特兄弟",
     "威尔伯·莱特": "莱特兄弟",
-    "瘟疫": "流行病",
     "粮食生产": "粮食生产",
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
@@ -9654,6 +9776,8 @@
     "南北轴": "南北轴",
     "南北走向": "南北轴",
     "大陆轴线南北": "南北轴",
+    "南北轴线与东西轴线": "南北轴线与东西轴线",
+    "轴线方向": "南北轴线与东西轴线",
     "南岛语族扩张": "南岛语族扩张",
     "Austronesian Expansion": "南岛语族扩张",
     "波利尼西亚扩张": "南岛语族扩张",
@@ -9765,6 +9889,9 @@
     "种族": "人种",
     "人类种族": "人种",
     "生物性种族": "人种",
+    "人类迁徙": "人类迁徙",
+    "迁移": "人类迁徙",
+    "人口迁徙": "人类迁徙",
     "人类进化": "人类进化",
     "人类演化": "人类进化",
     "人科进化": "人类进化",
@@ -9938,6 +10065,9 @@
     "无花果": "无花果",
     "fig": "无花果",
     "武器": "武器",
+    "物种": "物种",
+    "生物物种": "物种",
+    "species": "物种",
     "物种索引": "物种索引",
     "xiaweiyi": "xiaweiyi",
     "夏威夷": "xiaweiyi",
@@ -10060,7 +10190,6 @@
     "printing": "印刷术",
     "印刷机": "印刷术",
     "移民": "移民",
-    "人口迁徙": "移民",
     "史前迁徙": "移民",
     "移民浪潮": "移民",
     "罂粟": "罂粟",
@@ -10211,6 +10340,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 377,
-  "generated": "2026-05-26T01:40:48Z"
+  "page_count": 382,
+  "generated": "2026-05-26T01:41:49Z"
 }
