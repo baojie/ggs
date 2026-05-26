@@ -232,7 +232,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 16
+      "total_refs": 17
     },
     "安娜卡列尼娜原则": {
       "type": "concept",
@@ -2009,7 +2009,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 56
+      "total_refs": 57
     },
     "大麦": {
       "type": "species",
@@ -2609,7 +2609,10 @@
     "动物驯化": {
       "type": "concept",
       "label": "动物驯化",
-      "aliases": [],
+      "aliases": [
+        "动物驯养",
+        "domestication of animals"
+      ],
       "tags": [
         "农业",
         "驯化",
@@ -2617,14 +2620,14 @@
       ],
       "path": "do/动物驯化.md",
       "description": "人类将野生动物驯化为家畜的过程及其对文明发展的影响",
-      "prose_len": 249,
-      "prose_chars": 247,
-      "h2_count": 0,
-      "pn_count": 4,
-      "wikilink_count": 0,
+      "prose_len": 839,
+      "prose_chars": 775,
+      "h2_count": 4,
+      "pn_count": 9,
+      "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 7,
+      "quality": "standard",
+      "quality_score": 28,
       "total_refs": 42
     },
     "du-du-niao": {
@@ -4434,7 +4437,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 19
+      "total_refs": 20
     },
     "技术": {
       "type": "concept",
@@ -5001,7 +5004,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 6
+      "total_refs": 7
     },
     "考古学": {
       "type": "concept",
@@ -5608,7 +5611,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 101
+      "total_refs": 102
     },
     "luoma-diguo": {
       "type": "event",
@@ -6421,14 +6424,14 @@
       ],
       "path": "me/美索不达米亚.md",
       "description": "底格里斯河与幼发拉底河之间的地区，人类最早的文明发源地之一",
-      "prose_len": 420,
-      "prose_chars": 406,
-      "h2_count": 1,
-      "pn_count": 2,
+      "prose_len": 615,
+      "prose_chars": 576,
+      "h2_count": 3,
+      "pn_count": 3,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 9,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 9
     },
     "蒙特朱马": {
@@ -7109,14 +7112,14 @@
       ],
       "path": "na/南岛人扩张.md",
       "description": "说南岛语系的族群从台湾向太平洋和印度洋的大规模史前迁徙",
-      "prose_len": 441,
-      "prose_chars": 427,
-      "h2_count": 1,
+      "prose_len": 558,
+      "prose_chars": 519,
+      "h2_count": 3,
       "pn_count": 2,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 9,
+      "quality": "standard",
+      "quality_score": 25,
       "total_refs": 9
     },
     "南岛语族": {
@@ -7828,14 +7831,14 @@
       ],
       "path": "qi/枪炮病菌与钢铁.md",
       "description": "贾雷德·戴蒙德的著作，论证地理和环境因素而非种族差异解释了各大陆人类社会发展轨迹的不同",
-      "prose_len": 213,
-      "prose_chars": 213,
-      "h2_count": 0,
-      "pn_count": 0,
-      "wikilink_count": 0,
+      "prose_len": 729,
+      "prose_chars": 675,
+      "h2_count": 4,
+      "pn_count": 2,
+      "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 7,
+      "quality": "standard",
+      "quality_score": 27,
       "total_refs": 25
     },
     "栖息地": {
@@ -10772,7 +10775,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 42
+      "total_refs": 43
     },
     "驯鹿": {
       "type": "species",
@@ -12168,14 +12171,14 @@
       ],
       "path": "zh/征服.md",
       "description": "通过武力控制他者领土和人口的行为，在人类历史中塑造了文明的版图",
-      "prose_len": 446,
-      "prose_chars": 432,
-      "h2_count": 1,
-      "pn_count": 3,
+      "prose_len": 641,
+      "prose_chars": 595,
+      "h2_count": 3,
+      "pn_count": 5,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 9,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 12
     },
     "征服者": {
@@ -13158,6 +13161,8 @@
     "动物物种": "动物",
     "动物多样性": "动物",
     "动物驯化": "动物驯化",
+    "动物驯养": "动物驯化",
+    "domestication of animals": "动物驯化",
     "du-du-niao": "du-du-niao",
     "渡渡鸟": "du-du-niao",
     "Raphus cucullatus": "du-du-niao",
@@ -14515,5 +14520,5 @@
     "驯化作物": "作物驯化"
   },
   "page_count": 537,
-  "generated": "2026-05-26T12:32:33Z"
+  "generated": "2026-05-26T12:37:15Z"
 }
