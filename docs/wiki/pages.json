@@ -1007,6 +1007,30 @@
       "quality_score": 56,
       "total_refs": 0
     },
+    "传播": {
+      "type": "concept",
+      "label": "传播",
+      "aliases": [
+        "扩散",
+        "文化传播"
+      ],
+      "tags": [
+        "文化",
+        "技术",
+        "农业"
+      ],
+      "path": "ch/传播.md",
+      "description": "文化特质、技术、作物和观念在人群之间的传递过程，其方向和速度受地理环境的深刻影响",
+      "prose_len": 255,
+      "prose_chars": 255,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "传教": {
       "type": "concept",
       "label": "传教",
@@ -5862,6 +5886,29 @@
       "quality_score": 60,
       "total_refs": 18
     },
+    "书籍": {
+      "type": "concept",
+      "label": "书籍",
+      "aliases": [
+        "书",
+        "book"
+      ],
+      "tags": [
+        "技术",
+        "知识"
+      ],
+      "path": "sh/书籍.md",
+      "description": "将文字信息装订成册的知识载体，对人类文明的积累和传播具有根本性意义",
+      "prose_len": 201,
+      "prose_chars": 201,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "伤寒": {
       "type": "concept",
       "label": "伤寒",
@@ -6816,6 +6863,29 @@
       "quality": "featured",
       "quality_score": 56,
       "total_refs": 2
+    },
+    "文明": {
+      "type": "concept",
+      "label": "文明",
+      "aliases": [
+        "civilization"
+      ],
+      "tags": [
+        "社会",
+        "政治",
+        "历史"
+      ],
+      "path": "we/文明.md",
+      "description": "以城市、文字、复杂劳动分工和阶级分化为特征的人类社会形态，其出现以粮食生产的充分剩余为前提",
+      "prose_len": 197,
+      "prose_chars": 197,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 6,
+      "total_refs": 0
     },
     "温带": {
       "type": "concept",
@@ -8390,6 +8460,30 @@
       "quality_score": 62,
       "total_refs": 5
     },
+    "指南针": {
+      "type": "concept",
+      "label": "指南针",
+      "aliases": [
+        "compass",
+        "罗盘"
+      ],
+      "tags": [
+        "技术",
+        "发明",
+        "航海"
+      ],
+      "path": "zh/指南针.md",
+      "description": "利用磁针指示方向的导航仪器，中国的重大技术发明之一，极大地促进了远洋航行和地理大发现",
+      "prose_len": 173,
+      "prose_chars": 173,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 6,
+      "total_refs": 0
+    },
     "政治竞争": {
       "type": "concept",
       "label": "政治竞争",
@@ -8636,6 +8730,29 @@
       "quality": "featured",
       "quality_score": 59,
       "total_refs": 1
+    },
+    "纸张": {
+      "type": "concept",
+      "label": "纸张",
+      "aliases": [
+        "纸",
+        "paper"
+      ],
+      "tags": [
+        "技术",
+        "发明"
+      ],
+      "path": "zh/纸张.md",
+      "description": "以植物纤维为原料制成的薄片状书写材料，中国的重大技术发明，对知识和信息的传播产生了革命性影响",
+      "prose_len": 193,
+      "prose_chars": 193,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 6,
+      "total_refs": 0
     },
     "字母": {
       "type": "concept",
@@ -8977,6 +9094,9 @@
     "朝鲜": "chaoxian",
     "Korea": "chaoxian",
     "朝鲜半岛": "chaoxian",
+    "传播": "传播",
+    "扩散": "传播",
+    "文化传播": "传播",
     "传教": "传教",
     "传教活动": "传教",
     "传教士": "传教",
@@ -9650,6 +9770,9 @@
     "书写系统": "书写系统",
     "文字系统": "书写系统",
     "writing system": "书写系统",
+    "书籍": "书籍",
+    "书": "书籍",
+    "book": "书籍",
     "伤寒": "伤寒",
     "斑疹伤寒": "伤寒",
     "typhus": "伤寒",
@@ -9784,6 +9907,8 @@
     "Independent Invention of Writing": "文字的独立发明",
     "苏美尔文字": "文字的独立发明",
     "楔形文字发明": "文字的独立发明",
+    "文明": "文明",
+    "civilization": "文明",
     "温带": "温带",
     "温带地区": "温带",
     "纬度": "纬度",
@@ -9990,6 +10115,9 @@
     "征服战争": "战争",
     "武装冲突": "战争",
     "warfare": "战争",
+    "指南针": "指南针",
+    "compass": "指南针",
+    "罗盘": "指南针",
     "政治竞争": "政治竞争",
     "政治分裂": "政治竞争",
     "竞争性国家体系": "政治竞争",
@@ -10024,6 +10152,9 @@
     "种族决定论": "种族主义",
     "种族优越论": "种族主义",
     "智力差异": "种族主义",
+    "纸张": "纸张",
+    "纸": "纸张",
+    "paper": "纸张",
     "字母": "字母",
     "字母表": "字母",
     "表音文字": "字母",
@@ -10059,6 +10190,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 371,
-  "generated": "2026-05-26T01:38:09Z"
+  "page_count": 376,
+  "generated": "2026-05-26T01:39:08Z"
 }
