@@ -6980,6 +6980,26 @@
       "quality_score": 8,
       "total_refs": 1
     },
+    "物种索引": {
+      "type": "list",
+      "label": "物种索引",
+      "aliases": [],
+      "tags": [
+        "index",
+        "species"
+      ],
+      "path": "wu/物种索引.md",
+      "description": "本 wiki 收录的全部物种词条索引",
+      "prose_len": 211,
+      "prose_chars": 170,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "xiaweiyi": {
       "type": "place",
       "label": "夏威夷",
@@ -9918,6 +9938,7 @@
     "无花果": "无花果",
     "fig": "无花果",
     "武器": "武器",
+    "物种索引": "物种索引",
     "xiaweiyi": "xiaweiyi",
     "夏威夷": "xiaweiyi",
     "Hawaii": "xiaweiyi",
@@ -10190,6 +10211,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 376,
-  "generated": "2026-05-26T01:39:08Z"
+  "page_count": 377,
+  "generated": "2026-05-26T01:40:48Z"
 }

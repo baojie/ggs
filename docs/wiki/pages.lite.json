@@ -2654,6 +2654,12 @@
       "aliases": [],
       "path": "wu/武器.md"
     },
+    "物种索引": {
+      "type": "list",
+      "label": "物种索引",
+      "aliases": [],
+      "path": "wu/物种索引.md"
+    },
     "xiaweiyi": {
       "type": "place",
       "label": "夏威夷",
@@ -4360,6 +4366,7 @@
     "无花果": "无花果",
     "fig": "无花果",
     "武器": "武器",
+    "物种索引": "物种索引",
     "xiaweiyi": "xiaweiyi",
     "夏威夷": "xiaweiyi",
     "Hawaii": "xiaweiyi",
@@ -4632,6 +4639,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 376,
-  "generated": "2026-05-26T01:39:08Z"
+  "page_count": 377,
+  "generated": "2026-05-26T01:40:48Z"
 }
