@@ -8,8 +8,8 @@ category: animal
 domesticated: false
 origin_region: 北美洲
 description: 北美大型食肉哺乳动物，戴蒙德用以例证因凶险性情而失去驯化候补资格的动物
+quality: basic
 ---
-
 ## 物种简介
 
 灰熊是棕熊的北美亚种，体重可达1700磅，主要吃素但也是可怕的猎手。熊肉是昂贵的美食，灰熊素食的范围很广，生长速度也比较快。

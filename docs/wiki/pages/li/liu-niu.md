@@ -8,8 +8,8 @@ category: animal
 domesticated: true
 origin_region: 印度次大陆
 description: 印度特有的牛种，具有明显的肉峰特征，是独立驯化于印度次大陆的瘤牛品种，与欧亚大陆西部的普通牛种在几十万年前就已分化
+quality: basic
 ---
-
 ## 物种简介
 
 瘤牛是印度次大陆特有的牛种，具有欧亚大陆西部牛种所没有的肉峰（即肩峰）。瘤牛耐热、抗病，在热带和亚热带地区广泛饲养。

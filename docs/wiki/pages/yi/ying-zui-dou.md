@@ -8,8 +8,8 @@ category: plant
 domesticated: true
 origin_region: 新月沃地
 description: 新月沃地驯化的重要豆类，是人类最早种植的8大始祖作物之一，与小麦和大麦构成早期农业体系的关键组合
+quality: basic
 ---
-
 ## 物种简介
 
 鹰嘴豆是豆科鹰嘴豆属的一年生草本植物，因其种子形似鹰嘴而得名。鹰嘴豆富含蛋白质和纤维，是地中海、中东和南亚地区的传统主食之一。

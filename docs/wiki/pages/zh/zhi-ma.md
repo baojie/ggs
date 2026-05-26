@@ -8,8 +8,8 @@ category: plant
 domesticated: true
 origin_region: 印度
 description: 印度次大陆驯化的古老油料作物，后传播至地中海和世界其他地区
+quality: basic
 ---
-
 ## 物种简介
 
 芝麻是胡麻科胡麻属的一年生草本植物，是人类最古老的油料作物之一。芝麻种子含油率高达50%以上，既可食用也可用于照明和药用。

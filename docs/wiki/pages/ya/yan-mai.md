@@ -8,8 +8,8 @@ category: plant
 domesticated: true
 origin_region: 地中海/欧洲
 description: 由杂草驯化而来的谷物，最初是作为小麦和大麦田中的杂草而被人无意中栽培
+quality: basic
 ---
-
 ## 物种简介
 
 燕麦是禾本科燕麦属的一年生草本谷物。燕麦最早是作为小麦和大麦田中的杂草而被人无意中栽培的，属于后来被驯化的"杂草作物"。

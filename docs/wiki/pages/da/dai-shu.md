@@ -8,8 +8,8 @@ category: animal
 domesticated: false
 origin_region: 澳大利亚
 description: 澳大利亚特有的有袋类动物，新几内亚人和澳大利亚土著饲养作为宠物和食物
+quality: featured
 ---
-
 ## 物种简介
 
 袋鼠是澳大利亚和新几内亚特有的有袋类哺乳动物，以后肢跳跃为移动方式。袋鼠体重从几公斤到九十公斤不等，主要以草食为生。红袋鼠是现存最大的有袋动物。

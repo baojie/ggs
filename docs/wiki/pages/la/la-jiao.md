@@ -8,8 +8,8 @@ category: plant
 domesticated: true
 origin_region: 美洲
 description: 美洲驯化的辛辣调味作物，在中美洲和南美洲至少各被独立驯化一次
+quality: basic
 ---
-
 ## 物种简介
 
 辣椒是茄科辣椒属植物的通称，是美洲驯化的调味作物。辣椒含有辣椒素，产生独特的辛辣味。辣椒在中美洲和南美洲至少各被独立驯化一次（010-011）。

@@ -1,0 +1,54 @@
+---
+id: nong-ye-yu-xun-hua-suo-yin
+type: list
+label: 农业与驯化索引
+aliases: [Agriculture and Domestication Index]
+tags: [索引, 农业, 驯化]
+description: 本 wiki 中涉及农业和动植物驯化的全部词条索引
+quality: basic
+---
+
+本页按主题分组展示 wiki 中与农业和动植物驯化相关的词条，涵盖作物栽培、家畜驯化和农业技术三大主题。农业与驯化是戴蒙德全书论证的核心环节——哪块大陆拥有可驯化的野生动植物资源，直接决定了该大陆文明的发展轨迹。
+
+## 农业与作物
+
+::: query
+tags: [农业]
+sort: label
+display: table
+fields: [label, quality, total_refs]
+field_labels:
+  label: 词条
+  quality: 质量
+  total_refs: 引用数
+title: 农业与作物
+:::
+
+## 驯化与家畜
+
+::: query
+tags: [驯化]
+sort: label
+display: table
+fields: [label, type, quality, total_refs]
+field_labels:
+  label: 词条
+  type: 类型
+  quality: 质量
+  total_refs: 引用数
+title: 驯化与家畜
+:::
+
+## 驯化物种
+
+::: query
+tags: [驯化种]
+sort: label
+display: table
+fields: [label, type, quality]
+field_labels:
+  label: 词条
+  type: 类型
+  quality: 质量
+title: 驯化物种
+:::

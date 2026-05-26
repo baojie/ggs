@@ -6,10 +6,9 @@ aliases: [Bismarck Archipelago]
 tags: [地理, 太平洋, 南岛人扩张]
 region: oceania
 latitude_band: tropical
-quality: basic
 description: 新几内亚东北部的群岛，南岛人扩张进入太平洋的重要跳板，拉皮塔文化最早出现地
+quality: featured
 ---
-
 ## 地理概况
 
 俾斯麦群岛位于新几内亚东北部，包括新不列颠岛、新爱尔兰岛等主要岛屿。这些岛屿紧接在新几内亚本土之后有人移居，包括新不列颠岛和新爱尔兰岛（001-020）。到35000年前，向新几内亚东北方的俾斯麦群岛和所罗门群岛移民需要渡过几十英里的水路（015-017）。

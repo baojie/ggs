@@ -4,10 +4,9 @@ type: concept
 label: 和平文化
 aliases: [Hoabinhian, 和平文化传统]
 tags: [考古, 东南亚, 新石器时代]
-quality: basic
 description: 东南亚的中石器时代至新石器时代早期考古文化，以越南和平省命名，代表南岛人扩张之前东南亚原住民的文化面貌
+quality: basic
 ---
-
 ## 简介
 
 和平文化（Hoabinhian）是东南亚的一个中石器时代至新石器时代早期的考古文化传统，因最早发现于越南北部和平省而得名。戴蒙德在论述南岛人扩张之前的东南亚原住民时引用了这一文化。

@@ -7,10 +7,9 @@ tags: [地理, 美洲, 南美洲]
 region: americas
 axis: north-south
 latitude_band: temperate
-quality: basic
 description: 南美洲南端的高原地区，戴蒙德以人类从北美快速扩散至此的过程论证早期人类迁徙的速度与能力
+quality: featured
 ---
-
 ## 简介
 
 巴塔哥尼亚高原位于南美洲南端，是美洲大陆最南端的广阔地区之一。在《枪炮、病菌与钢铁》中，巴塔哥尼亚被戴蒙德用作人类从北美迅速向南扩散的地理参照点。

@@ -8,8 +8,8 @@ category: plant
 domesticated: true
 origin_region: 中亚/东亚
 description: 人类历史上重要的纤维作物之一，茎纤维用于制绳和织布，在古代全球纺织原料体系中占有重要地位
+quality: basic
 ---
-
 ## 物种简介
 
 大麻是大麻科大麻属的一年生草本植物，是人类最古老的纤维作物之一。大麻的茎纤维坚韧耐用，适合制绳、织布和造纸，在不同文明中广泛种植。

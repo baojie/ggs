@@ -4,10 +4,9 @@ type: concept
 label: 个人与历史结构
 aliases: [individuals vs historical structures, 个人作用与历史规律]
 tags: [历史, 方法论]
-quality: standard
 description: 关于个人能动性与结构性因素在历史进程中孰轻孰重的理论问题，戴蒙德在其著作中明确倾向于结构性解释
+quality: featured
 ---
-
 ## 简介
 
 个人与历史结构是关于个人能动性与结构性因素在历史进程中孰轻孰重的理论问题。戴蒙德的《枪炮、病菌与钢铁》是对这一问题的明确回应：他论证了地理和环境等结构性因素在人类历史发展中的决定性作用，而非个别英雄或统治者的个人意志。

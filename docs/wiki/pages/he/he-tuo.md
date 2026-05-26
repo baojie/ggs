@@ -8,8 +8,8 @@ category: animal
 domesticated: false
 origin_region: 新几内亚
 description: 新几内亚大型不会飞的鸟类，当地人会捕捉幼鸟喂养作为食物，戴蒙德以其为驯化连续序列中人类与动物关系的初始阶段案例
+quality: basic
 ---
-
 ## 物种简介
 
 鹤鸵是新几内亚热带雨林中的大型不会飞的鸟类，形似鸵鸟但体型较小，体重可达50公斤。鹤鸵以果实为食，性情凶猛，腿部有锐利的爪。

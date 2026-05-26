@@ -8,8 +8,8 @@ category: plant
 domesticated: false
 origin_region: 北温带
 description: 北温带广泛分布的坚果树种，戴蒙德用以例证因生长缓慢等缺陷而从未被驯化的野生植物
+quality: basic
 ---
-
 ## 物种简介
 
 橡树是壳斗科栎属植物的通称，广泛分布于北温带地区。橡树的果实橡实曾是许多地区狩猎采集族群的重要食物来源。橡树生长缓慢，橡实通常带有苦味。

@@ -8,8 +8,8 @@ category: plant
 domesticated: true
 origin_region: 非洲
 description: 西非独立驯化的块茎作物，是非洲本土重要的粮食作物之一，传播到撒哈拉以南非洲各地
+quality: basic
 ---
-
 ## 物种简介
 
 非洲薯蓣是西非驯化的薯蓣属块茎作物，是非洲本土最重要的粮食作物之一。块茎富含淀粉，是非洲许多地区的主食来源。

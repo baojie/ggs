@@ -4,10 +4,9 @@ type: concept
 label: 能人
 aliases: [Homo habilis, 巧人]
 tags: [人类演化, 历史]
-quality: standard
 description: 早期人属物种，生活在约200万至150万年前，是人属演化序列中介于南方古猿和直立人之间的关键环节，以脑容量增大和石器使用为特征
+quality: featured
 ---
-
 ## 简介
 
 能人（Homo habilis，意为"巧人"）是一种早期人属物种，生活在约200万至150万年前。在人类演化序列中，能人处于非洲南方古猿和直立人之间。化石证据表明，能人的脑容量已开始增大，并已开始使用简单的石器工具。

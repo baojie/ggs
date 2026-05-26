@@ -6,8 +6,8 @@ aliases: [LBK文化, Linearbandkeramik, 线纹陶文化]
 tags: [历史, 农业]
 domain: history
 description: 欧洲最早的新石器时代农业文化之一，约公元前5000年兴起于中欧，以线纹陶器为标志，代表了粮食生产从东南欧向中欧的传播
+quality: featured
 ---
-
 ## 定义
 
 利尼尔班克拉米克文化（Linearbandkeramik，简称LBK）是欧洲最早的新石器时代农业文化之一，约公元前5000年兴起于中欧，以精美的线纹装饰陶器为标志。它是粮食生产从东南欧向中欧腹地传播的关键环节。

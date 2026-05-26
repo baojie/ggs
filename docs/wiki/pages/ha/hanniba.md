@@ -7,7 +7,7 @@ tags: [统治者, 征服者]
 affiliation: 迦太基
 role: ruler
 description: 迦太基军事家，戴蒙德以之为例讨论非洲象的驯化问题
-quality: basic
+quality: standard
 ---
 ## 简介
 

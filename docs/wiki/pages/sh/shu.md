@@ -4,10 +4,9 @@ type: species
 label: 黍
 aliases: [proso millet, Panicum miliaceum, 黍子, 糜子]
 tags: [作物, 农业, 中国, 驯化]
-quality: basic
 description: 人类最早驯化的禾本科作物之一，中国华北耐旱黍类作物的代表，在新石器时代农业起源中具有核心地位
+quality: basic
 ---
-
 ## 简介
 
 黍（Panicum miliaceum）是一种耐旱的一年生禾本科作物，是人类最早驯化的谷物之一。在戴蒙德的论述中，黍是新月沃地之外独立农业起源的重要证据。

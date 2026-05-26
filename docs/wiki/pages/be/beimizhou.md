@@ -8,9 +8,8 @@ region: americas
 axis: north-south
 latitude_band: temperate
 description: 美洲北部大陆，戴蒙德用以分析南北走向轴线对粮食生产和文明传播的阻碍
-quality: basic
+quality: featured
 ---
-
 ## 地理特征
 
 北美洲位于西半球北部，北接北冰洋，南以巴拿马地峡与南美洲相连，东临大西洋，西濒太平洋。其纬度范围从北极延伸至热带，大陆主轴线为南北走向。戴蒙德特别关注北美洲的纬度跨度对作物传播的影响——温带的始祖作物难以向南穿越热带地区进入南美洲（010-025）。

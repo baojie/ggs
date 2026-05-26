@@ -4,10 +4,9 @@ type: place
 label: 安达曼群岛
 aliases: [Andaman Islands]
 tags: [地理, 印度洋, 岛屿]
-quality: stub
 description: 孟加拉湾中的群岛，以保留古老语言和文化的原住民而闻名
+quality: basic
 ---
-
 ## 地理概况
 
 安达曼群岛位于孟加拉湾，属于印度领土。该群岛由数百个大小岛屿组成，长期以来与外界隔绝，形成了独特的生态系统和原住民文化。

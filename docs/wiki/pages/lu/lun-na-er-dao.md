@@ -4,10 +4,9 @@ type: place
 label: 伦纳尔岛
 aliases: [Rennell Island, 伦内尔岛, 穆基基]
 tags: [地理, 波利尼西亚, 所罗门群岛]
-quality: basic
 description: 所罗门群岛最南端的珊瑚岛，波利尼西亚社会的典型代表，戴蒙德以其酋长制作为族群到国家的社会演化案例
+quality: featured
 ---
-
 ## 简介
 
 伦纳尔岛（Rennell Island）是所罗门群岛最南端的珊瑚岛，属于波利尼西亚文化圈的边缘地带。在《枪炮、病菌与钢铁》中，伦纳尔岛作为波利尼西亚酋长制社会的典型案例出现，戴蒙德以此来展示从简单到复杂社会的连续谱系。
