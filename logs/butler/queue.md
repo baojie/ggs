@@ -225,7 +225,7 @@
 - [x] P2 stub | 科尔特斯 | person | 红链 ×1
 - [x] P2 stub | 皮萨罗 | person | 红链 ×1
 - [x] P2 stub | 采集狩猎 | concept | 红链 ×1
-- [ ] P2 stub | 冰川 | place | 红链 ×1
+- [x] P2 stub | 冰川 | place | 红链 ×1
 - [x] P2 stub | 全球变暖 | concept | 红链 ×1
 - [x] P2 stub | 波利尼西亚人 | person | 红链 ×1
 
@@ -362,21 +362,37 @@
 ### P1 create（多章出现）
 
 - [x] P1 create | 罂粟 | species | LLM 发现，多章（ch05/ch07/ch10），西方最早在本地驯化的作物之一，地中海西部野生，后向东传播
-- [ ] P1 create | 芝麻 | species | LLM 发现，多章（ch05/ch07/ch10），印度次大陆驯化的油料作物，后传播至地中海
+- [x] P1 create | 芝麻 | species | LLM 发现，多章（ch05/ch07/ch10），印度次大陆驯化的油料作物，后传播至地中海
 
 ### P2 stub（单章重要实体）
 
 - [x] P2 stub | 放射性碳定年法 | concept | LLM 发现，ch05，考古学测年方法，本书多处引用碳-14年代数据
 - [x] P2 stub | 瘤牛 | species | LLM 发现，ch05，印度特有牛种，有肉峰，独立驯化于印度次大陆
-- [ ] P2 stub | 非洲薯蓣 | species | LLM 发现，多章（ch07/ch10/ch19），非洲驯化的薯蓣类块茎作物
+- [x] P2 stub | 非洲薯蓣 | species | LLM 发现，多章（ch07/ch10/ch19），非洲驯化的薯蓣类块茎作物
 - [x] P2 stub | 有袋动物 | concept | 红链 ×1，新几内亚和澳大利亚特有的哺乳动物类群，在第十五章讨论大型动物灭绝
 
 ## Phase 2 — 新建候选（SCN28 R228 发现 — ch07 怎样识别杏仁）
 
 ### P1 create（多章出现）
 
-- [ ] P1 create | 橡树 | species | LLM 发现，多章（ch07/ch08），野生坚果树的典型，因生长缓慢和松鼠竞争而从未被驯化
-- [ ] P1 create | 兵豆 | species | LLM 发现，多章（ch07/ch08/ch10），新月沃地最早驯化的豆类之一，与小麦、大麦构成谷物-豆类组合
-- [ ] P1 create | 鹰嘴豆 | species | LLM 发现，多章（ch05/ch08/ch10），新月沃地驯化的重要豆类，最早驯化证据在土耳其东南部
-- [ ] P1 create | 大麻 | species | LLM 发现，多章（ch04/ch07/ch16），古代重要纤维作物之一，茎纤维用于制绳和织布
-- [ ] P1 create | 向日葵 | species | LLM 发现，多章（ch07/ch08/ch10/ch18），美洲东部驯化的特有作物，含油量和种子大小经人工选择
+- [x] P1 create | 橡树 | species | LLM 发现，多章（ch07/ch08），野生坚果树的典型，因生长缓慢和松鼠竞争而从未被驯化
+- [x] P1 create | 兵豆 | species | LLM 发现，多章（ch07/ch08/ch10），新月沃地最早驯化的豆类之一，与小麦、大麦构成谷物-豆类组合
+- [x] P1 create | 鹰嘴豆 | species | LLM 发现，多章（ch05/ch08/ch10），新月沃地驯化的重要豆类，最早驯化证据在土耳其东南部
+- [x] P1 create | 大麻 | species | LLM 发现，多章（ch04/ch07/ch16），古代重要纤维作物之一，茎纤维用于制绳和织布
+- [x] P1 create | 向日葵 | species | LLM 发现，多章（ch07/ch08/ch10/ch18），美洲东部驯化的特有作物，含油量和种子大小经人工选择
+
+## Phase 2 — 新建候选（SCN28 R235 发现 — ch10 大陆的轴线）
+
+### P1 create（多章出现）
+
+- [ ] P1 create | 粟 | species | SCN28 发现，多章（ch05/ch07/ch10/ch17），中国最早驯化的谷物之一（Setaria italica），戴蒙德多处提及为东亚农业基石
+- [ ] P1 create | 桃 | species | SCN28 发现，多章（ch07/ch08/ch10/ch16），中国原产的核果类果树，在欧亚大陆传播的典型案例
+- [ ] P1 create | 杏 | species | SCN28 发现，多章（ch07/ch10/ch16），中国原产的重要核果类果树，与桃同为东亚驯化成果
+- [ ] P1 create | 柑橘 | species | SCN28 发现，多章（ch07/ch10/ch15/ch16），印度原产的果树类群，罗马帝国的外来作物之一
+- [ ] P1 create | 菲什河 | place | SCN28 发现，多章（ch06/ch10/ch19），南非河流，历史上是班图人扩张的南界和文化分界线
+- [ ] P1 create | 塞伦格蒂 | place | SCN28 发现，多章（ch01/ch10/ch19），东非著名热带草原生态系统，人类演化和大型哺乳动物的重要地理场景
+
+### P2 stub（单章重要实体）
+
+- [ ] P2 stub | 恒河平原 | place | SCN28 发现，ch10，印度东北部冲积平原，因降雨模式差异延缓了新月沃地农业向东传播
+- [ ] P2 stub | 葫芦 | species | SCN28 发现，ch10，美洲最早栽培的非食用植物之一，用作容器，"抢先驯化"的典型案例
