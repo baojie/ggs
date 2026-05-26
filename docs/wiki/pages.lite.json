@@ -635,6 +635,16 @@
       ],
       "path": "de/德国.md"
     },
+    "di-li-ping-zhang": {
+      "type": "concept",
+      "label": "地理屏障",
+      "aliases": [
+        "geographic barrier",
+        "地理障碍",
+        "隔离"
+      ],
+      "path": "di/di-li-ping-zhang.md"
+    },
     "地中海地区": {
       "type": "place",
       "label": "地中海地区",
@@ -1261,6 +1271,17 @@
         "California"
       ],
       "path": "ji/jialifuniya.md"
+    },
+    "jin-shu-ye-lian": {
+      "type": "concept",
+      "label": "金属冶炼",
+      "aliases": [
+        "metallurgy",
+        "冶金",
+        "炼铁",
+        "炼钢"
+      ],
+      "path": "ji/jin-shu-ye-lian.md"
     },
     "交换": {
       "type": "concept",
@@ -2532,6 +2553,15 @@
       ],
       "path": "se/森林.md"
     },
+    "she-hui-fu-za-hua": {
+      "type": "concept",
+      "label": "社会复杂化",
+      "aliases": [
+        "social complexity",
+        "社会演化"
+      ],
+      "path": "sh/she-hui-fu-za-hua.md"
+    },
     "书写": {
       "type": "concept",
       "label": "书写",
@@ -3012,6 +3042,16 @@
       "label": "物种索引",
       "aliases": [],
       "path": "wu/物种索引.md"
+    },
+    "xiang-xing-wen-zi": {
+      "type": "concept",
+      "label": "象形文字",
+      "aliases": [
+        "hieroglyph",
+        "楔形文字",
+        "文字"
+      ],
+      "path": "xi/xiang-xing-wen-zi.md"
     },
     "xiaweiyi": {
       "type": "place",
@@ -3585,6 +3625,16 @@
       ],
       "path": "za/再分配.md"
     },
+    "zhan-ma": {
+      "type": "concept",
+      "label": "战马",
+      "aliases": [
+        "warhorse",
+        "军马",
+        "骑兵"
+      ],
+      "path": "zh/zhan-ma.md"
+    },
     "zhili": {
       "type": "place",
       "label": "智利",
@@ -4088,6 +4138,11 @@
     "德国": "德国",
     "Germany": "德国",
     "德意志": "德国",
+    "di-li-ping-zhang": "di-li-ping-zhang",
+    "地理屏障": "di-li-ping-zhang",
+    "geographic barrier": "di-li-ping-zhang",
+    "地理障碍": "di-li-ping-zhang",
+    "隔离": "di-li-ping-zhang",
     "地中海地区": "地中海地区",
     "地中海气候带": "地中海地区",
     "Mediterranean": "地中海地区",
@@ -4305,6 +4360,12 @@
     "jialifuniya": "jialifuniya",
     "加利福尼亚": "jialifuniya",
     "California": "jialifuniya",
+    "jin-shu-ye-lian": "jin-shu-ye-lian",
+    "金属冶炼": "jin-shu-ye-lian",
+    "metallurgy": "jin-shu-ye-lian",
+    "冶金": "jin-shu-ye-lian",
+    "炼铁": "jin-shu-ye-lian",
+    "炼钢": "jin-shu-ye-lian",
     "交换": "交换",
     "物物交换": "交换",
     "贸易交换": "交换",
@@ -4740,6 +4801,10 @@
     "非洲萨赫勒": "萨赫勒地带",
     "森林": "森林",
     "树林": "森林",
+    "she-hui-fu-za-hua": "she-hui-fu-za-hua",
+    "社会复杂化": "she-hui-fu-za-hua",
+    "social complexity": "she-hui-fu-za-hua",
+    "社会演化": "she-hui-fu-za-hua",
     "书写": "书写",
     "writing": "书写",
     "文字书写": "书写",
@@ -4812,7 +4877,6 @@
     "社会复杂性": "社会复杂性",
     "政治复杂性": "社会复杂性",
     "社会层级": "社会复杂性",
-    "social complexity": "社会复杂性",
     "社会组织": "社会组织",
     "社会结构": "社会组织",
     "社会形态": "社会组织",
@@ -4904,6 +4968,10 @@
     "生物物种": "物种",
     "species": "物种",
     "物种索引": "物种索引",
+    "xiang-xing-wen-zi": "xiang-xing-wen-zi",
+    "象形文字": "xiang-xing-wen-zi",
+    "hieroglyph": "xiang-xing-wen-zi",
+    "楔形文字": "xiang-xing-wen-zi",
     "xiaweiyi": "xiaweiyi",
     "夏威夷": "xiaweiyi",
     "Hawaii": "xiaweiyi",
@@ -4998,11 +5066,8 @@
     "duck": "鸭",
     "家鸭": "鸭",
     "冶炼": "冶炼",
-    "冶金": "冶炼",
     "冶金技术": "冶金",
-    "metallurgy": "冶金",
     "金属加工": "冶金",
-    "炼铁": "冶金",
     "青铜冶炼": "冶金",
     "椰子": "椰子",
     "coconut": "椰子",
@@ -5097,6 +5162,10 @@
     "再分配经济": "再分配",
     "贡品再分配": "再分配",
     "财富再分配": "再分配",
+    "zhan-ma": "zhan-ma",
+    "战马": "zhan-ma",
+    "warhorse": "zhan-ma",
+    "军马": "zhan-ma",
     "zhili": "zhili",
     "智利": "zhili",
     "Chile": "zhili",
@@ -5200,6 +5269,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 429,
-  "generated": "2026-05-26T10:39:06Z"
+  "page_count": 434,
+  "generated": "2026-05-26T10:40:13Z"
 }

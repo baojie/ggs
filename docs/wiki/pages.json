@@ -1703,6 +1703,30 @@
       "quality_score": 7,
       "total_refs": 1
     },
+    "di-li-ping-zhang": {
+      "type": "concept",
+      "label": "地理屏障",
+      "aliases": [
+        "geographic barrier",
+        "地理障碍",
+        "隔离"
+      ],
+      "tags": [
+        "地理",
+        "理论"
+      ],
+      "path": "di/di-li-ping-zhang.md",
+      "description": "阻碍人类、作物、技术和文化交流的地理障碍，戴蒙德用以解释各大陆文明发展速度差异的关键因素",
+      "prose_len": 420,
+      "prose_chars": 418,
+      "h2_count": 0,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 1
+    },
     "地中海地区": {
       "type": "place",
       "label": "地中海地区",
@@ -3359,6 +3383,31 @@
       "quality": "featured",
       "quality_score": 58,
       "total_refs": 0
+    },
+    "jin-shu-ye-lian": {
+      "type": "concept",
+      "label": "金属冶炼",
+      "aliases": [
+        "metallurgy",
+        "冶金",
+        "炼铁",
+        "炼钢"
+      ],
+      "tags": [
+        "技术",
+        "历史"
+      ],
+      "path": "ji/jin-shu-ye-lian.md",
+      "description": "从矿石中提取金属的技术，戴蒙德将其视为欧亚大陆技术优势的关键组成部分",
+      "prose_len": 436,
+      "prose_chars": 434,
+      "h2_count": 0,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 1
     },
     "交换": {
       "type": "concept",
@@ -6684,6 +6733,30 @@
       "quality_score": 10,
       "total_refs": 0
     },
+    "she-hui-fu-za-hua": {
+      "type": "concept",
+      "label": "社会复杂化",
+      "aliases": [
+        "social complexity",
+        "社会演化"
+      ],
+      "tags": [
+        "社会",
+        "政治",
+        "历史"
+      ],
+      "path": "sh/she-hui-fu-za-hua.md",
+      "description": "人类社会从平等部落向等级制酋邦和中央集权国家演化的过程，是戴蒙德解释文明差异的核心框架之一",
+      "prose_len": 364,
+      "prose_chars": 362,
+      "h2_count": 0,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 1
+    },
     "书写": {
       "type": "concept",
       "label": "书写",
@@ -7940,6 +8013,31 @@
       "quality": "basic",
       "quality_score": 7,
       "total_refs": 0
+    },
+    "xiang-xing-wen-zi": {
+      "type": "concept",
+      "label": "象形文字",
+      "aliases": [
+        "hieroglyph",
+        "楔形文字",
+        "文字"
+      ],
+      "tags": [
+        "技术",
+        "文化",
+        "语言"
+      ],
+      "path": "xi/xiang-xing-wen-zi.md",
+      "description": "以图形符号表示语义或语音的文字系统，戴蒙德分析不同文字系统的发明与传播以解释文明发展的差异",
+      "prose_len": 486,
+      "prose_chars": 484,
+      "h2_count": 0,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 1
     },
     "xiaweiyi": {
       "type": "place",
@@ -9442,6 +9540,31 @@
       "quality_score": 58,
       "total_refs": 8
     },
+    "zhan-ma": {
+      "type": "concept",
+      "label": "战马",
+      "aliases": [
+        "warhorse",
+        "军马",
+        "骑兵"
+      ],
+      "tags": [
+        "军事",
+        "技术",
+        "动物"
+      ],
+      "path": "zh/zhan-ma.md",
+      "description": "经驯化用于军事用途的马匹，是欧亚大陆军事优势的重要来源，其使用受地理环境制约",
+      "prose_len": 464,
+      "prose_chars": 462,
+      "h2_count": 0,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 1
+    },
     "zhili": {
       "type": "place",
       "label": "智利",
@@ -10427,6 +10550,11 @@
     "德国": "德国",
     "Germany": "德国",
     "德意志": "德国",
+    "di-li-ping-zhang": "di-li-ping-zhang",
+    "地理屏障": "di-li-ping-zhang",
+    "geographic barrier": "di-li-ping-zhang",
+    "地理障碍": "di-li-ping-zhang",
+    "隔离": "di-li-ping-zhang",
     "地中海地区": "地中海地区",
     "地中海气候带": "地中海地区",
     "Mediterranean": "地中海地区",
@@ -10644,6 +10772,12 @@
     "jialifuniya": "jialifuniya",
     "加利福尼亚": "jialifuniya",
     "California": "jialifuniya",
+    "jin-shu-ye-lian": "jin-shu-ye-lian",
+    "金属冶炼": "jin-shu-ye-lian",
+    "metallurgy": "jin-shu-ye-lian",
+    "冶金": "jin-shu-ye-lian",
+    "炼铁": "jin-shu-ye-lian",
+    "炼钢": "jin-shu-ye-lian",
     "交换": "交换",
     "物物交换": "交换",
     "贸易交换": "交换",
@@ -11079,6 +11213,10 @@
     "非洲萨赫勒": "萨赫勒地带",
     "森林": "森林",
     "树林": "森林",
+    "she-hui-fu-za-hua": "she-hui-fu-za-hua",
+    "社会复杂化": "she-hui-fu-za-hua",
+    "social complexity": "she-hui-fu-za-hua",
+    "社会演化": "she-hui-fu-za-hua",
     "书写": "书写",
     "writing": "书写",
     "文字书写": "书写",
@@ -11151,7 +11289,6 @@
     "社会复杂性": "社会复杂性",
     "政治复杂性": "社会复杂性",
     "社会层级": "社会复杂性",
-    "social complexity": "社会复杂性",
     "社会组织": "社会组织",
     "社会结构": "社会组织",
     "社会形态": "社会组织",
@@ -11243,6 +11380,10 @@
     "生物物种": "物种",
     "species": "物种",
     "物种索引": "物种索引",
+    "xiang-xing-wen-zi": "xiang-xing-wen-zi",
+    "象形文字": "xiang-xing-wen-zi",
+    "hieroglyph": "xiang-xing-wen-zi",
+    "楔形文字": "xiang-xing-wen-zi",
     "xiaweiyi": "xiaweiyi",
     "夏威夷": "xiaweiyi",
     "Hawaii": "xiaweiyi",
@@ -11337,11 +11478,8 @@
     "duck": "鸭",
     "家鸭": "鸭",
     "冶炼": "冶炼",
-    "冶金": "冶炼",
     "冶金技术": "冶金",
-    "metallurgy": "冶金",
     "金属加工": "冶金",
-    "炼铁": "冶金",
     "青铜冶炼": "冶金",
     "椰子": "椰子",
     "coconut": "椰子",
@@ -11436,6 +11574,10 @@
     "再分配经济": "再分配",
     "贡品再分配": "再分配",
     "财富再分配": "再分配",
+    "zhan-ma": "zhan-ma",
+    "战马": "zhan-ma",
+    "warhorse": "zhan-ma",
+    "军马": "zhan-ma",
     "zhili": "zhili",
     "智利": "zhili",
     "Chile": "zhili",
@@ -11539,6 +11681,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 429,
-  "generated": "2026-05-26T10:39:06Z"
+  "page_count": 434,
+  "generated": "2026-05-26T10:40:13Z"
 }
