@@ -1097,6 +1097,29 @@
       "quality_score": 60,
       "total_refs": 1
     },
+    "城镇": {
+      "type": "concept",
+      "label": "城镇",
+      "aliases": [
+        "城市"
+      ],
+      "tags": [
+        "社会",
+        "经济",
+        "聚落"
+      ],
+      "path": "pages/ch/城镇.md",
+      "description": "人口密集的非农业定居点，是复杂社会的核心聚落形态",
+      "prose_len": 196,
+      "prose_chars": 183,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 6,
+      "total_refs": 1
+    },
     "船只": {
       "type": "concept",
       "label": "船只",
@@ -1145,7 +1168,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 3
+      "total_refs": 4
     },
     "dagama": {
       "type": "person",
@@ -1383,6 +1406,29 @@
       "quality": "featured",
       "quality_score": 58,
       "affiliation": "英国",
+      "total_refs": 0
+    },
+    "道路": {
+      "type": "concept",
+      "label": "道路",
+      "aliases": [
+        "通道"
+      ],
+      "tags": [
+        "技术",
+        "交通",
+        "基础设施"
+      ],
+      "path": "pages/da/道路.md",
+      "description": "连接不同地区的人工通道，对贸易、军事和行政整合至关重要",
+      "prose_len": 230,
+      "prose_chars": 217,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
       "total_refs": 0
     },
     "地中海地区": {
@@ -1689,7 +1735,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 63,
-      "total_refs": 10
+      "total_refs": 11
     },
     "发明家": {
       "type": "concept",
@@ -2179,6 +2225,29 @@
       "quality": "featured",
       "quality_score": 61,
       "total_refs": 2
+    },
+    "工匠": {
+      "type": "concept",
+      "label": "工匠",
+      "aliases": [
+        "手艺人"
+      ],
+      "tags": [
+        "经济",
+        "社会",
+        "手工艺"
+      ],
+      "path": "pages/go/工匠.md",
+      "description": "掌握专门手工技术的专职生产者",
+      "prose_len": 211,
+      "prose_chars": 198,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 1
     },
     "工程": {
       "type": "concept",
@@ -2766,7 +2835,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 8,
-      "total_refs": 1
+      "total_refs": 2
     },
     "霍乱": {
       "type": "concept",
@@ -2935,7 +3004,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 15
+      "total_refs": 17
     },
     "技术传播": {
       "type": "concept",
@@ -3919,7 +3988,7 @@
       "blockquote_count": 1,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 5
+      "total_refs": 7
     },
     "贸易路线": {
       "type": "concept",
@@ -5832,6 +5901,29 @@
       "quality_score": 59,
       "total_refs": 0
     },
+    "市场": {
+      "type": "concept",
+      "label": "市场",
+      "aliases": [
+        "集市"
+      ],
+      "tags": [
+        "经济",
+        "社会",
+        "贸易"
+      ],
+      "path": "pages/sh/市场.md",
+      "description": "商品和服务的交换场所和机制",
+      "prose_len": 174,
+      "prose_chars": 161,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 6,
+      "total_refs": 2
+    },
     "水利": {
       "type": "concept",
       "label": "水利",
@@ -6125,7 +6217,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 4
+      "total_refs": 5
     },
     "税收": {
       "type": "concept",
@@ -7935,7 +8027,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 0
+      "total_refs": 1
     },
     "雨林": {
       "type": "concept",
@@ -8102,7 +8194,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 3
+      "total_refs": 4
     },
     "中美洲": {
       "type": "place",
@@ -8578,6 +8670,29 @@
       "quality_score": 61,
       "total_refs": 2
     },
+    "作坊": {
+      "type": "concept",
+      "label": "作坊",
+      "aliases": [
+        "工坊"
+      ],
+      "tags": [
+        "经济",
+        "技术",
+        "手工艺"
+      ],
+      "path": "pages/zu/作坊.md",
+      "description": "手工业生产的基本单位，在农业社会中是专职工匠的工作场所",
+      "prose_len": 208,
+      "prose_chars": 195,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 1
+    },
     "作物": {
       "type": "concept",
       "label": "作物",
@@ -8800,6 +8915,8 @@
     "达尔文": "达尔文",
     "查尔斯·达尔文": "达尔文",
     "Charles Darwin": "达尔文",
+    "道路": "道路",
+    "通道": "道路",
     "地中海地区": "地中海地区",
     "地中海气候带": "地中海地区",
     "Mediterranean": "地中海地区",
@@ -8908,6 +9025,8 @@
     "技术工具": "工具",
     "石器": "工具",
     "人工制品": "工具",
+    "工匠": "工匠",
+    "手艺人": "工匠",
     "工程": "工程",
     "engineering": "工程",
     "公共工程": "工程",
@@ -9419,6 +9538,8 @@
     "山系": "山脉",
     "山地": "山脉",
     "山区": "山脉",
+    "市场": "市场",
+    "集市": "市场",
     "水利": "水利",
     "水牛": "水牛",
     "water buffalo": "水牛",
@@ -9789,6 +9910,8 @@
     "religion": "宗教",
     "意识形态": "宗教",
     "神权": "宗教",
+    "作坊": "作坊",
+    "工坊": "作坊",
     "作物": "作物",
     "农作物": "作物",
     "驯化植物": "作物",
@@ -9798,6 +9921,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 362,
-  "generated": "2026-05-26T01:31:35Z"
+  "page_count": 367,
+  "generated": "2026-05-26T01:32:35Z"
 }
