@@ -1242,7 +1242,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 54
+      "total_refs": 55
     },
     "大麦": {
       "type": "species",
@@ -1315,6 +1315,27 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
+      "total_refs": 0
+    },
+    "岛屿生物地理学": {
+      "type": "concept",
+      "label": "岛屿生物地理学",
+      "aliases": [],
+      "tags": [
+        "生态",
+        "地理",
+        "理论"
+      ],
+      "path": "pages/da/岛屿生物地理学.md",
+      "description": "研究岛屿物种组成和多样性的理论，戴蒙德借用了其方法论分析人类社会",
+      "prose_len": 338,
+      "prose_chars": 323,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
       "total_refs": 0
     },
     "达尔文": {
@@ -2508,7 +2529,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 3
+      "total_refs": 4
     },
     "火药": {
       "type": "concept",
@@ -2583,7 +2604,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 0
+      "total_refs": 1
     },
     "皇帝": {
       "type": "concept",
@@ -2608,6 +2629,30 @@
       "quality": "featured",
       "quality_score": 58,
       "total_refs": 1
+    },
+    "货币": {
+      "type": "concept",
+      "label": "货币",
+      "aliases": [
+        "金钱",
+        "通货"
+      ],
+      "tags": [
+        "经济",
+        "制度",
+        "社会"
+      ],
+      "path": "pages/hu/货币.md",
+      "description": "作为交换媒介和价值储存手段的经济工具，在复杂社会中起到关键作用",
+      "prose_len": 351,
+      "prose_chars": 336,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
     },
     "霍乱": {
       "type": "concept",
@@ -2776,7 +2821,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 8
+      "total_refs": 9
     },
     "技术传播": {
       "type": "concept",
@@ -3494,7 +3539,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 79
+      "total_refs": 81
     },
     "luoma-diguo": {
       "type": "event",
@@ -3737,7 +3782,7 @@
       "blockquote_count": 1,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 2
+      "total_refs": 4
     },
     "贸易路线": {
       "type": "concept",
@@ -4601,6 +4646,29 @@
       "quality": "featured",
       "quality_score": 61,
       "total_refs": 13
+    },
+    "农业革命": {
+      "type": "concept",
+      "label": "农业革命",
+      "aliases": [
+        "新石器时代革命"
+      ],
+      "tags": [
+        "历史",
+        "农业",
+        "文明"
+      ],
+      "path": "pages/no/农业革命.md",
+      "description": "人类从狩猎采集向粮食生产转型的过程及其对文明发展的深远影响",
+      "prose_len": 375,
+      "prose_chars": 360,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 1
     },
     "奴隶": {
       "type": "concept",
@@ -5588,7 +5656,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 19
+      "total_refs": 20
     },
     "生态": {
       "type": "concept",
@@ -5715,7 +5783,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 0
+      "total_refs": 1
     },
     "鼠疫": {
       "type": "concept",
@@ -6254,6 +6322,27 @@
       "quality_score": 7,
       "total_refs": 2
     },
+    "武器": {
+      "type": "concept",
+      "label": "武器",
+      "aliases": [],
+      "tags": [
+        "军事",
+        "技术",
+        "历史"
+      ],
+      "path": "pages/wu/武器.md",
+      "description": "用于作战的工具和技术，在戴蒙德的论证中与枪炮和钢铁并列",
+      "prose_len": 370,
+      "prose_chars": 355,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 1
+    },
     "xiaweiyi": {
       "type": "place",
       "label": "夏威夷",
@@ -6533,7 +6622,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 51
+      "total_refs": 52
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -6778,6 +6867,29 @@
       "quality": "featured",
       "quality_score": 59,
       "total_refs": 2
+    },
+    "盐": {
+      "type": "concept",
+      "label": "盐",
+      "aliases": [
+        "食盐"
+      ],
+      "tags": [
+        "经济",
+        "贸易",
+        "资源"
+      ],
+      "path": "pages/ya/盐.md",
+      "description": "人类历史上重要的贸易商品和保存食品的必需品",
+      "prose_len": 321,
+      "prose_chars": 306,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
     },
     "羊驼": {
       "type": "species",
@@ -7531,7 +7643,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 0
+      "total_refs": 1
     },
     "中美洲": {
       "type": "place",
@@ -7606,7 +7718,7 @@
       "blockquote_count": 1,
       "quality": "featured",
       "quality_score": 62,
-      "total_refs": 4
+      "total_refs": 5
     },
     "政治竞争": {
       "type": "concept",
@@ -7956,7 +8068,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 0
+      "total_refs": 1
     },
     "宗教": {
       "type": "concept",
@@ -8200,6 +8312,7 @@
     "岛屿": "岛屿",
     "岛": "岛屿",
     "海岛": "岛屿",
+    "岛屿生物地理学": "岛屿生物地理学",
     "达尔文": "达尔文",
     "查尔斯·达尔文": "达尔文",
     "Charles Darwin": "达尔文",
@@ -8385,6 +8498,9 @@
     "皇帝": "皇帝",
     "帝王": "皇帝",
     "emperor": "皇帝",
+    "货币": "货币",
+    "金钱": "货币",
+    "通货": "货币",
     "霍乱": "霍乱",
     "cholera": "霍乱",
     "霍乱弧菌": "霍乱",
@@ -8682,6 +8798,8 @@
     "agriculture": "农业",
     "作物栽培": "农业",
     "种植业": "农业",
+    "农业革命": "农业革命",
+    "新石器时代革命": "农业革命",
     "奴隶": "奴隶",
     "奴隶制": "奴隶",
     "奴隶劳动": "奴隶",
@@ -8912,6 +9030,7 @@
     "东西轴纬度": "纬度",
     "无花果": "无花果",
     "fig": "无花果",
+    "武器": "武器",
     "xiaweiyi": "xiaweiyi",
     "夏威夷": "xiaweiyi",
     "Hawaii": "xiaweiyi",
@@ -8986,6 +9105,8 @@
     "演化": "演化",
     "生物演化": "演化",
     "进化": "演化",
+    "盐": "盐",
+    "食盐": "盐",
     "羊驼": "羊驼",
     "alpaca": "羊驼",
     "美洲羊驼": "羊驼",
@@ -9162,6 +9283,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 336,
-  "generated": "2026-05-26T01:23:51Z"
+  "page_count": 341,
+  "generated": "2026-05-26T01:26:00Z"
 }
