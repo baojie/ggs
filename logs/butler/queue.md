@@ -1,5 +1,20 @@
 # 内容任务队列
 
+## Phase 2 — 新建候选（SCN28 R203 发现 — ch17 驶向波利尼西亚的快艇）
+
+### P1 create（多章出现）
+
+- [ ] P1 create | 拉皮塔文化 | concept | LLM 发现，多章（ch02/ch15/ch17），南岛人扩张的考古标志，以精美几何纹饰陶器为特征
+- [ ] P1 create | 巴布亚诸语言 | concept | LLM 发现，多章（ch15/ch17），新几内亚非南岛语系的土著语言群
+- [ ] P1 create | 舷外浮材 | concept | LLM 发现，多章（ch15/ch17），南岛人远洋独木舟的关键稳定技术
+
+### P2 stub（单章重要实体）
+
+- [ ] P2 stub | 大坌坑文化 | concept | LLM 发现，ch17，台湾最早新石器时代文化，南岛人起源的考古证据
+- [ ] P2 stub | 原始南岛语 | concept | LLM 发现，ch17，通过比较现代南岛语言重构的祖代语言
+- [ ] P2 stub | 树皮布 | concept | LLM 发现，ch17，太平洋岛屿传统上用舂捣树皮制成的布料
+- [ ] P2 stub | 拉皮塔人 | person | LLM 发现，ch17，制作拉皮塔陶器的南岛航海者
+
 ## Phase 2 — 新建候选（SCN28 R199 发现 — ch16 中国怎样成为中国人的中国）
 
 ### P1 create（多章出现）
