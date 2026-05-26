@@ -981,7 +981,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 5
+      "total_refs": 6
     },
     "被引用最多页面": {
       "type": "list",
@@ -2301,11 +2301,11 @@
       ],
       "path": "da/dai-shu.md",
       "description": "澳大利亚特有的有袋类动物，新几内亚人和澳大利亚土著饲养作为宠物和食物",
-      "prose_len": 311,
-      "prose_chars": 266,
-      "h2_count": 3,
-      "pn_count": 1,
-      "wikilink_count": 4,
+      "prose_len": 602,
+      "prose_chars": 541,
+      "h2_count": 4,
+      "pn_count": 4,
+      "wikilink_count": 5,
       "blockquote_count": 0,
       "total_refs": 2
     },
@@ -2925,7 +2925,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 13,
-      "total_refs": 3
+      "total_refs": 4
     },
     "dongxizhouxian": {
       "type": "concept",
@@ -4547,11 +4547,11 @@
       ],
       "path": "hu/hui-xiong.md",
       "description": "北美大型食肉哺乳动物，戴蒙德用以例证因凶险性情而失去驯化候补资格的动物",
-      "prose_len": 337,
-      "prose_chars": 292,
-      "h2_count": 3,
-      "pn_count": 1,
-      "wikilink_count": 4,
+      "prose_len": 536,
+      "prose_chars": 468,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 5,
       "blockquote_count": 0,
       "total_refs": 0
     },
@@ -6093,7 +6093,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 8,
-      "total_refs": 0
+      "total_refs": 1
     },
     "劳动分工": {
       "type": "concept",
@@ -10468,12 +10468,12 @@
         "大洋洲"
       ],
       "path": "su/suo-luo-men-qun-dao.md",
-      "description": "太平洋西南部的岛群，南岛人扩张的东部边界之一，戴蒙德用以例证早期远洋移民的极限",
-      "prose_len": 332,
-      "prose_chars": 279,
-      "h2_count": 3,
-      "pn_count": 2,
-      "wikilink_count": 5,
+      "description": "太平洋西南部的岛群，南岛人扩张的东部边界之一，戴蒙德用以例证早期远洋移民和族群混合",
+      "prose_len": 607,
+      "prose_chars": 536,
+      "h2_count": 4,
+      "pn_count": 6,
+      "wikilink_count": 6,
       "blockquote_count": 0,
       "total_refs": 1
     },
@@ -11235,11 +11235,11 @@
         "考古"
       ],
       "path": "wu/wu-lu-ke.md",
-      "description": "苏美尔人最重要的城邦之一，世界上最早的城市，文字的起源地之一",
-      "prose_len": 276,
-      "prose_chars": 232,
-      "h2_count": 3,
-      "pn_count": 0,
+      "description": "苏美尔人最重要的城邦之一，世界上最早的城市，文字和官僚制度的起源地之一",
+      "prose_len": 487,
+      "prose_chars": 431,
+      "h2_count": 4,
+      "pn_count": 2,
       "wikilink_count": 5,
       "blockquote_count": 0,
       "total_refs": 1
@@ -13748,10 +13748,10 @@
         "帝国"
       ],
       "path": "zh/zhou-chao.md",
-      "description": "中国第三个王朝（约前1046—前256），戴蒙德用以例证中国早期统一文字和同化周边族群的过程",
-      "prose_len": 335,
-      "prose_chars": 268,
-      "h2_count": 3,
+      "description": "中国第三个王朝（约前1046—前256），戴蒙德用以例证中国早期统一进程中文字记录和族群同化的关键阶段",
+      "prose_len": 467,
+      "prose_chars": 389,
+      "h2_count": 4,
       "pn_count": 2,
       "wikilink_count": 5,
       "blockquote_count": 0,
@@ -16597,5 +16597,5 @@
     "驯化作物": "作物驯化"
   },
   "page_count": 613,
-  "generated": "2026-05-26T16:31:28Z"
+  "generated": "2026-05-26T16:35:24Z"
 }
