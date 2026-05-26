@@ -507,3 +507,16 @@
 - [x] P1 create | 英格兰 | place | SCN28 发现，多章（ch13/ch18），英格兰（England），工业革命发源地，英国的政治中心
 - [ ] P1 create | 轮船 | concept | SCN28 发现，多章（ch11/ch13），轮船（steamship），蒸汽动力船舶，改变了远洋运输和殖民扩张模式
 - [ ] P1 create | 机械 | concept | SCN28 发现，多章（ch13/ch18/ch20），机械（machinery），工业生产中的机械化设备，工业革命的技术基础
+
+## Phase 2 — 新建候选（SCN28 R269 发现 — ch15 耶利的族人 + 红链扫描）
+
+### P1 create（多章出现）
+
+- [ ] P1 create | 工业革命 | event | 红链 ×3，多章（ch13/ch14/ch15/ch18/ch20），工业革命（Industrial Revolution），18世纪从英国开始的机械化生产变革，戴蒙德用以说明技术创新累积效应的典型案例
+- [ ] P1 create | 比较方法 | concept | 红链 ×3，多章（ch01/ch02/ch03），比较方法（comparative method），戴蒙德的核心方法论，通过跨文明比较检验历史因果关系
+
+### P2 stub（单章重要实体）
+
+- [ ] P2 stub | 冰岛 | place | 红链 ×2，北大西洋岛国，古挪威人殖民的重要据点，格陵兰殖民的中转站，戴蒙德用以讨论极端环境下的社会生存
+- [ ] P2 stub | 独木舟 | concept | LLM 发现，ch15，canoe/dugout，早期航海的关键水运工具，南岛人远洋迁徙的技术基础
+- [ ] P2 stub | 阿拉弗拉海 | place | LLM 发现，ch15，Arafura Sea，更新世时期为干燥陆地，海平面上升后将澳大利亚与新几内亚分开
