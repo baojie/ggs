@@ -224,6 +224,15 @@
       ],
       "path": "bi/病菌.md"
     },
+    "bo-li-ni-xi-ya-ren": {
+      "type": "person",
+      "label": "波利尼西亚人",
+      "aliases": [
+        "Polynesians",
+        "波利尼西亚"
+      ],
+      "path": "bo/bo-li-ni-xi-ya-ren.md"
+    },
     "伯克和威尔斯": {
       "type": "person",
       "label": "伯克和威尔斯",
@@ -791,6 +800,15 @@
         "Philippines"
       ],
       "path": "fe/feilvbin.md"
+    },
+    "feng-jian-zhi-du": {
+      "type": "concept",
+      "label": "封建制度",
+      "aliases": [
+        "feudalism",
+        "封建"
+      ],
+      "path": "fe/feng-jian-zhi-du.md"
     },
     "分裂": {
       "type": "concept",
@@ -1591,6 +1609,16 @@
       ],
       "path": "la/莱特兄弟.md"
     },
+    "liang-shi-chu-bei": {
+      "type": "concept",
+      "label": "粮食储备",
+      "aliases": [
+        "food storage",
+        "余粮",
+        "粮食剩余"
+      ],
+      "path": "li/liang-shi-chu-bei.md"
+    },
     "流行病": {
       "type": "concept",
       "label": "流行病",
@@ -1658,6 +1686,15 @@
         "家驴"
       ],
       "path": "lv/驴.md"
+    },
+    "ma-ke-si": {
+      "type": "person",
+      "label": "马克思",
+      "aliases": [
+        "Karl Marx",
+        "卡尔·马克思"
+      ],
+      "path": "ma/ma-ke-si.md"
     },
     "madagascar": {
       "type": "place",
@@ -3006,6 +3043,16 @@
       ],
       "path": "xi/ximalaya.md"
     },
+    "xin-da-lu": {
+      "type": "place",
+      "label": "新大陆",
+      "aliases": [
+        "New World",
+        "美洲大陆",
+        "西半球"
+      ],
+      "path": "xi/xin-da-lu.md"
+    },
     "xinyuewodi": {
       "type": "place",
       "label": "新月沃地（地理）",
@@ -3908,12 +3955,15 @@
     "病菌": "病菌",
     "流行病": "病菌",
     "germs": "病菌",
+    "bo-li-ni-xi-ya-ren": "bo-li-ni-xi-ya-ren",
+    "波利尼西亚人": "bo-li-ni-xi-ya-ren",
+    "Polynesians": "bo-li-ni-xi-ya-ren",
+    "波利尼西亚": "bo-li-ni-xi-ya-ren",
     "伯克和威尔斯": "伯克和威尔斯",
     "Robert Burke": "伯克和威尔斯",
     "William Wills": "伯克和威尔斯",
     "罗伯特·伯克": "伯克和威尔斯",
     "威廉·威尔斯": "伯克和威尔斯",
-    "波利尼西亚": "波利尼西亚",
     "Polynesia": "波利尼西亚",
     "太平洋诸岛": "波利尼西亚",
     "南岛人": "波利尼西亚",
@@ -4082,6 +4132,10 @@
     "feilvbin": "feilvbin",
     "菲律宾": "feilvbin",
     "Philippines": "feilvbin",
+    "feng-jian-zhi-du": "feng-jian-zhi-du",
+    "封建制度": "feng-jian-zhi-du",
+    "feudalism": "feng-jian-zhi-du",
+    "封建": "feng-jian-zhi-du",
     "分裂": "分裂",
     "碎片化": "分裂",
     "欧洲分裂": "分裂",
@@ -4371,6 +4425,11 @@
     "Wright Brothers": "莱特兄弟",
     "奥维尔·莱特": "莱特兄弟",
     "威尔伯·莱特": "莱特兄弟",
+    "liang-shi-chu-bei": "liang-shi-chu-bei",
+    "粮食储备": "liang-shi-chu-bei",
+    "food storage": "liang-shi-chu-bei",
+    "余粮": "liang-shi-chu-bei",
+    "粮食剩余": "liang-shi-chu-bei",
     "粮食生产": "粮食生产",
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
@@ -4396,13 +4455,14 @@
     "donkey": "驴",
     "ass": "驴",
     "家驴": "驴",
+    "ma-ke-si": "ma-ke-si",
+    "马克思": "ma-ke-si",
+    "Karl Marx": "ma-ke-si",
+    "卡尔·马克思": "ma-ke-si",
     "madagascar": "madagascar",
     "马达加斯加": "madagascar",
     "Madagascar": "madagascar",
     "makesi": "makesi",
-    "卡尔·马克思": "makesi",
-    "Karl Marx": "makesi",
-    "马克思": "makesi",
     "牦牛": "牦牛",
     "yak": "牦牛",
     "犛牛": "牦牛",
@@ -4684,9 +4744,7 @@
     "typhus": "伤寒",
     "typhoid": "伤寒",
     "剩余粮食": "剩余粮食",
-    "粮食剩余": "剩余粮食",
     "农业剩余": "剩余粮食",
-    "粮食储备": "剩余粮食",
     "商人": "商人",
     "贸易商": "商人",
     "商贾": "商人",
@@ -4847,6 +4905,10 @@
     "ximalaya": "ximalaya",
     "喜马拉雅": "ximalaya",
     "Himalayas": "ximalaya",
+    "xin-da-lu": "xin-da-lu",
+    "New World": "xin-da-lu",
+    "美洲大陆": "xin-da-lu",
+    "西半球": "xin-da-lu",
     "xinyuewodi": "xinyuewodi",
     "新月沃地（地理）": "xinyuewodi",
     "肥沃月弯": "xinyuewodi",
@@ -5124,6 +5186,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 423,
-  "generated": "2026-05-26T10:26:14Z"
+  "page_count": 428,
+  "generated": "2026-05-26T10:36:29Z"
 }
