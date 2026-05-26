@@ -1192,6 +1192,15 @@
       ],
       "path": "hu/环境.md"
     },
+    "环境决定论": {
+      "type": "concept",
+      "label": "环境决定论",
+      "aliases": [
+        "environmental determinism",
+        "地理决定论"
+      ],
+      "path": "hu/环境决定论.md"
+    },
     "皇帝": {
       "type": "concept",
       "label": "皇帝",
@@ -1477,6 +1486,14 @@
         "1532年卡哈马卡战役"
       ],
       "path": "卡哈马卡之战.md"
+    },
+    "卡哈马卡战役": {
+      "type": "event",
+      "label": "卡哈马卡战役",
+      "aliases": [
+        "Battle of Cajamarca"
+      ],
+      "path": "ka/卡哈马卡战役.md"
     },
     "考古学": {
       "type": "concept",
@@ -1916,6 +1933,14 @@
         "物种灭绝"
       ],
       "path": "mi/灭绝.md"
+    },
+    "秘鲁": {
+      "type": "place",
+      "label": "秘鲁",
+      "aliases": [
+        "Peru"
+      ],
+      "path": "mi/秘鲁.md"
     },
     "绵羊": {
       "type": "species",
@@ -3323,6 +3348,15 @@
       ],
       "path": "yi/印度尼西亚.md"
     },
+    "印度河": {
+      "type": "place",
+      "label": "印度河",
+      "aliases": [
+        "Indus River",
+        "印度河谷"
+      ],
+      "path": "yi/印度河.md"
+    },
     "印欧语系": {
       "type": "concept",
       "label": "印欧语系",
@@ -3359,6 +3393,15 @@
         "遗传差异"
       ],
       "path": "yi/遗传.md"
+    },
+    "遗传学": {
+      "type": "concept",
+      "label": "遗传学",
+      "aliases": [
+        "genetics",
+        "基因"
+      ],
+      "path": "yi/遗传学.md"
     },
     "鹰嘴豆": {
       "type": "species",
@@ -4183,6 +4226,7 @@
     "environment": "环境",
     "自然环境": "环境",
     "环境条件": "环境",
+    "environmental determinism": "环境决定论",
     "皇帝": "皇帝",
     "帝王": "皇帝",
     "emperor": "皇帝",
@@ -4919,6 +4963,7 @@
     "Inca Empire": "印加帝国",
     "印加": "印加帝国",
     "印尼": "印度尼西亚",
+    "印度河谷": "印度河",
     "印欧语系": "印欧语系",
     "Indo-European": "印欧语系",
     "移民": "移民",
@@ -4930,6 +4975,7 @@
     "遗传": "遗传",
     "遗传学": "遗传",
     "遗传差异": "遗传",
+    "genetics": "遗传学",
     "鹰嘴豆": "鹰嘴豆",
     "chickpea": "鹰嘴豆",
     "埃及豆": "鹰嘴豆",
@@ -5078,6 +5124,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 418,
-  "generated": "2026-05-26T10:25:14Z"
+  "page_count": 423,
+  "generated": "2026-05-26T10:26:14Z"
 }

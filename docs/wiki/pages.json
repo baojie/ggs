@@ -1222,7 +1222,7 @@
       "blockquote_count": 1,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 19
+      "total_refs": 20
     },
     "创新": {
       "type": "concept",
@@ -1769,7 +1769,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 12
+      "total_refs": 10
     },
     "地理因素": {
       "type": "concept",
@@ -1794,7 +1794,7 @@
       "blockquote_count": 3,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 6
+      "total_refs": 7
     },
     "地轴": {
       "type": "concept",
@@ -1985,7 +1985,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 29
+      "total_refs": 31
     },
     "鹅": {
       "type": "species",
@@ -2831,7 +2831,7 @@
       "blockquote_count": 1,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 3
+      "total_refs": 4
     },
     "谷登堡": {
       "type": "person",
@@ -2997,7 +2997,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 3
+      "total_refs": 4
     },
     "黑死病": {
       "type": "event",
@@ -3170,6 +3170,30 @@
       "quality": "featured",
       "quality_score": 58,
       "total_refs": 1
+    },
+    "环境决定论": {
+      "type": "concept",
+      "label": "环境决定论",
+      "aliases": [
+        "environmental determinism",
+        "地理决定论"
+      ],
+      "tags": [
+        "理论",
+        "方法论",
+        "地理"
+      ],
+      "path": "hu/环境决定论.md",
+      "description": "认为自然环境对人类社会发展具有决定性影响的理论立场",
+      "prose_len": 502,
+      "prose_chars": 488,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 10,
+      "total_refs": 2
     },
     "皇帝": {
       "type": "concept",
@@ -3882,7 +3906,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 7
+      "total_refs": 5
     },
     "卡哈马卡之战": {
       "type": "event",
@@ -3906,7 +3930,30 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 9
+      "total_refs": 10
+    },
+    "卡哈马卡战役": {
+      "type": "event",
+      "label": "卡哈马卡战役",
+      "aliases": [
+        "Battle of Cajamarca"
+      ],
+      "tags": [
+        "南美洲",
+        "军事",
+        "征服"
+      ],
+      "path": "ka/卡哈马卡战役.md",
+      "description": "1532年西班牙征服者皮萨罗在秘鲁卡哈马卡俘虏印加皇帝阿塔瓦尔帕的关键事件",
+      "prose_len": 497,
+      "prose_chars": 483,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 2
     },
     "考古学": {
       "type": "concept",
@@ -4003,7 +4050,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 0
+      "total_refs": 1
     },
     "科尔特斯": {
       "type": "person",
@@ -4197,7 +4244,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 92
+      "total_refs": 93
     },
     "luoma-diguo": {
       "type": "event",
@@ -4541,7 +4588,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 3
+      "total_refs": 4
     },
     "麻疹": {
       "type": "species",
@@ -4895,7 +4942,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 2
+      "total_refs": 0
     },
     "免疫": {
       "type": "concept",
@@ -5044,6 +5091,29 @@
       "quality": "featured",
       "quality_score": 59,
       "total_refs": 1
+    },
+    "秘鲁": {
+      "type": "place",
+      "label": "秘鲁",
+      "aliases": [
+        "Peru"
+      ],
+      "tags": [
+        "南美洲",
+        "文明",
+        "地理"
+      ],
+      "path": "mi/秘鲁.md",
+      "description": "南美洲西部国家，印加帝国所在地，安第斯文明的发源地",
+      "prose_len": 483,
+      "prose_chars": 469,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 2
     },
     "绵羊": {
       "type": "species",
@@ -5349,7 +5419,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 7
+      "total_refs": 8
     },
     "南岛语族": {
       "type": "concept",
@@ -5804,7 +5874,7 @@
       "quality": "featured",
       "quality_score": 56,
       "affiliation": "西班牙王国",
-      "total_refs": 11
+      "total_refs": 12
     },
     "Preface": {
       "type": "chapter",
@@ -6301,7 +6371,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 1
+      "total_refs": 2
     },
     "人类迁徙": {
       "type": "concept",
@@ -7030,7 +7100,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 26
+      "total_refs": 27
     },
     "社会组织": {
       "type": "concept",
@@ -8569,7 +8639,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 2
+      "total_refs": 0
     },
     "yindunixiya": {
       "type": "place",
@@ -8713,7 +8783,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 2
+      "total_refs": 4
     },
     "印度": {
       "type": "place",
@@ -8736,7 +8806,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 3
+      "total_refs": 4
     },
     "印度尼西亚": {
       "type": "place",
@@ -8761,6 +8831,30 @@
       "quality": "basic",
       "quality_score": 9,
       "total_refs": 6
+    },
+    "印度河": {
+      "type": "place",
+      "label": "印度河",
+      "aliases": [
+        "Indus River",
+        "印度河谷"
+      ],
+      "tags": [
+        "河流",
+        "亚洲",
+        "文明"
+      ],
+      "path": "yi/印度河.md",
+      "description": "南亚重要河流，印度河流域孕育了哈拉帕文明，也是作物传播的通道",
+      "prose_len": 480,
+      "prose_chars": 466,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 2
     },
     "印欧语系": {
       "type": "concept",
@@ -8857,7 +8951,31 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 6
+      "total_refs": 4
+    },
+    "遗传学": {
+      "type": "concept",
+      "label": "遗传学",
+      "aliases": [
+        "genetics",
+        "基因"
+      ],
+      "tags": [
+        "科学",
+        "生物学",
+        "方法"
+      ],
+      "path": "yi/遗传学.md",
+      "description": "研究基因和遗传变异的生物学分支，在人类迁徙和历史研究中提供关键证据",
+      "prose_len": 482,
+      "prose_chars": 468,
+      "h2_count": 1,
+      "pn_count": 4,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 2
     },
     "鹰嘴豆": {
       "type": "species",
@@ -9081,7 +9199,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 3
+      "total_refs": 4
     },
     "语言学证据": {
       "type": "concept",
@@ -9369,7 +9487,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 11
+      "total_refs": 12
     },
     "征服者": {
       "type": "concept",
@@ -9940,7 +10058,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 5
+      "total_refs": 6
     },
     "作物驯化": {
       "type": "concept",
@@ -10359,6 +10477,7 @@
     "environment": "环境",
     "自然环境": "环境",
     "环境条件": "环境",
+    "environmental determinism": "环境决定论",
     "皇帝": "皇帝",
     "帝王": "皇帝",
     "emperor": "皇帝",
@@ -11095,6 +11214,7 @@
     "Inca Empire": "印加帝国",
     "印加": "印加帝国",
     "印尼": "印度尼西亚",
+    "印度河谷": "印度河",
     "印欧语系": "印欧语系",
     "Indo-European": "印欧语系",
     "移民": "移民",
@@ -11106,6 +11226,7 @@
     "遗传": "遗传",
     "遗传学": "遗传",
     "遗传差异": "遗传",
+    "genetics": "遗传学",
     "鹰嘴豆": "鹰嘴豆",
     "chickpea": "鹰嘴豆",
     "埃及豆": "鹰嘴豆",
@@ -11254,6 +11375,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 418,
-  "generated": "2026-05-26T10:25:14Z"
+  "page_count": 423,
+  "generated": "2026-05-26T10:26:14Z"
 }
