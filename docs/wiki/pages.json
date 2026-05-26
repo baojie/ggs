@@ -733,7 +733,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 4
+      "total_refs": 5
     },
     "ban-zhen-shang-han": {
       "type": "concept",
@@ -3431,14 +3431,14 @@
       ],
       "path": "fe/fei-shi-he.md",
       "description": "南非河流，历史上是班图人扩张的南界和科伊人与班图人的文化分界线",
-      "prose_len": 372,
-      "prose_chars": 347,
-      "h2_count": 2,
-      "pn_count": 5,
+      "prose_len": 625,
+      "prose_chars": 582,
+      "h2_count": 3,
+      "pn_count": 8,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "stub",
-      "quality_score": 3,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 1
     },
     "fei-zhou-shu-yu": {
@@ -6040,7 +6040,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 3
+      "total_refs": 4
     },
     "keertesi": {
       "type": "person",
@@ -8159,7 +8159,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 0
+      "total_refs": 1
     },
     "nan-gua": {
       "type": "species",
@@ -8326,7 +8326,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 18
+      "total_refs": 19
     },
     "南岛语族": {
       "type": "concept",
@@ -9823,14 +9823,14 @@
       ],
       "path": "sa/sai-lun-ge-di.md",
       "description": "东非著名热带草原生态系统，戴蒙德用以对比欧亚大陆和美洲更新世的大型哺乳动物群落",
-      "prose_len": 345,
-      "prose_chars": 320,
-      "h2_count": 2,
-      "pn_count": 2,
+      "prose_len": 636,
+      "prose_chars": 592,
+      "h2_count": 3,
+      "pn_count": 4,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "stub",
-      "quality_score": 3,
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 0
     },
     "塞阔雅": {
@@ -11852,14 +11852,14 @@
       ],
       "path": "xi/xi-qi-yin.md",
       "description": "以吸气方式发音的辅音类型，又称搭嘴音，是科伊桑语言的独特语音特征",
-      "prose_len": 171,
-      "prose_chars": 171,
-      "h2_count": 0,
-      "pn_count": 1,
-      "wikilink_count": 0,
+      "prose_len": 542,
+      "prose_chars": 513,
+      "h2_count": 2,
+      "pn_count": 5,
+      "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "stub",
-      "quality_score": 1,
+      "quality": "standard",
+      "quality_score": 25,
       "total_refs": 0
     },
     "xi-tuan": {
@@ -13758,14 +13758,14 @@
       ],
       "path": "yu/yuan-shi-nan-dao-yu.md",
       "description": "通过比较现代南岛语言重构的祖代语言，为南岛人的起源和迁徙提供语言学证据",
-      "prose_len": 177,
-      "prose_chars": 177,
-      "h2_count": 0,
-      "pn_count": 1,
-      "wikilink_count": 0,
+      "prose_len": 516,
+      "prose_chars": 490,
+      "h2_count": 2,
+      "pn_count": 2,
+      "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "stub",
-      "quality_score": 1,
+      "quality": "standard",
+      "quality_score": 25,
       "total_refs": 0
     },
     "yue-dan-he-gu": {
@@ -14100,14 +14100,14 @@
       ],
       "path": "zh/zhao-wa-ren.md",
       "description": "东南亚发现的早期直立人化石，走出非洲的最早证据之一",
-      "prose_len": 334,
-      "prose_chars": 309,
-      "h2_count": 2,
-      "pn_count": 2,
+      "prose_len": 576,
+      "prose_chars": 531,
+      "h2_count": 3,
+      "pn_count": 4,
       "wikilink_count": 3,
       "blockquote_count": 0,
-      "quality": "stub",
-      "quality_score": 3,
+      "quality": "standard",
+      "quality_score": 25,
       "total_refs": 0
     },
     "zheng-he": {
@@ -17214,5 +17214,5 @@
     "驯化作物": "作物驯化"
   },
   "page_count": 633,
-  "generated": "2026-05-26T16:57:25Z"
+  "generated": "2026-05-26T17:02:58Z"
 }
