@@ -470,7 +470,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 15
+      "total_refs": 16
     },
     "阿塔瓦尔帕": {
       "type": "person",
@@ -2307,7 +2307,7 @@
       "pn_count": 1,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 2
     },
     "daimengde": {
       "type": "person",
@@ -2925,7 +2925,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 13,
-      "total_refs": 2
+      "total_refs": 3
     },
     "dongxizhouxian": {
       "type": "concept",
@@ -3185,6 +3185,28 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
+      "total_refs": 0
+    },
+    "fang-she-xing-tan-ding-nian-fa": {
+      "type": "concept",
+      "label": "放射性碳定年法",
+      "aliases": [
+        "碳-14年代测定法",
+        "radiocarbon dating",
+        "碳-14测年"
+      ],
+      "tags": [
+        "技术",
+        "历史"
+      ],
+      "path": "fa/fang-she-xing-tan-ding-nian-fa.md",
+      "description": "通过测定含碳材料中碳-14与碳-12的比例来确定考古遗址年代的技术方法，是《枪炮、病菌与钢铁》中确定粮食生产起源年代的关键科学工具",
+      "prose_len": 685,
+      "prose_chars": 619,
+      "h2_count": 5,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
       "total_refs": 0
     },
     "发明": {
@@ -4371,6 +4393,26 @@
       "quality": "basic",
       "quality_score": 8,
       "total_refs": 0
+    },
+    "he-tuo": {
+      "type": "species",
+      "label": "鹤鸵",
+      "aliases": [
+        "cassowary"
+      ],
+      "tags": [
+        "动物",
+        "野生"
+      ],
+      "path": "he/he-tuo.md",
+      "description": "新几内亚大型不会飞的鸟类，当地人会捕捉幼鸟喂养作为食物，戴蒙德以其为驯化连续序列中人类与动物关系的初始阶段案例",
+      "prose_len": 300,
+      "prose_chars": 239,
+      "h2_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 1
     },
     "河流": {
       "type": "concept",
@@ -5639,7 +5681,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 5
+      "total_refs": 6
     },
     "考古遗址": {
       "type": "concept",
@@ -6266,6 +6308,27 @@
       "quality_score": 12,
       "total_refs": 0
     },
+    "liu-niu": {
+      "type": "species",
+      "label": "瘤牛",
+      "aliases": [
+        "zebu",
+        "Bos indicus"
+      ],
+      "tags": [
+        "动物",
+        "家畜"
+      ],
+      "path": "li/liu-niu.md",
+      "description": "印度特有的牛种，具有明显的肉峰特征，是独立驯化于印度次大陆的瘤牛品种，与欧亚大陆西部的普通牛种在几十万年前就已分化",
+      "prose_len": 457,
+      "prose_chars": 386,
+      "h2_count": 4,
+      "pn_count": 2,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "liu-xing-xing-gan-mao": {
       "type": "concept",
       "label": "流行性感冒",
@@ -6338,7 +6401,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 106
+      "total_refs": 108
     },
     "lun-na-er-dao": {
       "type": "place",
@@ -8155,7 +8218,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 3
+      "total_refs": 4
     },
     "牛痘": {
       "type": "concept",
@@ -8392,7 +8455,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 5
+      "total_refs": 6
     },
     "欧洲殖民非洲": {
       "type": "event",
@@ -10791,7 +10854,7 @@
       "pn_count": 3,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "total_refs": 0
+      "total_refs": 1
     },
     "兔": {
       "type": "species",
@@ -11974,7 +12037,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 23
+      "total_refs": 25
     },
     "新月沃地": {
       "type": "concept",
@@ -12000,7 +12063,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 71
+      "total_refs": 74
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -12178,7 +12241,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 53
+      "total_refs": 57
     },
     "驯鹿": {
       "type": "species",
@@ -12761,6 +12824,27 @@
       "quality_score": 58,
       "total_refs": 0
     },
+    "ying-su": {
+      "type": "species",
+      "label": "罂粟",
+      "aliases": [
+        "opium poppy",
+        "Papaver somniferum"
+      ],
+      "tags": [
+        "植物",
+        "农作物"
+      ],
+      "path": "yi/ying-su.md",
+      "description": "地中海西部最早在本土驯化的油料和药用作物，是欧洲西部在引进西南亚祖代作物后本地驯化的极少数植物之一",
+      "prose_len": 516,
+      "prose_chars": 452,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "一年生植物": {
       "type": "concept",
       "label": "一年生植物",
@@ -12902,7 +12986,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 4
+      "total_refs": 5
     },
     "印度尼西亚": {
       "type": "place",
@@ -13096,6 +13180,27 @@
       "quality": "basic",
       "quality_score": 10,
       "total_refs": 2
+    },
+    "you-dai-dong-wu": {
+      "type": "concept",
+      "label": "有袋动物",
+      "aliases": [
+        "marsupials",
+        "有袋类"
+      ],
+      "tags": [
+        "生物",
+        "演化"
+      ],
+      "path": "yo/you-dai-dong-wu.md",
+      "description": "哺乳动物中最早分化的类群之一，有袋动物在澳大利亚和新几内亚占据主导地位的演化过程是戴蒙德大陆起源论和动物驯化分析的重要例证",
+      "prose_len": 369,
+      "prose_chars": 317,
+      "h2_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "total_refs": 1
     },
     "you-ta-a-zi-te-ke-zhu-yu-yan": {
       "type": "concept",
@@ -14922,6 +15027,11 @@
     "法罗群岛": "fa-luo-qun-dao",
     "Faroe Islands": "fa-luo-qun-dao",
     "法罗": "fa-luo-qun-dao",
+    "fang-she-xing-tan-ding-nian-fa": "fang-she-xing-tan-ding-nian-fa",
+    "放射性碳定年法": "fang-she-xing-tan-ding-nian-fa",
+    "碳-14年代测定法": "fang-she-xing-tan-ding-nian-fa",
+    "radiocarbon dating": "fang-she-xing-tan-ding-nian-fa",
+    "碳-14测年": "fang-she-xing-tan-ding-nian-fa",
     "发明": "发明",
     "技术发明": "发明",
     "invention": "发明",
@@ -15088,6 +15198,9 @@
     "和平文化": "he-ping-wen-hua",
     "Hoabinhian": "he-ping-wen-hua",
     "和平文化传统": "he-ping-wen-hua",
+    "he-tuo": "he-tuo",
+    "鹤鸵": "he-tuo",
+    "cassowary": "he-tuo",
     "河流": "河流",
     "水道": "河流",
     "可通航河流": "河流",
@@ -15369,6 +15482,10 @@
     "猎豹": "lie-bao",
     "cheetah": "lie-bao",
     "印度猎豹": "lie-bao",
+    "liu-niu": "liu-niu",
+    "瘤牛": "liu-niu",
+    "zebu": "liu-niu",
+    "Bos indicus": "liu-niu",
     "liu-xing-xing-gan-mao": "liu-xing-xing-gan-mao",
     "流行性感冒": "liu-xing-xing-gan-mao",
     "流感": "liu-xing-xing-gan-mao",
@@ -15920,7 +16037,6 @@
     "Taiwan": "taiwan",
     "tan14-ce-nian": "tan14-ce-nian",
     "碳14测年": "tan14-ce-nian",
-    "radiocarbon dating": "tan14-ce-nian",
     "放射性碳定年": "tan14-ce-nian",
     "C14测年": "tan14-ce-nian",
     "tang-jia": "tang-jia",
@@ -16252,6 +16368,10 @@
     "印度尼西亚": "yindunixiya",
     "Indonesia": "yindunixiya",
     "马来群岛": "yindunixiya",
+    "ying-su": "ying-su",
+    "罂粟": "ying-su",
+    "opium poppy": "ying-su",
+    "Papaver somniferum": "ying-su",
     "一年生植物": "一年生植物",
     "一年生作物": "一年生植物",
     "年生植物": "一年生植物",
@@ -16272,7 +16392,6 @@
     "移民": "移民",
     "史前迁徙": "移民",
     "移民浪潮": "移民",
-    "罂粟": "罂粟",
     "poppy": "罂粟",
     "鸦片罂粟": "罂粟",
     "遗传": "遗传",
@@ -16280,6 +16399,10 @@
     "鹰嘴豆": "鹰嘴豆",
     "chickpea": "鹰嘴豆",
     "埃及豆": "鹰嘴豆",
+    "you-dai-dong-wu": "you-dai-dong-wu",
+    "有袋动物": "you-dai-dong-wu",
+    "marsupials": "you-dai-dong-wu",
+    "有袋类": "you-dai-dong-wu",
     "you-ta-a-zi-te-ke-zhu-yu-yan": "you-ta-a-zi-te-ke-zhu-yu-yan",
     "尤他-阿兹特克诸语言": "you-ta-a-zi-te-ke-zhu-yu-yan",
     "Uto-Aztecan languages": "you-ta-a-zi-te-ke-zhu-yu-yan",
@@ -16473,6 +16596,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 608,
-  "generated": "2026-05-26T16:28:00Z"
+  "page_count": 613,
+  "generated": "2026-05-26T16:31:28Z"
 }

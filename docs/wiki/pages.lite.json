@@ -1215,6 +1215,16 @@
       ],
       "path": "fa/fa-luo-qun-dao.md"
     },
+    "fang-she-xing-tan-ding-nian-fa": {
+      "type": "concept",
+      "label": "放射性碳定年法",
+      "aliases": [
+        "碳-14年代测定法",
+        "radiocarbon dating",
+        "碳-14测年"
+      ],
+      "path": "fa/fang-she-xing-tan-ding-nian-fa.md"
+    },
     "发明": {
       "type": "concept",
       "label": "发明",
@@ -1664,6 +1674,14 @@
         "和平文化传统"
       ],
       "path": "he/he-ping-wen-hua.md"
+    },
+    "he-tuo": {
+      "type": "species",
+      "label": "鹤鸵",
+      "aliases": [
+        "cassowary"
+      ],
+      "path": "he/he-tuo.md"
     },
     "河流": {
       "type": "concept",
@@ -2406,6 +2424,15 @@
         "印度猎豹"
       ],
       "path": "li/lie-bao.md"
+    },
+    "liu-niu": {
+      "type": "species",
+      "label": "瘤牛",
+      "aliases": [
+        "zebu",
+        "Bos indicus"
+      ],
+      "path": "li/liu-niu.md"
     },
     "liu-xing-xing-gan-mao": {
       "type": "concept",
@@ -4902,6 +4929,15 @@
       ],
       "path": "yi/yindunixiya.md"
     },
+    "ying-su": {
+      "type": "species",
+      "label": "罂粟",
+      "aliases": [
+        "opium poppy",
+        "Papaver somniferum"
+      ],
+      "path": "yi/ying-su.md"
+    },
     "一年生植物": {
       "type": "concept",
       "label": "一年生植物",
@@ -5027,6 +5063,15 @@
         "埃及豆"
       ],
       "path": "yi/鹰嘴豆.md"
+    },
+    "you-dai-dong-wu": {
+      "type": "concept",
+      "label": "有袋动物",
+      "aliases": [
+        "marsupials",
+        "有袋类"
+      ],
+      "path": "yo/you-dai-dong-wu.md"
     },
     "you-ta-a-zi-te-ke-zhu-yu-yan": {
       "type": "concept",
@@ -6003,6 +6048,11 @@
     "法罗群岛": "fa-luo-qun-dao",
     "Faroe Islands": "fa-luo-qun-dao",
     "法罗": "fa-luo-qun-dao",
+    "fang-she-xing-tan-ding-nian-fa": "fang-she-xing-tan-ding-nian-fa",
+    "放射性碳定年法": "fang-she-xing-tan-ding-nian-fa",
+    "碳-14年代测定法": "fang-she-xing-tan-ding-nian-fa",
+    "radiocarbon dating": "fang-she-xing-tan-ding-nian-fa",
+    "碳-14测年": "fang-she-xing-tan-ding-nian-fa",
     "发明": "发明",
     "技术发明": "发明",
     "invention": "发明",
@@ -6169,6 +6219,9 @@
     "和平文化": "he-ping-wen-hua",
     "Hoabinhian": "he-ping-wen-hua",
     "和平文化传统": "he-ping-wen-hua",
+    "he-tuo": "he-tuo",
+    "鹤鸵": "he-tuo",
+    "cassowary": "he-tuo",
     "河流": "河流",
     "水道": "河流",
     "可通航河流": "河流",
@@ -6450,6 +6503,10 @@
     "猎豹": "lie-bao",
     "cheetah": "lie-bao",
     "印度猎豹": "lie-bao",
+    "liu-niu": "liu-niu",
+    "瘤牛": "liu-niu",
+    "zebu": "liu-niu",
+    "Bos indicus": "liu-niu",
     "liu-xing-xing-gan-mao": "liu-xing-xing-gan-mao",
     "流行性感冒": "liu-xing-xing-gan-mao",
     "流感": "liu-xing-xing-gan-mao",
@@ -7001,7 +7058,6 @@
     "Taiwan": "taiwan",
     "tan14-ce-nian": "tan14-ce-nian",
     "碳14测年": "tan14-ce-nian",
-    "radiocarbon dating": "tan14-ce-nian",
     "放射性碳定年": "tan14-ce-nian",
     "C14测年": "tan14-ce-nian",
     "tang-jia": "tang-jia",
@@ -7333,6 +7389,10 @@
     "印度尼西亚": "yindunixiya",
     "Indonesia": "yindunixiya",
     "马来群岛": "yindunixiya",
+    "ying-su": "ying-su",
+    "罂粟": "ying-su",
+    "opium poppy": "ying-su",
+    "Papaver somniferum": "ying-su",
     "一年生植物": "一年生植物",
     "一年生作物": "一年生植物",
     "年生植物": "一年生植物",
@@ -7353,7 +7413,6 @@
     "移民": "移民",
     "史前迁徙": "移民",
     "移民浪潮": "移民",
-    "罂粟": "罂粟",
     "poppy": "罂粟",
     "鸦片罂粟": "罂粟",
     "遗传": "遗传",
@@ -7361,6 +7420,10 @@
     "鹰嘴豆": "鹰嘴豆",
     "chickpea": "鹰嘴豆",
     "埃及豆": "鹰嘴豆",
+    "you-dai-dong-wu": "you-dai-dong-wu",
+    "有袋动物": "you-dai-dong-wu",
+    "marsupials": "you-dai-dong-wu",
+    "有袋类": "you-dai-dong-wu",
     "you-ta-a-zi-te-ke-zhu-yu-yan": "you-ta-a-zi-te-ke-zhu-yu-yan",
     "尤他-阿兹特克诸语言": "you-ta-a-zi-te-ke-zhu-yu-yan",
     "Uto-Aztecan languages": "you-ta-a-zi-te-ke-zhu-yu-yan",
@@ -7554,6 +7617,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 608,
-  "generated": "2026-05-26T16:28:00Z"
+  "page_count": 613,
+  "generated": "2026-05-26T16:31:28Z"
 }
