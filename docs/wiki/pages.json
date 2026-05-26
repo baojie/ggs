@@ -2663,6 +2663,30 @@
       "quality_score": 58,
       "total_refs": 0
     },
+    "基因": {
+      "type": "concept",
+      "label": "基因",
+      "aliases": [
+        "遗传基因",
+        "基因特征"
+      ],
+      "tags": [
+        "生物",
+        "遗传",
+        "医学"
+      ],
+      "path": "ji/基因.md",
+      "description": "生物遗传的基本单位及其在人类对疾病免疫力形成中的作用",
+      "prose_len": 261,
+      "prose_chars": 259,
+      "h2_count": 0,
+      "pn_count": 3,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "季节性": {
       "type": "concept",
       "label": "季节性",
@@ -3037,6 +3061,30 @@
       "quality": "featured",
       "quality_score": 60,
       "total_refs": 10
+    },
+    "军事技术": {
+      "type": "concept",
+      "label": "军事技术",
+      "aliases": [
+        "武器技术",
+        "兵器"
+      ],
+      "tags": [
+        "军事",
+        "技术",
+        "历史"
+      ],
+      "path": "ju/军事技术.md",
+      "description": "武器和军事装备的技术水平对战争结果和文明扩张的决定性影响",
+      "prose_len": 249,
+      "prose_chars": 247,
+      "h2_count": 0,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
     },
     "军队": {
       "type": "concept",
@@ -5015,6 +5063,30 @@
       "quality": "featured",
       "quality_score": 58,
       "total_refs": 1
+    },
+    "人口稠密": {
+      "type": "concept",
+      "label": "人口稠密",
+      "aliases": [
+        "人口密度",
+        "人口密集"
+      ],
+      "tags": [
+        "人口",
+        "社会",
+        "经济"
+      ],
+      "path": "re/人口稠密.md",
+      "description": "人口密度对社会组织复杂化和技术发展的推动作用",
+      "prose_len": 234,
+      "prose_chars": 232,
+      "h2_count": 0,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
     },
     "人口规模": {
       "type": "concept",
@@ -7246,6 +7318,30 @@
       "quality_score": 59,
       "total_refs": 2
     },
+    "运输": {
+      "type": "concept",
+      "label": "运输",
+      "aliases": [
+        "交通运输",
+        "物资运输"
+      ],
+      "tags": [
+        "技术",
+        "经济",
+        "交流"
+      ],
+      "path": "yu/运输.md",
+      "description": "人员和物资的运输方式及其对文明发展的推动作用",
+      "prose_len": 250,
+      "prose_chars": 248,
+      "h2_count": 0,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "雨林": {
       "type": "concept",
       "label": "雨林",
@@ -7387,6 +7483,30 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
+      "total_refs": 0
+    },
+    "中央集权": {
+      "type": "concept",
+      "label": "中央集权",
+      "aliases": [
+        "集权",
+        "统一"
+      ],
+      "tags": [
+        "政治",
+        "制度",
+        "历史"
+      ],
+      "path": "zh/中央集权.md",
+      "description": "政治权力集中于中央政府的组织形式及其对社会治理的影响",
+      "prose_len": 259,
+      "prose_chars": 257,
+      "h2_count": 0,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
       "total_refs": 0
     },
     "中美洲": {
@@ -8251,6 +8371,9 @@
     "物物交换": "交换",
     "贸易交换": "交换",
     "商品流通": "交换",
+    "基因": "基因",
+    "遗传基因": "基因",
+    "基因特征": "基因",
     "季节性": "季节性",
     "季节变化": "季节性",
     "生长季节": "季节性",
@@ -8311,6 +8434,9 @@
     "武装征服": "军事征服",
     "军事扩张": "军事征服",
     "征服": "军事征服",
+    "军事技术": "军事技术",
+    "武器技术": "军事技术",
+    "兵器": "军事技术",
     "军队": "军队",
     "武装力量": "军队",
     "士兵": "军队",
@@ -8598,6 +8724,8 @@
     "农民扩张": "人口扩张",
     "人口置换": "人口扩张",
     "人口压力扩张": "人口扩张",
+    "人口稠密": "人口稠密",
+    "人口密集": "人口稠密",
     "人口规模": "人口规模",
     "population size": "人口规模",
     "人口数量": "人口规模",
@@ -8881,7 +9009,6 @@
     "鸦片罂粟": "罂粟",
     "遗传": "遗传",
     "遗传学": "遗传",
-    "基因": "遗传",
     "遗传差异": "遗传",
     "鹰嘴豆": "鹰嘴豆",
     "chickpea": "鹰嘴豆",
@@ -8913,6 +9040,9 @@
     "linguistics": "语言学",
     "历史语言学": "语言学",
     "语言分类": "语言学",
+    "运输": "运输",
+    "交通运输": "运输",
+    "物资运输": "运输",
     "雨林": "雨林",
     "热带雨林": "雨林",
     "赤道雨林": "雨林",
@@ -9009,6 +9139,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 330,
-  "generated": "2026-05-26T01:15:35Z"
+  "page_count": 335,
+  "generated": "2026-05-26T01:16:41Z"
 }
