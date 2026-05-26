@@ -2163,6 +2163,16 @@
       ],
       "path": "la/莱特兄弟.md"
     },
+    "lei-xing-suo-yin": {
+      "type": "overview",
+      "label": "类型索引",
+      "aliases": [
+        "type index",
+        "分类索引",
+        "词条类型索引"
+      ],
+      "path": "le/lei-xing-suo-yin.md"
+    },
     "liang-shi-chu-bei": {
       "type": "concept",
       "label": "粮食储备",
@@ -5839,6 +5849,11 @@
     "Wright Brothers": "莱特兄弟",
     "奥维尔·莱特": "莱特兄弟",
     "威尔伯·莱特": "莱特兄弟",
+    "lei-xing-suo-yin": "lei-xing-suo-yin",
+    "类型索引": "lei-xing-suo-yin",
+    "type index": "lei-xing-suo-yin",
+    "分类索引": "lei-xing-suo-yin",
+    "词条类型索引": "lei-xing-suo-yin",
     "liang-shi-chu-bei": "liang-shi-chu-bei",
     "粮食储备": "liang-shi-chu-bei",
     "food storage": "liang-shi-chu-bei",
@@ -6828,6 +6843,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 554,
-  "generated": "2026-05-26T13:08:00Z"
+  "page_count": 555,
+  "generated": "2026-05-26T13:08:32Z"
 }
