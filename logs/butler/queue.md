@@ -237,3 +237,16 @@
 - [x] P2 stub | 氏族 | concept | LLM 发现，ch14，基于共同祖先的社会组织单位
 - [x] P2 stub | 盗贼统治 | concept | LLM 发现，ch14，集中社会财富的上层统治
 - [ ] P2 stub | 伊努特人 | person | LLM 发现，ch14，北极狩猎采集族群（爱斯基摩人）
+
+## Phase 2 — 新建候选（SCN28 R197 发现 — ch15 耶利的族人）
+
+### P1 create（多章出现）
+
+- [ ] P1 create | 俾斯麦群岛 | place | LLM 发现，多章（ch01/ch02/ch15/ch17/ch20），新几内亚东北群岛，南岛人扩张路径
+- [ ] P1 create | 托雷斯海峡 | place | LLM 发现，多章（ch13/ch15），连接澳大利亚与新几内亚的海峡
+
+### P2 stub（单章重要实体）
+
+- [ ] P2 stub | 大澳大利亚 | concept | LLM 发现，ch15，更新世连接澳大利亚和新几内亚的大陆块
+- [ ] P2 stub | 澳洲野犬 | species | LLM 发现，ch15，澳大利亚的野生犬科动物
+- [ ] P2 stub | 火耕农业 | concept | LLM 发现，ch15，澳大利亚土著用火管理土地的方法
