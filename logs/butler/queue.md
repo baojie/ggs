@@ -478,3 +478,19 @@
 - [ ] P2 stub | 白鼬 | species | SCN28 发现，ch09，欧洲驯化来猎兔的小型哺乳动物
 - [ ] P2 stub | 绒鼠 | species | SCN28 发现，ch09，为毛皮而饲养的驯化小型哺乳动物
 - [ ] P2 stub | 仓鼠 | species | SCN28 发现，ch09，近代驯化的宠物啮齿动物
+
+## Phase 2 — 新建候选（SCN28 R256 发现 — ch11 致命的礼物）
+
+### P1 create（多章出现）
+
+- [ ] P1 create | 痢疾 | disease | SCN28 发现，多章（ch11/ch15），痢疾（dysentery），肠道传染病，在人口密集和卫生条件差的环境中流行，殖民扩张中的重要疾病
+- [ ] P1 create | 百日咳 | disease | SCN28 发现，多章（ch11/ch15），百日咳（whooping cough），通过飞沫传播的细菌性呼吸道传染病，在密集人群中暴发
+- [ ] P1 create | 亚马孙 | place | SCN28 发现，多章（ch01/ch05/ch07/ch08/ch11/ch13/ch14/ch18），南美洲最大的热带雨林和河流流域，疾病环境阻碍了欧洲殖民者深入
+- [ ] P1 create | 奴隶贸易 | event | SCN28 发现，多章（ch11/ch19），从非洲向美洲强制运送黑奴的跨大西洋贸易，传染病和殖民体系的重要组成部分
+
+### P2 stub（单章重要实体）
+
+- [ ] P2 stub | 麻风 | disease | SCN28 发现，ch11，麻风（leprosy），慢性传染病，历史上被污名化的疾病，在欧亚大陆长期存在
+- [ ] P2 stub | 脊髓灰质炎 | disease | SCN28 发现，ch11，脊髓灰质炎（polio），病毒性传染病，可导致永久性瘫痪，20世纪主要的儿童传染病之一
+- [ ] P2 stub | 狂犬病 | disease | SCN28 发现，ch11，狂犬病（rabies），病毒性人畜共患传染病，一旦发病几乎100%致死
+- [ ] P2 stub | 肺炎 | disease | SCN28 发现，ch11，肺炎（pneumonia），呼吸道感染疾病，在拥挤和不卫生条件下高发
