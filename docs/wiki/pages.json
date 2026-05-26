@@ -350,7 +350,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 20
+      "total_refs": 21
     },
     "安娜卡列尼娜原则": {
       "type": "concept",
@@ -470,7 +470,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 14
+      "total_refs": 15
     },
     "阿塔瓦尔帕": {
       "type": "person",
@@ -819,7 +819,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 4
+      "total_refs": 5
     },
     "班图人": {
       "type": "event",
@@ -1828,6 +1828,26 @@
       "quality": "featured",
       "quality_score": 57,
       "total_refs": 2
+    },
+    "chang-jing-lu": {
+      "type": "species",
+      "label": "长颈鹿",
+      "aliases": [
+        "giraffe"
+      ],
+      "tags": [
+        "动物",
+        "野生"
+      ],
+      "path": "ch/chang-jing-lu.md",
+      "description": "非洲特有的大型有蹄类哺乳动物，戴蒙德以猎人猎长颈鹿为例说明狩猎采集者的食物选择受社会声望影响",
+      "prose_len": 330,
+      "prose_chars": 270,
+      "h2_count": 3,
+      "pn_count": 4,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
     },
     "chaoxian": {
       "type": "place",
@@ -3453,7 +3473,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 18
+      "total_refs": 20
     },
     "Frontispiece": {
       "type": "chapter",
@@ -6129,6 +6149,28 @@
       "quality_score": 56,
       "total_refs": 0
     },
+    "li-ni-er-ban-ke-la-mi-ke-wen-hua": {
+      "type": "concept",
+      "label": "利尼尔班克拉米克文化",
+      "aliases": [
+        "LBK文化",
+        "Linearbandkeramik",
+        "线纹陶文化"
+      ],
+      "tags": [
+        "历史",
+        "农业"
+      ],
+      "path": "li/li-ni-er-ban-ke-la-mi-ke-wen-hua.md",
+      "description": "欧洲最早的新石器时代农业文化之一，约公元前5000年兴起于中欧，以线纹陶器为标志，代表了粮食生产从东南欧向中欧的传播",
+      "prose_len": 372,
+      "prose_chars": 329,
+      "h2_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "li-shi-ke-xue": {
       "type": "concept",
       "label": "历史科学",
@@ -6296,7 +6338,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 104
+      "total_refs": 105
     },
     "lun-na-er-dao": {
       "type": "place",
@@ -7043,7 +7085,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 15
+      "total_refs": 16
     },
     "美洲家鸭": {
       "type": "species",
@@ -10081,7 +10123,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 20
+      "total_refs": 21
     },
     "生态": {
       "type": "concept",
@@ -10182,7 +10224,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 0
+      "total_refs": 1
     },
     "社会复杂性": {
       "type": "concept",
@@ -10731,6 +10773,26 @@
       "quality_score": 8,
       "total_refs": 0
     },
+    "tuo-niao": {
+      "type": "species",
+      "label": "鸵鸟",
+      "aliases": [
+        "ostrich"
+      ],
+      "tags": [
+        "动物",
+        "野生"
+      ],
+      "path": "tu/tuo-niao.md",
+      "description": "非洲大型不会飞的鸟类，戴蒙德在书中提及鸵鸟蛋壳珠子作为早期首饰，以及鸵鸟作为类似鹤鸵的驯养案例参照",
+      "prose_len": 312,
+      "prose_chars": 251,
+      "h2_count": 3,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "兔": {
       "type": "species",
       "label": "兔",
@@ -11230,6 +11292,27 @@
       "quality_score": 7,
       "total_refs": 0
     },
+    "xi-gu-ye-zi": {
+      "type": "species",
+      "label": "西谷椰子",
+      "aliases": [
+        "sago",
+        "西谷椰子树"
+      ],
+      "tags": [
+        "植物",
+        "野生"
+      ],
+      "path": "xi/xi-gu-ye-zi.md",
+      "description": "新几内亚低地沼泽地带重要的野生淀粉植物，当地土著通过半管理方式增加其产量，是狩猎采集生计的典型案例",
+      "prose_len": 405,
+      "prose_chars": 361,
+      "h2_count": 3,
+      "pn_count": 5,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "total_refs": 0
+    },
     "xi-ke-suo-si": {
       "type": "event",
       "label": "希克索斯",
@@ -11302,6 +11385,26 @@
       "blockquote_count": 0,
       "quality": "stub",
       "quality_score": 1,
+      "total_refs": 0
+    },
+    "xi-tuan": {
+      "type": "species",
+      "label": "西貒",
+      "aliases": [
+        "peccary"
+      ],
+      "tags": [
+        "动物",
+        "野生"
+      ],
+      "path": "xi/xi-tuan.md",
+      "description": "美洲特有的偶蹄目哺乳动物，外形似猪但属于不同的演化支，是戴蒙德列举的看似合适却从未被驯化的大型野生哺乳动物之一",
+      "prose_len": 334,
+      "prose_chars": 274,
+      "h2_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
       "total_refs": 0
     },
     "xi-zang-gao-yuan": {
@@ -11871,7 +11974,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 22
+      "total_refs": 23
     },
     "新月沃地": {
       "type": "concept",
@@ -11897,7 +12000,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 70
+      "total_refs": 71
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -12075,7 +12178,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 48
+      "total_refs": 53
     },
     "驯鹿": {
       "type": "species",
@@ -13967,7 +14070,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 2
+      "total_refs": 3
     },
     "珍珠鸡": {
       "type": "species",
@@ -14622,6 +14725,9 @@
     "查塔姆群岛": "cha-ta-mu-qun-dao",
     "Chatham Islands": "cha-ta-mu-qun-dao",
     "查塔姆": "cha-ta-mu-qun-dao",
+    "chang-jing-lu": "chang-jing-lu",
+    "长颈鹿": "chang-jing-lu",
+    "giraffe": "chang-jing-lu",
     "chaoxian": "chaoxian",
     "朝鲜": "chaoxian",
     "Korea": "chaoxian",
@@ -15243,6 +15349,11 @@
     "type index": "lei-xing-suo-yin",
     "分类索引": "lei-xing-suo-yin",
     "词条类型索引": "lei-xing-suo-yin",
+    "li-ni-er-ban-ke-la-mi-ke-wen-hua": "li-ni-er-ban-ke-la-mi-ke-wen-hua",
+    "利尼尔班克拉米克文化": "li-ni-er-ban-ke-la-mi-ke-wen-hua",
+    "LBK文化": "li-ni-er-ban-ke-la-mi-ke-wen-hua",
+    "Linearbandkeramik": "li-ni-er-ban-ke-la-mi-ke-wen-hua",
+    "线纹陶文化": "li-ni-er-ban-ke-la-mi-ke-wen-hua",
     "li-shi-ke-xue": "li-shi-ke-xue",
     "historical science": "li-shi-ke-xue",
     "历史学作为科学": "li-shi-ke-xue",
@@ -15852,6 +15963,9 @@
     "tuo-lei-si-hai-xia": "tuo-lei-si-hai-xia",
     "托雷斯海峡": "tuo-lei-si-hai-xia",
     "Torres Strait": "tuo-lei-si-hai-xia",
+    "tuo-niao": "tuo-niao",
+    "鸵鸟": "tuo-niao",
+    "ostrich": "tuo-niao",
     "兔": "兔",
     "rabbit": "兔",
     "家兔": "兔",
@@ -15919,6 +16033,10 @@
     "生物物种": "物种",
     "species": "物种",
     "物种索引": "物种索引",
+    "xi-gu-ye-zi": "xi-gu-ye-zi",
+    "西谷椰子": "xi-gu-ye-zi",
+    "sago": "xi-gu-ye-zi",
+    "西谷椰子树": "xi-gu-ye-zi",
     "xi-ke-suo-si": "xi-ke-suo-si",
     "希克索斯": "xi-ke-suo-si",
     "Hyksos": "xi-ke-suo-si",
@@ -15933,6 +16051,9 @@
     "click consonant": "xi-qi-yin",
     "搭嘴音": "xi-qi-yin",
     "啧音": "xi-qi-yin",
+    "xi-tuan": "xi-tuan",
+    "西貒": "xi-tuan",
+    "peccary": "xi-tuan",
     "xi-zang-gao-yuan": "xi-zang-gao-yuan",
     "西藏高原": "xi-zang-gao-yuan",
     "Tibetan Plateau": "xi-zang-gao-yuan",
@@ -16352,6 +16473,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 603,
-  "generated": "2026-05-26T16:20:37Z"
+  "page_count": 608,
+  "generated": "2026-05-26T16:24:43Z"
 }

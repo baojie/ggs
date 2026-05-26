@@ -689,6 +689,14 @@
       ],
       "path": "ch/cha-ta-mu-qun-dao.md"
     },
+    "chang-jing-lu": {
+      "type": "species",
+      "label": "长颈鹿",
+      "aliases": [
+        "giraffe"
+      ],
+      "path": "ch/chang-jing-lu.md"
+    },
     "chaoxian": {
       "type": "place",
       "label": "朝鲜",
@@ -2350,6 +2358,16 @@
         "词条类型索引"
       ],
       "path": "le/lei-xing-suo-yin.md"
+    },
+    "li-ni-er-ban-ke-la-mi-ke-wen-hua": {
+      "type": "concept",
+      "label": "利尼尔班克拉米克文化",
+      "aliases": [
+        "LBK文化",
+        "Linearbandkeramik",
+        "线纹陶文化"
+      ],
+      "path": "li/li-ni-er-ban-ke-la-mi-ke-wen-hua.md"
     },
     "li-shi-ke-xue": {
       "type": "concept",
@@ -4118,6 +4136,14 @@
       ],
       "path": "tu/tuo-lei-si-hai-xia.md"
     },
+    "tuo-niao": {
+      "type": "species",
+      "label": "鸵鸟",
+      "aliases": [
+        "ostrich"
+      ],
+      "path": "tu/tuo-niao.md"
+    },
     "兔": {
       "type": "species",
       "label": "兔",
@@ -4307,6 +4333,15 @@
       "aliases": [],
       "path": "wu/物种索引.md"
     },
+    "xi-gu-ye-zi": {
+      "type": "species",
+      "label": "西谷椰子",
+      "aliases": [
+        "sago",
+        "西谷椰子树"
+      ],
+      "path": "xi/xi-gu-ye-zi.md"
+    },
     "xi-ke-suo-si": {
       "type": "event",
       "label": "希克索斯",
@@ -4335,6 +4370,14 @@
         "啧音"
       ],
       "path": "xi/xi-qi-yin.md"
+    },
+    "xi-tuan": {
+      "type": "species",
+      "label": "西貒",
+      "aliases": [
+        "peccary"
+      ],
+      "path": "xi/xi-tuan.md"
     },
     "xi-zang-gao-yuan": {
       "type": "place",
@@ -5763,6 +5806,9 @@
     "查塔姆群岛": "cha-ta-mu-qun-dao",
     "Chatham Islands": "cha-ta-mu-qun-dao",
     "查塔姆": "cha-ta-mu-qun-dao",
+    "chang-jing-lu": "chang-jing-lu",
+    "长颈鹿": "chang-jing-lu",
+    "giraffe": "chang-jing-lu",
     "chaoxian": "chaoxian",
     "朝鲜": "chaoxian",
     "Korea": "chaoxian",
@@ -6384,6 +6430,11 @@
     "type index": "lei-xing-suo-yin",
     "分类索引": "lei-xing-suo-yin",
     "词条类型索引": "lei-xing-suo-yin",
+    "li-ni-er-ban-ke-la-mi-ke-wen-hua": "li-ni-er-ban-ke-la-mi-ke-wen-hua",
+    "利尼尔班克拉米克文化": "li-ni-er-ban-ke-la-mi-ke-wen-hua",
+    "LBK文化": "li-ni-er-ban-ke-la-mi-ke-wen-hua",
+    "Linearbandkeramik": "li-ni-er-ban-ke-la-mi-ke-wen-hua",
+    "线纹陶文化": "li-ni-er-ban-ke-la-mi-ke-wen-hua",
     "li-shi-ke-xue": "li-shi-ke-xue",
     "historical science": "li-shi-ke-xue",
     "历史学作为科学": "li-shi-ke-xue",
@@ -6993,6 +7044,9 @@
     "tuo-lei-si-hai-xia": "tuo-lei-si-hai-xia",
     "托雷斯海峡": "tuo-lei-si-hai-xia",
     "Torres Strait": "tuo-lei-si-hai-xia",
+    "tuo-niao": "tuo-niao",
+    "鸵鸟": "tuo-niao",
+    "ostrich": "tuo-niao",
     "兔": "兔",
     "rabbit": "兔",
     "家兔": "兔",
@@ -7060,6 +7114,10 @@
     "生物物种": "物种",
     "species": "物种",
     "物种索引": "物种索引",
+    "xi-gu-ye-zi": "xi-gu-ye-zi",
+    "西谷椰子": "xi-gu-ye-zi",
+    "sago": "xi-gu-ye-zi",
+    "西谷椰子树": "xi-gu-ye-zi",
     "xi-ke-suo-si": "xi-ke-suo-si",
     "希克索斯": "xi-ke-suo-si",
     "Hyksos": "xi-ke-suo-si",
@@ -7074,6 +7132,9 @@
     "click consonant": "xi-qi-yin",
     "搭嘴音": "xi-qi-yin",
     "啧音": "xi-qi-yin",
+    "xi-tuan": "xi-tuan",
+    "西貒": "xi-tuan",
+    "peccary": "xi-tuan",
     "xi-zang-gao-yuan": "xi-zang-gao-yuan",
     "西藏高原": "xi-zang-gao-yuan",
     "Tibetan Plateau": "xi-zang-gao-yuan",
@@ -7493,6 +7554,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 603,
-  "generated": "2026-05-26T16:20:37Z"
+  "page_count": 608,
+  "generated": "2026-05-26T16:24:43Z"
 }
