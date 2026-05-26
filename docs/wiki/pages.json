@@ -441,7 +441,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 4
+      "total_refs": 0
     },
     "北极": {
       "type": "place",
@@ -466,6 +466,30 @@
       "quality": "basic",
       "quality_score": 9,
       "total_refs": 1
+    },
+    "北美洲": {
+      "type": "place",
+      "label": "北美洲",
+      "aliases": [
+        "North America",
+        "北美"
+      ],
+      "tags": [
+        "地理",
+        "大陆",
+        "美洲"
+      ],
+      "path": "be/北美洲.md",
+      "description": "美洲大陆北部，从北极延伸到中美洲地峡，是多种土著文明的发源地",
+      "prose_len": 466,
+      "prose_chars": 452,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 4
     },
     "兵豆": {
       "type": "species",
@@ -589,7 +613,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 22
+      "total_refs": 23
     },
     "玻璃": {
       "type": "concept",
@@ -663,7 +687,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 8
+      "total_refs": 9
     },
     "草原": {
       "type": "concept",
@@ -1417,7 +1441,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 66,
-      "total_refs": 2
+      "total_refs": 3
     },
     "大陆轴线": {
       "type": "concept",
@@ -1442,7 +1466,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 56
+      "total_refs": 51
     },
     "大麦": {
       "type": "species",
@@ -1515,7 +1539,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 64,
-      "total_refs": 4
+      "total_refs": 5
     },
     "岛屿生物地理学": {
       "type": "concept",
@@ -1868,7 +1892,31 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 4
+      "total_refs": 5
+    },
+    "东西轴线": {
+      "type": "concept",
+      "label": "东西轴线",
+      "aliases": [
+        "east-west axis",
+        "东西轴"
+      ],
+      "tags": [
+        "地理",
+        "农业",
+        "传播"
+      ],
+      "path": "do/东西轴线.md",
+      "description": "欧亚大陆东西走向的地理主轴，有利于作物和技术的快速传播",
+      "prose_len": 459,
+      "prose_chars": 445,
+      "h2_count": 1,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 5
     },
     "动物": {
       "type": "concept",
@@ -1914,7 +1962,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 27
+      "total_refs": 28
     },
     "鹅": {
       "type": "species",
@@ -2614,7 +2662,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 25
+      "total_refs": 26
     },
     "国家的形成": {
       "type": "event",
@@ -3340,7 +3388,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 27
+      "total_refs": 28
     },
     "技术积累": {
       "type": "concept",
@@ -4682,7 +4730,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 0
+      "total_refs": 1
     },
     "美洲驼": {
       "type": "species",
@@ -4874,7 +4922,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 1
+      "total_refs": 2
     },
     "棉花": {
       "type": "concept",
@@ -5184,7 +5232,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 2
+      "total_refs": 4
     },
     "南北轴线与东西轴线": {
       "type": "concept",
@@ -5256,7 +5304,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 6
+      "total_refs": 8
     },
     "niandetelian": {
       "type": "person",
@@ -5882,7 +5930,31 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 18
+      "total_refs": 11
+    },
+    "酋长制": {
+      "type": "concept",
+      "label": "酋长制",
+      "aliases": [
+        "chiefdom",
+        "酋长社会"
+      ],
+      "tags": [
+        "政治",
+        "社会",
+        "组织"
+      ],
+      "path": "qi/酋长制.md",
+      "description": "介于部落与国家之间的社会政治组织形式，以首领集中权力为特征",
+      "prose_len": 436,
+      "prose_chars": 422,
+      "h2_count": 1,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 7
     },
     "青铜": {
       "type": "concept",
@@ -6865,7 +6937,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 25
+      "total_refs": 26
     },
     "社会组织": {
       "type": "concept",
@@ -6959,7 +7031,31 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 5
+      "total_refs": 0
+    },
+    "台湾": {
+      "type": "place",
+      "label": "台湾",
+      "aliases": [
+        "Taiwan",
+        "台湾岛"
+      ],
+      "tags": [
+        "亚洲",
+        "岛屿",
+        "太平洋"
+      ],
+      "path": "ta/台湾.md",
+      "description": "东亚西太平洋上的岛屿，在南岛人扩张的史前迁徙中具有关键地位",
+      "prose_len": 444,
+      "prose_chars": 430,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 6
     },
     "探险": {
       "type": "concept",
@@ -8404,7 +8500,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 4
+      "total_refs": 0
     },
     "一年生植物": {
       "type": "concept",
@@ -8525,6 +8621,30 @@
       "quality": "basic",
       "quality_score": 9,
       "total_refs": 2
+    },
+    "印度尼西亚": {
+      "type": "place",
+      "label": "印度尼西亚",
+      "aliases": [
+        "Indonesia",
+        "印尼"
+      ],
+      "tags": [
+        "亚洲",
+        "太平洋",
+        "岛屿"
+      ],
+      "path": "yi/印度尼西亚.md",
+      "description": "东南亚和太平洋之间的群岛国家，在南岛人扩张中扮演重要角色",
+      "prose_len": 434,
+      "prose_chars": 420,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 5
     },
     "印欧语系": {
       "type": "concept",
@@ -8845,7 +8965,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 2
+      "total_refs": 3
     },
     "语言学证据": {
       "type": "concept",
@@ -9086,7 +9206,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 9
+      "total_refs": 10
     },
     "制陶": {
       "type": "concept",
@@ -9704,7 +9824,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 2
+      "total_refs": 3
     },
     "作物驯化": {
       "type": "concept",
@@ -9794,6 +9914,7 @@
     "北极": "北极",
     "Arctic": "北极",
     "北极地区": "北极",
+    "北美": "北美洲",
     "兵豆": "兵豆",
     "lentil": "兵豆",
     "扁豆": "兵豆",
@@ -9954,6 +10075,8 @@
     "东南亚": "东南亚",
     "Southeast Asia": "东南亚",
     "热带东南亚": "东南亚",
+    "east-west axis": "东西轴线",
+    "东西轴": "东西轴线",
     "动物": "动物",
     "野生动物": "动物",
     "动物物种": "动物",
@@ -10506,6 +10629,8 @@
     "酋长制": "酋长",
     "酋长管辖地": "酋长",
     "酋邦": "酋长",
+    "chiefdom": "酋长制",
+    "酋长社会": "酋长制",
     "青铜": "青铜",
     "青铜器": "青铜",
     "青铜时代": "青铜时代",
@@ -10641,6 +10766,7 @@
     "taiwan": "taiwan",
     "台湾": "taiwan",
     "Taiwan": "taiwan",
+    "台湾岛": "台湾",
     "探险": "探险",
     "exploration": "探险",
     "地理探险": "探险",
@@ -10850,6 +10976,7 @@
     "印加帝国": "印加帝国",
     "Inca Empire": "印加帝国",
     "印加": "印加帝国",
+    "印尼": "印度尼西亚",
     "印欧语系": "印欧语系",
     "Indo-European": "印欧语系",
     "移民": "移民",
@@ -11009,6 +11136,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 408,
-  "generated": "2026-05-26T10:22:49Z"
+  "page_count": 413,
+  "generated": "2026-05-26T10:24:09Z"
 }
