@@ -301,6 +301,29 @@
       "quality_score": 29,
       "total_refs": 0
     },
+    "巴拿马地峡": {
+      "type": "place",
+      "label": "巴拿马地峡",
+      "aliases": [
+        "Panama",
+        "巴拿马"
+      ],
+      "tags": [
+        "地理",
+        "美洲"
+      ],
+      "path": "ba/巴拿马地峡.md",
+      "description": "连接南北美洲的狭长陆地，覆盖着热带雨林的低地成为作物和技术在美洲大陆间传播的重要屏障",
+      "prose_len": 205,
+      "prose_chars": 205,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 1
+    },
     "斑马": {
       "type": "species",
       "label": "斑马",
@@ -324,6 +347,31 @@
       "quality": "featured",
       "quality_score": 60,
       "total_refs": 3
+    },
+    "班图人": {
+      "type": "event",
+      "label": "班图人",
+      "aliases": [
+        "Bantu",
+        "班图族",
+        "班图尼格罗人"
+      ],
+      "tags": [
+        "历史",
+        "迁徙",
+        "非洲"
+      ],
+      "path": "ba/班图人.md",
+      "description": "非洲最大的民族集团，其从西非向非洲南部的大规模扩散深刻改变了非洲大陆的人口和文化格局",
+      "prose_len": 182,
+      "prose_chars": 182,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 6,
+      "total_refs": 1
     },
     "班图扩张": {
       "type": "event",
@@ -1606,6 +1654,28 @@
       "quality_score": 60,
       "total_refs": 3
     },
+    "地轴": {
+      "type": "concept",
+      "label": "地轴",
+      "aliases": [
+        "地轴线"
+      ],
+      "tags": [
+        "地理",
+        "理论"
+      ],
+      "path": "di/地轴.md",
+      "description": "地球自转的轴线，其相对于太阳的倾斜角度决定了气候带分布，进而影响农业传播",
+      "prose_len": 177,
+      "prose_chars": 177,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 6,
+      "total_refs": 1
+    },
     "定居": {
       "type": "concept",
       "label": "定居",
@@ -2602,6 +2672,28 @@
       "affiliation": "迦太基",
       "total_refs": 0
     },
+    "汉藏语系": {
+      "type": "concept",
+      "label": "汉藏语系",
+      "aliases": [
+        "Sino-Tibetan"
+      ],
+      "tags": [
+        "语言",
+        "历史"
+      ],
+      "path": "ha/汉藏语系.md",
+      "description": "包括汉语、藏缅语族在内的东亚主要语系，其分布范围与东方农业文明的传播区域高度重合",
+      "prose_len": 193,
+      "prose_chars": 193,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 6,
+      "total_refs": 1
+    },
     "海峡": {
       "type": "concept",
       "label": "海峡",
@@ -2941,6 +3033,29 @@
       "quality": "featured",
       "quality_score": 57,
       "total_refs": 0
+    },
+    "黄河": {
+      "type": "place",
+      "label": "黄河",
+      "aliases": [
+        "Yellow River"
+      ],
+      "tags": [
+        "地理",
+        "中国",
+        "农业"
+      ],
+      "path": "hu/黄河.md",
+      "description": "中国第二长河，黄河流域是中华文明的发源地和中国早期农业发展的核心地区",
+      "prose_len": 189,
+      "prose_chars": 189,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 6,
+      "total_refs": 1
     },
     "jialifuniya": {
       "type": "place",
@@ -9276,10 +9391,17 @@
     "Plato": "bailatu",
     "半岛": "半岛",
     "半岛地形": "半岛",
+    "巴拿马地峡": "巴拿马地峡",
+    "Panama": "巴拿马地峡",
+    "巴拿马": "巴拿马地峡",
     "斑马": "斑马",
     "非洲斑马": "斑马",
     "zebra": "斑马",
     "Equus quagga": "斑马",
+    "班图人": "班图人",
+    "Bantu": "班图人",
+    "班图族": "班图人",
+    "班图尼格罗人": "班图人",
     "班图扩张": "班图扩张",
     "Bantu Expansion": "班图扩张",
     "班图族扩张": "班图扩张",
@@ -9427,6 +9549,8 @@
     "地理因素": "地理因素",
     "geography": "地理因素",
     "地理条件": "地理因素",
+    "地轴": "地轴",
+    "地轴线": "地轴",
     "定居": "定居",
     "定居生活": "定居",
     "定居化": "定居",
@@ -9565,6 +9689,8 @@
     "汉尼拔": "hanniba",
     "Hannibal": "hanniba",
     "汉尼拔·巴卡": "hanniba",
+    "汉藏语系": "汉藏语系",
+    "Sino-Tibetan": "汉藏语系",
     "海峡": "海峡",
     "航海": "航海",
     "航海技术": "航海",
@@ -9613,6 +9739,8 @@
     "霍乱": "霍乱",
     "cholera": "霍乱",
     "霍乱弧菌": "霍乱",
+    "黄河": "黄河",
+    "Yellow River": "黄河",
     "jialifuniya": "jialifuniya",
     "加利福尼亚": "jialifuniya",
     "California": "jialifuniya",
@@ -10468,6 +10596,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 387,
-  "generated": "2026-05-26T01:42:25Z"
+  "page_count": 392,
+  "generated": "2026-05-26T01:43:08Z"
 }

@@ -115,6 +115,15 @@
       ],
       "path": "ba/半岛.md"
     },
+    "巴拿马地峡": {
+      "type": "place",
+      "label": "巴拿马地峡",
+      "aliases": [
+        "Panama",
+        "巴拿马"
+      ],
+      "path": "ba/巴拿马地峡.md"
+    },
     "斑马": {
       "type": "species",
       "label": "斑马",
@@ -124,6 +133,16 @@
         "Equus quagga"
       ],
       "path": "ba/斑马.md"
+    },
+    "班图人": {
+      "type": "event",
+      "label": "班图人",
+      "aliases": [
+        "Bantu",
+        "班图族",
+        "班图尼格罗人"
+      ],
+      "path": "ba/班图人.md"
     },
     "班图扩张": {
       "type": "event",
@@ -598,6 +617,14 @@
       ],
       "path": "di/地理因素.md"
     },
+    "地轴": {
+      "type": "concept",
+      "label": "地轴",
+      "aliases": [
+        "地轴线"
+      ],
+      "path": "di/地轴.md"
+    },
     "定居": {
       "type": "concept",
       "label": "定居",
@@ -978,6 +1005,14 @@
       ],
       "path": "ha/hanniba.md"
     },
+    "汉藏语系": {
+      "type": "concept",
+      "label": "汉藏语系",
+      "aliases": [
+        "Sino-Tibetan"
+      ],
+      "path": "ha/汉藏语系.md"
+    },
     "海峡": {
       "type": "concept",
       "label": "海峡",
@@ -1107,6 +1142,14 @@
         "霍乱弧菌"
       ],
       "path": "hu/霍乱.md"
+    },
+    "黄河": {
+      "type": "place",
+      "label": "黄河",
+      "aliases": [
+        "Yellow River"
+      ],
+      "path": "hu/黄河.md"
     },
     "jialifuniya": {
       "type": "place",
@@ -3558,10 +3601,17 @@
     "Plato": "bailatu",
     "半岛": "半岛",
     "半岛地形": "半岛",
+    "巴拿马地峡": "巴拿马地峡",
+    "Panama": "巴拿马地峡",
+    "巴拿马": "巴拿马地峡",
     "斑马": "斑马",
     "非洲斑马": "斑马",
     "zebra": "斑马",
     "Equus quagga": "斑马",
+    "班图人": "班图人",
+    "Bantu": "班图人",
+    "班图族": "班图人",
+    "班图尼格罗人": "班图人",
     "班图扩张": "班图扩张",
     "Bantu Expansion": "班图扩张",
     "班图族扩张": "班图扩张",
@@ -3709,6 +3759,8 @@
     "地理因素": "地理因素",
     "geography": "地理因素",
     "地理条件": "地理因素",
+    "地轴": "地轴",
+    "地轴线": "地轴",
     "定居": "定居",
     "定居生活": "定居",
     "定居化": "定居",
@@ -3847,6 +3899,8 @@
     "汉尼拔": "hanniba",
     "Hannibal": "hanniba",
     "汉尼拔·巴卡": "hanniba",
+    "汉藏语系": "汉藏语系",
+    "Sino-Tibetan": "汉藏语系",
     "海峡": "海峡",
     "航海": "航海",
     "航海技术": "航海",
@@ -3895,6 +3949,8 @@
     "霍乱": "霍乱",
     "cholera": "霍乱",
     "霍乱弧菌": "霍乱",
+    "黄河": "黄河",
+    "Yellow River": "黄河",
     "jialifuniya": "jialifuniya",
     "加利福尼亚": "jialifuniya",
     "California": "jialifuniya",
@@ -4750,6 +4806,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 387,
-  "generated": "2026-05-26T01:42:25Z"
+  "page_count": 392,
+  "generated": "2026-05-26T01:43:08Z"
 }
