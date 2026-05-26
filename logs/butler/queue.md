@@ -1,5 +1,13 @@
 # 内容任务队列
 
+## Phase 2 — 新建候选（SCN28 R149 发现）
+
+### P2 stub（红链 1–2）
+
+- [ ] P2 stub | 跨学科方法 | concept | 红链 ×1
+- [ ] P2 stub | 个人与历史结构 | concept | 红链 ×1
+- [ ] P2 stub | 知识积累 | concept | 红链 ×1
+
 ## Phase 2 — 新建候选（SCN28 R137 发现）
 
 ### P1 create（红链引用 ≥ 3）
