@@ -520,6 +520,15 @@
       ],
       "path": "ca/cai-cai-ying.md"
     },
+    "cai-dou": {
+      "type": "species",
+      "label": "菜豆",
+      "aliases": [
+        "common bean",
+        "Phaseolus vulgaris"
+      ],
+      "path": "ca/cai-dou.md"
+    },
     "caiji-shoulie": {
       "type": "concept",
       "label": "采集狩猎",
@@ -1279,6 +1288,15 @@
         "斐济群岛"
       ],
       "path": "fe/fei-ji.md"
+    },
+    "fei-zhou-shu-yu": {
+      "type": "species",
+      "label": "非洲薯蓣",
+      "aliases": [
+        "African yam",
+        "Dioscorea rotundata"
+      ],
+      "path": "fe/fei-zhou-shu-yu.md"
     },
     "feilvbin": {
       "type": "place",
@@ -2337,6 +2355,15 @@
       ],
       "path": "ku/扩张.md"
     },
+    "la-jiao": {
+      "type": "species",
+      "label": "辣椒",
+      "aliases": [
+        "chili pepper",
+        "Capsicum"
+      ],
+      "path": "la/la-jiao.md"
+    },
     "la-pi-ta-ren": {
       "type": "person",
       "label": "拉皮塔人",
@@ -3030,6 +3057,16 @@
         "马来-波利尼西亚语系"
       ],
       "path": "na/nan-dao-yu-xi.md"
+    },
+    "nan-gua": {
+      "type": "species",
+      "label": "南瓜",
+      "aliases": [
+        "squash",
+        "pumpkin",
+        "Cucurbita"
+      ],
+      "path": "na/nan-gua.md"
     },
     "nandaoren-kuozhang": {
       "type": "event",
@@ -4761,6 +4798,15 @@
       ],
       "path": "ya/ya-xi-ren.md"
     },
+    "yan-mai": {
+      "type": "species",
+      "label": "燕麦",
+      "aliases": [
+        "oat",
+        "Avena sativa"
+      ],
+      "path": "ya/yan-mai.md"
+    },
     "亚历山大大帝": {
       "type": "person",
       "label": "亚历山大大帝",
@@ -5854,6 +5900,10 @@
     "tsetse fly": "cai-cai-ying",
     "舌蝇": "cai-cai-ying",
     "萃萃蝇": "cai-cai-ying",
+    "cai-dou": "cai-dou",
+    "菜豆": "cai-dou",
+    "common bean": "cai-dou",
+    "Phaseolus vulgaris": "cai-dou",
     "caiji-shoulie": "caiji-shoulie",
     "采集狩猎": "caiji-shoulie",
     "hunter-gatherer": "caiji-shoulie",
@@ -6116,6 +6166,10 @@
     "斐济": "fei-ji",
     "Fiji": "fei-ji",
     "斐济群岛": "fei-ji",
+    "fei-zhou-shu-yu": "fei-zhou-shu-yu",
+    "非洲薯蓣": "fei-zhou-shu-yu",
+    "African yam": "fei-zhou-shu-yu",
+    "Dioscorea rotundata": "fei-zhou-shu-yu",
     "feilvbin": "feilvbin",
     "菲律宾": "feilvbin",
     "Philippines": "feilvbin",
@@ -6507,6 +6561,10 @@
     "expansion": "扩张",
     "领土扩张": "扩张",
     "农业扩张": "扩张",
+    "la-jiao": "la-jiao",
+    "辣椒": "la-jiao",
+    "chili pepper": "la-jiao",
+    "Capsicum": "la-jiao",
     "la-pi-ta-ren": "la-pi-ta-ren",
     "拉皮塔人": "la-pi-ta-ren",
     "Lapita people": "la-pi-ta-ren",
@@ -6752,6 +6810,11 @@
     "Austronesian": "nan-dao-yu-xi",
     "南岛语族": "nan-dao-yu-xi",
     "马来-波利尼西亚语系": "nan-dao-yu-xi",
+    "nan-gua": "nan-gua",
+    "南瓜": "nan-gua",
+    "squash": "nan-gua",
+    "pumpkin": "nan-gua",
+    "Cucurbita": "nan-gua",
     "nandaoren-kuozhang": "nandaoren-kuozhang",
     "南岛人扩张": "nandaoren-kuozhang",
     "Austronesian expansion": "nandaoren-kuozhang",
@@ -7371,6 +7434,10 @@
     "亚希人": "ya-xi-ren",
     "Yahi": "ya-xi-ren",
     "亚希部落": "ya-xi-ren",
+    "yan-mai": "yan-mai",
+    "燕麦": "yan-mai",
+    "oat": "yan-mai",
+    "Avena sativa": "yan-mai",
     "亚历山大大帝": "亚历山大大帝",
     "Alexander the Great": "亚历山大大帝",
     "亚历山大": "亚历山大大帝",
@@ -7676,6 +7743,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 618,
-  "generated": "2026-05-26T16:40:42Z"
+  "page_count": 623,
+  "generated": "2026-05-26T16:42:17Z"
 }
