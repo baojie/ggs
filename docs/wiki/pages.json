@@ -483,7 +483,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 21
+      "total_refs": 22
     },
     "玻璃": {
       "type": "concept",
@@ -1599,7 +1599,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 24
+      "total_refs": 25
     },
     "鹅": {
       "type": "species",
@@ -1692,6 +1692,29 @@
       "quality": "featured",
       "quality_score": 58,
       "total_refs": 4
+    },
+    "纺织": {
+      "type": "concept",
+      "label": "纺织",
+      "aliases": [
+        "纺织技术"
+      ],
+      "tags": [
+        "技术",
+        "经济",
+        "手工艺"
+      ],
+      "path": "pages/fa/纺织.md",
+      "description": "将纤维加工成布料的技术，在人类文明中具有悠久历史和重要经济地位",
+      "prose_len": 297,
+      "prose_chars": 284,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 1
     },
     "feilvbin": {
       "type": "place",
@@ -2108,7 +2131,7 @@
       "blockquote_count": 3,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 0
+      "total_refs": 1
     },
     "工程": {
       "type": "concept",
@@ -2451,7 +2474,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 6
+      "total_refs": 7
     },
     "河流": {
       "type": "concept",
@@ -2865,7 +2888,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 10
+      "total_refs": 11
     },
     "技术传播": {
       "type": "concept",
@@ -3557,7 +3580,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 0
+      "total_refs": 1
     },
     "粮食生产": {
       "type": "concept",
@@ -3583,7 +3606,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 81
+      "total_refs": 82
     },
     "luoma-diguo": {
       "type": "event",
@@ -4087,7 +4110,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 8,
-      "total_refs": 1
+      "total_refs": 2
     },
     "美洲": {
       "type": "place",
@@ -4234,7 +4257,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 1
+      "total_refs": 0
     },
     "milu": {
       "type": "place",
@@ -4284,6 +4307,29 @@
       "quality": "featured",
       "quality_score": 60,
       "total_refs": 10
+    },
+    "密克罗尼西亚": {
+      "type": "place",
+      "label": "密克罗尼西亚",
+      "aliases": [
+        "Micronesia"
+      ],
+      "tags": [
+        "太平洋",
+        "岛屿",
+        "地区"
+      ],
+      "path": "pages/mi/密克罗尼西亚.md",
+      "description": "太平洋西北部的小岛群，主要包括关岛、帕劳和密克罗尼西亚联邦等",
+      "prose_len": 321,
+      "prose_chars": 308,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 1
     },
     "棉花": {
       "type": "concept",
@@ -4615,7 +4661,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 5
+      "total_refs": 6
     },
     "niandetelian": {
       "type": "person",
@@ -4735,7 +4781,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 8,
-      "total_refs": 1
+      "total_refs": 2
     },
     "奴隶": {
       "type": "concept",
@@ -5189,6 +5235,27 @@
       "quality_score": 58,
       "total_refs": 2
     },
+    "人口压力": {
+      "type": "concept",
+      "label": "人口压力",
+      "aliases": [],
+      "tags": [
+        "人口",
+        "社会",
+        "经济"
+      ],
+      "path": "pages/re/人口压力.md",
+      "description": "人口增长超出资源承载力所导致的社会和经济压力",
+      "prose_len": 326,
+      "prose_chars": 313,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
+    },
     "人口密度": {
       "type": "concept",
       "label": "人口密度",
@@ -5260,7 +5327,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 0
+      "total_refs": 1
     },
     "人口规模": {
       "type": "concept",
@@ -5475,6 +5542,29 @@
       "quality": "featured",
       "quality_score": 58,
       "total_refs": 4
+    },
+    "森林": {
+      "type": "concept",
+      "label": "森林",
+      "aliases": [
+        "树林"
+      ],
+      "tags": [
+        "地理",
+        "生态",
+        "资源"
+      ],
+      "path": "pages/se/森林.md",
+      "description": "覆盖大面积土地的树木群落，对人类文明的发展产生了多方面影响",
+      "prose_len": 303,
+      "prose_chars": 290,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
     },
     "书写系统": {
       "type": "concept",
@@ -6358,7 +6448,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 9
+      "total_refs": 10
     },
     "文字的独立发明": {
       "type": "event",
@@ -6977,7 +7067,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 2
+      "total_refs": 3
     },
     "演化": {
       "type": "concept",
@@ -7262,6 +7352,29 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
+      "total_refs": 0
+    },
+    "医学": {
+      "type": "concept",
+      "label": "医学",
+      "aliases": [
+        "医疗"
+      ],
+      "tags": [
+        "科学",
+        "知识",
+        "文化"
+      ],
+      "path": "pages/yi/医学.md",
+      "description": "人类对抗疾病和维持健康的知识体系，在不同文明中有独立发展路径",
+      "prose_len": 319,
+      "prose_chars": 306,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
       "total_refs": 0
     },
     "印刷": {
@@ -8075,7 +8188,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 1
+      "total_refs": 2
     },
     "种族主义": {
       "type": "concept",
@@ -8203,7 +8316,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 1
+      "total_refs": 2
     },
     "宗教": {
       "type": "concept",
@@ -8494,6 +8607,8 @@
     "发明者": "发明家",
     "创新者": "发明家",
     "inventor": "发明家",
+    "纺织": "纺织",
+    "纺织技术": "纺织",
     "feilvbin": "feilvbin",
     "菲律宾": "feilvbin",
     "Philippines": "feilvbin",
@@ -8996,8 +9111,8 @@
     "骑手": "骑兵",
     "骑军": "骑兵",
     "人口": "人口",
+    "人口压力": "人口压力",
     "人口密度": "人口密度",
-    "人口压力": "人口密度",
     "population density": "人口密度",
     "人口扩张": "人口扩张",
     "农民扩张": "人口扩张",
@@ -9033,6 +9148,8 @@
     "萨赫勒": "萨赫勒地带",
     "Sahel": "萨赫勒地带",
     "非洲萨赫勒": "萨赫勒地带",
+    "森林": "森林",
+    "树林": "森林",
     "书写系统": "书写系统",
     "文字系统": "书写系统",
     "writing system": "书写系统",
@@ -9280,6 +9397,8 @@
     "一年生植物": "一年生植物",
     "一年生作物": "一年生植物",
     "年生植物": "一年生植物",
+    "医学": "医学",
+    "医疗": "医学",
     "印刷": "印刷",
     "印刷术": "印刷",
     "活字印刷": "印刷",
@@ -9424,6 +9543,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 347,
-  "generated": "2026-05-26T01:28:46Z"
+  "page_count": 352,
+  "generated": "2026-05-26T01:29:41Z"
 }
