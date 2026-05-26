@@ -27,6 +27,14 @@
       ],
       "path": "ai/埃及.md"
     },
+    "埃塞俄比亚": {
+      "type": "place",
+      "label": "埃塞俄比亚",
+      "aliases": [
+        "Ethiopia"
+      ],
+      "path": "ai/埃塞俄比亚.md"
+    },
     "爱迪生": {
       "type": "person",
       "label": "托马斯·爱迪生",
@@ -801,6 +809,14 @@
         "粪肥"
       ],
       "path": "fe/肥料.md"
+    },
+    "菲律宾": {
+      "type": "place",
+      "label": "菲律宾",
+      "aliases": [
+        "Philippines"
+      ],
+      "path": "fe/菲律宾.md"
     },
     "非洲": {
       "type": "place",
@@ -1937,6 +1953,14 @@
       ],
       "path": "mo/moxige.md"
     },
+    "墨西哥": {
+      "type": "place",
+      "label": "墨西哥",
+      "aliases": [
+        "Mexico"
+      ],
+      "path": "mo/墨西哥.md"
+    },
     "木薯": {
       "type": "species",
       "label": "木薯",
@@ -1997,6 +2021,15 @@
         "轴线方向"
       ],
       "path": "na/南北轴线与东西轴线.md"
+    },
+    "南岛人扩张": {
+      "type": "event",
+      "label": "南岛人扩张",
+      "aliases": [
+        "Austronesian expansion",
+        "南岛人迁徙"
+      ],
+      "path": "na/南岛人扩张.md"
     },
     "南岛语族": {
       "type": "concept",
@@ -3273,6 +3306,14 @@
       ],
       "path": "yi/印加帝国.md"
     },
+    "印度": {
+      "type": "place",
+      "label": "印度",
+      "aliases": [
+        "India"
+      ],
+      "path": "yi/印度.md"
+    },
     "印度尼西亚": {
       "type": "place",
       "label": "印度尼西亚",
@@ -4436,12 +4477,14 @@
     "大陆轴线南北": "南北轴",
     "南北轴线与东西轴线": "南北轴线与东西轴线",
     "轴线方向": "南北轴线与东西轴线",
+    "南岛人扩张": "南岛人扩张",
+    "Austronesian expansion": "南岛人扩张",
+    "南岛人迁徙": "南岛人扩张",
     "南岛语族": "南岛语族",
     "Austronesian": "南岛语族",
     "南岛语族扩张": "南岛语族扩张",
     "Austronesian Expansion": "南岛语族扩张",
     "波利尼西亚扩张": "南岛语族扩张",
-    "南岛人扩张": "南岛语族扩张",
     "niandetelian": "niandetelian",
     "尼安德特人": "niandetelian",
     "Neanderthal": "niandetelian",
@@ -5035,6 +5078,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 413,
-  "generated": "2026-05-26T10:24:09Z"
+  "page_count": 418,
+  "generated": "2026-05-26T10:25:14Z"
 }
