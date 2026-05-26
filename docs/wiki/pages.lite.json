@@ -196,6 +196,16 @@
       ],
       "path": "be/北美洲.md"
     },
+    "bing-chuan": {
+      "type": "place",
+      "label": "冰川",
+      "aliases": [
+        "glacier",
+        "冰河",
+        "冰川作用"
+      ],
+      "path": "bi/bing-chuan.md"
+    },
     "兵豆": {
       "type": "species",
       "label": "兵豆",
@@ -725,6 +735,16 @@
         "武装抵抗"
       ],
       "path": "di/抵抗.md"
+    },
+    "dou-lei": {
+      "type": "concept",
+      "label": "豆类",
+      "aliases": [
+        "legumes",
+        "pulses",
+        "豆科作物"
+      ],
+      "path": "do/dou-lei.md"
     },
     "东南亚": {
       "type": "place",
@@ -2416,6 +2436,16 @@
       ],
       "path": "qi/骑兵.md"
     },
+    "quan-qiu-bian-nuan": {
+      "type": "concept",
+      "label": "全球变暖",
+      "aliases": [
+        "global warming",
+        "气候变化",
+        "全新世暖期"
+      ],
+      "path": "qu/quan-qiu-bian-nuan.md"
+    },
     "人口": {
       "type": "concept",
       "label": "人口",
@@ -3079,6 +3109,25 @@
         "青藏高原"
       ],
       "path": "xi/xi-zang-gao-yuan.md"
+    },
+    "xian-wei-zuo-wu": {
+      "type": "concept",
+      "label": "纤维作物",
+      "aliases": [
+        "fiber crops",
+        "纺织植物"
+      ],
+      "path": "xi/xian-wei-zuo-wu.md"
+    },
+    "xiang-cun": {
+      "type": "concept",
+      "label": "乡村",
+      "aliases": [
+        "village",
+        "村落",
+        "定居点"
+      ],
+      "path": "xi/xiang-cun.md"
     },
     "xiang-xing-wen-zi": {
       "type": "concept",
@@ -4051,6 +4100,11 @@
     "Arctic": "北极",
     "北极地区": "北极",
     "北美": "北美洲",
+    "bing-chuan": "bing-chuan",
+    "冰川": "bing-chuan",
+    "glacier": "bing-chuan",
+    "冰河": "bing-chuan",
+    "冰川作用": "bing-chuan",
     "兵豆": "兵豆",
     "lentil": "兵豆",
     "扁豆": "兵豆",
@@ -4216,6 +4270,11 @@
     "抵抗": "抵抗",
     "反抗": "抵抗",
     "武装抵抗": "抵抗",
+    "dou-lei": "dou-lei",
+    "豆类": "dou-lei",
+    "legumes": "dou-lei",
+    "pulses": "dou-lei",
+    "豆科作物": "dou-lei",
     "东南亚": "东南亚",
     "Southeast Asia": "东南亚",
     "热带东南亚": "东南亚",
@@ -4804,6 +4863,10 @@
     "骑兵": "骑兵",
     "骑手": "骑兵",
     "骑军": "骑兵",
+    "quan-qiu-bian-nuan": "quan-qiu-bian-nuan",
+    "全球变暖": "quan-qiu-bian-nuan",
+    "global warming": "quan-qiu-bian-nuan",
+    "全新世暖期": "quan-qiu-bian-nuan",
     "人口": "人口",
     "人口压力": "人口压力",
     "人口密度": "人口密度",
@@ -5030,6 +5093,13 @@
     "西藏高原": "xi-zang-gao-yuan",
     "Tibetan Plateau": "xi-zang-gao-yuan",
     "青藏高原": "xi-zang-gao-yuan",
+    "xian-wei-zuo-wu": "xian-wei-zuo-wu",
+    "纤维作物": "xian-wei-zuo-wu",
+    "fiber crops": "xian-wei-zuo-wu",
+    "纺织植物": "xian-wei-zuo-wu",
+    "xiang-cun": "xiang-cun",
+    "乡村": "xiang-cun",
+    "village": "xiang-cun",
     "xiang-xing-wen-zi": "xiang-xing-wen-zi",
     "象形文字": "xiang-xing-wen-zi",
     "hieroglyph": "xiang-xing-wen-zi",
@@ -5333,6 +5403,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 439,
-  "generated": "2026-05-26T10:41:10Z"
+  "page_count": 444,
+  "generated": "2026-05-26T10:42:01Z"
 }

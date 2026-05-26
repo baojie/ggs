@@ -514,6 +514,30 @@
       "quality_score": 9,
       "total_refs": 4
     },
+    "bing-chuan": {
+      "type": "place",
+      "label": "冰川",
+      "aliases": [
+        "glacier",
+        "冰河",
+        "冰川作用"
+      ],
+      "tags": [
+        "地理",
+        "气候"
+      ],
+      "path": "bi/bing-chuan.md",
+      "description": "大规模冰体在地表的运动与侵蚀，戴蒙德用以解释更新世期间地理环境对人类迁徙和物种分布的影响",
+      "prose_len": 537,
+      "prose_chars": 533,
+      "h2_count": 0,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 10,
+      "total_refs": 0
+    },
     "兵豆": {
       "type": "species",
       "label": "兵豆",
@@ -1939,6 +1963,30 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
+      "total_refs": 1
+    },
+    "dou-lei": {
+      "type": "concept",
+      "label": "豆类",
+      "aliases": [
+        "legumes",
+        "pulses",
+        "豆科作物"
+      ],
+      "tags": [
+        "作物",
+        "农业"
+      ],
+      "path": "do/dou-lei.md",
+      "description": "包括豌豆、扁豆、鹰嘴豆等在内的可食用豆科植物，是新石器时代农业革命的核心作物群之一",
+      "prose_len": 500,
+      "prose_chars": 496,
+      "h2_count": 0,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 10,
       "total_refs": 1
     },
     "东南亚": {
@@ -6359,6 +6407,30 @@
       "quality_score": 7,
       "total_refs": 0
     },
+    "quan-qiu-bian-nuan": {
+      "type": "concept",
+      "label": "全球变暖",
+      "aliases": [
+        "global warming",
+        "气候变化",
+        "全新世暖期"
+      ],
+      "tags": [
+        "气候",
+        "环境"
+      ],
+      "path": "qu/quan-qiu-bian-nuan.md",
+      "description": "全球平均气温升高的现象，戴蒙德用以解释更新世结束后对农业起源和文明兴起的关键推动作用",
+      "prose_len": 493,
+      "prose_chars": 489,
+      "h2_count": 0,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 0
+    },
     "人口": {
       "type": "concept",
       "label": "人口",
@@ -8107,6 +8179,53 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
+      "total_refs": 1
+    },
+    "xian-wei-zuo-wu": {
+      "type": "concept",
+      "label": "纤维作物",
+      "aliases": [
+        "fiber crops",
+        "纺织植物"
+      ],
+      "tags": [
+        "作物",
+        "技术"
+      ],
+      "path": "xi/xian-wei-zuo-wu.md",
+      "description": "提供纺织纤维的作物（如亚麻、棉花），其驯化与分布受地理环境的深刻影响",
+      "prose_len": 484,
+      "prose_chars": 480,
+      "h2_count": 0,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 1
+    },
+    "xiang-cun": {
+      "type": "concept",
+      "label": "乡村",
+      "aliases": [
+        "village",
+        "村落",
+        "定居点"
+      ],
+      "tags": [
+        "社会",
+        "地理"
+      ],
+      "path": "xi/xiang-cun.md",
+      "description": "以农业为基础的永久性聚居地，戴蒙德将其视为从狩猎采集向复杂社会过渡的关键聚落形态",
+      "prose_len": 443,
+      "prose_chars": 439,
+      "h2_count": 0,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
       "total_refs": 1
     },
     "xiang-xing-wen-zi": {
@@ -10536,6 +10655,11 @@
     "Arctic": "北极",
     "北极地区": "北极",
     "北美": "北美洲",
+    "bing-chuan": "bing-chuan",
+    "冰川": "bing-chuan",
+    "glacier": "bing-chuan",
+    "冰河": "bing-chuan",
+    "冰川作用": "bing-chuan",
     "兵豆": "兵豆",
     "lentil": "兵豆",
     "扁豆": "兵豆",
@@ -10701,6 +10825,11 @@
     "抵抗": "抵抗",
     "反抗": "抵抗",
     "武装抵抗": "抵抗",
+    "dou-lei": "dou-lei",
+    "豆类": "dou-lei",
+    "legumes": "dou-lei",
+    "pulses": "dou-lei",
+    "豆科作物": "dou-lei",
     "东南亚": "东南亚",
     "Southeast Asia": "东南亚",
     "热带东南亚": "东南亚",
@@ -11289,6 +11418,10 @@
     "骑兵": "骑兵",
     "骑手": "骑兵",
     "骑军": "骑兵",
+    "quan-qiu-bian-nuan": "quan-qiu-bian-nuan",
+    "全球变暖": "quan-qiu-bian-nuan",
+    "global warming": "quan-qiu-bian-nuan",
+    "全新世暖期": "quan-qiu-bian-nuan",
     "人口": "人口",
     "人口压力": "人口压力",
     "人口密度": "人口密度",
@@ -11515,6 +11648,13 @@
     "西藏高原": "xi-zang-gao-yuan",
     "Tibetan Plateau": "xi-zang-gao-yuan",
     "青藏高原": "xi-zang-gao-yuan",
+    "xian-wei-zuo-wu": "xian-wei-zuo-wu",
+    "纤维作物": "xian-wei-zuo-wu",
+    "fiber crops": "xian-wei-zuo-wu",
+    "纺织植物": "xian-wei-zuo-wu",
+    "xiang-cun": "xiang-cun",
+    "乡村": "xiang-cun",
+    "village": "xiang-cun",
     "xiang-xing-wen-zi": "xiang-xing-wen-zi",
     "象形文字": "xiang-xing-wen-zi",
     "hieroglyph": "xiang-xing-wen-zi",
@@ -11818,6 +11958,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 439,
-  "generated": "2026-05-26T10:41:10Z"
+  "page_count": 444,
+  "generated": "2026-05-26T10:42:01Z"
 }
