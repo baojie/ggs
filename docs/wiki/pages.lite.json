@@ -214,6 +214,14 @@
       ],
       "path": "be/北美洲.md"
     },
+    "bilu": {
+      "type": "place",
+      "label": "秘鲁",
+      "aliases": [
+        "Peru"
+      ],
+      "path": "bi/bilu.md"
+    },
     "bing-chuan": {
       "type": "place",
       "label": "冰川",
@@ -1221,6 +1229,16 @@
       ],
       "path": "he/黑死病.md"
     },
+    "huanjing-juedinglun": {
+      "type": "concept",
+      "label": "环境决定论",
+      "aliases": [
+        "environmental determinism",
+        "地理决定论",
+        "地理环境决定论"
+      ],
+      "path": "hu/huanjing-juedinglun.md"
+    },
     "huashengdun": {
       "type": "person",
       "label": "乔治·华盛顿",
@@ -1724,6 +1742,16 @@
         "粮食剩余"
       ],
       "path": "li/liang-shi-chu-bei.md"
+    },
+    "liangshi-chubei": {
+      "type": "concept",
+      "label": "粮食储备",
+      "aliases": [
+        "food storage",
+        "粮食储存",
+        "余粮储备"
+      ],
+      "path": "li/liangshi-chubei.md"
     },
     "流行病": {
       "type": "concept",
@@ -3262,6 +3290,16 @@
       ],
       "path": "xi/xiang-xing-wen-zi.md"
     },
+    "xiangxing-wenzi": {
+      "type": "concept",
+      "label": "象形文字",
+      "aliases": [
+        "hieroglyphics",
+        "埃及象形文字",
+        "hieroglyphs"
+      ],
+      "path": "xi/xiangxing-wenzi.md"
+    },
     "xiaweiyi": {
       "type": "place",
       "label": "夏威夷",
@@ -3302,6 +3340,15 @@
         "两河流域文字"
       ],
       "path": "xi/xie-xing-wen-zi.md"
+    },
+    "xiexing-wenzi": {
+      "type": "concept",
+      "label": "楔形文字",
+      "aliases": [
+        "cuneiform",
+        "苏美尔楔形文字"
+      ],
+      "path": "xi/xiexing-wenzi.md"
     },
     "ximalaya": {
       "type": "place",
@@ -4249,6 +4296,9 @@
     "Arctic": "北极",
     "北极地区": "北极",
     "北美": "北美洲",
+    "bilu": "bilu",
+    "秘鲁": "bilu",
+    "Peru": "bilu",
     "bing-chuan": "bing-chuan",
     "冰川": "bing-chuan",
     "glacier": "bing-chuan",
@@ -4584,6 +4634,9 @@
     "Black Death": "黑死病",
     "腺鼠疫": "黑死病",
     "1346年鼠疫": "黑死病",
+    "huanjing-juedinglun": "huanjing-juedinglun",
+    "environmental determinism": "huanjing-juedinglun",
+    "地理环境决定论": "huanjing-juedinglun",
     "huashengdun": "huashengdun",
     "乔治·华盛顿": "huashengdun",
     "George Washington": "huashengdun",
@@ -4606,7 +4659,6 @@
     "environment": "环境",
     "自然环境": "环境",
     "环境条件": "环境",
-    "environmental determinism": "环境决定论",
     "皇帝": "皇帝",
     "帝王": "皇帝",
     "emperor": "皇帝",
@@ -4767,6 +4819,9 @@
     "food storage": "liang-shi-chu-bei",
     "余粮": "liang-shi-chu-bei",
     "粮食剩余": "liang-shi-chu-bei",
+    "liangshi-chubei": "liangshi-chubei",
+    "粮食储存": "liangshi-chubei",
+    "余粮储备": "liangshi-chubei",
     "粮食生产": "粮食生产",
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
@@ -4876,8 +4931,6 @@
     "密克罗尼西亚": "mikelunixiya",
     "Micronesia": "mikelunixiya",
     "milu": "milu",
-    "秘鲁": "milu",
-    "Peru": "milu",
     "病菌免疫": "免疫力",
     "棉花": "棉花",
     "棉": "棉花",
@@ -5277,6 +5330,10 @@
     "象形文字": "xiang-xing-wen-zi",
     "hieroglyph": "xiang-xing-wen-zi",
     "楔形文字": "xiang-xing-wen-zi",
+    "xiangxing-wenzi": "xiangxing-wenzi",
+    "hieroglyphics": "xiangxing-wenzi",
+    "埃及象形文字": "xiangxing-wenzi",
+    "hieroglyphs": "xiangxing-wenzi",
     "xiaweiyi": "xiaweiyi",
     "夏威夷": "xiaweiyi",
     "Hawaii": "xiaweiyi",
@@ -5292,6 +5349,8 @@
     "xie-xing-wen-zi": "xie-xing-wen-zi",
     "cuneiform": "xie-xing-wen-zi",
     "两河流域文字": "xie-xing-wen-zi",
+    "xiexing-wenzi": "xiexing-wenzi",
+    "苏美尔楔形文字": "xiexing-wenzi",
     "ximalaya": "ximalaya",
     "喜马拉雅": "ximalaya",
     "Himalayas": "ximalaya",
@@ -5579,6 +5638,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 459,
-  "generated": "2026-05-26T11:00:55Z"
+  "page_count": 464,
+  "generated": "2026-05-26T11:03:58Z"
 }

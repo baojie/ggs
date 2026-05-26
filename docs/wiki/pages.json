@@ -231,7 +231,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 5
+      "total_refs": 6
     },
     "澳大利亚": {
       "type": "place",
@@ -560,6 +560,28 @@
       "quality": "basic",
       "quality_score": 9,
       "total_refs": 4
+    },
+    "bilu": {
+      "type": "place",
+      "label": "秘鲁",
+      "aliases": [
+        "Peru"
+      ],
+      "tags": [
+        "地区",
+        "文明"
+      ],
+      "path": "bi/bilu.md",
+      "description": "南美洲西部国家，印加帝国中心，戴蒙德以卡哈马卡战役的发生地分析欧亚优势",
+      "prose_len": 657,
+      "prose_chars": 596,
+      "h2_count": 5,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 11,
+      "total_refs": 0
     },
     "bing-chuan": {
       "type": "place",
@@ -2131,7 +2153,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 5
+      "total_refs": 6
     },
     "动物": {
       "type": "concept",
@@ -2949,7 +2971,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 1
+      "total_refs": 2
     },
     "国王": {
       "type": "concept",
@@ -3239,6 +3261,30 @@
       "quality": "featured",
       "quality_score": 55,
       "total_refs": 1
+    },
+    "huanjing-juedinglun": {
+      "type": "concept",
+      "label": "环境决定论",
+      "aliases": [
+        "environmental determinism",
+        "地理决定论",
+        "地理环境决定论"
+      ],
+      "tags": [
+        "地理",
+        "历史"
+      ],
+      "path": "hu/huanjing-juedinglun.md",
+      "description": "认为地理和环境条件塑造人类社会演化路径的理论，戴蒙德将其用作全书的核心分析框架",
+      "prose_len": 655,
+      "prose_chars": 598,
+      "h2_count": 5,
+      "pn_count": 4,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 11,
+      "total_refs": 0
     },
     "huashengdun": {
       "type": "person",
@@ -4242,7 +4288,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 2
+      "total_refs": 3
     },
     "考古学": {
       "type": "concept",
@@ -4536,6 +4582,30 @@
       "quality_score": 10,
       "total_refs": 2
     },
+    "liangshi-chubei": {
+      "type": "concept",
+      "label": "粮食储备",
+      "aliases": [
+        "food storage",
+        "粮食储存",
+        "余粮储备"
+      ],
+      "tags": [
+        "农业",
+        "社会组织"
+      ],
+      "path": "li/liangshi-chubei.md",
+      "description": "剩余粮食的存储和管理，戴蒙德将其视为人口增长、社会分层和国家形成的基础条件",
+      "prose_len": 605,
+      "prose_chars": 548,
+      "h2_count": 5,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 11,
+      "total_refs": 0
+    },
     "流行病": {
       "type": "concept",
       "label": "流行病",
@@ -4583,7 +4653,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 95
+      "total_refs": 99
     },
     "luoma-diguo": {
       "type": "event",
@@ -4951,7 +5021,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 4
+      "total_refs": 5
     },
     "麻疹": {
       "type": "species",
@@ -5260,7 +5330,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 6
+      "total_refs": 7
     },
     "蒙特朱马": {
       "type": "person",
@@ -5829,7 +5899,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 5
+      "total_refs": 6
     },
     "南北轴线与东西轴线": {
       "type": "concept",
@@ -5994,7 +6064,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 3
+      "total_refs": 4
     },
     "牛": {
       "type": "species",
@@ -6648,7 +6718,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 7
+      "total_refs": 8
     },
     "青铜": {
       "type": "concept",
@@ -7308,7 +7378,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 11
+      "total_refs": 12
     },
     "商人": {
       "type": "concept",
@@ -7576,7 +7646,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 20
+      "total_refs": 21
     },
     "生态": {
       "type": "concept",
@@ -8564,7 +8634,31 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 1
+      "total_refs": 3
+    },
+    "xiangxing-wenzi": {
+      "type": "concept",
+      "label": "象形文字",
+      "aliases": [
+        "hieroglyphics",
+        "埃及象形文字",
+        "hieroglyphs"
+      ],
+      "tags": [
+        "语言",
+        "技术"
+      ],
+      "path": "xi/xiangxing-wenzi.md",
+      "description": "古埃及使用的文字系统，戴蒙德用以论证农业社会对文字的催生和文字的独立起源",
+      "prose_len": 584,
+      "prose_chars": 527,
+      "h2_count": 5,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 10,
+      "total_refs": 0
     },
     "xiaweiyi": {
       "type": "place",
@@ -8674,6 +8768,29 @@
       "h2_count": 0,
       "pn_count": 2,
       "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 10,
+      "total_refs": 0
+    },
+    "xiexing-wenzi": {
+      "type": "concept",
+      "label": "楔形文字",
+      "aliases": [
+        "cuneiform",
+        "苏美尔楔形文字"
+      ],
+      "tags": [
+        "语言",
+        "技术"
+      ],
+      "path": "xi/xiexing-wenzi.md",
+      "description": "最早的文字系统之一，由苏美尔人发明，戴蒙德用以论证文字与粮食生产之间的衍生关系",
+      "prose_len": 584,
+      "prose_chars": 527,
+      "h2_count": 5,
+      "pn_count": 3,
+      "wikilink_count": 4,
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
@@ -9601,7 +9718,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 4
+      "total_refs": 5
     },
     "印度": {
       "type": "place",
@@ -10774,7 +10891,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 0
+      "total_refs": 2
     },
     "自然选择": {
       "type": "concept",
@@ -11023,6 +11140,9 @@
     "Arctic": "北极",
     "北极地区": "北极",
     "北美": "北美洲",
+    "bilu": "bilu",
+    "秘鲁": "bilu",
+    "Peru": "bilu",
     "bing-chuan": "bing-chuan",
     "冰川": "bing-chuan",
     "glacier": "bing-chuan",
@@ -11358,6 +11478,9 @@
     "Black Death": "黑死病",
     "腺鼠疫": "黑死病",
     "1346年鼠疫": "黑死病",
+    "huanjing-juedinglun": "huanjing-juedinglun",
+    "environmental determinism": "huanjing-juedinglun",
+    "地理环境决定论": "huanjing-juedinglun",
     "huashengdun": "huashengdun",
     "乔治·华盛顿": "huashengdun",
     "George Washington": "huashengdun",
@@ -11380,7 +11503,6 @@
     "environment": "环境",
     "自然环境": "环境",
     "环境条件": "环境",
-    "environmental determinism": "环境决定论",
     "皇帝": "皇帝",
     "帝王": "皇帝",
     "emperor": "皇帝",
@@ -11541,6 +11663,9 @@
     "food storage": "liang-shi-chu-bei",
     "余粮": "liang-shi-chu-bei",
     "粮食剩余": "liang-shi-chu-bei",
+    "liangshi-chubei": "liangshi-chubei",
+    "粮食储存": "liangshi-chubei",
+    "余粮储备": "liangshi-chubei",
     "粮食生产": "粮食生产",
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
@@ -11650,8 +11775,6 @@
     "密克罗尼西亚": "mikelunixiya",
     "Micronesia": "mikelunixiya",
     "milu": "milu",
-    "秘鲁": "milu",
-    "Peru": "milu",
     "病菌免疫": "免疫力",
     "棉花": "棉花",
     "棉": "棉花",
@@ -12051,6 +12174,10 @@
     "象形文字": "xiang-xing-wen-zi",
     "hieroglyph": "xiang-xing-wen-zi",
     "楔形文字": "xiang-xing-wen-zi",
+    "xiangxing-wenzi": "xiangxing-wenzi",
+    "hieroglyphics": "xiangxing-wenzi",
+    "埃及象形文字": "xiangxing-wenzi",
+    "hieroglyphs": "xiangxing-wenzi",
     "xiaweiyi": "xiaweiyi",
     "夏威夷": "xiaweiyi",
     "Hawaii": "xiaweiyi",
@@ -12066,6 +12193,8 @@
     "xie-xing-wen-zi": "xie-xing-wen-zi",
     "cuneiform": "xie-xing-wen-zi",
     "两河流域文字": "xie-xing-wen-zi",
+    "xiexing-wenzi": "xiexing-wenzi",
+    "苏美尔楔形文字": "xiexing-wenzi",
     "ximalaya": "ximalaya",
     "喜马拉雅": "ximalaya",
     "Himalayas": "ximalaya",
@@ -12353,6 +12482,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 459,
-  "generated": "2026-05-26T11:00:55Z"
+  "page_count": 464,
+  "generated": "2026-05-26T11:03:58Z"
 }

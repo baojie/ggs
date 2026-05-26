@@ -20,8 +20,8 @@
 - [ ] P2 stub | 碳14测年 | concept | 红链 ×1
 - [ ] P2 stub | 西藏高原 | place | 红链 ×1
 - [ ] P2 stub | 社会复杂化 | concept | 红链 ×1
-- [ ] P2 stub | 象形文字 | concept | 红链 ×1
-- [ ] P2 stub | 楔形文字 | concept | 红链 ×1
+- [x] P2 stub | 象形文字 | concept | 红链 ×1
+- [x] P2 stub | 楔形文字 | concept | 红链 ×1
 - [ ] P2 stub | 地理屏障 | concept | 红链 ×1
 - [ ] P2 stub | 太平洋 | place | 红链 ×1
 - [x] P2 stub | 动物灭绝 | event | 红链 ×1
@@ -53,13 +53,13 @@
 - [ ] P2 stub | 菲律宾 | place | 红链 ×2
 - [ ] P2 stub | 埃塞俄比亚 | place | 红链 ×2
 - [x] P2 stub | 遗传学 | concept | 红链 ×2
-- [ ] P2 stub | 环境决定论 | concept | 红链 ×2
-- [ ] P2 stub | 秘鲁 | place | 红链 ×2
+- [x] P2 stub | 环境决定论 | concept | 红链 ×2
+- [x] P2 stub | 秘鲁 | place | 红链 ×2
 - [ ] P2 stub | 马克思 | person | 红链 ×2
 - [ ] P2 stub | 印度河 | place | 红链 ×2
 - [ ] P2 stub | 柏拉图 | person | 红链 ×2
 - [ ] P2 stub | 蒙古 | place | 红链 ×2
-- [ ] P2 stub | 粮食储备 | concept | 红链 ×2
+- [x] P2 stub | 粮食储备 | concept | 红链 ×2
 - [ ] P2 stub | 新大陆 | place | 红链 ×2
 - [ ] P2 stub | 撒哈拉 | place | 红链 ×2
 - [ ] P2 stub | 夏威夷 | place | 红链 ×2
