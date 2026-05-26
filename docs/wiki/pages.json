@@ -509,15 +509,15 @@
       ],
       "path": "ba/ban-zhen-shang-han.md",
       "description": "由立克次体引起的传染病，通过虱子和跳蚤传播，戴蒙德以其作为病菌传播媒介演化的典型案例",
-      "prose_len": 599,
-      "prose_chars": 552,
-      "h2_count": 4,
+      "prose_len": 743,
+      "prose_chars": 682,
+      "h2_count": 5,
       "pn_count": 7,
-      "wikilink_count": 0,
+      "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 11,
-      "total_refs": 0
+      "quality": "standard",
+      "quality_score": 27,
+      "total_refs": 1
     },
     "半岛": {
       "type": "concept",
@@ -1670,7 +1670,7 @@
       "blockquote_count": 1,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 24
+      "total_refs": 28
     },
     "创新": {
       "type": "concept",
@@ -2628,7 +2628,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 42
+      "total_refs": 46
     },
     "du-du-niao": {
       "type": "species",
@@ -3897,15 +3897,15 @@
       ],
       "path": "hu/huang-re-bing.md",
       "description": "由病毒引起的急性传染病，通过蚊子传播，戴蒙德以黄热病作为欧洲殖民热带地区主要障碍的例证",
-      "prose_len": 549,
-      "prose_chars": 501,
-      "h2_count": 4,
+      "prose_len": 833,
+      "prose_chars": 771,
+      "h2_count": 5,
       "pn_count": 6,
-      "wikilink_count": 0,
+      "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 10,
-      "total_refs": 0
+      "quality": "standard",
+      "quality_score": 28,
+      "total_refs": 1
     },
     "huanjing-juedinglun": {
       "type": "concept",
@@ -5004,7 +5004,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 7
+      "total_refs": 9
     },
     "考古学": {
       "type": "concept",
@@ -5577,15 +5577,15 @@
       ],
       "path": "li/流行病.md",
       "description": "大规模传染性疾病对人类历史进程的影响",
-      "prose_len": 788,
-      "prose_chars": 747,
-      "h2_count": 3,
-      "pn_count": 9,
-      "wikilink_count": 0,
+      "prose_len": 1084,
+      "prose_chars": 1014,
+      "h2_count": 5,
+      "pn_count": 11,
+      "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 12,
-      "total_refs": 2
+      "quality": "standard",
+      "quality_score": 30,
+      "total_refs": 6
     },
     "粮食生产": {
       "type": "concept",
@@ -6589,15 +6589,15 @@
       ],
       "path": "mi/免疫.md",
       "description": "生物体抵抗病原体感染的能力，在人类历史中具有深远影响",
-      "prose_len": 435,
-      "prose_chars": 421,
-      "h2_count": 1,
-      "pn_count": 3,
+      "prose_len": 852,
+      "prose_chars": 795,
+      "h2_count": 4,
+      "pn_count": 7,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 9,
-      "total_refs": 4
+      "quality": "standard",
+      "quality_score": 28,
+      "total_refs": 6
     },
     "免疫力": {
       "type": "concept",
@@ -7326,14 +7326,14 @@
       ],
       "path": "ni/牛痘.md",
       "description": "从牛身上获得的天花疫苗，最早的有效免疫手段之一，体现了动物传染病在人类医学中的特殊价值",
-      "prose_len": 962,
-      "prose_chars": 932,
-      "h2_count": 2,
+      "prose_len": 1137,
+      "prose_chars": 1081,
+      "h2_count": 4,
       "pn_count": 9,
-      "wikilink_count": 0,
+      "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "basic",
-      "quality_score": 14,
+      "quality": "standard",
+      "quality_score": 31,
       "total_refs": 1
     },
     "酿酒": {
@@ -7547,7 +7547,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 5
+      "total_refs": 4
     },
     "欧洲殖民非洲": {
       "type": "event",
@@ -8100,7 +8100,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 3
+      "total_refs": 2
     },
     "人口压力": {
       "type": "concept",
@@ -14520,5 +14520,5 @@
     "驯化作物": "作物驯化"
   },
   "page_count": 537,
-  "generated": "2026-05-26T12:37:15Z"
+  "generated": "2026-05-26T12:40:51Z"
 }
