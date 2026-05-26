@@ -494,3 +494,16 @@
 - [ ] P2 stub | 脊髓灰质炎 | disease | SCN28 发现，ch11，脊髓灰质炎（polio），病毒性传染病，可导致永久性瘫痪，20世纪主要的儿童传染病之一
 - [ ] P2 stub | 狂犬病 | disease | SCN28 发现，ch11，狂犬病（rabies），病毒性人畜共患传染病，一旦发病几乎100%致死
 - [ ] P2 stub | 肺炎 | disease | SCN28 发现，ch11，肺炎（pneumonia），呼吸道感染疾病，在拥挤和不卫生条件下高发
+
+## Phase 2 — 新建候选（SCN28 R257 发现 — ch13 技术与发明）
+
+### P1 create（多章出现）
+
+- [ ] P1 create | 蒸汽机 | concept | SCN28 发现，多章（ch13/ch15），蒸汽机（steam engine），工业革命的核心动力技术，改变了交通运输和生产方式
+- [ ] P1 create | 铁路 | concept | SCN28 发现，多章（ch04/ch11/ch13/ch15/ch20），铁路（railway），19世纪最重要的陆上运输技术，推动殖民扩张和工业化
+- [ ] P1 create | 运河 | concept | SCN28 发现，多章（ch11/ch13/ch16/ch18/ch20），运河（canal），内陆水路运输的关键基础设施，在早期工业化中发挥重要作用
+- [ ] P1 create | 专利 | concept | SCN28 发现，多章（ch13/ch20），专利（patent），保护发明者权益的制度，戴蒙德用以讨论创新激励与技术发展
+- [ ] P1 create | 造纸 | concept | SCN28 发现，多章（ch13/ch18），造纸（papermaking），中国古代四大发明之一，对文字传播和知识积累产生深远影响
+- [ ] P1 create | 英格兰 | place | SCN28 发现，多章（ch13/ch18），英格兰（England），工业革命发源地，英国的政治中心
+- [ ] P1 create | 轮船 | concept | SCN28 发现，多章（ch11/ch13），轮船（steamship），蒸汽动力船舶，改变了远洋运输和殖民扩张模式
+- [ ] P1 create | 机械 | concept | SCN28 发现，多章（ch13/ch18/ch20），机械（machinery），工业生产中的机械化设备，工业革命的技术基础
