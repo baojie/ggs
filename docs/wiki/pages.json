@@ -1242,7 +1242,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 55
+      "total_refs": 56
     },
     "大麦": {
       "type": "species",
@@ -1479,7 +1479,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 5
+      "total_refs": 6
     },
     "帝国": {
       "type": "concept",
@@ -1666,7 +1666,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 63,
-      "total_refs": 8
+      "total_refs": 10
     },
     "发明家": {
       "type": "concept",
@@ -2474,7 +2474,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 7
+      "total_refs": 8
     },
     "河流": {
       "type": "concept",
@@ -2888,7 +2888,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 11
+      "total_refs": 14
     },
     "技术传播": {
       "type": "concept",
@@ -2986,6 +2986,29 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
+      "total_refs": 0
+    },
+    "经度": {
+      "type": "concept",
+      "label": "经度",
+      "aliases": [
+        "longitude"
+      ],
+      "tags": [
+        "地理",
+        "导航",
+        "技术"
+      ],
+      "path": "pages/ji/经度.md",
+      "description": "描述东西方向的地理坐标，其精确测量对航海技术的发展至关重要",
+      "prose_len": 314,
+      "prose_chars": 301,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
       "total_refs": 0
     },
     "结核": {
@@ -3289,7 +3312,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 1
+      "total_refs": 2
     },
     "卡哈马卡": {
       "type": "place",
@@ -3606,7 +3629,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 82
+      "total_refs": 84
     },
     "luoma-diguo": {
       "type": "event",
@@ -3849,7 +3872,7 @@
       "blockquote_count": 1,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 4
+      "total_refs": 5
     },
     "贸易路线": {
       "type": "concept",
@@ -4735,6 +4758,30 @@
       "quality_score": 60,
       "total_refs": 3
     },
+    "酿酒": {
+      "type": "concept",
+      "label": "酿酒",
+      "aliases": [
+        "发酵",
+        "酒精"
+      ],
+      "tags": [
+        "技术",
+        "文化",
+        "农业"
+      ],
+      "path": "pages/ni/酿酒.md",
+      "description": "将含糖食物发酵为酒精饮料的技术，在农业社会中具有文化和经济意义",
+      "prose_len": 323,
+      "prose_chars": 310,
+      "h2_count": 1,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
+    },
     "农业": {
       "type": "concept",
       "label": "农业",
@@ -5015,7 +5062,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 26,
-      "total_refs": 2
+      "total_refs": 3
     },
     "亲属关系": {
       "type": "concept",
@@ -5189,6 +5236,29 @@
       "quality": "basic",
       "quality_score": 7,
       "total_refs": 1
+    },
+    "青铜时代": {
+      "type": "concept",
+      "label": "青铜时代",
+      "aliases": [
+        "Bronze Age"
+      ],
+      "tags": [
+        "历史",
+        "技术",
+        "考古"
+      ],
+      "path": "pages/qi/青铜时代.md",
+      "description": "人类使用青铜工具和武器的时期，标志着冶金技术的重大进步",
+      "prose_len": 319,
+      "prose_chars": 306,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
     },
     "骑兵": {
       "type": "concept",
@@ -5811,6 +5881,30 @@
       "quality_score": 57,
       "total_refs": 0
     },
+    "狩猎": {
+      "type": "concept",
+      "label": "狩猎",
+      "aliases": [
+        "打猎",
+        "狩猎采集"
+      ],
+      "tags": [
+        "经济",
+        "史前",
+        "生存"
+      ],
+      "path": "pages/sh/狩猎.md",
+      "description": "人类通过追捕野生动物获取食物的方式，在史前时期是主要生计手段",
+      "prose_len": 352,
+      "prose_chars": 339,
+      "h2_count": 1,
+      "pn_count": 3,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
+    },
     "狩猎采集": {
       "type": "concept",
       "label": "狩猎采集",
@@ -6177,7 +6271,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 2
+      "total_refs": 3
     },
     "统一": {
       "type": "concept",
@@ -7918,6 +8012,29 @@
       "quality_score": 58,
       "total_refs": 9
     },
+    "制陶": {
+      "type": "concept",
+      "label": "制陶",
+      "aliases": [
+        "陶器"
+      ],
+      "tags": [
+        "技术",
+        "手工艺",
+        "考古"
+      ],
+      "path": "pages/zh/制陶.md",
+      "description": "用黏土烧制容器的技术，是定居农业社会的标志性发明",
+      "prose_len": 315,
+      "prose_chars": 302,
+      "h2_count": 1,
+      "pn_count": 1,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
+    },
     "征服者": {
       "type": "concept",
       "label": "征服者",
@@ -8792,6 +8909,8 @@
     "社会竞争": "竞争",
     "竞争压力": "竞争",
     "间竞争": "竞争",
+    "经度": "经度",
+    "longitude": "经度",
     "结核": "结核",
     "肺结核": "结核",
     "结核病": "结核",
@@ -9047,6 +9166,9 @@
     "cattle": "牛",
     "ox": "牛",
     "Bos taurus": "牛",
+    "酿酒": "酿酒",
+    "发酵": "酿酒",
+    "酒精": "酿酒",
     "农业": "农业",
     "agriculture": "农业",
     "作物栽培": "农业",
@@ -9107,6 +9229,8 @@
     "酋邦": "酋长",
     "青铜": "青铜",
     "青铜器": "青铜",
+    "青铜时代": "青铜时代",
+    "Bronze Age": "青铜时代",
     "骑兵": "骑兵",
     "骑手": "骑兵",
     "骑军": "骑兵",
@@ -9186,7 +9310,9 @@
     "撒哈拉沙漠": "沙漠",
     "干旱区": "沙漠",
     "desert": "沙漠",
-    "狩猎采集": "狩猎采集",
+    "狩猎": "狩猎",
+    "打猎": "狩猎",
+    "狩猎采集": "狩猎",
     "狩猎采集者": "狩猎采集",
     "采集狩猎": "狩猎采集",
     "hunter-gatherer": "狩猎采集",
@@ -9471,6 +9597,7 @@
     "中美洲": "中美洲",
     "Mesoamerica": "中美洲",
     "美索美洲": "中美洲",
+    "制陶": "制陶",
     "征服者": "征服者",
     "conquistador": "征服者",
     "军事征服者": "征服者",
@@ -9543,6 +9670,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 352,
-  "generated": "2026-05-26T01:29:41Z"
+  "page_count": 357,
+  "generated": "2026-05-26T01:30:51Z"
 }
