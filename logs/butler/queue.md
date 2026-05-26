@@ -4,7 +4,7 @@
 
 ### P2 stub（红链 1–2）
 
-- [ ] P2 stub | 跨学科方法 | concept | 红链 ×1
+- [x] P2 stub | 跨学科方法 | concept | 红链 ×1
 - [ ] P2 stub | 个人与历史结构 | concept | 红链 ×1
 - [ ] P2 stub | 知识积累 | concept | 红链 ×1
 
@@ -65,20 +65,20 @@
 - [ ] P2 stub | 夏威夷 | place | 红链 ×2
 - [x] P2 stub | 卡哈马卡战役 | event | 红链 ×2
 - [ ] P2 stub | 马达加斯加 | place | 红链 ×1
-- [ ] P2 stub | 车轮 | concept | 红链 ×1
+- [x] P2 stub | 车轮 | concept | 红链 ×1
 - [ ] P2 stub | 蒙古帝国 | event | 红链 ×1
 - [ ] P2 stub | 西伯利亚 | place | 红链 ×1
 - [ ] P2 stub | 罗马帝国 | event | 红链 ×1
 - [ ] P2 stub | 乡村 | concept | 红链 ×1
-- [ ] P2 stub | 澳大利亚 | place | 红链 ×1
+- [x] P2 stub | 澳大利亚 | place | 红链 ×1
 - [x] P2 stub | 莫尔兹比港 | place | 红链 ×1
 - [x] P2 stub | 阿兹特克 | concept | 红链 ×1
 - [ ] P2 stub | 封建制度 | concept | 红链 ×1
-- [ ] P2 stub | 人口密度 | concept | 红链 ×1
+- [x] P2 stub | 人口密度 | concept | 红链 ×1
 - [ ] P2 stub | 技术停滞 | concept | 红链 ×1
 - [x] P2 stub | 科尔特斯 | person | 红链 ×1
 - [x] P2 stub | 皮萨罗 | person | 红链 ×1
-- [ ] P2 stub | 采集狩猎 | concept | 红链 ×1
+- [x] P2 stub | 采集狩猎 | concept | 红链 ×1
 - [ ] P2 stub | 冰川 | place | 红链 ×1
 - [ ] P2 stub | 全球变暖 | concept | 红链 ×1
 - [ ] P2 stub | 波利尼西亚人 | person | 红链 ×1

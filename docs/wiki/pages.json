@@ -233,6 +233,28 @@
       "quality_score": 61,
       "total_refs": 6
     },
+    "aodaliya": {
+      "type": "place",
+      "label": "澳大利亚",
+      "aliases": [
+        "Australia"
+      ],
+      "tags": [
+        "大陆",
+        "地区"
+      ],
+      "path": "ao/aodaliya.md",
+      "description": "大洋洲大陆，戴蒙德用以分析孤立大陆的人类社会发展轨迹和欧洲殖民的影响",
+      "prose_len": 635,
+      "prose_chars": 574,
+      "h2_count": 5,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 11,
+      "total_refs": 0
+    },
     "澳大利亚": {
       "type": "place",
       "label": "澳大利亚",
@@ -256,7 +278,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 10
+      "total_refs": 11
     },
     "阿塔瓦尔帕": {
       "type": "person",
@@ -829,6 +851,30 @@
       "quality_score": 60,
       "total_refs": 10
     },
+    "caiji-shoulie": {
+      "type": "concept",
+      "label": "采集狩猎",
+      "aliases": [
+        "hunter-gatherer",
+        "狩猎采集",
+        "渔猎采集"
+      ],
+      "tags": [
+        "社会组织",
+        "农业"
+      ],
+      "path": "ca/caiji-shoulie.md",
+      "description": "以采集野生植物和狩猎动物为生的生存方式，戴蒙德将其与粮食生产社会进行系统比较",
+      "prose_len": 639,
+      "prose_chars": 582,
+      "h2_count": 5,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 11,
+      "total_refs": 2
+    },
     "草原": {
       "type": "concept",
       "label": "草原",
@@ -1267,6 +1313,29 @@
       "quality_score": 56,
       "total_refs": 0
     },
+    "che-lun": {
+      "type": "concept",
+      "label": "车轮",
+      "aliases": [
+        "wheel",
+        "轮子"
+      ],
+      "tags": [
+        "技术",
+        "发明"
+      ],
+      "path": "ch/che-lun.md",
+      "description": "人类最重要的发明之一，戴蒙德用以说明技术传播和美洲技术滞后的案例",
+      "prose_len": 626,
+      "prose_chars": 569,
+      "h2_count": 5,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 11,
+      "total_refs": 1
+    },
     "传播": {
       "type": "concept",
       "label": "传播",
@@ -1339,7 +1408,7 @@
       "blockquote_count": 1,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 21
+      "total_refs": 22
     },
     "创新": {
       "type": "concept",
@@ -2199,7 +2268,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 7,
-      "total_refs": 32
+      "total_refs": 34
     },
     "鹅": {
       "type": "species",
@@ -2266,7 +2335,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 63,
-      "total_refs": 11
+      "total_refs": 12
     },
     "发明家": {
       "type": "concept",
@@ -2772,7 +2841,7 @@
       "quality": "featured",
       "quality_score": 55,
       "affiliation": "斯坦福大学",
-      "total_refs": 1
+      "total_refs": 2
     },
     "革命": {
       "type": "concept",
@@ -2971,7 +3040,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 2
+      "total_refs": 3
     },
     "国王": {
       "type": "concept",
@@ -3769,7 +3838,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 28
+      "total_refs": 29
     },
     "技术积累": {
       "type": "concept",
@@ -4312,7 +4381,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 4
+      "total_refs": 5
     },
     "考古遗址": {
       "type": "concept",
@@ -4435,6 +4504,29 @@
       "quality_score": 59,
       "affiliation": "西班牙王国",
       "total_refs": 4
+    },
+    "kua-xue-ke-fang-fa": {
+      "type": "concept",
+      "label": "跨学科方法",
+      "aliases": [
+        "interdisciplinary approach",
+        "多学科方法"
+      ],
+      "tags": [
+        "科学",
+        "历史"
+      ],
+      "path": "ku/kua-xue-ke-fang-fa.md",
+      "description": "戴蒙德在《枪炮、病菌与钢铁》中综合运用多学科证据的研究方法论",
+      "prose_len": 608,
+      "prose_chars": 551,
+      "h2_count": 5,
+      "pn_count": 2,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 11,
+      "total_refs": 1
     },
     "kuke": {
       "type": "person",
@@ -4653,7 +4745,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 99
+      "total_refs": 101
     },
     "luoma-diguo": {
       "type": "event",
@@ -4724,7 +4816,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 1
+      "total_refs": 0
     },
     "骆驼": {
       "type": "species",
@@ -5689,7 +5781,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
-      "total_refs": 0
+      "total_refs": 1
     },
     "moxige": {
       "type": "place",
@@ -5899,7 +5991,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 6
+      "total_refs": 7
     },
     "南北轴线与东西轴线": {
       "type": "concept",
@@ -6814,6 +6906,29 @@
       "quality_score": 9,
       "total_refs": 0
     },
+    "renkou-midu": {
+      "type": "concept",
+      "label": "人口密度",
+      "aliases": [
+        "population density"
+      ],
+      "tags": [
+        "社会组织",
+        "农业",
+        "地理"
+      ],
+      "path": "re/renkou-midu.md",
+      "description": "单位面积的人口数量，戴蒙德用以说明粮食生产与社会复杂化、传染病传播之间的关联",
+      "prose_len": 642,
+      "prose_chars": 585,
+      "h2_count": 5,
+      "pn_count": 3,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 11,
+      "total_refs": 0
+    },
     "人口": {
       "type": "concept",
       "label": "人口",
@@ -6878,7 +6993,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 9
+      "total_refs": 10
     },
     "人口扩张": {
       "type": "concept",
@@ -7378,7 +7493,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 12
+      "total_refs": 13
     },
     "商人": {
       "type": "concept",
@@ -7646,7 +7761,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 21
+      "total_refs": 20
     },
     "生态": {
       "type": "concept",
@@ -8985,7 +9100,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 15
+      "total_refs": 16
     },
     "新月沃地": {
       "type": "concept",
@@ -9910,7 +10025,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 2
+      "total_refs": 3
     },
     "鹰嘴豆": {
       "type": "species",
@@ -10084,7 +10199,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 3
+      "total_refs": 4
     },
     "语言传播": {
       "type": "concept",
@@ -11098,8 +11213,9 @@
     "安第斯": "安第斯山脉",
     "Andes": "安第斯山脉",
     "南美安第斯": "安第斯山脉",
-    "澳大利亚": "澳大利亚",
-    "Australia": "澳大利亚",
+    "aodaliya": "aodaliya",
+    "澳大利亚": "aodaliya",
+    "Australia": "aodaliya",
     "澳洲": "澳大利亚",
     "阿塔瓦尔帕": "阿塔瓦尔帕",
     "Atahualpa": "阿塔瓦尔帕",
@@ -11180,6 +11296,11 @@
     "部落社会": "部落",
     "部落组织": "部落",
     "氏族部落": "部落",
+    "caiji-shoulie": "caiji-shoulie",
+    "采集狩猎": "caiji-shoulie",
+    "hunter-gatherer": "caiji-shoulie",
+    "狩猎采集": "caiji-shoulie",
+    "渔猎采集": "caiji-shoulie",
     "草原": "草原",
     "大草原": "草原",
     "欧亚草原": "草原",
@@ -11213,6 +11334,10 @@
     "朝鲜": "chaoxian",
     "Korea": "chaoxian",
     "朝鲜半岛": "chaoxian",
+    "che-lun": "che-lun",
+    "车轮": "che-lun",
+    "wheel": "che-lun",
+    "轮子": "che-lun",
     "传播": "传播",
     "扩散": "传播",
     "文化传播": "传播",
@@ -11639,6 +11764,10 @@
     "科学方法": "科学",
     "科学观点": "科学",
     "历史科学": "科学",
+    "kua-xue-ke-fang-fa": "kua-xue-ke-fang-fa",
+    "跨学科方法": "kua-xue-ke-fang-fa",
+    "interdisciplinary approach": "kua-xue-ke-fang-fa",
+    "多学科方法": "kua-xue-ke-fang-fa",
     "kuke": "kuke",
     "詹姆斯·库克": "kuke",
     "James Cook": "kuke",
@@ -11677,9 +11806,6 @@
     "让-雅克·卢梭": "lusuo",
     "Jean-Jacques Rousseau": "lusuo",
     "卢梭": "lusuo",
-    "轮子": "轮子",
-    "wheel": "轮子",
-    "车轮": "轮子",
     "轮轴": "轮子",
     "有轮车": "轮子",
     "骆驼": "骆驼",
@@ -11937,10 +12063,11 @@
     "全球变暖": "quan-qiu-bian-nuan",
     "global warming": "quan-qiu-bian-nuan",
     "全新世暖期": "quan-qiu-bian-nuan",
+    "renkou-midu": "renkou-midu",
+    "人口密度": "renkou-midu",
+    "population density": "renkou-midu",
     "人口": "人口",
     "人口压力": "人口压力",
-    "人口密度": "人口密度",
-    "population density": "人口密度",
     "人口扩张": "人口扩张",
     "农民扩张": "人口扩张",
     "人口置换": "人口扩张",
@@ -12038,10 +12165,7 @@
     "役畜": "牲口",
     "狩猎": "狩猎",
     "打猎": "狩猎",
-    "狩猎采集": "狩猎",
     "狩猎采集者": "狩猎采集",
-    "采集狩猎": "狩猎采集",
-    "hunter-gatherer": "狩猎采集",
     "生态": "生态",
     "ecology": "生态",
     "生态环境": "生态",
@@ -12482,6 +12606,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 464,
-  "generated": "2026-05-26T11:03:58Z"
+  "page_count": 469,
+  "generated": "2026-05-26T11:05:36Z"
 }

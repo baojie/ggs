@@ -89,6 +89,14 @@
       ],
       "path": "an/安第斯山脉.md"
     },
+    "aodaliya": {
+      "type": "place",
+      "label": "澳大利亚",
+      "aliases": [
+        "Australia"
+      ],
+      "path": "ao/aodaliya.md"
+    },
     "澳大利亚": {
       "type": "place",
       "label": "澳大利亚",
@@ -318,6 +326,16 @@
       ],
       "path": "bu/部落.md"
     },
+    "caiji-shoulie": {
+      "type": "concept",
+      "label": "采集狩猎",
+      "aliases": [
+        "hunter-gatherer",
+        "狩猎采集",
+        "渔猎采集"
+      ],
+      "path": "ca/caiji-shoulie.md"
+    },
     "草原": {
       "type": "concept",
       "label": "草原",
@@ -468,6 +486,15 @@
         "朝鲜半岛"
       ],
       "path": "ch/chaoxian.md"
+    },
+    "che-lun": {
+      "type": "concept",
+      "label": "车轮",
+      "aliases": [
+        "wheel",
+        "轮子"
+      ],
+      "path": "ch/che-lun.md"
     },
     "传播": {
       "type": "concept",
@@ -1685,6 +1712,15 @@
       ],
       "path": "ke/科尔特斯.md"
     },
+    "kua-xue-ke-fang-fa": {
+      "type": "concept",
+      "label": "跨学科方法",
+      "aliases": [
+        "interdisciplinary approach",
+        "多学科方法"
+      ],
+      "path": "ku/kua-xue-ke-fang-fa.md"
+    },
     "kuke": {
       "type": "person",
       "label": "詹姆斯·库克",
@@ -2596,6 +2632,14 @@
         "全新世暖期"
       ],
       "path": "qu/quan-qiu-bian-nuan.md"
+    },
+    "renkou-midu": {
+      "type": "concept",
+      "label": "人口密度",
+      "aliases": [
+        "population density"
+      ],
+      "path": "re/renkou-midu.md"
     },
     "人口": {
       "type": "concept",
@@ -4254,8 +4298,9 @@
     "安第斯": "安第斯山脉",
     "Andes": "安第斯山脉",
     "南美安第斯": "安第斯山脉",
-    "澳大利亚": "澳大利亚",
-    "Australia": "澳大利亚",
+    "aodaliya": "aodaliya",
+    "澳大利亚": "aodaliya",
+    "Australia": "aodaliya",
     "澳洲": "澳大利亚",
     "阿塔瓦尔帕": "阿塔瓦尔帕",
     "Atahualpa": "阿塔瓦尔帕",
@@ -4336,6 +4381,11 @@
     "部落社会": "部落",
     "部落组织": "部落",
     "氏族部落": "部落",
+    "caiji-shoulie": "caiji-shoulie",
+    "采集狩猎": "caiji-shoulie",
+    "hunter-gatherer": "caiji-shoulie",
+    "狩猎采集": "caiji-shoulie",
+    "渔猎采集": "caiji-shoulie",
     "草原": "草原",
     "大草原": "草原",
     "欧亚草原": "草原",
@@ -4369,6 +4419,10 @@
     "朝鲜": "chaoxian",
     "Korea": "chaoxian",
     "朝鲜半岛": "chaoxian",
+    "che-lun": "che-lun",
+    "车轮": "che-lun",
+    "wheel": "che-lun",
+    "轮子": "che-lun",
     "传播": "传播",
     "扩散": "传播",
     "文化传播": "传播",
@@ -4795,6 +4849,10 @@
     "科学方法": "科学",
     "科学观点": "科学",
     "历史科学": "科学",
+    "kua-xue-ke-fang-fa": "kua-xue-ke-fang-fa",
+    "跨学科方法": "kua-xue-ke-fang-fa",
+    "interdisciplinary approach": "kua-xue-ke-fang-fa",
+    "多学科方法": "kua-xue-ke-fang-fa",
     "kuke": "kuke",
     "詹姆斯·库克": "kuke",
     "James Cook": "kuke",
@@ -4833,9 +4891,6 @@
     "让-雅克·卢梭": "lusuo",
     "Jean-Jacques Rousseau": "lusuo",
     "卢梭": "lusuo",
-    "轮子": "轮子",
-    "wheel": "轮子",
-    "车轮": "轮子",
     "轮轴": "轮子",
     "有轮车": "轮子",
     "骆驼": "骆驼",
@@ -5093,10 +5148,11 @@
     "全球变暖": "quan-qiu-bian-nuan",
     "global warming": "quan-qiu-bian-nuan",
     "全新世暖期": "quan-qiu-bian-nuan",
+    "renkou-midu": "renkou-midu",
+    "人口密度": "renkou-midu",
+    "population density": "renkou-midu",
     "人口": "人口",
     "人口压力": "人口压力",
-    "人口密度": "人口密度",
-    "population density": "人口密度",
     "人口扩张": "人口扩张",
     "农民扩张": "人口扩张",
     "人口置换": "人口扩张",
@@ -5194,10 +5250,7 @@
     "役畜": "牲口",
     "狩猎": "狩猎",
     "打猎": "狩猎",
-    "狩猎采集": "狩猎",
     "狩猎采集者": "狩猎采集",
-    "采集狩猎": "狩猎采集",
-    "hunter-gatherer": "狩猎采集",
     "生态": "生态",
     "ecology": "生态",
     "生态环境": "生态",
@@ -5638,6 +5691,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 464,
-  "generated": "2026-05-26T11:03:58Z"
+  "page_count": 469,
+  "generated": "2026-05-26T11:05:36Z"
 }
