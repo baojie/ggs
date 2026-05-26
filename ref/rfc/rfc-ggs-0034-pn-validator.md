@@ -1,6 +1,6 @@
 # RFC-ggs-0034: 在 add_page.py / edit_page.py 中增加 PN 引用有效性校验
 
-- **Status**: proposed
+- **Status**: accepted
 - **Date**: 2026-05-27
 - **Issue**: https://github.com/baojie/memex/issues/200
 - **Source wiki**: ggs
