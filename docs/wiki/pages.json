@@ -3628,6 +3628,30 @@
       "quality_score": 61,
       "total_refs": 2
     },
+    "贸易路线": {
+      "type": "concept",
+      "label": "贸易路线",
+      "aliases": [
+        "商路",
+        "商道"
+      ],
+      "tags": [
+        "经济",
+        "交流",
+        "文化"
+      ],
+      "path": "ma/贸易路线.md",
+      "description": "连接不同文明的长距离贸易通道及其在技术传播中的关键作用",
+      "prose_len": 276,
+      "prose_chars": 274,
+      "h2_count": 0,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "马": {
       "type": "species",
       "label": "马",
@@ -4780,6 +4804,30 @@
       "quality_score": 61,
       "total_refs": 3
     },
+    "气候带": {
+      "type": "concept",
+      "label": "气候带",
+      "aliases": [
+        "气候区",
+        "气候类型"
+      ],
+      "tags": [
+        "地理",
+        "农业",
+        "生态"
+      ],
+      "path": "qi/气候带.md",
+      "description": "地球上的主要气候分带及其对农业传播和文明分布的影响",
+      "prose_len": 239,
+      "prose_chars": 237,
+      "h2_count": 0,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "酋长": {
       "type": "concept",
       "label": "酋长",
@@ -4805,6 +4853,29 @@
       "quality": "featured",
       "quality_score": 60,
       "total_refs": 18
+    },
+    "青铜": {
+      "type": "concept",
+      "label": "青铜",
+      "aliases": [
+        "青铜器"
+      ],
+      "tags": [
+        "技术",
+        "冶金",
+        "军事"
+      ],
+      "path": "qi/青铜.md",
+      "description": "人类最早广泛使用的金属合金及其对社会复杂化的推动作用",
+      "prose_len": 236,
+      "prose_chars": 234,
+      "h2_count": 0,
+      "pn_count": 3,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 1
     },
     "人口": {
       "type": "concept",
@@ -6648,6 +6719,27 @@
       "affiliation": "新几内亚",
       "total_refs": 1
     },
+    "野生植物": {
+      "type": "concept",
+      "label": "野生植物",
+      "aliases": [],
+      "tags": [
+        "农业",
+        "驯化",
+        "生态"
+      ],
+      "path": "ye/野生植物.md",
+      "description": "可被人类驯化为作物的野生植物资源的地理性分布",
+      "prose_len": 238,
+      "prose_chars": 236,
+      "h2_count": 0,
+      "pn_count": 3,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
+    },
     "yindu": {
       "type": "place",
       "label": "印度",
@@ -7379,6 +7471,30 @@
       "quality": "featured",
       "quality_score": 59,
       "total_refs": 1
+    },
+    "殖民": {
+      "type": "concept",
+      "label": "殖民",
+      "aliases": [
+        "殖民扩张",
+        "殖民主义"
+      ],
+      "tags": [
+        "历史",
+        "政治",
+        "地理"
+      ],
+      "path": "zh/殖民.md",
+      "description": "欧洲国家通过征服和移民对美洲、非洲、亚洲和大洋洲进行领土扩张的过程",
+      "prose_len": 262,
+      "prose_chars": 260,
+      "h2_count": 0,
+      "pn_count": 4,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 0
     },
     "殖民主义": {
       "type": "concept",
@@ -8173,6 +8289,8 @@
     "trade": "贸易",
     "商贸": "贸易",
     "贸易路线": "贸易",
+    "商路": "贸易路线",
+    "商道": "贸易路线",
     "马": "马",
     "马匹": "马",
     "骏马": "马",
@@ -8341,10 +8459,15 @@
     "气候条件": "气候",
     "地中海气候": "气候",
     "气候变化": "气候",
+    "气候带": "气候带",
+    "气候区": "气候带",
+    "气候类型": "气候带",
     "酋长": "酋长",
     "酋长制": "酋长",
     "酋长管辖地": "酋长",
     "酋邦": "酋长",
+    "青铜": "青铜",
+    "青铜器": "青铜",
     "人口": "人口",
     "人口密度": "人口密度",
     "人口压力": "人口密度",
@@ -8604,6 +8727,7 @@
     "coconut": "椰子",
     "耶利": "耶利",
     "Yali": "耶利",
+    "野生植物": "野生植物",
     "yindu": "yindu",
     "印度": "yindu",
     "India": "yindu",
@@ -8704,17 +8828,17 @@
     "政治结构": "政治组织",
     "political organization": "政治组织",
     "植物": "植物",
-    "野生植物": "植物",
     "植物物种": "植物",
     "植物多样性": "植物",
     "植物学": "植物学",
     "botany": "植物学",
     "植物科学": "植物学",
     "作物植物学": "植物学",
-    "殖民主义": "殖民主义",
+    "殖民": "殖民",
+    "殖民扩张": "殖民",
+    "殖民主义": "殖民",
     "colonialism": "殖民主义",
     "欧洲殖民": "殖民主义",
-    "殖民扩张": "殖民主义",
     "殖民地": "殖民主义",
     "猪": "猪",
     "家猪": "猪",
@@ -8759,6 +8883,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 320,
-  "generated": "2026-05-26T01:13:13Z"
+  "page_count": 325,
+  "generated": "2026-05-26T01:14:45Z"
 }
