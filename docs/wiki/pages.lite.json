@@ -40,6 +40,15 @@
       ],
       "path": "ai/ai-xiao-hei-ren.md"
     },
+    "aier-nan-duo-suotuo": {
+      "type": "person",
+      "label": "埃尔南多·德索托",
+      "aliases": [
+        "Hernando de Soto",
+        "德索托"
+      ],
+      "path": "ai/aier-nan-duo-suotuo.md"
+    },
     "aisaobiya": {
       "type": "place",
       "label": "埃塞俄比亚",
@@ -732,6 +741,16 @@
         "giraffe"
       ],
       "path": "ch/chang-jing-lu.md"
+    },
+    "chao-xie-yuan": {
+      "type": "person",
+      "label": "抄写员",
+      "aliases": [
+        "scribe",
+        "专职抄写员",
+        "书吏"
+      ],
+      "path": "ch/chao-xie-yuan.md"
     },
     "chaoxian": {
       "type": "place",
@@ -2562,6 +2581,16 @@
         "历史学作为科学"
       ],
       "path": "li/li-shi-ke-xue.md"
+    },
+    "li": {
+      "type": "concept",
+      "label": "犁",
+      "aliases": [
+        "犁耕",
+        "畜力犁",
+        "plow"
+      ],
+      "path": "li/li.md"
     },
     "liang-shi-chu-bei": {
       "type": "concept",
@@ -4429,6 +4458,16 @@
       ],
       "path": "tu/豚鼠.md"
     },
+    "wa-si-ka-er": {
+      "type": "person",
+      "label": "瓦斯卡尔",
+      "aliases": [
+        "Wáskhar",
+        "Huáscar",
+        "瓦斯卡"
+      ],
+      "path": "wa/wa-si-ka-er.md"
+    },
     "wa-yi-na-ka-pa-ke": {
       "type": "person",
       "label": "瓦伊纳·卡帕克",
@@ -4953,6 +4992,16 @@
         "芭蕉"
       ],
       "path": "xi/香蕉.md"
+    },
+    "xun-hua-zhong-xin": {
+      "type": "concept",
+      "label": "驯化中心",
+      "aliases": [
+        "驯化起源地",
+        "独立驯化中心",
+        "农业起源中心"
+      ],
+      "path": "xu/xun-hua-zhong-xin.md"
     },
     "驯化": {
       "type": "concept",
@@ -5928,6 +5977,10 @@
     "尼格利陀人": "ai-xiao-hei-ren",
     "塞芒人": "ai-xiao-hei-ren",
     "Semang": "ai-xiao-hei-ren",
+    "aier-nan-duo-suotuo": "aier-nan-duo-suotuo",
+    "埃尔南多·德索托": "aier-nan-duo-suotuo",
+    "Hernando de Soto": "aier-nan-duo-suotuo",
+    "德索托": "aier-nan-duo-suotuo",
     "aisaobiya": "aisaobiya",
     "埃塞俄比亚": "aisaobiya",
     "Ethiopia": "aisaobiya",
@@ -6161,6 +6214,11 @@
     "chang-jing-lu": "chang-jing-lu",
     "长颈鹿": "chang-jing-lu",
     "giraffe": "chang-jing-lu",
+    "chao-xie-yuan": "chao-xie-yuan",
+    "抄写员": "chao-xie-yuan",
+    "scribe": "chao-xie-yuan",
+    "专职抄写员": "chao-xie-yuan",
+    "书吏": "chao-xie-yuan",
     "chaoxian": "chaoxian",
     "朝鲜": "chaoxian",
     "Korea": "chaoxian",
@@ -6855,6 +6913,11 @@
     "li-shi-ke-xue": "li-shi-ke-xue",
     "historical science": "li-shi-ke-xue",
     "历史学作为科学": "li-shi-ke-xue",
+    "li": "li",
+    "犁": "li",
+    "犁耕": "li",
+    "畜力犁": "li",
+    "plow": "li",
     "liang-shi-chu-bei": "liang-shi-chu-bei",
     "粮食储备": "liang-shi-chu-bei",
     "food storage": "liang-shi-chu-bei",
@@ -7508,6 +7571,11 @@
     "豚鼠": "豚鼠",
     "guinea pig": "豚鼠",
     "荷兰猪": "豚鼠",
+    "wa-si-ka-er": "wa-si-ka-er",
+    "瓦斯卡尔": "wa-si-ka-er",
+    "Wáskhar": "wa-si-ka-er",
+    "Huáscar": "wa-si-ka-er",
+    "瓦斯卡": "wa-si-ka-er",
     "wa-yi-na-ka-pa-ke": "wa-yi-na-ka-pa-ke",
     "瓦伊纳·卡帕克": "wa-yi-na-ka-pa-ke",
     "Huayna Capac": "wa-yi-na-ka-pa-ke",
@@ -7709,6 +7777,11 @@
     "banana": "香蕉",
     "plantain": "香蕉",
     "芭蕉": "香蕉",
+    "xun-hua-zhong-xin": "xun-hua-zhong-xin",
+    "驯化中心": "xun-hua-zhong-xin",
+    "驯化起源地": "xun-hua-zhong-xin",
+    "独立驯化中心": "xun-hua-zhong-xin",
+    "农业起源中心": "xun-hua-zhong-xin",
     "驯化": "驯化",
     "植物驯化": "驯化",
     "domestication": "驯化",
@@ -8036,6 +8109,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 644,
-  "generated": "2026-05-26T17:14:12Z"
+  "page_count": 649,
+  "generated": "2026-05-26T17:15:27Z"
 }

@@ -96,6 +96,31 @@
       "quality_score": 56,
       "total_refs": 3
     },
+    "aier-nan-duo-suotuo": {
+      "type": "person",
+      "label": "埃尔南多·德索托",
+      "aliases": [
+        "Hernando de Soto",
+        "德索托"
+      ],
+      "tags": [
+        "人物",
+        "征服者",
+        "美洲",
+        "探险家"
+      ],
+      "path": "ai/aier-nan-duo-suotuo.md",
+      "description": "西班牙征服者和探险家，卡哈马卡战役的骑兵指挥官，后探险北美东南部",
+      "prose_len": 391,
+      "prose_chars": 356,
+      "h2_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
+    },
     "aisaobiya": {
       "type": "place",
       "label": "埃塞俄比亚",
@@ -378,7 +403,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 22
+      "total_refs": 23
     },
     "安娜卡列尼娜原则": {
       "type": "concept",
@@ -546,7 +571,7 @@
       "quality": "featured",
       "quality_score": 60,
       "affiliation": "印加帝国",
-      "total_refs": 14
+      "total_refs": 16
     },
     "a-yi-nu-ren": {
       "type": "person",
@@ -620,7 +645,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 8,
-      "total_refs": 1
+      "total_refs": 2
     },
     "ba-bu-ya-zhu-yu-yan": {
       "type": "concept",
@@ -1957,6 +1982,32 @@
       "quality_score": 10,
       "total_refs": 0
     },
+    "chao-xie-yuan": {
+      "type": "person",
+      "label": "抄写员",
+      "aliases": [
+        "scribe",
+        "专职抄写员",
+        "书吏"
+      ],
+      "tags": [
+        "人物",
+        "技术",
+        "文字",
+        "社会阶层"
+      ],
+      "path": "ch/chao-xie-yuan.md",
+      "description": "古代社会中掌握书写技能的专职人员，文字系统运作的核心载体",
+      "prose_len": 622,
+      "prose_chars": 573,
+      "h2_count": 4,
+      "pn_count": 7,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 11,
+      "total_refs": 0
+    },
     "chaoxian": {
       "type": "place",
       "label": "朝鲜",
@@ -3181,7 +3232,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 6
+      "total_refs": 8
     },
     "动物": {
       "type": "concept",
@@ -6070,7 +6121,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 10
+      "total_refs": 11
     },
     "考古学": {
       "type": "concept",
@@ -6695,6 +6746,31 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
+      "total_refs": 0
+    },
+    "li": {
+      "type": "concept",
+      "label": "犁",
+      "aliases": [
+        "犁耕",
+        "畜力犁",
+        "plow"
+      ],
+      "tags": [
+        "概念",
+        "技术",
+        "农业"
+      ],
+      "path": "li/li.md",
+      "description": "由牲畜牵引的耕地工具，粮食生产技术革命，定居农业社会的重要标志",
+      "prose_len": 575,
+      "prose_chars": 524,
+      "h2_count": 4,
+      "pn_count": 7,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 10,
       "total_refs": 0
     },
     "liang-shi-chu-bei": {
@@ -8784,7 +8860,7 @@
       "blockquote_count": 0,
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 7
+      "total_refs": 8
     },
     "农业": {
       "type": "concept",
@@ -9120,7 +9196,7 @@
       "quality": "featured",
       "quality_score": 59,
       "affiliation": "西班牙王国",
-      "total_refs": 13
+      "total_refs": 14
     },
     "Preface": {
       "type": "chapter",
@@ -11298,7 +11374,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 3
+      "total_refs": 4
     },
     "天花病毒": {
       "type": "species",
@@ -11566,6 +11642,31 @@
       "quality_score": 10,
       "total_refs": 2
     },
+    "wa-si-ka-er": {
+      "type": "person",
+      "label": "瓦斯卡尔",
+      "aliases": [
+        "Wáskhar",
+        "Huáscar",
+        "瓦斯卡"
+      ],
+      "tags": [
+        "人物",
+        "印加",
+        "美洲"
+      ],
+      "path": "wa/wa-si-ka-er.md",
+      "description": "印加皇帝瓦伊纳·卡帕克之子，与其兄弟阿塔瓦尔帕争夺皇位，内战使印加帝国在西班牙征服时分裂",
+      "prose_len": 400,
+      "prose_chars": 365,
+      "h2_count": 3,
+      "pn_count": 2,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 1
+    },
     "wa-yi-na-ka-pa-ke": {
       "type": "person",
       "label": "瓦伊纳·卡帕克",
@@ -11588,7 +11689,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
-      "total_refs": 0
+      "total_refs": 1
     },
     "王国": {
       "type": "concept",
@@ -11758,7 +11859,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 17
+      "total_refs": 18
     },
     "文字的独立发明": {
       "type": "event",
@@ -12781,7 +12882,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 78
+      "total_refs": 79
     },
     "新月沃地农业起源": {
       "type": "event",
@@ -12935,6 +13036,31 @@
       "quality": "featured",
       "quality_score": 60,
       "total_refs": 2
+    },
+    "xun-hua-zhong-xin": {
+      "type": "concept",
+      "label": "驯化中心",
+      "aliases": [
+        "驯化起源地",
+        "独立驯化中心",
+        "农业起源中心"
+      ],
+      "tags": [
+        "概念",
+        "农业",
+        "地理"
+      ],
+      "path": "xu/xun-hua-zhong-xin.md",
+      "description": "人类历史上独立驯化植物和动物的少数几个地理中心，全球农业起源的基本格局",
+      "prose_len": 451,
+      "prose_chars": 412,
+      "h2_count": 3,
+      "pn_count": 4,
+      "wikilink_count": 5,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 9,
+      "total_refs": 1
     },
     "驯化": {
       "type": "concept",
@@ -14624,7 +14750,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 20
+      "total_refs": 21
     },
     "中国农业起源": {
       "type": "event",
@@ -14698,7 +14824,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 12
+      "total_refs": 13
     },
     "制陶": {
       "type": "concept",
@@ -15434,6 +15560,10 @@
     "尼格利陀人": "ai-xiao-hei-ren",
     "塞芒人": "ai-xiao-hei-ren",
     "Semang": "ai-xiao-hei-ren",
+    "aier-nan-duo-suotuo": "aier-nan-duo-suotuo",
+    "埃尔南多·德索托": "aier-nan-duo-suotuo",
+    "Hernando de Soto": "aier-nan-duo-suotuo",
+    "德索托": "aier-nan-duo-suotuo",
     "aisaobiya": "aisaobiya",
     "埃塞俄比亚": "aisaobiya",
     "Ethiopia": "aisaobiya",
@@ -15667,6 +15797,11 @@
     "chang-jing-lu": "chang-jing-lu",
     "长颈鹿": "chang-jing-lu",
     "giraffe": "chang-jing-lu",
+    "chao-xie-yuan": "chao-xie-yuan",
+    "抄写员": "chao-xie-yuan",
+    "scribe": "chao-xie-yuan",
+    "专职抄写员": "chao-xie-yuan",
+    "书吏": "chao-xie-yuan",
     "chaoxian": "chaoxian",
     "朝鲜": "chaoxian",
     "Korea": "chaoxian",
@@ -16361,6 +16496,11 @@
     "li-shi-ke-xue": "li-shi-ke-xue",
     "historical science": "li-shi-ke-xue",
     "历史学作为科学": "li-shi-ke-xue",
+    "li": "li",
+    "犁": "li",
+    "犁耕": "li",
+    "畜力犁": "li",
+    "plow": "li",
     "liang-shi-chu-bei": "liang-shi-chu-bei",
     "粮食储备": "liang-shi-chu-bei",
     "food storage": "liang-shi-chu-bei",
@@ -17014,6 +17154,11 @@
     "豚鼠": "豚鼠",
     "guinea pig": "豚鼠",
     "荷兰猪": "豚鼠",
+    "wa-si-ka-er": "wa-si-ka-er",
+    "瓦斯卡尔": "wa-si-ka-er",
+    "Wáskhar": "wa-si-ka-er",
+    "Huáscar": "wa-si-ka-er",
+    "瓦斯卡": "wa-si-ka-er",
     "wa-yi-na-ka-pa-ke": "wa-yi-na-ka-pa-ke",
     "瓦伊纳·卡帕克": "wa-yi-na-ka-pa-ke",
     "Huayna Capac": "wa-yi-na-ka-pa-ke",
@@ -17215,6 +17360,11 @@
     "banana": "香蕉",
     "plantain": "香蕉",
     "芭蕉": "香蕉",
+    "xun-hua-zhong-xin": "xun-hua-zhong-xin",
+    "驯化中心": "xun-hua-zhong-xin",
+    "驯化起源地": "xun-hua-zhong-xin",
+    "独立驯化中心": "xun-hua-zhong-xin",
+    "农业起源中心": "xun-hua-zhong-xin",
     "驯化": "驯化",
     "植物驯化": "驯化",
     "domestication": "驯化",
@@ -17542,6 +17692,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 644,
-  "generated": "2026-05-26T17:14:12Z"
+  "page_count": 649,
+  "generated": "2026-05-26T17:15:27Z"
 }
