@@ -209,7 +209,7 @@
       "quality": "featured",
       "quality_score": 57,
       "affiliation": "印加帝国",
-      "total_refs": 11
+      "total_refs": 12
     },
     "baergan": {
       "type": "place",
@@ -418,7 +418,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 38
+      "total_refs": 39
     },
     "伯克和威尔斯": {
       "type": "person",
@@ -1442,8 +1442,8 @@
       ],
       "path": "di/帝国.md",
       "description": "由多个国家通过征服或兼并形成的最大规模政治单元，通常跨越不同族裔和语言群体；在《枪炮、病菌与钢铁》中是分析欧洲征服优势链条的重要环节。",
-      "prose_len": 1263,
-      "prose_chars": 1059,
+      "prose_len": 1262,
+      "prose_chars": 1058,
       "h2_count": 5,
       "pn_count": 11,
       "wikilink_count": 6,
@@ -2402,7 +2402,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 0
+      "total_refs": 1
     },
     "火器": {
       "type": "concept",
@@ -2843,7 +2843,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 31
+      "total_refs": 32
     },
     "金属": {
       "type": "concept",
@@ -3084,7 +3084,7 @@
         "征服",
         "南美洲"
       ],
-      "path": "ka/卡哈马卡之战.md",
+      "path": "卡哈马卡之战.md",
       "description": "1532年11月16日，弗兰西斯科·皮萨罗率168名西班牙人在秘鲁卡哈马卡俘获印加皇帝阿塔瓦尔帕，击溃数万印加军队；戴蒙德以此战为分析起点，解析欧亚大陆人征服美洲的近端原因与终极原因。",
       "prose_len": 697,
       "prose_chars": 661,
@@ -4439,10 +4439,10 @@
       ],
       "path": "nu/奴隶.md",
       "description": "被强制剥夺人身自由、被他人占有的劳动者——伴随经济专业化而出现的社会制度",
-      "prose_len": 623,
-      "prose_chars": 512,
+      "prose_len": 613,
+      "prose_chars": 502,
       "h2_count": 5,
-      "pn_count": 0,
+      "pn_count": 5,
       "wikilink_count": 5,
       "blockquote_count": 0,
       "quality": "basic",
@@ -4591,7 +4591,7 @@
       "quality": "featured",
       "quality_score": 56,
       "affiliation": "西班牙王国",
-      "total_refs": 10
+      "total_refs": 11
     },
     "Preface": {
       "type": "chapter",
@@ -4704,7 +4704,7 @@
       "prose_chars": 837,
       "h2_count": 4,
       "pn_count": 7,
-      "wikilink_count": 4,
+      "wikilink_count": 5,
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
@@ -4854,6 +4854,26 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 59,
+      "total_refs": 0
+    },
+    "人物索引": {
+      "type": "list",
+      "label": "人物索引",
+      "aliases": [],
+      "tags": [
+        "index",
+        "person"
+      ],
+      "path": "re/人物索引.md",
+      "description": "本 wiki 收录的全部人物词条索引",
+      "prose_len": 259,
+      "prose_chars": 217,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
       "total_refs": 0
     },
     "人种": {
@@ -6479,8 +6499,8 @@
       ],
       "path": "ye/冶金.md",
       "description": "在《枪炮、病菌与钢铁》中，冶金技术是文明程度的核心标志之一，也是武器制造能力的物质基础，其发展路径（铜→青铜→铁）遵循累积性技术进步的规律。",
-      "prose_len": 1041,
-      "prose_chars": 847,
+      "prose_len": 1039,
+      "prose_chars": 845,
       "h2_count": 5,
       "pn_count": 8,
       "wikilink_count": 5,
@@ -8242,6 +8262,7 @@
     "人口规模": "人口规模",
     "population size": "人口规模",
     "人口数量": "人口规模",
+    "人物索引": "人物索引",
     "人种": "人种",
     "种族": "人种",
     "人类种族": "人种",
@@ -8640,6 +8661,6 @@
     "粮食生产传播": "作物传播",
     "农业传播": "作物传播"
   },
-  "page_count": 315,
-  "generated": "2026-05-25T21:52:02Z"
+  "page_count": 316,
+  "generated": "2026-05-26T01:09:17Z"
 }
