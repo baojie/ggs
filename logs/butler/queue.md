@@ -8,9 +8,9 @@
 
 ### P2 stub（单章重要实体）
 
-- [ ] P2 stub | 基普 | concept | LLM 发现，ch18，印加帝国的结绳会计与记忆系统，印加权力集中化的行政基础
+- [x] P2 stub | 基普 | concept | LLM 发现，ch18，印加帝国的结绳会计与记忆系统，印加权力集中化的行政基础
 - [ ] P2 stub | 尤他-阿兹特克诸语言 | concept | LLM 发现，ch18，北美西南部至中美洲的印第安语言语系
-- [ ] P2 stub | 文兰 | place | LLM 发现，ch18，古挪威人在纽芬兰的殖民据点名称
+- [x] P2 stub | 文兰 | place | LLM 发现，ch18，古挪威人在纽芬兰的殖民据点名称
 - [ ] P2 stub | 斯克里林人 | person | LLM 发现，ch18，古挪威人传说中对美洲土著的称呼
 - [ ] P2 stub | 亚希人 | person | LLM 发现，ch18，加利福尼亚北部被白人移民消灭的小部落案例
 - [ ] P2 stub | 雅诺马马人 | person | LLM 发现，ch18，亚马孙地区至今保持独立的原住民族群
@@ -43,7 +43,7 @@
 
 - [x] P2 stub | 和平文化 | concept | LLM 发现，ch16，东南亚新石器时代考古文化
 - [x] P2 stub | 秦朝 | event | LLM 发现，ch16，中国第一个帝国
-- [ ] P2 stub | 夏朝 | event | LLM 发现，ch16，中国第一个传统王朝
+- [x] P2 stub | 夏朝 | event | LLM 发现，ch16，中国第一个传统王朝
 - [ ] P2 stub | 安达曼群岛 | place | LLM 发现，多章（ch15/ch16），保留原始语言的岛屿
 
 ## Phase 2 — 新建候选（SCN28 R175 发现 — ch11 章节发掘）
@@ -293,6 +293,6 @@
 
 ### P2 stub（单章重要实体）
 
-- [ ] P2 stub | 大澳大利亚 | concept | LLM 发现，ch15，更新世连接澳大利亚和新几内亚的大陆块
+- [x] P2 stub | 大澳大利亚 | concept | LLM 发现，ch15，更新世连接澳大利亚和新几内亚的大陆块
 - [ ] P2 stub | 澳洲野犬 | species | LLM 发现，ch15，澳大利亚的野生犬科动物
-- [ ] P2 stub | 火耕农业 | concept | LLM 发现，ch15，澳大利亚土著用火管理土地的方法
+- [x] P2 stub | 火耕农业 | concept | LLM 发现，ch15，澳大利亚土著用火管理土地的方法

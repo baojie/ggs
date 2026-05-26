@@ -1981,6 +1981,31 @@
       "quality_score": 57,
       "total_refs": 4
     },
+    "da-ao-da-li-ya": {
+      "type": "concept",
+      "label": "大澳大利亚",
+      "aliases": [
+        "Sahul",
+        "萨胡尔大陆架",
+        "大澳洲"
+      ],
+      "tags": [
+        "地理",
+        "史前",
+        "澳大利亚"
+      ],
+      "path": "da/da-ao-da-li-ya.md",
+      "description": "更新世冰期因海平面下降而连接澳大利亚、新几内亚和塔斯马尼亚的统一大陆块",
+      "prose_len": 366,
+      "prose_chars": 364,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
+    },
     "da-hu-hou": {
       "type": "species",
       "label": "大狐猴",
@@ -4238,6 +4263,32 @@
       "affiliation": "美国",
       "total_refs": 0
     },
+    "huo-geng-nong-ye": {
+      "type": "concept",
+      "label": "火耕农业",
+      "aliases": [
+        "火耕",
+        "刀耕火种",
+        "火耕法",
+        "fire-stick farming"
+      ],
+      "tags": [
+        "农业",
+        "技术",
+        "澳大利亚"
+      ],
+      "path": "hu/huo-geng-nong-ye.md",
+      "description": "澳大利亚土著用火管理土地以促进狩猎和植物生长的方法",
+      "prose_len": 374,
+      "prose_chars": 372,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
+    },
     "huo-pu-wei-er-wen-hua": {
       "type": "event",
       "label": "huo-pu-wei-er-wen-hua",
@@ -4528,6 +4579,31 @@
       "quality": "basic",
       "quality_score": 6,
       "total_refs": 1
+    },
+    "ji-pu": {
+      "type": "concept",
+      "label": "基普",
+      "aliases": [
+        "Quipu",
+        "结绳",
+        "khipu"
+      ],
+      "tags": [
+        "技术",
+        "印加帝国",
+        "文字"
+      ],
+      "path": "ji/ji-pu.md",
+      "description": "印加帝国使用的结绳会计与记忆符号系统，以彩色绳结记录数字和信息",
+      "prose_len": 344,
+      "prose_chars": 342,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
     },
     "ji-shu-ting-zhi": {
       "type": "concept",
@@ -10414,6 +10490,31 @@
       "quality_score": 61,
       "total_refs": 5
     },
+    "wen-lan": {
+      "type": "place",
+      "label": "文兰",
+      "aliases": [
+        "Vinland",
+        "文兰地区"
+      ],
+      "tags": [
+        "地理",
+        "北欧",
+        "北美",
+        "探险"
+      ],
+      "path": "we/wen-lan.md",
+      "description": "古挪威人在北美东北部沿海的殖民据点，位于今加拿大纽芬兰岛",
+      "prose_len": 342,
+      "prose_chars": 340,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
+      "total_refs": 0
+    },
     "文化": {
       "type": "concept",
       "label": "文化",
@@ -10740,6 +10841,31 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
+      "total_refs": 1
+    },
+    "xia-chao": {
+      "type": "event",
+      "label": "夏朝",
+      "aliases": [
+        "夏代",
+        "夏王朝",
+        "Xia dynasty"
+      ],
+      "tags": [
+        "历史",
+        "中国",
+        "王朝"
+      ],
+      "path": "xi/xia-chao.md",
+      "description": "中国最早的世袭王朝，标志着中国从部落联盟向国家形态的过渡",
+      "prose_len": 342,
+      "prose_chars": 340,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 8,
       "total_refs": 1
     },
     "xian-wai-fu-cai": {
@@ -13768,6 +13894,11 @@
     "村庄": "村落",
     "定居点": "村落",
     "settlement": "村落",
+    "da-ao-da-li-ya": "da-ao-da-li-ya",
+    "大澳大利亚": "da-ao-da-li-ya",
+    "Sahul": "da-ao-da-li-ya",
+    "萨胡尔大陆架": "da-ao-da-li-ya",
+    "大澳洲": "da-ao-da-li-ya",
     "da-hu-hou": "da-hu-hou",
     "大狐猴": "da-hu-hou",
     "Indri": "da-hu-hou",
@@ -14086,14 +14217,18 @@
     "huashengdun": "huashengdun",
     "乔治·华盛顿": "huashengdun",
     "George Washington": "huashengdun",
+    "huo-geng-nong-ye": "huo-geng-nong-ye",
+    "火耕农业": "huo-geng-nong-ye",
+    "火耕": "huo-geng-nong-ye",
+    "刀耕火种": "huo-geng-nong-ye",
+    "火耕法": "huo-geng-nong-ye",
+    "fire-stick farming": "huo-geng-nong-ye",
     "huo-pu-wei-er-wen-hua": "huo-pu-wei-er-wen-hua",
     "Hopewell culture": "huo-pu-wei-er-wen-hua",
     "霍普韦尔": "huo-pu-wei-er-wen-hua",
     "火": "火",
     "fire": "火",
     "用火": "火",
-    "火耕": "火",
-    "火耕农业": "火",
     "火器": "火器",
     "火药武器": "火器",
     "枪械": "火器",
@@ -14122,6 +14257,11 @@
     "霍乱弧菌": "霍乱",
     "黄河": "黄河",
     "Yellow River": "黄河",
+    "ji-pu": "ji-pu",
+    "基普": "ji-pu",
+    "Quipu": "ji-pu",
+    "结绳": "ji-pu",
+    "khipu": "ji-pu",
     "ji-shu-ting-zhi": "ji-shu-ting-zhi",
     "技术停滞": "ji-shu-ting-zhi",
     "technological stagnation": "ji-shu-ting-zhi",
@@ -14920,6 +15060,10 @@
     "豌豆": "豌豆",
     "pea": "豌豆",
     "Pisum sativum": "豌豆",
+    "wen-lan": "wen-lan",
+    "文兰": "wen-lan",
+    "Vinland": "wen-lan",
+    "文兰地区": "wen-lan",
     "文化": "文化",
     "culture": "文化",
     "文化因素": "文化",
@@ -14963,6 +15107,11 @@
     "西藏高原": "xi-zang-gao-yuan",
     "Tibetan Plateau": "xi-zang-gao-yuan",
     "青藏高原": "xi-zang-gao-yuan",
+    "xia-chao": "xia-chao",
+    "夏朝": "xia-chao",
+    "夏代": "xia-chao",
+    "夏王朝": "xia-chao",
+    "Xia dynasty": "xia-chao",
     "xian-wai-fu-cai": "xian-wai-fu-cai",
     "舷外浮材": "xian-wai-fu-cai",
     "舷外支架": "xian-wai-fu-cai",
@@ -15325,6 +15474,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 566,
-  "generated": "2026-05-26T13:19:29Z"
+  "page_count": 571,
+  "generated": "2026-05-26T13:20:23Z"
 }
