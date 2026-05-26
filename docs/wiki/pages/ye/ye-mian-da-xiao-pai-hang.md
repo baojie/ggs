@@ -4,10 +4,9 @@ type: list
 label: 页面大小排行
 aliases: [内容量排行, 页面内容排行, page size ranking]
 tags: [索引, 统计]
-quality: basic
 description: 按正文长度（prose_chars）排序的词条页面排行，反映各页面内容量的分布
+quality: standard
 ---
-
 ## 简介
 
 本页按正文长度（prose_chars）聚合展示各词条。正文长度反映页面的信息密度和完整度，是衡量内容充实程度的重要指标。

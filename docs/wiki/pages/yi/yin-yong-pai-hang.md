@@ -4,10 +4,9 @@ type: list
 label: 引用排行
 aliases: [引用索引, 词条引用排行, ref ranking]
 tags: [索引, 引用, 统计]
-quality: basic
 description: 按引用数统计的本 wiki 词条排行，反映词条间的链接密度和核心度
+quality: basic
 ---
-
 ## 简介
 
 本页按引用数（total_refs）聚合展示各词条。引用数反映其他词条页面对该词条的链接频率，是衡量词条核心度的重要指标。引用越高的词条在戴蒙德的论述中越具枢纽地位。
