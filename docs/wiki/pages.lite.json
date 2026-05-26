@@ -181,6 +181,15 @@
       ],
       "path": "ao/澳大利亚.md"
     },
+    "a-pa-qie-zu": {
+      "type": "person",
+      "label": "阿帕切族",
+      "aliases": [
+        "Apache",
+        "阿帕奇"
+      ],
+      "path": "ap/a-pa-qie-zu.md"
+    },
     "阿塔瓦尔帕": {
       "type": "person",
       "label": "阿塔瓦尔帕",
@@ -1719,6 +1728,15 @@
       ],
       "path": "he/he-tuo.md"
     },
+    "heng-he-ping-yuan": {
+      "type": "place",
+      "label": "恒河平原",
+      "aliases": [
+        "Ganges Plain",
+        "恒河平原"
+      ],
+      "path": "he/heng-he-ping-yuan.md"
+    },
     "河流": {
       "type": "concept",
       "label": "河流",
@@ -1738,6 +1756,17 @@
         "1346年鼠疫"
       ],
       "path": "he/黑死病.md"
+    },
+    "hu-lu": {
+      "type": "species",
+      "label": "葫芦",
+      "aliases": [
+        "bottle gourd",
+        "calabash",
+        "瓠瓜",
+        "Lagenaria"
+      ],
+      "path": "hu/hu-lu.md"
     },
     "huang-re-bing": {
       "type": "concept",
@@ -2222,6 +2251,14 @@
         "考古发掘"
       ],
       "path": "ka/考古遗址.md"
+    },
+    "ke-luo-la-duo-he": {
+      "type": "place",
+      "label": "科罗拉多河",
+      "aliases": [
+        "Colorado River"
+      ],
+      "path": "ke/ke-luo-la-duo-he.md"
     },
     "ke-luo-ma-nu-ren": {
       "type": "concept",
@@ -4304,6 +4341,15 @@
       ],
       "path": "wa/豌豆.md"
     },
+    "wen-hua-te-zhi": {
+      "type": "concept",
+      "label": "文化特质",
+      "aliases": [
+        "cultural trait",
+        "文化特征"
+      ],
+      "path": "we/wen-hua-te-zhi.md"
+    },
     "wen-lan": {
       "type": "place",
       "label": "文兰",
@@ -5772,6 +5818,10 @@
     "澳大利亚": "aodaliya",
     "Australia": "aodaliya",
     "澳洲": "澳大利亚",
+    "a-pa-qie-zu": "a-pa-qie-zu",
+    "阿帕切族": "a-pa-qie-zu",
+    "Apache": "a-pa-qie-zu",
+    "阿帕奇": "a-pa-qie-zu",
     "阿塔瓦尔帕": "阿塔瓦尔帕",
     "Atahualpa": "阿塔瓦尔帕",
     "阿塔华帕": "阿塔瓦尔帕",
@@ -6325,6 +6375,9 @@
     "he-tuo": "he-tuo",
     "鹤鸵": "he-tuo",
     "cassowary": "he-tuo",
+    "heng-he-ping-yuan": "heng-he-ping-yuan",
+    "恒河平原": "heng-he-ping-yuan",
+    "Ganges Plain": "heng-he-ping-yuan",
     "河流": "河流",
     "水道": "河流",
     "可通航河流": "河流",
@@ -6333,6 +6386,12 @@
     "Black Death": "黑死病",
     "腺鼠疫": "黑死病",
     "1346年鼠疫": "黑死病",
+    "hu-lu": "hu-lu",
+    "葫芦": "hu-lu",
+    "bottle gourd": "hu-lu",
+    "calabash": "hu-lu",
+    "瓠瓜": "hu-lu",
+    "Lagenaria": "hu-lu",
     "huang-re-bing": "huang-re-bing",
     "黄热病": "huang-re-bing",
     "yellow fever": "huang-re-bing",
@@ -6508,6 +6567,9 @@
     "考古遗址": "考古遗址",
     "遗址": "考古遗址",
     "考古发掘": "考古遗址",
+    "ke-luo-la-duo-he": "ke-luo-la-duo-he",
+    "科罗拉多河": "ke-luo-la-duo-he",
+    "Colorado River": "ke-luo-la-duo-he",
     "ke-luo-ma-nu-ren": "ke-luo-ma-nu-ren",
     "克罗马努人": "ke-luo-ma-nu-ren",
     "Cro-Magnon": "ke-luo-ma-nu-ren",
@@ -7244,6 +7306,10 @@
     "豌豆": "豌豆",
     "pea": "豌豆",
     "Pisum sativum": "豌豆",
+    "wen-hua-te-zhi": "wen-hua-te-zhi",
+    "文化特质": "wen-hua-te-zhi",
+    "cultural trait": "wen-hua-te-zhi",
+    "文化特征": "wen-hua-te-zhi",
     "wen-lan": "wen-lan",
     "文兰": "wen-lan",
     "Vinland": "wen-lan",
@@ -7743,6 +7809,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 623,
-  "generated": "2026-05-26T16:43:50Z"
+  "page_count": 628,
+  "generated": "2026-05-26T16:53:23Z"
 }
