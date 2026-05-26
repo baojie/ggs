@@ -1802,18 +1802,19 @@
       "tags": [
         "植物",
         "农作物",
-        "驯化种"
+        "驯化种",
+        "果树"
       ],
       "path": "pages/ga/橄榄.md",
       "description": "地中海地区最早驯化的果树之一，其油脂是古代文明重要的食用油来源",
-      "prose_len": 707,
-      "prose_chars": 648,
-      "h2_count": 5,
+      "prose_len": 1027,
+      "prose_chars": 950,
+      "h2_count": 6,
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 27,
+      "quality": "featured",
+      "quality_score": 60,
       "total_refs": 3
     },
     "甘薯": {
@@ -1827,18 +1828,19 @@
       "tags": [
         "植物",
         "农作物",
-        "驯化种"
+        "驯化种",
+        "根用作物"
       ],
       "path": "pages/ga/甘薯.md",
       "description": "原产南美洲安第斯山脉的根用作物，传入新几内亚后引发人口激增",
-      "prose_len": 633,
-      "prose_chars": 574,
-      "h2_count": 5,
+      "prose_len": 1145,
+      "prose_chars": 1049,
+      "h2_count": 7,
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 61,
       "total_refs": 3
     },
     "钢铁": {
@@ -3037,18 +3039,19 @@
       "tags": [
         "动物",
         "家畜",
-        "驯化种"
+        "驯化种",
+        "鸟类"
       ],
       "path": "pages/ji/鸡.md",
       "description": "最早被驯化的鸟类之一，原产于中国和东南亚，为人类提供肉食和蛋类",
-      "prose_len": 638,
-      "prose_chars": 579,
-      "h2_count": 5,
+      "prose_len": 909,
+      "prose_chars": 830,
+      "h2_count": 6,
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 26,
+      "quality": "featured",
+      "quality_score": 59,
       "total_refs": 4
     },
     "军事征服": {
@@ -4055,24 +4058,24 @@
       "aliases": [
         "美洲驼",
         "大羊驼",
-        "llama",
-        "南美小羊驼"
+        "llama"
       ],
       "tags": [
         "动物",
         "家畜",
-        "驯化种"
+        "驯化种",
+        "驮畜"
       ],
       "path": "pages/me/美洲驼.md",
       "description": "安第斯山脉地区驯化的重要哺乳动物，是哥伦布前美洲唯一的驮畜",
-      "prose_len": 726,
-      "prose_chars": 666,
-      "h2_count": 5,
+      "prose_len": 1046,
+      "prose_chars": 964,
+      "h2_count": 6,
       "pn_count": 0,
       "wikilink_count": 5,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 27,
+      "quality": "featured",
+      "quality_score": 60,
       "total_refs": 3
     },
     "蒙特朱马": {
@@ -7250,18 +7253,19 @@
       ],
       "tags": [
         "语言",
-        "历史"
+        "历史",
+        "人口迁徙"
       ],
       "path": "pages/yu/语系.md",
       "description": "具有共同祖先语言的一组语言的分类，用于追溯人类迁徙和族群扩张的历史",
-      "prose_len": 1021,
-      "prose_chars": 961,
-      "h2_count": 5,
+      "prose_len": 1361,
+      "prose_chars": 1223,
+      "h2_count": 6,
       "pn_count": 0,
       "wikilink_count": 4,
       "blockquote_count": 0,
-      "quality": "standard",
-      "quality_score": 30,
+      "quality": "featured",
+      "quality_score": 63,
       "total_refs": 5
     },
     "语言": {
@@ -8603,7 +8607,6 @@
     "美洲驼": "美洲驼",
     "大羊驼": "美洲驼",
     "llama": "美洲驼",
-    "南美小羊驼": "美洲驼",
     "蒙特朱马": "蒙特朱马",
     "Moctezuma": "蒙特朱马",
     "蒙特苏马": "蒙特朱马",
@@ -9160,5 +9163,5 @@
     "农业传播": "作物传播"
   },
   "page_count": 336,
-  "generated": "2026-05-26T01:21:43Z"
+  "generated": "2026-05-26T01:23:51Z"
 }
