@@ -1010,7 +1010,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 25
+      "total_refs": 26
     },
     "玻璃": {
       "type": "concept",
@@ -1084,7 +1084,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 10
+      "total_refs": 13
     },
     "cai-cai-ying": {
       "type": "species",
@@ -1958,6 +1958,32 @@
       "quality_score": 10,
       "total_refs": 0
     },
+    "da-ren-wu": {
+      "type": "concept",
+      "label": "大人物",
+      "aliases": [
+        "Big Man",
+        "大人物制度",
+        "大人物体制"
+      ],
+      "tags": [
+        "政治",
+        "社会",
+        "新几内亚",
+        "部落"
+      ],
+      "path": "da/da-ren-wu.md",
+      "description": "新几内亚和太平洋岛屿部落社会中的非正式权威人物，靠个人德性获得影响力而非世袭职位，是酋长制的前身",
+      "prose_len": 640,
+      "prose_chars": 591,
+      "h2_count": 4,
+      "pn_count": 5,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 11,
+      "total_refs": 0
+    },
     "dagama": {
       "type": "person",
       "label": "瓦斯科·达·伽马",
@@ -2028,6 +2054,31 @@
       "quality": "basic",
       "quality_score": 10,
       "total_refs": 1
+    },
+    "dao-zei-tong-zhi": {
+      "type": "concept",
+      "label": "盗贼统治",
+      "aliases": [
+        "kleptocracy",
+        "盗贼统治制度",
+        "盗贼政治"
+      ],
+      "tags": [
+        "政治",
+        "社会",
+        "不平等"
+      ],
+      "path": "da/dao-zei-tong-zhi.md",
+      "description": "统治阶层将公共财富据为己有的政治体制，戴蒙德用以解释酋长管辖地和国家中上层阶级与平民之间的财富不平等",
+      "prose_len": 696,
+      "prose_chars": 646,
+      "h2_count": 4,
+      "pn_count": 4,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 11,
+      "total_refs": 0
     },
     "大豆": {
       "type": "species",
@@ -3165,6 +3216,31 @@
       "quality_score": 11,
       "total_refs": 1
     },
+    "fu-lei-ren": {
+      "type": "person",
+      "label": "福雷人",
+      "aliases": [
+        "Fore",
+        "福雷族"
+      ],
+      "tags": [
+        "民族",
+        "新几内亚",
+        "疾病",
+        "部落"
+      ],
+      "path": "fu/fu-lei-ren.md",
+      "description": "新几内亚高原地区的民族，以库鲁病的传播研究而闻名，戴蒙德以此说明部落社会结构和人口规模",
+      "prose_len": 594,
+      "prose_chars": 541,
+      "h2_count": 4,
+      "pn_count": 4,
+      "wikilink_count": 4,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 10,
+      "total_refs": 0
+    },
     "fuhuojiedao": {
       "type": "place",
       "label": "复活节岛",
@@ -3656,7 +3732,7 @@
       "blockquote_count": 2,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 26
+      "total_refs": 27
     },
     "国家的形成": {
       "type": "event",
@@ -5432,7 +5508,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 0
+      "total_refs": 1
     },
     "kua-xue-ke-fang-fa": {
       "type": "concept",
@@ -5725,6 +5801,31 @@
       "quality": "featured",
       "quality_score": 60,
       "total_refs": 103
+    },
+    "lun-na-er-dao": {
+      "type": "place",
+      "label": "伦纳尔岛",
+      "aliases": [
+        "Rennell Island",
+        "伦内尔岛",
+        "穆基基"
+      ],
+      "tags": [
+        "地理",
+        "波利尼西亚",
+        "所罗门群岛"
+      ],
+      "path": "lu/lun-na-er-dao.md",
+      "description": "所罗门群岛最南端的珊瑚岛，波利尼西亚社会的典型代表，戴蒙德以其酋长制作为族群到国家的社会演化案例",
+      "prose_len": 581,
+      "prose_chars": 527,
+      "h2_count": 4,
+      "pn_count": 3,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 10,
+      "total_refs": 0
     },
     "luoma-diguo": {
       "type": "event",
@@ -6833,7 +6934,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 2
+      "total_refs": 3
     },
     "灭绝": {
       "type": "concept",
@@ -8120,7 +8221,7 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 9,
-      "total_refs": 8
+      "total_refs": 12
     },
     "青铜": {
       "type": "concept",
@@ -8804,6 +8905,31 @@
       "blockquote_count": 0,
       "quality": "basic",
       "quality_score": 10,
+      "total_refs": 1
+    },
+    "shi-zu": {
+      "type": "concept",
+      "label": "氏族",
+      "aliases": [
+        "clan",
+        "宗族",
+        "氏族制度"
+      ],
+      "tags": [
+        "社会",
+        "人类学",
+        "组织"
+      ],
+      "path": "sh/shi-zu.md",
+      "description": "以共同祖先为基础的亲属社会组织，是部落和酋长管辖地的社会基本单元",
+      "prose_len": 631,
+      "prose_chars": 577,
+      "h2_count": 4,
+      "pn_count": 4,
+      "wikilink_count": 3,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 11,
       "total_refs": 1
     },
     "书写": {
@@ -10819,7 +10945,7 @@
       "blockquote_count": 0,
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 19
+      "total_refs": 20
     },
     "新月沃地": {
       "type": "concept",
@@ -13347,6 +13473,11 @@
     "eland": "da-jiao-ban-ling",
     "非洲大羚羊": "da-jiao-ban-ling",
     "大羚羊": "da-jiao-ban-ling",
+    "da-ren-wu": "da-ren-wu",
+    "大人物": "da-ren-wu",
+    "Big Man": "da-ren-wu",
+    "大人物制度": "da-ren-wu",
+    "大人物体制": "da-ren-wu",
     "dagama": "dagama",
     "瓦斯科·达·伽马": "dagama",
     "Vasco da Gama": "dagama",
@@ -13359,6 +13490,11 @@
     "单粒小麦": "dan-li-xiao-mai",
     "einkorn wheat": "dan-li-xiao-mai",
     "一粒小麦": "dan-li-xiao-mai",
+    "dao-zei-tong-zhi": "dao-zei-tong-zhi",
+    "盗贼统治": "dao-zei-tong-zhi",
+    "kleptocracy": "dao-zei-tong-zhi",
+    "盗贼统治制度": "dao-zei-tong-zhi",
+    "盗贼政治": "dao-zei-tong-zhi",
     "大豆": "大豆",
     "soybean": "大豆",
     "黄豆": "大豆",
@@ -13509,6 +13645,10 @@
     "Francis Galton": "fu-lang-xi-si-gao-er-dun",
     "高尔顿": "fu-lang-xi-si-gao-er-dun",
     "法兰西斯·高尔顿": "fu-lang-xi-si-gao-er-dun",
+    "fu-lei-ren": "fu-lei-ren",
+    "福雷人": "fu-lei-ren",
+    "Fore": "fu-lei-ren",
+    "福雷族": "fu-lei-ren",
     "fuhuojiedao": "fuhuojiedao",
     "复活节岛": "fuhuojiedao",
     "Easter Island": "fuhuojiedao",
@@ -13874,6 +14014,11 @@
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
     "农耕": "粮食生产",
+    "lun-na-er-dao": "lun-na-er-dao",
+    "伦纳尔岛": "lun-na-er-dao",
+    "Rennell Island": "lun-na-er-dao",
+    "伦内尔岛": "lun-na-er-dao",
+    "穆基基": "lun-na-er-dao",
     "luoma-diguo": "luoma-diguo",
     "罗马帝国": "luoma-diguo",
     "Roman Empire": "luoma-diguo",
@@ -14267,6 +14412,11 @@
     "社会复杂化": "she-hui-fu-za-hua",
     "social complexity": "she-hui-fu-za-hua",
     "社会演化": "she-hui-fu-za-hua",
+    "shi-zu": "shi-zu",
+    "氏族": "shi-zu",
+    "clan": "shi-zu",
+    "宗族": "shi-zu",
+    "氏族制度": "shi-zu",
     "书写": "书写",
     "writing": "书写",
     "文字书写": "书写",
@@ -14833,6 +14983,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 549,
-  "generated": "2026-05-26T12:58:04Z"
+  "page_count": 554,
+  "generated": "2026-05-26T12:59:26Z"
 }

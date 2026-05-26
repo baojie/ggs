@@ -740,6 +740,16 @@
       ],
       "path": "da/da-jiao-ban-ling.md"
     },
+    "da-ren-wu": {
+      "type": "concept",
+      "label": "大人物",
+      "aliases": [
+        "Big Man",
+        "大人物制度",
+        "大人物体制"
+      ],
+      "path": "da/da-ren-wu.md"
+    },
     "dagama": {
       "type": "person",
       "label": "瓦斯科·达·伽马",
@@ -766,6 +776,16 @@
         "一粒小麦"
       ],
       "path": "da/dan-li-xiao-mai.md"
+    },
+    "dao-zei-tong-zhi": {
+      "type": "concept",
+      "label": "盗贼统治",
+      "aliases": [
+        "kleptocracy",
+        "盗贼统治制度",
+        "盗贼政治"
+      ],
+      "path": "da/dao-zei-tong-zhi.md"
     },
     "大豆": {
       "type": "species",
@@ -1199,6 +1219,15 @@
         "法兰西斯·高尔顿"
       ],
       "path": "fu/fu-lang-xi-si-gao-er-dun.md"
+    },
+    "fu-lei-ren": {
+      "type": "person",
+      "label": "福雷人",
+      "aliases": [
+        "Fore",
+        "福雷族"
+      ],
+      "path": "fu/fu-lei-ren.md"
     },
     "fuhuojiedao": {
       "type": "place",
@@ -2189,6 +2218,16 @@
         "农耕"
       ],
       "path": "li/粮食生产.md"
+    },
+    "lun-na-er-dao": {
+      "type": "place",
+      "label": "伦纳尔岛",
+      "aliases": [
+        "Rennell Island",
+        "伦内尔岛",
+        "穆基基"
+      ],
+      "path": "lu/lun-na-er-dao.md"
     },
     "luoma-diguo": {
       "type": "event",
@@ -3365,6 +3404,16 @@
         "社会演化"
       ],
       "path": "sh/she-hui-fu-za-hua.md"
+    },
+    "shi-zu": {
+      "type": "concept",
+      "label": "氏族",
+      "aliases": [
+        "clan",
+        "宗族",
+        "氏族制度"
+      ],
+      "path": "sh/shi-zu.md"
     },
     "书写": {
       "type": "concept",
@@ -5269,6 +5318,11 @@
     "eland": "da-jiao-ban-ling",
     "非洲大羚羊": "da-jiao-ban-ling",
     "大羚羊": "da-jiao-ban-ling",
+    "da-ren-wu": "da-ren-wu",
+    "大人物": "da-ren-wu",
+    "Big Man": "da-ren-wu",
+    "大人物制度": "da-ren-wu",
+    "大人物体制": "da-ren-wu",
     "dagama": "dagama",
     "瓦斯科·达·伽马": "dagama",
     "Vasco da Gama": "dagama",
@@ -5281,6 +5335,11 @@
     "单粒小麦": "dan-li-xiao-mai",
     "einkorn wheat": "dan-li-xiao-mai",
     "一粒小麦": "dan-li-xiao-mai",
+    "dao-zei-tong-zhi": "dao-zei-tong-zhi",
+    "盗贼统治": "dao-zei-tong-zhi",
+    "kleptocracy": "dao-zei-tong-zhi",
+    "盗贼统治制度": "dao-zei-tong-zhi",
+    "盗贼政治": "dao-zei-tong-zhi",
     "大豆": "大豆",
     "soybean": "大豆",
     "黄豆": "大豆",
@@ -5431,6 +5490,10 @@
     "Francis Galton": "fu-lang-xi-si-gao-er-dun",
     "高尔顿": "fu-lang-xi-si-gao-er-dun",
     "法兰西斯·高尔顿": "fu-lang-xi-si-gao-er-dun",
+    "fu-lei-ren": "fu-lei-ren",
+    "福雷人": "fu-lei-ren",
+    "Fore": "fu-lei-ren",
+    "福雷族": "fu-lei-ren",
     "fuhuojiedao": "fuhuojiedao",
     "复活节岛": "fuhuojiedao",
     "Easter Island": "fuhuojiedao",
@@ -5796,6 +5859,11 @@
     "农业生产": "粮食生产",
     "食物生产": "粮食生产",
     "农耕": "粮食生产",
+    "lun-na-er-dao": "lun-na-er-dao",
+    "伦纳尔岛": "lun-na-er-dao",
+    "Rennell Island": "lun-na-er-dao",
+    "伦内尔岛": "lun-na-er-dao",
+    "穆基基": "lun-na-er-dao",
     "luoma-diguo": "luoma-diguo",
     "罗马帝国": "luoma-diguo",
     "Roman Empire": "luoma-diguo",
@@ -6189,6 +6257,11 @@
     "社会复杂化": "she-hui-fu-za-hua",
     "social complexity": "she-hui-fu-za-hua",
     "社会演化": "she-hui-fu-za-hua",
+    "shi-zu": "shi-zu",
+    "氏族": "shi-zu",
+    "clan": "shi-zu",
+    "宗族": "shi-zu",
+    "氏族制度": "shi-zu",
     "书写": "书写",
     "writing": "书写",
     "文字书写": "书写",
@@ -6755,6 +6828,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 549,
-  "generated": "2026-05-26T12:58:04Z"
+  "page_count": 554,
+  "generated": "2026-05-26T12:59:26Z"
 }
