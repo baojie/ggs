@@ -1537,6 +1537,29 @@
       "quality_score": 7,
       "total_refs": 0
     },
+    "德国": {
+      "type": "place",
+      "label": "德国",
+      "aliases": [
+        "Germany",
+        "德意志"
+      ],
+      "tags": [
+        "地理",
+        "欧洲"
+      ],
+      "path": "de/德国.md",
+      "description": "位于中欧的重要国家，其历史发展受益于欧亚大陆东西轴线带来的农业传播优势",
+      "prose_len": 207,
+      "prose_chars": 207,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 1
+    },
     "地中海地区": {
       "type": "place",
       "label": "地中海地区",
@@ -6094,6 +6117,29 @@
       "quality_score": 59,
       "total_refs": 2
     },
+    "塞阔雅": {
+      "type": "person",
+      "label": "塞阔雅",
+      "aliases": [
+        "Sequoyah",
+        "斯奎亚"
+      ],
+      "tags": [
+        "人物",
+        "文字"
+      ],
+      "path": "sa/塞阔雅.md",
+      "description": "切罗基人学者，独立创造了切罗基文字，是文字独立起源的重要案例",
+      "prose_len": 205,
+      "prose_chars": 205,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 1
+    },
     "萨赫勒地带": {
       "type": "place",
       "label": "萨赫勒地带",
@@ -6432,6 +6478,30 @@
       "quality": "featured",
       "quality_score": 57,
       "total_refs": 0
+    },
+    "牲口": {
+      "type": "concept",
+      "label": "牲口",
+      "aliases": [
+        "牲畜",
+        "家畜",
+        "役畜"
+      ],
+      "tags": [
+        "农业",
+        "动物"
+      ],
+      "path": "sh/牲口.md",
+      "description": "供役使、食用或提供畜产品的驯化动物，是粮食生产和人类文明的重要支撑",
+      "prose_len": 224,
+      "prose_chars": 224,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 1
     },
     "狩猎": {
       "type": "concept",
@@ -8538,6 +8608,29 @@
       "quality_score": 59,
       "total_refs": 2
     },
+    "语言学证据": {
+      "type": "concept",
+      "label": "语言学证据",
+      "aliases": [
+        "语言证据",
+        "历史语言学"
+      ],
+      "tags": [
+        "方法",
+        "语言"
+      ],
+      "path": "yu/语言学证据.md",
+      "description": "通过比较语言之间的亲缘关系和词汇重建来推断历史人口迁徙和文化接触的方法",
+      "prose_len": 192,
+      "prose_chars": 192,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 6,
+      "total_refs": 1
+    },
     "运输": {
       "type": "concept",
       "label": "运输",
@@ -9123,6 +9216,30 @@
       "quality_score": 6,
       "total_refs": 0
     },
+    "长江": {
+      "type": "place",
+      "label": "长江",
+      "aliases": [
+        "Yangtze",
+        "扬子江"
+      ],
+      "tags": [
+        "地理",
+        "中国",
+        "农业"
+      ],
+      "path": "zh/长江.md",
+      "description": "中国最长的河流，长江流域是世界上最早的水稻驯化地区之一",
+      "prose_len": 209,
+      "prose_chars": 209,
+      "h2_count": 0,
+      "pn_count": 0,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "basic",
+      "quality_score": 7,
+      "total_refs": 1
+    },
     "字母": {
       "type": "concept",
       "label": "字母",
@@ -9535,6 +9652,9 @@
     "Charles Darwin": "达尔文",
     "道路": "道路",
     "通道": "道路",
+    "德国": "德国",
+    "Germany": "德国",
+    "德意志": "德国",
     "地中海地区": "地中海地区",
     "地中海气候带": "地中海地区",
     "Mediterranean": "地中海地区",
@@ -10159,6 +10279,9 @@
     "sahala": "sahala",
     "撒哈拉": "sahala",
     "Sahara": "sahala",
+    "塞阔雅": "塞阔雅",
+    "Sequoyah": "塞阔雅",
+    "斯奎亚": "塞阔雅",
     "萨赫勒地带": "萨赫勒地带",
     "萨赫勒": "萨赫勒地带",
     "Sahel": "萨赫勒地带",
@@ -10206,6 +10329,8 @@
     "撒哈拉沙漠": "沙漠",
     "干旱区": "沙漠",
     "desert": "沙漠",
+    "牲口": "牲口",
+    "役畜": "牲口",
     "狩猎": "狩猎",
     "打猎": "狩猎",
     "狩猎采集": "狩猎",
@@ -10486,6 +10611,8 @@
     "linguistics": "语言学",
     "历史语言学": "语言学",
     "语言分类": "语言学",
+    "语言学证据": "语言学证据",
+    "语言证据": "语言学证据",
     "运输": "运输",
     "交通运输": "运输",
     "物资运输": "运输",
@@ -10561,6 +10688,9 @@
     "纸张": "纸张",
     "纸": "纸张",
     "paper": "纸张",
+    "长江": "长江",
+    "Yangtze": "长江",
+    "扬子江": "长江",
     "字母": "字母",
     "字母表": "字母",
     "表音文字": "字母",
@@ -10596,6 +10726,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 392,
-  "generated": "2026-05-26T01:43:08Z"
+  "page_count": 397,
+  "generated": "2026-05-26T01:43:49Z"
 }
