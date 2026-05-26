@@ -271,6 +271,16 @@
       ],
       "path": "ba/ban-zhen-shang-han.md"
     },
+    "bao-chuan-dui": {
+      "type": "event",
+      "label": "宝船队",
+      "aliases": [
+        "treasure fleet",
+        "郑和船队",
+        "大明宝船"
+      ],
+      "path": "ba/bao-chuan-dui.md"
+    },
     "半岛": {
       "type": "concept",
       "label": "半岛",
@@ -3585,6 +3595,16 @@
       ],
       "path": "sh/she-hui-fu-za-hua.md"
     },
+    "sheng-tai-zi-sha": {
+      "type": "concept",
+      "label": "生态自杀",
+      "aliases": [
+        "ecocide",
+        "环境自杀",
+        "ecological suicide"
+      ],
+      "path": "sh/sheng-tai-zi-sha.md"
+    },
     "shi-zu": {
       "type": "concept",
       "label": "氏族",
@@ -4545,6 +4565,15 @@
       ],
       "path": "xu/驯鹿.md"
     },
+    "ya-nuo-ma-ma-ren": {
+      "type": "person",
+      "label": "雅诺马马人",
+      "aliases": [
+        "Yanomami",
+        "亚诺马米人"
+      ],
+      "path": "ya/ya-nuo-ma-ma-ren.md"
+    },
     "ya-xi-ren": {
       "type": "person",
       "label": "亚希人",
@@ -4875,6 +4904,15 @@
       ],
       "path": "yi/鹰嘴豆.md"
     },
+    "you-ta-a-zi-te-ke-zhu-yu-yan": {
+      "type": "concept",
+      "label": "尤他-阿兹特克诸语言",
+      "aliases": [
+        "Uto-Aztecan languages",
+        "犹他-阿兹特克语系"
+      ],
+      "path": "yo/you-ta-a-zi-te-ke-zhu-yu-yan.md"
+    },
     "游牧": {
       "type": "concept",
       "label": "游牧",
@@ -5018,6 +5056,16 @@
         "骑兵"
       ],
       "path": "zh/zhan-ma.md"
+    },
+    "zheng-he": {
+      "type": "person",
+      "label": "郑和",
+      "aliases": [
+        "Zheng He",
+        "马和",
+        "三宝太监"
+      ],
+      "path": "zh/zheng-he.md"
     },
     "zhengfu": {
       "type": "concept",
@@ -5493,6 +5541,11 @@
     "ban-zhen-shang-han": "ban-zhen-shang-han",
     "斑疹伤寒": "ban-zhen-shang-han",
     "typhus": "ban-zhen-shang-han",
+    "bao-chuan-dui": "bao-chuan-dui",
+    "宝船队": "bao-chuan-dui",
+    "treasure fleet": "bao-chuan-dui",
+    "郑和船队": "bao-chuan-dui",
+    "大明宝船": "bao-chuan-dui",
     "半岛": "半岛",
     "半岛地形": "半岛",
     "巴拿马地峡": "巴拿马地峡",
@@ -6660,6 +6713,11 @@
     "社会复杂化": "she-hui-fu-za-hua",
     "social complexity": "she-hui-fu-za-hua",
     "社会演化": "she-hui-fu-za-hua",
+    "sheng-tai-zi-sha": "sheng-tai-zi-sha",
+    "生态自杀": "sheng-tai-zi-sha",
+    "ecocide": "sheng-tai-zi-sha",
+    "环境自杀": "sheng-tai-zi-sha",
+    "ecological suicide": "sheng-tai-zi-sha",
     "shi-zu": "shi-zu",
     "氏族": "shi-zu",
     "clan": "shi-zu",
@@ -7011,6 +7069,10 @@
     "驯鹿": "驯鹿",
     "reindeer": "驯鹿",
     "caribou": "驯鹿",
+    "ya-nuo-ma-ma-ren": "ya-nuo-ma-ma-ren",
+    "雅诺马马人": "ya-nuo-ma-ma-ren",
+    "Yanomami": "ya-nuo-ma-ma-ren",
+    "亚诺马米人": "ya-nuo-ma-ma-ren",
     "ya-xi-ren": "ya-xi-ren",
     "亚希人": "ya-xi-ren",
     "Yahi": "ya-xi-ren",
@@ -7114,6 +7176,10 @@
     "鹰嘴豆": "鹰嘴豆",
     "chickpea": "鹰嘴豆",
     "埃及豆": "鹰嘴豆",
+    "you-ta-a-zi-te-ke-zhu-yu-yan": "you-ta-a-zi-te-ke-zhu-yu-yan",
+    "尤他-阿兹特克诸语言": "you-ta-a-zi-te-ke-zhu-yu-yan",
+    "Uto-Aztecan languages": "you-ta-a-zi-te-ke-zhu-yu-yan",
+    "犹他-阿兹特克语系": "you-ta-a-zi-te-ke-zhu-yu-yan",
     "游牧": "游牧",
     "游牧生活": "游牧",
     "游牧族群": "游牧",
@@ -7168,6 +7234,11 @@
     "战马": "zhan-ma",
     "warhorse": "zhan-ma",
     "军马": "zhan-ma",
+    "zheng-he": "zheng-he",
+    "郑和": "zheng-he",
+    "Zheng He": "zheng-he",
+    "马和": "zheng-he",
+    "三宝太监": "zheng-he",
     "zhengfu": "zhengfu",
     "conquest": "zhengfu",
     "zhi-li-ren": "zhi-li-ren",
@@ -7294,6 +7365,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 588,
-  "generated": "2026-05-26T13:44:41Z"
+  "page_count": 593,
+  "generated": "2026-05-26T13:45:44Z"
 }

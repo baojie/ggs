@@ -706,6 +706,32 @@
       "quality_score": 30,
       "total_refs": 1
     },
+    "bao-chuan-dui": {
+      "type": "event",
+      "label": "宝船队",
+      "aliases": [
+        "treasure fleet",
+        "郑和船队",
+        "大明宝船"
+      ],
+      "tags": [
+        "航海",
+        "中国",
+        "探险",
+        "明朝"
+      ],
+      "path": "ba/bao-chuan-dui.md",
+      "description": "15世纪初中国明朝的远洋舰队，由郑和指挥，先后七次远航印度洋",
+      "prose_len": 230,
+      "prose_chars": 230,
+      "h2_count": 0,
+      "pn_count": 2,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "stub",
+      "quality_score": 2,
+      "total_refs": 0
+    },
     "半岛": {
       "type": "concept",
       "label": "半岛",
@@ -9369,6 +9395,32 @@
       "quality_score": 10,
       "total_refs": 1
     },
+    "sheng-tai-zi-sha": {
+      "type": "concept",
+      "label": "生态自杀",
+      "aliases": [
+        "ecocide",
+        "环境自杀",
+        "ecological suicide"
+      ],
+      "tags": [
+        "环境",
+        "文明",
+        "资源",
+        "新月沃地"
+      ],
+      "path": "sh/sheng-tai-zi-sha.md",
+      "description": "文明过度开发自然资源导致自身生存基础被破坏的现象，戴蒙德用以解释新月沃地丧失领先优势的原因",
+      "prose_len": 218,
+      "prose_chars": 218,
+      "h2_count": 0,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "stub",
+      "quality_score": 2,
+      "total_refs": 0
+    },
     "shi-zu": {
       "type": "concept",
       "label": "氏族",
@@ -11860,6 +11912,30 @@
       "quality_score": 9,
       "total_refs": 0
     },
+    "ya-nuo-ma-ma-ren": {
+      "type": "person",
+      "label": "雅诺马马人",
+      "aliases": [
+        "Yanomami",
+        "亚诺马米人"
+      ],
+      "tags": [
+        "亚马孙",
+        "原住民",
+        "南美洲"
+      ],
+      "path": "ya/ya-nuo-ma-ma-ren.md",
+      "description": "亚马孙雨林中至今保持独立的原住民族群，戴蒙德用以例证美洲原住民社会在殖民挤压下生存的多样性",
+      "prose_len": 172,
+      "prose_chars": 172,
+      "h2_count": 0,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "stub",
+      "quality_score": 1,
+      "total_refs": 0
+    },
     "ya-xi-ren": {
       "type": "person",
       "label": "亚希人",
@@ -12729,6 +12805,30 @@
       "quality_score": 10,
       "total_refs": 2
     },
+    "you-ta-a-zi-te-ke-zhu-yu-yan": {
+      "type": "concept",
+      "label": "尤他-阿兹特克诸语言",
+      "aliases": [
+        "Uto-Aztecan languages",
+        "犹他-阿兹特克语系"
+      ],
+      "tags": [
+        "语言",
+        "北美洲",
+        "中美洲"
+      ],
+      "path": "yo/you-ta-a-zi-te-ke-zhu-yu-yan.md",
+      "description": "北美西南部至中美洲的印第安语言语系，分布范围从美国俄勒冈州直到中美洲",
+      "prose_len": 191,
+      "prose_chars": 191,
+      "h2_count": 0,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "stub",
+      "quality_score": 1,
+      "total_refs": 0
+    },
     "游牧": {
       "type": "concept",
       "label": "游牧",
@@ -13096,6 +13196,31 @@
       "quality": "basic",
       "quality_score": 9,
       "total_refs": 1
+    },
+    "zheng-he": {
+      "type": "person",
+      "label": "郑和",
+      "aliases": [
+        "Zheng He",
+        "马和",
+        "三宝太监"
+      ],
+      "tags": [
+        "航海",
+        "中国",
+        "探险"
+      ],
+      "path": "zh/zheng-he.md",
+      "description": "明代航海家，率领宝船队七次远航印度洋，最远到达非洲东海岸",
+      "prose_len": 196,
+      "prose_chars": 196,
+      "h2_count": 0,
+      "pn_count": 1,
+      "wikilink_count": 0,
+      "blockquote_count": 0,
+      "quality": "stub",
+      "quality_score": 1,
+      "total_refs": 0
     },
     "zhengfu": {
       "type": "concept",
@@ -14155,6 +14280,11 @@
     "ban-zhen-shang-han": "ban-zhen-shang-han",
     "斑疹伤寒": "ban-zhen-shang-han",
     "typhus": "ban-zhen-shang-han",
+    "bao-chuan-dui": "bao-chuan-dui",
+    "宝船队": "bao-chuan-dui",
+    "treasure fleet": "bao-chuan-dui",
+    "郑和船队": "bao-chuan-dui",
+    "大明宝船": "bao-chuan-dui",
     "半岛": "半岛",
     "半岛地形": "半岛",
     "巴拿马地峡": "巴拿马地峡",
@@ -15322,6 +15452,11 @@
     "社会复杂化": "she-hui-fu-za-hua",
     "social complexity": "she-hui-fu-za-hua",
     "社会演化": "she-hui-fu-za-hua",
+    "sheng-tai-zi-sha": "sheng-tai-zi-sha",
+    "生态自杀": "sheng-tai-zi-sha",
+    "ecocide": "sheng-tai-zi-sha",
+    "环境自杀": "sheng-tai-zi-sha",
+    "ecological suicide": "sheng-tai-zi-sha",
     "shi-zu": "shi-zu",
     "氏族": "shi-zu",
     "clan": "shi-zu",
@@ -15673,6 +15808,10 @@
     "驯鹿": "驯鹿",
     "reindeer": "驯鹿",
     "caribou": "驯鹿",
+    "ya-nuo-ma-ma-ren": "ya-nuo-ma-ma-ren",
+    "雅诺马马人": "ya-nuo-ma-ma-ren",
+    "Yanomami": "ya-nuo-ma-ma-ren",
+    "亚诺马米人": "ya-nuo-ma-ma-ren",
     "ya-xi-ren": "ya-xi-ren",
     "亚希人": "ya-xi-ren",
     "Yahi": "ya-xi-ren",
@@ -15776,6 +15915,10 @@
     "鹰嘴豆": "鹰嘴豆",
     "chickpea": "鹰嘴豆",
     "埃及豆": "鹰嘴豆",
+    "you-ta-a-zi-te-ke-zhu-yu-yan": "you-ta-a-zi-te-ke-zhu-yu-yan",
+    "尤他-阿兹特克诸语言": "you-ta-a-zi-te-ke-zhu-yu-yan",
+    "Uto-Aztecan languages": "you-ta-a-zi-te-ke-zhu-yu-yan",
+    "犹他-阿兹特克语系": "you-ta-a-zi-te-ke-zhu-yu-yan",
     "游牧": "游牧",
     "游牧生活": "游牧",
     "游牧族群": "游牧",
@@ -15830,6 +15973,11 @@
     "战马": "zhan-ma",
     "warhorse": "zhan-ma",
     "军马": "zhan-ma",
+    "zheng-he": "zheng-he",
+    "郑和": "zheng-he",
+    "Zheng He": "zheng-he",
+    "马和": "zheng-he",
+    "三宝太监": "zheng-he",
     "zhengfu": "zhengfu",
     "conquest": "zhengfu",
     "zhi-li-ren": "zhi-li-ren",
@@ -15956,6 +16104,6 @@
     "作物驯化": "作物驯化",
     "驯化作物": "作物驯化"
   },
-  "page_count": 588,
-  "generated": "2026-05-26T13:44:41Z"
+  "page_count": 593,
+  "generated": "2026-05-26T13:45:44Z"
 }

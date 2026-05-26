@@ -63,3 +63,42 @@
 - 直接 `git commit` 被 deny 拦截
 - 授权提交须走：`bash wiki/scripts/wiki_commit.sh`
 - Skill 提交须走：`bash wiki/scripts/skill_commit.sh`
+
+---
+
+## 七、每轮日志格式规范
+
+### 文件命名
+
+`{YYYY-MM-DD}-R{轮次}-{gene}-{type}-{摘要}.md`
+
+例：`2026-05-26-R128-NEW1-new-pages.md`
+
+### 标准结构
+
+每轮 gene-express 日志必须包含以下前沿（frontmatter）和章节：
+
+**Frontmatter（Phase 5 版，GROW.spec.md §5.6）：**
+
+| 字段 | 必填 | 说明 |
+|------|------|------|
+| `round` | ✅ | 轮次号 |
+| `date` | ✅ | 日期 YYYY-MM-DD |
+| `phase` | ✅ | Phase 编号 |
+| `gene` | ✅ | gene 枚举值 |
+| `enrich_variant` | 仅 enrich 轮 | RCH1/RCH2/RCH3/RCH4/QUO3/RCH9 |
+| `list_type` | 仅 QRY2 轮 | timeline/thematic/index/insight |
+| `pages` | ✅ | 涉及页面 slug 列表 |
+| `result` | ✅ | accept/reject/defer |
+| `window_snapshot` | ✅ | `"{{new1}}N/{{enrich}}E/{{lst1}}L"` |
+
+**内容章节：**
+
+1. `## 执行摘要` — 一段话概括本轮工作
+2. `## 页面处理记录` — 表格（页面/操作/结果/备注）
+3. `## EXIT-GATE 检查` — G1 优先 + G2 核心格式（E1–E8）门控表
+4. `## 遗留问题` — 待处理事项
+
+### 违反后果
+
+不符合命名或内容规范的日志视为格式违规。提交前自检，或使用 `local/template/gene-express-log.md` 填空。
