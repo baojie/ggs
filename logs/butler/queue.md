@@ -422,8 +422,8 @@
 
 ### P2 stub（单章重要实体）
 
-- [ ] P2 stub | 库斯科 | place | SCN28 发现，ch03，印加帝国首都，皮萨罗攻克后征服完成
-- [ ] P2 stub | 特诺奇蒂特兰 | place | SCN28 发现，ch03，阿兹特克首都，科尔特斯征服的主舞台
+- [x] P2 stub | 库斯科 | place | SCN28 发现，ch03，印加帝国首都，皮萨罗攻克后征服完成
+- [x] P2 stub | 特诺奇蒂特兰 | place | SCN28 发现，ch03，阿兹特克首都，科尔特斯征服的主舞台
 
 ## Phase 2 — 新建候选（SCN28 R245 发现 — ch04 农民的权力）
 
@@ -439,7 +439,7 @@
 
 ### P2 stub（单章重要实体）
 
-- [ ] P2 stub | 黑脚族 | person | SCN28 发现，ch04，北美大平原印第安族群，17世纪从森林迁往平原后转变为骑马的野牛狩猎者
+- [x] P2 stub | 黑脚族 | person | SCN28 发现，ch04，北美大平原印第安族群，17世纪从森林迁往平原后转变为骑马的野牛狩猎者
 
 ## Phase 2 — 新建候选（SCN28 R250 发现 — ch08 问题在于苹果还是印第安人）
 
@@ -454,9 +454,9 @@
 ### P2 stub（单章重要实体）
 
 - [ ] P2 stub | 菊草 | species | SCN28 发现，ch08，美洲东部驯化的菊科油料植物（sumpweed / Iva annua），始祖作物之一，在现代已消失
-- [ ] P2 stub | 野苹果 | species | SCN28 发现，ch08，北美野生苹果种，戴蒙德用以讨论美洲驯化潜力的典型案例
+- [x] P2 stub | 野苹果 | species | SCN28 发现，ch08，北美野生苹果种，戴蒙德用以讨论美洲驯化潜力的典型案例
 - [ ] P2 stub | 野葡萄 | species | SCN28 发现，ch08，北美野生葡萄种，与欧亚大陆驯化葡萄形成对比
-- [ ] P2 stub | 苋菜 | species | SCN28 发现，ch14，阿兹特克帝国的重要贡物作物（amaranth），高营养价值的古代作物
+- [x] P2 stub | 苋菜 | species | SCN28 发现，ch14，阿兹特克帝国的重要贡物作物（amaranth），高营养价值的古代作物
 
 ## Phase 2 — 新建候选（SCN28 R253 发现 — ch09 斑马与安娜·卡列尼娜原则）
 
@@ -470,8 +470,8 @@
 
 ### P2 stub（单章重要实体）
 
-- [ ] P2 stub | 亚洲象 | species | SCN28 发现，ch09，亚洲象，被驯服但未驯化，今天东南亚仍用作役畜
-- [ ] P2 stub | 托尔斯泰 | person | SCN28 发现，ch09，列夫·托尔斯泰，俄国作家，《安娜·卡列尼娜》作者，其名言是安娜-卡列尼娜原则的来源
+- [x] P2 stub | 亚洲象 | species | SCN28 发现，ch09，亚洲象，被驯服但未驯化，今天东南亚仍用作役畜
+- [x] P2 stub | 托尔斯泰 | person | SCN28 发现，ch09，列夫·托尔斯泰，俄国作家，《安娜·卡列尼娜》作者，其名言是安娜-卡列尼娜原则的来源
 - [ ] P2 stub | 爪哇野牛 | species | SCN28 发现，ch09，东南亚驯化的大型哺乳动物，次要9种之一
 - [ ] P2 stub | 印度野牛 | species | SCN28 发现，ch09，南亚驯化的大型哺乳动物，次要9种之一
 - [ ] P2 stub | 硬毛鼠 | species | SCN28 发现，ch09，加勒比海诸岛的一种啮齿目动物，被驯化作食物
@@ -490,7 +490,7 @@
 
 ### P2 stub（单章重要实体）
 
-- [ ] P2 stub | 麻风 | disease | SCN28 发现，ch11，麻风（leprosy），慢性传染病，历史上被污名化的疾病，在欧亚大陆长期存在
+- [x] P2 stub | 麻风 | disease | SCN28 发现，ch11，麻风（leprosy），慢性传染病，历史上被污名化的疾病，在欧亚大陆长期存在
 - [ ] P2 stub | 脊髓灰质炎 | disease | SCN28 发现，ch11，脊髓灰质炎（polio），病毒性传染病，可导致永久性瘫痪，20世纪主要的儿童传染病之一
 - [ ] P2 stub | 狂犬病 | disease | SCN28 发现，ch11，狂犬病（rabies），病毒性人畜共患传染病，一旦发病几乎100%致死
 - [ ] P2 stub | 肺炎 | disease | SCN28 发现，ch11，肺炎（pneumonia），呼吸道感染疾病，在拥挤和不卫生条件下高发
@@ -505,18 +505,18 @@
 - [x] P1 create | 专利 | concept | SCN28 发现，多章（ch13/ch20），专利（patent），保护发明者权益的制度，戴蒙德用以讨论创新激励与技术发展
 - [x] P1 create | 造纸 | concept | SCN28 发现，多章（ch13/ch18），造纸（papermaking），中国古代四大发明之一，对文字传播和知识积累产生深远影响
 - [x] P1 create | 英格兰 | place | SCN28 发现，多章（ch13/ch18），英格兰（England），工业革命发源地，英国的政治中心
-- [ ] P1 create | 轮船 | concept | SCN28 发现，多章（ch11/ch13），轮船（steamship），蒸汽动力船舶，改变了远洋运输和殖民扩张模式
-- [ ] P1 create | 机械 | concept | SCN28 发现，多章（ch13/ch18/ch20），机械（machinery），工业生产中的机械化设备，工业革命的技术基础
+- [x] P1 create | 轮船 | concept | SCN28 发现，多章（ch11/ch13），轮船（steamship），蒸汽动力船舶，改变了远洋运输和殖民扩张模式
+- [x] P1 create | 机械 | concept | SCN28 发现，多章（ch13/ch18/ch20），机械（machinery），工业生产中的机械化设备，工业革命的技术基础
 
 ## Phase 2 — 新建候选（SCN28 R269 发现 — ch15 耶利的族人 + 红链扫描）
 
 ### P1 create（多章出现）
 
-- [ ] P1 create | 工业革命 | event | 红链 ×3，多章（ch13/ch14/ch15/ch18/ch20），工业革命（Industrial Revolution），18世纪从英国开始的机械化生产变革，戴蒙德用以说明技术创新累积效应的典型案例
-- [ ] P1 create | 比较方法 | concept | 红链 ×3，多章（ch01/ch02/ch03），比较方法（comparative method），戴蒙德的核心方法论，通过跨文明比较检验历史因果关系
+- [x] P1 create | 工业革命 | event | 红链 ×3，多章（ch13/ch14/ch15/ch18/ch20），工业革命（Industrial Revolution），18世纪从英国开始的机械化生产变革，戴蒙德用以说明技术创新累积效应的典型案例
+- [x] P1 create | 比较方法 | concept | 红链 ×3，多章（ch01/ch02/ch03），比较方法（comparative method），戴蒙德的核心方法论，通过跨文明比较检验历史因果关系
 
 ### P2 stub（单章重要实体）
 
-- [ ] P2 stub | 冰岛 | place | 红链 ×2，北大西洋岛国，古挪威人殖民的重要据点，格陵兰殖民的中转站，戴蒙德用以讨论极端环境下的社会生存
-- [ ] P2 stub | 独木舟 | concept | LLM 发现，ch15，canoe/dugout，早期航海的关键水运工具，南岛人远洋迁徙的技术基础
-- [ ] P2 stub | 阿拉弗拉海 | place | LLM 发现，ch15，Arafura Sea，更新世时期为干燥陆地，海平面上升后将澳大利亚与新几内亚分开
+- [x] P2 stub | 冰岛 | place | 红链 ×2，北大西洋岛国，古挪威人殖民的重要据点，格陵兰殖民的中转站，戴蒙德用以讨论极端环境下的社会生存
+- [x] P2 stub | 独木舟 | concept | LLM 发现，ch15，canoe/dugout，早期航海的关键水运工具，南岛人远洋迁徙的技术基础
+- [x] P2 stub | 阿拉弗拉海 | place | LLM 发现，ch15，Arafura Sea，更新世时期为干燥陆地，海平面上升后将澳大利亚与新几内亚分开

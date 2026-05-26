@@ -1,0 +1,11 @@
+{
+  "ts": "2026-05-26",
+  "gene": "KLG4",
+  "sample_size": 30,
+  "total_assertions": 6,
+  "accuracy": 0.0,
+  "verdicts": {
+    "wrong_pn": 4,
+    "no_citation_needed": 2
+  }
+}
